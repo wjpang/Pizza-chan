@@ -5,10 +5,11 @@ from disnake.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-EMF_SERVER_ID = os.getenv("EMF_SERVER_ID")
-REACT_CHANNEL_ID = os.getenv("REACT_CHANNEL_ID")
-REACT_MESSAGE_ID = os.getenv("REACT_MESSAGE_ID")
-BOTCAVE_CHANNEL_ID = os.getenv("BOTCAVE_CHANNEL_ID")
+EMF_SERVER_ID = int(os.getenv("EMF_SERVER_ID"))
+REACT_CHANNEL_ID = int(os.getenv("REACT_CHANNEL_ID"))
+REACT_MESSAGE_ID = int(os.getenv("REACT_MESSAGE_ID"))
+BOTCAVE_CHANNEL_ID = int(os.getenv("BOTCAVE_CHANNEL_ID"))
+MELVA_ID = int(os.getenv("MELVA_ID"))
 
 
 class ADM(commands.Cog):
@@ -22,14 +23,14 @@ class ADM(commands.Cog):
         """Greets the maker... or condemns the pretender"""
         if ctx.invoked_subcommand is None:
             author_roles = ctx.author.roles
-            if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles):
+            if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles) or ctx.author.id == MELVA_ID:
                 await ctx.send("Hello, my blessed masters!")
 
     @adm.command(pass_context=True)
     async def clean(self, ctx, *, amount: str):
         """Cleans the command message and the specified number of messages before it"""
         author_roles = ctx.author.roles
-        if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles):
+        if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles) or ctx.author.id == MELVA_ID:
             await ctx.channel.purge(limit=int(amount) + 1)
 
     @adm.command(pass_context=True)
