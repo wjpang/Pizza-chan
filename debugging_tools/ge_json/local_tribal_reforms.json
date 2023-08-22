@@ -1,0 +1,378 @@
+"Tribal": {
+	"Tribal Administration": {
+		"Steppe Nomads": {
+			"Image": "/images/e/ea/Gov_horde_riding.png",
+			"Effects": {
+				"National Manpower Modifier": 0.2,
+				"Land Force Limit Modifier": 0.2,
+				"Looting Speed": 0.50,
+				"Institution Spread": -0.15,
+				"Reinforce Cost": -0.5,
+				"Cavalry to Infantry Ratio": 0.25,
+				"Movement Speed": 0.2,
+				"Years of Separatism": -5
+			}
+		},
+		"Tribal Federation": {
+			"Image": "/images/9/91/Gov_chieftain.png",
+			"Effects": {
+				"Years of Separatism": -5
+			}
+		},
+		"Tribal Despotism": {
+			"Image": "/images/7/70/Gov_tribal_council.png",
+			"Effects": {
+				"Core-Creation Cost": -0.1
+			}
+		},
+		"Tribal Monarchy": {
+			"Image": "/images/b/b6/Gov_indian_crown.png",
+			"Effects": {
+				"Income from Vassals": 0.2
+			}
+		},
+		"Siberian Native Council": {
+			"Image": "/images/d/dc/Gov_shaman.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.33,
+				"Institution Spread": -0.2
+			}
+		},
+		"Gond Kingdom": {
+			"Image": "/images/9/91/Gov_chieftain.png",
+			"Effects": {
+				"Fort Defense": 0.2
+			}
+		},
+		"Great Mongol State": {
+			"Image": "/images/e/ea/Gov_horde_riding.png",
+			"Effects": {
+				"Yearly Horde Unity": 1,
+				"National Manpower Modifier": 0.2,
+				"Land Force Limit Modifier": 0.2,
+				"Looting Speed": 0.50,
+				"Reinforce Cost": -0.5,
+				"Cavalry to Infantry Ratio": 0.25,
+				"Movement Speed": 0.2,
+				"Years of Separatism": -5
+			}
+		},
+		"Eghaevbo Administration": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Core-Creation Cost": -0.10,
+				"Governing Capacity": 150
+			}
+		}
+	},
+	"Cultural Values": {
+		"Martial Society": {
+			"Image": "/images/7/75/Gov_tribal_martial_society.png",
+			"Effects": {
+				"National Manpower Modifier": 0.2
+			}
+		},
+		"Civil Society": {
+			"Image": "/images/0/00/Gov_tribal_civil_society.png",
+			"Effects": {
+				"National Tax Modifier": 0.05,
+				"Yearly Corruption": -0.05
+			}
+		},
+		"Great Law of Peace": {
+			"Image": "/images/6/67/Gov_great_law_of_peace.png",
+			"Effects": {
+				"National Unrest": -2,
+				"Governing Capacity": 150
+			}
+		},
+		"Royal Society": {
+			"Image": "/images/f/f8/Gov_kongolese_king.png",
+			"Effects": {
+				"Monthly Autonomy Change": -0.05,
+				"State Maintenance": -0.25
+			}
+		},
+		"Slave Raids": {
+			"Image": "/images/0/00/Gov_tatar_slave_raid.png",
+			"Effects": {
+				"Production Efficiency": 0.05,
+				"Goods Produced Modifier": 0.10
+			}
+		},
+		"Herders of the Steppe": {
+			"Image": "/images/e/e9/Gov_steppe_shepherds.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.1,
+				"Minimum Autonomy in Territories": -0.1
+			}
+		},
+		"Legacy of the Pax Mongolica": {
+			"Image": "/images/e/e9/Gov_steppe_shepherds.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Accepted Cultures": 2
+			}
+		},
+		"Three Jurchen Tribes": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Goods Produced Modifier": 0.05,
+				"National Tax Modifier": 0.05,
+				"Land Attrition": -0.10
+			}
+		}
+	},
+	"Tribal Religion": {
+		"Religious Society": {
+			"Image": "/images/5/54/Gov_tribal_religious_society.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.1,
+				"Religious Unity": 0.15
+			}
+		},
+		"Lip Service": {
+			"Image": "/images/d/d7/Gov_tribal_lip_service.png",
+			"Effects": {
+				"Land Maintenance Modifier": -0.1
+			}
+		},
+		"Sheikhdom": {
+			"Image": "/images/9/9f/Gov_noble_muslim.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"War Score Cost vs Other Religions": -0.10
+			}
+		},
+		"Adoption of Christianity": {
+			"Image": "/images/9/9f/Gov_kongolese_cross.png",
+			"Effects": {
+				"Tolerance of Heathens": 2
+			}
+		},
+		"Great Code of Nomads": {
+			"Image": "/images/5/57/Gov_steppe_buddhists.png",
+			"Effects": {
+				"Global Trade Power": 0.2,
+				"Tolerance of the True Faith": 1
+			}
+		},
+		"The World under the Tengri": {
+			"Image": "/images/a/a5/Gov_strength_of_the_khalsa.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"Tolerance of Heathens": 1,
+				"Tolerance of Heretics": 1
+			}
+		},
+		"Maintain Charade": {
+			"Image": "/images/9/9a/Gov_arabic_scripture.png",
+			"Effects": {
+				"Diplomatic Reputation": 1,
+				"National Unrest": -1
+			}
+		},
+		"Tolerance of the Church": {
+			"Image": "/images/4/47/Gov_church.png",
+			"Effects": {
+				"Tolerance of Heathens": 1,
+				"State Maintenance": -0.10
+			}
+		},
+		"Children of Osanobua": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Development Cost": -0.10
+			}
+		}
+	},
+	"Military Organisation": {
+		"Gunpowder Weapons": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Infantry Cost": -0.10
+			}
+		},
+		"Modern Firearms": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Military Technology Cost": -0.1
+			}
+		},
+		"Traditionalism": {
+			"Image": "/images/7/7f/Gov_soldiers_4.png",
+			"Effects": {
+				"Shock Damage": 0.05,
+				"Cavalry Cost": -0.10,
+				"Cavalry to Infantry Ratio": 0.10
+			}
+		},
+		"Traditionalism": {
+			"Image": "/images/7/7f/Gov_soldiers_4.png",
+			"Effects": {
+				"Infantry Combat Ability": 0.10
+			}
+		},
+		"Turkoman Gunners": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Artillery Combat Ability": 0.05,
+				"Artillery Cost": -0.10,
+			}
+		},
+		"Mongol Ties": {
+			"Image": "/images/7/75/Gov_soldiers_3.png",
+			"Effects": {
+				"Cavalry Cost": -0.10,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Lessons of Subutai": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Leader Siege": 1
+			}
+		},
+		"Tatar Raiders": {
+			"Image": "/images/0/00/Gov_tatar_slave_raid.png",
+			"Effects": {
+				"Shock Damage": 0.10,
+				"Recover Army Morale Speed": -0.05,
+				"Looting Speed": 0.50
+			}
+		},
+		"African Jungle Warriors": {
+			"Image": "/images/7/75/Gov_tribal_martial_society.png",
+			"Effects": {
+				"Shock Damage": 0.05,
+				"Movement Speed": 0.10,
+				"Attrition for Enemies": 1
+			}
+		},
+		"Indian Elephant Riders": {
+			"Image": "/images/8/82/Gov_noble_indian.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.10,
+				"Shock Damage Received": -0.10,
+				"Cavalry Cost": 0.10
+			}
+		},
+		"Warrior Kings": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Land Leader Shock": 1
+			}
+		}
+	},
+	"Modernization": {
+		"Centralize Power": {
+			"Image": "/images/8/85/Gov_tribal_centralize_power.png",
+			"Effects": {
+				"Core-Creation Cost": -0.05,
+				"Stability Cost Modifier": -0.05
+			}
+		},
+		"Retain Tribal Hierarchy": {
+			"Image": "/images/5/5f/Gov_retain_tribal_hierarchy.png",
+			"Effects": {
+				"Governing Capacity": 150,
+				"Maximum Absolutism": 10
+			}
+		},
+		"Unite the Royal Houses": {
+			"Image": "/images/9/91/Gov_kongolese_king_2.png",
+			"Effects": {
+				"Yearly Legitimacy": 1,
+				"Yearly Absolutism": 0.25,
+				"Maximum Absolutism": 15
+			}
+		},
+		"Iranian Bureacracy": {
+			"Image": "/images/f/f7/Gov_iranian_bureaucracy.png",
+			"Effects": {
+				"Governing Capacity": 250,
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Reintroduce the Dirham": {
+			"Image": "/images/e/e8/Gov_paper_money_map.png",
+			"Effects": {
+				"Trade Efficiency": 0.10,
+				"Diplomatic Annexation Cost": -0.15
+			}
+		},
+		"Birth of the Manchu": {
+			"Image": "/images/1/17/Gov_asian_scripture.png",
+			"Effects": {
+				"Culture Conversion Cost": -0.20,
+				"Idea Cost": -0.10
+			}
+		},
+		"Bashqaq Administration": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"National Unrest": -2,
+				"Governing Capacity": 250
+			}
+		}
+	},
+	"Tribal Reformation": {
+		"Barbaric Despoilers": {
+			"Image": "/images/c/ce/Gov_rioting_burning_2.png",
+			"Effects": {
+			}
+		},
+		"Unified Horde Identity": {
+			"Image": "/images/3/34/Gov_fist_in_air.png",
+			"Effects": {
+				"Yearly Horde Unity": 2
+			}
+		},
+		"Reform into Monarchy": {
+			"Image": "/images/f/f2/King_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Reform into Republic": {
+			"Image": "/images/7/79/Parliament_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Reform into Theocracy": {
+			"Image": "/images/3/35/Pope_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Become Horde": {
+			"Image": "/images/1/16/Horde_riding_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Haudenosaunee": {
+			"Image": "/images/6/66/Gov_iroquois_longhouse.png",
+			"Effects": {
+				"Years of Separatism": -5,
+				"Accepted Cultures": 2
+			}
+		},
+		"Recruit Cossacks": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Reinforce Cost": 0.20,
+				"Reinforce Speed": -0.15
+			}
+		},
+		"Feudal Vassals": {
+			"Image": "/images/5/50/Gov_castle.png",
+			"Effects": {
+				"Income from Vassals": 0.25,
+				"Vassal Force Limit Contribution": 1.00
+			}
+		}
+	}
+}

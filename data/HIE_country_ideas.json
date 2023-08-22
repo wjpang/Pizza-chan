@@ -1,0 +1,7668 @@
+{
+	"Achaea": {
+		"Traditions": {
+			"Fort Defense": 0.2,
+			"Discipline": 0.05
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Eastern Goods, Western Demand": {
+			"Goods Produced Modifier": 0.1
+		},
+		"The Grand Court": {
+			"Advisor Costs": -0.1,
+			"All Estate's Loyalty Equilibrium": 0.1
+		},
+		"Assizes of Romania": {
+			"National Unrest": -1,
+			"Stability Cost Modifier": -0.15
+		},
+		"Latin Archbishop of Patras": {
+			"Missionary Strength": 0.02
+		},
+		"Temporal Barons": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Latinized Pronoia": {
+			"National Manpower Modifier": 0.2,
+			"National Tax Modifier": 0.1
+		},
+		"The Latin Empire": {
+			"Morale of Armies": 0.1
+		}
+	},
+	"Albania": {
+		"Traditions": {
+			"Fort Defense": 0.2,
+			"Land Leader Shock": 1
+		},
+		"Ambition": {
+			"Yearly Army Tradition Decay": -0.01
+		},
+		"Military Conducts": {
+			"Leader Cost": -0.25,
+			"Land Leader Fire": 1
+		},
+		"Athleta Christi": {
+			"Manpower in True Faith Provinces": 0.15,
+			"War Score Cost vs Other Religions": -0.1
+		},
+		"Church of the Holy Trinity": {
+			"Yearly Army Tradition": 1,
+			"Yearly Papal Influence": 1,
+			"Yearly Patriarch Authority": 0.0025
+		},
+		"Stratioti": {
+			"Discipline": 0.05,
+			"Shock Damage": 0.1
+		},
+		"Marascallum Regnie Albaniae": {
+			"Land Force Limit Modifier": 0.15
+		},
+		"Legacy of d'Anjou": {
+			"Diplomatic Reputation": 1,
+			"Monarch Military Skill": 1
+		},
+		"Italian Campaign": {
+			"Land Leader Maneuver": 1
+		}
+	},
+	"Athens": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Development Cost": -0.1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Divine Comedy": {
+			"Idea Cost": -0.1,
+			"Diplomatic Reputation": 1
+		},
+		"The Greek Latin Church": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionary Maintenance Cost": -0.25
+		},
+		"Usages of Barcelona": {
+			"Stability Cost Modifier": -0.15
+		},
+		"Athens of Old": {
+			"Galley Combat Ability": 0.2,
+			"Global Trade Power": 0.15
+		},
+		"The Birthplace of Democracy": {
+			"Reform Progress Growth": 0.15
+		},
+		"Delian League": {
+			"Diplomatic Relations": 1,
+			"Global Naval Engagement Modifier": 0.1
+		},
+		"Modern Hoplites": {
+			"Discipline": 0.05,
+			"Shock Damage Received": -0.1
+		}
+	},
+	"Bosnia": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.1
+		},
+		"Imperial Law": {
+			"Administrative Technology Cost": -0.1,
+			"Reform Progress Growth": 0.33
+		},
+		"Caves of the Kristjani": {
+			"Attrition for Enemies": 2,
+			"Others of the same Religion Opinion of Country": 25
+		},
+		"Stanak": {
+			"Estate Interaction Cooldown Modifier": -0.2
+		},
+		"Treaties with the republics": {
+			"Global Trade Power": 0.2,
+			"Goods Produced Modifier": 0.15
+		},
+		"Land of the Princes": {
+			"Vassal Force Limit Contribution": 1,
+			"Income from Vassals": 0.5
+		},
+		"Guaranteed": {
+			"Diplomatic Reputation": 1
+		},
+		"Bosnian freedom": {
+			"Religious Unity": 0.25,
+			"Tolerance of Heretics": 4
+		}
+	},
+	"Bulgaria": {
+		"Traditions": {
+			"Infantry Shock": 0.15,
+			"Fort Defense": 0.15
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.1
+		},
+		"Slavonic Script": {
+			"Institution Spread In True Faith Provinces": 0.15,
+			"Idea Cost": -0.1
+		},
+		"Fighting the Roman Military Art": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Ascension Cathedral": {
+			"Yearly Patriarch Authority": 0.005,
+			"Yearly Prestige": 0.5
+		},
+		"Cuman Fighter": {
+			"Cavalry Combat Ability": 0.1,
+			"Morale Damage": 0.1
+		},
+		"Tarnovo Artistic School": {
+			"Construction Cost": -0.1
+		},
+		"Oblast System": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Crowned Czar": {
+			"Yearly Legitimacy": 1
+		}
+	},
+	"Byzantium": {
+		"Traditions": {
+			"Idea Cost": -0.1,
+			"Fort Defense": 0.2
+		},
+		"Ambition": {
+			"Diplomatic Reputation": 2
+		},
+		"Restore the Ecumenical Patriarch": {
+			"Missionary Strength": 0.02,
+			"Tolerance of the True Faith": 3
+		},
+		"Byzantine Renaissance": {
+			"Technology Cost": -0.05,
+			"Advisor Costs": -0.1
+		},
+		"Repopulate the Countryside": {
+			"National Manpower Modifier": 0.1,
+			"Development Cost": -0.05
+		},
+		"Administrative Reform": {
+			"Regiment Costs": -0.1
+		},
+		"Byzantine Bureaucracy": {
+			"Possible Policies": 1
+		},
+		"Byzantine Merchant Class": {
+			"Global Trade Power": 0.15
+		},
+		"The New Imperial Army": {
+			"Discipline": 0.05,
+			"Land Force Limit Modifier": 0.15
+		}
+	},
+	"Corfu": {
+		"Traditions": {
+			"Yearly Army Tradition": 0.5,
+			"National Supply Limit Modifier": 0.33
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Castles of the Angels": {
+			"Fort Defense": 0.15,
+			"Attrition for Enemies": 1
+		},
+		"Venetian Ships, Greek Sailors": {
+			"Galley Combat Ability": 0.2,
+			"Morale of Navies": 0.1
+		},
+		"Ancient Training Grounds": {
+			"Discipline": 0.05
+		},
+		"Gate to the Adriatic": {
+			"Trade Efficiency": 0.1,
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Greko Connections": {
+			"Institution Embracement Cost": -0.2
+		},
+		"Birth of the New Greece": {
+			"Advisor Costs": -0.1,
+			"Culture Conversion Cost": -0.15
+		},
+		"Pan Hellenism": {
+			"Diplomatic Technology Cost": -0.1
+		}
+	},
+	"Croatia": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.2,
+			"Naval Force Limit Modifier": 0.2
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Historia Salonitana": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Croatian renaissance": {
+			"Technology Cost": -0.075
+		},
+		"Venetian rivalry": {
+			"Galley Combat Ability": 0.2,
+			"Global Trade Power": 0.15
+		},
+		"Allagions": {
+			"Cavalry to Infantry Ratio": 0.5,
+			"Infantry Combat Ability": 0.1
+		},
+		"Sabor": {
+			"Nobles Loyalty Equilibrium": 0.1
+		},
+		"Hussars": {
+			"May Recruit Winged Hussars": true,
+			"Special Unit Force Limit": 0.25
+		},
+		"Union of with Hungary": {
+			"Diplomatic Relations": 1,
+			"Core-Creation Cost": -0.15
+		}
+	},
+	"Crete": {
+		"Traditions": {
+			"Galley Combat Ability": 0.15,
+			"Naval Leader Maneuver": 1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"The New Center of the Greek World": {
+			"Idea Cost": -0.15
+		},
+		"The Revolts": {
+			"Morale of Armies": 0.1,
+			"Yearly Patriarch Authority": 0.0025
+		},
+		"Venetian Construction": {
+			"Construction Cost": -0.1,
+			"Fort Defense": 0.15
+		},
+		"New? Old? We Are Crete": {
+			"Global Trade Power": 0.1,
+			"Development Cost": -0.1
+		},
+		"Every Port a Shipyard": {
+			"Ship Costs": -0.1,
+			"Shipbuilding Time": -0.1
+		},
+		"Ports of Chandia and Heraklion": {
+			"Naval Force Limit Modifier": 0.25,
+			"Number of accepted Cultures": 1
+		},
+		"The Venice of the East, or Is Venice the Crete of the West": {
+			"Yearly Republican Tradition": 0.3,
+			"Reform Progress Growth": 0.15
+		}
+	},
+	"Epirus": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Global Ship Trade Power": 0.1
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Despotes Romaniae": {
+			"Yearly Prestige": 1
+		},
+		"The Western Orthodox Church": {
+			"Yearly Patriarch Authority": 0.005,
+			"Construction Cost": -0.1
+		},
+		"Latin Weapons, Greek Soldiers": {
+			"Infantry Fire": 0.25,
+			"Morale of Armies": 0.1
+		},
+		"We Are Not Latin, Not Greek We Are Hellenes": {
+			"Development Cost": -0.1,
+			"Number of accepted Cultures": 1
+		},
+		"Latin Technology, Greek Wisdom": {
+			"Technology Cost": -0.075,
+			"Diplomatic Reputation": 1
+		},
+		"Venetian Naval Advisors": {
+			"Galley Combat Ability": 0.2
+		},
+		"Mare Nostrum": {
+			"Global Trade Power": 0.15
+		}
+	},
+	"Theodoro": {
+		"Traditions": {
+			"Missionary Strength": 0.03,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Production Efficiency": 0.15
+		},
+		"Melting Pot of the Pontic Steppe": {
+			"Institution Spread": 0.33,
+			"Institution Embracement Cost": -0.2
+		},
+		"The Unification of the Gothic and Imperial Codes": {
+			"Governing Capacity Modifier": 0.1,
+			"Stability Cost Modifier": -0.1
+		},
+		"The Princesses of Theodoro": {
+			"Diplomatic Reputation": 1
+		},
+		"The City of Chersonese and the forts of Kalamita and Dory": {
+			"Global Trade Power": 0.1,
+			"Fort Defense": 0.2
+		},
+		"Reclaiming Our Gothic Motherland": {
+			"Core-Creation Cost": -0.15
+		},
+		"Ruthenians in Exile": {
+			"Cavalry Combat Ability": 0.15
+		},
+		"The Spread of Gothic Monasteries": {
+			"Construction Cost": -0.1,
+			"Tolerance of the True Faith": 2
+		}
+	},
+	"Greece-Greek": {
+		"Traditions": {
+			"Diplomatic Technology Cost": -0.1,
+			"Diplomats": 1
+		},
+		"Ambition": {
+			"Culture Conversion Cost": -0.2
+		},
+		"The Home of Democracy and Philosophy": {
+			"Yearly Legitimacy": 1,
+			"Reform Progress Growth": 0.15,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Klephts and Armatoloi": {
+			"Movement Speed": 0.1,
+			"Infantry Fire": 0.2
+		},
+		"Our Navy Is Legendary!": {
+			"Galley Combat Ability": 0.2,
+			"Naval Force Limit Modifier": 0.2
+		},
+		"The Grand Havens of the Mediterranean": {
+			"Global Trade Power": 0.15
+		},
+		"Remember Our Past, Remember Macedon": {
+			"Yearly Army Tradition": 0.25,
+			"Infantry Combat Ability": 0.1
+		},
+		"We Rule the Hellespont": {
+			"Naval Combat Bonus off Owned Coast": 1
+		},
+		"Eleftheria I Thanatos": {
+			"Morale of Armies": 0.1,
+			"Morale of Navies": 0.1
+		}
+	},
+	"Greece-Latin": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Diplomats": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Our Literal Renaissance": {
+			"Idea Cost": -0.1,
+			"Diplomatic Reputation": 1
+		},
+		"The Greek Latin Church": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionary Maintenance Cost": -0.25
+		},
+		"The Reconstruction of the Parthenon": {
+			"Construction Cost": -0.05,
+			"Construction Time": -0.1
+		},
+		"Athens of Old": {
+			"Galley Combat Ability": 0.2,
+			"Global Trade Power": 0.15
+		},
+		"The Birthplace of Democracy": {
+			"Reform Progress Growth": 0.15
+		},
+		"Unite the Ancient Leagues": {
+			"Yearly Army Tradition": 0.25,
+			"Global Naval Engagement Modifier": 0.1
+		},
+		"Macedonian Reforms": {
+			"Movement Speed": 0.1,
+			"Infantry Fire": 0.3
+		}
+	},
+	"Hungary": {
+		"Traditions": {
+			"Diplomatic Relations": 1,
+			"Fort Maintenance": -0.25
+		},
+		"Ambition": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Societas Draconistarum": {
+			"Morale of Armies": 0.1
+		},
+		"Naszad": {
+			"Fort Defense": 0.2,
+			"Galley Combat Ability": 0.15
+		},
+		"Nandorfehervari Diadale": {
+			"National Manpower Modifier": 0.15,
+			"Yearly Papal Influence": 2,
+			"Monthly Fervor": 0.5,
+			"Church Power": 0.25,
+			"Yearly Patriarch Authority": 0.001
+		},
+		"Fekete Sereg": {
+			"Land Force Limit Modifier": 0.2,
+			"Infantry Fire": 0.3
+		},
+		"Extraordinary Tax": {
+			"Land Maintenance Modifier": -0.1
+		},
+		"Decretum Maius": {
+			"Administrative Free Policies": 1
+		},
+		"Bibliotheca Corviniana": {
+			"Technology Cost": -0.05,
+			"Idea Cost": -0.05
+		}
+	},
+	"The Knights": {
+		"Traditions": {
+			"Discipline": 0.05,
+			"Manpower Recovery Speed": 0.2
+		},
+		"Ambition": {
+			"Tolerance of Heathens": 3
+		},
+		"Our Crusade Is Not Over": {
+			"May Raid Coasts": true,
+			"Galley Combat Ability": 0.2
+		},
+		"Our Order Became Many": {
+			"Yearly Army Tradition": 0.5,
+			"Infantry Combat Ability": 0.1
+		},
+		"The Cultural Allocation of the Priory Estates": {
+			"Diplomatic Reputation": 1
+		},
+		"Fortification Experts": {
+			"Siege Ability": 0.1,
+			"Fort Defense": 0.3
+		},
+		"We Are the Defenders of the Faith": {
+			"Yearly Papal Influence": 2
+		},
+		"Foreign Interests and Investment": {
+			"Construction Cost": -0.1
+		},
+		"To Jerusalem, for the Kingdom of Heaven": {
+			"Morale of Armies": 0.1
+		}
+	},
+	"Morea": {
+		"Traditions": {
+			"Missionary Strength": 0.03,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Despots of Mystras": {
+			"Yearly Legitimacy": 1,
+			"Yearly Prestige": 1
+		},
+		"The Palaeologan Renaissance": {
+			"Technology Cost": -0.05,
+			"Construction Cost": -0.1
+		},
+		"Last of the Rohmanoi": {
+			"Idea Cost": -0.05,
+			"Yearly Army Tradition": 0.5
+		},
+		"Our Refuge, Our Citadel": {
+			"Fort Defense": 0.2
+		},
+		"Establishing the Allagia": {
+			"Regiment Costs": -0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Re-Establishment of Themata and Pronoia": {
+			"National Tax Modifier": 0.15,
+			"Stability Cost Modifier": -0.1
+		},
+		"The Empire Will Be Ours Yet Again": {
+			"Core-Creation Cost": -0.15
+		}
+	},
+	"Naxos": {
+		"Traditions": {
+			"Galley Combat Ability": 0.15,
+			"Fort Defense": 0.15
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Pronoia": {
+			"National Tax Modifier": 0.15,
+			"Yearly Army Professionalism": 0.002
+		},
+		"Assimilation of the Xenos": {
+			"National Unrest": -1,
+			"Number of accepted Cultures": 1
+		},
+		"Re-Establishment of the Aegean Hegemonie": {
+			"Naval Tradition from Protecting Trade": 1
+		},
+		"Traditional Way of Life": {
+			"Goods Produced Modifier": 0.1,
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"Our Wooden Wall": {
+			"Naval Combat Bonus off Owned Coast": 1
+		},
+		"The Aegean Battlefield": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Pan Hellenism": {
+			"Diplomatic Technology Cost": -0.1
+		}
+	},
+	"Ragusa": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Yearly Republican Tradition": 0.5
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"Saint Blaise": {
+			"Yearly Papal Influence": 1,
+			"Yearly Patriarch Authority": 0.003,
+			"Tolerance of Heretics": 1
+		},
+		"Liber statutorum civitatis Ragusii": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"Reform Progress Growth": 0.1
+		},
+		"Slavic-Latin Union": {
+			"Development Cost": -0.1
+		},
+		"Republic of Ancona": {
+			"Global Ship Trade Power": 0.15
+		},
+		"Abolition of Slavery": {
+			"National Unrest": -2
+		},
+		"The Door to Balkans and Orient": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Venetian Rivalry": {
+			"Naval Force Limit Modifier": 0.15
+		}
+	},
+	"Serbia": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Gusar": {
+			"May Recruit Winged Hussars": true,
+			"Special Unit Cost Modifier": -0.1
+		},
+		"Patriarchate of Pec": {
+			"Yearly Patriarch Authority": 0.0033
+		},
+		"Dušan's Code": {
+			"Reform Progress Growth": 0.1,
+			"Land Maintenance Modifier": -0.1
+		},
+		"Dusan's Reforms": {
+			"Domestic Trade Power": 0.1
+		},
+		"Dinar": {
+			"Yearly Inflation Reduction": 0.1,
+			"Gold Depletion Chance Modifier": -0.1
+		},
+		"Gradozadanje": {
+			"Fort Defense": 0.2,
+			"Fort Maintenance": -0.2
+		},
+		"Vlachs": {
+			"Manpower Recovery Speed": 0.15
+		}
+	},
+	"Ottomans": {
+		"Traditions": {
+			"Army Tradition From Battles": 1,
+			"Tolerance of Heathens": 3
+		},
+		"Ambition": {
+			"Land Force Limit Modifier": 0.2
+		},
+		"Timarli Sipahi": {
+			"Cavalry Combat Ability": 0.2,
+			"Cavalry Cost": -0.2
+		},
+		"Kapikulu Ocagi": {
+			"Discipline": 0.05
+		},
+		"Divan-I Hümayun": {
+			"Possible Policies": 1
+		},
+		"Osman's Dream": {
+			"Core-Creation Cost": -0.2,
+			"Governing Capacity Modifier": 0.2
+		},
+		"Hint Seferleri": {
+			"Naval Force Limit Modifier": 0.33,
+			"Ship Costs": -0.1
+		},
+		"Humbaraci": {
+			"Artillery Combat Ability": 0.1
+		},
+		"Nasihatname": {
+			"Reform Progress Growth": 0.15
+		}
+	},
+	"Wallachia": {
+		"Traditions": {
+			"Fort Defense": 0.2,
+			"Discipline": 0.05
+		},
+		"Ambition": {
+			"Manpower Recovery Speed": 0.2
+		},
+		"Well Rounded Soldiers": {
+			"Infantry Fire": 0.15
+		},
+		"Restoring the Voivodie": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"European-Mongolian Frontier": {
+			"Land Leader Shock": 1,
+			"Looting Speed": 0.15
+		},
+		"Order of the Dragon": {
+			"Leader Cost": -0.25,
+			"Yearly Army Tradition": 0.25
+		},
+		"Danube Fortifications": {
+			"Attrition for Enemies": 1,
+			"Garrison Size": 0.15
+		},
+		"Union of Romanians": {
+			"National Manpower Modifier": 0.2
+		},
+		"Phanariote Century": {
+			"Advisor Costs": -0.15,
+			"Technology Cost": -0.05
+		}
+	},
+	"Clanricarde": {
+		"Traditions": {
+			"Land Attrition": -0.1,
+			"Stability Cost Modifier": -0.1
+		},
+		"Ambition": {
+			"Yearly Legitimacy": 1
+		},
+		"Holy Roman Ties": {
+			"Discipline": 0.05
+		},
+		"Bod-An-Balcuigh": {
+			"Power Projection from Insults": 1.0
+		},
+		"Anglo-Irish Inheritance Laws": {
+			"Yearly Prestige": 1,
+			"Chance of New Heir": 0.5
+		},
+		"Force the Issue": {
+			"Siege Ability": 0.1
+		},
+		"True Heirs of Connacht": {
+			"Morale of Armies": 0.1
+		},
+		"Atlantic Port of Ireland": {
+			"Global Trade Power": 0.1,
+			"Fleet Exploration Range": 0.25
+		},
+		"Elevation to Earl": {
+			"Diplomatic Reputation": 1
+		}
+	},
+	"Desmond": {
+		"Traditions": {
+			"National Manpower Modifier": 0.2,
+			"Stability Cost Modifier": -0.1
+		},
+		"Ambition": {
+			"Fort Defense": 0.15
+		},
+		"The Port of Cork": {
+			"Development Cost": -0.1,
+			"Center of Trade Upgrade Cost": -0.2
+		},
+		"Defend the Gaels": {
+			"Morale of Armies": 0.1
+		},
+		"The Munster Ambition": {
+			"Core-Creation Cost": -0.1,
+			"Province War Score Cost": -0.1
+		},
+		"The Old Gods": {
+			"Tolerance of Heathens": 2,
+			"Tolerance of Heretics": 2
+		},
+		"Representative of Ireland Abroad": {
+			"Diplomatic Reputation": 1
+		},
+		"Culture of Service": {
+			"Monthly War Exhaustion": -0.02,
+			"Army Tradition From Battles": 1.0
+		},
+		"Introduction of the Potato to Ireland": {
+			"Goods Produced Modifier": 0.1
+		}
+	},
+	"Kildare": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Land Leader Shock": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"St. Brigid": {
+			"Goods Produced Modifier": 0.1
+		},
+		"More Than Irish": {
+			"National Unrest": -2
+		},
+		"Lords Deputy": {
+			"Diplomatic Reputation": 1
+		},
+		"Silver Tongues": {
+			"Improve Relations": 0.2
+		},
+		"Silken Thomas": {
+			"Morale of Armies": 0.1
+		},
+		"The Wizard Earl": {
+			"Technology Cost": -0.1
+		},
+		"Franciscan Support": {
+			"Construction Cost": -0.1
+		}
+	},
+	"Offaly": {
+		"Traditions": {
+			"Cost to fabricate claims": -0.25,
+			"National Tax Modifier": 0.1
+		},
+		"Ambition": {
+			"Morale of Armies": 0.1
+		},
+		"Clonmacnoise": {
+			"Tolerance of the True Faith": 2,
+			"Institution Spread In True Faith Provinces": 0.3
+		},
+		"Irish Hospitality": {
+			"Diplomatic Reputation": 1
+		},
+		"Patronize Irish Music": {
+			"Yearly Prestige": 1
+		},
+		"Pilgrimages Abroad": {
+			"Improve Relations": 0.25,
+			"Yearly Papal Influence": 1
+		},
+		"Buonnacht System": {
+			"National Manpower Modifier": 0.15,
+			"Land Maintenance Modifier": -0.1
+		},
+		"Tower Churches": {
+			"Fort Defense": 0.15
+		},
+		"River Trade Expertise": {
+			"Domestic Trade Power": 0.2
+		}
+	},
+	"Ireland": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"National Manpower Modifier": 0.33
+		},
+		"Ambition": {
+			"Land Force Limit Modifier": 0.2
+		},
+		"High Kingship": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.5,
+			"Liberty Desire": 15,
+			"Liberty Desire in Subjects": 15
+		},
+		"St. Brendan and Ily Brasil": {
+			"Fleet Exploration Range": 0.25,
+			"Colonists": 1
+		},
+		"More Than Irish": {
+			"National Unrest": -2
+		},
+		"Introduction of Potatoes": {
+			"Development Cost": -0.1
+		},
+		"Peat Cultivation": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Irish Crofters": {
+			"Construction Cost": -0.1
+		},
+		"Unconquerable Ireland": {
+			"Monthly War Exhaustion": -0.02,
+			"Regiment Costs": -0.1
+		}
+	},
+	"Munster": {
+		"Traditions": {
+			"Construction Cost": -0.1,
+			"Monthly Autonomy Change": -0.05
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.15
+		},
+		"The Red Stag": {
+			"Yearly Legitimacy": 1
+		},
+		"The Blarney Stone": {
+			"Improve Relations": 0.25,
+			"Diplomatic Reputation": 1
+		},
+		"The Norman Frontier": {
+			"Shock Damage Received": -0.1
+		},
+		"Land of Castles": {
+			"Fort Defense": 0.2
+		},
+		"The Brave and the Faithful": {
+			"Monthly War Exhaustion": -0.02
+		},
+		"Spanish Ties": {
+			"Discipline": 0.05
+		},
+		"Pirate Haven": {
+			"Privateer Efficiency": 0.15,
+			"Naval Combat Bonus off Owned Coast": 1
+		}
+	},
+	"Thomond": {
+		"Traditions": {
+			"Shock Damage": 0.1,
+			"Land Leader Shock": 1
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Dal Gcais Blood": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Reconquest of Ireland": {
+			"Siege Ability": 0.1
+		},
+		"The O'Brien Legacy": {
+			"Liberty Desire": -15,
+			"Vassal Force Limit Contribution": 1.0
+		},
+		"Reclaim the High Kingship": {
+			"Province War Score Cost": -0.15
+		},
+		"Renovate Cashel": {
+			"Yearly Prestige": 1
+		},
+		"Enforce the Cíos Dubh": {
+			"National Manpower Modifier": 0.1,
+			"Income from Vassals": 0.25
+		},
+		"Refuge for Gaelic Defiance": {
+			"Fort Defense": 0.2
+		}
+	},
+	"Meath": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Fort Defense": 0.2
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Book of Kells": {
+			"Tolerance of the True Faith": 2,
+			"Yearly Prestige": 1
+		},
+		"Rebuild Tara": {
+			"Yearly Legitimacy": 1,
+			"Cost to fabricate claims": -0.25
+		},
+		"Recover the Lost Province": {
+			"Development Cost": -0.1
+		},
+		"Parliament of Ireland": {
+			"National Unrest": -1,
+			"Reform Progress Growth": 0.15
+		},
+		"Irish Castellization": {
+			"Construction Cost": -0.1,
+			"Garrison Size": 0.25
+		},
+		"Beyond the Pale": {
+			"Stability Cost Modifier": -0.15,
+			"Harsh Treatment Cost": -0.3
+		},
+		"Welcome the Sassenachs": {
+			"Global Trade Power": 0.15
+		}
+	},
+	"Ormond": {
+		"Traditions": {
+			"Monthly Autonomy Change": -0.05,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"English Service": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Patronize Irish Literature": {
+			"Yearly Prestige": 1
+		},
+		"Resolving Irish and English Feuds": {
+			"Improve Relations": 0.25
+		},
+		"Lessons of the War of the Roses": {
+			"Yearly Army Tradition": 0.5,
+			"Possible Condottieri": 0.5
+		},
+		"Irish Gentlemanly Virtues": {
+			"Nobles Loyalty Equilibrium": 0.1,
+			"Burghers Loyalty Equilibrium": 0.1,
+			"Clergy Loyalty Equilibrium": 0.1
+		},
+		"English Court": {
+			"Advisor Costs": -0.15
+		},
+		"The Wool Earl": {
+			"Goods Produced Modifier": 0.1
+		}
+	},
+	"Sligo": {
+		"Traditions": {
+			"National Tax Modifier": 0.15,
+			"Construction Cost": -0.1
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Free Gaelic Towns": {
+			"Development Cost": -0.1
+		},
+		"Kerns": {
+			"Infantry Fire": 0.2
+		},
+		"Encourage the Dyes Trade": {
+			"Global Trade Power": 0.15
+		},
+		"Preserve Irish Culture": {
+			"Yearly Prestige": 1,
+			"Culture Conversion Cost": -0.15
+		},
+		"Tower Houses and Gaelic Castles": {
+			"Fort Defense": 0.2
+		},
+		"Study Norman Militaries": {
+			"Military Technology Cost": -0.1
+		},
+		"To Hell or to Connacht": {
+			"Land Attrition": -0.1,
+			"Attrition for Enemies": 1
+		}
+	},
+	"Tyrone": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Yearly Prestige": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"True High King": {
+			"Liberty Desire": -15,
+			"Yearly Legitimacy": 1
+		},
+		"UI Neill Lineage": {
+			"Monarch Military Skill": 1
+		},
+		"Taking of Hostages": {
+			"Improve Relations": 0.2
+		},
+		"Tanistry Law": {
+			"National Unrest": -2,
+			"Nobles Loyalty Equilibrium": 0.1
+		},
+		"Scottish Brother Kingdom": {
+			"Land Leader Shock": 1
+		},
+		"Arming the People": {
+			"Land Force Limit Modifier": 0.15,
+			"National Manpower Modifier": 0.15
+		},
+		"Strength Through Negotiation": {
+			"Diplomatic Reputation": 1
+		}
+	},
+	"Tyrconnell": {
+		"Traditions": {
+			"Development Cost": -0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Last of the Ancient Kingdoms": {
+			"Fort Defense": 0.2
+		},
+		"Standardize Gallowglasses": {
+			"Mercenary Discipline": 0.05
+		},
+		"St. Patrick's Cross": {
+			"Tolerance of the True Faith": 2
+		},
+		"The Fisher Kings": {
+			"Global Trade Power": 0.1
+		},
+		"St. Patrick's Purgatory": {
+			"Missionaries": 1
+		},
+		"Lessons of Knockavoe": {
+			"Land Leader Shock": 1
+		},
+		"Chief Fortress of Ireland": {
+			"Garrison Size": 0.25,
+			"Fort Maintenance": -0.2
+		}
+	},
+	"England": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"National Tax Modifier": 0.15
+		},
+		"Ambition": {
+			"Yearly Prestige": 1
+		},
+		"Common Law": {
+			"Stability Cost Modifier": -0.15,
+			"National Unrest": -1
+		},
+		"The Royal Navy": {
+			"Heavy Ship Combat Ability": 0.1,
+			"Morale of Navies": 0.1
+		},
+		"Acts of Union": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"Acts Concerning the Regulation of Trade": {
+			"Global Trade Power": 0.2,
+			"Cost to Promote Mercantilism": -0.2
+		},
+		"New Model Army": {
+			"Discipline": 0.05
+		},
+		"The Admiralty": {
+			"Naval Force Limit Modifier": 0.5,
+			"National Sailors Modifier": 0.25
+		},
+		"Empiricism": {
+			"Technology Cost": -0.1
+		}
+	},
+	"Scotland": {
+		"Traditions": {
+			"Land Leader Shock": 1,
+			"Land Force Limit Modifier": 0.1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Declaration of Arbroath": {
+			"Morale of Armies": 0.1
+		},
+		"Schiltron": {
+			"Infantry Shock": 0.2
+		},
+		"Universal Literacy": {
+			"Technology Cost": -0.1,
+			"Institution Spread": 0.2
+		},
+		"Reform the Highlander Regiments": {
+			"Discipline": 0.05
+		},
+		"Scottish Enlightenment": {
+			"Idea Cost": -0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"The Wealth of Nations": {
+			"Trade Efficiency": 0.15
+		},
+		"Industrial Revolution": {
+			"Goods Produced Modifier": 0.15
+		}
+	},
+	"Great Britain": {
+		"Traditions": {
+			"Yearly Navy Tradition": 1,
+			"Naval Force Limit Modifier": 0.5
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"The Navigation Acts": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"The Triangle Trade": {
+			"Global Settler Increase": 20,
+			"Trade Efficiency": 0.1
+		},
+		"The East India Company": {
+			"Cost to Promote Mercantilism": -0.33,
+			"Trade Company Governing Cost": -0.33
+		},
+		"Articles of War": {
+			"Ship Durability": 0.1,
+			"Discipline": 0.05
+		},
+		"Scientific Gunnery": {
+			"Heavy Ship Combat Ability": 0.2,
+			"Diplomatic Technology Cost": -0.1
+		},
+		"Redcoats!": {
+			"Yearly Army Professionalism": 0.005,
+			"Marines Force Limit": 0.25
+		},
+		"Domestic Revolution": {
+			"Goods Produced Modifier": 0.15
+		}
+	},
+	"Armenia": {
+		"Traditions": {
+			"Cavalry Cost": -0.25,
+			"Tolerance of the True Faith": 2
+		},
+		"Ambition": {
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Legacy of the Armenian Empire": {
+			"Core-Creation Cost": -0.15
+		},
+		"Apostolic Church": {
+			"Missionary Strength": 0.02
+		},
+		"Armenian Cataphracts": {
+			"Cavalry Shock": 0.5
+		},
+		"Mount Ararat": {
+			"Fort Defense": 0.2,
+			"Attrition for Enemies": 1
+		},
+		"Karabakh Horses": {
+			"Cavalry Flanking Ability": 1,
+			"Cavalry to Infantry Ratio": 0.2
+		},
+		"Valley of Copper and Wine": {
+			"Trade Efficiency": 0.1
+		},
+		"Cultural Resilience": {
+			"Culture Conversion Cost": -0.2
+		}
+	},
+	"Avaria": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.2,
+			"Improve Relations": 0.2
+		},
+		"Ambition": {
+			"Shock Damage": 0.1
+		},
+		"In the Footsteps of the Pannonian Avars": {
+			"Culture Conversion Cost": -0.25
+		},
+		"Mountaineer Horse Riders": {
+			"Cavalry Cost": -0.2,
+			"Land Attrition": -0.05
+		},
+		"Nomadic Lifestyle": {
+			"Movement Speed": 0.1,
+			"Cavalry Flanking Ability": 1
+		},
+		"Protectors of the Derbent": {
+			"Caravan Power": 0.15,
+			"Attrition for Enemies": 1
+		},
+		"Masterful Metalworkers": {
+			"Discipline": 0.05
+		},
+		"Flexible Alliances": {
+			"Diplomatic Relations": 2
+		},
+		"Prevent the Russian Encroachment": {
+			"Morale Damage": 0.15
+		}
+	},
+	"Circassia": {
+		"Traditions": {
+			"Land Leader Maneuver": 1,
+			"Movement Speed": 0.15
+		},
+		"Ambition": {
+			"Land Force Limit Modifier": 0.15
+		},
+		"Head Choppers": {
+			"Morale of Armies": 0.1
+		},
+		"Genoese Ties": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"Circassian Steppes": {
+			"Cavalry Combat Ability": 0.1,
+			"Cavalry to Infantry Ratio": 0.2
+		},
+		"Federalism": {
+			"National Manpower Modifier": 0.15
+		},
+		"Circassians in all courts": {
+			"Diplomatic Relations": 2
+		},
+		"Papal Correspondence": {
+			"Yearly Papal Influence": 2,
+			"Yearly Patriarch Authority": 0.0033
+		},
+		"Always Surrounded, Never Surrendering": {
+			"Morale Damage Received": -0.1
+		}
+	},
+	"Georgia": {
+		"Traditions": {
+			"Attrition for Enemies": 1,
+			"Fort Defense": 0.3
+		},
+		"Ambition": {
+			"Missionaries": 1
+		},
+		"Bagrationi Dynasty": {
+			"Vassalization Acceptance": 10,
+			"Diplomatic Reputation": 1
+		},
+		"The Last Christian Bastion": {
+			"Missionary Strength": 0.03
+		},
+		"Kipchak Settlements": {
+			"Local Development Cost": -0.1,
+			"Manpower Recovery Speed": 0.1
+		},
+		"Campaigns of King Tamar": {
+			"Movement Speed": 0.15,
+			"Discipline": 0.05
+		},
+		"Sadrosho Banners": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Shadow of an Empire": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Avenge the Battle of Chalagan": {
+			"Land Leader Maneuver": 1
+		}
+	},
+	"Imereti": {
+		"Traditions": {
+			"Merchants": 1,
+			"Trade Steering": 0.2
+		},
+		"Ambition": {
+			"Provincial Trade Power Modifier": 0.33
+		},
+		"Breaking the Yoke of the Ilkhanate": {
+			"Shock Damage Received": -0.1,
+			"Morale Damage Received": -0.05
+		},
+		"Genoese Colony of Lo Bati": {
+			"Global Trade Power": 0.15
+		},
+		"Islamic Affiliation": {
+			"Maximum Tolerance of Heathens": 2,
+			"Tolerance of Heathens": 2
+		},
+		"Center of Georgian literature": {
+			"Yearly Prestige": 1
+		},
+		"Persian Ties": {
+			"Trade Efficiency": 0.1
+		},
+		"Black Sea Ports": {
+			"Global Ship Trade Power": 0.25,
+			"Naval Force Limit Modifier": 0.15
+		},
+		"Fertile Black Sea Coast": {
+			"Goods Produced Modifier": 0.1
+		}
+	},
+	"Karabakh": {
+		"Traditions": {
+			"Advisor Costs": -0.15,
+			"Tolerance of the True Faith": 2
+		},
+		"Ambition": {
+			"Improve Relations": 0.2
+		},
+		"Letters from the Byzantines": {
+			"Diplomatic Reputation": 1
+		},
+		"Descendents of the Kings of Artsakh": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3,
+			"Yearly Horde Unity": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Devotion": 1
+		},
+		"Five Melikdoms of Karabakh": {
+			"Reform Progress Growth": 0.2
+		},
+		"Karabakh Horses": {
+			"Cavalry Flanking Ability": 1,
+			"Cavalry to Infantry Ratio": 0.2
+		},
+		"Syghnakh Recruitment System": {
+			"Manpower in True Faith Provinces": 0.15
+		},
+		"Last Bastion of Armenian Independence": {
+			"Fort Defense": 0.2,
+			"Attrition for Enemies": 1
+		},
+		"Cultural Resilience": {
+			"Culture Conversion Cost": -0.2
+		}
+	},
+	"Samtskhe": {
+		"Traditions": {
+			"Fort Defense": 0.25,
+			"Land Leader Siege": 1
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Jaqeli and Jakeli": {
+			"Advisor Costs": -0.15
+		},
+		"Rabati Fortress": {
+			"Fort Maintenance": -0.2,
+			"Attrition for Enemies": 1
+		},
+		"Gelati Academy": {
+			"Idea Cost": -0.1
+		},
+		"Legacy of David the Builder": {
+			"Construction Cost": -0.15
+		},
+		"Lessons of Ertsukhi": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Defenders of Faith": {
+			"Missionaries": 1
+		},
+		"The Ones Who Broke the Mongols": {
+			"Morale of Armies": 0.1
+		}
+	},
+	"Shirvan": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Aggressive Expansion Impact": -0.1
+		},
+		"Ambition": {
+			"Trade Efficiency": 0.1
+		},
+		"Bukhara Silk": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Palace of the Shirvanshahs": {
+			"Construction Cost": -0.1,
+			"Construction Time": -0.1
+		},
+		"Kurdish Roots": {
+			"Number of accepted Cultures": 2
+		},
+		"Reforms of Manuchihr": {
+			"Possible Policies": 1
+		},
+		"Kura River Agriculture": {
+			"Production Efficiency": 0.1
+		},
+		"Great city of Shusha": {
+			"Development Cost": -0.1
+		},
+		"Persian Trade": {
+			"Caravan Power": 0.15,
+			"Merchants": 1
+		}
+	},
+	"Lithuania": {
+		"Traditions": {
+			"Shock Damage Received": -0.1,
+			"Tolerance of Heretics": 3
+		},
+		"Ambition": {
+			"Cavalry Combat Ability": 0.2
+		},
+		"Protectorate of Ruthenia": {
+			"Diplomatic Annexation Cost": -0.1,
+			"Monthly Autonomy Change": -0.05
+		},
+		"Crusade against the Hordes": {
+			"Morale of Armies": 0.1,
+			"May Recruit Winged Hussars": true
+		},
+		"Lithuanian Endurance": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Eastern Balance of Power": {
+			"Diplomatic Reputation": 1
+		},
+		"Revitalizing Ruthenia": {
+			"Development Cost": -0.1
+		},
+		"Statutes of Lithuania": {
+			"National Unrest": -2
+		},
+		"Lithuanian Renaissance": {
+			"Technology Cost": -0.05
+		}
+	},
+	"Commonwealth-Poland": {
+		"Traditions": {
+			"Number of accepted Cultures": 3,
+			"Yearly Papal Influence": 2
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.2
+		},
+		"Odrodzenie": {
+			"Idea Cost": -0.1
+		},
+		"Pacta Conventa": {
+			"All Estate's Loyalty Equilibrium": 0.05,
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.5
+		},
+		"Konfederacja Warszawska": {
+			"Tolerance of Heretics": 3
+		},
+		"Pospolite Ruszenie": {
+			"National Manpower Modifier": 0.2,
+			"Morale of Armies": 0.1
+		},
+		"Skrzydlata Husaria": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry to Infantry Ratio": 0.33
+		},
+		"Magnateria": {
+			"Production Efficiency": 0.1,
+			"Land Maintenance Modifier": -0.1
+		},
+		"Wojsko Komputowe": {
+			"Infantry Combat Ability": 0.1
+		}
+	},
+	"Commonwealth-Lithuania": {
+		"Traditions": {
+			"Number of accepted Cultures": 3,
+			"Tolerance of Heretics": 3
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.2
+		},
+		"Odrodzenie": {
+			"Idea Cost": -0.1
+		},
+		"Gediminaiciai Palikimas": {
+			"Diplomatic Reputation": 1
+		},
+		"Amended Golden Liberty": {
+			"Free Policies": 1,
+			"Reform Progress Growth": 0.2
+		},
+		"Pospolite Ruszenie": {
+			"National Manpower Modifier": 0.2,
+			"Morale of Armies": 0.1
+		},
+		"Skrzydlata Husaria": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry to Infantry Ratio": 0.33
+		},
+		"Magnateria": {
+			"Production Efficiency": 0.1,
+			"Land Maintenance Modifier": -0.1
+		},
+		"Wojsko Komputowe": {
+			"Infantry Combat Ability": 0.1
+		}
+	},
+	"Poland": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Yearly Papal Influence": 2
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.2
+		},
+		"Gaude Mater Polonia": {
+			"Morale of Armies": 0.1
+		},
+		"Union of Krewo": {
+			"Diplomatic Relations": 1
+		},
+		"Monarchia Stanowa": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.5,
+			"Monthly Heir Support Gain": 0.25
+		},
+		"Rzeczpospolitas": {
+			"Number of accepted Cultures": 2,
+			"Nobles Loyalty Equilibrium": 0.1
+		},
+		"Pospolite Ruszenie": {
+			"National Manpower Modifier": 0.2
+		},
+		"Skrzydlata Husaria": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry to Infantry Ratio": 0.33
+		},
+		"Obrona Potoczna": {
+			"Garrison Size": 0.25,
+			"Yearly Army Tradition": 0.5
+		}
+	},
+	"Muscovy": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Construction Cost": -0.1
+		},
+		"Ambition": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Elevate Muscovite Metropolitan to Patriarch": {
+			"Yearly Patriarch Authority": 0.005,
+			"Tolerance of the True Faith": 1
+		},
+		"Ugorshchina": {
+			"Morale of Armies": 0.1
+		},
+		"T'sar Vseya Rossii": {
+			"Cost to fabricate claims": -0.2,
+			"Core-Creation Cost": -0.1
+		},
+		"Zasechnaya Cherta": {
+			"Fort Maintenance": -0.2
+		},
+		"Relentless Push": {
+			"Aggressive Expansion Impact": -0.1
+		},
+		"Samoderzhaviye": {
+			"Maximum Absolutism": 10,
+			"Yearly Absolutism": 1
+		},
+		"Sloboda": {
+			"Culture Conversion Cost": -0.15
+		}
+	},
+	"Novgorod": {
+		"Traditions": {
+			"Global Trade Power": 0.15,
+			"Shock Damage Received": -0.1
+		},
+		"Ambition": {
+			"Naval Force Limit Modifier": 0.2
+		},
+		"Ledovoye Poboishche": {
+			"Morale of Armies": 0.1
+		},
+		"Novgorodskaya Pervaya Letopis.": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Ushkuiniks": {
+			"Looting Speed": 0.5,
+			"Mercenary Cost": -0.15
+		},
+		"Novgorodian Belka": {
+			"Merchants": 1
+		},
+		"Veliky Novgorod": {
+			"Trade Efficiency": 0.1,
+			"Construction Cost": -0.1
+		},
+		"Continuation of the Veche": {
+			"Yearly Republican Tradition": 0.5
+		},
+		"Zavolochye": {
+			"Caravan Power": 0.2,
+			"Global Settler Increase": 10
+		}
+	},
+	"Russia-Muscovy": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Core-Creation Cost": -0.15
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.075
+		},
+		"Krepostnichestvoh": {
+			"Land Force Limit Modifier": 0.33
+		},
+		"Siberian Frontiers": {
+			"May Establish Siberian Frontiers": true,
+			"Automatically Discover Adjacent When a Colony is Built": true
+		},
+		"Trety Rim": {
+			"Yearly Legitimacy": 1
+		},
+		"Voinskaya Povinnost": {
+			"National Manpower Modifier": 0.25,
+			"Infantry Cost": -0.1
+		},
+		"Metropolitan of Kiev and All RUS": {
+			"War Score Cost vs Other Religions": -0.25,
+			"Yearly Patriarch Authority": 0.005
+		},
+		"Sloboda": {
+			"Culture Conversion Cost": -0.2
+		},
+		"Polki Novovo Stroya": {
+			"Morale of Armies": 0.1,
+			"Military Technology Cost": -0.1
+		}
+	},
+	"Russia-Novgorod": {
+		"Traditions": {
+			"Merchants": 1,
+			"Shock Damage Received": -0.1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Homeland Trading Policies": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"Siberian Frontiers": {
+			"May Establish Siberian Frontiers": true,
+			"Automatically Discover Adjacent When a Colony is Built": true
+		},
+		"Kholodnaya Voda": {
+			"Construction Cost": -0.15,
+			"Center of Trade Upgrade Cost": -0.2
+		},
+		"Zhidovstvuyushchiye": {
+			"Tolerance of Heretics": 1,
+			"Tolerance of Heathens": 1
+		},
+		"Reformed Ushkuiniks": {
+			"Mercenary Cost": -0.15,
+			"Yearly Navy Tradition": 1
+		},
+		"Window on the West": {
+			"Institution Embracement Cost": -0.2,
+			"Technology Cost": -0.1
+		},
+		"Veche of All RUS": {
+			"Yearly Republican Tradition": 0.5
+		}
+	},
+	"Ruthenia": {
+		"Traditions": {
+			"Heretic and Heathen provinces do not give any penalties": true,
+			"National Manpower Modifier": 0.2
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Chornozem": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Viisko Zaporozke": {
+			"Shock Damage": 0.1,
+			"Cavalry Flanking Ability": 0.5
+		},
+		"Siberian Frontiers": {
+			"May Establish Siberian Frontiers": true,
+			"Automatically Discover Adjacent When a Colony is Built": true
+		},
+		"Veliky Kyiv": {
+			"Yearly Prestige": 1
+		},
+		"Metropolitan of Kyiv and All RUS": {
+			"Yearly Patriarch Authority": 0.005,
+			"Tolerance of the True Faith": 2
+		},
+		"Kleinody": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Bratstvo": {
+			"Technology Cost": -0.05,
+			"Institution Spread In True Faith Provinces": 0.15
+		}
+	},
+	"Ayutthaya": {
+		"Traditions": {
+			"Diplomatic Relations": 1,
+			"Cavalry Combat Ability": 0.2
+		},
+		"Ambition": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"Krasuang Mahatthai": {
+			"State Maintenance": -0.2
+		},
+		"Chatusadom": {
+			"Reform Progress Growth": 0.15,
+			"Possible Advisors": 1
+		},
+		"Bunga Emas Dan Perak": {
+			"Diplomatic Reputation": 1,
+			"Income from Vassals": 0.33
+		},
+		"Floating Rice": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Sakdina": {
+			"National Tax Modifier": 0.1
+		},
+		"Phrai Conscription": {
+			"National Manpower Modifier": 0.15
+		},
+		"Ban Yipun": {
+			"Trade Efficiency": 0.1,
+			"Mercenary Cost": -0.1
+		}
+	},
+	"Majapahit": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.1,
+			"Yearly Navy Tradition": 1
+		},
+		"Ambition": {
+			"Colonists": 1
+		},
+		"A Thalassocratic Mandala": {
+			"Liberty Desire from Subjects Development": -0.33,
+			"Global Ship Trade Power": 0.2
+		},
+		"Nagarakretagama": {
+			"Yearly Prestige": 1
+		},
+		"Eastern and Western Style Cetbang": {
+			"Galley Combat Ability": 0.15
+		},
+		"Sumpah Palapa": {
+			"Morale of Armies": 0.1,
+			"Morale of Navies": 0.1
+		},
+		"Star Path Navigation": {
+			"Allows recruitment of explorers & conquistadors": true
+		},
+		"Jong, Malangbang and Kelulu Armadas": {
+			"Naval Force Limit Modifier": 0.33,
+			"Ship Costs": -0.1
+		},
+		"Mitreka Satata": {
+			"Vassal Force Limit Contribution": 0.5,
+			"Diplomatic Relations": 1
+		}
+	},
+	"Malaya": {
+		"Traditions": {
+			"Morale of Navies": 0.15,
+			"Naval Force Limit Modifier": 0.33
+		},
+		"Ambition": {
+			"Global Trade Power": 0.2
+		},
+		"Suvarnabhumi": {
+			"Trade Efficiency": 0.15
+		},
+		"Adoption of the Cetbang": {
+			"Galley Combat Ability": 0.2
+		},
+		"Sea People": {
+			"Yearly Navy Tradition": 1,
+			"Global Ship Trade Power": 0.25
+		},
+		"Ilmu Bedil": {
+			"Land Leader Fire": 1,
+			"Naval Leader Fire": 1
+		},
+		"Bendahara": {
+			"Reform Progress Growth": 0.15
+		},
+		"Alam Melayu": {
+			"Core-Creation Cost": -0.1,
+			"Governing Capacity Modifier": 0.1
+		},
+		"Daulat": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3,
+			"Yearly Horde Unity": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Devotion": 1
+		}
+	},
+	"Siam": {
+		"Traditions": {
+			"Diplomats": 1,
+			"Cavalry Combat Ability": 0.25
+		},
+		"Ambition": {
+			"Institution Embracement Cost": -0.25
+		},
+		"Songkram Yuddhahatthi": {
+			"Yearly Army Tradition": 0.5,
+			"Monarch Military Skill": 1
+		},
+		"Chatusadom": {
+			"Reform Progress Growth": 0.2,
+			"Diplomatic Free Policies": 1
+		},
+		"Expelling Western Meddlers": {
+			"Morale of Armies": 0.1
+		},
+		"Floating Rice": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Phra Chao Phaendin": {
+			"Maximum Absolutism": 25
+		},
+		"Golden Age of Ayutthaya": {
+			"Trade Efficiency": 0.15,
+			"Construction Cost": -0.1
+		},
+		"Dap Hak": {
+			"Shock Damage": 0.1
+		}
+	},
+	"Japan": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Yearly Army Tradition Decay": -0.01
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"Rakuichi Rakuza": {
+			"Administrative Free Policies": 1,
+			"Development Cost": -0.1
+		},
+		"Bakuhan": {
+			"Stability Cost Modifier": -0.1,
+			"National Tax Modifier": 0.15
+		},
+		"Bushido": {
+			"Discipline": 0.05,
+			"Yearly Corruption": -0.1,
+			"Country Allows Samurai Infantry": true
+		},
+		"Tanegashima": {
+			"Land Fire Damage": 0.1,
+			"Samurai Force Limit": 0.15
+		},
+		"Shuinsen": {
+			"Trade Range": 0.25,
+			"Heavy Ship Combat Ability": 0.1
+		},
+		"Terakoya": {
+			"Technology Cost": -0.1
+		},
+		"Fudasashi": {
+			"Interest Per Annum": -1
+		}
+	},
+	"Korea": {
+		"Traditions": {
+			"Idea Cost": -0.1,
+			"State Maintenance": -0.25
+		},
+		"Ambition": {
+			"Monarch Administrative Skill": 1
+		},
+		"Hanguel": {
+			"Institution Spread": 0.2
+		},
+		"Hwachas and Chongtong": {
+			"Artillery Combat Ability": 0.1,
+			"Galley Combat Ability": 0.15
+		},
+		"Gwageo": {
+			"Advisor Costs": -0.15,
+			"Reform Progress Growth": 0.1
+		},
+		"Samsa": {
+			"Yearly Corruption": -0.1,
+			"Possible Advisors": 1
+		},
+		"Righteous Armies": {
+			"National Manpower Modifier": 0.15
+		},
+		"Geobukseon": {
+			"Ship Durability": 0.1,
+			"Country Allows Man Of War Ships": true
+		},
+		"Silhak": {
+			"Technology Cost": -0.1,
+			"Development Cost": -0.1
+		}
+	},
+	"Ming": {
+		"Traditions": {
+			"Fort Maintenance": -0.25,
+			"Idea Cost": -0.1
+		},
+		"Ambition": {
+			"Shock Damage Received": -0.1
+		},
+		"Nèigé": {
+			"State Maintenance": -0.25,
+			"Possible Advisors": 1
+		},
+		"Jiubian": {
+			"Fort Defense": 0.2,
+			"Garrison Size": 0.25
+		},
+		"Haijin": {
+			"Domestic Trade Power": 0.2
+		},
+		"Barbarian Recruits": {
+			"National Manpower Modifier": 0.2
+		},
+		"Ming Porcelain": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Single Whip Law": {
+			"National Tax Modifier": 0.1
+		},
+		"Folangji": {
+			"Military Technology Cost": -0.1,
+			"Artillery Combat Ability": 0.1
+		}
+	},
+	"France": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.2,
+			"National Manpower Modifier": 0.25
+		},
+		"Ambition": {
+			"Morale of Armies": 0.15
+		},
+		"Les Compagnies D'Ordonnance": {
+			"Discipline": 0.05
+		},
+		"Les Six Grands Vieux": {
+			"Infantry Combat Ability": 0.1,
+			"Yearly Army Tradition Decay": -0.01
+		},
+		"L'Ordonnance de Villers-Cotterêts": {
+			"State Governing Cost": -0.15,
+			"Cost of Advisors with Ruler's Culture": -0.2
+		},
+		"Coureurs Des Bois": {
+			"Native Uprising Chance": -0.5,
+			"Trade Efficiency": 0.1
+		},
+		"Les Dragonnades": {
+			"Missionary Strength vs Heretics": 0.03
+		},
+		"Les Chambres de Réunions": {
+			"Administrative Efficiency": 0.05
+		},
+		"Car Tel Est Notre Plaisir": {
+			"Maximum Absolutism": 20
+		}
+	},
+	"Brittany": {
+		"Traditions": {
+			"Cavalry to Infantry Ratio": 0.25,
+			"Cavalry Fire": 1
+		},
+		"Ambition": {
+			"National Unrest": -2
+		},
+		"Black Riders": {
+			"Shock Damage": 0.1
+		},
+		"Arthurian Legends": {
+			"Yearly Prestige": 1,
+			"Yearly Legitimacy": 1
+		},
+		"Protective Treaties": {
+			"Diplomatic Reputation": 1
+		},
+		"Beyond Our Shores": {
+			"Colonists": 1,
+			"Fleet Exploration Range": 0.25
+		},
+		"Cooperative Trade Deals": {
+			"Trade Efficiency": 0.1
+		},
+		"People of the Sea": {
+			"Morale of Navies": 0.15
+		},
+		"Catholicon": {
+			"Number of accepted Cultures": 2
+		}
+	},
+	"Burgundy": {
+		"Traditions": {
+			"Infantry Fire": 0.25,
+			"Diplomatic Relations": 2
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.2
+		},
+		"The Distinguished Order of the Golden Fleece": {
+			"Yearly Papal Influence": 2,
+			"Yearly Prestige": 1
+		},
+		"Students of Warfare": {
+			"Artillery Combat Ability": 0.1,
+			"Military Technology Cost": -0.1
+		},
+		"Les Compagnies D'Ordonnance": {
+			"Discipline": 0.05
+		},
+		"Chambres Des Comptes": {
+			"National Tax Modifier": 0.1
+		},
+		"Estates General of the Netherlands": {
+			"Yearly Republican Tradition": 0.3,
+			"Trade Efficiency": 0.1
+		},
+		"The Great Council of Mechelen": {
+			"Liberty Desire in Subjects": 10,
+			"National Unrest": -2
+		},
+		"L'État Bourguignon": {
+			"Diplomatic Reputation": 1,
+			"Diplomatic Annexation Cost": -0.2
+		}
+	},
+	"Lotharingia": {
+		"Traditions": {
+			"Infantry Fire": 0.25,
+			"Governing Capacity Modifier": 0.2
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.2
+		},
+		"The Distinguished Order Of The Golden Fleece": {
+			"Yearly Papal Influence": 2,
+			"Yearly Prestige": 1
+		},
+		"Students Of Warfare": {
+			"Artillery Combat Ability": 0.1,
+			"Military Technology Cost": -0.1
+		},
+		"Les Compagnies D'Ordonnance": {
+			"Discipline": 0.05
+		},
+		"Chambres Des Comptes": {
+			"National Tax Modifier": 0.1
+		},
+		"Lotharingian abbeys": {
+			"Clergy Loyalty Equilibrium": 0.1,
+			"Curia Powers Cost": -0.2
+		},
+		"The Ancient Imperial capital": {
+			"Construction Cost": -0.1,
+			"Development Cost": -0.05
+		},
+		"Pax Francia": {
+			"Reform Progress Growth": 0.2
+		}
+	},
+	"Aachen": {
+		"Traditions": {
+			"Administrative Technology Cost": -0.1,
+			"Global Trade Power": 0.15
+		},
+		"Ambition": {
+			"Reform Progress Growth": 0.3
+		},
+		"Aquis-Granum": {
+			"Development Cost": -0.1
+		},
+		"The Plats of charlemagne": {
+			"Imperial Authority Modifier": 0.1,
+			"Yearly Prestige": 1
+		},
+		"The Dom of Aken": {
+			"Clergy Influence": -0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"The walls of Aken": {
+			"Fort Defense": 0.15,
+			"Garrison Size": 0.15
+		},
+		"The imperial capital": {
+			"Institution Spread": 0.33
+		},
+		"Old Limburg": {
+			"Core-Creation Cost": -0.1
+		},
+		"Pax Francia": {
+			"National Manpower Modifier": 0.2,
+			"Morale of Armies": 0.1
+		}
+	},
+	"Strasbourg": {
+		"Traditions": {
+			"Development Cost": -0.1,
+			"Diplomatic Technology Cost": -0.1
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Straßburg Cathedral": {
+			"Tolerance of the True Faith": 2,
+			"Yearly Prestige": 1
+		},
+		"Kirchenfabriken": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Franco-Allemanic Melting Pot": {
+			"Number of accepted Cultures": 1
+		},
+		"The Printed Word": {
+			"Institution Spread": 0.33,
+			"Idea Cost": -0.1
+		},
+		"Religious Agreements": {
+			"Tolerance of Heretics": 3
+		},
+		"Confessio Tetrapolitana": {
+			"Diplomatic Reputation": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"Gates of the Rhine": {
+			"Fort Defense": 0.2
+		}
+	},
+	"Anhalt": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Technology Cost": -0.05
+		},
+		"Ambition": {
+			"Monarch Military Skill": 1
+		},
+		"Allodium": {
+			"National Tax Modifier": 0.15,
+			"National Manpower Modifier": 0.15
+		},
+		"Many princes only one Princedom": {
+			"Diplomatic Relations": 1
+		},
+		"Wolfgang the Confessor": {
+			"Prestige per Development from Missionary": 0.25,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5,
+			"Yearly Papal Influence": 1
+		},
+		"Anhalt militarisation": {
+			"Infantry Fire": 0.3,
+			"Yearly Army Professionalism": 0.005
+		},
+		"Adoption of the Prussian system": {
+			"Yearly Army Tradition": 0.5,
+			"Discipline": 0.05
+		},
+		"The Duchy of Anhalt": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"The Anhalt constitution": {
+			"Reform Progress Growth": 0.15
+		}
+	},
+	"Augsburg": {
+		"Traditions": {
+			"Missionaries": 1,
+			"Development Cost": -0.1
+		},
+		"Ambition": {
+			"All Power Cost": -0.05
+		},
+		"Builders of churches and abbeys": {
+			"Construction Cost": -0.1,
+			"Clergy Loyalty Equilibrium": 0.1
+		},
+		"The right of coinage": {
+			"National Tax Modifier": 0.15,
+			"Trade Efficiency": 0.1
+		},
+		"The free city of Augsburg": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Encouragement of the printing press": {
+			"Institution Spread": 0.5
+		},
+		"The patronage bishops": {
+			"Yearly Prestige": 1
+		},
+		"The Peace of Augsburg": {
+			"Tolerance of Heretics": 3,
+			"Diplomatic Reputation": 1
+		},
+		"Jesuit counter-reformation": {
+			"Technology Cost": -0.05,
+			"Missionary Strength": 0.01
+		}
+	},
+	"Bohemia": {
+		"Traditions": {
+			"Imperial Authority Growth Modifier": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Attrition for Enemies": 1
+		},
+		"Vozová Hradba": {
+			"Shock Damage Received": -0.1,
+			"Land Fire Damage": 0.1
+		},
+		"Sirotci": {
+			"Morale of Armies": 0.1
+		},
+		"Compactata": {
+			"Tolerance of Heretics": 3
+		},
+		"Universitatis Carolinae Ferdinandeae": {
+			"Technology Cost": -0.05,
+			"Monthly Fervor": 0.5,
+			"Church Power": 0.25,
+			"Yearly Papal Influence": 1
+		},
+		"Tractatus Pacis Toti Christianitati Fiendae": {
+			"Diplomats": 1
+		},
+		"Bergordnung": {
+			"Goods Produced Modifier": 0.1,
+			"Monthly Gold Inflation Modifier": -0.1
+		},
+		"Zemska Zrizeni": {
+			"Yearly Corruption": -0.1
+		}
+	},
+	"Brandenburg": {
+		"Traditions": {
+			"Cost to fabricate claims": -0.25,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"Nordmark": {
+			"Morale of Armies": 0.1,
+			"Fort Defense": 0.1
+		},
+		"The Pomeranian Wars": {
+			"Land Force Limit Modifier": 0.15
+		},
+		"The Kammergericht": {
+			"Possible Advisors": 1
+		},
+		"Claims of the Hohenzollern": {
+			"Province War Score Cost": -0.1
+		},
+		"Berlinisches Gymnasium": {
+			"Administrative Technology Cost": -0.1
+		},
+		"Constitutio Joachimica": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Teutonic Influence": {
+			"Yearly Army Tradition Decay": -0.01,
+			"Infantry Combat Ability": 0.1
+		}
+	},
+	"Bremen": {
+		"Traditions": {
+			"Institution Spread": 0.5,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Colonists": 1
+		},
+		"Bremer dykes and polders": {
+			"Development Cost": -0.1
+		},
+		"Bremer Hansa": {
+			"Merchants": 1
+		},
+		"The food market of Northern Europe": {
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"Bremer shipyards": {
+			"Naval Maintenance Modifier": -0.25,
+			"Ship Durability": 0.1
+		},
+		"Bremerhaven": {
+			"National Sailors Modifier": 0.3,
+			"Ship Tradepower Propagation": 0.33
+		},
+		"Fierce independence": {
+			"Attrition for Enemies": 1,
+			"Morale of Armies": 0.1
+		},
+		"New world trading port": {
+			"Global Trade Power": 0.15,
+			"Allows recruitment of explorers & conquistadors": true
+		}
+	},
+	"Berg": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Tolerance of the True Faith": 1
+		},
+		"Ambition": {
+			"Stability Cost Modifier": -0.15
+		},
+		"Gallia Belgica": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Whupper Valley:": {
+			"Global Trade Power": 0.15,
+			"Development Cost": -0.1
+		},
+		"United Duchies": {
+			"Vassalization Acceptance": 10,
+			"Diplomatic Relations": 1
+		},
+		"Via Media": {
+			"Institution Spread": 0.5,
+			"Tolerance of Heretics": 3
+		},
+		"Uniting the Rhine": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"Imperial Honour": {
+			"Yearly Prestige": 1
+		},
+		"Early industrialization": {
+			"Goods Produced Modifier": 0.15,
+			"Technology Cost": -0.05
+		}
+	},
+	"Coburg": {
+		"Traditions": {
+			"National Manpower Modifier": 0.15,
+			"Development Cost": -0.1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Veste Coburg": {
+			"Fort Defense": 0.15
+		},
+		"Jewish District": {
+			"Production Efficiency": 0.1
+		},
+		"Luther's Study": {
+			"Idea Cost": -0.1
+		},
+		"Gymnasium Casimirianum": {
+			"Advisor Costs": -0.1,
+			"Institution Spread": 0.33
+		},
+		"Schloss Ehrenburg": {
+			"Yearly Prestige": 1
+		},
+		"The Art of Diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Dynasty of many crowns": {
+			"Diplomatic Reputation": 2
+		}
+	},
+	"Dithmarschen": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Geestland": {
+			"Production Efficiency": 0.1
+		},
+		"Wrecking": {
+			"Chance to Capture Enemy Ships": 0.1,
+			"Privateer Efficiency": 0.25
+		},
+		"The joke that is aristocracy": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"All Estates Influence Modifier": -0.1
+		},
+		"“Come and get it”": {
+			"Fort Defense": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Containing feudalism": {
+			"Global Trade Power": 0.1,
+			"Reform Progress Growth": 0.2
+		},
+		"A peaceful front yard": {
+			"Diplomatic Relations": 1
+		},
+		"Our feudes": {
+			"Fort Maintenance on border with rival": -0.5
+		}
+	},
+	"Franconia": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"Imperial Lineages": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Inextinguishable Title": {
+			"Reform Progress Growth": 0.1
+		},
+		"Knights of the Franconian Orders": {
+			"Yearly Army Tradition": 0.5,
+			"Leader Cost": -0.2
+		},
+		"Curb the Raubritter": {
+			"Provincial Trade Power Modifier": 0.15,
+			"Siege Ability": 0.1
+		},
+		"Franconian Reformation": {
+			"Institution Spread In True Faith Provinces": 0.5,
+			"Tolerance of the True Faith": 1
+		},
+		"Nichtabgeschlossenes Gebiet": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"Franconian Brewing Expertise": {
+			"National Unrest": -2
+		}
+	},
+	"Frankfurt": {
+		"Traditions": {
+			"Development Cost": -0.1,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"The Ruins of Nida": {
+			"Construction Cost": -0.1
+		},
+		"Council of Frankfurt": {
+			"Religious Unity": 0.15
+		},
+		"Frankfurter Messe": {
+			"Institution Spread": 0.5,
+			"Global Trade Power": 0.2
+		},
+		"We are the capital once more": {
+			"Administrative Efficiency": 0.05,
+			"Monthly Autonomy Change": -0.02
+		},
+		"The Frankfurt Exchange": {
+			"Yearly Inflation Reduction": 0.15
+		},
+		"Neutrality": {
+			"Diplomatic Reputation": 1,
+			"Vassalization Acceptance": 5
+		},
+		"The Beating Heart of the german nation": {
+			"Reform Progress Growth": 0.3,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Germany": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.2,
+			"Core-Creation Cost": -0.2
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Regierungsbezirke": {
+			"Administrative Efficiency": 0.05,
+			"Governing Capacity Modifier": 0.1
+		},
+		"Divided in Faith, United in Purpose": {
+			"Tolerance of Heretics": 2,
+			"Maximum Tolerance of Heretics": 2
+		},
+		"Real Union": {
+			"Province War Score Cost": -0.25
+		},
+		"Der Stechschritt": {
+			"Fire Damage Received": -0.1,
+			"Infantry Combat Ability": 0.15
+		},
+		"Standesherren": {
+			"Production Efficiency": 0.15,
+			"State Maintenance": -0.15
+		},
+		"Wartburgfest": {
+			"Manpower in Same Culture Group Provinces": 0.15,
+			"Manpower in Own Culture Provinces": 0.15
+		},
+		"Zollverein": {
+			"Trade Efficiency": 0.15
+		}
+	},
+	"Germany-Revolutionary": {
+		"Traditions": {
+			"National Manpower Modifier": 0.2,
+			"Infantry Combat Ability": 0.15
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Schwarz, Rod, Gold": {
+			"Morale of Armies": 0.1
+		},
+		"National Assembly": {
+			"Reform Progress Growth": 0.33,
+			"National Unrest": -2
+		},
+		"Unification of Germania": {
+			"Aggressive Expansion Impact": -0.2,
+			"Core-Creation Cost": -0.1
+		},
+		"Bundesrepublik": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Pressefreiheit und Fressefreiheit": {
+			"Stability Cost Modifier": -0.25
+		},
+		"The People's Army": {
+			"Discipline": 0.05
+		},
+		"Reichsflotte": {
+			"Naval Force Limit Modifier": 0.33,
+			"Ship Cannons": 0.2
+		}
+	},
+	"Geneva": {
+		"Traditions": {
+			"Army Drill Gain Modifier": 0.25,
+			"Global Trade Power": 0.1
+		},
+		"Ambition": {
+			"Heavy Ship Combat Ability": 0.1
+		},
+		"Great Council of Geneva": {
+			"Development Cost": -0.15
+		},
+		"Assembly of the Halberds": {
+			"Diplomatic Reputation": 1
+		},
+		"Protestant Rome": {
+			"Enforce Religion Cost": -0.2,
+			"Church Power": 0.25,
+			"Monthly Fervor": 1,
+			"Yearly Papal Influence": 1
+		},
+		"Genevan Psalter": {
+			"Tolerance of the True Faith": 1
+		},
+		"The Watchmaking City": {
+			"Missionary Strength": 0.01
+		},
+		"Early Welfare System": {
+			"Fort Defense": 0.25
+		},
+		"Citoyens de Geneve": {
+			"Morale of Armies": 0.1
+		}
+	},
+	"Austria": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Diplomatic Reputation": 2
+		},
+		"Ambition": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Felix Austria": {
+			"Diplomatic Relations": 2
+		},
+		"Fugger Banking": {
+			"Interest Per Annum": -0.5,
+			"Yearly Inflation Reduction": 0.05
+		},
+		"Pietas Austriacae": {
+			"Tolerance of the True Faith": 2,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"Hofkriegsrat": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Militargrenze": {
+			"Fort Maintenance": -0.25,
+			"Land Force Limit Modifier": 0.2
+		},
+		"Neuaufteilung Der Erblande": {
+			"Diplomatic Annexation Cost": -0.2,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Austriae EST Imperare Orbi Universo": {
+			"Aggressive Expansion Impact": -0.1,
+			"Imperial Authority Growth Modifier": 0.15
+		}
+	},
+	"Hamburg": {
+		"Traditions": {
+			"National Sailors Modifier": 0.5,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Merchants": 1
+		},
+		"Old and New Hamburg": {
+			"Center of Trade Upgrade Cost": -0.2,
+			"Global Trade Power": 0.15
+		},
+		"The sister city of Lübeck": {
+			"Development Cost": -0.1
+		},
+		"Territoriale Politik": {
+			"Vassalization Acceptance": 10,
+			"Income from Vassals": 0.5
+		},
+		"The imperial right to prosecute": {
+			"Fleet Hunt Pirates Efficiency": 1.0,
+			"Cost to fabricate claims": -0.25
+		},
+		"Secularisation": {
+			"Reform Progress Growth": 0.15,
+			"Unjustified Demands": -0.1
+		},
+		"The citadel that is Hamburg": {
+			"Fort Defense": 0.25
+		},
+		"Ambivalente Position der Stadt Hamburg": {
+			"Diplomatic Relations": 1
+		}
+	},
+	"Hanover": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"National Unrest": -2
+		},
+		"Res gestae Saxonicae sive annalium libri tres": {
+			"Diplomatic Reputation": 1,
+			"Morale of Armies": 0.1
+		},
+		"Khurhannover Kurhannover": {
+			"Yearly Prestige": 0.5,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Legally Indivisible": {
+			"Administrative Efficiency": 0.05,
+			"Minimum Autonomy in Territories": -0.1
+		},
+		"Naturally Protestant": {
+			"Church Power": 0.2,
+			"Monthly Fervor": 0.2,
+			"Yearly Papal Influence": 0.5
+		},
+		"Feoffment": {
+			"State Maintenance": -0.2,
+			"Diplomatic Relations": 1
+		},
+		"Privy Council of Hannover": {
+			"Allow Estate Privileges to be revoked regardless of Loyalty and Influence": true
+		},
+		"Real Union": {
+			"Vassalization Acceptance": 10
+		}
+	},
+	"Hesse": {
+		"Traditions": {
+			"Administrative Efficiency": 0.05,
+			"National Manpower Modifier": 0.2
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Thuringian connections": {
+			"Yearly Army Tradition": 0.5,
+			"Diplomatic Reputation": 1
+		},
+		"Military leadership of the Schmalkaldic league": {
+			"Diplomatic Relations": 1,
+			"Morale of Armies": 0.1
+		},
+		"Safe haven for the reformation": {
+			"Cost of Advisors with Ruler's Religion": -0.15
+		},
+		"The imperial Auxiliaries": {
+			"Discipline": 0.05,
+			"Possible Condottieri": 0.5
+		},
+		"The rivalries of the Protestant universities": {
+			"Technology Cost": -0.075
+		},
+		"Großmütig": {
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5,
+			"Yearly Papal Influence": 1
+		},
+		"Standesherren": {
+			"Production Efficiency": 0.15,
+			"State Maintenance": -0.15
+		}
+	},
+	"Holy Roman Empire": {
+		"Traditions": {
+			"Production Efficiency": 0.2,
+			"Morale of Armies": 0.15
+		},
+		"Ambition": {
+			"Administrative Efficiency": 0.05
+		},
+		"Reform the Landsknechte": {
+			"Discipline": 0.05,
+			"Yearly Army Professionalism": 0.001
+		},
+		"Chancellery of the Empire": {
+			"Monarch Diplomatic Skill": 1
+		},
+		"Prussian Influence": {
+			"Yearly Army Tradition Decay": -0.02,
+			"Infantry Combat Ability": 0.2
+		},
+		"Wise Electors": {
+			"Monarch Administrative Skill": 1
+		},
+		"Gutenberg's Press": {
+			"Institution Spread": 0.5,
+			"Technology Cost": -0.1
+		},
+		"Reichslandwirtschaftsausstellung": {
+			"Caravan Power": 0.25,
+			"Trade Efficiency": 0.15
+		},
+		"Imperial Concessions": {
+			"Monthly Favor Growth Modifier": 0.1,
+			"Diplomatic Reputation": 2
+		}
+	},
+	"Holy Roman Empire-Burgundy": {
+		"Traditions": {
+			"Infantry Fire": 0.25,
+			"Governing Capacity Modifier": 0.2
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.25
+		},
+		"The Distinguished Order Of The Golden Fleece": {
+			"Yearly Prestige": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"Students Of Warfare": {
+			"Artillery Combat Ability": 0.1,
+			"Military Technology Cost": -0.1
+		},
+		"The Ancient Imperial capital": {
+			"Construction Cost": -0.1,
+			"Development Cost": -0.05
+		},
+		"Renovatio imperii Romanorum": {
+			"Reform Progress Growth": 0.2
+		},
+		"Renaissance after Renaissance": {
+			"Institution Spread": 0.5
+		},
+		"The Burgundian circle": {
+			"Vassalization Acceptance": 15,
+			"Income from Vassals": 0.5
+		},
+		"A modern standing army": {
+			"Discipline": 0.05
+		}
+	},
+	"Holy Roman Empire-Bohemia": {
+		"Traditions": {
+			"Monthly Autonomy Change": -0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Vozová Hradba": {
+			"Shock Damage Received": -0.1,
+			"Land Fire Damage": 0.1
+		},
+		"Compactata": {
+			"Tolerance of Heretics": 3
+		},
+		"Universitatis Carolinae Ferdinandeae": {
+			"Technology Cost": -0.05,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5,
+			"Yearly Papal Influence": 1
+		},
+		"Teutonic respect": {
+			"Monarch Military Skill": 1
+		},
+		"The reinstatement of a true Reichsgut": {
+			"National Tax Modifier": 0.15,
+			"Global Possible Number of Buildings": 1
+		},
+		"Standardize the Prager groschen": {
+			"Global Trade Power": 0.15
+		},
+		"The legacy of house Luxembourg": {
+			"Number of accepted Cultures": 2,
+			"Opinion of Non-Accepted Culture": 15
+		}
+	},
+	"Holy Roman Empire-Habsburg": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Morale of Armies": 0.15
+		},
+		"Ambition": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Felix Austria": {
+			"Diplomatic Relations": 2
+		},
+		"Neuaufteilung Der Erblande": {
+			"Diplomatic Annexation Cost": -0.2,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Austriae Est Imperare Orbi Universo": {
+			"Aggressive Expansion Impact": -0.1,
+			"Core-Creation Cost": -0.2
+		},
+		"Catholic Supremacy": {
+			"Resistance to Reformation": 0.5,
+			"Missionary Strength vs Heretics": 0.02
+		},
+		"The Diet of Worms": {
+			"Administrative Technology Cost": -0.1,
+			"Reform Progress Growth": 0.25
+		},
+		"The foundations for capitalism": {
+			"Goods Produced Modifier": 0.15,
+			"Trade Efficiency": 0.15
+		},
+		"Imperial Baroque": {
+			"Yearly Prestige": 1
+		}
+	},
+	"Holy Roman Empire-Latin": {
+		"Traditions": {
+			"Global Trade Power": 0.2,
+			"Development Cost in Primary Culture": -0.15
+		},
+		"Ambition": {
+			"Morale of Armies": 0.15
+		},
+		"Birthplace Of Renaissance": {
+			"Technology Cost": -0.1,
+			"Idea Cost": -0.1
+		},
+		"Armata Imperiale": {
+			"Land Force Limit Modifier": 0.33,
+			"Yearly Army Tradition": 0.5
+		},
+		"Statuta Sabaudiae": {
+			"State Maintenance": -0.15
+		},
+		"Cordone Giallo": {
+			"Tolerance of the True Faith": 2,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"The Iron Crown": {
+			"Yearly Prestige": 1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"E Pluribus Unum": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Southern Marches": {
+			"National Manpower Modifier": 0.2
+		}
+	},
+	"Lübeck": {
+		"Traditions": {
+			"Trade Steering": 0.15,
+			"Merchant Trade Power": 5
+		},
+		"Ambition": {
+			"Yearly Navy Tradition": 1
+		},
+		"Kontors": {
+			"Global Trade Power": 0.2
+		},
+		"Lübisches Recht": {
+			"Diplomatic Reputation": 1,
+			"Burghers Loyalty Equilibrium": 0.1
+		},
+		"Schiffskinder": {
+			"National Sailors Modifier": 0.25,
+			"Morale of Navies": 0.1
+		},
+		"Monopoly on Shipbuilding": {
+			"Ship Durability": 0.05,
+			"Ship Costs": -0.1
+		},
+		"Drittel Quartiere": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Abkommen der Hanse": {
+			"Land Force Limit Modifier": 0.25,
+			"Naval Force Limit Modifier": 0.25
+		},
+		"Queen of the Baltic": {
+			"Trade Efficiency": 0.15
+		}
+	},
+	"Cleves": {
+		"Traditions": {
+			"Diplomatic Annexation Cost": -0.15,
+			"National Tax Modifier": 0.1
+		},
+		"Ambition": {
+			"Morale of Armies": 0.1
+		},
+		"The City of Clovers": {
+			"Number of accepted Cultures": 1
+		},
+		"Knight of the Swan": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Limbourg of Old": {
+			"Development Cost": -0.1,
+			"Global Trade Power": 0.1
+		},
+		"Wächter des Klever Reichswald": {
+			"Yearly Prestige": 1
+		},
+		"Via Media": {
+			"Institution Spread": 0.5,
+			"Tolerance of Heretics": 3
+		},
+		"Rhine Toll": {
+			"Caravan Power": 0.2,
+			"Fort Maintenance": -0.2
+		},
+		"They Know our Name": {
+			"Diplomatic Reputation": 1,
+			"Diplomatic Relations": 1
+		}
+	},
+	"Cologne": {
+		"Traditions": {
+			"Diplomatic Annexation Cost": -0.15,
+			"Tolerance of the True Faith": 2
+		},
+		"Ambition": {
+			"Aggressive Expansion Impact": -0.15
+		},
+		"Imperial Concessions:": {
+			"Diplomatic Reputation": 1,
+			"Monthly Favor Growth Modifier": 0.1
+		},
+		"Erblandesvereinigung": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"All Estates Influence Modifier": -0.1
+		},
+		"Free City of Cologne": {
+			"Development Cost": -0.1
+		},
+		"Gaffeln": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Papal Nunciature": {
+			"Missionary Strength vs Heretics": 0.02,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"Flexible Diplomacy": {
+			"Improve Relations": 0.2
+		},
+		"Council, Prime Minister, and Cathedral Chapter": {
+			"Possible Advisors": 1,
+			"Reform Progress Growth": 0.2
+		}
+	},
+	"Lippe": {
+		"Traditions": {
+			"Discipline": 0.05,
+			"Goods Produced Modifier": 0.1
+		},
+		"Ambition": {
+			"Enforce Religion Cost": -0.2
+		},
+		"Allodium": {
+			"National Tax Modifier": 0.15,
+			"National Manpower Modifier": 0.15
+		},
+		"City builders": {
+			"Development Cost": -0.1
+		},
+		"Samtherrschaft": {
+			"Diplomatic Relations": 1,
+			"Monthly Autonomy Change": -0.03
+		},
+		"Pactum unionis": {
+			"Global Trade Power": 0.2,
+			"Burghers Loyalty Equilibrium": 0.1
+		},
+		"The fluidity of religion": {
+			"Tolerance of the True Faith": 2
+		},
+		"Astronomiae instauratae mechanica": {
+			"Diplomatic Technology Cost": -0.1
+		},
+		"Old Saxon reformed": {
+			"Idea Cost": -0.1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 1,
+			"Yearly Papal Influence": 1
+		}
+	},
+	"Mainz": {
+		"Traditions": {
+			"Provincial Trade Power Modifier": 0.15,
+			"National Unrest": -2
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Gutenberg's Press": {
+			"Institution Spread": 0.5,
+			"Technology Cost": -0.1
+		},
+		"Institutionalized Simony": {
+			"National Tax Modifier": 0.2
+		},
+		"Archicancellarius per Germania": {
+			"Yearly Prestige": 1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Found the University of Mainz": {
+			"Idea Cost": -0.1
+		},
+		"Weck, Worscht, and Woi": {
+			"Morale of Armies": 0.1
+		},
+		"Restricted Masonry": {
+			"Fort Defense": 0.15
+		},
+		"City of the Nobility": {
+			"Construction Cost": -0.1,
+			"Nobles Loyalty Equilibrium": 0.1
+		}
+	},
+	"Moravia": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Administrative Efficiency": 0.05
+		},
+		"Fortification experts": {
+			"Global Defender Dice Roll Bonus": 1,
+			"Fort Defense": 0.2
+		},
+		"Saint Rastislav": {
+			"Yearly Patriarch Authority": 0.005,
+			"Tolerance of the True Faith": 2
+		},
+		"Colloquium generale": {
+			"All Estate's Loyalty Equilibrium": 0.1
+		},
+		"Lessons learned": {
+			"Shock Damage Received": -0.1
+		},
+		"Morravian Industrie": {
+			"Goods Produced Modifier": 0.1,
+			"Infantry Fire": 0.3
+		},
+		"Union with Bohemia": {
+			"Diplomatic Reputation": 1
+		},
+		"The dream that was Great Moravia": {
+			"Core-Creation Cost": -0.15,
+			"Morale of Armies": 0.1
+		}
+	},
+	"Nassau": {
+		"Traditions": {
+			"Fort Defense": 0.1,
+			"Movement Speed": 0.1
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.1
+		},
+		"River Tolls": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Zunfet": {
+			"Production Efficiency": 0.15
+		},
+		"Tenacious Rebuilders": {
+			"Construction Cost": -0.1,
+			"Global Monthly Devastation": -0.05
+		},
+		"Rhenish Circles": {
+			"Reform Progress Growth": 0.15,
+			"Stability Cost Modifier": -0.15
+		},
+		"Lowland Dynasties": {
+			"Diplomatic Reputation": 1
+		},
+		"German Viticulture": {
+			"National Unrest": -1
+		},
+		"Romanticism": {
+			"Number of accepted Cultures": 1,
+			"Promote Culture Cost": -0.5
+		}
+	},
+	"Nuremberg": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"Castle of Nuremberg": {
+			"Fort Defense": 0.15,
+			"Yearly Prestige": 0.5
+		},
+		"Reichsschultheiß": {
+			"Stability Cost Modifier": -0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"The unofficial capital": {
+			"Monarch Administrative Skill": 1
+		},
+		"Großer Freiheitsbrief": {
+			"Trade Efficiency": 0.1
+		},
+		"Abolishment of the guilds": {
+			"Burghers Influence": -0.1,
+			"Goods Produced Modifier": 0.1
+		},
+		"The German Renaissance": {
+			"Institution Spread": 0.33,
+			"Technology Cost": -0.1
+		},
+		"Tanzstatut": {
+			"Diplomatic Reputation": 1
+		}
+	},
+	"Oldenburg": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Yearly Prestige": 1
+		},
+		"Descendants of Widukind": {
+			"Attrition for Enemies": 1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Enemies on all sides": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Rivalry with the Frisians": {
+			"Cost to fabricate claims": -0.25,
+			"Unjustified Demands": -0.2
+		},
+		"Kings of the Kalmar Union": {
+			"Chance of New Heir": 1.0,
+			"Years for Personal Union Integration": -15
+		},
+		"Soldier Dukes": {
+			"Morale of Armies": 0.1,
+			"Yearly Army Professionalism": 0.001
+		},
+		"Unity above all": {
+			"Tolerance of Heretics": 2
+		},
+		"Imperial tolls": {
+			"Global Trade Power": 0.15
+		}
+	},
+	"Paderborn": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"Ambition": {
+			"War Score Cost vs Other Religions": -0.15
+		},
+		"Irminsul": {
+			"Yearly Prestige": 1
+		},
+		"Libori": {
+			"Trade Efficiency": 0.1
+		},
+		"Neuhaus Palace": {
+			"Monthly Splendor": 2,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Hochstift Paderborn": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Jesuitenuniversität": {
+			"Tolerance of the True Faith": 1,
+			"Advisor Costs": -0.15
+		},
+		"Kleinmeister": {
+			"Monarch Administrative Skill": 1
+		},
+		"Franco-Prussian Influence": {
+			"Discipline": 0.075,
+			"Harsh Treatment Cost": -0.33
+		}
+	},
+	"The Palatinate": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Monthly Autonomy Change": -0.05
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Imperial Vicars": {
+			"Diplomatic Relations": 1,
+			"Yearly Prestige": 1
+		},
+		"Chancellery of the Empire": {
+			"Monarch Diplomatic Skill": 1
+		},
+		"Heidelberg University": {
+			"Advisor Costs": -0.1
+		},
+		"Bibliotheca Palatina": {
+			"Institution Embracement Cost": -0.2,
+			"Reform Progress Growth": 0.2
+		},
+		"Religious Disputations": {
+			"Development Cost": -0.05,
+			"Tolerance of Heretics": 2
+		},
+		"Compulsory Education": {
+			"Technology Cost": -0.1,
+			"Female Advisor Chance": 0.5
+		},
+		"Mannheim School of Music": {
+			"Prestige Decay": -0.1,
+			"Stability Cost Modifier": -0.1
+		}
+	},
+	"Prussia": {
+		"Traditions": {
+			"Land Force Limit Modifier": 0.2,
+			"Aggressive Expansion Impact": -0.15
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.15
+		},
+		"Preußische Tugenden": {
+			"Tolerance of Heretics": 2,
+			"Morale of Armies": 0.15
+		},
+		"Bewegungskrieg": {
+			"Land Leader Shock": 1,
+			"Movement Speed": 0.1
+		},
+		"Kantonsystem": {
+			"National Manpower Modifier": 0.25
+		},
+		"Herbstübung": {
+			"Yearly Army Tradition": 1,
+			"Army Drill Gain Modifier": 0.33
+		},
+		"Der Stechschritt": {
+			"Fire Damage Received": -0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Preußische Disziplin": {
+			"Discipline": 0.05
+		},
+		"Bildungsreform": {
+			"Technology Cost": -0.1
+		}
+	},
+	"Rothenburg": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.15,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Imperial Swabia": {
+			"Yearly Prestige": 1
+		},
+		"Pre-planned city": {
+			"Development Cost": -0.15
+		},
+		"Territoriale Politik": {
+			"Vassalization Acceptance": 15,
+			"Vassal Force Limit Contribution": 1
+		},
+		"Legal ambiguity": {
+			"Improve Relations": 0.25,
+			"Fort Defense": 0.15
+		},
+		"Defense budget": {
+			"Morale of Armies": 0.15,
+			"Land Maintenance Modifier": -0.15
+		},
+		"Swabian reformation": {
+			"Missionary Strength vs Heretics": 0.02,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"Cultural renaissance": {
+			"Idea Cost": -0.1
+		}
+	},
+	"Dortmund": {
+		"Traditions": {
+			"Construction Cost": -0.1,
+			"Fort Defense": 0.15
+		},
+		"Ambition": {
+			"Reform Progress Growth": 0.15
+		},
+		"Westfälischer Hellweg": {
+			"Caravan Power": 0.15,
+			"National Tax Modifier": 0.15
+		},
+		"Our rights our city": {
+			"Morale of Armies": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"The legalization of the reformation": {
+			"Tolerance of Heretics": 2
+		},
+		"The Hanseatic capital of the Rhine": {
+			"Global Trade Power": 0.15,
+			"Merchants": 1
+		},
+		"Imperial Notoriety": {
+			"Yearly Prestige": 1
+		},
+		"Ruhr industry": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Reichsdeputationshauptschluss": {
+			"Diplomatic Annexation Cost": -0.2
+		}
+	},
+	"Saxony": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.15,
+			"Yearly Prestige": 1
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.2
+		},
+		"Sachsenspiegel": {
+			"National Unrest": -2,
+			"Global Trade Power": 0.15
+		},
+		"Dual Electorship": {
+			"Diplomatic Reputation": 1
+		},
+		"Wise Electors": {
+			"Monarch Administrative Skill": 1
+		},
+		"Meissner Porcelain": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Wittenberg University": {
+			"Tolerance of Heretics": 2,
+			"Tolerance of the True Faith": 1
+		},
+		"Corpus Evangelicorum": {
+			"Diplomatic Relations": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"The Saxon Circle": {
+			"Discipline": 0.05
+		}
+	},
+	"Holstein": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Diplomatic Relations": 1
+		},
+		"Where Germans clash": {
+			"Yearly Army Tradition": 0.5,
+			"Land Leader Maneuver": 1
+		},
+		"City builders": {
+			"Development Cost": -0.2
+		},
+		"Back and forth": {
+			"Number of accepted Cultures": 1
+		},
+		"Treaty of Ribe": {
+			"Diplomatic Reputation": 1
+		},
+		"The Reformation Germanification": {
+			"Culture Conversion Cost": -0.15,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"Codex Holmiensis": {
+			"Possible Policies": 1
+		},
+		"The Holstein condominium": {
+			"Monthly Autonomy Change": -0.02,
+			"Max Privileges per Estate": 1
+		}
+	},
+	"Salzburg": {
+		"Traditions": {
+			"Goods Produced Modifier": 0.1,
+			"Land Maintenance Modifier": -0.15
+		},
+		"Ambition": {
+			"Morale of Armies": 0.1
+		},
+		"Festung Hohensalzburg": {
+			"Fort Defense": 0.25
+		},
+		"Residenzstadt": {
+			"Monthly Autonomy Change": -0.03,
+			"All Estates Influence Modifier": -0.1
+		},
+		"Transalpine Infrastructure": {
+			"Construction Cost": -0.1,
+			"Caravan Power": 0.2
+		},
+		"Center of Counter-Reformation": {
+			"Missionary Strength vs Heretics": 0.02,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"True Neutrality": {
+			"Improve Relations": 0.15
+		},
+		"German Baroque": {
+			"Yearly Prestige": 1
+		},
+		"Magic Boy Trials": {
+			"Stability Cost Modifier": -0.15
+		}
+	},
+	"Lusatia": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.2,
+			"Caravan Power": 0.15
+		},
+		"Ambition": {
+			"Production Efficiency": 0.1
+		},
+		"Spreewald und Grenzwall": {
+			"Morale Damage": 0.1
+		},
+		"Lusatian textiles": {
+			"Regiment Costs": -0.15,
+			"Land Attrition": -0.25
+		},
+		"Protestant Refuge": {
+			"Development Cost": -0.1
+		},
+		"Estate assembly": {
+			"All Estates Influence Modifier": -0.1,
+			"Stability Cost Modifier": -0.15
+		},
+		"Silver mines": {
+			"Global Trade Power": 0.15,
+			"Yearly Inflation Reduction": 0.1
+		},
+		"Lusatian Hussars": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry to Infantry Ratio": 0.25,
+			"Special Unit Force Limit": 0.1
+		},
+		"Revival of the Sorbian identity": {
+			"Culture Conversion Cost": -0.2
+		}
+	},
+	"Styria": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Die Steiermark": {
+			"Yearly Prestige": 1
+		},
+		"Lower Styria": {
+			"Production Efficiency": 0.1
+		},
+		"Land of monasteries": {
+			"Development Cost": -0.1,
+			"Clergy Loyalty Equilibrium": 0.1
+		},
+		"Georgenberger Handfeste": {
+			"Nobles Loyalty Equilibrium": 0.1,
+			"Income from Vassals": 0.33
+		},
+		"Vertrag von Neuberg": {
+			"Reform Progress Growth": 0.25,
+			"Diplomatic Relations": 1
+		},
+		"University of Graz": {
+			"Technology Cost": -0.05,
+			"Cost of Advisors with Ruler's Religion": -0.2
+		},
+		"Marchia Carantana": {
+			"Core-Creation Cost": -0.15
+		}
+	},
+	"Swabia": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.15,
+			"Construction Cost": -0.15
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Cradle of Dynasties": {
+			"Diplomatic Reputation": 2,
+			"Chance of New Heir": 1
+		},
+		"Schwäbischer Städtebund": {
+			"Diplomatic Relations": 1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15,
+			"Yearly Army Professionalism": 0.01
+		},
+		"Reichsfreiheit": {
+			"Development Cost": -0.1
+		},
+		"Divided in Faith, United in Purpose": {
+			"Tolerance of Heretics": 2,
+			"Maximum Tolerance of Heretics": 2
+		},
+		"Swabian Circle": {
+			"Reform Progress Growth": 0.2
+		},
+		"Swabian Industriousness": {
+			"Goods Produced Modifier": 0.1
+		}
+	},
+	"Switzerland": {
+		"Traditions": {
+			"Possible Condottieri": 0.5,
+			"Shock Damage Received": -0.1
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Drills and Drums": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Alpine Defensiveness": {
+			"Fort Defense": 0.25,
+			"Fort Maintenance": -0.2
+		},
+		"Swiss Farming Techniques": {
+			"Development Cost": -0.1
+		},
+		"Three Languages, One Culture": {
+			"Number of accepted Cultures": 2
+		},
+		"Debate Religious Issues": {
+			"Tolerance of Heretics": 3
+		},
+		"The Calling": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Universal Conscription": {
+			"National Manpower Modifier": 0.2
+		}
+	},
+	"Teutonic Order": {
+		"Traditions": {
+			"Yearly Army Tradition": 1,
+			"Discipline": 0.05
+		},
+		"Ambition": {
+			"National Tax Modifier": 0.1
+		},
+		"Großschäffer": {
+			"Trade Steering": 0.1,
+			"Trade Efficiency": 0.1
+		},
+		"Schiffskinder": {
+			"National Manpower Modifier": 0.15,
+			"Marines Force Limit": 0.1
+		},
+		"Preußischer Landtag": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Eastern Crusade": {
+			"Missionary Strength": 0.02,
+			"Church Power": 0.05,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"Knights of the Empire": {
+			"Mercenary Cost": -0.15
+		},
+		"Magister Germaniae": {
+			"Military Free Policies": 1
+		},
+		"Prussian Junkers": {
+			"Leaders Without Upkeep": 1
+		}
+	},
+	"Thuringia": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Monarch Military Skill": 1
+		},
+		"Altes Thüringen": {
+			"Yearly Prestige": 1
+		},
+		"Dux Sorabici Limitis et Duces Thuringorum": {
+			"Yearly Army Tradition": 0.5,
+			"Infantry Combat Ability": 0.1
+		},
+		"Das Land der Burgen und Schlösser": {
+			"Fort Defense": 0.3,
+			"Land Leader Siege": 1
+		},
+		"Alte Stämme": {
+			"Reasons to Elect": 20,
+			"Imperial Authority Growth Modifier": 0.1
+		},
+		"Sängerkrieg": {
+			"Institution Spread": 0.33
+		},
+		"Teutonic Ties": {
+			"Discipline": 0.05,
+			"Shock Damage Received": -0.1
+		},
+		"Thuringian succession": {
+			"Diplomatic Relations": 1
+		}
+	},
+	"Tirol": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"The alps are our friends": {
+			"Development Cost": -0.1,
+			"Land Attrition": -0.25
+		},
+		"Imperial passes": {
+			"Center of Trade Upgrade Cost": -0.2,
+			"Diplomatic Reputation": 1
+		},
+		"Forts and valleys": {
+			"Garrison Size": 0.33,
+			"Global Defender Dice Roll Bonus": 1
+		},
+		"De Jure flexibility": {
+			"Improve Relations": 0.2
+		},
+		"Tiroler silver": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Imperial Mint": {
+			"Monthly Gold Inflation Modifier": -0.2,
+			"Reduce Inflation Cost": -0.5
+		},
+		"Kingmakers": {
+			"Yearly Prestige": 1,
+			"Imperial Authority Growth Modifier": 0.1
+		}
+	},
+	"Trier": {
+		"Traditions": {
+			"Construction Cost": -0.1,
+			"Land Force Limit Modifier": 0.15
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.2
+		},
+		"Roman infrastructure": {
+			"Development Cost": -0.1,
+			"State Maintenance": -0.2
+		},
+		"Archicancellarius per Galliam": {
+			"Clergy Loyalty Equilibrium": 0.1,
+			"Opinion of same Religion": 25
+		},
+		"Concilie of Trento": {
+			"Missionary Strength vs Heretics": 0.02,
+			"Resistance to Reformation": 0.5
+		},
+		"University of Trier": {
+			"Cost of Advisors with Ruler's Culture": -0.2
+		},
+		"Landwirtschaftsausstellung": {
+			"Caravan Power": 0.25
+		},
+		"Seamless Robe of Jesus": {
+			"Tolerance of the True Faith": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"Bridge between empires": {
+			"Diplomats": 1
+		}
+	},
+	"Three Leagues": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"League of Gods House": {
+			"Clergy Loyalty Equilibrium": 0.1,
+			"Global Trade Power": 0.1
+		},
+		"Gray League": {
+			"Infantry Combat Ability": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"League of ten jurisdictions": {
+			"Reform Progress Growth": 0.15,
+			"Burghers Loyalty Equilibrium": 0.1
+		},
+		"The Three Leagues": {
+			"Diplomatic Reputation": 1
+		},
+		"Expanding the league": {
+			"Vassalization Acceptance": 10,
+			"Liberty Desire from Subjects Development": -0.33
+		},
+		"Landfrieden": {
+			"Monthly Autonomy Change": -0.03
+		},
+		"Control over the alpine passes": {
+			"Caravan Power": 0.2
+		}
+	},
+	"Westphalia": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Yearly Army Tradition": 0.5
+		},
+		"Ambition": {
+			"Development Cost": -0.075
+		},
+		"Mountains and deep forests": {
+			"Attrition for Enemies": 2,
+			"Land Leader Shock": 1
+		},
+		"A people not a state": {
+			"National Unrest": -2
+		},
+		"Imperial founding": {
+			"Improve Relations": 0.2
+		},
+		"Westphalian way": {
+			"Construction Cost": -0.1,
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"Catholic Saxons": {
+			"Tolerance of the True Faith": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 2
+		},
+		"Westphalian system": {
+			"Monthly Autonomy Change": -0.05,
+			"Diplomats": 1
+		},
+		"Old Saxony": {
+			"Fire Damage Received": -0.1
+		}
+	},
+	"Ansbach": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"Oberland und Unterland": {
+			"Goods Produced Modifier": 0.1
+		},
+		"The Franconian circle": {
+			"Diplomatic Relations": 1
+		},
+		"Ordre de la Sincérité": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Flexible loyalty": {
+			"Change Rival Cost": -0.5,
+			"Tolerance of Heretics": 2
+		},
+		"Prussian family": {
+			"Discipline": 0.05,
+			"Infantry Combat Ability": 0.05
+		},
+		"Gravenreuther Stift": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Ansbacher Fayence-Manufaktur": {
+			"Production Efficiency": 0.1
+		}
+	},
+	"Bayreuth": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"Oberland und Unterland": {
+			"Goods Produced Modifier": 0.1
+		},
+		"The Franconian circle": {
+			"Diplomatic Relations": 1
+		},
+		"Ordre de la Sincérité": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Flexible loyalty": {
+			"Change Rival Cost": -0.5,
+			"Tolerance of Heretics": 2
+		},
+		"Prussian family": {
+			"Discipline": 0.05,
+			"Infantry Combat Ability": 0.05
+		},
+		"Gravenreuther Stift": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Ansbacher Fayence-Manufaktur": {
+			"Production Efficiency": 0.1
+		}
+	},
+	"Bavaria": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Imperial Authority Growth Modifier": 0.1
+		},
+		"Lex Baiuvariorum": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Frankish Heritage": {
+			"Diplomatic Reputation": 2
+		},
+		"Teilherzogtümer": {
+			"Income from Vassals": 0.25,
+			"Liberty Desire": -0.1
+		},
+		"Regierungsbezirke": {
+			"Administrative Efficiency": 0.05
+		},
+		"Reinheitsgebot": {
+			"Goods Produced Modifier": 0.15
+		},
+		"The Bavarian Circle": {
+			"Monarch Diplomatic Skill": 1,
+			"Monthly Splendor": 2
+		},
+		"Imperial Rivalries": {
+			"Diplomats": 1,
+			"Change Rival Cost": -0.5
+		}
+	},
+	"Ingolstadt": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Imperial Authority Growth Modifier": 0.1
+		},
+		"Lex Baiuvariorum": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Frankish Heritage": {
+			"Diplomatic Reputation": 2
+		},
+		"Teilherzogtümer": {
+			"Income from Vassals": 0.25,
+			"Liberty Desire": -0.1
+		},
+		"Regierungsbezirke": {
+			"Administrative Efficiency": 0.05
+		},
+		"Reinheitsgebot": {
+			"Goods Produced Modifier": 0.15
+		},
+		"The Bavarian Circle": {
+			"Monarch Diplomatic Skill": 1,
+			"Monthly Splendor": 2
+		},
+		"Imperial Rivalries": {
+			"Diplomats": 1,
+			"Change Rival Cost": -0.5
+		}
+	},
+	"Landshut": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Imperial Authority Growth Modifier": 0.1
+		},
+		"Lex Baiuvariorum": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Frankish Heritage": {
+			"Diplomatic Reputation": 2
+		},
+		"Teilherzogtümer": {
+			"Income from Vassals": 0.25,
+			"Liberty Desire": -0.1
+		},
+		"Regierungsbezirke": {
+			"Administrative Efficiency": 0.05
+		},
+		"Reinheitsgebot": {
+			"Goods Produced Modifier": 0.15
+		},
+		"The Bavarian Circle": {
+			"Monarch Diplomatic Skill": 1,
+			"Monthly Splendor": 2
+		},
+		"Imperial Rivalries": {
+			"Diplomats": 1,
+			"Change Rival Cost": -0.5
+		}
+	},
+	"Munich": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Imperial Authority Growth Modifier": 0.1
+		},
+		"Lex Baiuvariorum": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Frankish Heritage": {
+			"Diplomatic Reputation": 2
+		},
+		"Teilherzogtümer": {
+			"Income from Vassals": 0.25,
+			"Liberty Desire": -0.1
+		},
+		"Regierungsbezirke": {
+			"Administrative Efficiency": 0.05
+		},
+		"Reinheitsgebot": {
+			"Goods Produced Modifier": 0.15
+		},
+		"The Bavarian Circle": {
+			"Monarch Diplomatic Skill": 1,
+			"Monthly Splendor": 2
+		},
+		"Imperial Rivalries": {
+			"Diplomats": 1,
+			"Change Rival Cost": -0.5
+		}
+	},
+	"Bamberg": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Liege": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Magdeburg": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Münster": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Osnabrück": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Passau": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Trent": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Verden": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Wurzburg": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Supreme control of the Clergy": {
+			"Clergy Influence": -0.1,
+			"Clergy Max Privileges": 1
+		},
+		"Suffragan duties": {
+			"Development Cost": -0.05,
+			"National Tax Modifier": 0.15
+		},
+		"Foundation of the church": {
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Religious volunteers": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Counter-reformation": {
+			"Missionary Strength vs Heretics": 0.01,
+			"Missionaries": 1
+		},
+		"Clerical diplomacy": {
+			"Diplomatic Relations": 1
+		},
+		"Peace of Augsburg": {
+			"Tolerance of Heretics": 1
+		}
+	},
+	"Baden": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Bregenz": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Donauwörth": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Konstanz": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Memmingen": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Mulhouse": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Regensburg": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Ulm": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Wurttemberg": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.1
+		},
+		"Decapole": {
+			"Diplomatic Relations": 1
+		},
+		"Imperial Cities": {
+			"Development Cost": -0.1
+		},
+		"Landsknechte": {
+			"Infantry Shock": 0.15
+		},
+		"Regierungsbezirke": {
+			"National Tax Modifier": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Lederhosen": {
+			"Shock Damage Received": -0.1
+		},
+		"Schlösser und Burgen": {
+			"Fort Defense": 0.15
+		},
+		"Volkfeste": {
+			"National Unrest": -1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Goslar": {
+		"Traditions": {
+			"Infantry Cost": -0.1,
+			"Garrison Size": 0.25
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Ostsiedlung": {
+			"Global Settler Increase": 20,
+			"Culture Conversion Cost": -0.2
+		},
+		"Saxon Heritage": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Hansa": {
+			"Trade Efficiency": 0.1,
+			"Transfer Trade Acceptance": 0.2
+		},
+		"Eastern and Northern Marks": {
+			"Fort Defense": 0.2,
+			"National Manpower Modifier": 0.15
+		},
+		"Vernacular German": {
+			"Idea Cost": -0.1
+		},
+		"Integrated Firearms": {
+			"Land Fire Damage": 0.15
+		},
+		"Lessons of the Thirty Years' War": {
+			"Discipline": 0.05
+		}
+	},
+	"Saxe-Lauenburg": {
+		"Traditions": {
+			"Infantry Cost": -0.1,
+			"Garrison Size": 0.25
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Ostsiedlung": {
+			"Global Settler Increase": 20,
+			"Culture Conversion Cost": -0.2
+		},
+		"Saxon Heritage": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Hansa": {
+			"Trade Efficiency": 0.1,
+			"Transfer Trade Acceptance": 0.2
+		},
+		"Eastern and Northern Marks": {
+			"Fort Defense": 0.2,
+			"National Manpower Modifier": 0.15
+		},
+		"Vernacular German": {
+			"Idea Cost": -0.1
+		},
+		"Integrated Firearms": {
+			"Land Fire Damage": 0.15
+		},
+		"Lessons of the Thirty Years' War": {
+			"Discipline": 0.05
+		}
+	},
+	"Mecklenburg": {
+		"Traditions": {
+			"Infantry Cost": -0.1,
+			"Garrison Size": 0.25
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Ostsiedlung": {
+			"Global Settler Increase": 20,
+			"Culture Conversion Cost": -0.2
+		},
+		"Saxon Heritage": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Hansa": {
+			"Trade Efficiency": 0.1,
+			"Transfer Trade Acceptance": 0.2
+		},
+		"Eastern and Northern Marks": {
+			"Fort Defense": 0.2,
+			"National Manpower Modifier": 0.15
+		},
+		"Vernacular German": {
+			"Idea Cost": -0.1
+		},
+		"Integrated Firearms": {
+			"Land Fire Damage": 0.15
+		},
+		"Lessons of the Thirty Years' War": {
+			"Discipline": 0.05
+		}
+	},
+	"Ruppin": {
+		"Traditions": {
+			"Infantry Cost": -0.1,
+			"Garrison Size": 0.25
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Ostsiedlung": {
+			"Global Settler Increase": 20,
+			"Culture Conversion Cost": -0.2
+		},
+		"Saxon Heritage": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Hansa": {
+			"Trade Efficiency": 0.1,
+			"Transfer Trade Acceptance": 0.2
+		},
+		"Eastern and Northern Marks": {
+			"Fort Defense": 0.2,
+			"National Manpower Modifier": 0.15
+		},
+		"Vernacular German": {
+			"Idea Cost": -0.1
+		},
+		"Integrated Firearms": {
+			"Land Fire Damage": 0.15
+		},
+		"Lessons of the Thirty Years' War": {
+			"Discipline": 0.05
+		}
+	},
+	"Brunswick": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Yearly Army Tradition": 0.5
+		},
+		"Ambition": {
+			"Development Cost": -0.075
+		},
+		"True heirs of Saxony": {
+			"Cost to fabricate claims": -0.25
+		},
+		"Skilled in the art of marriage": {
+			"Diplomatic Relations": 1
+		},
+		"Saxon Military culture:": {
+			"Military Technology Cost": -0.1
+		},
+		"The Saxon Circle": {
+			"Vassalization Acceptance": 10,
+			"Income from Vassals": 0.5
+		},
+		"Saxon Hussars": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry Flanking Ability": 1
+		},
+		"Schwarze Legion": {
+			"Infantry Fire": 0.3,
+			"Infantry Combat Ability": 0.1
+		},
+		"The realm of henry the lion": {
+			"Monthly Autonomy Change": -0.05,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Calenberg": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Yearly Army Tradition": 0.5
+		},
+		"Ambition": {
+			"Development Cost": -0.075
+		},
+		"True heirs of Saxony": {
+			"Cost to fabricate claims": -0.25
+		},
+		"Skilled in the art of marriage": {
+			"Diplomatic Relations": 1
+		},
+		"Saxon Military culture:": {
+			"Military Technology Cost": -0.1
+		},
+		"The Saxon Circle": {
+			"Vassalization Acceptance": 10,
+			"Income from Vassals": 0.5
+		},
+		"Saxon Hussars": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry Flanking Ability": 1
+		},
+		"Schwarze Legion": {
+			"Infantry Fire": 0.3,
+			"Infantry Combat Ability": 0.1
+		},
+		"The realm of henry the lion": {
+			"Monthly Autonomy Change": -0.05,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Lüneburg": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Yearly Army Tradition": 0.5
+		},
+		"Ambition": {
+			"Development Cost": -0.075
+		},
+		"True heirs of Saxony": {
+			"Cost to fabricate claims": -0.25
+		},
+		"Skilled in the art of marriage": {
+			"Diplomatic Relations": 1
+		},
+		"Saxon Military culture:": {
+			"Military Technology Cost": -0.1
+		},
+		"The Saxon Circle": {
+			"Vassalization Acceptance": 10,
+			"Income from Vassals": 0.5
+		},
+		"Saxon Hussars": {
+			"May Recruit Winged Hussars": true,
+			"Cavalry Flanking Ability": 1
+		},
+		"Schwarze Legion": {
+			"Infantry Fire": 0.3,
+			"Infantry Combat Ability": 0.1
+		},
+		"The realm of henry the lion": {
+			"Monthly Autonomy Change": -0.05,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Pomerania": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Cavalry Cost": -0.15
+		},
+		"Ambition": {
+			"Merchants": 1
+		},
+		"Bridge between Germans and Slavs": {
+			"Cavalry Shock": 0.5,
+			"Siege Ability": 0.1
+		},
+		"The lands of House Griffin": {
+			"Diplomatic Relations": 1,
+			"Years for Personal Union Integration": -20
+		},
+		"Kammin diocese": {
+			"Missionary Strength": 0.02
+		},
+		"The duchy of Slavinia": {
+			"Number of accepted Cultures": 2
+		},
+		"Ostsiedlung": {
+			"Fort Maintenance": -0.25,
+			"Global Settler Increase": 15
+		},
+		"Backyard of the Hanseatic League": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"The Pomeranian church": {
+			"Yearly Army Tradition": 0.5,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		}
+	},
+	"Rügen": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Cavalry Cost": -0.15
+		},
+		"Ambition": {
+			"Merchants": 1
+		},
+		"Bridge between Germans and Slavs": {
+			"Cavalry Shock": 0.5,
+			"Siege Ability": 0.1
+		},
+		"The lands of House Griffin": {
+			"Diplomatic Relations": 1,
+			"Years for Personal Union Integration": -20
+		},
+		"Kammin diocese": {
+			"Missionary Strength": 0.02
+		},
+		"The duchy of Slavinia": {
+			"Number of accepted Cultures": 2
+		},
+		"Ostsiedlung": {
+			"Fort Maintenance": -0.25,
+			"Global Settler Increase": 15
+		},
+		"Backyard of the Hanseatic League": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"The Pomeranian church": {
+			"Yearly Army Tradition": 0.5,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		}
+	},
+	"Stettin": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Cavalry Cost": -0.15
+		},
+		"Ambition": {
+			"Merchants": 1
+		},
+		"Bridge between Germans and Slavs": {
+			"Cavalry Shock": 0.5,
+			"Siege Ability": 0.1
+		},
+		"The lands of House Griffin": {
+			"Diplomatic Relations": 1,
+			"Years for Personal Union Integration": -20
+		},
+		"Kammin diocese": {
+			"Missionary Strength": 0.02
+		},
+		"The duchy of Slavinia": {
+			"Number of accepted Cultures": 2
+		},
+		"Ostsiedlung": {
+			"Fort Maintenance": -0.25,
+			"Global Settler Increase": 15
+		},
+		"Backyard of the Hanseatic League": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"The Pomeranian church": {
+			"Yearly Army Tradition": 0.5,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		}
+	},
+	"Wolgast": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Cavalry Cost": -0.15
+		},
+		"Ambition": {
+			"Merchants": 1
+		},
+		"Bridge between Germans and Slavs": {
+			"Cavalry Shock": 0.5,
+			"Siege Ability": 0.1
+		},
+		"The lands of House Griffin": {
+			"Diplomatic Relations": 1,
+			"Years for Personal Union Integration": -20
+		},
+		"Kammin diocese": {
+			"Missionary Strength": 0.02
+		},
+		"The duchy of Slavinia": {
+			"Number of accepted Cultures": 2
+		},
+		"Ostsiedlung": {
+			"Fort Maintenance": -0.25,
+			"Global Settler Increase": 15
+		},
+		"Backyard of the Hanseatic League": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"The Pomeranian church": {
+			"Yearly Army Tradition": 0.5,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		}
+	},
+	"Andalusia": {
+		"Traditions": {
+			"Morale of Armies": 0.15,
+			"War Score Cost vs Other Religions": -0.2
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.15
+		},
+		"Medical Advancements": {
+			"Manpower Recovery Speed": 0.2
+		},
+		"Encourage Al-Kimiya": {
+			"Technology Cost": -0.1
+		},
+		"True Successor to the Caliphate": {
+			"Yearly Legitimacy": 1
+		},
+		"Taifa Administration": {
+			"Vassal Force Limit Contribution": 1.0
+		},
+		"Propagate the Maliki School": {
+			"Missionary Strength vs Heretics": 0.02,
+			"Reform Progress Growth": 0.15
+		},
+		"Import Berber Armies": {
+			"Cavalry Combat Ability": 0.15,
+			"Cavalry Cost": -0.1
+		},
+		"Secure the African Trade": {
+			"Trade Steering": 0.2
+		}
+	},
+	"Aragon": {
+		"Traditions": {
+			"Diplomatic Relations": 1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Siege Ability": 0.15
+		},
+		"Almogavars": {
+			"Infantry Combat Ability": 0.1,
+			"Land Fire Damage": 0.1
+		},
+		"Crown of Aragon": {
+			"Yearly Prestige": 1
+		},
+		"Fueros de Aragón": {
+			"National Unrest": -1,
+			"Nobles Loyalty Equilibrium": 0.1
+		},
+		"Thalassocracy": {
+			"Galley Combat Ability": 0.2
+		},
+		"Consulate of the Sea": {
+			"Trade Efficiency": 0.15
+		},
+		"Trading Halls": {
+			"Global Trade Power": 0.15
+		},
+		"Taula de Canvi": {
+			"Interest Per Annum": -1,
+			"Yearly Inflation Reduction": 0.1
+		}
+	},
+	"Asturias": {
+		"Traditions": {
+			"Land Leader Shock": 1,
+			"Discipline": 0.05
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.2
+		},
+		"Reconquista": {
+			"War Score Cost vs Other Religions": -0.3
+		},
+		"Santiago Matamoros": {
+			"Morale of Armies": 0.15
+		},
+		"Strategic Depopulation": {
+			"Attrition for Enemies": 1,
+			"Fort Defense": 0.2
+		},
+		"Refuge for Mozarabs": {
+			"Development Cost": -0.1
+		},
+		"Cruz de la Victoria": {
+			"Yearly Army Tradition": 0.5
+		},
+		"The Asturian Art": {
+			"Construction Cost": -0.1
+		},
+		"First Crusader Kings": {
+			"Yearly Legitimacy": 1,
+			"Yearly Papal Influence": 2
+		}
+	},
+	"Castille": {
+		"Traditions": {
+			"Morale of Armies": 0.15,
+			"Fort Defense": 0.2
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"People of War": {
+			"National Manpower Modifier": 0.2
+		},
+		"Toledo Steel": {
+			"Shock Damage": 0.1
+		},
+		"Royal Universities": {
+			"Technology Cost": -0.05,
+			"Institution Spread In True Faith Provinces": 0.2
+		},
+		"Inter Caetera": {
+			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
+			"Colonists": 1
+		},
+		"Encomienda": {
+			"Goods Produced Modifier": 0.05,
+			"Global Settler Increase": 20
+		},
+		"Imperator Hispaniae": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Castilian Language": {
+			"Culture Conversion Cost": -0.2
+		}
+	},
+	"Catalonia": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Fort Defense": 0.2
+		},
+		"Ambition": {
+			"Diplomatic Reputation": 1
+		},
+		"Generalitat de Catalunya": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Catalan Constitutions": {
+			"National Unrest": -2,
+			"Stability Cost Modifier": -0.15
+		},
+		"Sagramental": {
+			"National Manpower Modifier": 0.2
+		},
+		"Catalan Galleys": {
+			"Galley Combat Ability": 0.2
+		},
+		"The Catalan Company": {
+			"Mercenary Manpower": 0.25,
+			"Mercenary Discipline": 0.05
+		},
+		"Consell de Cent": {
+			"Yearly Corruption": -0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Remença de Los Pagesos": {
+			"Goods Produced Modifier": 0.1
+		}
+	},
+	"Galicia": {
+		"Traditions": {
+			"Fort Defense": 0.2,
+			"Land Fire Damage": 0.1
+		},
+		"Ambition": {
+			"National Unrest": -2
+		},
+		"Always Armed": {
+			"Shock Damage Received": -0.15
+		},
+		"Sanctuaria de Santiago": {
+			"Tolerance of the True Faith": 2,
+			"Yearly Papal Influence": 2,
+			"Church Power": 0.15
+		},
+		"El Camino Real": {
+			"National Tax Modifier": 0.15,
+			"Caravan Power": 0.2
+		},
+		"Fogar de Breógan": {
+			"Colonists": 1
+		},
+		"Santiago Y Cierra": {
+			"Morale of Armies": 0.15
+		},
+		"Maritime Highways": {
+			"Fleet Exploration Range": 0.15
+		},
+		"Irmandiños": {
+			"Infantry Combat Ability": 0.15
+		}
+	},
+	"Granada": {
+		"Traditions": {
+			"National Tax Modifier": 0.15,
+			"Fort Maintenance": -0.2
+		},
+		"Ambition": {
+			"War Score Cost vs Other Religions": -0.2
+		},
+		"Al-Zillij": {
+			"Yearly Prestige": 1
+		},
+		"Al-Andalus": {
+			"Core-Creation Cost": -0.15
+		},
+		"Volunteers of the Faith": {
+			"National Manpower Modifier": 0.2
+		},
+		"Strait of Gibraltar": {
+			"Domestic Trade Power": 0.1,
+			"Trade Steering": 0.1
+		},
+		"Use Old to Build the New": {
+			"Construction Cost": -0.15
+		},
+		"Canals, Cisterns, and Towers": {
+			"Fort Defense": 0.25
+		},
+		"Garnata Al-Yahud": {
+			"Advisor Costs": -0.2
+		}
+	},
+	"León": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Yearly Legitimacy": 1
+		},
+		"Ambition": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"Cortes": {
+			"Reform Progress Growth": 0.15,
+			"National Unrest": -2
+		},
+		"Order of Santiago": {
+			"Cavalry Combat Ability": 0.2
+		},
+		"Hidalgos": {
+			"Discipline": 0.05
+		},
+		"Concilios, Fueros, Y Leyes": {
+			"Possible Policies": 1,
+			"Yearly Prestige": 1
+		},
+		"Continue the Reconquista": {
+			"Yearly Army Tradition": 0.5
+		},
+		"School of Salamanca": {
+			"Idea Cost": -0.1
+		},
+		"Expressions of Faith": {
+			"Tolerance of the True Faith": 2
+		}
+	},
+	"Majorca": {
+		"Traditions": {
+			"Morale of Navies": 0.1,
+			"May Raid Coasts": true
+		},
+		"Ambition": {
+			"Morale Hit When Losing a Ship": -0.2
+		},
+		"Privative Kingdom": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3,
+			"Yearly Devotion": 1
+		},
+		"Haven for the Slave Trade": {
+			"Galley Combat Ability": 0.2
+		},
+		"Miquelets": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Lliures O Morts": {
+			"Morale of Armies": 0.1
+		},
+		"Raid the Moros": {
+			"Privateer Efficiency": 0.15
+		},
+		"Island Harbors": {
+			"Global Trade Power": 0.1
+		},
+		"Insular Council": {
+			"Construction Cost": -0.1
+		}
+	},
+	"Navarra": {
+		"Traditions": {
+			"Land Fire Damage": 0.1,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Number of accepted Cultures": 2
+		},
+		"Moros en la Costa": {
+			"Fort Defense": 0.2
+		},
+		"Follow the Whale Migrations": {
+			"Fleet Exploration Range": 0.33,
+			"Colonists": 1
+		},
+		"Navarrese Company": {
+			"Mercenary Cost": -0.15
+		},
+		"Beneficial Trade Deals": {
+			"Trade Efficiency": 0.1
+		},
+		"Royal Basque Society": {
+			"Idea Cost": -0.1,
+			"Development Cost": -0.05
+		},
+		"The Beret": {
+			"Discipline": 0.05
+		},
+		"Carlism": {
+			"Morale of Armies": 0.1,
+			"Yearly Legitimacy": 1
+		}
+	},
+	"Portugal": {
+		"Traditions": {
+			"Fleet Exploration Range": 0.25,
+			"Infantry Fire": 0.15
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"A New Age of Sail": {
+			"Ship Durability": 0.1,
+			"Diplomatic Technology Cost": -0.1
+		},
+		"The Black Swords": {
+			"Infantry Combat Ability": 0.1,
+			"Marines Force Limit": 0.33
+		},
+		"Early Adoption of Gunpowder": {
+			"Military Technology Cost": -0.1
+		},
+		"Tordesillas": {
+			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
+			"Colonists": 1
+		},
+		"Feitorias": {
+			"Provincial Trade Power Modifier": 0.2,
+			"Trade Company Investment Cost": -0.2
+		},
+		"Cartazes": {
+			"Global Ship Trade Power": 0.2
+		},
+		"Portolan Charts": {
+			"Global Naval Engagement Modifier": 0.1
+		}
+	},
+	"Valencia": {
+		"Traditions": {
+			"Goods Produced Modifier": 0.1,
+			"Trade Steering": 0.2
+		},
+		"Ambition": {
+			"Artillery Fire": 1
+		},
+		"Heritage of Balansiyya": {
+			"Development Cost": -0.15
+		},
+		"Integrate the Mudejar": {
+			"Missionary Strength": 0.02
+		},
+		"Twice Loyal": {
+			"Fort Defense": 0.2
+		},
+		"Llotja de la Seda": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"Valencia Oranges": {
+			"Naval Attrition": -0.25
+		},
+		"Germanies": {
+			"Naval Combat Bonus off Owned Coast": 1,
+			"Ship Costs": -0.1
+		},
+		"Cradle of Iberia": {
+			"Culture Conversion Cost": -0.15
+		}
+	},
+	"Spain": {
+		"Traditions": {
+			"Morale of Armies": 0.15,
+			"Artillery Fire": 1
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Catholic Monarchs": {
+			"Yearly Papal Influence": 2
+		},
+		"Cása de Contración": {
+			"Liberty Desire from Subjects Development": -0.2,
+			"Treasure Fleet Income": 0.5
+		},
+		"Inter Caetera": {
+			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
+			"Colonists": 1
+		},
+		"Global Currency": {
+			"Global Trade Power": 0.2
+		},
+		"Spanish Inquisition": {
+			"Missionaries": 1
+		},
+		"Gregorian Calendar": {
+			"Production Efficiency": 0.1
+		},
+		"Guerilla Warfare": {
+			"Attrition for Enemies": 1
+		}
+	},
+	"Delhi": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.2,
+			"Monthly Autonomy Change": -0.05
+		},
+		"Ambition": {
+			"Artillery Combat Ability": 0.1
+		},
+		"Indo-Mussalman Nobility": {
+			"Yearly Army Tradition Decay": -0.01
+		},
+		"A Two Pronged defense": {
+			"Improve Relations": 0.2,
+			"Fort Defense": 0.2
+		},
+		"Streamlined Diwan": {
+			"Advisor Costs": -0.15
+		},
+		"Kharaj": {
+			"National Tax Modifier": 0.15
+		},
+		"Zawabit": {
+			"Tolerance of the True Faith": 1,
+			"Reform Progress Growth": 0.1
+		},
+		"Decimal Hierarchies": {
+			"Leaders Without Upkeep": 1
+		},
+		"Stand Against Rajputana": {
+			"Aggressive Expansion Impact": -0.1,
+			"Morale of Armies": 0.1
+		}
+	},
+	"Bengal": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Merchants": 1
+		},
+		"Ambition": {
+			"Diplomatic Technology Cost": -0.1
+		},
+		"Shah-I-Bangalah": {
+			"Province War Score Cost": -0.1,
+			"Land Leader Shock": 1
+		},
+		"Peace of Sikander Shah": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Coin and Cowry": {
+			"Yearly Inflation Reduction": 0.1
+		},
+		"The Golden Age of Sufism": {
+			"Idea Cost": -0.1
+		},
+		"Habshi Imports": {
+			"Manpower Recovery Speed": 0.1
+		},
+		"Bountiful Harvests in the Bhati": {
+			"Development Cost": -0.1,
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Gangajal": {
+			"Goods Produced Modifier": 0.15
+		}
+	},
+	"Gujarat": {
+		"Traditions": {
+			"Global Trade Power": 0.15,
+			"Naval Force Limit Modifier": 0.33
+		},
+		"Ambition": {
+			"Trade Efficiency": 0.15
+		},
+		"Jamat Bandi": {
+			"National Unrest": -2
+		},
+		"Garba!": {
+			"Religious Unity": 0.5
+		},
+		"Gujarati Lipi": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Svetembara Banking": {
+			"Interest Per Annum": -0.5
+		},
+		"Bab-El Makkah": {
+			"Tolerance of the True Faith": 1,
+			"Trade Steering": 0.2
+		},
+		"Vanya Merchants": {
+			"Trade Range": 0.2,
+			"Merchants": 1
+		},
+		"Begada": {
+			"Fort Defense": 0.2
+		}
+	},
+	"Jaunpur": {
+		"Traditions": {
+			"Administrative Technology Cost": -0.1,
+			"Manpower Recovery Speed": 0.2
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Sangitasiromani": {
+			"Idea Cost": -0.075
+		},
+		"Malik-Us-Sharqi": {
+			"Morale of Armies": 0.1
+		},
+		"Treatises on Theology and Law": {
+			"Yearly Corruption": -0.1
+		},
+		"Zamindars and Peasant Warriors": {
+			"Land Force Limit Modifier": 0.25,
+			"War Taxes Cost": -0.5
+		},
+		"Shiraz-I-Hind": {
+			"Institution Embracement Cost": -0.2
+		},
+		"The Abode of Peace": {
+			"Development Cost": -0.1,
+			"Monthly War Exhaustion": -0.03
+		},
+		"Bahri and Tatari": {
+			"Cavalry Cost": -0.2,
+			"Cavalry Combat Ability": 0.1
+		}
+	},
+	"Marathas": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Mercenary Cost": -0.15
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Hindavi Swarajya": {
+			"Tolerance of the True Faith": 1,
+			"Morale of Armies": 0.1
+		},
+		"Ganimi Kawa": {
+			"Fire Damage Received": -0.05
+		},
+		"Kunbi": {
+			"Infantry Cost": -0.15
+		},
+		"Ashta Pradhan": {
+			"Reform Progress Growth": 0.15,
+			"Administrative Efficiency": 0.05
+		},
+		"The Maratha Navy": {
+			"Yearly Navy Tradition": 1,
+			"Galley Combat Ability": 0.15
+		},
+		"Hilltop Forts": {
+			"Fort Defense": 0.2
+		},
+		"The Peshwa": {
+			"Possible Policies": 1
+		}
+	},
+	"Mewar": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Province War Score Cost": -0.15
+		},
+		"Ambition": {
+			"Yearly Army Tradition Decay": -0.01
+		},
+		"Protected by Kumbhalgarh": {
+			"Fort Defense": 0.2
+		},
+		"Vijay Stambah": {
+			"Yearly Prestige": 1
+		},
+		"Bravery, Not Arms": {
+			"Shock Damage": 0.1
+		},
+		"Free the Brothers From Jizya!": {
+			"Morale of Armies": 0.15
+		},
+		"Lead the Confederation": {
+			"Governing Capacity Modifier": 0.1,
+			"Special Unit Force Limit": 0.1
+		},
+		"Udaipur: City of Lakes": {
+			"Development Cost": -0.1
+		},
+		"Leonidus of Rajasthan": {
+			"Land Leader Shock": 1
+		}
+	},
+	"Mughals": {
+		"Traditions": {
+			"Shock Damage Received": -0.1,
+			"National Tax Modifier": 0.1
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.15
+		},
+		"Legacy of Ali Quli": {
+			"Land Fire Damage": 0.1
+		},
+		"Sawar and Zat Ranks": {
+			"Land Force Limit Modifier": 0.1,
+			"Cavalry Combat Ability": 0.2
+		},
+		"Subahs": {
+			"State Maintenance": -0.25
+		},
+		"Shirazi Volleys and Zafarbaksh": {
+			"Military Technology Cost": -0.1,
+			"Artillery Combat Ability": 0.15
+		},
+		"Madad-I Ma'Ash": {
+			"Clergy Loyalty Equilibrium": 0.1,
+			"Tolerance of the True Faith": 1
+		},
+		"Fatawa-i-Alamgiri": {
+			"Reform Progress Growth": 0.2
+		},
+		"Hierarchical Agrarian Reforms": {
+			"Production Efficiency": 0.15
+		}
+	},
+	"Orissa": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.25,
+			"Core-Creation Cost": -0.1
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Suryavamsi Militarism": {
+			"Morale of Armies": 0.15,
+			"National Manpower Modifier": 0.1
+		},
+		"Servitors of Jagannath": {
+			"Tolerance of the True Faith": 2,
+			"Construction Cost": -0.1
+		},
+		"Angavala": {
+			"Fort Defense": 0.2
+		},
+		"Gajapati Gaudesvara Nava Koti Karnata Kalavargesvara": {
+			"Monarch Military Skill": 1
+		},
+		"Royal Sasans": {
+			"Yearly Legitimacy": 1,
+			"Yearly Prestige": 0.5
+		},
+		"Dandapata and Rajya": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Bhakti and Vaishnavism": {
+			"Idea Cost": -0.05
+		}
+	},
+	"Vijayanagar": {
+		"Traditions": {
+			"National Manpower Modifier": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Artillery Combat Ability": 0.1
+		},
+		"Amaranayaka Sainya": {
+			"Land Force Limit Modifier": 0.25
+		},
+		"The Council of Ministers": {
+			"Possible Advisors": 1,
+			"All Estate's Loyalty Equilibrium": 0.05
+		},
+		"Varnasramadharma": {
+			"Stability Cost Modifier": -0.15
+		},
+		"Amaramakni": {
+			"Yearly Army Tradition": 0.5,
+			"National Tax Modifier": 0.1
+		},
+		"Astadiggajas": {
+			"Idea Cost": -0.1
+		},
+		"Virabanajigas and Paradesi": {
+			"Global Trade Power": 0.15,
+			"Goods Produced Modifier": 0.1
+		},
+		"Vijayanagara and Hampi": {
+			"Tolerance of the True Faith": 1,
+			"Development Cost": -0.1
+		}
+	},
+	"Ferrara": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Land Fire Damage": 0.1
+		},
+		"Gli Estensi": {
+			"Yearly Legitimacy": 1
+		},
+		"Condotte Militari": {
+			"Mercenary Maintenance": -0.33,
+			"Mercenary Manpower": 0.15
+		},
+		"Addizione Erculea": {
+			"Development Cost": -0.1
+		},
+		"Mecenatismo Estense": {
+			"Advisor Costs": -0.15,
+			"Idea Cost": -0.05
+		},
+		"Castello Estense": {
+			"Fort Defense": 0.15
+		},
+		"Corti Imperiali": {
+			"Yearly Prestige": 1
+		},
+		"Fonderie Ferraresi": {
+			"Artillery Cost": -0.1,
+			"Artillery Combat Ability": 0.1
+		}
+	},
+	"Genoa": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Yearly Republican Tradition": 0.5
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"Balestrieri Genovesi": {
+			"Infantry Fire": 0.2
+		},
+		"Vivaldi, Noli E Malfante": {
+			"Allows recruitment of explorers & conquistadors": true,
+			"Naval Attrition": -0.25,
+			"Fleet Exploration Range": 0.33
+		},
+		"Colonie Genovesi": {
+			"Global Trade Power": 0.15
+		},
+		"Ianuensis Ergo Mercator": {
+			"Merchant Trade Power": 15
+		},
+		"Officium Sancti Georgii": {
+			"Yearly Inflation Reduction": 0.1,
+			"Interest Per Annum": -1.25
+		},
+		"Regole Di Gazaria": {
+			"Galley Cost": -0.15,
+			"Naval Force Limit Modifier": 0.33
+		},
+		"Magistrato Delle Galee": {
+			"Ship Durability": 0.1
+		}
+	},
+	"Italy": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"National Manpower Modifier": 0.33
+		},
+		"Ambition": {
+			"Possible Policies": 1
+		},
+		"Culla Del Rinascimento": {
+			"All Power Cost": -0.05
+		},
+		"Milizia": {
+			"Morale of Armies": 0.1,
+			"Infantry Combat Ability": 0.15
+		},
+		"Arsenali Marittimi": {
+			"Galley Combat Ability": 0.15,
+			"Global Trade Power": 0.15
+		},
+		"Repubbliche Marinare": {
+			"Global Ship Trade Power": 0.2
+		},
+		"Corti Imperiali": {
+			"Improve Relations": 0.5
+		},
+		"Fortificazione All'Italiana": {
+			"Fort Defense": 0.25
+		},
+		"Pianure Alluvionali": {
+			"Development Cost": -0.05,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Lucca": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Global Ship Trade Power": 0.2
+		},
+		"Capitale della Marca di Tuscia": {
+			"Development Cost": -0.1
+		},
+		"Henrici IV Diplomata": {
+			"Construction Cost": -0.1,
+			"Improve Relations": 0.15
+		},
+		"Consoli Maggiori": {
+			"Reform Progress Growth": 0.15
+		},
+		"Cinque Porte di Lucca": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"XII Anziani": {
+			"All Estate's Loyalty Equilibrium": 0.1
+		},
+		"Mura di Lucca": {
+			"Fort Defense": 0.15,
+			"Fort Maintenance": -0.15
+		},
+		"Università di Lucca": {
+			"Technology Cost": -0.05,
+			"Idea Cost": -0.05
+		}
+	},
+	"Mantua": {
+		"Traditions": {
+			"Cavalry Cost": -0.2,
+			"Diplomats": 1
+		},
+		"Ambition": {
+			"Cavalry Fire": 1
+		},
+		"I Gonzaga": {
+			"Improve Relations": 0.15
+		},
+		"Condotte Militari": {
+			"Mercenary Maintenance": -0.33,
+			"Mercenary Manpower": 0.15
+		},
+		"Celeste Galleria": {
+			"Advisor Costs": -0.1,
+			"Idea Cost": -0.05
+		},
+		"Quattro Laghi Di Mincio": {
+			"Fort Defense": 0.15,
+			"Development Cost": -0.1
+		},
+		"Cordone Giallo": {
+			"Tolerance of the True Faith": 2,
+			"Yearly Papal Influence": 2
+		},
+		"Ghetto Mantovano": {
+			"Interest Per Annum": -0.5
+		},
+		"Corti Imperiali": {
+			"Diplomatic Reputation": 1
+		}
+	},
+	"Montferrat": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Yearly Prestige": 1
+		},
+		"Ambition": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Montferratian Viticulture": {
+			"Goods Produced Modifier": 0.1,
+			"National Unrest": -1
+		},
+		"Leadership in the Fourth Crusade": {
+			"Manpower in True Faith Provinces": 0.15,
+			"Yearly Patriarch Authority": 0.001,
+			"Yearly Papal Influence": 1
+		},
+		"Palaiologos Rule": {
+			"Yearly Legitimacy": 1
+		},
+		"Last Claimants of Byzantium": {
+			"Province War Score Cost": -0.1
+		},
+		"Rolling Hills of Montferrat": {
+			"Fort Defense": 0.15
+		},
+		"French and Savoyard Influence": {
+			"Diplomats": 1
+		},
+		"Greco-Italian Heritage": {
+			"Development Cost": -0.1,
+			"Advisor Costs": -0.1
+		}
+	},
+	"Milan": {
+		"Traditions": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.5,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.15
+		},
+		"Piastra Alla Milanese": {
+			"Shock Damage Received": -0.15
+		},
+		"Camera Dei Mercanti": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Espansione Viscontea": {
+			"Core-Creation Cost": -0.15
+		},
+		"Ufficio Del Governatore Degli Statuti": {
+			"Technology Cost": -0.05,
+			"Reform Progress Growth": 0.15
+		},
+		"Armata Ducale": {
+			"Land Force Limit Modifier": 0.15,
+			"Yearly Army Tradition": 0.5
+		},
+		"Naviglio Grande": {
+			"Development Cost": -0.1
+		},
+		"Centro Del Commercio Padano": {
+			"Caravan Power": 0.15,
+			"Merchants": 1
+		}
+	},
+	"Naples": {
+		"Traditions": {
+			"National Manpower Modifier": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Land Force Limit Modifier": 0.15
+		},
+		"Sicilian Kingship": {
+			"Diplomatic Reputation": 1,
+			"Yearly Legitimacy": 1
+		},
+		"Repubblica Di Salerno": {
+			"Ship Costs": -0.15,
+			"Global Ship Trade Power": 0.1
+		},
+		"Liber Augustalis": {
+			"Development Cost": -0.1
+		},
+		"Università Federico II": {
+			"Technology Cost": -0.1
+		},
+		"Conquista Di Ladislao": {
+			"Province War Score Cost": -0.15
+		},
+		"Transumanza": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Le Castella": {
+			"Fort Defense": 0.2
+		}
+	},
+	"The Papal State": {
+		"Traditions": {
+			"Improve Relations": 0.25,
+			"Advisor Costs": -0.15
+		},
+		"Ambition": {
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Patrimonii Sancti Peter": {
+			"Tolerance of the True Faith": 2,
+			"Religious Unity": 0.15
+		},
+		"Bibliotheca Apostolica Vaticana": {
+			"Technology Cost": -0.075
+		},
+		"Vicarius Christi": {
+			"War Score Cost vs Other Religions": -0.15
+		},
+		"Camera Domini Papae": {
+			"Construction Cost": -0.05,
+			"Development Cost": -0.1
+		},
+		"Liber Constitutionum Sanctae Matris Ecclesiae": {
+			"All Estate's Loyalty Equilibrium": 0.1
+		},
+		"Acriter et Fideliter": {
+			"Yearly Army Tradition": 0.33,
+			"Discipline": 0.05
+		},
+		"Dicasterium Pro Doctrina Fidei": {
+			"Harsh Treatment Cost": -0.25,
+			"Missionary Strength vs Heretics": 0.03
+		}
+	},
+	"Perugia": {
+		"Traditions": {
+			"Mercenary Manpower": 0.5,
+			"Mercenary Cost": -0.15
+		},
+		"Ambition": {
+			"Mercenary Discipline": 0.075
+		},
+		"Ercolano Di Perugia": {
+			"Tolerance of the True Faith": 2
+		},
+		"Governo Artigiano": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Braccio Di Montone": {
+			"Shock Damage": 0.1,
+			"Mercenary Maintenance": -0.15
+		},
+		"Signoria Perugina": {
+			"Yearly Republican Tradition": 0.5,
+			"Reform Progress Growth": 0.15
+		},
+		"Rinascimento Dei Baglioni": {
+			"Advisor Costs": -0.1
+		},
+		"Guerra Del Sale": {
+			"Monthly War Exhaustion": -0.03,
+			"Army Tradition From Battles": 0.75
+		},
+		"Rocca Paolina": {
+			"Fort Defense": 0.2
+		}
+	},
+	"Pisa": {
+		"Traditions": {
+			"Galley Combat Ability": 0.15,
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Devotion": 1
+		},
+		"Ambition": {
+			"Trade Efficiency": 0.15
+		},
+		"Crusading Traditions": {
+			"Morale of Armies": 0.1,
+			"Tolerance of the True Faith": 1
+		},
+		"Empori Meridionali": {
+			"Provincial Trade Power Modifier": 0.15,
+			"Merchants": 1
+		},
+		"Gesta Triumphalia per Pisanos": {
+			"Morale of Navies": 0.1
+		},
+		"Rinascimento Toscano": {
+			"Technology Cost": -0.1,
+			"Reform Progress Growth": 0.1
+		},
+		"Liber Maiolichinus": {
+			"Naval Force Limit Modifier": 0.15
+		},
+		"Foce Dell'Arno": {
+			"Development Cost": -0.1
+		},
+		"Repubblica Tirrena": {
+			"Global Trade Power": 0.15
+		}
+	},
+	"Sardinia": {
+		"Traditions": {
+			"Fort Defense": 0.25,
+			"Reform Progress Growth": 0.15
+		},
+		"Ambition": {
+			"Production Efficiency": 0.1
+		},
+		"Nuraghi": {
+			"Attrition for Enemies": 1,
+			"Naval Combat Bonus off Owned Coast": 1
+		},
+		"Giudicati Sardi": {
+			"Development Cost": -0.1
+		},
+		"Porto Torres": {
+			"Naval Force Limit Modifier": 0.2
+		},
+		"Defensive Tactics": {
+			"Land Leader Maneuver": 1,
+			"Naval Leader Maneuver": 1
+		},
+		"I D'Arborea": {
+			"Morale of Armies": 0.1,
+			"Manpower Recovery Speed": 0.1
+		},
+		"Miniere Sarde": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Marchesato D'Oristano": {
+			"Discipline": 0.05
+		}
+	},
+	"Savoy": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Improve Relations": 0.25
+		},
+		"Ambition": {
+			"Aggressive Expansion Impact": -0.1
+		},
+		"Cittadella": {
+			"Fort Defense": 0.2
+		},
+		"Franco-Italian Influence": {
+			"Technology Cost": -0.1,
+			"Possible Advisors": 1
+		},
+		"Northern Meddling": {
+			"Diplomatic Reputation": 1
+		},
+		"Decima": {
+			"National Tax Modifier": 0.15
+		},
+		"Legion Des Allobroges": {
+			"Infantry Combat Ability": 0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Statuta Sabaudiae": {
+			"State Maintenance": -0.15
+		},
+		"Venaria Reale": {
+			"Yearly Legitimacy": 1,
+			"Yearly Prestige": 1
+		}
+	},
+	"Sicily": {
+		"Traditions": {
+			"National Manpower Modifier": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Land Force Limit Modifier": 0.15
+		},
+		"Sicilian Kingship": {
+			"Diplomatic Reputation": 1,
+			"Yearly Legitimacy": 1
+		},
+		"Norman Knights": {
+			"Discipline": 0.05
+		},
+		"Parramentu Sicilianu": {
+			"Reform Progress Growth": 0.15
+		},
+		"Vespri Siciliani": {
+			"Morale of Armies": 0.15
+		},
+		"La Bellezza Della Sicilia": {
+			"Tolerance of Heathens": 1,
+			"Number of accepted Cultures": 1
+		},
+		"Spanish Heritage": {
+			"Tolerance of the True Faith": 1,
+			"Fort Defense": 0.15
+		},
+		"Stretto Di Sicilia": {
+			"Galley Combat Ability": 0.15
+		}
+	},
+	"Siena": {
+		"Traditions": {
+			"Reform Progress Growth": 0.15,
+			"Yearly Republican Tradition": 0.5
+		},
+		"Ambition": {
+			"Global Trade Power": 0.15
+		},
+		"Lupa Sienese": {
+			"Morale of Armies": 0.1
+		},
+		"Ospedale Santa maria delle Scale": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Palio di Siena": {
+			"Cavalry Combat Ability": 0.15
+		},
+		"Duomo di Siena": {
+			"Missionary Strength": 0.015,
+			"Yearly Papal Influence": 1
+		},
+		"Cristallo Colle Val d'Elsa": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Monte dei Paschi di Siena": {
+			"Yearly Inflation Reduction": 0.05,
+			"Interest Per Annum": -0.75
+		},
+		"Accademia degli Intronati": {
+			"Technology Cost": -0.1
+		}
+	},
+	"Sardinia-Piedmont": {
+		"Traditions": {
+			"Monthly Autonomy Change": -0.05,
+			"Improve Relations": 0.2
+		},
+		"Ambition": {
+			"Aggressive Expansion Impact": -0.15
+		},
+		"Artistical Resurgence": {
+			"Construction Cost": -0.1
+		},
+		"Regia Armata Sarda": {
+			"Land Force Limit Modifier": 0.2,
+			"Morale of Armies": 0.1
+		},
+		"Istruzione Gesuita": {
+			"Idea Cost": -0.1,
+			"Institution Spread": 0.1
+		},
+		"Fusione Perfetta": {
+			"Number of accepted Cultures": 2
+		},
+		"Accademia Reale Di Torino": {
+			"Discipline": 0.05,
+			"National Manpower Modifier": 0.15
+		},
+		"Cassa Ecclesiastica": {
+			"Yearly Papal Influence": 2,
+			"Church Power": 0.1,
+			"Tolerance of Heretics": 1
+		},
+		"Tentativu Industriare": {
+			"Production Efficiency": 0.1
+		}
+	},
+	"Saluzzo": {
+		"Traditions": {
+			"Aggressive Expansion Impact": -0.15,
+			"Manpower Recovery Speed": 0.2
+		},
+		"Ambition": {
+			"Province War Score Cost": -0.15
+		},
+		"Discendenza Aleramica": {
+			"Yearly Legitimacy": 1,
+			"Improve Relations": 0.15
+		},
+		"Del Vasto": {
+			"Discipline": 0.05
+		},
+		"The Po Valley": {
+			"Development Cost": -0.1
+		},
+		"Il Marchese e gli Statuti": {
+			"All Estate's Loyalty Equilibrium": 0.075,
+			"All Estates Influence Modifier": -0.075
+		},
+		"Santa Maria Vergine Assunta": {
+			"Manpower in True Faith Provinces": 0.15
+		},
+		"Comunità Ebraica di Saluzzo": {
+			"Yearly Inflation Reduction": 0.05
+		},
+		"Francia e Savoia": {
+			"Diplomatic Reputation": 1
+		}
+	},
+	"Two Sicilies": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Morale of Navies": 0.1
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.15
+		},
+		"Constitutiones Regni Siciliarum": {
+			"Possible Policies": 1
+		},
+		"Crown of the Two Sicilies": {
+			"Yearly Legitimacy": 1,
+			"Diplomatic Reputation": 1
+		},
+		"Arsenali Marittimi": {
+			"Naval Force Limit Modifier": 0.15
+		},
+		"Real Esercito": {
+			"Land Force Limit Modifier": 0.2,
+			"Yearly Army Tradition": 0.5
+		},
+		"Pubblica Istruzione": {
+			"Technology Cost": -0.075,
+			"Yearly Corruption": -0.05
+		},
+		"Transumanza": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Flotta Commerciale": {
+			"Naval Leader Maneuver": 2
+		}
+	},
+	"Tuscany": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Improve Relations": 0.25
+		},
+		"Ambition": {
+			"Construction Cost": -0.1
+		},
+		"Pavese": {
+			"Fire Damage Received": -0.05
+		},
+		"Birthplace of Renaissance": {
+			"Technology Cost": -0.1,
+			"Idea Cost": -0.1
+		},
+		"Bande Toscane": {
+			"Land Force Limit Modifier": 0.15,
+			"National Manpower Modifier": 0.15
+		},
+		"Uffizi": {
+			"Advisor Costs": -0.15,
+			"Possible Advisors": 1
+		},
+		"Riforma Di Terra": {
+			"Development Cost Modifier": -0.15
+		},
+		"Fiorino D'Oro": {
+			"Interest Per Annum": -0.75
+		},
+		"Artigianato Fiorentino": {
+			"Goods Produced Modifier": 0.15,
+			"Institution Spread": 0.05
+		}
+	},
+	"Urbino": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Fort Defense": 0.2
+		},
+		"Ambition": {
+			"Yearly Legitimacy": 1
+		},
+		"Condotte Militari": {
+			"Mercenary Manpower": 0.33,
+			"Mercenary Cost": -0.1
+		},
+		"Maiolica": {
+			"Production Efficiency": 0.1
+		},
+		"Federico da Montefeltro": {
+			"Mercenary Discipline": 0.05,
+			"Army Tradition From Battles": 0.5
+		},
+		"Rinascimento urbinate": {
+			"Development Cost": -0.075
+		},
+		"Piero della Francesca": {
+			"Cost of Advisors with Ruler's Culture": -0.2
+		},
+		"Studio e Biblioteca": {
+			"Idea Cost": -0.1
+		},
+		"Palazzo Ducale di Urbino": {
+			"Yearly Prestige": 1,
+			"Monthly Splendor": 2
+		}
+	},
+	"Venice": {
+		"Traditions": {
+			"Galley Combat Ability": 0.25,
+			"Yearly Republican Tradition": 0.5
+		},
+		"Ambition": {
+			"Trade Efficiency": 0.15
+		},
+		"Arsenale Veneziano": {
+			"Naval Force Limit Modifier": 0.2,
+			"Diplomatic Technology Cost": -0.1
+		},
+		"Armada": {
+			"Morale of Navies": 0.15,
+			"Yearly Navy Tradition": 1
+		},
+		"Vetro Murano": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Savij alle Acque": {
+			"Development Cost": -0.1
+		},
+		"Fanti Di Mar": {
+			"Shock Damage": 0.1,
+			"Marines Force Limit": 0.5
+		},
+		"Aldina": {
+			"Institution Spread": 0.15
+		},
+		"Galeazza": {
+			"Naval Leader Fire": 2
+		}
+	},
+	"Verona": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Morale of Armies": 0.15
+		},
+		"Ambition": {
+			"State Maintenance": -0.15
+		},
+		"Santa Maria Antica": {
+			"Yearly Papal Influence": 1,
+			"Tolerance of the True Faith": 1
+		},
+		"Scaligeri di Verona": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3,
+			"Advisor Costs": -0.15
+		},
+		"Signoria Veronese": {
+			"Trade Efficiency": 0.15
+		},
+		"Stella Forte": {
+			"Core-Creation Cost": -0.15
+		},
+		"Rinascimento degli Scaligeri": {
+			"Development Cost": -0.075,
+			"Construction Cost": -0.075
+		},
+		"Epoca Scaligera": {
+			"Yearly Prestige": 1,
+			"Monthly Splendor": 1
+		},
+		"Baroni di Randazzo": {
+			"Infantry Combat Ability": 0.1
+		}
+	},
+	"Cyprus": {
+		"Traditions": {
+			"Diplomats": 1,
+			"Tolerance of Heretics": 4
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"The Kingdom of the Lusignan": {
+			"Yearly Legitimacy": 1,
+			"Diplomatic Reputation": 1
+		},
+		"Safe Haven or Strategic Base": {
+			"Galley Combat Ability": 0.2,
+			"Transport Cost": -0.2
+		},
+		"Byzantine Refugees": {
+			"Idea Cost": -0.1
+		},
+		"Cooperation With the Orders": {
+			"Discipline": 0.05
+		},
+		"The House of Ibelin": {
+			"Yearly Army Tradition": 1
+		},
+		"Fortress Monasteries": {
+			"Fort Defense": 0.1
+		},
+		"The Christian Entrepot of the East": {
+			"Goods Produced Modifier": 0.1,
+			"Global Trade Power": 0.15
+		}
+	},
+	"Jerusalem-Knights": {
+		"Traditions": {
+			"Tolerance of Heathens": 3,
+			"Manpower Recovery Speed": 0.2
+		},
+		"Ambition": {
+			"Diplomatic Reputation": 2
+		},
+		"Our Order Became Many": {
+			"Yearly Army Tradition": 1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Fortification Experts": {
+			"Siege Ability": 0.1,
+			"Fort Defense": 0.3
+		},
+		"The Navel of the World": {
+			"Institution Spread": 0.33,
+			"Diplomatic Reputation": 2
+		},
+		"Our Duties Can Continue": {
+			"Shock Damage Received": -0.1,
+			"National Unrest": -2
+		},
+		"All Are Welcome": {
+			"Global Trade Power": 0.1,
+			"Number of accepted Cultures": 1
+		},
+		"Reestablishing our Banks": {
+			"Interest Per Annum": -1
+		},
+		"The Empire of Heaven": {
+			"Governing Capacity Modifier": 0.1
+		}
+	},
+	"Jerusalem": {
+		"Traditions": {
+			"Diplomats": 1,
+			"Missionary Strength": 0.02
+		},
+		"Ambition": {
+			"Yearly Papal Influence": 2
+		},
+		"The Navel of the World": {
+			"Diplomatic Reputation": 2,
+			"Institution Spread": 0.33
+		},
+		"The Return of the Orders": {
+			"National Unrest": -2,
+			"Shock Damage Received": -0.1
+		},
+		"All Are Welcome": {
+			"Global Trade Power": 0.1,
+			"Number of accepted Cultures": 1
+		},
+		"The House of Ibelin": {
+			"Yearly Army Tradition": 1,
+			"Fort Defense": 0.2
+		},
+		"The Blooming Desert": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Legacy of the Leper King": {
+			"Land Leader Maneuver": 1
+		},
+		"The Empire of Outremer": {
+			"Governing Capacity Modifier": 0.1
+		}
+	},
+	"Jerusalem-Latin": {
+		"Traditions": {
+			"Missionary Strength": 0.02,
+			"Yearly Prestige": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Patriarcha Latinus": {
+			"Missionaries": 1,
+			"Yearly Papal Influence": 2
+		},
+		"Nostri Unctiones Roma": {
+			"Technology Cost": -0.075
+		},
+		"Legioni Christiani": {
+			"Manpower in True Faith Provinces": 0.2,
+			"Shock Damage": 0.1
+		},
+		"Reditus Ordinus Sanctorum": {
+			"Shock Damage Received": -0.1
+		},
+		"Arces Terrae Sanctae Nostrae": {
+			"Fort Defense": 0.15
+		},
+		"Reviviscens Latinaea Iudaeae": {
+			"Culture Conversion Cost": -0.2
+		},
+		"Imperium Caelorum": {
+			"Governing Capacity Modifier": 0.1,
+			"Stability Cost Modifier": -0.1
+		}
+	},
+	"Mamluks": {
+		"Traditions": {
+			"Yearly Army Tradition": 0.5,
+			"Cavalry Combat Ability": 0.2
+		},
+		"Ambition": {
+			"Global Trade Power": 0.15
+		},
+		"The Royal Mamluks": {
+			"Morale of Armies": 0.1
+		},
+		"Mamluk Architecture": {
+			"Yearly Prestige": 1
+		},
+		"Hisbah": {
+			"Production Efficiency": 0.1,
+			"Monthly Autonomy Change": -0.05
+		},
+		"Amir al-Arab": {
+			"Cavalry Cost": -0.1,
+			"Shock Damage": 0.1
+		},
+		"Self Appointed Qadi al-Qudah": {
+			"Tolerance of Heretics": 2
+		},
+		"Ustadar al-Aliyah": {
+			"Land Maintenance Modifier": -0.1,
+			"Military Advisor Cost": -0.2
+		},
+		"Khushdashiyyah": {
+			"Stability Cost Modifier": -0.1,
+			"Yearly Absolutism": 0.5
+		}
+	},
+	"Trebizond": {
+		"Traditions": {
+			"Tolerance of the True Faith": 3,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.15
+		},
+		"Last of the Rhomanoi": {
+			"Idea Cost": -0.15,
+			"Yearly Army Tradition": 0.5
+		},
+		"The Komnenos Dynasty": {
+			"Discipline": 0.05,
+			"Yearly Legitimacy": 1
+		},
+		"Between the Mountains and the Sea": {
+			"Naval Tradition from Protecting Trade": 1,
+			"Fort Defense": 0.15
+		},
+		"The New Constantinople": {
+			"Global Trade Power": 0.15
+		},
+		"The Acts of Vazelon": {
+			"Monarch Administrative Skill": 1
+		},
+		"The Princes of the Lazes": {
+			"Infantry Fire": 0.3,
+			"Number of accepted Cultures": 1
+		},
+		"Emperors Once More": {
+			"Governing Capacity Modifier": 0.1
+		}
+	},
+	"Brabant": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Stability Cost Modifier": -0.1
+		},
+		"Ambition": {
+			"Trade Steering": 0.2
+		},
+		"Stadsrechten en Belforten": {
+			"National Unrest": -1,
+			"Morale of Armies": 0.2
+		},
+		"Brusselse Wandtapijten": {
+			"Production Efficiency": 0.1,
+			"Improve Relations": 0.2
+		},
+		"Het Ziekenhuis Van Ninove": {
+			"Manpower Recovery Speed": 0.1
+		},
+		"Faceting!": {
+			"Goods Produced Modifier": 0.1,
+			"National Tax Modifier": 0.1
+		},
+		"De Opkomst Van Antwerpen": {
+			"Global Trade Power": 0.1
+		},
+		"De Gilden Van Brussel": {
+			"Administrative Technology Cost": -0.1,
+			"Interest Per Annum": -0.5
+		},
+		"De Erfgenamen Van Lothar": {
+			"Infantry Cost": -0.1,
+			"National Manpower Modifier": 0.15
+		}
+	},
+	"East Frisia": {
+		"Traditions": {
+			"Stability Cost Modifier": -0.1,
+			"Fort Defense": 0.15
+		},
+		"Ambition": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"Fryske Frijheid": {
+			"Morale of Armies": 0.1
+		},
+		"Brokmerbrief": {
+			"Privateer Efficiency": 0.15
+		},
+		"Haadlingen": {
+			"National Unrest": -1
+		},
+		"The Victual Brothers": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1
+		},
+		"Defeat the Empire": {
+			"Discipline": 0.05
+		},
+		"Mennonite Refuge": {
+			"Tolerance of Heretics": 2
+		},
+		"Frisian Parliament": {
+			"Monthly Autonomy Change": -0.05,
+			"Reform Progress Growth": 0.2
+		}
+	},
+	"Flanders": {
+		"Traditions": {
+			"Development Cost": -0.1,
+			"Institution Spread": 0.1
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Vlaamse Lakens": {
+			"Production Efficiency": 0.15
+		},
+		"Guldensporenslag": {
+			"Infantry Combat Ability": 0.1,
+			"Shock Damage Received": -0.05
+		},
+		"Koningen Van Jeruzalem": {
+			"Yearly Prestige": 1
+		},
+		"De Vlaamse Renaissance": {
+			"Technology Cost": -0.05,
+			"Advisor Costs": -0.1
+		},
+		"De Brugse Beurs": {
+			"Trade Efficiency": 0.15
+		},
+		"Trappisten Orden": {
+			"National Unrest": -2
+		},
+		"The Leeuw Zal Wederom Brullen": {
+			"Morale of Armies": 0.1,
+			"Yearly Army Tradition": 0.5
+		}
+	},
+	"Friesland": {
+		"Traditions": {
+			"National Tax Modifier": 0.15,
+			"Development Cost": -0.1
+		},
+		"Ambition": {
+			"Reduced Morale Damage Taken By Reserves": 0.25
+		},
+		"Upstalsboom": {
+			"National Unrest": -2
+		},
+		"Fryske Frijheid": {
+			"Morale of Armies": 0.1
+		},
+		"Signal Ships": {
+			"Global Ship Trade Power": 0.2
+		},
+		"Frisian Horse Breeding": {
+			"Cavalry Combat Ability": 0.1
+		},
+		"Zuider Embankments": {
+			"Construction Cost": -0.1
+		},
+		"Cross of the Dutchman": {
+			"Land Leader Shock": 1
+		},
+		"Stins": {
+			"Fort Defense": 0.15
+		}
+	},
+	"Gelre": {
+		"Traditions": {
+			"Diplomatic Annexation Cost": -0.15,
+			"National Tax Modifier": 0.1
+		},
+		"Ambition": {
+			"Interest Per Annum": -1
+		},
+		"Expansion of the Kastells": {
+			"Garrison Size": 0.25
+		},
+		"Imperial Elevation": {
+			"Yearly Prestige": 0.5,
+			"Unjustified Demands": -0.25
+		},
+		"Independent Spirit": {
+			"Morale of Armies": 0.1
+		},
+		"Gelderse Oorlogen": {
+			"HRE Mercenary Recruitment Cost": -0.1,
+			"Mercenary Discipline": 0.05
+		},
+		"Loot as Payment": {
+			"Looting Speed": 0.25
+		},
+		"Strategic Marriages": {
+			"Diplomatic Reputation": 1
+		},
+		"Kastell Kilns": {
+			"Goods Produced Modifier": 0.1
+		}
+	},
+	"Holland": {
+		"Traditions": {
+			"National Sailors Modifier": 0.25,
+			"Naval Force Limit Modifier": 0.5
+		},
+		"Ambition": {
+			"Institution Spread": 0.5
+		},
+		"Polders": {
+			"Development Cost": -0.1
+		},
+		"Handelscompagnieën": {
+			"Merchants": 1,
+			"Global Ship Trade Power": 0.25
+		},
+		"Soldaten Ter Zee": {
+			"Infantry Combat Ability": 0.1,
+			"Marines Force Limit": 0.5
+		},
+		"De Admiraliteit": {
+			"Naval Leader Fire": 2,
+			"National Sailors Modifier": 0.1
+		},
+		"Gekoloniseerd!": {
+			"Colonists": 1,
+			"Fleet Exploration Range": 0.35
+		},
+		"Nieuw Amsterdam": {
+			"Global Settler Increase": 25
+		},
+		"Monopoly Op Het Oosten": {
+			"Global Trade Power": 0.2
+		}
+	},
+	"Netherlands-Dutch": {
+		"Traditions": {
+			"Morale of Navies": 0.15,
+			"Naval Force Limit Modifier": 0.5
+		},
+		"Ambition": {
+			"Colonists": 1
+		},
+		"Polders": {
+			"Development Cost": -0.1
+		},
+		"Dijk-Piercing": {
+			"Fort Defense": 0.2,
+			"Attrition for Enemies": 1
+		},
+		"Wisselbank": {
+			"Interest Per Annum": -0.5,
+			"Yearly Inflation Reduction": 0.15
+		},
+		"Mauritian Reforms": {
+			"Infantry Fire": 0.2,
+			"Military Technology Cost": -0.1
+		},
+		"Haven for Religious Refugees": {
+			"Tolerance of Heathens": 2
+		},
+		"Die Voorcompagnieën": {
+			"Trade Efficiency": 0.15
+		},
+		"Instructie Voor de Admiraliteiten": {
+			"Naval Leader Fire": 2,
+			"Global Naval Engagement Modifier": 0.1
+		}
+	},
+	"Netherlands-Frisian": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Cavalry Combat Ability": 0.15
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Polders": {
+			"Development Cost": -0.1
+		},
+		"Dijk-Piercing": {
+			"Fort Defense": 0.2,
+			"Attrition for Enemies": 1
+		},
+		"Reunite the Lowlands": {
+			"Aggressive Expansion Impact": -0.1
+		},
+		"New Heart of the Reformation": {
+			"Tolerance of the True Faith": 2
+		},
+		"Likedeelers Van Buit": {
+			"Privateer Efficiency": 0.2,
+			"National Sailors Modifier": 0.2
+		},
+		"Lessen Van de Vrijheidsoorlogen": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Independent Spirit": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.5
+		}
+	},
+	"Netherlands-Flemish": {
+		"Traditions": {
+			"Goods Produced Modifier": 0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Morale of Armies": 0.1
+		},
+		"Polders": {
+			"Development Cost": -0.1
+		},
+		"Dijk-Piercing": {
+			"Fort Defense": 0.2,
+			"Attrition for Enemies": 1
+		},
+		"De Vlaamse Nederlander Renaissance": {
+			"Technology Cost": -0.1
+		},
+		"Permit the Hagepreken": {
+			"Tolerance of Heretics": 3
+		},
+		"Stadsrechten en de Grote Raad": {
+			"Yearly Republican Tradition": 0.6,
+			"Yearly Legitimacy": 1,
+			"Burghers Loyalty Equilibrium": 0.1
+		},
+		"Chart the Globe": {
+			"Fleet Exploration Range": 0.33,
+			"Global Ship Trade Power": 0.15
+		},
+		"Stock Markets and Upgraded Ports": {
+			"Trade Efficiency": 0.15
+		}
+	},
+	"Morocco": {
+		"Traditions": {
+			"May Raid Coasts": true,
+			"Land Attrition": -0.1
+		},
+		"Ambition": {
+			"Yearly Navy Tradition": 1
+		},
+		"Mellah": {
+			"Construction Cost": -0.15,
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"For Gold!": {
+			"Monthly Gold Inflation Modifier": -0.1,
+			"Caravan Power": 0.2
+		},
+		"Abid Al-Bukhari": {
+			"National Manpower Modifier": 0.2,
+			"Infantry Combat Ability": 0.1
+		},
+		"Mahdi in the New World": {
+			"Global Settler Increase": 20
+		},
+		"Atlantic Pursuits": {
+			"Naval Force Limit Modifier": 0.25
+		},
+		"The Sharifate": {
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"Tolerance of the True Faith": 2
+		},
+		"Makhzen": {
+			"Maximum Absolutism": 10,
+			"Monthly Autonomy Change": -0.05
+		}
+	},
+	"Aztec": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Monthly Autonomy Change": -0.05
+		},
+		"The Triple Alliance": {
+			"National Tax Modifier": 0.1,
+			"Vassal Force Limit Contribution": 0.5
+		},
+		"Xochiyaoyotl": {
+			"War Exhaustion Cost Reduction": -0.2,
+			"Reduce Inflation Cost": -0.2
+		},
+		"Telpochcalli": {
+			"Yearly Army Tradition": 0.75
+		},
+		"Cuachicqueh": {
+			"Shock Damage": 0.1
+		},
+		"Cuauhocelotl": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Pochteca": {
+			"Spy Network Construction": 0.25,
+			"Global Trade Power": 0.1
+		},
+		"Tlatocayotl": {
+			"Yearly Absolutism": 1,
+			"Tolerance of the True Faith": 1
+		}
+	},
+	"United States": {
+		"Traditions": {
+			"Advisor Costs": -0.15,
+			"Governing Capacity Modifier": 0.1
+		},
+		"Ambition": {
+			"Yearly Republican Tradition": 0.5
+		},
+		"The Price of Freedom": {
+			"Morale of Armies": 0.1,
+			"Marines Force Limit": 0.5
+		},
+		"Land of Opportunity": {
+			"Global Settler Increase": 15
+		},
+		"Manifest Destiny": {
+			"Colonists": 1,
+			"Culture Conversion Cost": -0.2
+		},
+		"Lessons of Valley Forge": {
+			"Yearly Army Tradition": 0.5,
+			"Discipline": 0.05
+		},
+		"Founded on a Creed": {
+			"Development Cost": -0.1
+		},
+		"Workshop of the World": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Shining City on a Hill": {
+			"Yearly Prestige": 1
+		}
+	},
+	"Persia": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Cavalry Shock": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"The Qizilbash": {
+			"Manpower in True Faith Provinces": 0.25,
+			"Morale of Armies": 0.1
+		},
+		"Caravanserais": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Rokn Ol-Dowleh": {
+			"Governing Capacity Modifier": 0.1,
+			"Military Free Policies": 1
+		},
+		"Qali-Ye Irani": {
+			"Goods Produced Modifier": 0.1
+		},
+		"The Jazayer": {
+			"Land Fire Damage": 0.1
+		},
+		"Savaran-E Sepah-E Khorasan": {
+			"Cavalry Flanking Ability": 0.5,
+			"Cavalry to Infantry Ratio": 0.2
+		},
+		"Jazayerchi": {
+			"Discipline": 0.05,
+			"Army Drill Gain Modifier": 0.25
+		}
+	},
+	"Denmark": {
+		"Traditions": {
+			"Galley Combat Ability": 0.15,
+			"Domestic Trade Power": 0.2
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"United at Kalmar": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"Øresundstolden": {
+			"Trade Steering": 0.25,
+			"Global Ship Trade Power": 0.2
+		},
+		"Kongens Strømme": {
+			"Yearly Navy Tradition": 1,
+			"National Sailors Modifier": 0.25
+		},
+		"Folkekirken": {
+			"Tolerance of Heretics": 2,
+			"Yearly Papal Influence": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5
+		},
+		"Danske Lov": {
+			"Reform Progress Growth": 0.25
+		},
+		"Søkadetakademiet": {
+			"Naval Leader Fire": 2
+		},
+		"Stavnsbånd": {
+			"National Manpower Modifier": 0.1,
+			"Production Efficiency": 0.1
+		}
+	},
+	"Finland": {
+		"Traditions": {
+			"Land Force Limit Modifier": 0.25,
+			"Attrition for Enemies": 1
+		},
+		"Ambition": {
+			"Land Attrition": -0.1
+		},
+		"Concentrated at the Isthmus": {
+			"Fort Defense": 0.15
+		},
+		"Saunas": {
+			"National Unrest": -2
+		},
+		"Free Yeomen": {
+			"Goods Produced Modifier": 0.1,
+			"Yearly Republican Tradition": 0.2
+		},
+		"Hakkaa Päälle!": {
+			"Shock Damage": 0.1,
+			"Cavalry Combat Ability": 0.2
+		},
+		"Turun Akatemia": {
+			"Idea Cost": -0.1
+		},
+		"Ruotujakolaitos": {
+			"National Manpower Modifier": 0.15,
+			"Manpower Recovery Speed": 0.15
+		},
+		"Sisu": {
+			"Morale of Armies": 0.15,
+			"Stability Cost Modifier": -0.1
+		}
+	},
+	"Sweden": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Mercenary Cost": -0.1
+		},
+		"Ambition": {
+			"Fire Damage Received": -0.1
+		},
+		"Riksföreståndare": {
+			"Yearly Legitimacy": 1
+		},
+		"Liturgiska Striden": {
+			"Institution Spread In True Faith Provinces": 0.15,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5
+		},
+		"Regeringsformen": {
+			"Possible Policies": 1
+		},
+		"Indelningsverket": {
+			"National Manpower Modifier": 0.2,
+			"Manpower Recovery Speed": 0.2
+		},
+		"Gå-På!": {
+			"Shock Damage": 0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Caroleans": {
+			"Discipline": 0.05
+		},
+		"Dominium Maris Baltici": {
+			"Galley Combat Ability": 0.15,
+			"Domestic Trade Power": 0.2
+		}
+	},
+	"Inca": {
+		"Traditions": {
+			"Shock Damage Received": -0.1,
+			"National Manpower Modifier": 0.2
+		},
+		"Ambition": {
+			"Technology Cost": -0.1
+		},
+		"Quipu": {
+			"Idea Cost": -0.1
+		},
+		"Mit'a System": {
+			"Development Cost": -0.1,
+			"Construction Cost": -0.1
+		},
+		"Qhapaq Nan": {
+			"Movement Speed": 0.15,
+			"Recruitment Time": -0.2
+		},
+		"Terrace Farming": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Warachikuy": {
+			"Yearly Army Tradition Decay": -0.01
+		},
+		"Qullqas": {
+			"Land Force Limit Modifier": 0.1,
+			"National Supply Limit Modifier": 0.1
+		},
+		"Tawantisuyu": {
+			"Governing Capacity Modifier": 0.15
+		}
+	},
+	"Pirates": {
+		"Traditions": {
+			"Ship Costs": -0.15,
+			"Privateer Efficiency": 0.33
+		},
+		"Ambition": {
+			"National Sailors Modifier": 0.25
+		},
+		"Religious Apathy": {
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"Plunder!": {
+			"Looting Speed": 0.25
+		},
+		"Grog Rationing": {
+			"Morale of Navies": 0.15
+		},
+		"Elected Captains": {
+			"Land Leader Shock": 1,
+			"National Unrest": -2
+		},
+		"Standardized Punishments": {
+			"Discipline": 0.05
+		},
+		"Flexible Ranks": {
+			"Yearly Navy Tradition": 1,
+			"Marines Force Limit": 0.5
+		},
+		"True Maritime Republic": {
+			"Yearly Republican Tradition": 0.5
+		}
+	},
+	"Colonial-British": {
+		"Traditions": {
+			"Development Cost": -0.1,
+			"Regiment Costs": -0.1
+		},
+		"Ambition": {
+			"National Tax Modifier": 0.15
+		},
+		"The Pilgrim Fathers": {
+			"Settler Chance": 0.1
+		},
+		"Lord Proprietors": {
+			"Colonists": 1,
+			"Construction Cost": -0.1
+		},
+		"Salutary Neglect": {
+			"Trade Efficiency": 0.15
+		},
+		"The Great Awakening": {
+			"Idea Cost": -0.1,
+			"Reform Progress Growth": 0.2,
+			"Monthly Fervor": 0.5,
+			"Church Power": 0.25
+		},
+		"Heart of the Empire": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Freedom of the Press": {
+			"Institution Spread": 0.25
+		},
+		"Rights of Englishmen": {
+			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Colonial-Dutch": {
+		"Traditions": {
+			"Naval Force Limit Modifier": 0.33,
+			"Merchant Trade Power": 10
+		},
+		"Ambition": {
+			"Heavy Ship Combat Ability": 0.15
+		},
+		"Geprivatise Handelscompagnieën": {
+			"Merchants": 1,
+			"Global Trade Power": 0.15
+		},
+		"Factorijen": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"Patroon System": {
+			"Colonists": 1
+		},
+		"Liberalised Markets": {
+			"Trade Efficiency": 0.15
+		},
+		"Groot Desseyn": {
+			"Morale of Navies": 0.1,
+			"Province War Score Cost": -0.1
+		},
+		"Vrijboeren": {
+			"Morale of Armies": 0.1,
+			"Development Cost": -0.1
+		},
+		"Burgerlijke Vrijheden": {
+			"Idea Cost": -0.1,
+			"Tolerance of Heathens": 3,
+			"Tolerance of Heretics": 3
+		}
+	},
+	"Colonial-Latin": {
+		"Traditions": {
+			"Yearly Navy Tradition": 1,
+			"Advisor Costs": -0.15
+		},
+		"Ambition": {
+			"Trade Efficiency": 0.15
+		},
+		"Milizia Nazionale": {
+			"National Manpower Modifier": 0.2,
+			"Regiment Costs": -0.1
+		},
+		"Echi del Rinascimento": {
+			"Technology Cost": -0.05,
+			"Idea Cost": -0.05
+		},
+		"Missio a Gentes": {
+			"Missionary Strength": 0.02,
+			"Culture Conversion Cost": -0.2
+		},
+		"Tradizioni Republicane": {
+			"Yearly Republican Tradition": 0.3
+		},
+		"Spedizioni Costiere": {
+			"Allows recruitment of explorers & conquistadors": true,
+			"Naval Leader Maneuver": 1
+		},
+		"Concessioni Commerciali": {
+			"Global Trade Power": 0.15
+		},
+		"Marinai del Nuovo Mondo": {
+			"Naval Force Limit Modifier": 0.33,
+			"Ship Costs": -0.1
+		}
+	},
+	"Colonial-Portuguese": {
+		"Traditions": {
+			"Leaders Without Upkeep": 1,
+			"Goods Produced Modifier": 0.1
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.25
+		},
+		"Pau Brazil": {
+			"Trade Efficiency": 0.2
+		},
+		"Bandeirantes": {
+			"Allows recruitment of explorers & conquistadors": true,
+			"Land Leader Maneuver": 1
+		},
+		"Entradas": {
+			"Colonists": 1,
+			"Automatically Discover Adjacent When a Colony is Built": true
+		},
+		"Caboclo": {
+			"Number of accepted Cultures": 2
+		},
+		"Capoeira": {
+			"Morale of Armies": 0.1
+		},
+		"Estrada Real": {
+			"Construction Cost": -0.1,
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"Corrida do Ouro": {
+			"Monthly Gold Inflation Modifier": -0.2,
+			"Gold Depletion Chance Modifier": -0.2
+		}
+	},
+	"Colonial-Spanish": {
+		"Traditions": {
+			"Colonists": 1,
+			"Monthly Autonomy Change": -0.05
+		},
+		"Ambition": {
+			"Tolerance of the True Faith": 2
+		},
+		"Reducciones de Indios": {
+			"Culture Conversion Cost": -0.2,
+			"Missionary Strength vs Heathens": 0.03,
+			"Native Uprising Chance": -0.25
+		},
+		"Reales Audiencia y Virreinatos": {
+			"State Governing Cost": -0.1,
+			"State Maintenance": -0.2
+		},
+		"Presidio": {
+			"Fort Maintenance": -0.2,
+			"Yearly Army Tradition": 0.5
+		},
+		"Repartimiento": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Limpieza de Sangre": {
+			"Cost of Advisors with Ruler's Culture": -0.2
+		},
+		"Galeón de Manila": {
+			"Light Ship Cost": -0.15,
+			"Naval Force Limit Modifier": 0.25
+		},
+		"Creole Militia": {
+			"National Manpower Modifier": 0.2,
+			"Land Force Limit Modifier": 0.2
+		}
+	}
+}

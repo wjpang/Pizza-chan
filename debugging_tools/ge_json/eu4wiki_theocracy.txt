@@ -1,0 +1,948 @@
+__NOTOC__
+{{mod header|Governments Expanded}}
+
+=[[Governments_Expanded/Monarchy|Monarchy]] | [[Governments_Expanded/Republic|Republic]] | [[Governments_Expanded/Theocracy|Theocracy]] | [[Governments_Expanded/Tribal|Tribal]]=
+
+{| class="eu4box-inline mw-collapsible" style="text-align: center; margin: auto; max-width: 730px;"
+|+ <span style="white-space: nowrap;">'''Reform Tiers'''</span>
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 1: [[#Leadership|Leadership]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_religious_leader|Clerical State}}
+{{Navicon|Gov_monks|Monastic Order}}
+{{Navicon|Gov_papacy|Papacy}}
+{{Navicon|Reform_holy_state|Crusader State}}
+{{Navicon|Reform_united_cantons|Autonomous Swiss Cantons}}
+{{Navicon|muslim_highlighted|Ajuraan Sultanate}}
+{{Navicon|Gov_feudal_theocracy|Dynastic Theocracies}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 2: [[#Internal & External Mission|Internal & External Mission]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_clergyman|Internal Mission}}
+{{Navicon|Gov_soldiers|External Mission}}
+{{Navicon|Gov_colonial_church|Colonial Mission}}
+{{Navicon|Reform_mission_to_civilize|Mission to Civilize}}
+{{Navicon|Reform_mission_to_kill_pirates|Mission on the High Seas}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 3: [[#Divine Cause|Divine Cause]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_church|Safeguard Holy Sites}}
+{{Navicon|Gov_soldiers_2|Combat Heresy}}
+{{Navicon|Gov_landscape|Expulsion of Heathens}}
+{{Navicon|Gov_nayankara_system|The Guru's Wisdom}}
+{{Navicon|Reform_kingdom_of_god|Kingdom of God}}
+{{Navicon|Gov_judge|The Holy Office}}
+{{Navicon|Gov_Teuton_3|State-Sanctioned Missionaries}}
+{{Navicon|Gov_landscape|Fighting for Israel}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 4: [[#Clergy in Administration|Clergy in Administration]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_paper_with_seal|Subservient Bureaucrats}}
+{{Navicon|Gov_paper_with_seal_3|Zealous Administrators}}
+{{Navicon|Gov_noble_indian|Permanent Marathas Council}}
+{{Navicon|Gov_rajput_kingdom|Governmental Purbias Register}}
+{{Navicon|Gov_nobleman|Divine Nobility}}
+{{Navicon|Gov_merchant|Mercantile Tithe}}
+{{Navicon|Reform_monastic_breweries|Monastic Breweries}}
+{{Navicon|Reform_warrior_monks|Integration of the Sohei}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 5: [[#Religious Enforcement|Religious Enforcement]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_holy_orthodoxy|Holy Orthodoxy}}
+{{Navicon|Gov_inquisition|Inquisition}}
+{{Navicon|Gov_religious_pragmatism|Religious Pragmatism}}
+{{Navicon|Gov_roman_law|Papal Curia}}
+{{Navicon|Gov_noble_muslim|Ulema Guidance}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 6: [[#Secularization?|Secularization?]]
+|-
+| {{box wrapper}}
+{{Navicon|Reform_partial_secularisation|Partial Secularisation}}
+{{Navicon|Gov_nobleman|Strengthen Religious Head}}
+{{Navicon|muslim_highlighted|Hereditary Religious Leadership}}
+{{Navicon|crown_highlighted|Crowned Ruler}}
+{{Navicon|parliament_highlighted|Proclaim Republic}}
+{{Navicon|Gov_soldiers_6|Magister Militum Dei}}
+{{Navicon|Reform_conciliarism|Embrace Conciliarism}}
+{{Navicon|Gov_crown|Restore the Davidic Line}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 7: [[#Separation of Powers|Separation of Powers]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_clergyman|Clerical Commission}}
+{{Navicon|Reform_divine_guidance|Divine Guidance}}
+{{Navicon|Gov_assembly_hall|Theocratic Democracy}}
+{{Navicon|Reform_regionally_elected_commanders|Regionally Elected Commanders}}
+{{Navicon|Reform_monastic_elections|Open Public Elections}}
+{{Navicon|Reform_commander_king|A Dynastic Order}}
+{{Navicon|Reform_admiral_king|Lords of the Sea}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 8: [[#The Nature of Our Faith|The Nature of Our Faith]]
+|-
+| {{box wrapper}}
+{{Navicon|Reform_church_and_state|Church and State}}
+{{Navicon|Reform_religious_harmony|Soul and Body}}
+{{Navicon|Gov_religious_leader|God and Man}}
+{{Navicon|Reform_organising_our_religion|Organize Our Faith}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 9: [[#Our Faith and the World|Our Faith and the World]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_rioting_burning_2|One State Under God}}
+{{Navicon|Reform_religious_permanent_revolution|The Global Crusade}}
+{{Navicon|Gov_asian_scripture|The Many Fingers of God}}
+{{Navicon|Gov_strength_of_the_khalsa|Priestly Autonomy}}
+{{Navicon|Gov_shaman|Proclaim Religious Head}}
+{{Navicon|Reform_all_under_tengri|All Under Tengri}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 10: [[#Mobilize the Faithful|Mobilize the Faithful]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_holy_war|Holy War}}
+{{Navicon|Gov_militarized_monasteries|Militarized Monasteries.}}
+{{Navicon|Gov_brothers_in_arms|Brothers In Arms}}
+{{Navicon|Gov_bishops_army|Bishop's Military}}
+{{Navicon|Gov_noble_indian|Permanent Marathas Council}}
+{{Navicon|Gov_rajput_kingdom|Governmental Purbias Register}}
+{{Navicon|Gov_Teuton_2|Land Focus}}
+{{Navicon|Gov_feudal_theocracy|Mamluk Soldiers}}
+{{Navicon|Gov_fort|Tradition of Masada and Bar Kochba}}
+{{Navicon|Gov_soldiers_2|Turkoman Gunners}}
+{{Navicon|Gov_soldiers_3|Mongol Ties}}
+{{Navicon|Gov_feudal_theocracy|Lessons of Subutai}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 11: [[#Diplomacy|Diplomacy]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_unrestricted_diplomacy|Unrestricted Diplomacy}}
+{{Navicon|Gov_holy_claims|Holy Claims}}
+{{Navicon|Gov_network_of_faithful_allies|Network of Faithful Allies}}
+{{Navicon|Gov_bishops_diplomacy|Bishop's Diplomacy}}
+{{Navicon|Gov_soldiers_5|Naval Focus}}
+{{Navicon|Gov_constitution|Yeshiva Scholarship}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 12: [[#Judiciary|Judiciary]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_secular_law|Secular Law}}
+{{Navicon|Gov_theocratic_law|Theocratic Law}}
+{{Navicon|Gov_roman_law|Roman Law}}
+{{Navicon|Gov_papal_law|Papal Decree}}
+{{Navicon|Gov_jizja_law|Jizya Tax}}
+{{Navicon|Gov_harmonious_law|Harmonious Law}}
+{{Navicon|Gov_pagan_law|Pagan Law}}
+{{Navicon|Gov_bishop's_law|Bishop's Law}}
+{{end box wrapper}}
+|}
+
+== Reform Tiers ==
+
+=== Leadership ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Clerical State"
+| '''Clerical State'''
+|
+* global_tax_modifier = 0.05
+|
+{{desc|Clerical State|This state is ruled by the clergy and uses the hierarchy of religious institutions for all government purposes.|image=Gov_religious_leader}}
+
+|- id="Monastic Order"
+| '''Monastic Order'''
+|
+* fort_maintenance_modifier = -0.2
+|
+{{desc|Monastic Order|This country is ruled by the members of a Monastic Order. The order's hierarchy and rules replaces the need for most laws and administration.|image=Gov_monks}}
+
+|- id="Papacy"
+| '''Papacy'''
+|
+* prestige_per_development_from_conversion = 0.33
+* tolerance_own = 1
+* church_influence_modifier = 0.2
+|
+{{desc|Papacy|A political structure where the nation is governed by a spiritual leader, the Pope, the highest ranking office of the Roman Catholic Church.|image=Gov_papacy}}
+* locked_government_type = yes
+
+|- id="Crusader State"
+| '''Crusader State'''
+|
+* cb_on_religious_enemies = yes
+* manpower_recovery_speed = 0.15
+|
+{{desc|Crusader State|Our nation exists for one purpose: to reconquer and protect the Holy Land. We will do all in our power to defeat the infidels who would dare blaspheme against God and the Church. Deus vult!|image=Reform_holy_state}}
+
+|- id="Autonomous Swiss Cantons"
+| '''Autonomous Swiss Cantons'''
+|
+* governing_capacity = -50
+* free_policy = 1
+* mercenary_manpower = 0.5
+* max_absolutism = -30
+|
+{{desc|Autonomous Swiss Cantons|The Swiss Federation is not a singular nation in itself, it is a federation of independent Cantons with the common goal of maintaining their independence and economic stability.|image=Reform_united_cantons}}
+
+|- id="Ajuraan Sultanate"
+| '''Ajuraan Sultanate'''
+|
+* global_trade_power = 0.10
+* trade_range_modifier = 0.25
+|
+{{desc|Ajuraan Sultanate|The Ajuraan Sultanate was islamic theocratic state, and a key part of the indian oceanic trade, their traders traveled across the entirety of it. Their wealth was beyond measure, bringing exotic goods and animals as far as the court of the chinese emperor. Not only were their pockets deep and their armies formidable, the Ajuraan Sultans also held monopolies on the management and distribution of water.|image=muslim_highlighted}}
+* enables_hereditary_theocracy = yes
+
+|- id="Dynastic Theocracies"
+| '''Dynastic Theocracies'''
+|
+* devotion = 0.25
+|
+{{desc|Dynastic Theocracies|A form of government where the dynasty is the representative of God, and the protector of the people.|image=Gov_feudal_theocracy}}
+* enables_hereditary_theocracy = yes
+
+|}
+=== Internal & External Mission ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Internal Mission"
+| '''Internal Mission'''
+|
+* tolerance_own = 2
+|
+{{desc|Internal Mission|We must focus our energy on our religious mission within our country, to protect the faithful, feed the poor and fulfill our religious duties.|image=Gov_clergyman}}
+
+|- id="External Mission"
+| '''External Mission'''
+|
+* manpower_recovery_speed = 0.1
+|
+{{desc|External Mission|The spread of our holy faith must be our foremost mission and we cannot rest until we have defeated all enemies of our religion.|image=Gov_soldiers}}
+
+|- id="Colonial Mission"
+| '''Colonial Mission'''
+|
+* range = 0.25
+* colonist_placement_chance = 0.10
+|
+{{desc|Colonial Mission|Our most holy mission is to spread the faith beyond the borders of the known world, and to bring the Word of God, as well as His love and salvation to the heathens beyond the horizon.|image=Gov_colonial_church}}
+
+|- id="Mission to Civilize"
+| '''Mission to Civilize'''
+|
+* native_assimilation = 0.35
+* native_uprising_chance = -0.5
+|
+{{desc|Mission to Civilize|Our mission is to seek out poor misguided primitives across the world and teach them the proper way to align their lives so that they too may join us in our divinity.|image=Reform_mission_to_civilize}}
+
+|- id="Mission on the High Seas"
+| '''Mission on the High Seas'''
+|
+* global_sailors_modifier = 0.2
+* naval_forcelimit_modifier = 0.25
+* capture_ship_chance = 0.33
+|
+{{desc|Mission on the High Seas|The seas are filled with heathens and villains plundering the trade and transport ships of the honest followers of our faith. It’s become clear that pilgrims will never be safe to visit the holy places under our protection if we do not make it our holy mission to eliminate the piratical menace on the high seas!|image=Reform_mission_to_kill_pirates}}
+
+|}
+=== Divine Cause ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Safeguard Holy Sites"
+| '''Safeguard Holy Sites'''
+|
+* prestige = 1
+|
+{{desc|Safeguard Holy Sites|It is our holy duty to look after the holy pilgrimage sites under our control and to protect any pilgrims within our lands.|image=Gov_church}}
+
+|- id="Combat Heresy"
+| '''Combat Heresy'''
+|
+* land_morale = 0.1
+|
+{{desc|Combat Heresy|In the mission to spread the true faith we must never waver in our conviction and be ready to root out heresy wherever it springs up.|image=Gov_soldiers_2}}
+
+|- id="Expulsion of Heathens"
+| '''Expulsion of Heathens'''
+|
+* development_cost = -0.10
+* culture_conversion_cost = -0.10
+* expel_minorities_cost = -0.20
+|
+{{desc|Expulsion of Heathens|As our state grows so does our exposure to wrongful teachings. We must not tolerate heathens or heretics within our walls. Instead these people can come live in our cities only if they convert to the true faith.|image=Gov_landscape}}
+
+|- id="The Guru's Wisdom"
+| '''The Guru's Wisdom'''
+|
+* global_missionary_strength = 0.03
+* global_institution_spread = 0.1
+|
+{{desc|The Guru's Wisdom|All across the Dharmic world, there are men and women alike who fully detach themselves from the material world and live isolated in the untamed countryside to attain enlightenment. To be a Sikh means to be a student, and by learning from these wise men and studying the works of the great Gurus of the Sikh religion, we may spread our enlightened vision across the world.|image=Gov_nayankara_system}}
+
+|- id="Kingdom of God"
+| '''Kingdom of God'''
+|
+* global_manpower_modifier = 0.1
+* prestige = 1
+* devotion = 1
+* appoint_cardinal_cost = -0.5
+* papal_influence_from_cardinals = 1.0
+|
+{{desc|Kingdom of God|The Papacy has established the Kingdom of God on Earth. The authority of the Church, led by the Holy Father, shall be absolute in both the spiritual and temporal realms.|image=Reform_kingdom_of_god}}
+
+|- id="The Holy Office"
+| '''The Holy Office'''
+|
+* yearly_corruption = -0.05
+* institution_spread_from_true_faith = 0.5
+* adm_advisor_cost = -0.1
+|
+{{desc|The Holy Office|With the proclamation of the Licet ab initio, the creation of the Supreme Sacred Congregation of the Roman and Universal Inquisition, we shall defend Catholic Doctrine and root out heresy.|image=Gov_judge}}
+
+|- id="State-Sanctioned Missionaries"
+| '''State-Sanctioned Missionaries'''
+|
+* global_missionary_strength = 0.02
+* missionary_maintenance_cost = -0.25
+|
+{{desc|State-Sanctioned Missionaries|By funding our missionaries to be well-equipped and educated as well as allowing them into our administration, we save a substantial amount in salaries and at the same time obtain better results in conversion|image=Gov_Teuton_3}}
+
+|- id="Fighting for Israel"
+| '''Fighting for Israel'''
+|
+* land_morale = 0.15
+|
+{{desc|Fighting for Israel|Here O Israel, the Lord is Our God.  The Lord is One|image=Gov_landscape}}
+
+|}
+=== Clergy in Administration ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Subservient Bureaucrats"
+| '''Subservient Bureaucrats'''
+|
+* yearly_corruption = -0.1
+|
+{{desc|Subservient Bureaucrats|Our growing bureaucracy requires loyal officials who will do their duty to the state and trust that we have the best interests of the faith at heart.|image=Gov_paper_with_seal}}
+
+|- id="Zealous Administrators"
+| '''Zealous Administrators'''
+|
+* stability_cost_modifier = -0.1
+|
+{{desc|Zealous Administrators|Religious conviction must be an integral part of our state in all its parts. When educating administrators among the clergy we must stress that they all get a sold grounding in theology so that they can take the right decisions at all times.|image=Gov_paper_with_seal_3}}
+
+|- id="Permanent Marathas Council"
+| '''Permanent Marathas Council'''
+|
+* leader_land_shock = 1
+* maratha_influence_modifier = 0.1
+* maratha_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Permanent Marathas Council|Maratha generals and civic leaders are an important part of the balance of power in our nation. We should formalize their assemblies and establish a permanent council of the Marathas to guide our nation.|image=Gov_noble_indian}}
+* maratha_general_interaction = yes
+
+|- id="Governmental Purbias Register"
+| '''Governmental Purbias Register'''
+|
+* recover_army_morale_speed = 0.05
+* rajput_influence_modifier = 0.1
+* rajput_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Governmental Purbias Register|The state is taking measures to attract elite Rajput warriors from all over India. Steps should be taken to organize these warriors into cohesive regiments upon arrival so that they can be deployed more effectively.|image=Gov_rajput_kingdom}}
+* better_purbias_interaction = yes
+
+|- id="Divine Nobility"
+| '''Divine Nobility'''
+|
+* army_tradition = 1
+* nobles_influence_modifier = 0.1
+* maratha_exclusive_influence_modifier = 0.1
+* rajput_exclusive_influence_modifier = 0.1
+* nobles_loyalty_modifier = 0.05
+* maratha_exclusive_loyalty_modifier = 0.05
+* rajput_exclusive_loyalty_modifier = 0.05
+|
+{{desc|Divine Nobility|There are those in our realm who are born with divine blood; chosen by the holy forces of this world to lead and rule. Though the leader of our state is a non-hereditary position, we must elevate those born with divine blood to positions of leadership within our nation.|image=Gov_nobleman}}
+
+|- id="Mercantile Tithe"
+| '''Mercantile Tithe'''
+|
+* global_trade_power = 0.05
+* maratha_muslim_influence_modifier = 0.1
+* rajput_muslim_influence_modifier = 0.1
+* burghers_influence_modifier = 0.1
+* burghers_loyalty_modifier = 0.05
+* vaisyas_non_muslim_influence_modifier = 0.1
+|
+{{desc|Mercantile Tithe|Spreading the one true faith is expensive work, and our merchants have heavy pockets that would prove useful to the faith if we were to elevate these rich men to positions of power within the state.|image=Gov_merchant}}
+
+|- id="Monastic Breweries"
+| '''Monastic Breweries'''
+|
+* global_trade_goods_size_modifier = 0.1
+|
+{{desc|Monastic Breweries|In the Catholic faith, the consumption of alcohol for the clergy is strictly prohibited. So, many Catholic Monasteries fill their treasuries with the profits made from brewing wine, mead, and ale.|image=Reform_monastic_breweries}}
+
+|- id="Integration of the Sohei"
+| '''Integration of the Sohei'''
+|
+* discipline = 0.05
+* infantry_power = 0.1
+* mercenary_manpower = 0.1
+|
+{{desc|Integration of the Sohei|Across the Eastern world, there are powerful orders of monks trained both in the ways of prayer and the martial arts. If we allow these monks to build temples within our lands, they would become an integral part of the state and greatly bolster the discipline and conviction of our armies.|image=Reform_warrior_monks}}
+
+|}
+=== Religious Enforcement ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Holy Orthodoxy"
+| '''Holy Orthodoxy'''
+|
+* yearly_corruption = -0.10
+* devotion = 0.5
+|
+{{desc|Holy Orthodoxy|Our nation is a bastion of faith and purity, we are in no need of internal inquisitors that would just clog up our administration.|image=Gov_holy_orthodoxy}}
+
+|- id="Inquisition"
+| '''Inquisition'''
+|
+* global_missionary_strength = 0.01
+* global_heretic_missionary_strength = 0.02
+* prestige_per_development_from_conversion = 0.2
+|
+{{desc|Inquisition|Let us hunt down the unbelievers with fire and sword. Our nation shall be purified!|image=Gov_inquisition}}
+
+|- id="Religious Pragmatism"
+| '''Religious Pragmatism'''
+|
+* religious_unity = 0.10
+* advisor_cost = -0.10
+|
+{{desc|Religious Pragmatism|Just because the unbelievers don't follow the Lord, that should not disqualify them from serving him and his flock.|image=Gov_religious_pragmatism}}
+
+|- id="Papal Curia"
+| '''Papal Curia'''
+|
+* advisor_cost = -0.15
+* prestige = 1
+* diplomatic_upkeep = 1
+|
+{{desc|Papal Curia|Where there is human intervention, there is error and misjudgment; where there is divine intervention, there is truth and righteousness. Such is the nature of laws that from the flow from the Papal Curia in the Holy See, that they are rightly guided by God's intermediaries and founded in doctrines of piety as opposed to the fallibility of those outside the Holy See.|image=Gov_roman_law}}
+
+|- id="Ulema Guidance"
+| '''Ulema Guidance'''
+|
+* tolerance_own = 1
+* global_missionary_strength = 0.01
+* church_loyalty_modifier = 0.05
+* church_influence_modifier = 0.10
+|
+{{desc|Ulema Guidance|But those of them who are firmly rooted in knowledge, the believers, believe in what has been sent down to you and what has been sent down to those before you: those who perform prayer and give the charity, believe in Allah and the Last Day. We will give such people an immense reward.|image=Gov_noble_muslim}}
+
+|}
+=== Secularization? ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Partial Secularisation"
+| '''Partial Secularisation'''
+|
+* idea_cost = -0.1
+* global_institution_spread = 0.05
+|
+{{desc|Partial Secularisation|Though religion will always be at the heart of our administration, some sectors of our government must be secularised if we are to adapt to this changing world.|image=Reform_partial_secularisation}}
+
+|- id="Strengthen Religious Head"
+| '''Strengthen Religious Head'''
+|
+* yearly_absolutism = 1
+|
+{{desc|Strengthen Religious Head|We must strengthen the rule and abilities of our leader so that we can at all times be certain that the divine will is being carried out in accordance to their designs.|image=Gov_nobleman}}
+
+|- id="Hereditary Religious Leadership"
+| '''Hereditary Religious Leadership'''
+|
+|
+{{desc|Hereditary Religious Leadership|Many have come to regard our leaders not only as great spiritual and worldly leaders but as semi-divine beings themselves. Many followers have in fact formed a type of order together for the following of our ruler in all ways that is required. Let us reform our country so that all our subjects are in fact members of our sect.|image=muslim_highlighted}}
+
+|- id="Crowned Ruler"
+| '''Crowned Ruler'''
+|
+|
+{{desc|Crowned Ruler|It is time we drop the trappings of religion and make our leader a monarch in own right.|image=crown_highlighted}}
+
+|- id="Proclaim Republic"
+| '''Proclaim Republic'''
+|
+|
+{{desc|Proclaim Republic|While we must never stray far from our religious roots it is also important that we allow our state to evolve. Let us create a free republic where the head of state is elected from among the group of valid candidates freely.|image=parliament_highlighted}}
+
+|- id="Magister Militum Dei"
+| '''Magister Militum Dei'''
+|
+* manpower_in_true_faith_provinces = 0.10
+* leader_land_fire = 1
+|
+{{desc|Magister Militum Dei|Caedite eos. Novit enim Dominus qui sunt eius|image=Gov_soldiers_6}}
+
+|- id="Embrace Conciliarism"
+| '''Embrace Conciliarism'''
+|
+* appoint_cardinal_cost = -0.5
+|
+{{desc|Embrace Conciliarism|Conciliarism insists that it is the Ecumenical Council, not the Pope, who holds supreme rulership over our country. By accepting this as truth in our faith and administration, we may vastly expand the power of the Cardinals and prevent the Papacy from falling under foreign influence.|image=Reform_conciliarism}}
+
+|- id="Restore the Davidic Line"
+| '''Restore the Davidic Line'''
+|
+* max_absolutism = 25
+|
+{{desc|Restore the Davidic Line|The Sanhedrin has met and accepted the lineage of the Nassi.  The House of David is restored to Power once Again!|image=Gov_crown}}
+* enables_davidic_line = yes
+
+|}
+=== Separation of Powers ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Clerical Commission"
+| '''Clerical Commission'''
+|
+* global_unrest = -1
+* diplomatic_upkeep = 1
+|
+{{desc|Clerical Commission|We should divide the powers of the state between our religious leader and a commission of clerics. This commission will be charged with keeping the peace in our nation, and conducting diplomatic affairs on our leader’s behalf.|image=Gov_clergyman}}
+
+|- id="Divine Guidance"
+| '''Divine Guidance'''
+|
+* max_absolutism = 20
+|
+{{desc|Divine Guidance|The people question if we should divide the power in our nation, but the power is already divided. The true leader of our state is divine in nature, and their will is interpreted by our leader here on Earth.|image=Reform_divine_guidance}}
+
+|- id="Theocratic Democracy"
+| '''Theocratic Democracy'''
+|
+* global_unrest = -1
+|
+{{desc|Theocratic Democracy|We are divinest of all, but we must never forget the inherent divinity found in even the lowliest of commoners. By allowing our peasants to elect their own representatives, we allow them to have their own voice in the court of the divine.|image=Gov_assembly_hall}}
+* blocked_call_diet = yes
+
+|- id="Regionally Elected Commanders"
+| '''Regionally Elected Commanders'''
+|
+* global_unrest = -1
+|
+{{desc|Regionally Elected Commanders|In our government, the successor to the current ruler is decided by a vote from the warriors who have dedicated their lives to protecting the Faith. By allowing the citizens of the towns and villages under our protection to partake in electing the Commander that represents their interests, we may begin to expand our administration and make those under our protection feel accurately represented in the Court of Commanders.|image=Reform_regionally_elected_commanders}}
+* blocked_call_diet = yes
+
+|- id="Open Public Elections"
+| '''Open Public Elections'''
+|
+* stability_cost_modifier = -0.1
+* max_absolutism = 20
+|
+{{desc|Open Public Elections|Many villages under our protection demand representation, and although they are fools who do not understand that the Commander’s rulership is divine, we must grant them some concessions if we are to keep them happy. Traditionally, only Commanders would vote for the new leader of our Order, but by opening elections to the public and establishing two new subdivisions of our Order for the people to vote for, they may feel their interests are represented by the state.|image=Reform_monastic_elections}}
+
+|- id="A Dynastic Order"
+| '''A Dynastic Order'''
+|
+* devotion = 0.1
+* harsh_treatment_cost = -0.2
+* leader_land_fire = 1
+|
+{{desc|A Dynastic Order|Faith will always play a vital role in our state, but it is becoming clear that our government is not adaptable enough to rule vast swaths of land and function in this changing world. There is no reason that our Commanders must swear themselves into celibacy and by reorganizing our state into a Dynastic Order and granting our commanders royal titles, we will become protectors of the faith and the crown, guided by our Commander-King.|image=Reform_commander_king}}
+* generals_become_rulers = yes
+
+|- id="Lords of the Sea"
+| '''Lords of the Sea'''
+|
+* devotion = 0.1
+* naval_morale = 0.15
+* leader_naval_fire = 1
+|
+{{desc|Lords of the Sea|The good work our soldiers have done in securing safe passage for pilgrims across the sea has made our sails a feared sight for pirates and heathens alike. However, it has become clear that the threat pirates pose to our faith go far beyond our small shores, and we must expand our order to become an Empire in itself if we are to properly serve our holy mission. By enacting a series of reforms within our government, we shall vastly expand our administration beyond our borders and our valiant Knights will elect all future commanders based on the number of pirate lords they have brought to kneel before God!|image=Reform_admiral_king}}
+* admirals_become_rulers = yes
+
+|}
+=== The Nature of Our Faith ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Church and State"
+| '''Church and State'''
+|
+* free_policy = 1
+|
+{{desc|Church and State|The faith and the state are the two pillars that hold up the world. Our laws are holy laws and they cannot be questioned.|image=Reform_church_and_state}}
+
+|- id="Soul and Body"
+| '''Soul and Body'''
+|
+* num_accepted_cultures = 2
+|
+{{desc|Soul and Body|We must never forget that the barriers of culture and language are merely an illusion. We are all mere souls inhabiting a shell. It does not matter what language we speak, only that we service the divine in the proper way.|image=Reform_religious_harmony}}
+
+|- id="God and Man"
+| '''God and Man'''
+|
+* missionaries = 1
+* global_missionary_strength = 0.01
+|
+{{desc|God and Man|The only relationship that matters is that between lowly mortals and the immortal holy spirits. Our state exists merely to remind people of the proper ways to devote themselves to prayer.|image=Gov_religious_leader}}
+
+|- id="Organize Our Faith"
+| '''Organize Our Faith'''
+|
+* yearly_absolutism = 1
+* devotion = 1
+|
+{{desc|Organize Our Faith|We are a highly organized state oriented around a faith that is itself highly disorganized. By attempting to enact an official hierarchy for our religion, we may begin to convert more followers to the true ways of the Gods.|image=Reform_organising_our_religion}}
+
+|}
+=== Our Faith and the World ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="One State Under God"
+| '''One State Under God'''
+|
+* warscore_cost_vs_other_religion = -0.3
+|
+{{desc|One State Under God|Our faith and our state have become totally synonymous with each other. We are our religion, and any who devote themselves to the divine, must also devote themselves to the state.|image=Gov_rioting_burning_2}}
+
+|- id="The Global Crusade"
+| '''The Global Crusade'''
+|
+* enforce_religion_cost = -0.4
+|
+{{desc|The Global Crusade|This world is full of heretics, heathens, sinners, and blasphemers! We must seek to correct heretics and heathens alike, and spread our peaceful ways through force!|image=Reform_religious_permanent_revolution}}
+
+|- id="The Many Fingers of God"
+| '''The Many Fingers of God'''
+|
+* tolerance_heretic = 2
+* tolerance_heathen = 2
+|
+{{desc|The Many Fingers of God|We believe that there is only one God, by whom we live and by whom we die, and for whom we have an upright heart. But as God gives us the different fingers of the hand, so he gives to men diverse ways to approach him.|image=Gov_asian_scripture}}
+
+|- id="Priestly Autonomy"
+| '''Priestly Autonomy'''
+|
+* governing_capacity = 250
+|
+{{desc|Priestly Autonomy|No priest should hold power over another priest, with the exception of our ruler. Each realm shall be fully autonomous, and priests will remain free to interpret the will of the Gods in any way that is true to them.|image=Gov_strength_of_the_khalsa}}
+
+|- id="Proclaim Religious Head"
+| '''Proclaim Religious Head'''
+|
+* warscore_cost_vs_other_religion = -0.25
+* diplomatic_reputation = 1
+|
+{{desc|Proclaim Religious Head|We have organized our faith and now we are ready to emulate the heathens across our borders by proclaiming the leader of our state to also hold supreme leadership over our entire faith!|image=Gov_shaman}}
+
+|- id="All Under Tengri"
+| '''All Under Tengri'''
+|
+* cavalry_power = 0.15
+* cav_to_inf_ratio = 0.25
+|
+{{desc|All Under Tengri|All that is under the sky is under Tengri, and all that is under Tengri belongs to us. With the great eagle soaring high in the heavens, we will not rest until the entire world is brought to kneel before Tengri!|image=Reform_all_under_tengri}}
+
+|}
+=== Mobilize the Faithful ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Holy War"
+| '''Holy War'''
+|
+* manpower_recovery_speed = 0.10
+|
+{{desc|Holy War|Are you a man of peace, or man of holy war? Too many sides to you, don't know which anymore. So many full of life, but also filled with pain. don't know just how many will live to breath again. A life that's made to breathe, Destruction or defense. A mind that's vain corruption, Bad or good intent. A wolf in sheep's clothing, Or saintly or sinner. Or some that would believe A holy war winner.|image=Gov_holy_war}}
+* enables_holy_war = yes
+
+|- id="Militarized Monasteries."
+| '''Militarized Monasteries.'''
+|
+* army_tradition = 0.5
+* defensiveness = 0.10
+|
+{{desc|Militarized Monasteries.|To protect the faithful, our centres of belief shall function as bastions not only of faith, but also of stone and men.|image=Gov_militarized_monasteries}}
+
+|- id="Brothers In Arms"
+| '''Brothers In Arms'''
+|
+* mercenary_discipline = 0.025
+* mercenary_manpower = 0.25
+|
+{{desc|Brothers In Arms|When the need arrives, the Lord's faithful will rally to our banners, ready to defend the Lord's flock.|image=Gov_brothers_in_arms}}
+
+|- id="Bishop's Military"
+| '''Bishop's Military'''
+|
+* free_mil_policy = 1
+* max_absolutism = 5
+|
+{{desc|Bishop's Military|Let us place our faith in the Bishop, for he is guided by the lord, and shall bring strength to our men under arms.|image=Gov_bishops_army}}
+
+|- id="Permanent Marathas Council"
+| '''Permanent Marathas Council'''
+|
+* leader_land_shock = 1
+* maratha_influence_modifier = 0.1
+* maratha_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Permanent Marathas Council|Maratha generals and civic leaders are an important part of the balance of power in our nation. We should formalize their assemblies and establish a permanent council of the Marathas to guide our nation.|image=Gov_noble_indian}}
+* maratha_general_interaction = yes
+
+|- id="Governmental Purbias Register"
+| '''Governmental Purbias Register'''
+|
+* recover_army_morale_speed = 0.05
+* rajput_influence_modifier = 0.1
+* rajput_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Governmental Purbias Register|The state is taking measures to attract elite Rajput warriors from all over India. Steps should be taken to organize these warriors into cohesive regiments upon arrival so that they can be deployed more effectively.|image=Gov_rajput_kingdom}}
+* better_purbias_interaction = yes
+
+|- id="Land Focus"
+| '''Land Focus'''
+|
+* infantry_power = 0.05
+* discipline = 0.025
+|
+{{desc|Land Focus|Swords made of the finest metal, armor made of the finest steel. Blessed with Holy Oil, these instruments of death shall be wielded by God's most zealous followers!|image=Gov_Teuton_2}}
+
+|- id="Mamluk Soldiers"
+| '''Mamluk Soldiers'''
+|
+* discipline = 0.025
+* drill_gain_modifier = 0.25
+* yearly_army_professionalism = 0.002
+* land_maintenance_modifier = 0.1
+|
+{{desc|Mamluk Soldiers|With their military might and abundance of wealth. The Ajuran Empire became a respected power. The Ajuran State had a strong standing and professionally organized army with which the Garen imams and the governors ruled and protected their subjects. The bulk of the army consisted of mamluke soldiers, who did not have any loyalties to the traditional Somali clan system, thereby making them more reliable. The Ajuran soldier would wear protective helmets and advanced steel armour that covered their body. The Ajuran army would also be paid decently which was enough to financially suppprt their family and house, and during their retirement for serving the kingdom for 25 years would receive large acers of farmland and pension with plenty of livestock animals as a reward for their honourable loyalty for serving and protecting their kingdom.|image=Gov_feudal_theocracy}}
+
+|- id="Tradition of Masada and Bar Kochba"
+| '''Tradition of Masada and Bar Kochba'''
+|
+* defensiveness = 0.25
+* hostile_attrition = 1
+|
+{{desc|Tradition of Masada and Bar Kochba|The land is ours.  We will not surrender.|image=Gov_fort}}
+
+|- id="Turkoman Gunners"
+| '''Turkoman Gunners'''
+|
+* artillery_power = 0.05
+* artillery_cost = -0.10
+* artillery_bonus_vs_fort = 1
+|
+{{desc|Turkoman Gunners|Let us embrace these new weapons of destruction and go forth, for now no wall of men or stone can stop our expansion.|image=Gov_soldiers_2}}
+
+|- id="Mongol Ties"
+| '''Mongol Ties'''
+|
+* cavalry_cost = -0.10
+* reinforce_cost_modifier = -0.20
+|
+{{desc|Mongol Ties|Our ancient ties with the neighbouring mongols has left us with both a good amount of goodwill amongst these nomads that live in the saddle, as well as plenty of friends and families among those that are willing to join our armies.|image=Gov_soldiers_3}}
+
+|- id="Lessons of Subutai"
+| '''Lessons of Subutai'''
+|
+* leader_land_manuever = 1
+* leader_siege = 1
+|
+{{desc|Lessons of Subutai|Let us learn from Subutai's campaigns, his mastery of manouver warfare, defeat in detail and using trickery, speed and deception to take even fortified positions is legendary. By studying his life we might be able to teach our own generals to follow in his footsteps.|image=Gov_feudal_theocracy}}
+
+|}
+=== Diplomacy ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Unrestricted Diplomacy"
+| '''Unrestricted Diplomacy'''
+|
+* diplomatic_reputation = 1
+|
+{{desc|Unrestricted Diplomacy|Our diplomats should remember that their job is to acquire allies and maintain diplomatic relations regardless of religious background. They should be working in our interest.|image=Gov_unrestricted_diplomacy}}
+* enables_unrestricted_diplomats = yes
+
+|- id="Holy Claims"
+| '''Holy Claims'''
+|
+* ae_impact = -0.10
+|
+{{desc|Holy Claims|The lands the lord chooses for us are ours to take, we know this, and the world shall know this too.|image=Gov_holy_claims}}
+
+|- id="Network of Faithful Allies"
+| '''Network of Faithful Allies'''
+|
+* vassal_income = 0.2
+* vassal_forcelimit_bonus = 0.50
+* reduced_liberty_desire = 10
+|
+{{desc|Network of Faithful Allies|Let us set up a network of tributary allies around our borders to defend our flock from raids and heretical cults.|image=Gov_network_of_faithful_allies}}
+
+|- id="Bishop's Diplomacy"
+| '''Bishop's Diplomacy'''
+|
+* free_dip_policy = 1
+* max_absolutism = 5
+|
+{{desc|Bishop's Diplomacy|Let us place our faith in the Bishop, for he is guided by the lord, and shall bring us allies and peace.|image=Gov_bishops_diplomacy}}
+
+|- id="Naval Focus"
+| '''Naval Focus'''
+|
+* galley_power = 0.10
+* galley_cost = -0.15
+* ship_durability = 0.05
+|
+{{desc|Naval Focus|Ample attention to detail makes us the Baltic's most grandest shipwrights. Our wood shall conquer the seas under God's banner!|image=Gov_soldiers_5}}
+
+|- id="Yeshiva Scholarship"
+| '''Yeshiva Scholarship'''
+|
+* technology_cost = -0.05
+* tolerance_own = 1
+|
+{{desc|Yeshiva Scholarship|We will fund houses of learning across the land.|image=Gov_constitution}}
+
+|}
+=== Judiciary ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Secular Law"
+| '''Secular Law'''
+|
+* global_unrest = -1
+* tolerance_heretic = 1
+|
+{{desc|Secular Law|Let us base our laws on the cultural rules and customs of our herd, it is not the shepherd's job to choose their rules, its about guiding them spiritually.|image=Gov_secular_law}}
+
+|- id="Theocratic Law"
+| '''Theocratic Law'''
+|
+* stability_cost_modifier = -0.15
+* devotion = 0.5
+|
+{{desc|Theocratic Law|It is our job to guide the faithful through life and into heaven. We can achieve that by basing our laws on the holy scriptures. We can be sure that it will  guarantee their spiritual health and prosperity.|image=Gov_theocratic_law}}
+
+|- id="Roman Law"
+| '''Roman Law'''
+|
+* papal_influence = 1
+|
+{{desc|Roman Law|Back when the Roman Empire still existed, stability and prosperity were commonplace. Let us base our laws on Rome's laws, and bring the same stability and prosperity to our flock.|image=Gov_roman_law}}
+
+|- id="Papal Decree"
+| '''Papal Decree'''
+|
+* tolerance_own = 1
+* improve_relation_modifier = 0.15
+* monarch_diplomatic_power = 1
+|
+{{desc|Papal Decree|By the order of the most divine in our land, the Pontifex Maximus, the Bishop of Rome, our words will be heard in all realms across the regions of Europe and beyond. Faithful Catholics will know that their is truth and authenticity in the orders that flow from the Holy See and with each succeeding Pope, the good relations with Catholics will only compound further.|image=Gov_papal_law}}
+
+|- id="Jizya Tax"
+| '''Jizya Tax'''
+|
+* global_tax_modifier = 0.20
+|
+{{desc|Jizya Tax|Fight those who believe not in God and in the Last Day, and who do not forbid what God and His Messenger have forbidden, and who follow not the Religion of Truth among those who were given the Book, till they pay the jizyah with a willing hand, being humbled.|image=Gov_jizja_law}}
+
+|- id="Harmonious Law"
+| '''Harmonious Law'''
+|
+* harmonization_speed = 0.1
+* yearly_harmony = 0.5
+|
+{{desc|Harmonious Law|Please contact the developer and tell him how you managed to unlock this reform, sounds like an interesting story.|image=Gov_harmonious_law}}
+
+|- id="Pagan Law"
+| '''Pagan Law'''
+|
+* core_creation = -0.1
+|
+{{desc|Pagan Law|The only laws we need are natural laws of our gods, even if they may be too militant at first.|image=Gov_pagan_law}}
+
+|- id="Bishop's Law"
+| '''Bishop's Law'''
+|
+* free_adm_policy = 1
+* max_absolutism = 5
+|
+{{desc|Bishop's Law|Let us place our faith in the Bishop, for he is guided by the lord, and shall bring us the lord's justice.|image=Gov_bishop's_law}}
+
+|}
+
+[[Category:Governments Expanded]]

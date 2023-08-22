@@ -1,0 +1,2796 @@
+"Power Structure": {
+    "Feudal Nobility": {
+        "Image": "/images/5/50/Gov_castle.png",
+        "Effects": {
+            "vassal_income": 0.25,
+            "nobles_influence_modifier": 0.05,
+            "maratha_exclusive_influence_modifier": 0.05,
+            "rajput_exclusive_influence_modifier": 0.05
+        }
+    },
+    "Autocracy": {
+        "Image": "/images/5/5b/Gov_crown.png",
+        "Effects": {
+            "unjustified_demands": -0.1
+        }
+    },
+    "Plutocracy": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "merchants": 1,
+            "nobles_influence_modifier": -0.05,
+            "burghers_influence_modifier": 0.05,
+            "vaisyas_influence_modifier": 0.05
+        }
+    },
+    "Indian Sultanate": {
+        "Image": "/images/9/93/Gov_indian_sultanate.png",
+        "Effects": {
+            "tolerance_heathen": 3
+        }
+    },
+    "Nayankara System": {
+        "Image": "/images/4/49/Gov_nayankara_system.png",
+        "Effects": {
+            "vassal_forcelimit_bonus": 1,
+            "global_manpower_modifier": 0.15
+        }
+    },
+    "Misl Confederacy": {
+        "Image": "/images/b/bf/Gov_misl_confederacy.png",
+        "Effects": {
+            "global_manpower_modifier": 0.1,
+            "land_maintenance_modifier": -0.1
+        }
+    },
+    "Rajput Kingdom": {
+        "Image": "/images/d/d7/Gov_rajput_kingdom.png",
+        "Effects": {
+            "army_tradition": 0.25
+        }
+    },
+    "Grand Duchy": {
+        "Image": "/images/a/a8/Gov_peasants.png",
+        "Effects": {
+            "governing_capacity": 100
+        }
+    },
+    "Daimyo": {
+        "Image": "/images/e/ec/Gov_daimyo.png",
+        "Effects": {
+            "land_morale": 0.1,
+            "infantry_power": 0.1
+        }
+    },
+    "Independent Daimyo": {
+        "Image": "/images/3/37/Gov_samurai.png",
+        "Effects": {
+            "land_morale": 0.1,
+            "infantry_power": 0.1,
+            "governing_capacity": -150
+        }
+    },
+    "Elective Monarchy": {
+        "Image": "/images/7/73/Gov_elective_monarchy.png",
+        "Effects": {
+            "vassal_income": 0.25,
+            "global_unrest": -1,
+            "max_absolutism": -30,
+            "governing_capacity": 100
+        }
+    },
+    "Iqta": {
+        "Image": "/images/3/35/Gov_muslim.png",
+        "Effects": {
+            "vassal_income": 0.33,
+            "global_tax_modifier": 0.05
+        }
+    },
+    "Ottoman Government": {
+        "Image": "/images/a/a5/Gov_ottoman_government.png",
+        "Effects": {
+            "unjustified_demands": -0.1,
+            "legitimacy": 0.5,
+            "max_absolutism": 5,
+            "governing_capacity": 150
+        }
+    },
+    "Prussian Monarchy": {
+        "Image": "/images/c/ca/Gov_prussian_monarchy.png",
+        "Effects": {
+            "war_exhaustion": -0.02,
+            "global_unrest": -2,
+            "global_autonomy": -0.075,
+            "max_absolutism": 10,
+            "monarch_military_power": 3,
+            "nobles_loyalty_modifier": 0.1,
+            "governing_capacity_modifier": -0.5
+        }
+    },
+    "Imperial Austrian Monarchy": {
+        "Image": "/images/7/78/Reform_austrian_dual_monarchy.png",
+        "Effects": {
+            "num_accepted_cultures": 2,
+            "global_unrest": -2,
+            "monarch_diplomatic_power": 2,
+            "promote_culture_cost": -0.33
+        }
+    },
+    "Russian Principality": {
+        "Image": "/images/b/b3/Gov_russian_principality.png",
+        "Effects": {
+            "global_unrest": -1,
+            "global_tax_modifier": 0.05,
+            "governing_capacity": 100
+        }
+    },
+    "Tsardom": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "global_manpower_modifier": 0.20,
+            "yearly_absolutism": 0.5,
+            "global_autonomy": -0.05,
+            "governing_capacity": 250
+        }
+    },
+    "Mamluk Government": {
+        "Image": "/images/6/60/Gov_mamluk_government.png",
+        "Effects": {
+            "num_accepted_cultures": 3,
+            "global_autonomy": -0.025,
+            "monarch_admin_power": 2,
+            "same_culture_advisor_cost": -0.25,
+            "promote_culture_cost": -0.5,
+            "governing_capacity": 50,
+            "nobles_influence_modifier": 0.1
+        }
+    },
+    "Feudal Theocracy": {
+        "Image": "/images/4/44/Gov_feudal_theocracy.png",
+        "Effects": {
+            "missionaries": 1,
+            "global_missionary_strength": 0.01,
+            "tolerance_own": 2,
+            "governing_capacity": 50,
+            "brahmins_hindu_loyalty_modifier": 0.05,
+            "church_loyalty_modifier": 0.05
+        }
+    },
+    "Celestial Empire": {
+        "Image": "/images/6/61/Gov_celestial_empire.png",
+        "Effects": {
+            "prestige": 0.5,
+            "church_influence_modifier": -0.1,
+            "nobles_influence_modifier": -0.1,
+            "burghers_influence_modifier": -0.1,
+            "governing_capacity": 300
+        }
+    },
+    "Shogunate": {
+        "Image": "/images/a/a3/Gov_shogunate.png",
+        "Effects": {
+            "diplomats": 1,
+            "envoy_travel_time": -0.25,
+            "max_absolutism": 5
+        }
+    },
+    "English Monarchy": {
+        "Image": "/images/7/7c/Gov_british_queen.png",
+        "Effects": {
+            "governing_capacity": 50,
+            "legitimacy": 0.5,
+            "global_unrest": -1,
+            "max_absolutism": -30
+        }
+    },
+    "Mandala System": {
+        "Image": "/images/3/3a/Gov_mandala_system.png",
+        "Effects": {
+            "vassal_income": 0.15,
+            "vassal_forcelimit_bonus": 1,
+            "governing_capacity": 50
+        }
+    },
+    "Revolutionary Empire": {
+        "Image": "/images/c/ce/Gov_rioting_burning_2.png",
+        "Effects": {
+            "global_manpower_modifier": 0.25,
+            "land_morale": 0.10,
+            "global_autonomy": -0.2,
+            "governing_capacity": 150,
+            "max_revolutionary_zeal": 50
+        }
+    },
+    "Crusader State": {
+        "Image": "/images/1/19/Reform_holy_state.png",
+        "Effects": {
+            "cb_on_religious_enemies": yes,
+            "manpower_recovery_speed": 0.15
+        }
+    },
+    "Austrian Archduchy": {
+        "Image": "/images/2/28/Reform_austrian_archduchy.png",
+        "Effects": {
+            "liberty_desire_from_subject_development": -0.33,
+            "nobles_influence_modifier": 0.05,
+            "maratha_exclusive_influence_modifier": 0.05,
+            "rajput_exclusive_influence_modifier": 0.05
+        }
+    },
+    "French Feudalism": {
+        "Image": "/images/6/6e/Gov_feudalism.png",
+        "Effects": {
+            "min_autonomy": 10
+        }
+    },
+    "Ancien Regime": {
+        "Image": "/images/0/05/Gov_French_Reformed.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "governing_capacity": 150
+        }
+    },
+    "Royaume du Soleil": {
+        "Image": "/images/a/a1/Gov_French_Absolutism.png",
+        "Effects": {
+            "governing_capacity": 250,
+            "max_absolutism": 5,
+            "global_autonomy": -0.05,
+            "monarch_admin_power": 1
+        }
+    },
+    "Kingdom of Lithuania": {
+        "Image": "/images/9/9b/Crown_highlighted.png",
+        "Effects": {
+            "years_of_nationalism": -5,
+            "promote_culture_cost": -0.5,
+            "governing_capacity": 200
+        }
+    },
+    "Roman Autocracy": {
+        "Image": "/images/3/35/Pope_highlighted.png",
+        "Effects": {
+            "administrative_efficiency": 0.05,
+            "governing_capacity": 150
+        }
+    },
+    "Beylik": {
+        "Image": "/images/c/c4/Gov_beylik.png",
+        "Effects": {
+            "army_tradition": 0.25,
+            "unjustified_demands": -0.15
+        }
+    },
+    "Kingdom of Portugal": {
+        "Image": "/images/b/bf/Gov_kingdom_of_portugal.png",
+        "Effects": {
+            "min_autonomy": 10,
+            "papal_influence": 1.0,
+            "land_morale": 0.05
+        }
+    },
+    "Portuguese Thassalocracy": {
+        "Image": "/images/c/cd/Gov_portuguese_thassalocracy.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "trade_steering": 0.10,
+            "navy_tradition": 1
+        }
+    },
+    "Portuguese Empire": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "trade_efficiency": 0.10,
+            "num_accepted_cultures": 2,
+            "trade_company_investment_cost": -0.25,
+            "navy_tradition": 1
+        }
+    },
+    "Crown of Aragon": {
+        "Image": "/images/9/9a/Gov_aragon_alfonso.png",
+        "Effects": {
+            "min_autonomy": 10,
+            "global_unrest": -1
+        }
+    },
+    "Kingdom of Castille and Leon": {
+        "Image": "/images/1/1a/Gov_castille_leon.png",
+        "Effects": {
+            "production_efficiency": -0.10,
+            "global_manpower_modifier": 0.05,
+            "nobles_influence_modifier": 0.05
+        }
+    },
+    "Crown of Castille": {
+        "Image": "/images/9/9a/Gov_castille_isabelle.png",
+        "Effects": {
+            "diplomatic_upkeep": 1
+        }
+    },
+    "Hispanic Kingdom": {
+        "Image": "/images/c/c6/Gov_spain_charles.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "governing_capacity": 150
+        }
+    },
+    "Enlightened Despotism": {
+        "Image": "/images/7/7e/Gov_spain_bourbon.png",
+        "Effects": {
+            "max_absolutism": 5,
+            "build_cost": -0.15,
+            "prestige": 1,
+            "governing_capacity": 250
+        }
+    },
+    "Margrave": {
+        "Image": "/images/d/db/Gov_march.png",
+        "Effects": {
+            "defensiveness": 0.10,
+            "global_manpower_modifier": 0.15,
+            "nobles_influence_modifier": 0.10
+        }
+    },
+    "Consulate of the Sea": {
+        "Image": "/images/0/05/Gov_GE_trader.png",
+        "Effects": {
+            "merchants": 1,
+            "galley_power": 0.20,
+            "global_trade_power": 0.15,
+            "global_sailors_modifier": 0.15,
+            "naval_forcelimit_modifier": 0.20
+        }
+    },
+    "Crown of Saint Wencleslaus": {
+        "Image": "/images/b/bb/Gov_crown_of_saint_wenceslaus.png",
+        "Effects": {
+            "legitimacy": 0.5
+        }
+    },
+    "Crown of Saint Wencleslaus": {
+        "Image": "/images/b/bb/Gov_crown_of_saint_wenceslaus.png",
+        "Effects": {
+            "legitimacy": 0.5
+        }
+    },
+    "Office of Lord Regent": {
+        "Image": "/images/d/d9/Gov_sten_sture.png",
+        "Effects": {
+            "legitimacy": 0.5,
+            "prestige": 0.5,
+            "war_exhaustion": -0.025
+        }
+    },
+    "Arch-King": {
+        "Image": "/images/9/9b/Crown_highlighted.png",
+        "Effects": {
+            "prestige": 1,
+            "diplomatic_annexation_cost": -0.05
+        }
+    },
+    "Arch-Monarchy": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "prestige": 0.5,
+            "vassal_tax_modifier": 0.15
+        }
+    },
+    "Archduchy": {
+        "Image": "/images/e/ec/Gov_archduchy.png",
+        "Effects": {
+            "prestige": 0.5,
+            "papal_influence": 0.5
+        }
+    },
+    "Habsburg Monarchy": {
+        "Image": "/images/e/e7/Gov_habsburg_monarchy.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "mil_advisor_cost": -0.15,
+            "governing_capacity": 150
+        }
+    },
+    "Austrian Empire": {
+        "Image": "/images/6/69/Gov_austrian_empire.png",
+        "Effects": {
+            "harsh_treatment_cost": -0.15,
+            "monarch_diplomatic_power": 1,
+            "governing_capacity": 250
+        }
+    },
+    "Polish Constitutionalism": {
+        "Image": "/images/0/00/Gov_poland_constitution_painting.png",
+        "Effects": {
+            "monarch_admin_power": 1,
+            "administrative_efficiency": 0.05,
+            "max_absolutism": -10
+        }
+    },
+    "Granadan Iqta": {
+        "Image": "/images/8/8a/Gov_granada_iqta.png",
+        "Effects": {
+            "trade_efficiency": 0.10,
+            "global_trade_goods_size_modifier": 0.05
+        }
+    },
+    "Hessian Militarized Monarchy": {
+        "Image": "/images/7/79/Gov_hesse_monarchy.png",
+        "Effects": {
+            "yearly_army_professionalism": 0.0025,
+            "discipline": 0.025,
+            "possible_mercenaries": -0.75,
+            "possible_condottieri": 2
+        }
+    },
+    "Enlightened Hessian Military State": {
+        "Image": "/images/9/94/Gov_hesse_modern.png",
+        "Effects": {
+            "yearly_army_professionalism": 0.005,
+            "discipline": 0.05,
+            "possible_mercenaries": -1.25,
+            "monarch_military_power": 1,
+            "possible_condottieri": 5
+        }
+    },
+    "Edo Empire": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "global_unrest": -2,
+            "max_absolutism": 5,
+            "governing_capacity": 250
+        }
+    },
+    "Gorkha Kingdom": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "war_exhaustion": -0.02,
+            "army_tradition_decay": -0.01,
+            "nobles_influence_modifier": -0.05
+        }
+    },
+    "Mugarajadiraja": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "legitimacy": 0.25,
+            "global_autonomy": -0.025,
+            "yearly_absolutism": 0.1,
+            "max_absolutism": 10
+        }
+    },
+    "Japanese Empire": {
+        "Image": "/images/a/a3/Gov_shogunate.png",
+        "Effects": {
+            "prestige_decay": -0.01
+        }
+    },
+    "Kingdom of Jerusalem": {
+        "Image": "/images/8/86/Gov_holy_war.png",
+        "Effects": {
+            "tolerance_own": 1
+        }
+    },
+    "Despotate of Caucasia": {
+        "Image": "/images/5/5b/Gov_crown.png",
+        "Effects": {
+            "land_morale": 0.05,
+            "tolerance_heretic": 1,
+            "culture_conversion_cost": -0.20
+        }
+    },
+    "Sharifate": {
+        "Image": "/images/8/8e/Gov_hejaz_sharif.png",
+        "Effects": {
+            "global_unrest": -1,
+            "legitimacy": 0.5,
+            "tolerance_heretic": -3,
+            "church_influence_modifier": 0.20
+        }
+    },
+    "Rumi Government": {
+        "Image": "/images/6/60/Gov_mamluk_government.png",
+        "Effects": {
+            "monarch_admin_power": 2,
+            "max_absolutism": 5,
+            "diplomatic_upkeep": 1
+        }
+    },
+    "Hermit Kingdom": {
+        "Image": "/images/6/61/Gov_celestial_empire.png",
+        "Effects": {
+            "defensiveness": 0.2
+        }
+    },
+    "Undang Undang Melaka": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "naval_morale": 0.1,
+            "merchants": 1
+        }
+    },
+    "Reformed Mandala System": {
+        "Image": "/images/3/3a/Gov_mandala_system.png",
+        "Effects": {
+            "vassal_forcelimit_bonus": 1,
+            "governing_capacity": 100,
+            "reduced_liberty_desire_on_same_continent": 5
+        }
+    },
+    "Reformed Solar Kingdom": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "vassal_forcelimit_bonus": 2,
+            "governing_capacity": 250,
+            "diplomatic_upkeep": 1
+        }
+    },
+    "Despotate of Serbia": {
+        "Image": "/images/1/13/Gov_serbian_despotate.png",
+        "Effects": {
+            "diplomatic_reputation": 1
+        }
+    },
+    "Serbian Empire": {
+        "Image": "/images/1/16/Gov_serbian_empire.png",
+        "Effects": {
+            "max_absolutism": 5,
+            "unjustified_demands": -0.25
+        }
+    },
+    "Kingdom of Sicily": {
+        "Image": "/images/6/62/Gov_sicily_kingdom_of_sicily.png",
+        "Effects": {
+            "max_absolutism": 5,
+            "global_autonomy": -0.025
+        }
+    },
+    "Tsardom of Bulgaria": {
+        "Image": "/images/b/b3/Gov_russian_principality.png",
+        "Effects": {
+            "max_absolutism": 10,
+            "yearly_absolutism": 0.5,
+            "diplomatic_upkeep": 1,
+            "global_manpower_modifier": 0.10
+        }
+    },
+    "Sacrum Imperium Romanum": {
+        "Image": "/images/d/d2/Gov_GE_HRE.png",
+        "Effects": {
+            "governing_capacity": 500,
+            "accept_vassalization_reasons": 50,
+            "max_absolutism": 15,
+        }
+    }
+}
+"Noble Privileges": {
+    "Nobi Jongmobub": {
+        "Image": "/images/0/0a/Gov_king_2.png",
+        "Effects": {
+            "global_tax_modifier": 0.1
+        }
+    },
+    "Nobi Jongbubub": {
+        "Image": "/images/0/05/Gov_people_walking.png",
+        "Effects": {
+            "stability_cost_modifier": -0.15,
+            "global_trade_goods_size_modifier": 0.05
+        }
+    },
+    "Strengthen Noble Privileges": {
+        "Image": "/images/0/05/Gov_people_walking.png",
+        "Effects": {
+            "global_manpower_modifier": 0.15
+        }
+    },
+    "Curtail Noble Privileges": {
+        "Image": "/images/0/0a/Gov_king_2.png",
+        "Effects": {
+            "global_tax_modifier": 0.1,
+            "nobles_influence_modifier": -0.1,
+            "maratha_exclusive_influence_modifier": -0.1,
+            "rajput_exclusive_influence_modifier": -0.1
+        }
+    },
+    "Enforce Trader Privileges": {
+        "Image": "/images/e/e8/Gov_paper_money_map.png",
+        "Effects": {
+            "trade_range_modifier": 0.3,
+            "trade_efficiency": 0.05
+        }
+    },
+    "Strengthen Bengali Traders": {
+        "Image": "/images/f/f4/Gov_merchant_ship.png",
+        "Effects": {
+            "merchants": 1,
+            "trade_efficiency": 0.1
+        }
+    },
+    "Sufi-Syncretism": {
+        "Image": "/images/3/35/Gov_muslim.png",
+        "Effects": {
+            "global_missionary_strength": 0.01,
+            "development_cost": -0.05
+        }
+    },
+    "Empower the Poligars": {
+        "Image": "/images/b/b6/Gov_indian_crown.png",
+        "Effects": {
+            "infantry_power": 0.1,
+            "development_cost": -0.05
+        }
+    },
+    "Strength of the Khalsa": {
+        "Image": "/images/a/a5/Gov_strength_of_the_khalsa.png",
+        "Effects": {
+            "tolerance_heathen": 1,
+            "tolerance_heretic": 1,
+            "land_morale": 0.05
+        }
+    },
+    "Deccani Elites": {
+        "Image": "/images/8/82/Gov_noble_indian.png",
+        "Effects": {
+            "free_dip_policy": 1
+        }
+    },
+    "Mughal Diwan": {
+        "Image": "/images/e/ed/Gov_peacock_throne.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "governing_capacity": 150
+        }
+    },
+    "Institutionalized Black Army": {
+        "Image": "/images/0/0b/Black_army_reform.png",
+        "Effects": {
+            "merc_maintenance_modifier": -0.15,
+            "mercenary_discipline": 0.025,
+            "nobles_loyalty_modifier": -0.1
+        }
+    },
+    "The Legion of Honor": {
+        "Image": "/images/8/81/Reform_legion_of_honor.png",
+        "Effects": {
+            "leader_cost": -0.1,
+            "nobles_loyalty_modifier": 0.1,
+            "maratha_exclusive_loyalty_modifier": 0.1,
+            "rajput_exclusive_loyalty_modifier": 0.1
+        }
+    },
+    "Nobility of the Emperor": {
+        "Image": "/images/8/8f/Reform_imperial_nobility.png",
+        "Effects": {
+            "advisor_cost": -0.1,
+            "nobles_influence_modifier": -0.2,
+            "maratha_exclusive_influence_modifier": -0.2,
+            "rajput_exclusive_influence_modifier": -0.2
+        }
+    },
+    "Papal Embassy": {
+        "Image": "/images/b/b0/Gov_papal_embassy.png",
+        "Effects": {
+            "papal_influence": 1.5,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.05
+        }
+    },
+    "State Churches": {
+        "Image": "/images/4/47/Gov_church.png",
+        "Effects": {
+            "tolerance_own": 0.5,
+            "monthly_fervor_increase": 0.5,
+            "church_power_modifier": 0.25,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.05
+        }
+    },
+    "Metropolian Bishops": {
+        "Image": "/images/4/47/Gov_church.png",
+        "Effects": {
+            "prestige_per_development_from_conversion": 0.1,
+            "state_maintenance_modifier": -0.25,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.05
+        }
+    },
+    "Elevated Landed Gentry": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "idea_cost": -0.05,
+            "global_unrest": -1,
+            "production_efficiency": 0.10,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.05
+        }
+    },
+    "Diplomatic Positions": {
+        "Image": "/images/e/e5/Gov_noble_diplomat.png",
+        "Effects": {
+            "diplomatic_reputation": 1
+        }
+    },
+    "Casimir's Code": {
+        "Image": "/images/1/14/Gov_casimirs_code.png",
+        "Effects": {
+            "global_unrest": -1,
+            "yearly_corruption": -0.05,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Dutch Guilds": {
+        "Image": "/images/f/fb/Gov_dutch_guilds.png",
+        "Effects": {
+            "global_prov_trade_power_modifier": 0.2,
+            "navy_tradition": 0.5,
+            "burghers_influence_modifier": 0.10
+        }
+    },
+    "The Signoria": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "stability_cost_modifier": -0.15,
+            "army_tradition": 0.25,
+            "nobles_influence_modifier": 0.05
+        }
+    },
+    "Akritai Privileges": {
+        "Image": "/images/c/cb/Gov_soldiers_2.png",
+        "Effects": {
+            "defensiveness": 0.15,
+            "nobles_influence_modifier": 0.05
+        }
+    },
+    "Portuguese Cortes": {
+        "Image": "/images/4/47/Gov_assembly_hall.png",
+        "Effects": {
+            "legitimacy": 0.5
+        }
+    },
+    "Crusader Orders": {
+        "Image": "/images/8/86/Gov_holy_war.png",
+        "Effects": {
+            "unjustified_demands": -0.10
+        }
+    },
+    "Old World Privileges": {
+        "Image": "/images/9/91/Gov_szlachta.png",
+        "Effects": {
+            "global_manpower_modifier": 0.10,
+            "reduced_liberty_desire": 5,
+            "nobles_loyalty_modifier": 0.10
+        }
+    },
+    "Trade Princes": {
+        "Image": "/images/0/05/Gov_GE_trader.png",
+        "Effects": {
+            "placed_merchant_power": 5,
+            "merchants": 1,
+            "burghers_loyalty_modifier": 0.05
+        }
+    },
+    "Dhimmi Nobles": {
+        "Image": "/images/a/a8/Gov_peasants.png",
+        "Effects": {
+            "global_tax_modifier": 0.05,
+            "dhimmi_loyalty_modifier": 0.10,
+            "dhimmi_influence_modifier": 0.20
+        }
+    },
+    "Council of Sheikhs": {
+        "Image": "/images/6/60/Gov_mamluk_government.png",
+        "Effects": {
+            "legitimacy": 0.5,
+            "manpower_recovery_speed": 0.20,
+            "nobles_loyalty_modifier": 0.05,
+            "church_loyalty_modifier": 0.05
+        }
+    },
+    "Muscovite Manorialism": {
+        "Image": "/images/6/62/Gov_russian_noble.png",
+        "Effects": {
+            "development_cost": -0.05,
+            "infantry_cost": -0.05,
+            "nobles_influence_modifier": -0.05
+        }
+    },
+    "Order of the Swan": {
+        "Image": "/images/4/4f/Gov_order_of_swan.png",
+        "Effects": {
+            "papal_influence": 1,
+            "prestige": 0.5,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Junker Class": {
+        "Image": "/images/3/3e/Gov_szlachta_noble_2.png",
+        "Effects": {
+            "leader_cost": -0.10,
+            "nobles_influence_modifier": 0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Blood Tax": {
+        "Image": "/images/2/27/Gov_blood_tax.png",
+        "Effects": {
+            "mil_advisor_cost": -0.10
+        }
+    },
+    "Noblesse d'epee": {
+        "Image": "/images/5/5b/Gov_soldiers.png",
+        "Effects": {
+            "free_leader_pool": 1,
+            "leader_cost": -0.10
+        }
+    },
+    "Noble Court Attendance": {
+        "Image": "/images/4/43/Gov_french_court.png",
+        "Effects": {
+            "prestige": 0.5,
+            "global_unrest": -1
+        }
+    },
+    "House of Knights": {
+        "Image": "/images/9/97/Gov_house_of_knights.png",
+        "Effects": {
+            "prestige": 0.5,
+            "leader_cost": -0.20,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Constitutio Valdemariana": {
+        "Image": "/images/1/1e/Gov_nobleman.png",
+        "Effects": {
+            "diplomatic_upkeep": 1,
+            "global_manpower_modifier": 0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Riksradet of Norway": {
+        "Image": "/images/1/1e/Gov_nobleman.png",
+        "Effects": {
+            "papal_influence": 1,
+            "church_power_modifier": 0.10,
+            "fort_maintenance_modifier": -0.10,
+            "legitimacy": 0.5
+        }
+    },
+    "The Albertine Line": {
+        "Image": "/images/0/0e/Gov_ladislaus_posthumous.png",
+        "Effects": {
+            "legitimacy": 0.5,
+            "global_manpower_modifier": 0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Magnate Law": {
+        "Image": "/images/c/cc/Gov_magnates.png",
+        "Effects": {
+            "global_manpower_modifier": 0.10
+        }
+    },
+    "Invite Imperial Knights": {
+        "Image": "/images/2/28/Gov_reichsritter.png",
+        "Effects": {
+            "min_autonomy": 15,
+            "leader_land_shock": 1
+        }
+    },
+    "Mamluk Privileges": {
+        "Image": "/images/a/aa/Gov_mamluk_noble_2.png",
+        "Effects": {
+            "global_unrest": -1,
+            "production_efficiency": 0.15
+        }
+    },
+    "Szlachta Authority": {
+        "Image": "/images/5/5e/Gov_szlachta_noble_1.png",
+        "Effects": {
+            "global_unrest": -1,
+            "manpower_recovery_speed": 0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Every Man a Noble": {
+        "Image": "/images/3/3e/Gov_szlachta_noble_2.png",
+        "Effects": {
+            "manpower_recovery_speed": 0.10,
+            "global_trade_goods_size_modifier": 0.05
+        }
+    },
+    "Curia Regis": {
+        "Image": "/images/b/b7/Gov_england_curia_regis.png",
+        "Effects": {
+            "global_tax_modifier": 0.15,
+            "spy_offence": 0.1
+        }
+    },
+    "Taha Divisions": {
+        "Image": "/images/c/ca/Gov_granada_taha.png",
+        "Effects": {
+            "global_tax_modifier": 0.10,
+            "development_cost": -0.05
+        }
+    },
+    "Unite the Royal Houses": {
+        "Image": "/images/9/91/Gov_kongolese_king_2.png",
+        "Effects": {
+            "legitimacy": 1,
+            "yearly_absolutism": 0.25,
+            "max_absolutism": 15
+        }
+    },
+    "Support Ghibbellines": {
+        "Image": "/images/5/50/Gov_italy_ghibbelline.png",
+        "Effects": {
+            "diplomatic_reputation": 1,
+            "improve_relation_modifier": 0.15,
+            "army_tradition": 0.25,
+            "republican_tradition": -0.25
+        }
+    },
+    "Support Guelphs": {
+        "Image": "/images/1/1f/Gov_italy_guelph.png",
+        "Effects": {
+            "development_cost": -0.05,
+            "global_trade_goods_size_modifier": 0.10,
+            "papal_influence": 0.5,
+            "legitimacy": -0.5
+        }
+    },
+    "Franconian Salic Law": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "legitimacy": -0.5,
+            "global_manpower_modifier": 0.20,
+            "cavalry_cost": -0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Arch-Marshal Of The Empire": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "leader_land_shock": 1,
+            "prestige_from_land": 1
+        }
+    },
+    "Chhetri Clans": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "leader_cost": -0.10,
+            "leader_land_shock": 1
+        }
+    },
+    "Support Samurai": {
+        "Image": "/images/3/37/Gov_samurai.png",
+        "Effects": {
+            "drill_gain_modifier": 0.25,
+            "army_tradition": 0.5
+        }
+    },
+    "Turkic Qasilbash Heirs": {
+        "Image": "/images/c/cb/Gov_persia_qizilbash.png",
+        "Effects": {
+            "missionary_maintenance_cost": -0.25,
+            "cav_to_inf_ratio": 0.15
+        }
+    },
+    "Sayyid Privileges": {
+        "Image": "/images/6/63/Gov_hejaz_sayyid.png",
+        "Effects": {
+            "vassal_income": 0.33,
+            "tolerance_own": 1
+        }
+    },
+    "Timariot Domains": {
+        "Image": "/images/e/ea/Gov_horde_riding.png",
+        "Effects": {
+            "cavalry_cost": -0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Qadi Authority": {
+        "Image": "/images/3/35/Gov_muslim.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "church_loyalty_modifier": 0.05
+        }
+    },
+    "Mint Towns": {
+        "Image": "/images/e/e8/Gov_paper_money_map.png",
+        "Effects": {
+            "global_tax_modifier": 0.15
+        }
+    },
+    "Order of the Dragon": {
+        "Image": "/images/9/9d/Gov_hungarian_order_of_the_dragon.png",
+        "Effects": {
+            "prestige": 0.5,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Buddhist Nation": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "tolerance_heathen": -1,
+            "manpower_recovery_speed": 0.10
+        }
+    },
+    "Confirm Angevin Nobles": {
+        "Image": "/images/2/27/Gov_blood_tax.png",
+        "Effects": {
+            "state_maintenance_modifier": -0.25,
+            "nobles_influence_modifier": 0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Parramentu Sicilianu": {
+        "Image": "/images/e/e4/Gov_sicily_parliament_of_sicily.png",
+        "Effects": {
+            "stability_cost_modifier": -0.15,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Nationalized Cetas": {
+        "Image": "/images/9/91/Gov_szlachta.png",
+        "Effects": {
+            "hostile_attrition": 1,
+            "global_manpower_modifier": 0.10
+        }
+    }
+}
+"Bureaucracy": {
+    "Centralized Bureaucracy": {
+        "Image": "/images/c/cf/Gov_paper_with_seal_3.png",
+        "Effects": {
+            "global_autonomy": -0.05
+        }
+    },
+    "Decentralized Bureaucracy": {
+        "Image": "/images/6/6b/Gov_map.png",
+        "Effects": {
+            "num_accepted_cultures": 2,
+            "governing_capacity_modifier": 0.10
+        }
+    },
+    "Sidhi Recruitment": {
+        "Image": "/images/9/9b/Gov_siddhi_recruitment.png",
+        "Effects": {
+            "fort_maintenance_modifier": -0.1,
+            "governing_capacity": 100
+        }
+    },
+    "Mansabdari System": {
+        "Image": "/images/9/9f/Gov_noble_muslim.png",
+        "Effects": {
+            "army_tradition_decay": -0.003,
+            "governing_capacity": 150
+        }
+    },
+    "Council of the Indies": {
+        "Image": "/images/f/f4/Gov_merchant_ship.png",
+        "Effects": {
+            "global_tariffs": 0.2,
+            "treasure_fleet_income": 0.2
+        }
+    },
+    "Exile Colonial Companies": {
+        "Image": "/images/f/f4/Gov_merchant_ship.png",
+        "Effects": {
+            "expel_minorities_cost": -0.3
+        }
+    },
+    "Liberté Ideals": {
+        "Image": "/images/c/c2/Reform_liberte.png",
+        "Effects": {
+            "rr_girondists_influence": 0.1,
+            "num_accepted_cultures": 2
+        }
+    },
+    "Fraternité Ideals": {
+        "Image": "/images/b/b6/Reform_fraternite.png",
+        "Effects": {
+            "rr_royalists_influence": 0.1,
+            "culture_conversion_cost": -0.2,
+            "harsh_treatment_cost": -0.25
+        }
+    },
+    "Regional Forts": {
+        "Image": "/images/0/08/Gov_fort.png",
+        "Effects": {
+            "garrison_size": 0.15,
+            "fort_maintenance_modifier": -0.1
+        }
+    },
+    "Theocratic Bureaucrats": {
+        "Image": "/images/d/d6/Gov_bishop.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.05
+        }
+    },
+    "Ulema Guidance": {
+        "Image": "/images/9/9f/Gov_noble_muslim.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "global_missionary_strength": 0.01,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "State Temple Harmonization": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "global_missionary_strength": 0.01,
+            "tolerance_own": 1,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Enlightened Ethical Teachings": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "yearly_harmony": 0.15,
+            "tolerance_own": 1,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Guidance of the Dalai Llama": {
+        "Image": "/images/0/05/Gov_people_walking.png",
+        "Effects": {
+            "global_missionary_strength": 0.01,
+            "tolerance_own": 1,
+            "religious_unity": 0.15,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Teachings of Guru Sahib": {
+        "Image": "/images/9/9f/Gov_noble_muslim.png",
+        "Effects": {
+            "global_missionary_strength": 0.01,
+            "religious_unity": 0.25,
+            "stability_cost_modifier": -0.1,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Enforced Caste System": {
+        "Image": "/images/9/93/Gov_indian_sultanate.png",
+        "Effects": {
+            "global_missionary_strength": 0.01,
+            "tolerance_own": 1,
+            "stability_cost_modifier": -0.1,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Faith in Ancestor Spirits": {
+        "Image": "/images/5/54/Gov_tribal_religious_society.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "global_missionary_strength": 0.01,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Justinian Code": {
+        "Image": "/images/7/7f/Gov_diocletian.png",
+        "Effects": {
+            "legitimacy": 0.25
+        }
+    },
+    "The Kyouhou Reforms": {
+        "Image": "/images/a/a8/Gov_peasants.png",
+        "Effects": {
+            "global_tax_modifier": 0.10,
+            "trade_efficiency": 0.05,
+            "burghers_influence_modifier": 0.05
+        }
+    },
+    "Casa de Contraction": {
+        "Image": "/images/c/cd/Gov_casa_de_contraction.png",
+        "Effects": {
+            "global_ship_trade_power": 0.2,
+            "global_colonial_growth": 10
+        }
+    },
+    "Casa de India": {
+        "Image": "/images/8/88/Gov_casa_de_india.png",
+        "Effects": {
+            "global_prov_trade_power_modifier": 0.15,
+            "global_ship_cost": -0.10
+        }
+    },
+    "Oprichnina": {
+        "Image": "/images/c/c4/Gov_oprichnina.png",
+        "Effects": {
+            "unjustified_demands": -0.10,
+            "global_autonomy": -0.025
+        }
+    },
+    "Constitutio Joachimica": {
+        "Image": "/images/a/ae/Gov_constitutio_joachimica.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "yearly_corruption": -0.05,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Millet System": {
+        "Image": "/images/2/25/Gov_millet_system.png",
+        "Effects": {
+            "promote_culture_cost": -0.25
+        }
+    },
+    "Kaza System": {
+        "Image": "/images/6/63/Gov_hejaz_sayyid.png",
+        "Effects": {
+            "governing_capacity": 100
+        }
+    },
+    "Great Law of Peace": {
+        "Image": "/images/6/67/Gov_great_law_of_peace.png",
+        "Effects": {
+            "global_unrest": -2,
+            "governing_capacity": 150
+        }
+    },
+    "Independent Vassals": {
+        "Image": "/images/6/62/Gov_ancien_regime.png",
+        "Effects": {
+            "reduced_liberty_desire": 5,
+            "vassal_income": 0.25
+        }
+    },
+    "Generalites": {
+        "Image": "/images/3/3f/Gov_french_provinces.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "global_tax_modifier": 0.10
+        }
+    },
+    "Abolish Local Parliaments": {
+        "Image": "/images/f/f9/Gov_french_court_2.png",
+        "Effects": {
+            "global_tax_modifier": 0.15,
+            "yearly_absolutism": 0.25
+        }
+    },
+    "Swedish Church Ordinance": {
+        "Image": "/images/1/17/Gov_swedish_church_ordinance.png",
+        "Effects": {
+            "manpower_recovery_speed": 0.10,
+            "tolerance_heretic": 0.5,
+            "church_loyalty_modifier": 0.05
+        }
+    },
+    "Commoner Officials": {
+        "Image": "/images/a/a8/Gov_peasants.png",
+        "Effects": {
+            "ship_power_propagation": 0.25,
+            "dip_advisor_cost": -0.25,
+            "burghers_influence_modifier": 0.05,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Imperial Inquisition": {
+        "Image": "/images/4/41/Gov_imperial_inquisition.png",
+        "Effects": {
+            "missionary_maintenance_cost": -0.1,
+            "papal_influence": 1,
+            "prestige_per_development_from_conversion": 0.1,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Magnate Govenors": {
+        "Image": "/images/c/c9/Gov_magnates_2.png",
+        "Effects": {
+            "governing_capacity_modifier": 0.10,
+            "state_maintenance_modifier": -0.25,
+            "nobles_influence_modifier": 0.10
+        }
+    },
+    "Revive the Hisbah": {
+        "Image": "/images/2/29/Gov_mamluk_noble.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "yearly_corruption": -0.05,
+            "nobles_influence_modifier": -0.05
+        }
+    },
+    "Reinforce Magdeburg Rights": {
+        "Image": "/images/3/34/Gov_magdeburg_rights.png",
+        "Effects": {
+            "trade_efficiency": 0.10
+        }
+    },
+    "Revoke Magnate Estates": {
+        "Image": "/images/c/c9/Gov_magnates_2.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "governing_capacity": 150
+        }
+    },
+    "Integrate Tatars": {
+        "Image": "/images/e/e9/Gov_Tatar_raid.png",
+        "Effects": {
+            "cavalry_cost": -0.10,
+            "cav_to_inf_ratio": 0.10,
+            "num_accepted_cultures": 1
+        }
+    },
+    "Abolish Bastard Feudalism": {
+        "Image": "/images/6/6e/Gov_feudalism.png",
+        "Effects": {
+            "global_manpower_modifier": -0.05,
+            "global_autonomy": -0.05,
+            "global_unrest": -1,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Taifa Governors": {
+        "Image": "/images/7/71/Gov_granada_taifa.png",
+        "Effects": {
+            "diplomatic_upkeep": 1,
+            "nobles_influence_modifier": 0.10
+        }
+    },
+    "Union of Cities": {
+        "Image": "/images/b/b9/Gov_map_2.png",
+        "Effects": {
+            "min_autonomy": 5,
+            "global_unrest": -2,
+            "global_spy_defence": 0.20
+        }
+    },
+    "Administer the Imperial Circle": {
+        "Image": "/images/e/e7/Gov_administer_imperial_circle.png",
+        "Effects": {
+            "global_unrest": -1,
+            "accept_vassalization_reasons": 10
+        }
+    },
+    "Hessian Military-Industrial Complex": {
+        "Image": "/images/4/4a/Gov_hesse_military.png",
+        "Effects": {
+            "development_cost": -0.05,
+            "build_cost": -0.10
+        }
+    },
+    "Office of Vitztum": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "years_of_nationalism": -5,
+            "governing_capacity": 100,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Oberhofgericht Leipzig": {
+        "Image": "/images/9/99/Gov_judge.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "global_unrest": -1,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Newar and Gorkhali": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "harsh_treatment_cost": -0.33
+        }
+    },
+    "Metsuke System": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "spy_offence": 0.33,
+            "reduced_liberty_desire": 5
+        }
+    },
+    "Imperial Examination": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "advisor_pool": 1,
+            "yearly_corruption": -0.1
+        }
+    },
+    "Tajik Administration": {
+        "Image": "/images/f/f7/Gov_iranian_bureaucracy.png",
+        "Effects": {
+            "governing_capacity": 150,
+            "num_accepted_cultures": 1,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Dual City Administration": {
+        "Image": "/images/9/9d/Gov_hejaz_custodian.png",
+        "Effects": {
+            "monarch_admin_power": 1,
+            "global_autonomy": -0.025
+        }
+    },
+    "Bangyesurok": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "yearly_corruption": -0.1
+        }
+    },
+    "Levy the Thirthieth": {
+        "Image": "/images/b/b1/Gov_economy_tax.png",
+        "Effects": {
+            "global_unrest": 2,
+            "global_tax_modifier": 0.25
+        }
+    },
+    "Vlast Voivodes": {
+        "Image": "/images/d/db/Gov_march.png",
+        "Effects": {
+            "global_manpower_modifier": 0.10
+        }
+    },
+    "Customs house of Apena Sheep": {
+        "Image": "/images/8/8f/Gov_GE_sheep_2.png",
+        "Effects": {
+            "development_cost": -0.05,
+            "governing_capacity_modifier": 0.05
+        }
+    },
+    "Krum's Code": {
+        "Image": "/images/5/5b/Gov_constitution.png",
+        "Effects": {
+            "global_unrest": -1,
+            "stability_cost_modifier": -0.10
+        }
+    }
+}
+"Military Organisation": {
+    "Feudal Levies": {
+        "Image": "/images/c/cb/Gov_soldiers_2.png",
+        "Effects": {
+            "war_taxes_cost_modifier": -1,
+            "nobles_influence_modifier": 0.05,
+            "vassal_forcelimit_bonus": 1
+        }
+    },
+    "National Guard": {
+        "Image": "/images/0/03/Gov_national_guard.png",
+        "Effects": {
+            "land_morale": 0.05,
+            "recover_army_morale_speed": 0.1
+        }
+    },
+    "Mercenary Corps": {
+        "Image": "/images/3/3f/Gov_landsknecht.png",
+        "Effects": {
+            "mercenary_manpower": 0.25,
+            "reinforce_speed": 0.25,
+            "merc_maintenance_modifier": -0.25
+        }
+    },
+    "Professional Army": {
+        "Image": "/images/5/5b/Gov_soldiers.png",
+        "Effects": {
+            "discipline": 0.025,
+            "mercenary_discipline": -0.10,
+            "land_maintenance_modifier": 0.10,
+            "drill_decay_modifier": -0.20
+        }
+    },
+    "Royal Army": {
+        "Image": "/images/4/44/Gov_hesse_jaegers.png",
+        "Effects": {
+            "land_forcelimit_modifier": -0.15,
+            "drill_gain_modifier": 0.25,
+            "infantry_power": 0.15
+        }
+    },
+    "Empowered Mercenary Corps": {
+        "Image": "/images/a/ab/Gov_Teuton_2.png",
+        "Effects": {
+            "land_attrition": -0.1,
+            "reinforce_speed": 0.25,
+            "merc_maintenance_modifier": -0.25
+        }
+    },
+    "Empowered Heavy Knights": {
+        "Image": "/images/9/96/Gov_mamluk_army.png",
+        "Effects": {
+            "cavalry_power": 0.10,
+            "cavalry_cost": 0.05
+        }
+    },
+    "Condottieri Contracts": {
+        "Image": "/images/f/f7/Gov_italian_mercenary.png",
+        "Effects": {
+            "mercenary_discipline": 0.05,
+            "mercenary_manpower": 0.50,
+            "war_exhaustion": -0.01
+        }
+    },
+    "Lead the Imperical Circle": {
+        "Image": "/images/b/b2/Gov_imperial_army.png",
+        "Effects": {
+            "vassal_forcelimit_bonus": 1,
+            "land_maintenance_modifier": -0.05
+        }
+    },
+    "Expanded Devshirme": {
+        "Image": "/images/2/24/Gov_Turkish_iqta.png",
+        "Effects": {
+            "manpower_recovery_speed": 0.10
+        }
+    },
+    "Tatar Mercenaries": {
+        "Image": "/images/e/e9/Gov_Tatar_raid.png",
+        "Effects": {
+            "cavalry_power": 0.10,
+            "mercenary_discipline": 0.025
+        }
+    },
+    "Elephant Cavalry": {
+        "Image": "/images/1/1f/Gov_soldiers_5.png",
+        "Effects": {
+            "cavalry_power": 0.05,
+            "land_morale": 0.05
+        }
+    },
+    "Portuguese Marines": {
+        "Image": "/images/1/1f/Gov_soldiers_5.png",
+        "Effects": {
+            "discipline": 0.025,
+            "shock_damage_received": -0.05,
+            "fire_damage_received": -0.05
+        }
+    },
+    "Compagnies D'Ordonnance": {
+        "Image": "/images/7/76/Gov_france_compagnies.png",
+        "Effects": {
+            "infantry_power": 0.05,
+            "cavalry_power": 0.05
+        }
+    },
+    "Abolish the Patronage System": {
+        "Image": "/images/1/1f/Gov_soldiers_5.png",
+        "Effects": {
+            "land_maintenance_modifier": -0.05,
+            "cavalry_power": 0.15,
+            "cavalry_cost": -0.10
+        }
+    },
+    "Royal Training": {
+        "Image": "/images/5/5a/Gov_soldiers_6.png",
+        "Effects": {
+            "drill_gain_modifier": 0.25,
+            "reinforce_cost_modifier": -0.1,
+            "reinforce_speed": 0.25,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Abolish Manrent": {
+        "Image": "/images/b/b7/Gov_manrent.png",
+        "Effects": {
+            "land_morale": 0.10,
+            "global_manpower_modifier": 0.05
+        }
+    },
+    "Permanent Marathas Council": {
+        "Image": "/images/8/82/Gov_noble_indian.png",
+        "Effects": {
+            "leader_land_shock": 1,
+            "maratha_influence_modifier": 0.1,
+            "maratha_loyalty_modifier": 0.05,
+            "nobles_influence_modifier": -0.1,
+            "nobles_loyalty_modifier": -0.05
+        }
+    },
+    "Governmental Purbias Register": {
+        "Image": "/images/d/d7/Gov_rajput_kingdom.png",
+        "Effects": {
+            "recover_army_morale_speed": 0.05,
+            "rajput_influence_modifier": 0.1,
+            "rajput_loyalty_modifier": 0.05,
+            "nobles_influence_modifier": -0.1,
+            "nobles_loyalty_modifier": -0.05
+        }
+    },
+    "New Order Regiments": {
+        "Image": "/images/f/f8/Gov_new_order_regiments.png",
+        "Effects": {
+            "discipline": 0.025,
+            "drill_gain_modifier": 0.25,
+            "mil_tech_cost_modifier": -0.05
+        }
+    },
+    "Generalkriegskommissariat": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "global_tax_modifier": 0.10,
+            "global_regiment_cost": -0.05,
+            "global_autonomy": -0.025
+        }
+    },
+    "Gustavan Artillery": {
+        "Image": "/images/0/04/Gov_gustavan_artillery.png",
+        "Effects": {
+            "movement_speed": 0.10,
+            "artillery_power": 0.05
+        }
+    },
+    "The Black Guard": {
+        "Image": "/images/5/5b/Gov_soldiers.png",
+        "Effects": {
+            "mercenary_discipline": 0.05,
+            "mercenary_manpower": 0.25
+        }
+    },
+    "Re-Organize the Imperial Army": {
+        "Image": "/images/9/90/Gov_austrian_army.png",
+        "Effects": {
+            "global_regiment_cost": -0.10,
+            "global_supply_limit_modifier": 0.25,
+            "loot_amount": 0.25
+        }
+    },
+    "Arabian Horses": {
+        "Image": "/images/a/a9/Gov_mamluk_horse.png",
+        "Effects": {
+            "cavalry_flanking": 0.5,
+            "shock_damage": 0.05
+        }
+    },
+    "Pospolite Ruszenie": {
+        "Image": "/images/0/03/Gov_national_guard.png",
+        "Effects": {
+            "shock_damage": 0.10,
+            "cavalry_flanking": 1
+        }
+    },
+    "Polish National Guard": {
+        "Image": "/images/0/03/Gov_national_guard.png",
+        "Effects": {
+            "reinforce_speed": 0.33,
+            "reinforce_cost_modifier": -0.20,
+            "recover_army_morale_speed": 0.1
+        }
+    },
+    "Henrician Reforms": {
+        "Image": "/images/8/83/Gov_england_henry_8.png",
+        "Effects": {
+            "land_forcelimit_modifier": 0.15,
+            "naval_forcelimit_modifier": 0.15
+        }
+    },
+    "Berber Cavalry": {
+        "Image": "/images/f/f5/Gov_berber_warrior.png",
+        "Effects": {
+            "cavalry_power": 0.10,
+            "land_morale": 0.05,
+            "monthly_piety": -0.001
+        }
+    },
+    "Mongol Ties": {
+        "Image": "/images/7/75/Gov_soldiers_3.png",
+        "Effects": {
+            "cavalry_cost": -0.10,
+            "reinforce_cost_modifier": -0.20
+        }
+    },
+    "Lessons of Subutai": {
+        "Image": "/images/4/44/Gov_feudal_theocracy.png",
+        "Effects": {
+            "leader_land_manuever": 1,
+            "leader_siege": 1
+        }
+    },
+    "Jinetes": {
+        "Image": "/images/2/24/Gov_spain_jinite.png",
+        "Effects": {
+            "cavalry_power": 0.15,
+            "cavalry_cost": -0.10,
+            "cavalry_flanking": 0.5
+        }
+    },
+    "Miquelet Militia": {
+        "Image": "/images/e/ee/Gov_spain_tercio.png",
+        "Effects": {
+            "infantry_cost": -0.10,
+            "infantry_power": 0.05
+        }
+    },
+    "Royal Ordinances": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "mil_tech_cost_modifier": -0.15,
+            "artillery_cost": -0.10,
+            "drill_gain_modifier": 0.25
+        }
+    },
+    "Elite Jägers": {
+        "Image": "/images/4/44/Gov_hesse_jaegers.png",
+        "Effects": {
+            "fire_damage": 0.05,
+            "infantry_power": 0.10,
+            "global_regiment_cost": 0.10
+        }
+    },
+    "Warrior Kings": {
+        "Image": "/images/9/96/Gov_generic_people.png",
+        "Effects": {
+            "leader_land_manuever": 1,
+            "leader_land_shock": 1
+        }
+    },
+    "Employ the Snaphaener": {
+        "Image": "/images/4/44/Gov_hesse_jaegers.png",
+        "Effects": {
+            "infantry_fire": 0.25,
+            "infantry_power": 0.05,
+            "years_of_nationalism": 5
+        }
+    },
+    "Redcoats": {
+        "Image": "/images/2/2d/Gov_england_redcoat.png",
+        "Effects": {
+            "fire_damage": 0.05,
+            "infantry_power": 0.05
+        }
+    },
+    "Recruit Ronin": {
+        "Image": "/images/3/37/Gov_samurai.png",
+        "Effects": {
+            "mercenary_discipline": 0.05,
+            "merc_maintenance_modifier": -0.10,
+            "possible_mercenaries": 0.25
+        }
+    },
+    "Ashigaru Generals": {
+        "Image": "/images/e/ec/Gov_daimyo.png",
+        "Effects": {
+            "fire_damage": 0.05,
+            "fire_damage_received": -0.05,
+            "drill_gain_modifier": 0.25
+        }
+    },
+    "Wei-Suo System": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "manpower_recovery_speed": 0.10,
+            "army_tradition": 1,
+            "land_maintenance_modifier": -0.10,
+            "discipline": -0.05
+        }
+    },
+    "Abbas's Reforms": {
+        "Image": "/images/e/ec/Gov_persia_abbas.png",
+        "Effects": {
+            "land_forcelimit_modifier": 0.10,
+            "artillery_cost": -0.10,
+            "ghulams_influence_modifier": 0.05
+        }
+    },
+    "Sherifan Levies": {
+        "Image": "/images/2/24/Gov_hejaz_cavalry.png",
+        "Effects": {
+            "manpower_recovery_speed": 0.15,
+            "reinforce_cost_modifier": -0.20
+        }
+    },
+    "Restore the Komnenoid Army": {
+        "Image": "/images/5/5b/Gov_soldiers.png",
+        "Effects": {
+            "army_tradition_decay": -0.01,
+            "possible_mercenaries": 0.15
+        }
+    },
+    "Jaesungbangryak": {
+        "Image": "/images/0/08/Gov_fort.png",
+        "Effects": {
+            "movement_speed": 0.2,
+            "#regiment_recruit_speed": -0.2
+        }
+    },
+    "Five Military Force": {
+        "Image": "/images/4/44/Gov_hesse_jaegers.png",
+        "Effects": {
+            "fire_damage": 0.1,
+            "land_maintenance_modifier": -0.05
+        }
+    },
+    "Honor of the Thai People": {
+        "Image": "/images/5/5a/Gov_soldiers_6.png",
+        "Effects": {
+            "legitimacy": 1,
+            "land_forcelimit_modifier": 0.20
+        }
+    },
+    "Form the Vojstatic": {
+        "Image": "/images/5/5e/Gov_szlachta_noble_1.png",
+        "Effects": {
+            "land_maintenance_modifier": -0.05,
+            "land_forcelimit": 6,
+            "merc_maintenance_modifier": -0.15#temp
+        }
+    },
+    "Almogavars": {
+        "Image": "/images/b/bf/Gov_catalan_company.png",
+        "Effects": {
+            "mercenary_manpower": 0.25,
+            "spy_offence": 0.10
+        }
+    },
+    "Milizia Nationale": {
+        "Image": "/images/9/9c/Gov_latin_militia.png",
+        "Effects": {
+            "land_morale": 0.10,
+            "mercenary_manpower": -0.50
+        }
+    }
+}
+"The Administrative Cadre": {
+    "Administrative Clergy": {
+        "Image": "/images/2/2e/Gov_religious_leader.png",
+        "Effects": {
+            "free_adm_policy": 1,
+            "brahmins_hindu_influence_modifier": 0.1,
+            "brahmins_hindu_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.1,
+            "church_loyalty_modifier": 0.05
+        }
+    },
+    "Nobles of the Robe": {
+        "Image": "/images/1/1e/Gov_nobleman.png",
+        "Effects": {
+            "leader_cost": -0.1,
+            "nobles_influence_modifier": 0.1,
+            "maratha_exclusive_influence_modifier": 0.1,
+            "rajput_exclusive_influence_modifier": 0.1,
+            "nobles_loyalty_modifier": 0.05,
+            "maratha_exclusive_loyalty_modifier": 0.05,
+            "rajput_exclusive_loyalty_modifier": 0.05
+        }
+    },
+    "Meritocratic Recruitment": {
+        "Image": "/images/8/8f/Gov_merchant.png",
+        "Effects": {
+            "advisor_cost": -0.1,
+            "maratha_muslim_influence_modifier": 0.1,
+            "rajput_muslim_influence_modifier": 0.1,
+            "burghers_influence_modifier": 0.1,
+            "burghers_loyalty_modifier": 0.05,
+            "vaisyas_non_muslim_influence_modifier": 0.1
+        }
+    },
+    "Dakhni Culture": {
+        "Image": "/images/b/b6/Gov_indian_crown.png",
+        "Effects": {
+            "state_maintenance_modifier": -0.2
+        }
+    },
+    "Zabt System": {
+        "Image": "/images/e/e0/Gov_general_eastern_administrative.png",
+        "Effects": {
+            "governing_capacity": 150
+        }
+    },
+    "Revolutionary Principle": {
+        "Image": "/images/5/56/Gov_revolutionary_republic.png",
+        "Effects": {
+            "rr_girondists_influence": 0.1,
+            "land_morale": 0.1,
+            "global_manpower_modifier": 0.15
+        }
+    },
+    "Equality Principle": {
+        "Image": "/images/f/fb/Reform_equal_electorate.png",
+        "Effects": {
+            "tolerance_heretic": 2,
+            "tolerance_heathen": 2,
+            "rr_jacobins_influence": 0.1
+        }
+    },
+    "Imperial Principle": {
+        "Image": "/images/8/8f/Reform_imperial_nobility.png",
+        "Effects": {
+            "rr_royalists_influence": 0.1,
+            "ae_impact": -0.1,
+            "province_warscore_cost": -0.1
+        }
+    },
+    "Integrate Moneyloaners": {
+        "Image": "/images/a/af/Gov_banker.png",
+        "Effects": {
+            "interest": -1,
+            "inflation_reduction": 0.05
+        }
+    },
+    "Advanced Bookkeeping": {
+        "Image": "/images/e/e8/Gov_paper_money_map.png",
+        "Effects": {
+            "interest": -1.0,
+            "yearly_corruption": -0.05
+        }
+    },
+    "Colonial Govenors": {
+        "Image": "/images/8/8d/Gov_colonial_rule.png",
+        "Effects": {
+            "global_tariffs": 0.25,
+            "reduced_liberty_desire": 5
+        }
+    },
+    "Sulu Administrative Reforms": {
+        "Image": "/images/3/35/Gov_muslim.png",
+        "Effects": {
+            "advisor_cost": -0.20,
+            "advisor_pool": 1
+        }
+    },
+    "Academy of Sciences": {
+        "Image": "/images/9/93/Gov_paper_with_seal.png",
+        "Effects": {
+            "technology_cost": -0.05,
+            "prestige": 0.25
+        }
+    },
+    "Koprülü Dynasty": {
+        "Image": "/images/1/1c/Gov_koprulu_dynasty.png",
+        "Effects": {
+            "same_culture_advisor_cost": -0.10,
+            "advisor_pool": 1
+        }
+    },
+    "Frederick's Reforms": {
+        "Image": "/images/2/2d/Gov_frederick.png",
+        "Effects": {
+            "development_cost": -0.05,
+            "build_cost": -0.10,
+            "interest": -0.5
+        }
+    },
+    "Parisian Court": {
+        "Image": "/images/4/49/Gov_conseil_du_roi.png",
+        "Effects": {
+            "advisor_pool": 1,
+            "same_culture_advisor_cost": -0.15
+        }
+    },
+    "Corps Diplomatique": {
+        "Image": "/images/1/19/Gov_france_corps_diplomatique.png",
+        "Effects": {
+            "diplomatic_reputation": 1,
+            "improve_relation_modifier": 0.2
+        }
+    },
+    "Table of Ranks": {
+        "Image": "/images/2/2c/Gov_table_of_ranks.png",
+        "Effects": {
+            "army_tradition_from_battle": 0.5,
+            "naval_tradition_from_battle": 0.5,
+            "governing_capacity": 150
+        }
+    },
+    "The Judicature Ordinance": {
+        "Image": "/images/2/26/Gov_gustavus_adolphus.png",
+        "Effects": {
+            "reform_progress_growth": 0.10,
+            "global_unrest": -1
+        }
+    },
+    "Christian the Fourth's Merchantile Reforms": {
+        "Image": "/images/f/f4/Gov_merchant_ship.png",
+        "Effects": {
+            "range": 0.25,
+            "global_prov_trade_power_modifier": 0.15
+        }
+    },
+    "Declaratio Ferdinandei": {
+        "Image": "/images/c/c2/Gov_ferdinants_declaration.png",
+        "Effects": {
+            "religious_unity": 0.20,
+            "imperial_authority": 0.05
+        }
+    },
+    "Szlachta Recruits": {
+        "Image": "/images/9/91/Gov_szlachta.png",
+        "Effects": {
+            "army_tradition_decay": -0.005,
+            "nobles_influence_modifier": 0.05
+        }
+    },
+    "Voivode Captains": {
+        "Image": "/images/9/91/Gov_szlachta.png",
+        "Effects": {
+            "prestige": 0.5,
+            "nobles_influence_modifier": 0.05
+        }
+    },
+    "Boyar Scions": {
+        "Image": "/images/9/91/Gov_szlachta.png",
+        "Effects": {
+            "stability_cost_modifier": -0.15,
+            "nobles_influence_modifier": 0.05
+        }
+    },
+    "Turkicized Elite": {
+        "Image": "/images/6/69/Gov_mamluk_veteran.png",
+        "Effects": {
+            "diplomatic_upkeep": 1,
+            "governing_capacity": 50
+        }
+    },
+    "Supreme Governor": {
+        "Image": "/images/7/70/Gov_england_elizabeth.png",
+        "Effects": {
+            "tolerance_heretic": 1,
+            "expel_minorities_cost": -0.15
+        }
+    },
+    "Cultural Investment": {
+        "Image": "/images/2/25/Gov_granada_trader.png",
+        "Effects": {
+            "global_trade_power": 0.10,
+            "trade_efficiency": 0.05
+        }
+    },
+    "Empowered Nobles of the Robe": {
+        "Image": "/images/8/82/Reform_bourbon.png",
+        "Effects": {
+            "leader_cost": -0.1,
+            "nobles_influence_modifier": 0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    },
+    "Empowered Administrative Clergy": {
+        "Image": "/images/4/4a/Gov_bishop%27s_law.png",
+        "Effects": {
+            "free_adm_policy": 1,
+            "warscore_cost_vs_other_religion": -0.10,
+            "church_loyalty_modifier": 0.05,
+            "church_influence_modifier": 0.10
+        }
+    },
+    "Adoption of Christianity": {
+        "Image": "/images/9/9f/Gov_kongolese_cross.png",
+        "Effects": {
+            "tolerance_heathen": 2
+        }
+    },
+    "Found the Rothschild Dynasty": {
+        "Image": "/images/5/57/Gov_hesse_rothschild.png",
+        "Effects": {
+            "inflation_reduction": 0.05,
+            "interest": -2
+        }
+    },
+    "Ottonian Handfeste": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "global_tax_modifier": 0.10
+        }
+    },
+    "Re-establish the Kuge": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "prestige": 1,
+            "global_unrest": -1
+        }
+    },
+    "Foreign Ghulams": {
+        "Image": "/images/2/29/Gov_mamluk_noble.png",
+        "Effects": {
+            "advisor_pool": 1,
+            "ghulams_influence_modifier": 0.10
+        }
+    },
+    "Eunich Administration": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "free_dip_policy": 1,
+            "num_accepted_cultures": 1,
+            "legitimacy": 0.5
+        }
+    },
+    "Civil Servant System": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "governing_capacity": 250
+        }
+    },
+    "Highborn Ministers": {
+        "Image": "/images/3/3e/Gov_hejaz_ministers.png",
+        "Effects": {
+            "free_adm_policy": 1,
+            "governing_capacity": 100,
+            "global_tax_modifier": 0.05
+        }
+    },
+    "Kiwi Support": {
+        "Image": "/images/f/f4/Gov_merchant_ship.png",
+        "Effects": {
+            "global_trade_power": 0.10
+        }
+    },
+    "Roman Court": {
+        "Image": "/images/a/aa/Gov_parliament.png",
+        "Effects": {
+            "stability_cost_modifier": -0.10
+        }
+    },
+    "Korean Bureaucracy": {
+        "Image": "/images/6/61/Gov_celestial_empire.png",
+        "Effects": {
+            "global_autonomy": -0.1
+        }
+    },
+    "Decretum Maius": {
+        "Image": "/images/c/c9/Gov_hungarian_decretum_maius.png",
+        "Effects": {
+            "global_autonomy": -0.025,
+            "advisor_pool": 1,
+            "nobles_influence_modifier": -0.10
+        }
+    },
+    "Grand Logothete": {
+        "Image": "/images/8/80/Gov_serbian_logothete.png",
+        "Effects": {
+            "prestige": 0.5,
+            "advisor_cost": -0.05
+        }
+    },
+    "Neapolitan Renaissance": {
+        "Image": "/images/9/9a/Gov_aragon_alfonso.png",
+        "Effects": {
+            "idea_cost": -0.10,
+            "global_institution_spread": 0.25
+        }
+    },
+    "Drastic Control of the Boyars": {
+        "Image": "/images/3/3e/Gov_szlachta_noble_2.png",
+        "Effects": {
+            "global_unrest": -1,
+            "global_manpower_modifier": 0.10,
+            "nobles_influence_modifier": -0.10,
+            "nobles_loyalty_modifier": 0.05
+        }
+    }
+}
+"Deliberative Assembly": {
+    "Parliamentarism": {
+        "Image": "/images/9/99/Gov_judge.png",
+        "Effects": {
+            "global_unrest": -1
+        }
+    },
+    "Royal Decree": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "max_absolutism": 5
+        }
+    },
+    "Aristocratic Court": {
+        "Image": "/images/c/cb/Gov_soldiers_2.png",
+        "Effects": {
+            "army_tradition_decay": -0.003
+        }
+    },
+    "General Estates": {
+        "Image": "/images/9/93/Gov_paper_with_seal.png",
+        "Effects": {
+            "production_efficiency": 0.1
+        }
+    },
+    "States General": {
+        "Image": "/images/2/29/Gov_states_general.png",
+        "Effects": {
+            "stability_cost_modifier": -0.1
+        }
+    },
+    "Legislative Sejm": {
+        "Image": "/images/7/7b/Legislative_sejm_reform.png",
+        "Effects": {
+            "local_heir_adm": 1,
+            "local_heir_dip": 1,
+            "local_heir_mil": 1
+        }
+    },
+    "Integrate the Sejmiks": {
+        "Image": "/images/f/f6/Integrated_sejmiks_reform.png",
+        "Effects": {
+            "years_of_nationalism": -5
+        }
+    },
+    "The Feuillant System": {
+        "Image": "/images/4/49/Reform_feuillant.png",
+        "Effects": {
+            "stability_cost_modifier": -0.1,
+            "republican_tradition": -0.1
+        }
+    },
+    "The Two-Chamber System": {
+        "Image": "/images/b/b6/Gov_parliament_hall.png",
+        "Effects": {
+            "free_policy": 1,
+            "republican_tradition": 0.15
+        }
+    },
+    "Imperial Decree": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "max_revolutionary_zeal": 20
+        }
+    },
+    "Haudenosaunee": {
+        "Image": "/images/6/66/Gov_iroquois_longhouse.png",
+        "Effects": {
+            "years_of_nationalism": -5,
+            "num_accepted_cultures": 2
+        }
+    },
+    "Parliamentary Order": {
+        "Image": "/images/7/79/Parliament_highlighted.png",
+        "Effects": {
+            "stability_cost_modifier": -0.10
+        }
+    },
+    "King and Duke": {
+        "Image": "/images/4/47/Gov_assembly_hall.png",
+        "Effects": {
+            "stability_cost_modifier": -0.15,
+            "yearly_absolutism": 0.20
+        }
+    },
+    "Diverse Estates": {
+        "Image": "/images/4/4b/Gov_diverse_estates.png",
+        "Effects": {
+            "diplomats": 1,
+            "nobles_loyalty_modifier": 0.05,
+            "burghers_loyalty_modifier": 0.05,
+            "church_loyalty_modifier": 0.05
+        }
+    },
+    "Foreign Recruitment": {
+        "Image": "/images/9/96/Gov_mamluk_army.png",
+        "Effects": {
+            "merchants": 1
+        }
+    },
+    "Reform the Sejm": {
+        "Image": "/images/b/b8/Gov_poland_sejm.png",
+        "Effects": {
+            "monthly_support_heir_gain": 0.10,
+            "global_spy_defence": 0.15,
+            "same_culture_advisor_cost": -0.1
+        }
+    },
+    "Abolish The Sejm": {
+        "Image": "/images/b/b8/Gov_poland_sejm.png",
+        "Effects": {
+            "global_spy_defence": 0.25,
+            "advisor_cost": -0.10,
+            "promote_culture_cost": -0.50
+        }
+    },
+    "Subservient Bourgeois": {
+        "Image": "/images/f/ff/Gov_france_weak_burghers.png",
+        "Effects": {
+            "war_taxes_cost_modifier": -0.5,
+            "production_efficiency": 0.10
+        }
+    },
+    "Society of Agriculture and an Agricultural Committee": {
+        "Image": "/images/2/23/Gov_french_grain.png",
+        "Effects": {
+            "global_trade_goods_size_modifier": 0.10,
+            "global_own_trade_power": 0.25
+        }
+    },
+    "Bourgeoisie Aristocracy": {
+        "Image": "/images/0/03/Gov_regents.png",
+        "Effects": {
+            "global_tax_modifier": 0.10,
+            "global_trade_goods_size_modifier": 0.05
+        }
+    },
+    "Noble Electors": {
+        "Image": "/images/c/c5/Gov_man_on_podium.png",
+        "Effects": {
+            "monarch_military_power": 1,
+            "max_absolutism": -5
+        }
+    },
+    "Royal Electors": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "max_absolutism": 10
+        }
+    },
+    "Parliamental Electors": {
+        "Image": "/images/9/99/Gov_judge.png",
+        "Effects": {
+            "legitimacy": 0.5
+        }
+    },
+    "Papal Electors": {
+        "Image": "/images/7/78/Gov_clergyman.png",
+        "Effects": {
+            "tolerance_own": 1
+        }
+    },
+    "Union of Crowns": {
+        "Image": "/images/e/e4/Gov_england_james.png",
+        "Effects": {
+            "legitimacy": 0.5,
+            "diplomatic_reputation": 1
+        }
+    },
+    "Declaration of Breda": {
+        "Image": "/images/3/36/Gov_england_declaration_of_breda.png",
+        "Effects": {
+            "religious_unity": 0.15,
+            "war_exhaustion": -0.025
+        }
+    },
+    "Royal Society": {
+        "Image": "/images/f/f8/Gov_kongolese_king.png",
+        "Effects": {
+            "global_autonomy": -0.05,
+            "state_maintenance_modifier": -0.25
+        }
+    },
+    "Legacy of Constitutionalism": {
+        "Image": "/images/0/0a/Gov_king_2.png",
+        "Effects": {
+            "max_absolutism": 5,
+            "yearly_absolutism": 0.10,
+            "legitimacy": -0.25
+        }
+    },
+    "Freie Landtage": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "legitimacy": 0.25,
+            "trade_efficiency": 0.10
+        }
+    },
+    "Empowered Aristocratic Court": {
+        "Image": "/images/3/3e/Gov_szlachta_noble_2.png",
+        "Effects": {
+            "army_tradition_decay": -0.005
+        }
+    },
+    "Empowered Junker Court": {
+        "Image": "/images/3/3e/Gov_szlachta_noble_2.png",
+        "Effects": {
+            "free_leader_pool": 1,
+            "army_tradition_decay": -0.005
+        }
+    },
+    "Empowered Royal Decree": {
+        "Image": "/images/6/69/Gov_austrian_empire.png",
+        "Effects": {
+            "max_absolutism": 10,
+            "yearly_absolutism": 0.1,
+            "nobles_influence_modifier": -0.10,
+            "burghers_influence_modifier": -0.10,
+            "church_influence_modifier": -0.10
+        }
+    },
+    "Empowered General Estates": {
+        "Image": "/images/b/b8/Gov_poland_sejm.png",
+        "Effects": {
+            "state_maintenance_modifier": -0.25,
+            "max_absolutism": -5
+        }
+    },
+    "Empowered Divine Blood": {
+        "Image": "/images/2/2f/Gov_theocratic_law.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "diplomatic_reputation": 1,
+            "max_absolutism": 5,
+            "devotion": 0.5
+        }
+    },
+    "Empowered Monastic Militarism.": {
+        "Image": "/images/d/d4/Gov_brothers_in_arms.png",
+        "Effects": {
+            "free_mil_policy": 1,
+            "max_absolutism": -5
+        }
+    },
+    "Empowered Church Councils": {
+        "Image": "/images/d/d6/Gov_bishop.png",
+        "Effects": {
+            "tolerance_own": 1,
+            "global_missionary_strength": 0.02
+        }
+    },
+    "Empowered Imperial Circles": {
+        "Image": "/images/4/49/Gov_king.png",
+        "Effects": {
+            "reduced_liberty_desire": 10,
+            "accept_vassalization_reasons": 15,
+            "vassal_tax_modifier": 0.20
+        }
+    },
+    "Ghulam Governates": {
+        "Image": "/images/6/69/Gov_mamluk_veteran.png",
+        "Effects": {
+            "global_unrest": 1,
+            "max_absolutism": 5,
+            "yearly_absolutism": 0.5,
+            "ghulams_influence_modifier": 0.05
+        }
+    },
+    "Grand Council": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "advisor_pool": 1
+        }
+    },
+    "Grand Secretariat": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "monarch_diplomatic_power": 1,
+            "yearly_corruption": 0.05
+        }
+    },
+    "Sultanate of Women": {
+        "Image": "/images/2/24/Gov_turks_sultanate_of_women.png",
+        "Effects": {
+            "female_advisor_chance": 0.25,
+            "prestige": 0.5
+        }
+    },
+    "Euijung-bu Seosajae": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "advisor_pool": 1,
+            "advisor_cost": -0.2,
+            "max_absolutism": -5
+        }
+    },
+    "Tripartum": {
+        "Image": "/images/7/71/Gov_hungarian_tripartum.png",
+        "Effects": {
+            "legitimacy": 0.5,
+            "global_unrest": -1,
+            "max_absolutism": -10
+        }
+    },
+    "Theatines": {
+        "Image": "/images/9/99/Gov_theatines.png",
+        "Effects": {
+            "papal_influence": 1,
+            "global_missionary_strength": 0.02
+        }
+    }
+}
+"Economic Policy": {
+    "Strengthen the Industrial Sector": {
+        "Image": "/images/4/4e/Gov_economy_industry.png",
+        "Effects": {
+            "global_tax_modifier": -0.10,
+            "build_cost": -0.1
+        }
+    },
+    "Tariffs & Trading Rights": {
+        "Image": "/images/4/43/Gov_economy_trade.png",
+        "Effects": {
+            "global_prov_trade_power_modifier": 0.10,
+            "trade_steering": 0.20,
+            "merchants": 1
+        }
+    },
+    "Efficient Taxation": {
+        "Image": "/images/b/b1/Gov_economy_tax.png",
+        "Effects": {
+            "vassal_income": 0.25,
+            "global_tax_modifier": 0.15,
+            "min_autonomy_in_territories": -0.10,
+            "diplomatic_upkeep": 1
+        }
+    },
+    "Conseil Souverain": {
+        "Image": "/images/4/4f/Gov_france_colonial.png",
+        "Effects": {
+            "global_tariffs": 0.20,
+            "global_foreign_trade_power": 0.15,
+            "trade_steering": 0.20
+        }
+    },
+    "Continental System": {
+        "Image": "/images/d/d0/Gov_france_continental_system.png",
+        "Effects": {
+            "prestige": 0.5,
+            "embargo_efficiency": 0.25,
+            "global_prov_trade_power_modifier": 0.15
+        }
+    },
+    "Empowered Aristocratic Estates": {
+        "Image": "/images/2/2d/Gov_empowered_aristocrat_estate.png",
+        "Effects": {
+            "production_efficiency": 0.10,
+            "global_manpower_modifier": 0.10
+        }
+    },
+    "Empowered Free Trade": {
+        "Image": "/images/1/15/Gov_empowered_free_trade.png",
+        "Effects": {
+            "global_trade_power": -0.10,
+            "global_trade_goods_size_modifier": 0.15,
+            "merchants": 1
+        }
+    },
+    "Empowered Monastic Centres": {
+        "Image": "/images/7/79/Gov_empowered_monastery.png",
+        "Effects": {
+            "global_tax_modifier": 0.10,
+            "global_trade_power": 0.10
+        }
+    },
+    "Empowered Enlarge Royal Estates": {
+        "Image": "/images/4/46/Gov_empowered_royal_estate.png",
+        "Effects": {
+            "governing_capacity": 250
+        }
+    },
+    "Empowered Expand Corvee": {
+        "Image": "/images/c/cb/Gov_empowered_corvee.png",
+        "Effects": {
+            "defensiveness": 0.10,
+            "global_trade_goods_size_modifier": 0.05,
+            "global_manpower_modifier": 0.10
+        }
+    },
+    "Empowered Royal Trading Company": {
+        "Image": "/images/0/05/Gov_GE_trader.png",
+        "Effects": {
+            "trade_efficiency": 0.10,
+            "trade_company_investment_cost": -0.25
+        }
+    },
+    "Armenian Silk Traders": {
+        "Image": "/images/0/05/Gov_GE_trader.png",
+        "Effects": {
+            "build_cost": -0.15,
+            "caravan_power": 0.25
+        }
+    },
+    "Restore the Caravanserai": {
+        "Image": "/images/e/e8/Gov_paper_money_map.png",
+        "Effects": {
+            "caravan_power": 0.25,
+            "merchants": 1
+        }
+    },
+    "Reinforce the Hwangog": {
+        "Image": "/images/a/af/Gov_banker.png",
+        "Effects": {
+            "stability_cost_modifier": -0.2,
+            "global_tax_modifier": 0.15
+        }
+    },
+    "Bureaucratic Economy": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "trade_efficiency": -0.05,
+            "production_efficiency": 0.1,
+            "global_tax_modifier": 0.1
+        }
+    }
+}
+"Absolutism & Constitutionalism": {
+    "L'Etat c'est moi": {
+        "Image": "/images/b/b1/Gov_queen.png",
+        "Effects": {
+            "governing_capacity": 250
+        }
+    },
+    "Regional Representation": {
+        "Image": "/images/4/47/Gov_assembly_hall.png",
+        "Effects": {
+            "min_autonomy_in_territories": -0.10
+        }
+    },
+    "A Loyal Consulate": {
+        "Image": "/images/5/56/Gov_revolutionary_republic.png",
+        "Effects": {
+            "global_autonomy": -0.05,
+            "governing_capacity": 150
+        }
+    },
+    "Military Electorate": {
+        "Image": "/images/8/8a/Reform_military_dictatorship.png",
+        "Effects": {
+            "leader_land_fire": 1,
+            "army_tradition": 0.5,
+            "rr_royalists_influence": 0.1
+        }
+    },
+    "Freedom of Religion": {
+        "Image": "/images/e/e7/Gov_freedom_of_religion.png",
+        "Effects": {
+            "tolerance_heathen": 1,
+            "tolerance_heretic": 1
+        }
+    },
+    "Constitutionalism": {
+        "Image": "/images/5/5b/Gov_constitution.png",
+        "Effects": {
+            "max_absolutism": -10,
+            "global_unrest": -2,
+            "legitimacy": 1
+        }
+    },
+    "Nueva Planta Decrees": {
+        "Image": "/images/b/b4/Gov_nueva_planta.png",
+        "Effects": {
+            "global_autonomy": -0.075,
+            "global_unrest": -1,
+            "governing_capacity": 250
+        }
+    },
+    "Toleration of All Faiths Edict": {
+        "Image": "/images/2/21/Gov_toleration_edict.png",
+        "Effects": {
+            "tolerance_heathen": 1,
+            "build_cost": -0.10,
+            "state_maintenance_modifier": -0.20
+        }
+    },
+    "Abolish the Haandfaestning": {
+        "Image": "/images/9/93/Gov_paper_with_seal.png",
+        "Effects": {
+            "max_absolutism": 10,
+            "heir_chance": 0.25,
+            "global_unrest": -1,
+            "nobles_influence_modifier": -0.15
+        }
+    },
+    "Revoke Reichsfreiheit": {
+        "Image": "/images/6/61/Gov_politician.png",
+        "Effects": {
+            "diplomatic_annexation_cost": -0.10,
+            "ae_impact": -0.10
+        }
+    },
+    "Constitution of 3 May": {
+        "Image": "/images/d/d1/Gov_poland_constitution_paper.png",
+        "Effects": {
+            "global_unrest": -2,
+            "legitimacy": 1,
+            "max_absolutism": -10
+        }
+    },
+    "Bill of Rights": {
+        "Image": "/images/1/17/Gov_england_bill_of_rights.png",
+        "Effects": {
+            "global_unrest": -2,
+            "manpower_recovery_speed": 0.10 #right to arm bears,
+            "max_absolutism": -5
+        }
+    },
+    "Droit Divin": {
+        "Image": "/images/8/81/Gov_french_louis.png",
+        "Effects": {
+            "unjustified_demands": -0.25,
+            "core_creation": -0.1
+        }
+    },
+    "Principle of Fiqh": {
+        "Image": "/images/9/9f/Gov_noble_muslim.png",
+        "Effects": {
+            "global_unrest": -1,
+            "tolerance_own": 1,
+            "max_absolutism": 5
+        }
+    },
+    "Absolutist Administration": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "max_absolutism": 10,
+            "meritocracy": -1,
+            "production_efficiency": 0.10
+        }
+    },
+    "Permanent Regency": {
+        "Image": "/images/1/17/Gov_asian_scripture.png",
+        "Effects": {
+            "max_absolutism": -5,
+            "tolerance_own": 2,
+            "yearly_corruption": -0.05
+        }
+    },
+    "Tanzimat Reforms": {
+        "Image": "/images/9/9a/Gov_arabic_scripture.png",
+        "Effects": {
+            "global_unrest": -2,
+            "max_absolutism": -5,
+            "global_institution_spread": 0.25
+        }
+    },
+    "Constitution of Melfi": {
+        "Image": "/images/6/6a/Gov_sicily_melfi.png",
+        "Effects": {
+            "max_absolutism": 5,
+            "trade_efficiency": 0.05,
+            "nobles_influence_modifier": -0.05,
+            "church_influence_modifier": -0.10
+        }
+    }
+}
+"Separation of Power": {
+    "Political Absolutism": {
+        "Image": "/images/9/99/Gov_judge.png",
+        "Effects": {
+            "max_absolutism": 5,
+            "yearly_absolutism": 0.5
+        }
+    },
+    "Legislative Houses": {
+        "Image": "/images/b/b6/Gov_parliament_hall.png",
+        "Effects": {
+            "possible_adm_policy": 1
+        }
+    },
+    "Become a Republic": {
+        "Image": "/images/7/79/Parliament_highlighted.png",
+        "Effects": {
+        }
+    },
+    "Install Theocratic Government": {
+        "Image": "/images/3/35/Pope_highlighted.png",
+        "Effects": {
+        }
+    },
+    "Emperor of the Revolution": {
+        "Image": "/images/5/57/Reform_emperor_of_the_revolution.png",
+        "Effects": {
+            "yearly_revolutionary_zeal": 1.5
+        }
+    },
+    "An Enlightened Monarchy": {
+        "Image": "/images/a/a0/Reform_enlightened_monarchy.png",
+        "Effects": {
+            "global_unrest": -2,
+            "num_accepted_cultures": 2
+        }
+    },
+    "Return to the Revolutionary Republic": {
+        "Image": "/images/f/f9/Reform_become_rev_republic.png",
+        "Effects": {
+        }
+    },
+    "Abolish Ecclesiastical privileges": {
+        "Image": "/images/8/82/Reform_bourbon.png",
+        "Effects": {
+            "administrative_efficiency": 0.05,
+            "global_tax_modifier": 0.10,
+            "church_influence_modifier": -0.20,
+            "church_loyalty_modifier": -0.15
+        }
+    },
+    "Governing Senate": {
+        "Image": "/images/e/ee/Gov_peter_the_great.png",
+        "Effects": {
+            "diplomatic_reputation": 1,
+            "global_unrest": -1
+        }
+    },
+    "Nizam-i Jédit": {
+        "Image": "/images/2/2b/Gov_selim_3.png",
+        "Effects": {
+            "max_absolutism": 10,
+            "free_adm_policy": 1
+        }
+    },
+    "British Colonial Empire": {
+        "Image": "/images/b/b9/Gov_map_2.png",
+        "Effects": {
+            "vassal_forcelimit_bonus": 1.0,
+            "reduced_liberty_desire": 5
+        }
+    }
+}

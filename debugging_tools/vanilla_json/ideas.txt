@@ -1,0 +1,2912 @@
+hlr_imperial_throne	The Imperial Throne
+hlr_kaiserliche_armee	Kaiserliche Armee
+hlr_imperial_diplomacy	Imperial Diplomacy
+hlr_centralised_empire	Centralized Empire
+hlr_roman_heritage	Roman Heritage
+hlr_adopting_the_goosestep	Adopting the Goosestep
+hlr_onwards_and_upwards	Onwards and Upwards
+ger_german_confederation	The German Confederation
+ger_german_universities	The Universities of Germany
+ger_reichsheer	Reichsheer
+ger_new_hanseatics	The New Hanseatic League
+ger_junkers	German Junkers
+ger_reichstag	Reichstag
+ger_eisen_und_kohle	Eisen und Kohle
+royal_navy	A Royal Navy
+eltham_ordinance	The Eltham Ordinance
+secretaries_of_state	Secretaries of State
+navigation_acts	The Navigation Acts
+eng_red_coats	Redcoats
+sick_and_hurt_board	The Sick and Hurt Board
+british_bill_of_rights	English Bill of Rights
+gbr_acts_of_union	The Acts of Union
+city_upon_a_hill	City Upon a Hill
+british_merchant_navy	Establish British Merchant Navy
+gbr_the_royal_society	The Royal Society
+reform_of_comission_buying	Reform of Commission Buying
+british_industrialization	Early Industrialization
+britanna_rules_the_waves	Britannia Rules the Waves
+kung_och_riksdag	Kung och Riksdag
+swedish_steel	Swedish Steel
+hakkapelitta	The 'Hakkapeliitta'
+indelningsverket	Indelningsverket
+swedish_absolutism	Swedish Absolutism
+produktplakatet	Produktplakatet
+union_and_security_act	Union and Security Act
+gatherers_of_tribute	Gatherers of Tribute
+legacy_of_dmitriy_donskoi	Legacy of Dmitriy Donskoi
+seat_of_metropolitan_bishop	Seat of Metropolitan Bishop
+pomestnoe_voisko	Pomestnoe Voisko
+strength_of_the_boyars	Strength of the Boyars
+zasechnaya_cherta	Zasechnaya Cherta
+descendants_of_byzantine_emperors	Descendants of Byzantine Emperors
+land_of_the_rus	Land of the Rus
+siberian_frontier	Siberian Frontier
+russian_artillery_yard	Russian Artillery Yard
+life_long_conscription	Life-Long Conscription
+abolish_the_mestnichestvo	Abolish the Mestnichestvo
+table_of_ranks	The Table of Ranks
+curriculum_of_the_cadet_corps	Broaden the curriculum of the Cadet Corps
+devout_catholisism	Devout Catholicism
+inter_caetera	Inter Caetera
+gold_fleet	Treasure Fleet
+spanish_armada	A Spanish Armada
+spa_casa_de_contracion	Casa de Contratación
+spa_cortes	Rein in the Cortes
+siglo_de_oro	Siglo de Oro
+the_reconquista	The Reconquista
+spanish_inquisition	Spanish Inquisition
+cabildos	Cabildos
+inter_caetera	Inter Caetera
+infantas	Infantas
+salamanca_scholars	School of Salamanca
+nueva_planta	Nueva Planta
+amsterdam_wisselbank	Found the Amsterdam Wisselbank
+dutch_trading_spirit	Dutch Trading Spirit
+polders	Polders
+instructie_voor_de_admiraliteiten	Instructie voor de Admiraliteiten
+embrace_humanism	Embrace Humanism
+army_sappers	Army Sappers
+platoon_fire	Platoon Fire
+nordic_rulers_legacy	Nordic Rulers Legacy
+vornedskab	Vornedskap
+old_naval_traditions	Old Naval Traditions
+rentekammer	Found the Rentekammer
+klaedekammer	Reorganize the Klaedekammer
+expanded_dockyards	Found the Copenhagen Dockyard
+den_danske_lov	Den Danske Lov
+french_language_in_all_courts	French Language in All Courts
+elan	Elan!
+estates_general	Estates General
+native_trading_principles	Native Trading Principles
+vauban_fortifications	Vauban Fortifications
+the_philosophes	The Philosophes
+liberty_egalite_fraternity	Liberté, Égalité, Fraternité
+millets	Kanunnames
+ghazi	Ghazi
+timariot_system	Timar System
+autonmous_pashas	Autonomous Pashas
+lawcode_of_suleiman_01	The Law code of Suleiman
+tulip_period	Tulip Period
+imperial_school_of_naval_engineering	Found the Imperial School of Naval Engineering
+FER_papal	Papal Recognition
+FER_culture	Center of Culture
+FER_alfonso	Alfonso I's Reforms
+FER_margrave_of_este	Margraves of Este
+FER_resisting_venice	Resisting Venetian Control
+FER_este_castle	Este Castle
+FER_ferraran_arsenal	The Ferraran Arsenal
+URB_italian_wars	The Italian Wars
+URB_condot_kings	Condottiere Kings
+URB_ducal_palace	The Ducal Palace of Urbino
+URB_humanist_court	A Humanist Court
+URB_book_of_courtier	The Book of the Courtier
+URB_papal_loyalty	Papal Loyalty
+URB_light_of_italy	The Light of Italy
+BLG_etruscan	Etruscan Origins
+BLG_bentivoglio	Bentivoglio Family
+BLG_papal_rebellion	Rebellion Against the Papacy
+BLG_la_grassa	La Grassa
+BLG_la_rossa	La Rossa
+BLG_la_turrita	La Turrita
+BLG_la_dotta	La Dotta
+MAN_free_city	Free Imperial City of Mantua
+MAN_studiolo	The Countess's Studiolo
+MAN_noble_clergy	Noble Clergymen
+MAN_walls	Gonzaga's Walls
+MAN_soldiers	Soldiers for Protection
+MAN_royal_ties	Mantuan Royal Ties
+MAN_mercenary_princes	Mercenary Princes
+PGA_herculanus	Saint Herculanus
+PGA_umbrian_hegemony	Umbrian Hegemony
+PGA_five_conclaves	Meeting of the Five Conclaves
+PGA_signoria	Perugian Signoria
+PGA_heartbeat_of_christianity	Heartbeat of Christianity
+PGA_war_of_eight_saints	The War of the Eight Saints
+PGA_baglioni_dream	The Baglioni Dream
+SZO_golden_age	The Saluzzo Golden Age
+SZO_rich_mountain	The Rich Mountains of Saluzzo
+SZO_marquisate	Marquisate
+SZO_alpine_engineering	Alpine Engineering
+SZO_key_to_italy	The Key to the House of Italy
+SZO_chiesa_san_giovanni	Chiesa San Giovanni
+SZO_mint	The Marquis Mint
+MFA_kings_and_emperors	Cousins to Kings and Emperors
+MFA_fertile_mountain	The Rich and Fertile Mountain
+MFA_frontier	The Italian Frontier
+MFA_savoyard_loyalty	Savoyard Loyalty
+MFA_apennine	Apennine Campaigns
+MFA_crossroads_of_powers	Crossroad of Powers
+MFA_byzantine_claimants	Last Claimants of Byzantium
+SIE_council_priori	The Council of Priori
+SIE_lordship	Siena Lordship
+SIE_bank	The Bank of Siena
+SIE_perseverance	Sienese Perseverance
+SIE_artists	Sienese School of Painting
+SIE_saints_of_siena	The Saints of Siena
+SIE_peoples_republic	The People's Republic
+LUC_mending_schisms	Mending the Papal Schisms
+LUC_libertas	Libertas!
+LUC_draining_the_lake	Draining Lago di Bientina
+LUC_naval_Ambition	Luccan Naval Ambition
+LUC_captain_of_people	The Captain of the People
+LUC_black_party	The Black Party
+LUC_jacobin_state	The Jacobin State of Lucca
+VRN_three_households	Three Households Alike in Dignity
+VRN_fair_verona	In Fair Verona
+VRN_ancient_grudge	Ancient Grudge
+VRN_civil_blood_and_civil_hands	Civil Blood and Civil Hands
+VRN_ending_the_strife	Ending the Strife
+VRN_some_shall_be_punished	Some Shall Be Pardoned, Some Punished
+VRN_a_tale_of_woe	For Never Was There a Tale of More Woe
+venetian_arsenal	Venetian Arsenal
+printing_industry	Printing Industry
+stato_da_mar	Stato da Màr
+state_inquisition	Found the State Inquisition
+conscription	Naval Conscription
+defend_the_law	Defend the Law
+provveditori_ai_beni_inculti	Found the provveditori ai beni inculti
+teutonic_legacy	Legacy of the Teutonic Knights
+soldier_king	The Soldier-King of Prussia
+army_professionalism	Army Professionalism
+noble_cadets	Noble Cadets
+goose_step	The Goose Step
+regimental_cantons	Regimental Cantons
+religious_toleration	Religious Toleration
+northern_march	Northern March
+kammergericht	Found the Kammergericht
+divided_estates	Divide the Estates
+bra_pomeranian_wars	Pomeranian Wars
+seat_of_the_old_emperors	Seat of the Old Emperors
+iron_tooth	Iron Tooth
+margrave_council	Geheimer Rat für die Kurmark
+legacy_of_the_navigator	Legacy of the Navigator
+afonsine_ordinances	Afonsine Ordinance
+case_de_india	Feitorias
+land_before_faith	Land Before Faith
+the_bandeirantes	Encourage the Bandeirantes
+royal_absolutism	Royal Absolutism
+por_royal_military_academy	Royal Academy of Fortification, Artillery and Drawing
+folwark_system	Promote the Folwark System
+nihil_novi	Nihil Novi
+peichota_wybraniecka	Piechota Wybraniecka
+winged_hussars	Winged Hussars
+wojsko_komputoe	Wojsko Komputowe
+foreign_section	Found the Foreign section
+focus_on_field_defences	Focus on Field Defenses
+imperial_Ambition	Imperial Ambition
+military_border	Military Frontier
+fugger_banks	Fugger Banking
+habsburg_dominance	Habsburg Dominance
+edict_of_restitution	Edict of Restitution
+austrian_court	Austrian Court
+hofkriegsrat	Hofkriegsrat
+nine_garrisons_of_the_great_wall	Nine Garrisons of The Great Wall
+revived_three_grand_divisions	Revive the Three Grand Divisions
+inward_perfection	Inward Perfection
+yellow_river_dykes	Repair the Yellow River Dykes 
+salt_monopoly	Restore the Salt Monopoly
+single_whip_law	Single Whip Law
+the_red_cannon	The Red Cannon
+the_qizilbash	The Qizilbash
+persian_rug_production	Encourage Persian Rug Production
+the_ghulams	Found the Ghulams
+improved_silk_road	Improve the Silk Road
+encouraged_art	Encourage Art
+promotion_of_irrigation	Promotion of Irrigation
+increased_crown_lands	Increase the Crown Lands
+golden_fleece	The Order of the Golden Fleece
+compagnies_ordonnance	The Compagnies d'Ordonnance
+bur_estates_general	Promote the Estates General
+reform_of_feudal_army	Reform of the Feudal Army
+integrated_towns	Integrate the Towns in the Estates General
+freedom_of_worship	Allow Freedom of Worship
+bur_regimental_system	Create the Regimental System
+reunited_genoa	Reuniting the Nation
+lessons_of_chiogga	The Lessons of Chioggia
+genoese_trade	Rebuilding Genoese Trade
+the_genoese_arsenal	Build the Genoese Arsenal
+overhauled_bureaucracy	Overhaul the Bureaucracy
+the_office_of_grand_admiral	Setup the Office of Grand Admiral 
+standardisation_of_designs	Standardization of Designs
+break_the_black_douglas	Break the Black Douglas
+modernised_royal_scots_navy	Modernize the Royal Scots Navy
+reign_in_the_clans	Rein in the Clans
+comets	Comets?
+royal_revenue	Tighten up Royal Revenue
+basilikon_doron	Basilikon Doron
+act_of_revocation	Pass the Act of Revocation
+hun_renaissanse_knowledge	A Renaissance Prince
+bulwark_of_christianity	Bulwark of Christianity
+found_the_black_army	Found the Black Army
+reformed_coinage	Reformed Coinage
+curtailed_peasantry	Curtail the Freedom of the Peasantry
+strengthened_towns	Strengthen the Towns
+hungarian_estates_general	Create the Estates General
+jap_unification_under_the_emperor	Unification under the Emperor
+reformed_land_holding	Reformed Land Holding
+jap_modernization	Modernization
+jap_maritime_legacy	Maritime Legacy
+jap_land_of_the_rising_sun	Land of the Rising Sun
+jap_kaitakudan	Kaitakudan
+jap_great_power_diplomacy	Great Power Diplomacy
+red_sea_trade	Red Sea Trade
+monuments_to_greatness	Monuments to our Greatness
+purchase_new_mamelukes	Purchase New Mamluks
+mam_army_reform	Reform of the Army 
+reform_fellah_system	Reform the Fellah System
+reformed_succession	Reform of the Succession
+mam_monopoly_ports	Monopoly Ports
+consolidate_the_royal_domain	Consolidate the Royal Domain
+academia_pontaniana	Academia Pontaniana
+encouraged_city_living	Encourage City Living
+crush_the_barons	Crush the Power of the Barons
+expanded_arsenale	Expand the Arsenale 
+city_of_artists	City of Artists
+lazzaroni_support	The Lazzaroni and the Monarchy
+sic_university_of_catania	University of Catania
+sic_constitions_of_melfi	Constitutions of Melfi
+sic_noble_admirals	Noble Admirals
+sic_greater_sicily	Greater Sicily
+sic_trade_fleet	Sicilian Trade Fleets
+sic_grand_navy	The Grand Navy
+sic_sicilian_silk	Sicilian Silk
+mercenary_princes	Mercenary Princes
+protection_of_coastlines	Protection of the Coastlines
+ara_mediterranean_trade	Mediterranean Trade
+consolidation_of_the_estates	Consolidation of the Estates
+chartered_merchant_companies	Chartered Merchant Companies
+ara_reformed_admin	Reforming the Administration
+protection_of_the_little_folk	Protect the Little Folk
+mansabdari_system	The Jagir and Mansabdari Systems
+control_of_the_ulema	Control over the Clergy
+mughal_ibadat_khana	Ibadat Khana - House of Worship
+an_indian_padshah	An Indian Padishah
+zabt_system	Zabt System
+mughal_architecture	Mughal Architecture
+fatawa_e_alamgiri	Fatawa-i-Alamgiri
+timurid_architecture	Timurid Architecture
+the_mantle_of_the_great_khan	The Mantle of the Great Khan
+unleash_the_tiger	Unleash the Tiger
+chagatai_literature	Chagatai Literature
+timurid_renaissance	Timurid Renaissance
+riches_of_the_silk_road	Control of the Silk Road
+reform_the_diwan	Reform the Diwan
+end_of_victual_brothers	The End of the Victual Brothers
+strong_league_obligations	Strong League Obligations
+hsa_shipbuilding	Improved Shipbuilding
+reformed_hanstag	Reformed Hanstag
+hanseatic_levy_system	Hanseatic Levy System
+regularised_contribution	Regularized Contributions
+the_hansa_bank	The Hansa Bank
+renaissance_prince	Renaissance Prince
+patron_of_music	Patron of Music
+lowered_power_of_barons	Lowered Power of the Barons
+age_of_condottieri	The Age of the Condottieri
+encouragement_of_philosophers	Encouragement of Philosophers
+merchant_princes	Merchant Princes
+rulership_of_enlightened_principals	Rulership through Enlightened Principals
+regulations_for_mercenaries	Regulations for Mercenaries
+repopulation_of_countryside	Repopulation of the Countryside
+byz_state_admin_reform	Start Administrative Reform
+byz_admin_power	Delegated Power
+merchant_class	Byzantine Merchant Class
+new_imperial_army	The New Imperial Army
+ecumenical_patriarch	Restore the Ecumenical Patriarch
+vij_promo_trade	Promotion of Trade
+arab_horses	Arab Horses
+harsh_penal_code	Harsh Penal Code
+vij_tolerance	Tolerance
+carnatic_music	Carnatic Music
+adroit_diplomacy	Adroit Diplomacy
+army_for_city_of_victory	An Army for the City of Victory
+white_elephant	White Elephant
+corvee_system	The Corvee System
+trading_links	Promotion of Trading links
+ayu_foreign_mercenaries	Foreign Mercenaries 
+ayu_embassies	Embassies
+phrai_luang	Phrai Luang
+personal_executions	Personal Executions
+natural_seamanship	Natural Seamanship
+call_of_our_forefathers	The Call of our Forefathers
+pioneer_spirit	Pioneer Spirit
+nor_shipbuilding	Military Shipbuilding
+seize_the_opportunity	Seize the Opportunity
+nor_fishing	Encouraged Fishing
+write_new_sagas	Write New Sagas
+local_merchant_preference	Local Merchant Preference
+secured_timber_supplies	Securing Timber Supplies
+association_with_unbelievers	Association With Unbelievers
+port_security_improvement	Port Security Improvements
+end_of_shipbuilding_guilds	End of the Shipbuilding Guilds
+skilled_captains	Skilled Captains
+expansion_of_trade_contacts	Expansion of Trade Contacts
+hanguel_alphabet	The Hangeul Alphabet
+grand_code	Grand Code for State Administration 
+hyanyak_system	Hyang'yak System 
+geobukseon	Geobukseon
+hopae_system	The Hopae System
+kyujanggak	The Kyujanggak
+kor_economy_reform	Economic reform
+compacta_of_prague	Compacta of Prague
+boh_elective_monarchy	Elective Monarchy
+wagenburg	Wagenburg
+letter_of_majesty	Letter of Majesty
+hussite_legacy	Hussite Legacy
+kutnohorian_deal	The Kutnohorian Deal
+czech_nationalism	Czech Nationalism
+no_a_geographical_construct	Not a Geographical Construct
+tradition_of_the_legion	The Tradition of the Legion
+mare_nostrum	Mare Nostrum
+office_of_censor	The Office of Censor
+italian_tax_reform	Italian Tax Reform
+heir_to_the_empire	Heir to the Empire
+path_to_citizenship	The Path to Citizenship
+sons_of_the_mountain	Sons of the Mountain
+jurchen_pigtail	The Queue
+jurchen_foreign_service	Foreign Service
+jurchen_border_skirmishes	The Borderlands
+jurchen_many_wives	Wives and Concubines
+jurchen_warlords_generosity	Generosity of the Warlord
+the_jurchen_banners	Jurchen Banner Armies
+united_three_jurchens	United Three Jurchens
+manchu_eight_banners	The Eight Banners
+the_manchu_alphabet	Manchu Alphabet
+the_later_jin	The Later Jin
+link_with_the_mongol_dynasty	Link with the Mongol Dynasty
+manchu_chinese_learning	Chinese Learning
+seven_grievances	The Seven Grievances
+expand_the_banners	Expand the Banners
+the_green_standard_army	The Green Standard Army
+pigtail_or_death	Pigtail or Death
+qng_bogda_khan	Bogda Khan
+the_chinese_rules	Chinese Laws
+qing_viceroyalties	The Viceroyalties
+the_ten_great_campaigns	The Ten Great Campaigns
+imperial_vicar_and_archsteward	Imperial Vicar and Archsteward
+heidelberg_university	Heidelberg University
+center_of_reformation_in_southern_germany	Center of Reformation in Southern Germany
+bibliotheca_palatina	Bibliotheca Palatina
+heidelberg_catechism	Heidelberg Catechism
+hortus_palatinus	Hortus Palatinus
+mannheim_school_of_orchestra	Mannheim school of Orchestra
+northern_center_of_arts	Northern Center of Arts
+city_of_churches	City of Churches
+ivans_hundred	Ivan's Hundred
+control_of_the_hanseatic_kontor	Control of the Hanseatic Kontor
+grand_dukes_army	Grand Duke's Army
+exploration_tradition	Funding the Ushkuiniks
+baltic_shipyard	Baltic Shipyard
+solomonid_claim	Solomonid Claim
+nagusa_negast	Negusa Negast
+hostile_borders	Hostile Borders
+diplomatic_demeanor	Diplomatic Demeanor
+the_ark_of_the_covenant	The Ark of the Covenant
+eth_expansionist_policy	Expansionist Policy
+eth_reformed_armies	Reformed Armies
+repel_the_french	Repel the French
+the_shroud_of_turin	The Shroud of Turin
+sav_mercenary_tradition	Mercenary Tradition
+crush_the_vaudois	Crush the Vaudois
+savoyard_flexibility	Savoyard Flexibility
+alpine_tolls	Alpine Tolls
+savoyard_legitimacy	Savoyard Legitimacy
+SAR_judicate	From the Judicate
+SAR_papal_restoration	Papal Restoration
+SAR_viceroyalty	The Sardinian Viceroyalty
+SAR_and_COR	The Crown of Sardinia and Corsica
+SAR_piedmontese_ambition	Piedmontese Ambition
+SAR_cathedrals	Island of Cathedrals
+SAR_saint_maurice	The Order of Saint Maurice
+COR_unblinded_moor	The Unblinded Moor
+COR_battle_of_meloria	The Battle of Meloria
+SAR_and_COR	The Crown of Sardinia and Corsica
+COR_league	The Corsican League
+COR_iron_bank	The Bank of Saint George
+COR_constitution	The Corsican Constitution
+COR_home_of_the_revolution	True Home of the Revolution
+spi_flexibility	Diplomatic Flexibility
+spi_defensive_prowess	Defensive Prowess
+the_shroud_of_turin	The Shroud of Turin
+spi_royal_sardinian_army	Royal Sardinian Army
+spi_centralized_state	Centralized State
+spi_piedmontese_manufacturing	Piedmontese Manufacturing
+spi_risorgimento	The Risorgimento
+albertine_and_ernestine	Albertine and Ernestine lines
+meissner_porcelain	Meissner Porcelain
+the_zwinger	The Zwinger
+wittenberg_university	Wittenberg University
+corpus_evangelicorum	Corpus Evangelicorum
+sax_principal_line	The Principal Line
+the_saxon_circle	The Saxon Circle
+warlord_dukes	Warlord Dukes
+auksine_laisve	Auksine Laisve
+magdeburg_laws	Magdeburg Laws
+magnate_estates	Magnate Estates
+lithuanian_hussars	Lithuanian Hussars
+statutes_of_lithuania	Statutes of Lithuania
+lithuanian_renaissance	Lithuanian Renaissance
+tradition_of_military_service	Tradition of Military Service
+forts_of_maharashtra	Forts of Maharashtra
+peasant_soldiers	Peasant Soldiers
+office_of_the_peshwa	Office of the Peshwa
+encourage_ties_with_brahmin_financial_families	Strengthen ties with Brahmin Financial Families
+reform_the_bureaucracy	Reform The Bureaucracy
+expand_maratha_navy	Expand Maratha Navy
+mandala_system	Mandala System
+tau_elephant_battles	Elephant Warfare
+nat_worship	Nat Worship
+chakravartin	Chakravartin
+the_hluttaw	The Hluttaw
+tau_organized_campaigns	Organized Military Campaigns
+bayingyi	Bayingyi
+legacy_of_the_pagan_dynasty	Legacy of the Pagan dynasty
+ava_rajadhiraja	Rajadhiraja
+manu_kye_dhammathat	Manu Kye Dhammathat
+ava_bamar_literature	Patronize Burmese Literature
+ava_hill_tribes	Recruit from the Hill Tribes
+ava_shan_in_line	Keep the Shan in Line
+ava_provincial_governors	Rein in Provincial Governors
+people_of_the_book	People of the Book
+recover_al_andalus	Recover Al Andalus
+beacon_of_learning	Beacon of Learning
+strait_of_gibraltar	Strait of Gibraltar
+alhambra	Alhambra
+moors	Moors
+successor_caliphate_cordoba	Successor Caliphate of Cordoba
+ecclesiastical_primacy	Ecclesiastical Primacy
+papal_investiture_and_tithes	Papal Investiture and Tithes
+glory_of_rome	Glory of Rome
+donation_of_constantine	Donation of Constantine
+centralize_the_states	Centralize the States
+the_vatican_museums	The Vatican Museums
+holy_father	The Holy Father
+code_of_laws	Code of Laws
+bastion_of_orthodoxy	Bastion of Orthodoxy
+home_of_hussars	Home of the Hussars
+alemannic_guard	Alemannic Guard
+gold_mines	Gold Mines
+mercenary_armies	Mercenary Armies
+balkan_hajduks	Balkan Hajduks
+lord_of_elephants	Lord of the Elephants
+servitor_of_jagganath	Servitor of Jagannath
+parikshas	Parikshas
+refined_cloth_production	Refined Cloth Production
+patronize_temple_construction	Patronize Temple Construction
+encourage_salt_trade	Encourage the Salt Trade
+heritage_of_the_sadhabas	Heritage of the Sadhabas
+breadbasket_of_india	Breadbasket of India
+encourage_indo_persian_trade	Encourage Indo-Persian Trade
+punjabi_textile_industry	Punjabi Textile Industry
+foundation_of_the_khalsa	The Khalsa
+gurmukhi_script	Adopt Standardized Gurmukhi Script
+strength_of_the_misls	Strength of the Misls
+reforming_the_punjabi_army	Reforming the Punjabi Army
+ordo_marinaritiae	Ordo Marinaritiae
+center_of_trade	Center of Trade
+patronage	Patronage
+ragusan_arsenal	Ragusan Arsenal
+port_gruz	Port Gruz
+non_bene_pro_toto_libertas_venditur_auro	Non Bene Pro Toto Libertas Venditur Auro
+palace_of_the_rector	Palace of the Rector
+DAL_kingdom_of_dalmatia	Kingdom of Dalmatia
+DAL_principalities	The Dalmatian Principalities
+DAL_language	The Dalmatian Language
+DAL_art_and_lit	Center of Art and Literature
+DAL_independent_army	Dalmatian Independent Army
+DAL_arsenal	The Independent Arsenal
+DAL_illyria	Legacy of Illyria
+ryu_chinese_investiture	Chinese Investiture
+reform_the_ryukyuan_religion	Reform the Ryukyuan Religion
+ryu_shuri_castle	Shuri Castle
+ryu_maritime_com	Maritime Commercialism
+ryu_sign_trade_agreements	Sign Trade Agreements
+ryu_national_academy	National Academy
+ryu_the_three_mountains	The Three Mountains
+buranjis	The Buranjis
+wet_rice_cultivation	Wet Rice Cultivation
+river_warfare	River Warfare
+reform_paik_system	Reform the Paik System
+process_of_appeal	Process of Appeal
+ahom_land_survey	Land Survey
+ahom_diplomacy	Ahom Diplomacy
+birthplace_of_the_renaissance	Birthplace of the Renaissance
+tuscan_condottieri	Condottieri
+tuscan_banking	Tuscan Banking
+tuscan_arts	Patron of the Arts
+porto_franco	Porto Franco
+tuscan_administrative_reforms	Administrative Reforms
+tuscan_grand_duchy	Territorial Ambition
+freedom_of_religion	Freedom of Religion
+usa_bill_of_rights	Bill of Rights
+manifest_destiny	Manifest Destiny
+lessons_of_valley_forge	Lessons of Valley Forge
+workshop_of_the_world	Workshop of the World
+shining_city_on_a_hill	Shining City on a Hill
+empire_of_liberty	Empire of Liberty
+swiss_mercenaries	Swiss Mercenaries
+swiss_tolerance	Swiss Tolerance
+the_swiss_confederation	The Swiss Confederation
+alpine_defensiveness	Alpine Defensiveness
+oasis_of_peace_and_prosperity	Oasis of Peace and Prosperity
+haven_for_refugees	Haven for Refugees
+clockwork	Clockwork
+gold_to_salt_trade	Gold To Salt Trade
+independence_from_mali	Independence from Mali
+jihad_against_the_pagans	Jihad Against the Pagans
+sankore_madrassah	Sankore Madrassah
+the_hajj	The Hajj
+sharia	Sharia
+trans_sahara_trade	Trans-Sahara Trade
+legacy_of_breton_independence	Legacy of Breton Independence
+estates_of_brittany	The Estates of Brittany
+breton_march	Breton March
+breton_catholicism	Breton Catholicism
+protect_the_coastline	Protect the Coastline
+league_of_the_public_weal	League of the Public Weal
+catholicon	The Catholicon
+bedouin_poets	Bedouin Poets
+hanbali_school_ni	Hanbali School
+ships_of_the_desert	Ships of the Desert
+bedouin_raiders	Bedouin Raiders
+arabian_horsemanship	Arabian Horsemanship
+unite_the_tribes	Unite the Tribes
+enforce_tawhid	Enforce Tawhid
+custodian_of_the_two_holy_cities	Custodian of the Two Holy Cities
+hed_red_sea_trade	Red Sea Trade
+sharifs_of_mecca	Sharifs
+hed_desert_warfare	Desert Warfare
+cradle_of_gold	Cradle of Gold
+hajj	Hajj
+successor_to_the_caliphate	Successor to the Caliphate
+divya_upadesh	The Divya Upadesh
+land_of_peaks	Land of Peaks
+valleys_united	Our Valleys United
+rajput_refugees	Rajput Refugees
+royal_kumari	The Royal Kumari
+gurkha_recruits	The Gurkhas
+envelopment_and_blockade	Envelopment and Blockade 
+defense_of_the_faith	Defense of the Faith
+assistance_to_the_suffering	Assistance to the Suffering
+the_tongues_of_knights	The Tongues of Knights
+reconquista_of_the_sea	Reconquista of the Sea
+ecumenical_defenders_of_christendom	Ecumenical Defenders of Christendom.
+scourge_of_the_corsairs	Scourge of the Corsairs
+crusader_tradition	Crusader Tradition
+kongolese_tax_exchange	Kongolese Tax Exchange
+election_of_manikongos	Election of Manikongos
+imported_european_weaponry	Imported European Weaponry
+diplomacy_with_european_monarchs	Diplomacy With European Monarchs
+triangle_trade	The Triangle Trade
+foreign_demand_for_slaves	Foreign Demand For Slaves
+defend_against_the_colonists	Defend Against the Colonists
+restore_malian_suzerainity	Restore Malian Suzerainty
+gold_of_bure	Gold of Bure
+reclamation_of_land	Reclamation of Land
+mandinka_warrior_spirit	Mandinka Warrior Spirit
+lost_fleet_of_abubukari_ii	Lost Fleet of Abubakari II
+seek_new_markets_for_salt	Seek New Markets for Salt
+west_african_slave_trade	West African Slave Trade
+great_lakes_trade	Great Lakes Trade
+hire_allied_warriors	Hire Allied Warriors
+birchback_canoes	Birchbark Canoes
+harsh_justice	Harsh Justice
+missionary_welcome	Missionary Welcome
+feast_of_the_dead	Feast of the Dead
+eldest_children	Eldest Children
+kainerekowa	Kainerekowa
+keepers_of_the_western_door	Keepers of the Western Door
+keepers_of_the_eastern_door	Keepers of the Eastern Door
+keepers_of_the_fire	Keepers of the Fire
+mourning_wars	Mourning Wars
+warriors_unity	Warriors Unity
+the_four_kings	The Four Kings
+moundbilders_legacy	Moundbuilders Legacy
+spartans_of_miss	Spartans of the Lower Mississippi
+nighttime_raids	Nighttime Raids
+unconqured_and_unconquerable	Unconquered and Unconquerable
+slave_raids	Slave Raids
+lessons_of_ackia	Lessons of Ackia
+swan_feathers_mantle	Swan Feathers Mantle
+moundbilders_legacy_CHE	Moundbuilders Legacy
+massacre_of_the_anikutani	Massacre of the Ani-Kutani
+red_chiefs	Red Chiefs
+cherokee_adaptability	Cherokee Adaptability
+ghigau	Ghigau
+mountainous_isolation	Mountainous Isolation
+cherokee_emperor	Cherokee Emperor
+ancient_pueblo_legacy	Ancient Pueblo Legacy
+adobe_architecture	Adobe Architecture
+mesa_settlements	Mesa Settlements
+cotton_weaving	Cotton Weaving
+kachina_dolls	Kachina Dolls
+clown_societies	Clown Societies
+legend_of_cibola	Legend of Cibola
+the_wandering_people	The Wandering People
+dark_and_bloody_ground	Dark and Bloody Ground
+the_bread_dance	The Bread Dance
+shaawanwaki_identity	Shaawanwaki Identity
+autonomous_clans	Autonomous Clans
+farreaching_relations	Far-Reaching Relations
+private_war_parties	Private War Parties
+moundbilders_legacy_CRE	Moundbuilders Legacy
+creek_caste_system	Creek Caste System
+green_corn_celebration	Green Corn Celebration
+four_mother_towns	Four Mother Towns
+micos_leadership	Micos Leadership
+muscogee_neutrality	Muscogee Neutrality
+red_sticks	Red Sticks
+legacy_of_sword_brethren	Legacy of Sword Brethren
+privilegium_gotthardinum	Privilegium Gotthardinum
+duchy_of_mercantilism	Duchy of Mercantilism
+booming_manufacture	Booming Manufacture
+couronian_colonization	Couronian Colonization
+palaces_of_mitau	Palaces of Mitau
+promote_the_curonian_kings	Promote the Curonian Kings
+memory_of_angevin_claims	Memory of Angevin Claims
+revive_house_of_anjou	Revive House of Anjou
+composite_monarchy	Composite Monarchy
+tarascon_castle	Tarascon Castle
+public_weal	Public Weal
+toulon_dockyard	Toulon Dockyard
+provencal_quilting	Provençal Quilting
+mdi_indian_ocean_trade	Indian Ocean Trade
+somali_sailors	Somali sailors
+mdi_east_african_gold_trade	East African Gold Trade
+city_of_mogadishu	City of Mogadishu
+mogadishan_currency	Mogadishan Currency
+horn_of_africa	Horn of Africa
+toob_benadir	Toob Benadir
+komnenoi_in_exile	Komnenoi in Exile
+pontic_mountains	Pontic Mountains
+legacy_of_the_alexiad	Legacy of the Alexiad
+komnenoi_princesses	Komnenoi Princesses
+the_lessons_of_the_fourth_crusade	The Lessons of the Fourth Crusade
+terminus_of_the_silk_road	Terminus of the Silk Road
+greek_scholars_abroad	Greek Scholars Abroad
+bagrationi_dynasty	Bagrationi Dynasty
+georgian_isolation	Georgian Isolation
+geo_legacy_of_saint_nino	Legacy of Saint Nino
+restoration_of_fortresses_and_churches	Restoration of Fortresses and Churches
+sadrosho_districts	Sadrosho Districts
+geo_dasturlamali	Dasturlamali
+georgian_embassies	Georgian Embassies
+pashtunwali	Pashtunwali
+shadows_of_the_hindu_kush	Shadows of the Hindu Kush
+tureh	Tureh
+afghan_diaspora	Afghan Diaspora
+durrani_imperialism	Durrani Imperialism
+institutionalized_loya_jirga	Institutionalized Loya Jirga
+graveyard_of_empires	Graveyard of Empires
+cunning_diplomacy	Cunning Diplomacy
+foreign_trade_restrictions	Foreign Trade Restrictions
+mercenary_guard	Mercenary Guard
+w_foreign_advisors	Foreign Advisors
+legacy_of_the_impaler	Legacy of the Impaler
+boyar_regime	Boyar Regime
+abolition_of_serfdom	Abolition of Serfdom
+hrvatski_ban	Hrvatski Ban
+pearl_of_the_adriatic	Pearl of the Adriatic
+granary_of_croatia	Granary of Croatia
+antemurale_christianitatis	Antemurale Christianitatis
+the_sabor	The Sabor
+croatian_renaissance	Croatian Renaissance
+pandurs	Pandurs
+king_of_jerusalem	King of Jerusalem
+frankish_crusaders	Frankish Crusaders
+commandaria_wine	Commandaria Wine
+lusignan_diplomacy	Lusignan Diplomacy
+cypriot_fortifications	Cypriot Fortifications
+repel_the_corsairs	Repel the Corsairs
+raid_turkish_commerce	Raid Turkish Commerce
+dorretxeak_towers	Dorretxeak
+navarrese_company	Navarrese Company
+intrepid_pioneers	Intrepid Pioneers
+transatlantic_whaling	Transatlantic Whaling
+crosspyrenean_trade	Cross-Pyrenean Trade
+royal_basque_society	Royal Basque Society
+end_of_fueros	End of the Fueros
+flower_wars	Flower Wars
+sustaining_the_gods	Sustaining the Gods
+telpochcalli	Telpochcalli
+eagles_and_jaguars	Eagles and Jaguars
+imperial_tribute	Imperial Tribute
+floating_gardens	Floating Gardens
+pochtecayotl	Pochtecayotl
+children_of_the_panther	Children of the Panther
+slave_hunts	Slave Hunts
+migan_and_mehu	Migan and Mehu
+lagredis	Lagredis
+the_amazons	The Amazons
+the_yovogan	The Yovogan
+palaces_of_abomey	Palaces of Abomey
+land_of_ngazargamu	Land of Ngazargamu
+sayfawad_dynasty	Sayfawa Dynasty
+alumas_reforms	Aluma's Reforms
+house_of_kanem	House of Kanem
+fixed_military_camps	Fixed Military Camps
+clan_head_council	The Council of Clan Heads
+duties_on_sahara_trade	Duties on Sahara Trade
+principate_guard	Principate Guards
+komnin_paleolog_gavras	Komnenoi, Palaiologoi and Gavras
+aristocracy_in_moskovia	Russian Aristocracy
+avlita_port	Port Avlita
+mangup_kalamita	Mangup and Kalamita Forts
+turms	Turms
+cave_monasteries	Cave Monasteries
+under_the_infuence	Under the Influence
+silesian_duchies	Silesian Duchies
+german_settlers	German Settlers
+raubritter	Raubritter
+via_regia	Via Regia
+hanseatic_ties	Hanseatic Ties
+black_gold	Black Gold
+danzig_law	Danzig Law
+vistula_river_trade	Vistula River Trade
+centralized_population	Centralized Population
+hanseatic_league_member	Hanseatic League Member
+danziger_shipyard	Danziger Shipyards
+continued_independence	Continued Independence
+lutheran_change	Lutheran Change
+kra_legendary_legacy	Legendary Legacy
+kra_seat_of_gov	Seat of Government
+kra_city_rights	City Rights
+kra_cas_forts	Casimirian Fortifications
+kra_jewish_community	Jewish Communities
+kra_polish_athens	Polish Athens
+kra_free_city	The Free City
+aju_maritime_enterprise	Maritime Enterprise
+istunka_tournament	Istunka Tournament
+gareen_imams	Gareen Imams
+aju_muslim_migrations	Muslim Migrations
+aju_hydraulic_empire	Hydraulic Empire
+aju_expelling_the_infidel	Expelling the Infidel
+aju_received_assistance	Ottoman Assistance
+arsenal_of_ryazan	The Arsenal of Ryazan
+tatar_mercenaries	Tatar Mercenaries
+rya_land_charters	Land Charters
+rya_russian_grain	Russian Grain
+march_of_russia	March of Russia
+russian_ambition	Russian Ambition
+western_contacts	Western Contacts
+tverian_merchants	Tverian Merchants
+defend_against_muscowy	Defend Against Muscovy
+patriarch_of_tver	Patriarch of Tver
+tverian_architects	Tverian Architects
+cloth_business	Cloth Business
+tverian_tercio	Tverian Tercio
+tve_national_army	National Army
+between_hammer_and_avil	Between Hammer and Anvil
+third_option	Third Option
+reform_boyars	Reform Boyars
+siberian_mercenaries	Siberian Mercenaries
+cult_of_generals	Cult of Generals
+yar_two_towers	The Two Towers
+yar_russian_ambition	Russian Ambition
+veche_of_pskov	Veche of Pskov
+legacy_of_daumantas	Legacy of Daumantas
+balt_mercenaries	Balt Mercenaries
+pskov_charter	Pskov Charter
+psk_knights_guard	The Knights Guard
+arts_and_crafts_of_pskov	Arts and Crafts of Pskov
+pskov_before_all_others	Pskov Before All Others
+smolenskian_resolve	Smolenskian Resolve
+armories_of_smolensk	The Armories of Smolensk
+smo_western_mercenaries	Western Mercenaries
+the_great_foundry	The Great Foundry
+smo_hold_the_line	Hold The Line
+artillery_before_all	Artillery Before All
+tsar_mortars	Tsar Mortars
+heretic_teachings	Heretic Teachings
+per_aspera_ad_astra	Per Aspera ad Astra
+empower_bosnian_nobility	Empower Bosnian Nobility
+italian_connections	Italian Connections
+land_of_princes	Land of Princes
+flexible_diplomacy	Flexible Diplomacy
+over_hills_through_woods	Over the Hills and Through the Woods
+HRZ_eparchy	Eparchy
+HRZ_saint_sava	Saint Sava
+HRZ_stjepan_rebellion	Stjepan's Rebellion
+HRZ_ottoman_accommodation	Accommodation with the Ottoman Turks
+land_of_princes	Land of Princes
+HRZ_herceg	Herceg
+HRZ_shifting_allegiances	Shifting Allegiances
+first_dismounting	First Dismounting
+razesi_peasants	Razesi Peasants
+upper_boyars	Upper Boyars
+moldavia_hospodar	Hospodar of Moldavia
+moldavia_metropoly	Metropolis of Moldavia
+vlach_shepherds	Vlachs
+moldavian_trade	Moldavian Trade
+taghlamt	The Taghlamt
+cross_of_agades	Cross of Agades
+legacy_of_tin_hinan	Legacy of Tin-Hinan
+blue_people	The Blue People
+inadan_castes	Inadan Castes
+nomadic_traditions	Nomadic Traditions
+ineslemen_teachings	Ineslemen Teachings
+riale_and_yennenga	Rialé and Yennenga
+mossi_cavalry_raids	Cavalry Raids
+nyonnyonse_vassals	Nyonnyonse Vassals
+nakomse	The Nakomse
+land_of_the_ancestors	Land of the Ancestors
+honoring_the_masks	Honoring the Masks
+friday_court	The Friday Court
+wandering_scholars	Wandering Scholars
+unrighteous_kings	Unrighteous Kings
+fulani_jihads	Fulani Jihads
+imams_and_emirs	Imams and Emirs
+islamic_scholarship	Islamic Scholarship
+community_of_the_faithful	Community of the Faithful
+caliph_in_africa	The Caliph in Africa
+copperworking	Copperworking
+no_mercy	No Mercy
+merchant_officials	Merchant-Officials
+war_bonfires	War Bonfires
+fortified_frontier	Fortified Frontier
+otomi_settlements	Otomi Settlements
+tarascan_assmilation	Tarascan Assimilation
+mehmet_bey_firman	Mehmet Bey's Firman
+ghazi	Ghazi
+karamanid_cavalry	Karamanid Cavalry
+kar_seize_the_opportunity	Seize the Opportunity
+karamanid_architecture	Karamanid Architecture
+home_of_the_whirling_dervishes	Home of the Whirling Dervishes
+true_heirs_seljuk_empire	True Heirs of the Seljuk Empire
+mon_idea_1	Legacy Of Diocleia
+mon_idea_2	Metropolitanate of Montenegro
+mon_idea_3	Clan Society
+mon_idea_4	Balkan Gusars
+mon_idea_5	The Call Of The Sea
+mon_idea_6	Tax Reform
+mon_idea_7	Cojstvo I Junastvo
+flexible_recruiting	Flexible Recruiting
+skilled_commanders	Skilled Commanders
+scorch_the_land_and_poison_the_wells	Scorch the Lands and Poison the Wells
+latin_island	Latin Island
+rom_peasant_soldiers	Peasant Soldiers
+phanariote_traders	Phanariote Traders
+phanariote_taxes	Phanariote Taxes
+dominus_athenarum	Dominus Athenarum
+athenian_openeness	Athenian Openness
+athenian_pragmatism	Athenian Pragmatism
+revive_the_latin_greece	Revive the Latin Greece
+latin_contracts	Latin Contracts
+archbishop_of_athens	Preserve Archbishop of Athens
+athenian_army_reform	Athenian Army Reform
+rebuild_visby	Rebuild Visby
+invite_mercenaries_to_visby	Invite Mercenaries to Visby
+expand_visby_dockyard	Expand Visby Dockyard
+rebuild_the_trade	Rebuild the Trade
+gutnish_merchant_adventurers	Gutnish Merchant Adventurers
+gutnish_merchant_navy	Gutnish Merchant Navy
+found_visby_bank	Found Visby Bank
+expand_viborg	Expand Viborg
+hakkapelitta_fin	The Hakkapeliitta
+the_fourth_estate	The Fourth Estate
+settle_middle_finland	Settle Middle Finland
+found_turun_akatemia	Found Turun Akatemia
+the_white_death	The White Death
+anjala_conspiracy	The Anjala Conspiracy
+all_lands_under_skanderbeg	All Lands Under Skanderbeg
+land_of_ambushers	Land of Ambushers
+kingdom_of_albania	Kingdom of Albania
+hit_and_run	Hit and Run
+land_of_eagles	Land of the Eagles
+albanian_tolerance	Albanian Tolerance
+break_the_princes	Break The Power Of Princes
+legacy_of_the_werewolf_prince	Legacy of the Werewolf Prince
+heritage_of_the_rus	Heritage of The Rus'
+cultural_center	Cultural Center
+land_of_strongholds	Land of Strongholds
+trade_hub	Trade Hub
+diplomatic_initiative	Diplomatic Initiative
+forest_of_europe	Forest of Europe
+capital_of_prikamye	Capital of Prikamye
+turkic_mercenaries	Turkic Mercenaries
+the_old_traditions	The Old Traditions
+the_great_perm	Great Perm
+warriors_of_taiga	Warriors of the Taiga
+komi_tolerance	Komi Tolerance
+permian_army_reform	Permian Army Reform
+ash_idea_1	Elder Council
+ash_idea_2	The Slave Forts
+ash_idea_3	The Akan Coalition
+ash_idea_4	The Golden Stool
+ash_idea_5	Centralized Coalition
+ash_idea_6	Osei Kwadwo's Reforms
+ash_idea_7	National Army
+mpc_idea_1	Mapuche Pucaras
+mpc_idea_2	Clava Clubs
+mpc_idea_3	Mapuche Tactics
+mpc_idea_4	Mapuche Weaving
+mpc_idea_5	Ngillatun
+mpc_idea_6	Peace Parliaments
+mpc_idea_7	Ruxafe
+machu_picchu	Machu Picchu
+mitma	Increased Obligations
+quipu	Quipu
+drafted_hatun_runas	Drafted Hatun Runas
+mita_system	Mit'a System
+llama_michis	Llama Michis
+tambo	Tambo Waystations
+chm_idea_1	Inter-Valley Irrigation
+chm_idea_2	Ciudadelas
+chm_idea_3	Split Inheritance
+chm_idea_4	Watchfulness of the Moon
+chm_idea_5	Artisan Relocations
+chm_idea_6	Specialized Economy
+chm_idea_7	The Mit'a
+mca_idea_1	Zipa and Zaque
+mca_idea_2	El Dorado
+mca_idea_3	Gueches Wrestling
+mca_idea_4	The Tale of Bochica
+mca_idea_5	Emeralds Barter
+mca_idea_6	Terrace Farming
+mca_idea_7	Consuetudinary Law
+cya_idea_1	Warriors of the Clouds
+cya_idea_2	Legacy of Kuelap
+cya_idea_3	Summit Fortresses
+cya_idea_4	Women Diplomacy
+cya_idea_5	Chachapoyan Endurance
+cya_idea_6	Purunmachus
+cya_idea_7	Cloud Forests
+teu_idea_1	Reform the Army
+teu_idea_2	Recruit Peasants
+teu_idea_3	Adjust our Infantry Tactics
+teu_idea_4	Assume Religious Authority
+teu_idea_5	Expand the Marches
+teu_idea_6	Promote Prussian Bishops
+teu_idea_7	One State, One Religion
+bul_idea_1	Confirm The Bulgarian Boyars
+bul_idea_2	Root Out the Heresies
+bul_idea_3	Unity Before Feuds
+bul_idea_4	Reform The Army
+bul_idea_5	Reform The Bulgarian Church
+bul_idea_6	Military Flexibility
+bul_idea_7	Third Rome
+mother_of_all_cities	Mother of All Cities
+heritage_of_rus	Heritage of the Rus'
+fending_off_the_invaders	Fending Off The Invaders
+chernozem_land	Chernozem
+center_of_orthodox_church	Center Of Orthodox Church
+support_local_traders	Support Local Traders
+centralized_rule	One To Rule Them All 
+maritime_state	Maritime State
+naxos_rules_the_waves	Naxos Rules The Waves
+archipelago_of_opportunities	Archipelago Of Opportunities
+legacy_of_crusaders	Legacy Of Crusaders
+archipelago_feudalism	Archipelago Feudalism
+latin_roots	Latin Roots
+naxian_Ambition	Naxian Ambition
+ge_hunter_gatherers	Hunter Gatherers
+ge_home_of_fisherfolk	Home of the Fisherfolk
+yam_growers	Yam Growers
+ge_mithology	Land of Mythology
+ge_jaguar_warriors	The Way of the Jaguar
+ge_establish_trade	Open Trade Routes
+ge_unite_the_tribes	Unite The Tribes
+pom_idea_1	Legacy of Pirates
+pom_idea_2	Pomeranian Merchants
+pom_idea_3	Northern Ports
+pom_idea_4	Religious Freedom
+pom_idea_5	Mercenary Contracts
+pom_idea_6	Dominate the Baltic
+pom_idea_7	German Navy
+kaz_idea_1	Steppe Tolerance
+kaz_idea_2	Tribal Legacy
+kaz_idea_3	Warrior Society
+kaz_idea_4	Legacy of the Great Horde
+kaz_idea_5	Steppe Warfare
+kaz_idea_6	Settle Down
+kaz_idea_7	End Western Domination
+apostolic_church	Apostolic Church
+land_reclamation	Land Reclamation
+border_nation	Border Nation
+melikdom_organization	Melikdom Organization
+sygnakhs	Sygnakhs
+nakharar_titles	Nakharar Titles
+end_of_armenian_diaspora	End of Armenian Diaspora
+cynulliad	Cynulliad
+bardic_literature	Bardic Literature
+cyfraith_hywel	Cyfraith Hywel
+unbennaeth_prydain	Unbennaeth Prydain
+economic_revival	Economic Revival
+prifysgolion_cymru	Prifysgolion Cymru
+welsh_church	Welsh Church
+heirs_of_bayajida	Heirs of Bayajida
+regnal_chronicles	Regnal Chronicles
+sarakunan_babba	Sarakunan Babba
+sarakunan_kasuwa	Sarakunan Kasuwa
+sarkin_yaki	Sarkin Yaki
+sarkin_bayi	Sarkin Bayi
+borno_refugees	Borno Refugees
+gua_idea_1	Appeasement of the Pomberos
+gua_idea_2	Guarani Pottery
+gua_idea_3	Echoes of Iguazu
+gua_idea_4	Jesuit Conversions
+gua_idea_5	Missions Settlements
+gua_idea_6	Repel the Bandeirantes!
+gua_idea_7	Royal Armaments
+cua_idea_1	Hunter-Gatherer Ways
+cua_idea_2	Legacy of the Pampas
+cua_idea_3	Bolas Warfare
+cua_idea_4	Horse Adoption
+cua_idea_5	Resist Conquistadors
+cua_idea_6	Garra Charrua
+cua_idea_7	The Last Charruas
+horsemen_of_the_steppe	Horsemen of the Steppe
+merchants_of_genoa	Merchants Of Genoa
+circassian_grain	Circassian Grain Trade
+franciscan_missionaries	Franciscan Missionaries
+adyghe_beauty	Adyghe Beauty
+steppe_diplomats	Steppe Diplomats
+circassian_religious_flexibility	Religious Flexibility
+lao_ethnic_diversity	Laotian Ethnic Diversity
+lxa_elephant_cavalry	Elephant Cavalry
+court_history_of_lang_xang	Court History Of Lan Xang
+lxa_white_elephant	The White Elephant
+flowering_of_culture	Flowering Of Culture
+merchants_of_vientiane	Merchants of Vientiane
+renaissance_of_lan_xang	Renaissance of Lan Xang
+horde_legacy	Horde Legacy
+deserts_of_khiva	Deserts of Khiva
+oasis_of_merv	Oasis of Merv
+djuma_mosque	Djuma Mosque
+amu_darya	Amu Darya
+ichan_qala	Ichan Qal'a
+great_powers_diplomacy	Great Power Diplomacy
+gharbians	Gharbians
+legacy_of_gisu_daraz	Legacy of Gisu Daraz
+dakani_language	Dakani Language
+karimis	Karimis
+takht_e_firoza	Takht-e-Firoza
+bahmani_primogeniture	Bahmani Primogeniture
+madrasa_of_mahmud_gawan	Great Madrasa of the Deccan
+goma	Goma
+siddi_seamanship	Siddi Seamanship
+fortress_of_janjira	Impregnable Island Fortress
+siddi_diaspora	The Siddi Diaspora
+siddi_diplomacy	Siddi Diplomacy
+siddi_konkani_trade	Konkan Trade
+siddi_expansion_of_navy	Expansion of the Navy
+jnp_purbias	Purbias
+shiraz_e_hind	Shiraz-i Hind
+jnp_sants_and_sufis	Sants and Sufis
+jaunpuri_architecture	Jaunpuri Architecture 
+jnp_gangetic_plain	Gangetic Plain
+jnp_hindusthani_classical_music	Hindustani Classical Music
+modernization_of_jaunpuri_army	Modernization of the Army
+hanseatic_city	Hanseatic City
+hamburg_republic	Burgher Republic
+walls_of_hamburg	Walls of Hamburg
+first_constitution	First Constitution of Hamburg
+johanneum	School of the Johanneum
+berenberg_bank	Berenberg Bank
+elbe_shipyards	Shipyards of the Elbe
+crown_of_thorns	Crown of Thorns
+latin_patriarch	Latin Patriarch
+frontier_state	Frontier State
+land_of_the_heathen	Land of the Heathen
+crusader_aristocracy	Crusader Aristocracy
+crusader_castles	Crusader Castles
+cosmopolitan_nobility	Cosmopolitan Nobility
+preah_ko_preah_keo	Preah Ko Preah Keo
+khm_theravada	Theravada Buddhism
+khm_cham_migration	Cham Migration
+khm_river_trade	River Trade
+khm_european_mercenaries	European Mercenaries
+khm_restore_angkor	Restoration of Angkor
+khm_modern_navy	A Modern Khmer Navy
+zaz_fort_builders	Fast Fort Builders
+zaz_hetmanate	Hetmanate
+zaz_steppe_riders	Steppe Riders
+zaz_cossack_hit_and_run	Hit And Run
+zaz_classy_diplomacy	Brutal Diplomacy
+zaz_zaporzhian_tolerance	Steppe Tolerance
+zaz_army_first	Army First
+singing_lumberjacks	Singing Lumberjacks
+the_hudson_bay_company	The Hudson Bay Company
+settling_the_interior	Settling the Interior
+the_maritimes	The Maritimes
+the_quebec_act	The Quebec Act
+legacy_of_the_empire	Legacy of the Empire
+the_forests_of_canada	The Forests of Canada
+coureurs_des_bois	Coureurs des Bois
+the_seigneurial_system	The Seigneurial System
+relations_with_natives	Relations with the First Nations People
+fortifications_of_quebec	Fortifications of Quebec
+college_of_quebec	The College of Quebec
+commissions_for_noble_sons	Commissions for Noble Sons
+jesuit_missions	Jesuit Missions
+rebuilding_mexico	Rebuilding Mexico
+the_republic_of_indians	The Republic of Indians
+peace_by_purchase	Peace by Purchase
+casa_de_las_campanas	Casa de las Campanas
+repartimiento	Repartimiento
+heroes_of_the_revolution	Heroes of the Revolution
+grito_de_delores	Grito de Dolores
+unio_trium_nationum	Unio Trium Nationum
+torda_salt_mines	Torda Salt Mines
+transylvanian_saxons	Transylvanian Saxons
+decree_of_torda	Decree of Torda
+patent_of_toleration	Patent of Toleration
+unitarian_zeal	Unitarian Zeal
+anti_habsburg_policies	Anti-Habsburg Policies
+birthplace_of_a_culture	Birthplace of a Culture
+akson_thai	Akson Thai
+sawankalok_ware	Sawankalok Ware
+wat_si_sawai	Wat Si Sawai
+father_governs_children	Father Governs Children
+ramkhamhaeng_stele	Ramkhamhaeng Stele 
+suk_war_elephants	War Elephants
+legacy_of_imperial_diets	Legacy of the Imperial Diets
+duke_in_franconia	Duke in Franconia
+franconian_circle	Franconian Circle
+independent_counts	Independent Counts
+cassation_of_monasteries	Cassation of Monasteries
+franconian_wine	Franconian Wine
+baroque_artists	Baroque Artists
+gabadagam	Gabadagam
+sinhalese_sandesas	Sinhalese Sandesas
+pearl_of_the_indian_ocean	Pearl of the Indian Ocean
+cey_centre_of_learning	Centre of Learning
+cey_cinnamon	Develop the Cinnamon Trade
+cey_growth_of_new_castes	Growth of New Castes
+sinhalese_guerilla_warfare	Sinhalese Guerrilla Warfare
+genoese_connections	Genoese Connections
+candarid_literature	Candarid Literary Reform
+ismail_bey_complex	Ismail Bey Complex
+anatolian_center_of_learning	Anatolian Center for Learning
+candar_corps	Legacy of the Candar Corps
+sinop_shipyard	Sinop Shipyard
+kure_copper_mine	Kure Copper Mine
+governorate_general	Governorate General
+research_of_nassau	Research of John of Nassau
+mines_of_minas_gerais	Mines of Minas Gerais
+halting_foreign_incursions	Halting Foreign Incursions
+entradas_and_bandeiras	Entradas and Bandeiras
+inconfidencia_mineira	Inconfidencia Mineira
+old_seat_of_the_empire	Seat of the Empire
+cab_river_trade	River Trade
+cab_poison_warfare	Poisonous Warfare
+cab_resistance_to_the_pailantipo	Resistance towards the Pailanti'po
+cab_rainforests_of_guyana	Rainforests of the Guyana
+cab_carib_seafaring	Carib Seafarers
+cab_religious_syncretism	Religious Syncretism
+cab_integrate_the_garifuna_returners	Integrate the Garifuna
+ben_curb_the_uzama	Curb the Uzama
+ben_isiatua	Isiatua
+ben_appointment_of_the_onotueyevbo	Appointment of the Onotueyevbo
+ben_the_walls_of_benin	The Walls of Benin
+ben_guilds	Benin Guilds
+ben_adoption_of_benin_customs	Adoption of Benin Customs
+ben_regulation_of_trade	Regulation of Trade
+lex_saxonum	Lex Saxonum
+memories_of_verden	Memories of Verden
+deep_pockets	Deep Pockets
+free_imperial_city_of_bremen	Free Imperial City of Bremen
+vegesack	Vegesack Harbor
+bremish_walls	Bremish Walls
+foundation_of_bremerhaven	Foundation of Bremerhaven
+limes_saxoniae	Limes Saxoniae
+between_a_kingdom_and_the_empire	Between a Kingdom and the Empire
+holsteins	'Ewich Tosamende Ungedelt'
+kieler_umschlag	Kieler Umschlag
+reunifications_of_holstein	Reunification of the Holsteiner Lands
+trade_of_two_seas	The Trade of Two Seas
+danish_protest_pigs	Danish Protest Pigs
+break_the_hessian_estates	Break the Power of the Estates
+marburg_university	Marburg University
+welcome_reformers	Welcome the Reformers
+let_in_religious_emigrants	Receive Religious Immigrants
+modernization_of_the_hessian_army	Modernization of the Hessian Army
+hessian_mercenaries_idea	Hessian Mercenaries
+hessian_economic_reforms	Economic Reforms
+ark_mrauk_u_dynasty	Mrauk U Dynasty
+ark_rohingya_immigrants	Rohingya Immigrants
+ark_bengal_bay_trade	Bay of Bengal Trade
+ark_magh_and_ferenghi	Magh and Ferenghi
+ark_buddhist_sultans	Buddhist Sultans
+ark_muslim_advisers	Muslim Advisors
+ark_trade_contracts_ark	Arakanese Trade Contracts
+nol_secure_percy_rule	Secure Percy Rule
+nol_memory_of_hegemony	The Memory of Northumbrian Hegemony
+nol_cradle_of_british_christianity	Cradle of British Christianity
+nol_land_of_castles	A Land of Castles
+nol_lindisfarne_gospels	Lindisfarne Gospels
+nol_literary_and_philosophical_society	The Literary and Philosophical Society
+nol_coals_to_newcastle	Taking Coals to Newcastle
+mun_great_procession	Great Procession
+mun_erbmanner	Erbmänner
+mun_founding_of_monestaries	Founding of Monasteries
+mun_cities_of_peace	Cities of Peace
+mun_soldiers	Soldiers from the Imperial Armies
+mun_bommen_berend	Bommen Berend
+mun_support_of_schools	Support the Schools
+thu_partition_of_leipizg	The Partition of Leipzig
+thu_erfurt_fortifications	Fortifications of Erfurt
+thu_protector_of_reformers	Protector of Reformers
+thu_university_of_jena	Salana University
+thu_saxon_duchies	The Saxon Duchies
+thu_weimar_clacissicism	Weimar Classicism
+thu_expansive_marriage_policies	Expansive Marriage Policy
+bti_legacy_of_queen_judith	Legacy of Queen Judith
+bti_mountain_kingdom	Mountain Kingdom
+bti_kebra_nagast	Kebra Negast
+bti_builders_and_artists	Builders and Artisans
+bti_gideon_dynasty	Gideon Dynasty
+bti_lost_tribe	Lost Tribe of Beta Israel
+bti_haskalah	Haskalah
+cat_consulate_of_the_sea	Consulate of the Sea
+cat_consell_de_cent	Consell de Cent
+cat_catalan_constitutions	Constitution of Catalonia
+cat_fortifying_catalonia	Fortifying Catalonia
+cat_miquelets	Miquelets
+cat_lliures_morts	'Lliures o Morts'
+cat_catalan_forges	Forges of Catalonia
+lna_legacy_of_mangrai	Legacy of Mangrai
+lna_million_ice_paddies	A Million Rice Paddies
+lna_waters_of_the_naga	Waters of the Naga
+lna_the_white_elephant	The White Elephant
+lna_red_and_black	Red and Black Vassals
+lna_elephant_charge	Elephant Charge
+lna_dynastic_spread	Dynastic Spread
+pgr_tantric_legacy	Tantric Legacy
+pgr_gold_trade	Gold Trade
+pgr_istano_basa	Istano Basa
+pgr_rajo_tigo_selo	Rajo Tigo Selo
+pgr_high_education	High Education
+pgr_rumah_gadang	Rumah Gadang
+pgr_matrilinear_culture	Matrilineal Culture
+cmi_sacrificing_to_the_spirits	Sacrificing to the Spirits
+cmi_dragon_boats	Dragon Boat Festivals
+cmi_unity_of_the_tribes	Unity of the tribes
+cmi_miao_silver	Miao Silver
+cmi_customary_marriage_laws	Customary Marriage Laws
+cmi_mountain_retreats	Mountain Retreats
+cmi_legacy_of_the_miao_rebellions	Legacy of the Miao Rebellions
+bad_hot_springs	Hot Springs
+bad_zahringen	Legacy of the House of Zähringen
+bad_small_nation_diplomacy	Active Diplomacy
+bad_cuius_regio_euis_religio	Cuius Regio, Eius Religio
+bad_reuiniting_the_nation	Reuinification of Baden
+bad_expanding_the_nation	Diplomatic Expansion
+bad_grand_duchy	Grand Duchy of Baden
+sdy_land_of_glory	Land of Glory
+sdy_crossroad_of_religions	Crossroad of Religions
+sdy_hills_and_jungles	Hills and Jungles
+sdy_temples	Temples of Sadiya
+sdy_dihang	Dihang
+sdy_army_reform	Reform the Sadiya Armies
+sdy_black_tea	Black Tea
+mlb_sanamahism	Sanamahism
+mlb_martial_traditions	Martial Traditions
+mlb_kingdom_of_the_meitei	Kingdom of the Meitei
+mlb_mayek	Mayek
+mlb_unite_the_hill_tribes	Unite the Hill Tribes
+mlb_bengali_influence	Bengali Influence
+mlb_far_reaching_diplomacy	Far-Reaching Diplomacy
+peg_riches_of_pegu	Riches of Pegu
+peg_martabans	Martabans
+peg_dhammazedi_pyatton	Dhammazedi Pyatton
+peg_rammanadesa	Ramannadesa
+peg_dynamic_warfare	Dynamic Warfare
+peg_buddhist_traditions	Buddhist Kingship
+peg_mon_diaspora	Mon Diaspora
+kic_blessings_of_tohil	Blessings of Tohil
+kic_ilokab	Ilo'kab traditions
+kic_wealth_of_tamub	Wealth of the Tamub
+ball_game	The Ball Game
+kic_titulos	Titulos
+kic_kiqabs_vengeance	K'iq'ab's Vengeance
+kic_popul_vuh	Popol Vuh
+ldk_two_kingdoms	The Two Kingdoms of Ladakh
+ldk_fortified_mountain_cities	Fortified Mountain Cities
+ldk_wool_from_the_roof_of_the_world	Wool from the Roof of the World
+ldk_great_monasteries	Construction of Great Monasteries
+ldk_la_dvags_rgyal_rabs	La dvags rgyal rabs
+ldk_kingdom_united	A Kingdom United
+ldk_far_away_traders	Invite Far-Away Traders
+zim_mwenemutapa	Mwenemutapa
+zim_rekindling_the_royal_fires	Rekindling The Royal Fires
+zim_mutapa_architecture	Mutapa Architecture
+zim_spokesman_before_the_dead	Spokesman before the Dead
+zim_elected_administrators	Elected Administrators
+zim_curva	Curva
+zim_controlling_the_mutapan_riches	Controlling the Mutapan Riches
+bal_natural_defences	Natural Defenses
+bal_hani_and_sheh_mureed	Hani and Sheh Mureed
+bal_khan_of_the_baloch	Khan of the Baloch
+bal_reorganization_of_the_army	Reorganization of the Army
+bal_control_of_the_overland_trade	Control the Overland Trade
+bal_chiefs_and_landlords	Chiefs and Landlords
+bal_baluch_leadership	Baluchi Leadership
+orl_brothers_of_kings	Monsieur d'Orleans
+orl_maid_of_orleans	The Maid of Orleans
+orl_faith_and_devotion	Faith and Devotion
+orl_saffron_of_boynes	Saffron of Boynes
+orl_chateaux_of_the_loire_valley	Chateaux of the Loire Valley
+orl_calvin_and_moliere	Calvin and Molière
+french_language_in_all_courts	French Language in All Courts
+orm_a_vast_emporium	A Vast Emporium
+orm_protecting_the_islands	Protecting the Islands
+orm_moqarrariya	Reform the Moqarrariya
+orm_far_reaching_diplomacy	Far-reaching Diplomacy
+orm_secure_trading_monopoly	Maintain Trading Monopoly
+orm_develop_qeshm_and_ormuz	Develop Qeshm and Hormuz
+orm_ormuzi_navy	Hormuzi Naval Expansion
+kgr_katoch_lineage	Katoch Lineage
+kgr_riches_of_the_kangra_valley	Riches of the Kangra Valley
+kgr_martial_heritage	Martial Heritage
+kgr_hill_forts	Control of the Hill Forts
+kgr_strengthen_the_mountain_trade	Strengthen the Mountain Trade
+kgr_pahari_paintings	Pahari Painting
+kgr_tigers_of_the_himalayas	Tigers of the Himalayas
+kas_northern_silk_road	Northern Silk Road
+kas_altishahr	Altishahr
+kas_tarikh_i_rashidi	Tarikh-i-Rashidi
+kas_empower_the_khojas	Empower the Khojas
+kas_holy_warriors	Holy Warriors
+kas_black_and_white_mountain	Black Mountain and White Mountain
+kas_encourage_tarim_trade	Encourage Tarim Trade
+lux_imperial_legacy	Imperial Legacy
+lux_ardennes	The Ardennes
+lux_moselle_trade	The Moselle Trade
+lux_fortress	The Fortress of Luxembourg
+lux_spanish_road	The Spanish Road
+lux_grand_duchy_of_luxembourg	The Grand Duchy of Luxembourg
+lux_rivals_rivals_everywhere	Rivals On All Sides
+lon_heritage_of_the_reconquista	Heritage of the Reconquista
+lon_leonese_cortes	Leonese Cortes
+lon_conquistadores	Conquest of the New World
+lon_school_of_salamanca	School of Salamanca
+lon_expand_navy	Expand the Leonese Navy
+lon_patronize_leonese_language	Patronize the Leonese Language
+lon_nationalism	Leonese Nationalism
+cyi_strengthen_yi_caste_system	Strengthen the Yi Caste System
+cyi_deep_in_mountains	Deep in the Mountains
+cyi_chain_of_zimo_domains	Chain of Zimo Domains
+cyi_solar_calendar	Yi Solar Calendar
+cyi_promote_bimoism	Promote the Bimoism
+cyi_renovate_skyward_tombs	Renovate the Skyward Tombs
+cyi_children_of_the_black_tiger	Children of the Black Tiger
+nzh_at_the_confluence_of_two_giants	At The Confluence Of Giants
+nzh_crossroads_of_nations	Crossroads Of Nations
+nzh_issue_land_reforms	Issue Land Reforms
+nzh_citadel_of_russia	Citadel Of Russia
+nzh_expand_to_the_east	To The East!
+nzh_open_up_the_river_trade	Open Up The River Trade
+nzh_russian_ambition	Russian Ambition
+smi_land_of_the_midnight_sun	Land of the Midnight Sun
+smi_protect_the_herds	Protection of Reindeer Herds
+smi_regulate_southern_trade	Regulate Trade with the Southerners
+smi_encourage_growth_of_the_winter_market	Encourage growth of the Winter Market
+smi_defend_noaidi_traditions	Defend the Noaidi Traditions
+smi_living_of_the_land	Living off the Land
+smi_standardized_literary_language	Standardize Literary Language
+maz_piast_legacy	Piast Legacy
+maz_frontier	Mazovian Frontier
+maz_between_monk_eagle_and_purse	Between Monk, Eagle and Purse
+maz_szlachta_zasciankowa	Szlachta Zasciankowa
+maz_mazovian_lawmaking	Mazovian Lawmaking
+maz_sejmy_i_sejmiki	Sejmy i Sejmiki
+maz_emporium	Central Emporium
+gal_way_of_st_james	The Way of St. James
+gal_la_bella	Galicia la Bella
+gal_rein_in_the_cities	Rein in the Cities
+gal_shipyards	Galician Shipyards
+gal_santiago_y_cierra	Santiago y Cierra!
+gal_sailors_of_the_cantabrian_sea	Sailors of the Cantabrian Sea
+gal_irmandinos	Irmandinos
+nev_forges_of_nivernais	Forges of Nivernais
+nev_nivernais_legal_traditions	Commentaire sur la Coutume du Pays et Duché de Nivernais
+nev_faience_production	Faience Production
+nev_the_best_of_france	True Frenchmen
+nev_bridges_of_the_loire	Bridges of the Loire
+nev_morvan_wet_nurses	Morvan Wet Nurses
+nev_greatest_palace_of_the_loire	Greatest Palace of the Loire Valley
+med_kings_of_the_sea	Kings of the Sea
+med_ancient_christian_traditions	Christian Legacy
+med_diplomatic_flexibility	Diplomatic Flexibility
+med_strengthen_central_rule	Strengthen Central Rule
+med_independent_traditions	Independent Traditions
+med_strengthen_red_sea_trade	Promote the Red Sea Trade
+med_princely_Ambition	Princely Ambition
+cdl_renovate_the_city_of_jumie	Renovate the City of Jumie
+cdl_tea_horse_route	The Tea-Horse Route
+cdl_confucian_influences	Confucian Influences
+cdl_buddhas_teachings	Teachings of Buddha
+cdl_benzhu_worship	Benzhu Worship
+cdl_rice_terraces	Rice Terraces
+cdl_dian_bronze	Dian Bronze
+of_noble_bearing	Of Noble Bearing
+the_right_to_bear_arms	The Right to Bear Arms
+grizzly_terrain	Grizzly Terrain
+keeping_our_bearings	Keeping our Bearings
+polarized_nation	Polarized Nation
+come_bearing_gifts	Come Bearing Gifts
+expand_the_bearocracy	Expand the Bearocracy
+trt_scholars_and_poets	Scholars and Poets
+trt_gateway_to_india	Gateway to India
+trt_brahmin_kings	Brahmin Kings
+trt_purbias	Purbias
+trt_river_landscape	Riverine Landscape
+trt_tirhuta	Tirhuta
+trt_indigo	Indigo & Cash Crops
+mra_fresh_perspectives	Fresh Perspectives
+mra_mlira_cult	Mlira Cult
+mra_fertile_land	A Fertile Land
+mra_ivory_trade	Maravi Ivory Trade
+mra_serving_abroad	Serving Abroad
+mra_chimanga_ndi_moyo	Chimanga Ndi Moyo
+mra_control_of_the_slave_trade	Control of the Slave Trade
+pax_romana	Pax Romana
+legacy_of_rome	Legacy of Rome
+spqr	S.P.Q.R.
+roman_legions	The Roman Legions
+roman_architecture	Roman Architecture
+imperial_bureaucracy	Imperial Bureaucracy
+imperium_sine_fine	Imperium Sine Fine
+mns_fierce_rivalry	Fierce Rivalry
+mns_subdue_the_clans	Subdue the Clans
+mns_cios_dubh	Enforce Cios Dubh
+mns_foreign_contracts	Foreign Contracts
+mns_pasture_of_ireland	Pasture of Ireland
+mns_thmond_army_reform	Thomond's Army Reform
+mns_overseas_ambition	Thomond's Overseas Ambition
+sln_promote_the_trade	Promote the Trade
+sln_rebuild_the_castle_of_sligo	Rebuild the Castle of Sligo
+sln_galic_meets_norman	Cultural Crossroads
+sln_a_different_way	A Different Way
+sln_study_the_norman_traditions	Study the Norman Traditions
+sln_sligo_rules_the_waves	Sligo's Naval Ambition
+sln_pragmatism	Pragmatism Over All
+ant_tampon_tany	Unite with the Tompon-Tany
+ant_sorabe	Sorabe
+ant_andrianoni	Office of the Andrianoni
+ant_ombiasa	Ombiasa
+ant_religious_control	Religious Control
+ant_slave_trade	Strengthen control over the Slave Trade
+ant_unify_political_and_religious_power	Unify Political and Religious Power
+bts_people_of_the_coast	People of the Coast
+malagasy_pirate_ports	Pirate Ports
+bts_indivisable_many	The Indivisible Many
+bts_gifts_and_hostages	Gifts & Hostages
+bts_european_pirate_settlements	European Pirate Communities
+bts_royal_justice	Royal Justice
+bts_european_diplomacy	European Diplomacy
+mir_unify_inlands	Unify the Inland Kingdoms
+mir_twelve_sampys	The Twelve Sampys of Imerina
+mir_intensive_rice_cultivation	Intensive Rice Cultivation
+mir_fortify_highlands	Fortify the Highlands
+mir_reform_the_nobility	Reform the Andriana
+mir_unified_legal_system	Reform Legal System
+mir_foloalinday	Foloalindahy
+zambezi_maravi_influences	Maravi Influences
+tbk_central_melting_pot	Central Melting Pot
+tbk_healthy_priest_kings	Healthy Priest Kings
+tbk_office_of_the_mulwa	Office of the Mulwa
+tbk_inter_african_trade	Inter-African Trade
+tbk_break_the_power_of_the_makambala	Break the power of the Makambala
+tbk_welcome_the_swahili_merchants	Welcome Swahili Merchants
+lub_bamfumus	Bamfumus
+lub_royal_village_shrines	Royal Village Shrines
+lub_bambudye	Bambudye
+lub_kasala_tradition	Encourage the Kasala Tradition
+lub_lukasa_boards	Lukasa Boards
+lub_mbidi_kiluwe	Tales of Mbidi Kiluwe
+lub_mulopwe_prestige	Prestige of the Mulopwe
+kub_journey_of_enlightenment	Journey of Enlightenment
+kub_children_of_woot	Children of Woot
+kub_people_of_ornaments	People of Ornaments
+kub_usurpation_of_the_chiefs	Usurpation of the Chiefs
+kub_ngesh_dancers	Ngesh Dancing
+kub_ndop_statue	Ndop Statue
+kub_courtly_competition	Courtly Competition
+lnd_great_family	The Great Family
+lnd_perpetual_kingship	Perpetual Kingship
+lnd_tukwata	Establish the Tukwata
+lnd_overnight_army	An Army Overnight
+lnd_warrior_migrations	Warrior Migrations
+lnd_rukonkesh	The Rukonkesh
+lnd_lord_of_vipers	Lord of the Vipers
+rzw_legacy_of_zimbabwe	Legacy of Zimbabwe
+rzw_strict_gold_regulations	Strict Gold Trade Regulations
+rzw_empowering_the_rozwi	Empowering the Rozwi
+rzw_hierarchical_tax_organization	Hierarchical Tax Organization
+rzw_discipline_and_traning	Regular Training
+rzw_mwari_cult	Monotheistic Worship
+rzw_vashambadzi	Vashambadzi
+dms_the_land_of_castles	The Land of Castles
+dms_cadet_lines	Cadet Lines
+dms_gaelic_bastion	Gaelic Bastion
+dms_the_munster_ambition	The Munster Ambition
+dms_fierce_independence	Fierce Independence
+dms_promote_the_clture_of_service	Promote the Culture of Service
+dms_inner_perfection	Inner Perfection
+mlw_rajputs_of_malwa	The Rajputs Malwa
+mlw_nimatnama	Malvi Art & Architecture
+mlw_surat_delhi_route	Protect the Delhi-Surat Trade Route
+mlw_fortified_strongholds	Fortified Strongholds
+mlw_black_soil	Black Soils
+mlw_reliance_on_jain_bankers	Jain Bankers
+mlw_malwa_opium	Malwa Opium
+pat_pepper	Pepper Production
+pat_china_sea	South China Sea Trade
+pat_smuggling_networks	Smuggling Networks
+lian_dao_qian_band	Lian Dao-Qian Band
+pat_entrepot	Entrepôt
+protection_private_property	Protection of Private Property
+pat_canals	Canal Infrastructure
+kaf_kingdom_of_coffee	Kingdom of Coffee
+kaf_minjo_usurpation	Minjo Usurpation
+kaf_kaffan_highlands	Kaffan Highlands
+kaf_autonomous_kings	Autonomous Kings
+kaf_strengthen_ties_with_ethiopian_church	Strengthen Ties With the Ethiopian Church
+kaf_king_of_kings	King of Kings
+kaf_kaffan_exports	Trade Reform
+cep_frankokratia	Frankokratia
+cep_angelokastroi	Castles of the Angels
+cep_settling_the_islands	Settling the Islands
+cep_gate_to_the_adriatic	Gate to the Adriatic
+cep_govian_arsenal	Naval Expansion
+cep_entrepot_of_eastern_med	Entrepôt of the Eastern Mediterranean
+cep_ionian_academy	Ionian Academy
+lor_vosges	The Vosges
+lor_mines_of_lorraine	Mines of Lorraine
+lor_lotharingia	Lotharingia
+lor_between_great_powers	Flexible Diplomacy
+lor_two_languages	Two Languages, One Land
+lor_three_bishoprics	Trois-Évêchés
+lor_place_stanislas	Place Stanislas
+wur_estates_of_wurtemberg	Estates of Württemberg
+wur_swabian_league	Swabian League
+wur_poor_conrad	Armer Konrad
+wur_swabian_circle	Swabian Circle
+wur_grosse_kirchenordnung	Grosse Kirchenordnung
+wur_ludwigsburg	Ludwigsburg
+wur_reichsdeputationshauptschluss	Reichsdeputationshauptschluss
+slo_rudohorie	Rudohorie
+slo_universitas_istropolitana	Universitas Istropolitana
+slo_golden_kremnica	Golden Kremnica
+slo_land_of_castles	Land of Castles
+slo_town_air_liberates	Town Air Liberates
+slo_literary_language	Slovak Literary Language
+slo_slovak_national_awakening	Slovak National Awakening
+glh_legacy_of_the_golden_horde	Legacy of the Golden Horde
+glh_perso_mongol_administration	Perso-Mongol Administration
+glh_tatar_traditions	Tatar Traditions
+glh_secure_the_trade_routes	Secure the Trade Routes
+logistics_of_khan	Logistics of the Khan
+glh_populating_the_steppes	Populating the Steppes
+glh_religious_pragmatism	Religious Pragmatism
+yua_da_zai_qian_yuan	Da Zai Qian Yuan
+yua_a_savage_kingdom_holy_and_enchanted	A Savage Kingdom Holy and Enchanted
+yua_the_three_teachings_and_nine_schools_respected	The Three Teachings and Nine Schools All Respected
+yua_keshik_and_weijun	Keshik and Weijun
+yua_a_thousand_miles_as_if_at_home	A Thousand Miles as if at Home
+yua_sino_mongol_administration	Sino-Mongol Administration
+yua_pax_mongolica	Pax Mongolica
+ans_land_of_the_hohenzollerns	Land of the Hohenzollerns
+ans_restore_the_burgraviate	Restoring Our Heritage
+ans_franconian_reformers	Franconian Reformers
+ans_protestant_exiles	Protestant Exiles
+ans_wolf_of_ansbach	The Wolf of Ansbach
+ans_fayencemanufaktur	Ansbacher Fayencemanufaktur
+ans_dragoons_of_ansbach	Dragoons of Ansbach
+byt_land_of_the_hohenzollerns	Hohenzollern Margrave
+ans_restore_the_burgraviate	Restoring Our Heritage
+ans_plassenburg	Plassenburg
+ans_franconian_reformers	Franconian Reformers
+byt_ordre_de_la_sincerite	Ordre de la Sincérité
+byt_gravenreuther_stift	Gravenreuther Stift
+byt_margravial_opera_house	Margravial Opera House
+num_imperial_regalia	Imperial Regalia
+num_nuremberg_castle	Nuremberg Castle
+num_nuremberg_chronicle	Nuremberg Chronicle
+num_rostbratwurst	Rostbratwurst
+num_franconian_center_of_reformation	Franconian Centre of Reformation
+num_christkindlmarkt	Christkindlesmarkt
+num_nuremberg_exchange	Nuremberg Exchange
+bam_bishop_of_bamberg	Bishop of Bamberg
+bam_cathedral	Bamberg Cathedral
+bam_city_of_beer	City of Beer
+bam_little_venice	Little Venice
+bam_witch_burner	Witch Burner
+bam_vierzehnheiligen	Vierzehnheiligen
+bam_university	Universitas Ottoniano Fridericiana
+oka_heirs_of_chernigov	Heirs of Chernigov
+oka_dynamic_diplomacy	Dynamic Diplomacy
+oka_strengthen_our_tatar_ties	Commit to Tatar Ties
+oka_safeguard_agnatic_seniority	Safeguard Agnatic Seniority
+oka_cities_of_the_upper_oka_valley	Cities of the Upper Oka Valley
+oka_fortification_efforts	Fortification Efforts
+oka_strengthen_the_oka_river_trade	Strengthen the Oka River Trade
+ghr_52_garhs	Legacy of the 52 Garhs
+ghr_himalayan_kingdom	Himalayan Kingdom
+ghr_rani_karnavati	Martial Diplomacy
+ghr_land_of_serene_beauty	Land of Serene Beauty
+ghr_source_of_the_ganges	Source of the Ganges
+ghr_land_of_the_gods	Protecting the Land of the Gods
+ghr_crossroad_of_faiths	Crossroads of Faiths
+dtt_resistance_against_feudalism	Resistance to Feudalism
+dtt_kirchspiele	Kirchspiele
+dtt_trade_missions	Trade Missions
+dtt_expert_wreckers	Expert Wreckers
+dtt_levees	Fortify the Coastline
+dtt_ecclesiacstiacl_order	Ecclesiastical Orders
+dtt_free_farmers	Free Farmers
+HTK_kanrei_candidate	Kanrei Candidate
+HTK_indomitable_generals	Indomitable Generals
+HTK_mount_koya	Mount Koya
+HTK_retainers	Hatakeyama Retainers
+HTK_wakae_castle	Wakae Castle
+HTK_clan_unification	Unify the Clan
+HTK_saiku_shu	Saika-shu
+IMG_claim_to_shogunate	Claim to the Shogunate
+IMG_supreme_ruler_of_tokaido	Control of Tokaido
+IMG_history_of_imagawa	History of the Imagawa
+IMG_revised_clan_law	Revised Clan Laws
+IMG_triple_alliance	Triple Alliance
+IMG_mount_fuji	In the Shadow of Mount Fuji
+IMG_march_to_kyoto	March to Kyoto
+ama_omi_genji	Omi-Genji
+ama_izumo_shugo	Izumo Shugo
+ama_gassan_toda_castle	Fortified Strongholds
+ama_ten_brave_warriors	Ten Brave Warriors
+ama_coastal_trade	Dominate the Coastal Trade
+ama_kizuki_shrine	Kizuki
+ama_iwami_ginzan	Iwami Ginzan
+hsk_kanrei	Kanrei
+hsk_branches_and_retainers	Branches and Retainers
+hsk_sakai_city	Sakai City
+hsk_leader_of_eastern_army	The Eastern Army
+hsk_ashigaru	Ashigaru
+hsk_yamabushi	Yamabushi
+hsk_horeki_reform	Horeki Reform
+ues_kanto_kanrei	Kanto Kanrei
+ues_yamanouchi_and_ogigayatsu_branches	Yamanouchi and Ogigayatsu Branches
+ues_kamakura_office	Kamakura Office
+ues_dragon_of_echigo	Dragon of Echigo
+ues_nokizaru	Nokizaru
+ues_agakita_shu	Agakita-shu
+ues_denkoku_no_ji	Denoku no Ji
+ymn_descendant_of_nitta	Descendant of Nitta
+ymn_grand_shugo	Grand Shugo
+ymn_mediate_succession_disputes	Mediate Succession Disputes
+ymn_leader_of_western_army	The Western Army
+ymn_acquisition_of_torinin	Acquisition of Torin'in
+ymn_isolated_heartland	Isolated Heartland
+ymn_reunification_of_branches	Reunification of the Yamana Branches
+dte_oshu_shugo	Oshu Shugo
+dte_expansion_trhough_marriages	Expansion by Marriages
+dte_renga_group	Renga Group
+dte_dragon_corps	Dragon Corps
+dte_red_seal_ships	Red Seal Ships
+dte_keicho_embassy	Keicho Embassy
+dte_intensive_domain_development	Intensive Domain Development
+shn_vice_minister_of_dazaifu	Vice-Minister of Dazai-fu
+shn_defender_against_mongols	Defender of Japan
+shn_diplomacy_through_tsushima	Diplomacy through Tsushima
+shn_nagasaki_city	Nagasaki City
+shn_bear_of_hizen	Bear of Hizen
+shn_hagakure	Hagakure
+shn_nabeshima_reform	Nabeshima Reform
+ogs_shinano_shugo	Shinano Shugo
+ogs_suwa_taisha	Suwa Taisha
+ogs_kiso_uma	Kiso-uma
+ogs_unification_of_ten_kori	Unification of the Kori
+ogs_ogasawara_ryu	Ogasawara-ryu
+ogs_improvment_of_nakasendo	Improving the Nakasendo
+ogs_zenkoji	Zenko-ji
+otm_domination_of_northern_kyushu	Unite the Clans
+otm_lord_of_bungo	Lord of Bungo
+otm_brave_retainers	Loyal Retainers
+otm_nanban_trade	Welcoming the Nanban Trade
+otm_christian_conversion	Christian Converts
+otm_tensho_embassy	Tensho Embassy
+otm_kunikuzushi	Kunikuzushi
+ouc_descendant_of_baekje	Descendant of Baekje
+ouc_korea_trade	Korean Trade
+ouc_fight_against_wokou	Protect Against Piracy
+ouc_hakata_city	The Merchants of Hakata City
+ouc_mercantile_diplomacy	Mercantile Diplomacy
+ouc_welcome_missionaries	Welcome the Westerners
+ouc_retainer_factions	Retainer Factions
+utn_fujiwara_descendant	Fujiwara Descendant
+utn_legacy_of_nasu_no_yoichi	Legacy of Nasu no Yoichi
+utn_barrier_of_shirakawa	Barrier of Shirakawa
+utn_cadet_branches_in_western_japan	Cadet Branches in Western Japan
+utn_annexation_of_oyama_clan	Unify the Shimotsuke Lands
+utn_mediator_of_kanto	Mediator of Kanto
+utn_mount_nikko	Mount Nikko
+ask_head_of_the_genji	Head of the Genji
+ask_defender_of_the_imperial_court	Defenders of the Imperial Court
+higashiyama_culture	Higashiyama Culture
+tosen_bugyo	Tosen-bugyo
+ask_bugyoshu_and_hokushu	Bugyoshu and Hokoshu
+bakufu_chokkatsuchi	The bakufu Chokkatsuchi
+ask_reform_shogun_shugo_system	Reform the Shogun - Shugo System
+tki_genji_in_mino	Genji of Mino
+tki_ranjatai	Ranjatai
+tki_banner_of_balloonflower	Banner of Bellflower
+tki_inabayama_castle	Strategic Castles
+tki_peculation_of_aristocrat_mannors	Peculation of Estates
+tki_saito_family	Innovation Over Tradition
+tki_flood_control_of_three_rivers	Flood Control
+stk_hitachi_genji	Hitachi Genji
+stk_dual_administration	Dual Administration
+stk_suppression_of_ikki	Suppression of Ikki
+stk_kashima_jingu	Kashima Jingu
+stk_eastern_coalitions	Eastern Coalitions
+stk_mito_castle	Strong Central Rule
+stk_man_of_fidelity	Honorable Reputation
+akt_march_of_akita	March of Akita
+akt_foothold_in_hokkaido	Ainu Trade
+akt_clan_unification	Clan Unification
+akt_expansion_of_trade_posts	Trade Expansion
+akt_ainu_campaigns	Integration of Other Cultures
+akt_true_shogun_of_oshu	True Shogun of Oshu
+akt_adoption_system	Adoption System
+cba_lineage_of_taira	Taira Lineage
+cba_dream_of_masakado	Dream of Masakado
+cba_coalition_with_kamakura_kubo	Coalition With Kamakura Kubo
+cba_sakura_kadan	Sakura Kadan
+cba_katori_jingu	Katori Jingu
+cba_irrigation_of_southern_kanto	Irrigation of Southern Kanto
+cba_naval_reform	Naval Reform
+smz_satsuma_hayato	Satsuma Hayato
+smz_satsunan_school	Satsunan School
+smz_reunion_of_three_provinces	Reunion of Three Provinces
+smz_tsurinobuse	Tsurinobuse
+smz_tanegashima	Tanegashima
+smz_ryukyu_trade	Okinawa Trade
+smz_early_westernization	Early 'Westernization'
+ito_gokenin_family	Gokenin Family
+ito_alliance_with_tsuchimochi_clan	Unify the Ito Domain
+ito_land_of_gods_landing	Land of God's Landing
+ito_anti_shugo_movement	Anti-Shugo Movement
+ito_network_of_fourtyeight_fortifications	Network of Forty-Eight Fortifications
+ito_sympathy_to_christians	Sympathy for New Faiths
+ito_foresty_development	Development of Forestry
+isk_shugo_of_tango	Shugo of Tango
+isk_minister_of_samurai_dokoro	Minister of Samurai-Dokoro
+isk_bridge_of_heaven	Bridge of Heaven
+isk_reclaim_old_territories	Reclaim Old Territories
+isk_inadome_gunnery	Inadome Gunnery
+isk_upgrade_roads	Upgrade the Road Network
+isk_port_development	Expand our Ports
+tti_warrior_monk	Warrior Monks
+tti_winner_of_eikyo_civil_war	Winner of Eikyo Civil War
+tti_kasuga_shrine	Kasuga Shrine
+tti_mountainous_province	Mountain Warfare
+tti_nara_city	The Southern Capital
+tti_wise_opportunist	Wise Opportunists
+tti_kofukuji_temple	Tradition and Innovation
+kkc_disinguished_family_in_kyushu	Distinguished Family
+kkc_land_of_fire	Land of Fire
+kkc_aso_schrine	Aso Shrine
+kkc_resistance_against_foreign_intervention	Fortify the Domain
+kkc_religious_coexistence	Religious Coexistence
+kkc_three_chief_retainers	Three Chief Retainers
+kkc_kumamoto_castle	Central Stronghold
+kno_shugo_of_iyo	Shugo of Iyo
+kno_integration_of_cadet_branches	Integration of Cadet Branches
+kno_oyamazumi_shrine	Oyamazumi Shrine
+kno_yuzuki_castle	Yuzuki Castle
+kno_ruler_of_inland_sea	Rule Over the Inland Sea
+kno_trade_with_asian_continent	Trade With Continental Asia
+kno_murakami_suigun	Murakami Suigun
+rfr_genji_in_the_north	Genji in the North
+rfr_owner_of_nine_gates	Owner of the 'Nine Gates'
+rfr_connection_with_kyoto	Connection With Kyoto
+rfr_downfall_of_rebllious_vassals	Downfall of Rebellious Vassals
+rfr_morioka_castle	Centralization Reform
+rfr_chosonji_temple	Chosonji Temple
+rfr_fight_against_famines	Defeating the Famines
+tkd_leader_of_kai_genji	Leader of Kai Genji
+tkd_river_dams	Shugo of River Dams
+tkd_information_network	Information Network
+tkd_kurokawa_gold_mine	Kurokawa Gold Mine
+tkd_koshu_hatto	Koshu Hatto
+tkd_twentyfour_generals	Twenty-Four Generals
+tkd_koyo_gunkan	Koyo Gunkan
+sba_chief_of_military_office	Tradition of Military Service
+sba_shugo_of_three_provinces	Shugo of Three Provinces
+sba_consolidation_of_kanrei_position	Consolidation of the Kanrei Position
+sba_atsuta_shrine	Atsuta Shrine
+sba_access_to_northern_japan	Oshu Ties
+sba_shiba_retainers	Rein in the Shiba Retainers
+sba_mogami_family	Mogami Family
+blo_martial_heritage	Martial Heritage
+blo_monastic_traditions	Monastic Traditions
+blo_strengthen_local_lineages	Strengthen Local Lineages
+blo_control_the_northern_trade	Northern Trade
+blo_officers_of_beloozero	Officers of Beloozero
+blo_winter_warfare	Boreal Warfare
+blo_scientific_patronage	Scientific Patronage
+rso_unification_of_rostov	Re-Unification of Rostov
+rso_ancient_heritage	Ancient Heritage
+rso_ecclesiastical_center	Ecclesiastical Center
+rso_entrepot_of_russia	Entrepot of Russia
+rso_rostov_kremlin	Rostov Architecture
+rso_political_influence	Political Influence
+rso_rostov_enamel	Rostov Enamels
+mva_margraviate	Margraviate of Moravia
+mva_religious_refuge	Religious Sanctuary
+mva_cities_of_moravia	Cities of Moravia
+mva_land_of_vinyards	Land of Vineyards
+mva_german_quarters	German Quarters
+mva_jesuit_university	Jesuit University
+mva_legacy_of_great_moravia	Legacy of Great Moravia
+est_brotherhood_of_blackheads	Brotherhood of Blackheads
+est_baltic_cooperation	Baltic Ties
+est_castles_of_estonia	Castles of Estonia
+est_academia_gustaviana	An Estonian Academy
+est_baltic_trade	Baltic Trade
+est_estophilia	Estophilia
+est_national_awakening	Ärkamisaeg
+tpr_rajmala	Rajmala
+tpr_adaptive_administration	Adaptive Administration
+tpr_religious_syncretism	Religious Syncretism
+tpr_extended_army_control	Extended Military Control
+tpr_appointment_of_missips	Appointment of Missips
+jute_production	Jute Production
+tpr_strenghten_local_defences	Strengthen Local Defenses
+han_niedersachsicher_reichskreis	Niedersächsicher Reichskreis
+han_weser_renaissance	Weser Renaissance
+han_shutzenfest	Schützenfest
+han_herrenhausen_gardens	Herrenhausen Gardens
+han_strengthen_the_meiertum	Strengthen the Meiertum
+han_hanoverian_chancery	Hanoverian Chancery
+han_kings_legion	King’s Legion
+bru_welfian_dynasty	The Welfian Dynasty
+han_niedersachsicher_reichskreis	Niedersächsicher Reichskreis
+bru_residenzstadt_wolfenbuttel	Residenzstadt Wolfenbüttel
+bru_herzog_august_bibliothek	Herzog August Library
+bru_trade_guilds	Brunswicker Guilds
+bru_leibnitz_lessing	Leibnitz and Lessing
+bru_schwarze_schar	The Black Brunswickers
+lun_hansa_contacts	Hanseatic Contacts
+bru_welfian_dynasty	The Welfian Dynasty
+lun_staple_rights	Staple Rights
+lun_dynastic_play	Dynastic Branches
+han_niedersachsicher_reichskreis	Niedersächsicher Reichskreis
+lun_adroit_diplomacy	Adroit Diplomacy
+lun_lionhearted	Lionhearted
+LAU_partition_of_saxony	The Partition of Saxony
+LAU_diarchy	Diarchic Duchy
+LAU_niedersachsen	Niedersachsen
+LAU_claiming_electorate	Claiming the Electorate
+LAU_church_of_hadeln	The Church Order of Hadeln
+LAU_centralisation	Lauenburg Centralization
+LAU_salty_salty_salty	Old Salt Route
+BRG_heirs_of_lotharingia	The Heirs of Lotharingia
+BRG_julich_berg	Duchy of Julich-Berg
+BRG_united_duchies	The United Duchies
+BRG_seat_of_the_electorate	The Seat of the Electorate
+BRG_rhineland_market	The Rhineland Market
+BRG_art_gallery	Dusseldorf Art Gallery
+BRG_happy_clergy	Respecting the Autonomy of the Clergy
+RVA_from_ashes	From the Ashes
+RVA_meeting_of_bishops_and_emperors	Meeting Place of Bishops and Emperors
+RVA_chief_city	Chief City of the Rhine
+RVA_emperors_favor	The Emperor's Favorite
+RVA_moneylending	Dortmund Moneylending Families
+RVA_fortmund	Fortmund
+RVA_reinoldikirche	Reinoldikirche
+MBZ_lady_of_bregenz	Lady of Bregenz
+MBZ_securing_countess_rule	Securing the Countess's Rule
+MBZ_saint_gebhard	Saint Gebhard
+MBZ_resisting_habsburgs	Resisting Habsburg Hegemony
+MBZ_sale_of_titles	The Sale of Bregenz Titles
+MBZ_shadow_of_pfander	In the Shadow of Pfander
+MBZ_lake_constance_navy	The Lake Constance Navy
+GOS_mining_traditions	Goslar Mining Traditions
+GOS_kaiserpfalz	Kaiserpfalz
+GOS_city_rights	Goslar City Rights
+GOS_hanseatic_league	Capitalizing on the Hanseatic League
+GOS_hunting_robber_barons	Hunting Down the Robber Barons
+GOS_resisting_welfs	Resisting the Welfs
+GOS_the_leagues	Joining the Leagues
+ROT_zarfat_registry	Zarfat Registry
+ROT_beautiful_city	The Beautiful City
+ROT_end_of_the_line	The End of the Line
+ROT_hinterland_knights	The Knights of the Hinterland
+ROT_drink_of_war	The Drink of War
+ROT_holy_blood	The Holy Blood
+ROT_klingentorturm	Klingentorturm
+ANH_mittelgebirge	Mittelgebirge
+ANH_branches	The Branches of Anhalt
+ANH_incorporating_the_bishopric	Incorporation of the Bishopric
+ANH_castle	Anhalt Castle
+ANH_garden_kingdom	Dessau Garden Kingdom
+ANH_schultheiss	The Duke and the Schultheiss
+ANH_confessor	The Confessor
+TNT_prince_bishop	Prince-Bishop
+TNT_republican_slaughter	Slaughter of the Republicans
+TNT_south_tyrol_identity	South Tyrol Identity
+TNT_italy_and_the_empire	Italy and the Empire
+TNT_trent_brixen_confederacy	Trent-Brixen Confederacy
+TNT_mountain_warfare	Mountain Warfare
+TNT_trent_religious_unity	Trent Religious Unity
+ulm_grosser_schwoerbrief	Großer Schwörbrief
+ulm_swabian_league	Schwäbischer Bund
+ulm_german_realism	Birthplace of German Realism
+ulm_duerer_fort	Dürer's Fortifications
+ulm_textile_trade	Ulmer Textile Trade
+ulm_swiss_mercs	Enlist the Swiss Mercenaries
+ulm_minster	Finish the Ulm Minster
+frn_buchmesse	Establish the Buchmesse
+frn_imperial_elections	Seat of Imperial Elections and Coronations
+frn_stock_exchange	Standardization of Exchange Rates
+frn_postzeitung	Frankfurter Postzeitung
+frn_cultural_center	Civil Cultural Centre
+frn_sausages	Frankfurter Würstchen
+frn_freie_stadt	Freie Stadt Frankfurt
+kol_pursuit_of_unity	The Pursuit of Territorial Unity
+kol_archchancellor_of_italy	Archicancellarius per Italiam
+kol_hanseatic_city	Hanseatic Trade City
+kol_prime_minister	Prime Minister of Cologne
+kol_pivotal_ecclesiastic_territory	Pivotal Ecclesiastic Territory
+kol_shifting_alliances	Shifting Alliances
+kol_order_of_saint_michael	Order of St. Michael
+mai_archchancellor_of_germany	Archicancellarius per Germaniam
+mai_center_of_religious_learning	Center of Religious Learning
+mai_weck_worscht_woi	Weck, Worscht & Woi
+mai_saint_hildegard	Saint Hildegard of Bingen
+mai_perpetual_privy_council	Perpetual Privy Council
+mai_rhine_fortress	The Guard of the Rhine
+mai_fifth_season	The Fifth Season
+tri_crusader_past	Crusader Past
+tri_university_of_trier	University of Trier
+tri_archchancellor_of_gaul	Archicancellarius per Galliam
+tri_landesburgen	Landesburgen
+tri_seamless_robe_of_jesus	The Seamless Robe of Jesus
+tri_prum_abbey	Prüm Abbey
+tri_domkapitel	Influence of the Domkapitel
+akk_white_sheep	The White Sheep
+akk_unite_the_federation	Unite the Clans
+akk_turko_iranian_bureaucracy	Turko-Iranian Bureaucracy
+akk_apanages	Dynastic Appanages
+akk_expansive_diplomacy	Expansive Diplomacy
+akk_religious_pragmatism	Religious Pragmatism
+akk_qanun_nama_ye_hasan	Qanun-nama-ye Hasan
+kho_land_of_the_rising_sun	Land of the Rising Sun
+kho_rein_in_the_turko_mongol_emirs	Rein in the Turko-Mongol Emirs
+kho_princely_appanages	Princely Appanages
+kho_dynastic_chronicles	Dynastic Chronicles
+kho_irrigation_network	Irrigation Canals
+kho_great_sheiks_of_khorasan	Great Sheiks of Khorasan
+kho_protect_the_caravan_routes	Protect the Caravan Routes
+trs_mawarannahr	Mawarannahr, the land Beyond the River
+trs_threshold_of_paradise	Threshold of Paradise
+trs_adept_diplomacy	Adept Diplomacy
+trs_turkoman_cannoneers	Turkoman Cannoneers
+trs_scientific_patronage	Scientific Patronage
+trs_entrepot_of_the_silk_road	Entrepôt of the Silk Road
+chagatai_literature	Chagatai Literature
+qom_jibal	Jibal
+in_honor_of_ali	In Honor of Ali
+qom_legacy_of_the_ilkhans	Legacy of the Ilkhans
+qom_persian_language_and_court_culture	Persian Language and Court Culture
+qom_tribes_of_iraq_e_ajam	Tribes of Iraq-e Ajam
+reform_the_diwan	Reform the Diwan
+qom_shahanshah	Shahanshah
+frs_land_of_the_persians	Land of the Persians
+frs_center_of_religion_and_philosophy	Center of Religion and Philosophy
+frs_diplomatic_prudence	Diplomatic Prudence
+frs_shirazi_wine	Expand the Wine Production
+frs_shirazi_school	Shirazi School
+frs_integrate_the_qashqai	Integrate the Qashqai
+frs_capital_for_an_empire	A Capital for an Empire
+lri_kingdom_in_the_zagros_mountains	Kingdom in the Zagros Mountains
+lri_jadda_ye_atabak	Jadda-ye Atabak
+lri_haven_for_dissenters	A Haven for Dissenters
+lri_popular_religion	Popular Religion
+lri_looms_of_the_lurs	Looms of the Lurs
+lri_rise_of_the_lurs	Rise of the Lurs
+lri_foreign_trade	Foreign Trade Ties
+qar_black_sheep	The Black Sheep
+qar_governor_of_azerbaijan	Governor of Azerbaijan
+in_honor_of_ali	In Honor of Ali
+qar_dynamic_warfare	Dynamic Warfare
+qar_freedom_with_responsibility	Freedom with Responsibility
+qar_patron_of_iranian_culture	Patron of Iranian Culture
+qar_irrigation_and_public_works	Irrigation and Public Works
+mhr_lands_of_frankincense_and_the_khareef	Lands of Frankincense & the Khareef
+mhr_mercenary_traditions	Mercenary Traditions
+mhr_mahra_tribes	The Mahra Tribes
+mhr_pilots_of_the_arabian_sea	Pilots of the Arabian Sea
+mhr_camels	Mahra Camels
+mhr_book_of_navigation	Book of Navigation
+mhr_rein_in_the_chiefs	Rein in the Chiefs
+yem_al_yaman	Al-Yaman, Felicitous Arabia
+coffea_arabica	Coffea Arabica
+yem_control_of_the_red_sea	Control of the Red Sea
+yem_yemeni_architecture	Yemeni Architecture
+yem_uniting_yemeni_tribes	Uniting the Yemeni Tribes
+yem_promoting_yemeni_trade_ports	Promoting the Yemeni Trade Ports
+yem_foreign_embassies	Foreign Embassies
+ras_living_imam	The Living Imam
+ras_yemeni_highlands	Yemeni Highlands
+coffea_arabica	Coffea Arabica
+ras_unite_rassid_state	A Unified Rassid State
+ras_mountain_strongholds	Mountain Strongholds
+ras_salt_in_water	Like Salt Dissolves in Water
+ras_secure_trade_monopolies	Secure the Yemeni Trading Monopolies
+msy_fervent_millenarianism	Fervent Millenarianism
+msy_messianic_legacy	Messianic Legacy of Muhammad bin Falah
+msy_swamp_warfare	Swamp Warfare
+msy_arabistan	Arabistan
+msy_house_united	A House United
+msy_outward_pragmatism	Outward Pragmatism
+msy_sufis_shias_middle_east	Sufis and Shias of the Middle East
+sis_lake_hamun	Lake Hamun
+sis_saffarid_legacy	Saffarid Legacy
+sis_subjugation_of_tribes	Subjugation of the Tribes
+sis_loyal_service	Loyal Service
+sis_overland_trade_routes	Overland Trade Routes
+sis_chronicles_of_sistan	Chronicles of Sistan
+sis_scholars_of_sistan	Scholars of Sistan
+rum_abul_fath	Abul-Fath
+rum_king_of_the_east_and_west	Sultan al-Sharq wa al-Gharb
+rum_shahanshah	Shahanshah
+rum_sultan_of_rum	Sultan of Rûm
+rum_sulan_al_bahrayn	Sultan al-Bahrayn
+rum_sultan_al_muazzam	al-Sultan al-Muazzam
+rum_protector_of_dar_al_islam	Protector of Dar al-Islam
+arl_safavid_order	The Safavid Order
+arl_qizilbash	The Qizilbash
+arl_shiite_leadership	Leader of all Shiites
+arl_conversion_of_the_masses	Conversion of the Masses
+arl_religious_war	Religious War
+arl_amili_mujtahids	Amili Mujtahids
+arl_shahs_of_iran	Shahs of Iran
+sme_atabegs_of_samtskhe	Atabegs of Samtskhe
+sme_proactive_diplomacy	Proactive Diplomacy
+sme_fortresses_of_samtskhe	Fortresses of Samtskhe
+sme_independent_Ambition	Independent Ambition
+sme_protect_trade_routes	Protect the Trade Routes
+sme_frontier_warriors	Frontier Warriors
+sme_sacred_land	A Sacred Land
+srv_khalwati_order	The Khalwati Order
+srv_fortresses_of_shirvan	Fortresses of Shirvan
+srv_tribesmen_of_the_caucasus	Tribesmen of the Caucasus
+srv_persianate_patronage	Persianate Patronage
+srv_caspian_trade	Caspian Trade
+srv_shirvani_architecture	Shirvani Architecture
+srv_merchants_of_baku	Merchants of Baku
+alh_desert_warfare	Desert Warfare
+alh_lord_of_the_eastern_bedouin	Lord of the Bedouin of the East
+alh_pearls_of_the_persian_gulf	Pearls of the Persian Gulf
+alh_fortify_the_coastline	Fortify the coastline
+alh_entrepot_of_india	Entrepot of India
+alh_a_modern_navy	A Modern Navy
+alh_legacy_of_rahmah_ibn_jabir	Legacy of Rahmah ibn Jabir
+hdr_death_has_come	Death Has Come
+hdr_tribes_of_hadramut	Tribes of Hadramut
+hdr_hawtas	Hawtas
+hdr_encouraging_the_incense_trade	Encouraging the Incense Trade
+hdr_sailors_of_the_indian_ocean	Sailors of the Indian Ocean
+hdr_hadramhi_diaspora	Hadramhi Diaspora
+hdr_distant_diplomacy	Distant Diplomacy
+hsn_citadels_and_fortesses	Citadels and Fortresses
+hsn_ayyubid_heritage	Ancestral Heritage
+hsn_righteousness_of_the_faith	Righteousness of the Faith
+hsn_elite_warriors	Elite Warriors
+hsn_rise_of_the_eagle	Rise of the Eagle
+hsn_strenghten_central_authority	Strengthen Central Authority
+hsn_state_economics	State Economics
+ktb_unification_of_ise	Unification of Ise
+ktb_blessing_of_amaterasu	Blessing of Amaterasu
+ktb_southern_court	Supporters of the Emperor
+ktb_kuki_suigun	Kuki Suigin
+ktb_men_of_quality	Men of Quality
+ktb_iga_ryu	Iga-Ryu
+ktb_the_march_of_kitabatake_akiee	March of Kitabatake Akiie
+oda_rakuichi_rakuza	Rakuichi & Rakuza
+oda_tenka_fubu	Tenka Fubu
+oda_generals	Oda Generals
+oda_azuchi_castle	Influential Strongholds
+oda_triple_firing	Triple Firing
+oda_patronization_of_the_west	Patronization of the West
+oda_kenchi	Kenchi
+tkg_mikawa_bushi	Mikawa Bushi
+tkg_strengthen_the_sekisho_network	Strengthen the Sekisho Network
+tkg_hatamoto	Hatamoto
+tkg_metsuke	Metsuke
+tkg_matsudaira_branches	Matsudaira Branches
+tkg_toshogu	Toshogu
+tkg_famine_policies	Famine Policies
+mas_hinalliwood	Hinilawod
+mas_legacy_of_panai	Legacy of Panai
+mas_riches_of_the_visayas	Riches of the Visayas
+mas_masters_of_maritime_warfare	Masters of Maritime Warfare
+mas_articles_of_the_confederation	Articles of the Confederation
+mas_kinaduatan	Kinadatuan
+mas_expand_the_shipbuilding_sector	Expand the Shipbuilding Sector
+btu_indianized_society	Indianized Society
+btu_northern_nusantara	Northern Nusantara
+btu_butuan_trade_connections	Butuan Trade Connections
+btu_butuan_goldwork	Butuan Goldwork
+btu_balangay	Balangay
+btu_protect_the_coastlines	Protect the Coastlines
+btu_long_range_diplomacy	Long Range Diplomacy
+ceb_lumayas_ambition	Lumaya’s Ambition
+ceb_chola_legacy	Chola Legacy
+ceb_protect_against_the_magalos	Protect against the Magalos
+ceb_pacify_the_islands	Pacify the Islands
+ceb_place_for_trading	'The Place for Trading'
+ceb_befriend_the_europeans	Befriend the Europeans
+ceb_expansion_of_the_capital	Expand the Capital
+anu_chasi	Chasi
+anu_riches_of_the_sea	Riches of the Sea
+anu_southern_traders	Southern Traders
+anu_heirs_of_jomon	Heirs of Jomon
+anu_hunters_and_warriors	Hunters and Warriors
+anu_yukar	Yukar
+anu_fierce_resistance	Fierce Resistance
+hjo_legacy_of_the_kamakura_shogunate	Legacy of the Kamakura Shogunate
+hjo_night_combat	Night Combat
+hjo_effective_administration	Reform the Administration
+hjo_tokusei	Tokusei
+hjo_castles_of_hojo	Castles of the Hojo
+hjo_unification_of_kanto	Unification of Kanto
+hjo_council_in_odawara	Council in Odawara
+csk_ichiryo_gusoku	Ichiryo Gusoku
+csk_seven_clans_of_tosa	Seven Clans of Tosa
+csk_unification_of_shikoku	Unification of Shikoku
+csk_100_article_code	100 Article Code
+csk_expand_the_navy	Expand the Navy
+csk_god_of_arts	God of Arts
+csk_active_support_of_temples	Support of the Temples
+mri_descendant_of_oe_hiromoto	Descendants of Oe Hiromoto
+mri_leader_of_kokujin_ikki	Leader of Kokujin Ikki
+mri_diplomatic_intrigues	Diplomatic Intrigues
+mri_three_arrows	Three Arrows
+mri_hiroshima_castle	Hiroshima
+mri_itsukushima_shrine	Itsukushima
+mri_hagi_ware	Hagi Ware
+asa_hidden_diplomacy	Hidden Diplomacy
+asa_echizen_paper	Echizen Paper
+asa_ichijodani_city	Ichijodani City
+asa_teach_of_asakura_soteki	Asakura Soteki
+asa_seventeen_clan_code	Seventeen Clan Code
+asa_control_of_buddhist_sects	Control of Buddhist Sects
+asa_legacy_of_emperor_keitai	Legacy of Emperor Keitai
+kid_lords_of_ireland	Lords Deputy
+kid_ear_of_the_king	Silver Tongues
+kid_silken_finery	Silken Thomas
+wizard_earl	The Wizard Earl
+the_curragh	Curragh Horsemanship
+kid_architects_of_nation	A New Seat for the FitzGeralds
+kid_royal_irish_army	Royal Irish Army
+tyr_chief_of_irish_kings	Chief of Irish Kings
+tyr_o_neill_mor	The O’Neill Mór
+tyr_tanistry	Tanistry
+tyr_arming_people	Arming the People
+tyr_catholic_diplomacy	Catholic Diplomacy
+tyr_ambush_warfare	Ambush Warfare
+tyr_wild_geese	The Wild Geese
+try_fort_foreigners	Fort of the Foreigners
+try_fisher_king	The Fisher King
+try_religious_patrons	Religious Patrons
+try_patricks_purgatory	St Patrick’s Purgatory
+try_lessons_knockavoe	Lessons of Knockavoe
+try_land_of_exiles	Land of Exiles
+try_scottish_ties	Scottish Ties
+mcm_basque_fishermen	North Sea Fishermen
+mcm_brave_and_faithful	The Brave and Faithful
+mcm_hill_raiders	Hill Raiders
+mcm_spanish_ties	Spanish Ties
+mcm_fairer_shores	Fairer Shores
+mcm_pirate_haven	Pirate Haven
+mcm_enemies_everywhere	Enemies Within
+legacy_of_palladius	Legacy of Palladius
+lei_black_rent	The Black Rent
+lei_enemy_of_enemy	The Subject of My Enemy is My Friend
+lei_strong_cunning	He Who Is Not Strong Must Be Cunning
+lei_long_memories	Long Memories
+lei_geraldine_league	The Geraldine League
+lei_military_academy	Ballinacore Military Academy
+cnn_14_tribes	The Fourteen Tribes
+cnn_fire_and_sword	By Fire and Sword
+cnn_sea_people	People of the Sea
+cnn_irish_hobby	Irish Hobbies
+cnn_hell_or_connacht	To Hell or to Connacht 
+cnn_catholicism	Catholic Holdouts
+cnn_lord_presidency	The Lord Presidency
+ord_english_service	English Service
+ord_courts_of_europe	The Courts of Europe
+ord_wool_earl	The Wool Earl
+ord_locals_in_line	Keeping the Locals in Line
+ord_irish_rivalries	Irish Rivalries
+ord_subdue_irish	Irish Siegecraft
+ord_build_on_success	Entrenchment of the Butler Dynasty
+irish_endurance	Irish Endurance
+the_clanns	The Clanns
+more_than_irish	More Than Irish
+loyal_catholics	Loyal Catholics
+ire_abundant_harvests	Abundant Harvests
+unconquerable_ireland	Unconquerable Ireland
+ire_gallowglasses	Nationalized Gallowglass Septs
+uls_clan_connections	Highland Connections
+uls_peerage	Peerage of Ulster
+civilist_of_irishry	Civilist of the Irishry
+rapparee	Rapparees
+catholic_ascendency	Catholic Ascendency
+uls_defenders	The Defenders
+uls_last_redoubt	Last Redoubt of Ireland
+fly_galloglas	The Gallowglasses
+fly_gracious_hosts	Irish Hospitality
+fly_trade_shannon	River Trade
+fly_clonmacnoise	The Fear of God
+fly_tower_houses	Tower Houses
+fly_family_affair	A Family Affair
+fly_buannacht	The Buannacht
+crn_stannary_parliaments	Stannary Parliaments
+crn_cornish_rebels	Cornish Rebels
+crn_prayer_book_traditionaliism	Prayer Book Traditionalism
+crn_pirates_of_penzance	Pirates of Penzance
+crn_royalist_army	Cornish Royalist Army
+crn_gear_rout	The Gear Rout
+crn_arthurian_romanticism	Arthurian Romanticism
+mann_stanleys	The Stanleys
+mann_kings	Kings of Mann
+mann_tynwald	Tynwald High Court
+mann_and_the_isles	Mann and the Isles
+mann_act_of_settlement	The Act of Settlement
+mann_burn_the_heretic	Burn the Heretic
+mann_act_of_revestment	The Act of Revestment
+innefectual_overlords	Ineffectual Overlords
+foreign_nationals	Foreign Nationals
+mth_parliament_of_ireland	Parliament of Ireland
+mth_englishtown	Englishtown
+mth_the_cess	The Cess
+mth_trinity_college	Trinity College
+mth_siege_mentality	Siege Mentality
+fri_coastal_industry	Coastal Industry
+fri_upstalsboom_league	The Upstalsboom League
+fri_dutch_courage	Dutch Courage
+fri_zuiderzee_settlements	The Zuider Embankments
+fri_flooding_polders	Flooding the Polders
+fri_mennonism	Difference of Opinion
+fri_brothers_arms	Brothers in Arms
+utr_devotio_moderna	Devotio Moderna
+utr_ex_cathedra	Ex Cathedra
+utr_fortified_town	Fortified City
+utr_vaartse_rijn	The Vaartse Rijn
+utr_city_churches	City of Churches
+utr_cultural_resilience	Cultural Resilience
+utr_enlightenment_masses	Enlightenment of the Masses
+fla_cloth	Flemish Cloth
+fla_land_reclamation	Land Reclamation
+fla_beeldenstorm	Beeldenstorm
+fla_painters	Flemish Innovation
+fla_ship_building	North Sea Shipyards
+fla_university	Flemish Academics
+fla_noose_bearers	Noose-Bearers
+brb_charter_of_liberty	Charter of Liberty
+brb_marsh_warfare	Marsh Warfare
+brb_palace_coudenberg	Palace of Coudenberg
+brb_sugar_capital	Sugar Capital of Europe
+brb_antwerp_banking	Banks of Antwerp
+brb_religious_tolerance	Tradition of Toleration
+brb_generality_lands	Generality Lands
+lie_guild_democracy	Guild Democracy
+wars_of_liege	The Wars of Liège
+lie_religious_devotion	Religious Devotion
+lie_wittelsbach_bishops	Wittelsbach Bishops
+lie_prince_bishop_palace	The Prince-Bishop's Palace
+lie_literary_society	Société Littéraire
+lie_rights_of_man	Declaration of the Rights of Man and Citizen
+gel_county_duchy	Feudal Elevation
+gel_hanseatic	Hanseatic Towns
+gel_defy_burgundy	Defiance of Foreign Rule
+gel_rivers	Rule the Rivers
+gel_gelderland_wars	The Gelderland Wars
+gel_looting	Loot as Payment
+gel_diplomatic_expansion	Land Negotiations
+efr_chiefs	Chiefs of East Frisia
+efr_saxon_feud	The Saxon Feud
+efr_religious_thought	Center of Religious Thought
+efr_dutch_migrants	Dutch Migrants
+efr_mennonism	Refuge of the Mennonites
+efr_city_autonomy	Autonomous Burghers
+efr_emden_company	The Emden Company
+aac_charlemagne_capital	Charlemagne's Capital
+aac_free_city	Imperial Free City
+aac_spa	Spa City
+aac_guilds	Guild and Government
+aac_expel_heretics	Expel Heretical Officials
+aac_baroque	Baroque Architecture
+aac_congresses	Congresses of Aachen
+kle_walled_cities	Walled Cities
+kle_cleves_mark	Cleves and Mark
+kle_reformers	Avid Reformers
+kle_marriages	Strategic Marriages
+kle_united_duchies	United Duchies
+kle_educated_duisburg	Educated Duisberg
+kle_renovate_swan_castle	Militarize Schwanenburg
+dakani_language	Dakani Language
+dec_diwan_funding	Funding the Diwan
+dec_foreign_trade_privileges	Privileges for Foreign Traders
+dec_empower_paigah	Empower the Paigah
+dec_modernize_the_sarf_e_khas	Modernize the Sarf-e-Khas
+dec_jewels_of_the_nizams	Jewels of the Nizams
+dec_encourage_industries	Encourage Growth of Industries
+dlh_afghan_nobility	Afghan Nobility
+dlh_suppress_rebellion	Suppress Rebellion
+dlh_expansionism	Restore the Delhi Empire
+dlh_textile_innovation	Promote Innovation in Textile Production
+dlh_reconquest	Re-integrate Former Provinces
+dlh_grand_trunk	Protect the Grand Trunk Road
+dlh_throne_of_india	The Throne of India
+bha_modernized_war_elephants	Modernized War Elephant Tactics
+bha_united_india	Unite the Subcontinent
+bha_sanskrit_golden_age	Golden Age of Sanskrit Literature
+bha_indian_army	Indian Army
+bha_ganga	Ganga
+bha_brahmin_administration	Brahmin Administration
+bha_rocketry	Develop Rocket Technology
+hin_sepahi	Sepahi
+hin_persianate_court	Persianate Courtly Culture
+hin_indian_empire	Imperial Indian Ambition
+hin_peacock_throne	The Peacock Throne
+hin_gunpowder_empire	Gunpowder Empire
+hin_sufism	Patronize Sufi Missionaries
+hin_industrialization	Proto-Industrialization
+rjp_imperial_legacy	Imperial Legacy
+rjp_land_of_petty_princes	King of Petty Princes
+marwari_horses	Marwari Horses
+rjp_purbia_legacy	Purbia Legacy
+rjp_protectors_of_the_dharma	Protectors of the Dharma
+rjp_expanded_artillery_arm	Expanded Artillery Arm
+rjp_monumental_architecture	Monumental Architecture
+nag_unite_gonds_and_garjats	Unite the Gonds and Garjats
+nag_harsh_terrain	Exploit Harsh Terrain
+nag_send_for_artisans	Send for Artisans
+nag_invite_maratha_warriors	Invite Maratha Warriors
+nag_light_cav	Light Cavalry Shock Tactics
+nag_cultivating_the_forest	Cultivating the Forest
+nag_no_cb_best_cb	Unjustified Expansion
+mer_rajput_heartland	Rajput Heartland
+mer_victory_tower	Construct the Victory Tower
+mer_kumbhalgarh	The Fort of Kumbhalgarh
+mer_city_of_lakes	City of Lakes
+mer_recall_purbias	Recall the Purbias
+mer_firearm_drilling	Mandatory Firearm Drills
+mer_reorganized_rajput_regiments	Reorganized Rajput Regiments
+bng_combat_piracy	Combat Coastal Piracy
+bng_habshi_generals	Promote Habshi Generals
+bng_clearing_the_delta	Clear the Delta
+bng_attract_sufis	Attract Sufi Scholars
+bng_conquest_of_the_gangetic_plain	Conquest of the Gangetic Plain
+bng_rupees	Begin the Minting of Rupees
+bng_bengali_industrialization	Bengali Industrialization
+garba	Garba!
+jain_routes	Jain Connections
+gujarati_lipi	Gujarati Lipi
+merchant_diaspora	Gujarati Merchant Diaspora
+spice_trade	Spice Trade
+western_factors	Foreign Merchants set up Factories
+guj_africa	Gujarati Diaspora Descends on Africa
+snd_enduring_dynasty	Enduring Samma Dynasty
+snd_bab_ul_islam	Bab ul Islam
+snd_gujarati_connections	Strengthen Gujarati Connections
+snd_makli_necropolis	Expand the Makli Necropolis
+snd_end_judicial_corruption	End Judicial Corruption
+snd_oversee_rise_of_thatta	Oversee the Rise of Thatta
+snd_recruit_baloch_tribesmen	Recruit Balochi Tribesmen
+dhu_improve_amer_fort	Improve the Fort at Amer
+dhu_seek_protection_of_great_powers	Seek the Protection of Great Powers
+dhu_restore_hindu_ceremonies	Restore Hindu Ceremonies
+dhu_foundation_of_jaipur	Found the city of Jaipur
+dhu_battles_in_foreign_lands	Battles in Foreign Lands
+dhu_astronomical_education	Astronomical Education
+dhu_recruit_from_the_pindari	Pindari Mercenaries
+mys_unification_of_mysore	Unification of Mysore
+mys_patronize_kannada_literature	Patronize Kannada Literature
+mys_religious_tolerance	Religious Tolerance
+mys_reform_silk_industry	Reform the Silk Industry
+mys_rockets	Rockets!
+mys_reform_mysorean_army	Reform the Mysorean Army
+mys_dynamic_diplomacy	Dynamic Diplomacy
+rig_legacy_of_bishop_albert	Legacy of Bishop Albert
+rig_hanseatic_port	Hanseatic Port of Riga
+rig_monopoly_rights	Monopoly Rights
+rig_denounce_witchcraft	Denounce Witchcraft
+rig_free_city	Free City of Riga
+rig_fortify_riga	Fortify Riga
+rig_restore_brothers_of_the_sword	Restore the Brothers of the Sword
+cri_genghisid_legacy	Genghisid Legacy
+cri_slavers	Slavers of the Steppe
+cri_ruthenian_raids	Lead Raids into Ruthenia
+cri_despoilers	Despoilers
+cri_free_cattle_grazing	Free Cattle Grazing
+cri_settle_the_steppes	Settle the Crimean Steppe
+cri_allow_nogai_protectorates	Accept Nogai Protectorates
+chr_legacy_of_the_old_principality	Legacy of the Old Principality
+chr_cossack_regiments	Field Cossack Regiments
+chr_regimental_barracks	Expand Regimental Barracks
+chr_konotop_fortress	Konotop Fortress
+chr_local_councils	Local Governance Councils
+chr_renovate_transfiguration_cathedral	Renovate the Transfiguration Cathedral
+chr_cultivate_the_east_dniepr	Tame the Grasslands
+ilk_restored_ilkhanate	Restored Ilkhanate
+ilk_favor_sufism	Favor Sufism
+ilk_persian_language_at_court	Persian Language at Court
+ilk_yam_networks	The Yam
+ilk_mongol_peace	Mongol Peace
+ilk_patronize_observatories	Patronize Observatories
+ilk_recruit_turkoman_gunners	Recruit Turkoman Gunners
+synth_logic_engines	Logic Engines
+synth_loyalty_circuits	Loyalty Circuits
+synth_durable	Durable
+synth_mass_produced	Mass Produced
+synth_propaganda_machines	Propaganda Machines
+synth_harvesters	Harvesters
+synth_emotion_emulators	Emotion Emulators
+mor_powerful_viziers	Powerful Viziers
+mor_marabouts	Sufi Marabouts
+trans_saharan_trade	Trans-Saharan Trade
+mor_fleet	Defend the Coastline
+mor_pirate_republics	Protect Pirate Republics
+mor_slave_soldiers	Slave Soldiers
+mor_curb_power_of_the_tribes	Curb Tribal Power
+tun_catalan_guard	Catalan Guard
+dual_diplomacy	Dual Diplomacy
+corsairs	Corsairs
+tun_attract_foreign_pirates	Attract Foreign Pirates
+tun_board_of_captains	Board of Captains
+tun_export_monopolies	Export Monopolies
+tun_caliphate	Tunisian Caliphate
+lone_star_state	Lone Star State
+tex_revolution	Texan Revolution
+cotton_plantations	Cotton Plantations
+vaqueros	Vaqueros
+tex_native_frontiers	Frontier Nation
+tejanos	Tejanos
+adelsverin	Adelsverein
+AUS_outback_stations	Outback Stations
+AUS_land_down_under	The Land Down Under
+AUS_eureka_rebellion	The Eureka Rebellion
+AUS_sandpaper_and_cheating	The Diggers
+AUS_royal_navy	Royal Australian Navy
+AUS_bushrangers	Integration of the Bushrangers
+AUS_waltzing_matilda	Waltzing Matilda
+NZL_maori_seats	Maori Seats
+NZL_otago_gold	The Otago Gold Rush
+NZL_piopiotahi	Piopiotahi
+NZL_haka	The Kiwi Haka
+NZL_company	The New Zealand Company
+NZL_rejecting_australia	Rejecting the Australia Constitution
+NZL_pokarekare_ana	Pokarekare Ana
+ALA_endurance	Aleutian Endurance
+ALA_hard_push_east	The Hard Push East
+ALA_secretary_icebox	The Secretary's Icebox
+ALA_bear_hunting	Bear Hunting
+ALA_diversity	Alaskan Religious Diversity
+ALA_navy	Alaskan Navy
+ALA_beauty	The Beauty of Alaska
+CSC_melting_pot	Cascadian Melting Pot
+CSC_chinook_jargon	Chinook Jargon
+CSC_forts_of_hudson_bay	The Forts of Hudson Bay
+CSC_settling_boundaries	Settling the Boundaries
+CSC_nookta_sound	Nookta Sound Trading
+the_hudson_bay_company	The Hudson Bay Company
+CSC_oregon_trail	The Oregon Trail
+WSI_Plantation_Economy	Plantation Economy
+WSI_Blue_Mountain_Coffee	Blue Mountain Coffee
+WSI_Sugar_Revolution	The Sugar Revolution
+WSI_American_Trade_Hub	The American Trade Hub
+WSI_Miskoto_Zambos	Miskito-Zambos
+WSI_Interconnected_Relations	Interconnected Relations
+WSI_Colonial_Legacy	Colonial Legacy
+SNA_mercenary_republic	Republic of Mercenaries
+SNA_sale_of_script	The Sale of Sonoran Script
+SNA_Good_Use_Of_Gold	Gold, Gold, Gold!
+SNA_cowboy_country	Cowboy Country
+SNA_take_what_is_yours	Taking What’s Ours
+SNA_uniting_the_outlaws	Uniting the Outlaws
+SNA_taking_the_fight_south	Taking the Fight South
+VRM_home_of_the_revolution	Home of the American Revolution
+VRM_tea_party	The Boston Tea Party
+VRM_American_Frontier	American Frontier
+VRM_Cheese_wheels	Cheese Wheels
+VRM_vermont_constitution	The Vermont Constitution
+VRM_Liberty_is_Life	Live Free or Die
+VRM_What_we_do_best	What We Do Best
+asu_reconquista	Reconquista
+asu_camino_de_santiago	Camino de Santiago
+asu_aristocracy	Asturian Aristocracy
+asu_colonialism	Voyage to the New World
+asu_millenarian_revival	Millenarian Revival
+asu_unify_the_provinces	Unify the Provinces
+asu_early_industrialism	Early Industrialism
+adu_stand_against_the_reconquista	Stand Against the Reconquista
+adu_taifa_adminstration	Taifa Administration
+adu_ahl_uhl_dhimma	Alh Ulh Dhimma
+adu_legacy_of_ibn_arabi	Legacy of Ibn Arabi
+adu_jund_settlements	Jund Settlements
+adu_expeditionary_sentiment	Expeditionary Sentiment
+adu_al_awasim	Al Awasim
+soo_wakan	Wakan
+soo_tradition_of_wakou	Wakou Tradition
+soo_fight_for_tsushima	Fight for Tsushima
+soo_bahan_ship	Bahan Ship
+soo_tough_negotiator	Tough Negotiators
+soo_port_improvement	Port Maintenance
+soo_elementary_school	Elementary School
+fearsome_warriors_of_tumu	Fearsome Warriors of Tumu
+life_of_steppe_warrior	The Life of a Steppe Warrior
+the_four_oirats	The Four Oirats
+todo_besheg_script	Todo Besheg Script
+OIR_great_khans_legacy	Legacy of the Great Khan
+defiance_of_the_dzungars	Defiance of the Dzungars
+glory_of_conquest	The Glory of Conquest
+ghostly_horses_of_the_plain	Ghostly Horses of the Plain
+ikh_mongol_uls	Ikh Mongol Uls
+life_of_steppe_warrior	The Life of a Steppe Warrior
+northern_yuan	The Northern Yuan
+yams_of_the_great_khan	Yams of the Great Khan
+mongolian_mobility	Mongolian Mobility
+MNG_kheshig	The Kheshig
+the_mountain_khanate	The Mountain Khanate
+CHG_border_wars	Ceaseless Border Wars
+sons_of_chagatai	Sons of Chagatai Khan
+CHG_chagatai_literature	Chagatai Literature
+tradition_of_conquest	The Tradition of Conquest
+CHG_constant_scheming	Scheming Nobility
+glory_of_conquest	The Glory of Conquest
+shun_humble_beginnings	Humble Beginnings
+shun_dashing_king	The Dashing King
+shun_hidden_treasury	Hidden Treasury
+shun_obedient_to_heaven	Obedient to Heaven
+shun_perfection_of_sieging	Perfection of Siegecraft
+shun_from_sticks_to_guns	From Sticks to Guns
+shun_claim_to_the_mandate	Claim to the Mandate
+nrm_norman_conquest	Conquerors
+nrm_norman_philosophers	Norman Philosophers
+nrm_channel_islands	The Channel Islands
+nrm_viking_explorers	Descendants of Seafarers
+nrm_viking_raids	Viking Raids
+nrm_naval_invasion	Naval Invasion
+nrm_great_commanders	Great Commanders
+pis_restore_the_pisan_navy	Restore the Pisan Navy
+pis_the_leaning_tower	The Leaning Tower
+pis_the_university_of_pisa	The University of Pisa
+pis_urbanization_effort	Urbanization effort
+pis_anziani_del_popolo	Anziani del Popolo
+pis_maritimes_legacy	Maritime's legacy
+pis_fund_the_masnada	Fund the Masnada
+epi_pyrrhus	Legacy of Pyrrhus
+epi_chronicle_of_the_toco	Chronicle of the Tocco
+epi_serbs_and_albanians	Albanian and Serbian Tribes
+epi_metropolis_of_knowledge	Metropolis of Knowledge
+epi_latin_knights	Latin Knights
+epi_trade_influences	Entrepôt of the Adriatic
+epi_unity_in_strength	Unity in Strength
+lot_legacy_of_the_carolingians	Legacy of the Carolingians
+lot_glory_of_charlemagne	Glory of Charlemagne
+lot_dutch_cities	Wealth of the Low Countries
+lot_carolingian_renaissance_II	New Carolingian Renaissance
+lot_court_of_europe	The Court of Europe
+lot_land_of_abbeys	Land of Bishops
+lot_european_empire	Europa Universalis Imperii
+fkn_duchy_restored	The Duchy Restored
+fkn_main_trading	Trading on the Main
+fkn_rugged_land_of_fortresses	A Rugged Land of Fortresses
+fkn_free_knights_of_franconia	Free Imperial Knights of Franconia
+franconian_wine	Franconian Wine
+fkn_baroque	A Baroque Duchy
+fkn_franconian_bourgeoisie	Franconian Bourgeoisie
+sor_zittau_mountains	Zittau Mountains
+sor_sale_of_land	Sale of Land
+sor_lusatian_landtag	Lusatian Landtag
+sor_wittelsbach_history	Wittlesbach History
+sor_lusatian_league	Lusatian League
+sor_rights_of_all_religions	Rights for all Religions
+sor_political_influences	Cultural Influences
+cli_marry_your_daughters	Dynastic Marriages
+cli_mercenary_captains	Mercenary Captains
+cli_political_manoevring	Political Maneuvering
+cli_slovenian_reformation	Slovenian Reformation
+cli_border_wars	Border Wars
+cli_italian_baroque	Italian Baroque
+cli_standardised_slovene_language	Standardized Slovenian Language
+wes_jewish_rights	Jewish Rights
+wes_westphalian_decentralisation	Westphalian Decentralization
+wes_increased_conscription	Universal Conscription
+wes_administrative_assimilation_of_rheinlanders	Assimilation of the Rhenish People
+wes_taxation	Tax Reforms
+wes_enlightenment	Religious Toleration
+wes_cities_of_the_rhineland	Cities of the Rhineland
+swa_decentralisation	Swabian Decentralization
+fugger_banks	Fugger Banking
+swa_free_cities	Land of the Free Cities
+swa_swabian_league	The Swabian League
+swa_stinginess	A Miserly People
+swa_hohenstaufen_emperors	Memory of the Hohenstaufen
+swa_barbarossas_legacy	Barbarossa's Legacy
+ttl_league_system	The League System
+ttl_gods_house	The League of God's House
+ttl_grey_league	The Grey League
+ttl_league_of_ten	The League of Ten
+ttl_independent_cities	Independent Cities
+ttl_economic_league	An Economic League
+ttl_expanding_league	Expanding the Leagues
+gnv_grand_council	The Grand Council
+gnv_neutral_grounds	Neutral Grounds
+gnv_home_of_calvin	The Home of John Calvin
+gnv_spiritual_leader	Spiritual Leader of Geneva
+gnv_calvins_laws	Calvin's Laws
+gnv_unconquerable_city	Unconquerable City
+gnv_armed_neutrality	Armed Neutrality
+ICE_althingi	The Althingi
+ICE_hrafna_floki	Legacy of Hrafna-Floki
+ICE_christian_identity	Christian Identity
+ICE_merchant_navy	Armed Merchants
+ICE_fire_and_ice	The Men of Fire and Ice
+ICE_natural_builders	Resilient Craftsmen
+ICE_nationalism	Icelandic National Identity
+TIW_yiminga	Yiminga
+TIW_dreaming_totem	The Dreaming Totem
+TIW_kulama	Kulama
+TIW_purrukapali	Purrukapali
+TIW_marriage	Tiwi Marriage Traditions
+TIW_isolationism	Tiwi Isolationism
+TIW_one_people	One People
+EOR_lifestyle	Eora Lifestyle
+EOR_bands	Twenty-Nine Bands
+EOR_enduring	Enduring Culture
+EOR_protect	Protect the Ancestral Land
+EOR_sacred	The Sacred Shore
+EOR_pemulwuy	Pemulwuy
+EOR_berewaldal	Berewaldal
+KAU_totemic_matriarchy	Totemic Matriarchy
+KAU_pangkarra	The Pangkarra System
+KAU_coastal_pangkarra	Coastal Pangkarra
+KAU_redgum_shelters	Redgum Shelters
+KAU_communal_ownership	Communal Ownership
+KAU_old_tjilbruke	Old Tjilbruke
+KAU_south_australia_act	South Australia Act
+PLW_oyster	Oyster Bay
+PLW_dual_identity	Dual-Identity
+PLW_darwin	Darwin Glass
+PLW_parlevar	Parlevar
+PLW_writers	First Aboriginal Writers
+PLW_survivors	Survivors of the Black War
+PLW_enduring	Enduring People
+LAR_makassar_trade	The Makassarian Trade
+LAR_federation	The Larrakia Federation
+LAR_dreaming	Larrakia Dreaming
+LAR_dowed	Dowed
+LAR_ceremonial_scarring	Ceremonial Scarring
+LAR_hospitality	Larrakia Hospitality
+LAR_kenbi_land_claim	The Kenbi Land Claim
+GMI_sacred_caves	The Sacred Caves
+GMI_land_of_languages	Land of Languages
+GMI_fertile_soils	Fertile Soils of Kamilaroi
+GMI_dhulu	Dhulu
+GMI_matrilineal_lineage	Matrilineal Lineage
+GMI_familial_law	Familial Law
+GMI_red_kangaroo	Red Kangaroo
+the_great_proclamation	The Great Proclamation
+confucian_revival	Confucian Revival
+autonomous_villages	Autonomous Villages
+village_militia	Village Militia
+don_dien	Don Dien
+thuan_thien	Thuan Thiên
+literary_reform	Literary Reform
+maj_nusantara_tributaries	Nusantara Tributaries
+maj_restore_candi	Restore Candi Shrines
+maj_maritime_silk_road	The Maritime Silk Road
+maj_nusa_tenggara	Nusa Tenggara Colonies
+maj_gajah_madas_oath	Gajah Mada's Oath
+maj_majapahit_armada	The Majapahit Armada
+maj_reformed_bhattara_saptaprabhu	Reformed Bhattara Saptaprabhu
+export_economy	Export Economy
+islamise_sumatra	Islamize Sumatra
+rise_of_aceh	Rise of Aceh
+military_adventures	Military Adventures
+porch_of_mecca	Porch of Mecca
+acehnese_moneylending	Acehnese Moneylending
+settle_the_islands	Settle the Islands
+bli_island_settlers	Island Settlers
+javanese_culture	Imported Javanese Culture
+aristocratic_refugees	Aristocratic Refugees
+staunch_hindus	Staunch Hindus
+conquerer_dalems	Conquerer Dalems
+hindu_reformation	Hindu Reformation
+rivals_to_slaves	Rivals to Slaves
+candi_shrines	Candi Shrines
+sunda_galuh	Union of Sunda and Galuh
+defensive_moats	Defensive Moats
+wooden_architecture	Elaborate Wooden Architecture
+pan_asian_trade	Pan-Asian Trade
+seren_taun	Seren Taun
+bi_yearly_harvest	Bi-Yearly Harvest
+bei_galleys	Galley Fleet
+bei_sea_nomads	Sea Nomads
+bei_diplomacy	Bruneian Diplomacy
+bei_vassals	Hegemon of Borneo
+settle_the_islands	Settle the Islands
+bei_naval_prowess	Naval Prowess
+bei_trade	Merchant Alliances
+mlc_vassal_princes	Vassal Princes
+mlc_maritime_laws	Maritime Laws
+mlc_new_hegemony	Malaccan Hegemony
+mlc_islamic_sultanate	Islamic Sultanate
+mlc_habor_masters	Harbor Masters
+mlc_daulat	Dualat
+mlc_jawi_script	Jawi Script
+settle_the_islands	Settle the Islands
+msa_advanced_galley_warfare	Advanced Galley Warfare
+msa_expert_haggling	Expert Hagglers
+msa_chart_the_seas	Chart the Isles
+msa_in_every_port	Malay Merchants in Every Port
+msa_sea_nomads_steering	Agreements with the Sea Nomads
+msa_spice_kings	Spice Kings
+sia_royal_poets	Royal Poets
+sia_advanced_elephant_warfare	Advanced Elephant Warfare
+sia_experienced_ambassadors	Experienced Ambassadors
+sia_encourage_immigration	Encourage Immigration
+sia_integrating_the_realm	Consolidation of the State
+sia_education_reform	Education Reforms
+sia_royal_absolutism	Royal Absolutism
+lfa_free_elections	Free Elections
+lfa_mining_syndicates	Mining Syndicates
+lfa_careful_diplomacy	Careful Diplomacy
+lfa_national_militia	National Militia
+lfa_integrate_local_communities	Integrate Local Communities
+lfa_improved_mining_techniques	Improved Mining Techniques
+lfa_state_expansion	Expansion of the State
+lig_autonomous_subject	Autonomous Subject
+lig_religious_conversion	Buddhist Conversion
+lig_vassal_cities	Vassal Cities
+lig_trade_primacy	Trade Primacy
+lig_bridge_to_malaya	Bridge to Siam
+lig_spirit_of_rebellion	Rebellious Spirits
+lig_trade_protection	Protect Ligori Trade
+plb_ancient_scriptures	Ancient Scriptures
+plb_pirate_ancestry	Pirate Ancestry
+plb_controlling_the_strait	Controlling the Strait
+plb_center_of_the_dynasty	Center of the Dynasty
+plb_trading_hub	Trading Hub
+plb_through_the_monsoon	Through the Monsoon
+plb_learned_scholars	Learned Scholars
+ban_struck_down_by_diamonds	Struck Down by Diamonds
+ban_surrounded_by_stars	Surrounded by Stars
+ban_from_east_to_west	From East to West
+ban_rebuttal	Rebuttal
+ban_fertile_lands	Fertile Lands
+ban_by_the_river	By the River
+ban_cultural_richness	Cultural Richness
+sul_sultanate_of_sulu	Sultanate of Sulu
+sul_makhdum_teachings	Makhdum's Teachings
+sul_across_the_sulu_sea	Across the Sulu Sea
+sul_port_of_jolo	Port of Jolo
+sul_dagat_sulu	Dagat Sulu
+sul_coconut_plantations	Coconut Plantations
+sul_pearl_farming	Pearl Farming
+crb_negara_gede	Negara Gede
+crb_tari_topeng	Tari Topeng
+crb_alis_panther	Ali's Panther
+crb_mount_ciremai	Mount Ciremai
+crb_islamic_schools	Islamic Schools
+crb_batik_textiles	Batik Textiles
+crb_royal_lineage	Royal Lineage
+tonga_tangaloa	The Tangaloa Mythos
+tonga_pulotu	Pulotu's Creation
+tonga_maui	The Islands of Maui
+tonga_polynesian	True Claimants to Polynesia
+tonga_tongatapu	The Bells of Tongatapu
+tonga_craftsman	Ancient Tongan Craftsmanship
+tonga_oceanic_empire	The Oceanic Empire
+samoa_musical	Samoan Musical Culture
+samoa_faa	Fa'a Samoa
+samoa_mauluulu	Maulu'ulu
+samoa_foreign	Acceptance of the Foreign Missionaries
+samoa_tatau	Tatau
+samoa_faavae	Fa'avae I Le Atua Samoa
+samoa_trade	Polynesian Triangle Trade
+end_of_diaspora	End of Diaspora
+national_myths_restored	National Myths Restored
+return_home	Return Home
+jewish_trade_tradition	Jewish Trade Tradition
+pious_people	Pious People
+people_of_exile	People of Exile
+the_chosen_people	The Chosen People
+oyo_yoruba_origin_story	Yoruba Origin Story
+oyo_oduduwa_mythos	Oduduwa Mythos
+oyo_ile_ife_protector	The City of 401 Deities
+oyo_balnce_of_power	Balance of Power
+oyo_the_oyo_cavalry	The Oyo Cavalry
+oyo_emporium_of_the_south	Emporium of the South
+oyo_feudal_unity	Feudal Unity
+zan_kilwa_latitude_staves	Kilwan Latitude Staves
+zan_shirazis_legacy	Shirazi's Legacy
+zan_the_deal_with_almuli	The Deal with King Almuli
+zan_kilwa_the_melting_pot	Cultural Melting Pot
+zan_gold_of_sofala	Gold of Sofala
+zan_trade_center_of_zanzibar	Merchants of Zanzibar
+zan_center_of_migration	Center of Migration
+gzi_stone_masonry	Stone Masonry
+gzi_ivory_trade	Ivory Trade
+gzi_gold_deposits	Gold Deposits
+gzi_zimbabwes_walls	Zimbabwe's Walls
+gzi_lay_of_the_land	Lay of the Land
+gzi_tributary_system	Tributary System
+gzi_zimbabwe_birds	Zimbabwe Birds
+aks_stellae_builders	Stellae Builders
+aks_legacy_of_king_kaleb	Legacy of King Kaleb
+aks_persian_revenge	Persian Revenge
+aks_christianity_stronghold	Christianity Stronghold
+aks_mediterranean_contacts	Mediterranean Contacts
+aks_trade_hub	Trade Hub
+aks_coin_minting	Coin Minting
+SOM_land_of_punt	Land of Punt
+SOM_african_silk_road	African Silk Road
+SOM_african_minting	African Minting
+SOM_zeila_and_berbera	Zeila and Berbera
+SOM_blue_nile	The Blue Nile
+SOM_indian_merchants	Indian Merchants
+SOM_faithful_to_allah	Faithful to Allah
+kit_legacy_of_the_gods	Legacy of the Gods
+kit_empire_of_the_light	Empire of the Light
+kit_memory_of_aksum	Memory of Aksum
+kit_lakes_dominance	Lakes Dominance
+kit_bachwezi_earthworks	Bachwezi Earthworks
+kit_nile_conquest	Nile Conquest
+kit_rich_history	Rich History
+nbi_our_land	Our Land
+nbi_religious_friction	Religious Friction
+nbi_desert_knowledge	Desert Knowledge
+nbi_military_strength	Military Strength
+nbi_nile_control	Nile Control
+nbi_christian_ties	Christian Ties
+nbi_egyptian_relations	Egyptian Relations
+ada_our_infinite_struggle	Our Infinite Struggle
+ada_a_monarchial_imamate	A Monarchical Imamate
+ada_zeila_and_harar	Zeila and Harar
+ada_mujahiduir_cavalry	Mujahiduir Cavalry
+ada_unite_the_clans	Unite the Clans
+ada_yahu_yahu	Yahu Yahu
+ada_embrace_the_cannons	Embrace the Cannons
+jol_legacy_of_ndiadiane_ndiaye	Legacy of Ndiadiane Ndiaye
+jol_adherents_of_islam	Adherents of Islam
+jol_tribute_of_the_five_kingdoms	The Tribute of the Five Kingdoms
+jol_ambassadors_abroad	Ambassadors Abroad
+jol_qadi_tribunals	Qadi Tribunals
+jol_wolof_griots	Wolof Griots
+jol_paying_the_waref	Paying the Waref
+zul_confederacy_of_clans	Confederacy of Clans
+zul_the_ukubuthwa	The Ukubuthwa
+zul_the_impi_warriors	The Impi Warriors
+zul_zulu_expansion	Zulu Expansion
+zul_warrior_culture	Warrior Culture
+zul_shaka_reforms	Shaka's Reforms
+zul_conquest_through_patronage	Conquest through Patronage

@@ -1,0 +1,3491 @@
+REB	Rebels
+PIR	Pirates
+NAT	Natives
+SWE	Sweden
+DAN	Denmark
+FIN	Finland
+GOT	Gotland
+NOR	Norway
+SHL	Holstein
+SCA	Scandinavia
+EST	Estonia
+LVA	Livonia
+SMI	Sapmi
+KRL	Karelia
+ICE	Iceland
+ACH	Achaea
+ALB	Albania
+ATH	Athens
+BOS	Bosnia
+BUL	Bulgaria
+BYZ	Byzantium
+LAE	Latin Empire
+CEP	Corfu
+CRO	Croatia
+CRT	Crete
+CYP	Cyprus
+DAL	Dalmatia
+EPI	Epirus
+GRE	Greece
+KNI	The Knights
+MOE	Morea
+MOL	Moldavia
+MON	Montenegro
+NAX	Naxos
+RAG	Ragusa
+RMN	Romania
+SER	Serbia
+TRA	Transylvania
+WAL	Wallachia
+HUN	Hungary
+SLO	Nitra
+TUR	Ottomans
+CNN	Clanricarde
+CRN	Cornwall
+ENG	England
+LEI	Leinster
+IRE	Ireland
+MNS	Thomond
+SCO	Scotland
+TYR	Tyrone
+WLS	Wales
+NOL	Northumberland
+GBR	Great Britain
+AVE	Angevin Kingdom
+MTH	Meath
+ULS	Ulster
+DMS	Desmond
+SLN	Sligo
+KID	Kildare
+HSC	Gaeldom
+ORD	Ormond
+TRY	Tyrconnell
+FLY	Offaly
+MCM	Munster
+KOI	Mann
+LOI	The Isles
+EIC	East India Company
+BRZ	Brazil
+CAN	Canada
+CHL	Chile
+COL	Colombia
+HAT	Haiti
+LAP	La Plata
+LOU	Louisiana
+MEX	Mexico
+PEU	Peru
+PRG	Paraguay
+QUE	Quebec
+CAM	United Central America
+USA	United States
+VNZ	Venezuela
+AUS	Australia
+CAL	California
+TEX	Texas
+CSC	Cascadia
+ALA	Alaska
+NZL	Zealandia
+ILI	Illinois
+FLO	Florida
+VRM	Vermont
+SNA	Sonora
+WSI	West Indies
+CUB	Cuba
+DNZ	Danzig
+KRA	Krakow
+LIT	Lithuania
+LIT2	Lithuania-New
+LIV	Livonian Order
+MAZ	Mazovia
+POL	Poland
+PRU	Prussia
+KUR	Kurland
+RIG	Riga
+TEU	Teutonic Order
+PLC	Commonwealth
+PLC_LIT	Commonwealth-Lithuania
+PLC_POL	Commonwealth-Poland
+VOL	Galicia-Volhynia
+KIE	Kiev
+CHR	Chernigov
+OKA	Odoyev
+ALE	Alençon
+ALS	Strasbourg
+AMG	Armagnac
+AUV	Auvergne
+AVI	Avignon
+BOU	Bourbonnais
+BRI	Brittany
+BUR	Burgundy
+CHP	Champagne
+COR	Corsica
+DAU	Dauphine
+FOI	Foix
+FRA	France
+FRA_ideas_2	Revolutionary France
+GUY	Gascony
+NEV	Nevers
+NRM	Normandy
+ORL	Orleans
+PIC	Picardy
+PRO	Provence
+SPI	Sardinia-Piedmont
+TOU	Toulouse
+BER	Berry
+AAC	Aachen
+ANH	Anhalt
+ANS	Ansbach
+AUG	Augsburg
+BAD	Baden
+BAV	Bavaria
+BOH	Bohemia
+BRA	Brandenburg
+BRE	Bremen
+BRU	Brunswick
+EFR	East Frisia
+FRN	Frankfurt
+GER	Germany
+HAB	Austria
+HAM	Hamburg
+HAN	Hanover
+HES	Hesse
+HLR	Holy Roman Empire
+KLE	Cleves
+KOL	Cologne
+LAU	Saxe-Lauenburg
+LOR	Lorraine
+LUN	Lüneburg
+MAG	Magdeburg
+MAI	Mainz
+MEI	Meissen
+MKL	Mecklenburg
+MUN	Münster
+MVA	Moravia
+OLD	Oldenburg
+PAL	The Palatinate
+POM	Pomerania
+SAX	Saxony
+SIL	Silesia
+SLZ	Salzburg
+STY	Styria
+SWI	Switzerland
+THU	Thuringia
+TIR	Tirol
+TRI	Trier
+ULM	Ulm
+WBG	Wurzburg
+WES	Westphalia
+WUR	Wurttemberg
+NUM	Nuremberg
+MEM	Memmingen
+VER	Verden
+NSA	Nassau
+RVA	Dortmund
+DTT	Dithmarschen
+ARA	Aragon
+CAS	Castille
+CAT	Catalonia
+GRA	Granada
+NAV	Navarra
+POR	Portugal
+SPA	Spain
+GAL	Galicia
+LON	León
+ADU	Andalusia
+VAL	Valencia
+ASU	Asturias
+MJO	Majorca
+AQU	Aquileia
+ETR	Etruria
+FER	Ferrara
+GEN	Genoa
+ITA	Italy
+MAN	Mantua
+MLO	Milan
+MOD	Modena
+NAP	Naples
+PAP	The Papal State
+PAR	Parma
+PIS	Pisa
+SAR	Sardinia
+SAV	Savoy
+SIC	Sicily
+SIE	Siena
+TUS	Tuscany
+URB	Urbino
+VEN	Venice
+MFA	Montferrat
+LUC	Lucca
+LAN	Florence
+JAI	Malta
+BRB	Brabant
+FLA	Flanders
+FRI	Friesland
+GEL	Gelre
+HAI	Hainaut
+HOL	Holland
+LIE	Liege
+LUX	Luxembourg
+NED	Netherlands
+UTR	Utrecht
+ARM	Armenia
+AST	Astrakhan
+CRI	Crimea
+GEO	Georgia
+KAZ	Kazan
+MOS	Muscovy
+NOV	Novgorod
+PSK	Pskov
+QAS	Qasim
+RUS	Russia
+RYA	Ryazan
+TVE	Tver
+UKR	Ruthenia
+YAR	Yaroslavl
+ZAZ	Zaporozhie
+NOG	Nogai
+SIB	Sibir
+PLT	Polotsk
+PRM	Perm
+FEO	Theodoro
+BSH	Bashkiria
+BLO	Beloozero
+RSO	Rostov
+GOL	Great Horde
+GLH	Golden Horde
+ADE	Aden
+ALH	Haasa
+ANZ	Anizah
+ARB	Arabia
+ARD	Ardalan
+BHT	Soran
+DAW	Dawasir
+ERE	Eretna
+FAD	Fadl
+GRM	Germiyan
+HDR	Hadramut
+HED	Hejaz
+LEB	Lebanon
+MAK	Makuria
+MDA	Medina
+MFL	Mikhlaf
+MHR	Mahra
+NAJ	Najd
+NJR	Najran
+OMA	Oman
+RAS	Rassids
+SHM	Shammar
+SHR	Sharjah
+SRV	Shirvan
+YAS	Yas
+YEM	Yemen
+HSN	Hisn Kayfa
+BTL	Bitlis
+AKK	Aq Qoyunlu
+AYD	Aydin
+CND	Candar
+DUL	Dulkadir
+IRQ	Iraq
+KAR	Karaman
+SYR	Syria
+TRE	Trebizond
+SRU	Saruhan
+MEN	Mentese
+RAM	Ramazan
+AVR	Avaria
+MLK	Karabakh
+SME	Samtskhe
+ARL	Ardabil
+MSY	Mushasha
+RUM	Rûm
+ALG	Algiers
+FEZ	Fez
+MAM	Mamluks
+MOR	Morocco
+TRP	Tripoli
+TUN	Tunis
+EGY	Egypt
+KBA	Kabylia
+TFL	Tafilalt
+SOS	Sus
+TLC	Tlemcen
+TGT	Touggourt
+GHD	Djerid
+FZA	Fezzan
+MZB	Mzab
+SLE	Salé
+TET	Tétouan
+MRK	Marrakesh
+KZH	Kazakh
+KHI	Khiva
+SHY	Uzbek
+KOK	Ferghana
+BUK	Bukhara
+AFG	Afghanistan
+KHO	Khorasan
+PER	Persia
+QAR	Qara Qoyunlu
+TIM	Timurids
+TRS	Transoxiana
+KRY	Gilan
+CIR	Circassia
+GAZ	Gazikumukh
+IME	Imereti
+TAB	Mazandaran
+ORM	Hormuz
+LRI	Luristan
+SIS	Sistan
+BPI	Biapas
+FRS	Fars
+KRM	Kerman
+YZD	Yazd
+ISF	Isfahan
+TBR	Tabriz
+BSR	Basra
+MGR	Maregheh
+QOM	Ajam
+AZT	Aztec
+CHE	Cherokee
+CHM	Chimu
+CRE	Creek
+HUR	Huron
+INC	Inca
+IRO	Iroquois
+MAY	Maya
+SHA	Shawnee
+ZAP	Zapotec
+ASH	Ashanti
+BEN	Benin
+ETH	Ethiopia
+KON	Kongo
+MAL	Mali
+NUB	Funj
+SON	Songhai
+ZAN	Kilwa
+ZIM	Mutapa
+ADA	Adal
+HAU	Hausa
+KBO	Kanem Bornu
+LOA	Loango
+OYO	Oyo
+SOF	Segu
+SOK	Sokoto
+JOL	Jolof
+SFA	Sofala
+MBA	Mombasa
+MLI	Malindi
+AJU	Ajuuraan
+MDI	Mogadishu
+ENA	Ennarea
+WGD	Wagadugu
+ZND	Zandoma
+GUR	Fada N'gourma
+TEN	Tenkodogo
+OGD	Ogaadeen
+ZUL	Zulu
+SOM	Somalia
+AKS	Aksum
+GZI	Zimbabwe
+NBI	Nubia
+RZI	Rozwi Empire
+KIT	Kitara
+WAD	Wadai
+AFA	Aussa
+ALO	Alodia
+DAR	Darfur
+GLE	Geledi
+HAR	Harar
+HOB	Hobyo
+KAF	Kaffa
+MED	Medri Bahri
+MJE	Majeerteen
+MRE	Marehan
+PTE	Pate
+WAR	Warsangali
+BTI	Semien
+BEJ	Beja
+JIM	Jimma
+WLY	Welayta
+DAM	Damot
+HDY	Hadiya
+SOA	Shewa
+JJI	Janjiro
+ABB	Dongola
+TYO	Tyo
+SYO	Soyo
+KSJ	Kasanje
+LUB	Luba
+LND	Lunda
+CKW	Chokwe
+KIK	Kikondja
+KZB	Kazembe
+YAK	Yaka
+KLD	Kalundwe
+KUB	Kuba
+RWA	Rwanda
+BUU	Burundi
+BUG	Buganda
+NKO	Nkore
+KRW	Karagwe
+BNY	Bunyoro
+BSG	Busoga
+UBH	Buha
+MRA	Maravi
+LDU	Lundu
+TBK	Tumbuka
+MKU	Makua
+RZW	Butua
+MIR	Imerina
+SKA	Sakalava
+BTS	Betsimisaraka
+MFY	Mahafaly
+ANT	Antemoro
+ANN	Annam
+ARK	Arakan
+ATJ	Aceh
+AYU	Ayutthaya
+BLI	Bali
+BAN	Banten
+BEI	Brunei
+CHA	Champa
+CHG	Chagatai
+CHK	Champasak
+DAI	Dai Viet
+JAP	Japan
+AMA	Amago
+ASA	Asakura
+CSK	Chosokabe
+DTE	Date
+HJO	Hojo
+HSK	Hosokawa
+HTK	Hatakeyama
+IKE	Ikeda
+IMG	Imagawa
+MAE	Maeda
+MRI	Mori
+ODA	Oda
+OTM	Otomo
+OUC	Ouchi
+SBA	Shiba
+SMZ	Shimazu
+TKD	Takeda
+TKG	Tokugawa
+UES	Uesugi
+YMN	Yamana
+RFR	Nanbu
+ASK	Ashikaga
+KTB	Kitabatake
+ANU	Ainu
+AKM	Akamatsu
+AKT	Ando
+CBA	Chiba
+ISK	Isshiki
+ITO	Ito
+KKC	Kikuchi
+KNO	Kono
+OGS	Ogasawara
+SHN	Shoni
+STK	Satake
+TKI	Toki
+UTN	Utsunomiya
+TTI	Tsutsui
+KHA	Mongolia
+KHM	Khmer
+KOR	Korea
+LNA	Lan Na
+LUA	Luang Prabang
+LXA	Lan Xang
+MAJ	Majapahit
+MCH	Manchu
+MKS	Makassar
+MLC	Malacca
+MNG	Ming
+MTR	Mataram
+OIR	Oirat
+PAT	Pattani
+PEG	Pegu
+QNG	Qing
+RYU	Ryukyu
+SST	Shan
+SUK	Sukhothai
+SUL	Sulu
+TAU	Taungu
+TIB	Tibet
+TOK	Tonkin
+VIE	Vientiane
+CZH	Zhou
+CSH	Shun
+CXI	Xi
+YUA	Yuan
+FRM	Tungning
+ILK	Ilkhanate
+KLM	Kalmyk
+MGE	Mongol Empire
+SOO	So
+NVK	Nivkh
+SOL	Solon
+EJZ	Donghai
+NHX	Udege
+MYR	Yeren
+MHX	Haixi
+MJZ	Jianzhou
+KRC	Korchin
+KLK	Khalkha
+HMI	Kara Del
+ZUN	Dzungar
+KAS	Yarkand
+CHH	Chahar
+KSD	Khoshuud
+SYG	Sarig Yogir
+UTS	Tsang
+KAM	Kham
+GUG	Guge
+PHA	U
+CDL	Dali
+CYI	Yi
+CMI	Miao
+MIN	Min
+YUE	Yue
+SHU	Shu
+NNG	Ning
+CHC	Chu
+TNG	Tang
+WUU	Wu
+QIC	Qi
+YAN	Yan
+JIN	Jin
+LNG	Liang
+QIN	Qin
+HUA	Huai
+CGS	Changsheng
+BAL	Baluchistan
+BNG	Bengal
+BIJ	Bijapur
+BAH	Bahmanis
+DLH	Delhi
+GOC	Golkonda
+DEC	Deccan
+MAR	Marathas
+MUG	Mughals
+MYS	Mysore
+VIJ	Vijayanagar
+AHM	Ahmednagar
+ASS	Assam
+GUJ	Gujarat
+JNP	Jaunpur
+MAD	Madurai
+MLW	Malwa
+MAW	Marwar
+MER	Mewar
+MUL	Multan
+NAG	Nagpur
+NPL	Nepal
+ORI	Orissa
+PUN	Punjab
+SND	Sindh
+BRR	Berar
+JAN	Jangladesh
+KRK	Carnatic
+GDW	Garha
+GRJ	Garjat
+GWA	Gwalior
+DHU	Dhundhar
+KSH	Kashmir
+KLN	Keladi
+KHD	Khandesh
+ODH	Oudh
+VND	Venad
+MAB	Calicut
+MEW	Mewat
+BDA	Baroda
+BST	Bastar
+BHU	Bhutan
+BND	Bundelkhand
+CEY	Kotte
+JSL	Jaisalmer
+KAC	Kachar
+KMT	Koch
+KGR	Kangra
+KAT	Kutch
+KOC	Kochin
+MLB	Manipur
+HAD	Hadoti
+NGA	Nagaur
+RMP	Rohilkhand
+LDK	Ladakh
+BGL	Baghelkhand
+JFN	Jaffna
+PTA	Patiala
+GHR	Garhwal
+CHD	Chanda
+NGP	Jharkhand
+JAJ	Habsan
+TRT	Tirhut
+CMP	Rewa Kantha
+BGA	Baglana
+TPR	Tripura
+SDY	Sadiya
+BHA	Bharat
+YOR	Andhra
+DGL	Maldives
+MBL	Bishnupur
+SKK	Sikkim
+IDR	Idar
+JLV	Jhalavad
+PTL	Palitana
+NVR	Navanagar
+RJK	Rajkot
+JGD	Junagarh
+PRB	Porbandar
+PAN	Kalinjar
+KLP	Kalpi
+SBP	Sambalpur
+PTT	Patna
+RTT	Ratanpur
+KLH	Kalahandi
+KJH	Keonhjar
+PRD	Parlakhimidi
+JPR	Jeypore
+SRG	Surguja
+KND	Kandy
+TLG	Telingana
+KLT	Kolathunad
+DNG	Dang
+DTI	Doti
+GRK	Gorkha
+JML	Jumla
+LWA	Limbuwan
+MKP	Makwanpur
+SRM	Sirmur
+KTU	Kathmandu
+KMN	Kumaon
+GNG	Gingee
+TNJ	Tanjore
+SRH	Sirhind
+RJP	Rajputana
+BAR	Bar
+HSA	Lübeck
+FU2	Hansa
+SMO	Smolensk
+NZH	Nizhny Novgorod
+KOJ	Jerusalem
+MSA	Malaya
+HIN	Hindustan
+ABE	Abenaki
+APA	Apache
+ASI	Assiniboine
+BLA	Blackfoot
+CAD	Caddo
+CHI	Chickasaw
+CHO	Choctaw
+CHY	Cheyenne
+COM	Comanche
+FOX	Fox
+ILL	Illiniwek
+LEN	Lenape
+MAH	Mahican
+MIK	Mikmaq
+MMI	Miami
+NAH	Navajo
+OJI	Ojibwe
+OSA	Osage
+OTT	Ottawa
+PAW	Pawnee
+PEQ	Pequot
+PIM	Pima
+POT	Potawatomi
+POW	Powhatan
+PUE	Pueblo
+SHO	Shoshone
+SIO	Sioux
+SUS	Susquehannock
+WCR	Cree
+AIR	Air
+BON	Bonoman
+DAH	Dahomey
+DGB	Dagbon
+FUL	Fulo
+JNN	Jenné
+KAN	Kano
+KBU	Kaabu
+KNG	Kong
+KTS	Katsina
+MSI	Mossi
+NUP	Nupe
+TMB	Timbuktu
+YAO	Yao
+YAT	Yatenga
+ZAF	Macina
+ZZZ	Zazzau
+NDO	Ndongo
+AVA	Ava
+HSE	Hsenwi
+JOH	Johor
+KED	Kedah
+LIG	Ligor
+MPH	Muang Phuan
+MYA	Mong Yang
+PRK	Perak
+MMA	Mong Mao
+MKA	Mong Kawng
+MPA	Mong Pai
+MNI	Mong Nai
+KAL	Kale
+HSI	Hsipaw
+BPR	Prome
+CHU	Chukchi
+HOD	Khodynt
+CHV	Chavchuveny
+KMC	Kamchadals
+BRT	Buryatia
+ARP	Arapaho
+CLM	Colima
+CNK	Chinook
+COC	Cocomes
+HDA	Haida
+ITZ	Itza
+KIC	Kiche
+KIO	Kiowa
+MIX	Mixtec
+SAL	Salish
+TAR	Tarascan
+TLA	Tlapanec
+TLX	Tlaxcala
+TOT	Totonac
+WIC	Wichita
+XIU	Xiu
+BLM	Blambangan
+BTN	Buton
+CRB	Cirebon
+DMK	Demak
+PGR	Pagarruyung
+PLB	Palembang
+PSA	Pasai
+SAK	Siak
+SUN	Sunda
+KUT	Kutai
+BNJ	Banjar
+LFA	Lanfang
+LNO	Lanao
+LUW	Luwu
+MGD	Maguindanao
+TER	Ternate
+TID	Tidore
+MAS	Madyas
+PGS	Pangasinan
+TDO	Tondo
+MNA	Maynila
+CEB	Cebu
+BTU	Butuan
+CSU	Cusco
+CCQ	Calchaqui
+MPC	Mapuche
+MCA	Muisca
+QTO	Quito
+CJA	Cajamarca
+HJA	Huyla
+PTG	Potiguara
+TPQ	Tupiniquim
+TPA	Tupinamba
+TUA	Tapuia
+GUA	Guarani
+CUA	Charrua
+WKA	Wanka
+CYA	Chachapoya
+CLA	Colla
+CRA	Charca
+PCJ	Pacajes
+ARW	Arawak
+CAB	Carib
+ICM	Ichma
+MAT	Matlatzinca
+COI	Coixtlahuaca
+TEO	Teotitlan
+XAL	Xalisco
+GAM	Guamar
+HST	Huastec
+CCM	Chichimeca
+OTO	Otomi
+YOK	Yokotan
+LAC	Tzotzil
+KAQ	Kaqchikel
+CTM	Chactemal
+KER	Zia
+ZNI	Zuni
+MSC	Mescalero
+LIP	Lipan
+CHT	Chorti
+MIS	Miskito
+TAI	Tairona
+CNP	Can Pech
+TON	Tonala
+YAQ	Yaqui
+YKT	Yokuts
+NSS	New Providence
+PRY	Port Royal
+TOR	Tortuga
+LIB	Libertatia
+UBV	Munich
+LBV	Landshut
+ING	Ingolstadt
+PSS	Passau
+MBZ	Bregenz
+KNZ	Konstanz
+ROT	Rothenburg
+BYT	Bayreuth
+REG	Regensburg
+GNV	Geneva
+TTL	Three Leagues
+OPL	Opole
+GLG	Glogow
+BLG	Bologna
+PDV	Padua
+SZO	Saluzzo
+SPL	Spoleto
+WOL	Wolgast
+STE	Stettin
+GOS	Goslar
+SOR	Lusatia
+RUG	Rügen
+CLI	Cilli
+HRZ	Herzegovina
+TNT	Trent
+BRG	Berg
+MLH	Mulhouse
+BAM	Bamberg
+RUP	Ruppin
+LPP	Lippe
+PAD	Paderborn
+CLB	Calenberg
+DWT	Donauwörth
+OSN	Osnabrück
+VRN	Verona
+COB	Coburg
+LOT	Lotharingia
+PGA	Perugia
+TTS	Two Sicilies
+FKN	Franconia
+SWA	Swabia
+BNE	Bone
+BEU	Berau
+SMB	Sambas
+BRS	Barus
+DLI	Deli
+JMB	Jambi
+PAH	Pahang
+KEL	Kelantan
+IND	Indrapura
+JAR	Jarai
+RHA	Rhade
+KOH	Koho
+SIA	Siam
+TIW	Tiwi
+LAR	Larrakia
+YOL	Yolngu
+YNU	Yanuwa
+AWN	Awngthim
+GMI	Kamilaroi
+MIA	Mianjin
+EOR	Eora
+KUL	Kulin
+KAU	Kaurna
+PLW	Palawa
+WRU	Wurundjeri
+NOO	Nyoongah
+MLG	Malgana
+AOT	Aotearoa
+MAA	Ngati Awa
+TAN	Tainui
+TAK	Ngati Kahungunu
+TNK	Ngati Toa
+TEA	Ngati Ranginui
+TTT	Ngapuhi
+WAI	Waitaha
+UHW	Hawai'i
+HAW	Hawai'i
+MAU	Maui
+OAH	O'ahu
+KAA	Kaua'i
+TOG	Tonga
+SAM	Samoa
+VIT	Viti
+VIL	Viti Levu
+VNL	Vanua Levu
+LAI	Lau
+ALT	Altamaha
+ICH	Ichisi
+COF	Cofitachequi
+JOA	Joara
+ETO	Etowah
+SAT	Satapo
+CIA	Chiaha
+COO	Coosa
+ABI	Abihka
+COW	Coweta
+NTZ	Natchez
+CAQ	Casqui
+PCH	Pacaha
+QUI	Quizquiz
+CCA	Chisca
+ATA	Atahachi
+KSI	Kasihta
+OEO	Oneota
+ANL	Anilco
+NTC	Natchitoches
+HNI	Hasinai
+MOH	Mohawk
+ONE	Oneida
+ONO	Onondaga
+CAY	Cayuga
+SEN	Seneca
+TAH	Tahontaenrat
+ATT	Attignawantan
+AGG	Attigneenongnahac
+ATW	Attiwandaron
+ARN	Arendaronon
+TIO	Tionontate
+OSH	Osheaga
+STA	Stadacona
+ERI	Erie
+WEN	Wenro
+TSC	Tuscarora
+OHK	Ohkay Owingeh
+ISL	Isleta
+ACO	Acoma
+CAO	Cahokia
+PEO	Peoria
+KSK	Kaskaskia
+PEN	Penobscot
+MLS	Maliseet
+NEH	Nehiyaw
+NAK	Nakawe
+HWK	Hathawekela
+CLG	Chalaghawtha
+KSP	Kispoko
+MSG	Mississage
+WCY	Wichiyena
+LAK	Lakota
+INN	Innu
+WAM	Wampanoag
+AGQ	Algonquin
+JMN	Jan Mayen
+ROM	Roman Empire
+SYN	Synthetics
+ISR	Israel
+
+NED_DUT	Netherlands-Dutch
+NED_FRI	Netherlands-Frisian
+NED_FLE	Netherlands-Flemish
+RUS_MOS	Russia-Muscovy
+RUS_NOV	Russia-Novgorod
+COLONIAL_BRI	Colonial-British
+COLONIAL_DUT	Colonial-Dutch
+COLONIAL_FRE	Colonial-French
+COLONIAL_LAT	Colonial-Latin
+COLONIAL_POR	Colonial-Portuguese
+COLONIAL_SPA	Colonial-Spanish
+GRE_GRE	Greece-Greek
+GRE_LAT	Greece-Latin
+KOJ_KNI	Jerusalem-Knights
+KOJ_LAT	Jerusalem-Latin
+HLR_BUR	Holy Roman Empire-Burgundy
+HLR_BOH	Holy Roman Empire-Bohemia
+HLR_HAB	Holy Roman Empire-Habsburg
+HLR_LAT	Holy Roman Empire-Latin
+GER_REV	Germany-Revolutionary
+
+
+accept_vassalization_reasons	Vassalization Acceptance
+add_tribal_land_cost	Add Tribal Land Cost
+adm_advisor_cost	Administrative Advisor Cost
+adm_tech_cost_modifier	Administrative Technology Cost
+administrative_efficiency	Administrative Efficiency
+admiral_cost	Admiral Cost
+admiral_skill_gain_modifier	Monthly Chance of Admiral Skill Gain on Mission
+advisor_cost	Advisor Costs
+advisor_pool	Possible Advisors
+ae_impact	Aggressive Expansion Impact
+all_estate_influence_modifier	All Estates Influence Modifier
+all_estate_loyalty_equilibrium	All Estate's Loyalty Equilibrium
+all_estate_possible_privileges	Max Privileges per Estate
+all_power_cost	All Power Cost
+allow_client_states	Can create Client States
+allow_free_estate_privilege_revocation	Allow Estate Privileges to be revoked regardless of Loyalty and Influence
+allow_janissaries_from_own_faith	Allow Janissaries in True Faith Provinces
+allow_mercenaries_to_split	Can split and merge Mercenary units
+allow_mercenary_drill	Allow Mercenary units to Drill
+allowed_caravel_fraction	Caravel Force Limit
+allowed_galleass_fraction	Galleass Force Limit
+allowed_galleon_fraction	Galleon Force Limit
+allowed_geobukseon_fraction	Geobukseon Force Limit
+allowed_man_of_war_fraction	Man Of War Force Limit
+allowed_marine_fraction	Marines Force Limit
+allowed_musketeer_fraction	Musketeer Force Limit
+allowed_num_of_buildings	Possible Number of Buildings
+allowed_num_of_manufactories	Possible Number of Manufactories
+allowed_samurai_fraction	Samurai Force Limit
+allowed_streltsy_fraction	Streltsy Force Limit Fraction
+allowed_tercio_fraction	Tercio Force Limit Fraction
+allowed_voc_indiamen_fraction	VOC Indiamen Force Limit
+amount_of_banners	Possible Manchu Banners
+amount_of_caravel	Caravel Force Limit
+amount_of_carolean	Possible Carolean Infantry
+amount_of_cawa	Possible Cawa
+amount_of_galleass	Possible Carolean Infantry
+amount_of_galleon	Galleass Force Limit
+amount_of_geobukseon	Galleon Force Limit
+amount_of_hussars	Possible Winged Hussars
+amount_of_man_of_war	Geobukseon Force Limit
+amount_of_musketeers	Man Of War Force Limit
+amount_of_samurai	Musketeer Force Limit
+amount_of_streltsy	Samurai Force Limit
+amount_of_tercio	Tercio Force Limit
+amount_of_voc_indiamen	VOC Indiamen Force Limit
+annexation_relations_impact	Annexation Relations Impact
+appoint_cardinal_cost	Appoint Cardinal Cost
+army_tradition	Yearly Army Tradition
+army_tradition_decay	Yearly Army Tradition Decay
+army_tradition_from_battle	Army Tradition From Battles
+artillery_barrage_cost	Artillery Barrage Cost
+artillery_cost	Artillery Cost
+artillery_fire	Artillery Fire
+artillery_level_modifier	Artillery Levels Contribution to Siege
+artillery_levels_available_vs_fort	Artillery Levels Available vs Fort
+artillery_power	Artillery Combat Ability
+artillery_shock	Artillery Shock
+assault_fort_ability	Assault Fort ability
+assault_fort_cost_modifier	Assault Fort cost modifier
+attack_bonus_in_capital_terrain	Combat Bonus in Terrain of Capital: +1
+attrition	Attrition
+auto_explore_adjacent_to_colony	Automatically Discover Adjacent When a Colony is Built
+autonomy_change_time	Autonomy Change Cooldown
+available_province_loot	Available Loot
+backrow_artillery_damage	Artillery Damage from Back Row
+barrage_cost_in_fleet_modifier	Fleet Naval Barrage Cost
+block_introduce_heir	Blocked Introduce Heir
+block_slave_raid	Block Slave Raide
+blockade_efficiency	Blockade Efficiency
+blockade_force_required	Blockade Force Required
+blockade_impact_on_siege_in_fleet_modifier	Fleet Blockade Impact on Siege
+brahmins_hindu_influence_modifier	Brahmins Influence
+brahmins_hindu_loyalty_modifier	Brahmins Loyalty Equilibrium
+build_cost	Construction Cost
+build_time	Construction Time
+burghers_influence_modifier	Burghers Influence
+burghers_loyalty_modifier	Burghers Loyalty Equilibrium
+can_bypass_forts	Ignore Zone of Control
+can_chain_claim	Claim Bordering Claims
+can_claim_states	Can claim entire states
+can_colony_boost_development	+1 of Each Development when Colony Finished.
+can_fabricate_for_vassals	Can Fabricate for Vassals
+can_not_build_buildings	Can NOT build buildings
+can_not_build_colonies	Can NOT establish Colonies
+can_not_build_missionaries	Can NOT send missionaries
+can_not_declare_war	Can NOT declare war
+can_not_send_merchants	Can NOT send merchants
+can_recruit_cawa	May Recruit Cawa
+can_recruit_cossacks	May Recruit Cossacks
+can_recruit_hussars	May Recruit Winged Hussars
+can_recruit_janissaries	May Recruit Janissaries
+can_recruit_rajputs	May Recruit Rajputs
+can_recruit_revolutionary_guards	May Recruit Revolutionary Guards
+can_revoke_parliament_seats	Can Revoke seats in Parliament
+can_transfer_vassal_wargoal	Allows Transfer Subject Peace Treaty at half cost
+can_transport_units	Can Transport Units
+candidate_random_bonus	Random Candidate Bonus
+cannons_for_hunting_pirates_in_fleet	Fleet Hunt Pirates Efficiency
+capped_by_forcelimit	Can NOT build over Force Limit
+capture_ship_chance	Chance to Capture Enemy Ships
+caravan_power	Caravan Power
+cav_to_inf_ratio	Cavalry to Infantry Ratio
+cavalry_cost	Cavalry Cost
+cavalry_fire	Cavalry Fire
+cavalry_flanking	Cavalry Flanking Ability
+cavalry_power	Cavalry Combat Ability
+cavalry_shock	Cavalry Shock
+cawa_cost_modifier	Cawa Cost Modifier
+cb_on_government_enemies	
+cb_on_overseas	
+cb_on_primitives	
+cb_on_religious_enemies	Permanent Casus Belli against neighboring heathens and heretics
+center_of_trade_upgrade_cost	Center of Trade Upgrade Cost
+centralize_state_cost	Centralize State Cost
+chance_to_inherit	Chance to Inherit Personal Union Subjects
+church_influence_modifier	Clergy Influence
+church_loyalty_modifier	Clergy Loyalty Equilibrium
+church_power_modifier	Church Power
+church_privilege_slots	Clergy Max Privileges
+claim_duration	Claim duration
+coast_raid_range	Costal Raiding Range
+colonial_subject_type_upgrade_cost_modifier	Colonial Subject Type Upgrade Cost Modifier
+colonial_type_change_cost_modifier	Colonial Type Change Cost Modifier
+colonist_placement_chance	Settler Chance
+colonists	Colonists
+colony_cost_modifier	Colony Cost Modifier
+colony_development_boost	Colony Development Boost
+core_creation	Core-Creation Cost
+core_decay_on_your_own	Foreign Core Duration
+cossacks_loyalty_modifier	Cossack Loyalty Equilibrium
+cossacks_influence_modifier	Cossack Influence
+cossacks_privilege_slots	Cossack Max Privileges
+country_admin_power	Monthly Administrative Power
+country_diplomatic_power	Monthly Diplomatic Power
+country_military_power	Monthly Military Power
+culture_conversion_cost	Culture Conversion Cost
+culture_conversion_time	Culture Conversion Time
+curia_powers_cost	Curia Powers Cost
+curia_treasury_contribution	Curia Treasury Contribution
+defensiveness	Fort Defense
+development_cost	Development Cost
+development_cost_in_primary_culture	Development Cost in Primary Culture
+development_cost_modifier	Development Cost Modifier
+devotion	Yearly Devotion
+dhimmi_influence_modifier	Dhimmi Influence
+dhimmi_loyalty_modifier	Dhimmi Loyalty Equilibrium
+dip_advisor_cost	Diplomatic Advisor Cost
+dip_tech_cost_modifier	Diplomatic Technology Cost
+diplomatic_annexation_cost	Diplomatic Annexation Cost
+diplomatic_reputation	Diplomatic Reputation
+diplomatic_upkeep	Diplomatic Relations
+diplomats	Diplomats
+discipline	Discipline
+discovered_relations_impact	Reverse Psychology
+disengagement_chance	Ship Disengagement Chance
+drill_decay_modifier	Regiment Drill Loss
+drill_gain_modifier	Army Drill Gain Modifier
+election_cycle	Length of Election Term
+embargo_efficiency	Embargo Efficiency
+embracement_cost	Institution Embracement Cost
+enable_forced_march	Enable Forced March
+enemy_core_creation	Hostile Core-Creation Cost on us
+enforce_religion_cost	Enforce Religion Cost
+engagement_cost	Ship Engagement Width
+engagement_cost_modifier	Ship Engagement Width Modifier
+envoy_travel_time	Envoy Travel Time
+establish_order_cost	Establish Order Cost
+estate_interaction_cooldown_modifier	Estate Interaction Cooldown Modifier
+expand_administration_cost	Expand Administration Cost
+expand_infrastructure_cost_modifier	Expand Infrastructure Cost Modifier
+expel_minorities_cost	Expel Minorities Cost
+exploration_mission_range_in_fleet_modifier	Fleet Exploration Range
+extra_manpower_at_religious_war	Triple Manpower Increase in Religious Wars
+fabricate_claims_cost	Cost to fabricate claims
+female_advisor_chance	Female Advisor Chance
+fire_damage	Land Fire Damage
+fire_damage_received	Fire Damage Received
+flagship_cost	Flagship Cost
+flagship_durability	Flagship Durability
+flagship_morale	Flagship Morale
+flagship_naval_engagement_modifier	Fleet Engagement Width
+force_march_free	Force March costs no Power
+fort_level	Fort Level
+fort_maintenance_modifier	Fort Maintenance
+free_adm_policy	Administrative Free Policies
+free_city_imperial_authority	Imperial Authority From Free Cities
+free_concentrate_development	Can Concentrate Development With No Losses
+free_dip_policy	Diplomatic Free Policies
+free_land_leader_pool	Land Leaders Without Upkeep
+free_leader_pool	Leaders Without Upkeep
+free_maintenance_on_expl_conq	No Maintenance on Exploring Leaders
+free_mil_policy	Military Free Policies
+free_navy_leader_pool	Navy Leaders Without Upkeep
+free_policy	Free Policies
+galley_cost	Galley Cost
+galley_hull_size_modifier	Galley Hull Size
+galley_number_of_cannons_modifier	Galley Cannons
+galley_power	Galley Combat Ability
+garrison_damage	Garrison Army Damage
+garrison_growth	Garrison Growth
+garrison_size	Garrison Size
+general_cost	General Cost
+global_allowed_num_of_buildings	Global Possible Number of Buildings
+global_allowed_num_of_manufactories	Possible Number of Manufactories
+global_attacker_dice_roll_bonus	Global Attacker Dice Roll Bonus
+global_autonomy	Monthly Autonomy Change
+global_colonial_growth	Global Settler Increase
+global_defender_dice_roll_bonus	Global Defender Dice Roll Bonus
+global_foreign_trade_power	Trade Power Abroad
+global_garrison_growth	National Garrison Growth
+global_heathen_missionary_strength	Missionary Strength vs Heathens
+global_heretic_missionary_strength	Missionary Strength vs Heretics
+global_institution_spread	Institution Spread
+global_manpower	National Manpower
+global_manpower_modifier	National Manpower Modifier
+global_missionary_strength	Missionary Strength
+global_monthly_devastation	Global Monthly Devastation
+global_naval_barrage_cost	Naval Barrage cost
+global_naval_engagement	Global Naval Engagement
+global_naval_engagement_modifier	Global Naval Engagement Modifier
+global_own_trade_power	Domestic Trade Power
+global_prosperity_growth	Global Prosperity Growth
+global_prov_trade_power_modifier	Provincial Trade Power Modifier
+global_rebel_suppression_efficiency	Rebel Suppression Efficiency
+global_regiment_cost	Regiment Costs
+global_regiment_recruit_speed	Recruitment Time
+global_religious_conversion_resistance	Resistance to Reformation
+global_sailors	National Sailors
+global_sailors_modifier	National Sailors Modifier
+global_ship_cost	Ship Costs
+global_ship_recruit_speed	Shipbuilding Time
+global_ship_repair	Global Ship Repair
+global_ship_trade_power	Global Ship Trade Power
+global_spy_defence	Spy Defense
+global_supply_limit_modifier	National Supply Limit Modifier
+global_tariffs	Tariffs
+global_tax_income	National Tax
+global_tax_modifier	National Tax Modifier
+global_trade_goods_size	Goods Produced
+global_trade_goods_size_modifier	Goods Produced Modifier
+global_trade_power	Global Trade Power
+global_unrest	National Unrest
+gold_depletion_chance_modifier	Gold Depletion Chance Modifier
+governing_capacity	Governing Capacity
+governing_capacity_modifier	Governing Capacity Modifier
+governing_cost	Governing Cost
+great_project_upgrade_cost	Great Project Upgrade Cost
+great_project_upgrade_time	Great Project Upgrade Time
+harmonization_speed	Religious Harmonization Speed
+harsh_treatment_cost	Harsh Treatment Cost
+has_banners	Allows Banners
+has_caravel	Country Allows Caravel Ships
+has_carolean	Allows Carolean Infantry
+has_galleass	Country Allows Galleass Ships
+has_galleon	Country Allows Galleon Ships
+has_geobukseon	Country Allows Man Of War Ships
+has_man_of_war	Country Allows Geobukseon Ships
+has_musketeer	Country Allows Musketeer Infantry
+has_samurai	Country Allows Samurai Infantry
+has_streltsy	Country Allows Streltsy Infantry
+has_tercio	Country Allows Tercio Infantry
+has_voc_indiamen	Country Allows VOC Indiamen Ships
+heavy_ship_cost	Heavy Ship Cost
+heavy_ship_hull_size_modifier	Heavy Ship Hull Size
+heavy_ship_number_of_cannons_modifier	Heavy Ship Cannons
+heavy_ship_power	Heavy Ship Combat Ability
+heir_chance	Chance of New Heir
+horde_unity	Yearly Horde Unity
+hostile_attrition	Attrition for Enemies
+hostile_disembark_speed	Hostile Disembark Time
+hostile_fleet_attrition	Hostile Fleet Attrition
+hull_size	Hull Size of Ships
+hull_size_modifier	Hull Size
+hussars_cost_modifier	Hussars Cost Modifier
+idea_claim_colonies	Can fabricate claims on any overseas province, provided it is overseas for its owner
+idea_cost	Idea Cost
+ignore_coring_distance	Ignore Coring Distance
+immortal	Immortal
+imperial_authority	Imperial Authority Growth Modifier
+imperial_authority_value	Imperial Authority Modifier
+imperial_mandate	Mandate Growth Modifier
+imperial_mercenary_cost	HRE Mercenary Recruitment Cost
+imperial_reform_catholic_approval	Approval of Imperial Reforms by Catholic Princes
+improve_relation_modifier	Improve Relations
+infantry_cost	Infantry Cost
+infantry_fire	Infantry Fire
+infantry_power	Infantry Combat Ability
+infantry_shock	Infantry Shock
+inflation_action_cost	Reduce Inflation Cost
+inflation_reduction	Yearly Inflation Reduction
+inflation_reduction_local	Yearly Inflation Reduction
+innovativeness_gain	Innovativeness Gain
+institution_growth	Institution Growth
+institution_spread_from_true_faith	Institution Spread In True Faith Provinces
+interest	Interest Per Annum
+is_banner_modifier	Is Banner Modifier
+is_carolean_modifier	Is Carolean Modifier
+is_cawa_modifier	Is Cawa Modifier
+is_cossack_modifier	Is Cossack Modifier
+is_hussars_modifier	Is Hussars Modifier
+is_janissary_modifier	Is Janisary Modifier
+is_marine_modifier	Is Marine Modifier
+is_mercenary_modifier	Is Mercenary Modifier
+is_rajput_modifier	Is Rajput Modifier
+is_revolutionary_guard_modifier	Is Revolutionary Guard Modifier
+is_samurai_modifier	Is Samurai Modifier
+is_streltsy_modifier	Is Streltsy Modifier
+is_tercio_modifier	Is Tercio Modifier
+janissary_cost_modifier	Janissary Recruitment Cost
+janissaries_privilege_slots	Janissary Max Privileges
+janissaries_influence_modifier	Janissary Influence
+justify_trade_conflict_cost	Cost to Justify Trade Conflict
+land_attrition	Land Attrition
+land_forcelimit	Land Force Limit
+land_forcelimit_modifier	Land Force Limit Modifier
+land_maintenance_modifier	Land Maintenance Modifier
+land_morale	Morale of Armies
+land_morale_constant	Morale of Armies
+landing_penalty	Combat Penalty When Landing
+leader_cost	Leader Cost
+leader_land_fire	Land Leader Fire
+leader_land_manuever	Land Leader Maneuver
+leader_land_shock	Land Leader Shock
+leader_naval_fire	Naval Leader Fire
+leader_naval_manuever	Naval Leader Maneuver
+leader_naval_shock	Naval Leader Shock
+leader_siege	Land Leader Siege
+legitimacy	Yearly Legitimacy
+legitimate_subject_elector	Legitimate Subject Elector
+liberty_desire	Liberty Desire
+liberty_desire_from_subject_development	Liberty Desire from Subjects Development
+light_ship_cost	Light Ship Cost
+light_ship_hull_size_modifier	Light Ship Hull Size
+light_ship_number_of_cannons_modifier	Light Ship Cannons
+light_ship_power	Light Ship Combat Ability
+local_amount_of_banners	Possible Manchu Banners
+local_amount_of_carolean	Possible Carolean Infantry
+local_amount_of_cawa	Possible Cawa
+local_amount_of_hussars	Possible Winged Hussars
+local_assault_fort_ability	Local Assault Fort ability
+local_assault_fort_cost_modifier	Local Assault Fort cost modifier
+local_attacker_dice_roll_bonus	Local Attacker Dice Roll Bonus
+local_autonomy	Local Autonomy
+local_build_cost	Local Construction Cost
+local_build_time	Local Build Cost
+local_center_of_trade_upgrade_cost	Local Center Of Trade Upgrade Cost
+local_centralize_state_cost	Local Centralize State Cost
+local_colonial_growth	Local Settler Increase
+local_colonist_placement_chance	Local Settler Chance
+local_colony_cost_modifier	Local Colony Cost Modifier
+local_core_creation	Local Core-Creation Cost
+local_culture_conversion_cost	Local Culture Conversion Cost
+local_culture_conversion_time	Local Culture Conversion Time
+local_defender_dice_roll_bonus	Local Defender Dice Roll Bonus
+local_defensiveness	Local Defensiveness
+local_development_cost	Local Development Cost
+local_development_cost_modifier	Local Development Cost Modifier
+local_fort_maintenance_modifier	Local Fort Maintenance
+local_friendly_movement_speed	Local Friendly Movement Speed
+local_garrison_damage	Local Garrison Army Damage
+local_garrison_size	Local Garrison Size
+local_gold_depletion_chance_modifier	Local Gold Depletion Chance Modifier
+local_governing_cost	Province Governing Cost Modifier
+local_governing_cost_increase	Province Governing Cost
+local_great_project_upgrade_cost	Local Great Project Upgrade Cost
+local_great_project_upgrade_time	Local Great Project Upgrade Time
+local_has_banners	Province Allows Banners
+local_has_caravel	Province Allows Caravel Ships
+local_has_carolean	Province Allows Carolean Infantry
+local_has_galleass	Province Allows Galleass Ships
+local_has_galleon	Province Allows Galleon Ships
+local_has_geobukseon	Province Allows Geobukseon Ships
+local_has_man_of_war	Province Allows Man Of War Ships
+local_has_musketeers	Province Allows Musketeer Infantry
+local_has_samurai	Province Allows Samurai Infantry
+local_has_streltsy	Province Allows Streltsy Infantry
+local_has_tercio	Province Allows Tercio Infantry
+local_has_voc_indiamen	Province Allows VOC Indiamen Ships
+local_heir_adm	Local Heir Administrative Skill
+local_heir_dip	Local Heir Diplomatic Skill
+local_heir_mil	Local Heir Military Skill
+local_hostile_attrition	Local Attrition For Enemies
+local_hostile_movement_speed	Local Hostile Movement Speed
+local_institution_spread	Local Institution Spread
+local_manpower	Local Manpower
+local_manpower_modifier	Local Manpower Modifier
+local_missionary_maintenance_cost	Local Missionary Maintenance
+local_missionary_strength	Local Missionary Strength
+local_monthly_devastation	Local Monthly Devastation
+local_naval_engagement_modifier	Local Naval Engagement
+local_own_coast_naval_combat_bonus	Naval Combat Local Bonus off Owned Coast
+local_production_efficiency	Local Production Efficiency
+local_prosperity_growth	Local Prosperity Growth
+local_regiment_cost	Local Regiment Cost
+local_religious_conversion_resistance	Local Religious Conversion Resistance
+local_religious_unity_contribution	Local Religious Unity Contribution
+local_sailors	Local Sailors
+local_sailors_modifier	Local Sailors Modifier
+local_ship_cost	Local Ship Cost
+local_ship_repair	Local Ship Repair
+local_state_maintenance_modifier	Local State Maintenance
+local_tax_modifier	Local Tax Modifier
+local_tolerance_of_heathens	Local Tolerance of Heathens
+local_tolerance_of_heretics	Local Tolerance of Heretics
+local_unrest	Local Unrest
+local_warscore_cost_modifier	WarScore Cost
+local_years_of_nationalism	Local Years of Separatism
+loot_amount	Looting Speed
+loyalty_change_on_revoked	Estate Loyalty Change on Privilege revoked
+manpower_against_imperial_enemies	Manpower Against Imperial Enemies
+manpower_in_accepted_culture_provinces	Manpower in Accepted Culture Provinces
+manpower_in_culture_group_provinces	Manpower in Same Culture Group Provinces
+manpower_in_own_culture_provinces	Manpower in Own Culture Provinces
+manpower_in_true_faith_provinces	Manpower in True Faith Provinces
+manpower_recovery_speed	Manpower Recovery Speed
+maratha_exclusive_influence_modifier	Marathas Influence
+maratha_exclusive_loyalty_modifier	Marathas Loyalty Equilibrium
+maratha_influence_modifier	Marathas Influence
+maratha_loyalty_modifier	Marathas Loyalty Equilibrium
+maratha_muslim_influence_modifier	Marathas Influence
+max_absolutism	Maximum Absolutism
+max_absolutism_effect	Max effect of Absolutism
+max_admiral_fire	Max Admiral Fire
+max_admiral_maneuver	Max Admiral Maneuver
+max_admiral_shock	Max Admiral Shock
+max_admiral_siege	Max Admiral Siege
+max_attrition	Maximum Attrition
+max_electors	Number of Electors
+max_flagships	Max number of Flagships
+max_free_cities	Number of Free Cities
+max_general_fire	Max General Fire
+max_general_maneuver	Max General Maneuver
+max_general_shock	Max General Shock
+max_general_siege	Max General Siege
+max_hostile_attrition	Max Hostile Attrition
+max_possible_parliament_seats	Max possible Parliament Seats
+max_revolutionary_zeal	Maximum Revolutionary Zeal
+may_build_supply_depot	May Build Supply Depots
+may_establish_frontier	May Establish Siberian Frontiers
+may_explore	Allows recruitment of explorers & conquistadors
+may_not_convert_territories	Can NOT convert provinces in territories
+may_not_reduce_inflation	Can NOT reduce inflation
+may_perform_slave_raid	May Raid Coasts
+may_perform_slave_raid_on_same_religion	May Raid Coasts, including coasts of countries with same religion
+may_recruit_female_generals	May Recruit Female Generals
+may_refill_garrison	May Refill Garrison
+may_return_manpower_on_disband	Regain Manpower When Disbanding
+merc_independent_from_trade_range	Can recruit Mercenaries from anywhere
+merc_leader_army_tradition	Mercenary Leader Army Tradition Modifier
+merc_maintenance_modifier	Mercenary Maintenance
+mercantilism_cost	Cost to Promote Mercantilism
+mercenary_cost	Mercenary Cost
+mercenary_discipline	Mercenary Discipline
+mercenary_manpower	Mercenary Manpower
+merchants	Merchants
+meritocracy	Yearly Meritocracy
+migration_cooldown	Migration Cooldown
+migration_cost	Migration Cost
+mil_advisor_cost	Military Advisor Cost
+mil_tech_cost_modifier	Military Technology Cost
+military_tactics	Military Tactics
+min_autonomy	Minimum Autonomy
+min_autonomy_in_territories	Minimum Autonomy in Territories
+min_local_autonomy	Minimum Local Autonomy
+missionaries	Missionaries
+missionary_maintenance_cost	Missionary Maintenance Cost
+monarch_admin_power	Monarch Administrative Skill
+monarch_diplomatic_power	Monarch Diplomatic Skill
+monarch_lifespan	Average Monarch Lifespan
+monarch_military_power	Monarch Military Skill
+monarch_power_tribute	Monarch Power Tribute from Tributary States
+monthly_church_power	Monthly Faith Power
+monthly_favor_modifier	Monthly Favor Growth Modifier
+monthly_federation_favor_growth	Monthly Federation Favor Growth
+monthly_fervor_increase	Monthly Fervor
+monthly_gold_inflation_modifier	Monthly Gold Inflation Modifier
+monthly_heir_claim_increase	Monthly Heir Claim Increase
+monthly_heir_claim_increase_modifier	Monthly Heir Claim Increase Modifier
+monthly_karma	Monthly Karma
+monthly_karma_accelerator	Monthly Karma Accelerator
+monthly_militarized_society	Militarization of State
+monthly_ottoman_decadence	Monthly Decadence
+monthly_piety	Monthly Piety
+monthly_piety_accelerator	Monthly Piety Accelerator
+monthly_prussian_militarized_society_1	Monthly Early Prussian Militarized
+monthly_prussian_militarized_society_2	Monthly Prussian Militarized Society
+monthly_prussian_militarized_society_3	Monthly Total Prussian Militarized Society
+monthly_reform_progress	Monthly Reform Progress
+monthly_reform_progress_building	Monthly Reform Progress
+monthly_reform_progress_modifier	Monthly Reform Progress Modifier
+monthly_russian_adm_power	Monthly Sudebnik Progress
+monthly_russian_dip_power	Monthly Oprichnina Progress
+monthly_russian_mil_power	Monthly Streltsy Progress
+monthly_russian_modernization	Monthly Modernization
+monthly_splendor	Monthly Splendor
+monthly_support_heir_gain	Monthly Heir Support Gain
+morale_damage	Morale Damage
+morale_damage_received	Morale Damage Received
+morale_in_fleet_modifier	Fleet morale
+move_capital_cost_modifier	Move Capital Cost Modifier
+movement_speed	Movement Speed
+movement_speed_in_fleet_modifier	Fleet Movement Speed
+movement_speed_onto_off_boat_modifier	Movement Speed On and Off Ships
+mr_aristocrats_influence	The Aristocrats Influence
+mr_guilds_influence	The Guilds Influence
+mr_traders_influence	The Traders Influence
+national_focus_years	Change National Focus Cooldown Years
+native_assimilation	Native Assimilation
+native_uprising_chance	Native Uprising Chance
+naval_attrition	Naval Attrition
+naval_attrition_in_fleet_modifier	Fleet Attrition
+naval_forcelimit	Naval Force Limit
+naval_forcelimit_modifier	Naval Force Limit Modifier
+naval_maintenance_flagship_modifier	Flagship Maintenance
+naval_maintenance_modifier	Naval Maintenance Modifier
+naval_morale	Morale of Navies
+naval_morale_constant	Morale of Navies
+naval_morale_damage	Naval Morale Damage
+naval_morale_damage_received	Naval Morale Damage Received
+naval_tradition_from_battle	Naval Tradition From Battles
+naval_tradition_from_trade	Naval Tradition from Protecting Trade
+naval_tradition_in_fleet_modifier	Fleet Naval Tradition From Battles
+navy_tradition	Yearly Navy Tradition
+navy_tradition_decay	Yearly Navy Tradition Decay
+no_claim_cost_increasement	No additional claim cost
+no_cost_for_reinforcing	No Cost For Reinforcing
+no_religion_penalty	Heretic and Heathen provinces do not give any penalties
+no_stability_loss_on_monarch_death	No stability loss on ruler's death
+nobles_influence_modifier	Nobles Influence
+nobles_loyalty_modifier	Nobles Loyalty Equilibrium
+nomadic_tribes_loyalty_modifier	Tribes Loyalty Equilibrium
+num_accepted_cultures	Number of accepted Cultures
+num_of_parliament_issues	Number of possible Parliament Issues
+number_of_cannons	Number of Cannons on Ships
+number_of_cannons_flagship	Flagship Cannons
+number_of_cannons_flagship_modifier	Flagship Cannons
+number_of_cannons_modifier	Ship Cannons
+overextension_impact_modifier	Overextension Impact Modifier
+overlord_naval_forcelimit	Overlord Naval Force Limit
+overlord_naval_forcelimit_modifier	Overlord Naval Force Limit Modifier
+own_coast_naval_combat_bonus	Naval Combat Bonus off Owned Coast
+own_territory_dice_roll_bonus	Own Territory Dice Roll Bonus
+ottoman_decadence_gain_modifier	Decadence Gain Modifier
+papal_influence	Yearly Papal Influence
+papal_influence_from_cardinals	Papal Influence from Cardinals
+parliament_backing_chance	Parliament Debate Backing Chance
+parliament_chance_of_decision	Parliament Chance of Decision
+parliament_debate_duration	Parliament Debate Duration
+parliament_effect_duration	Parliament Effect Duration
+placed_merchant_power	Merchant Trade Power
+placed_merchant_power_modifier	Placed Merchant Power Modifier
+possible_adm_policy	Administrative Possible Policies
+possible_condottieri	Possible Condottieri
+possible_dip_policy	Diplomatic Possible Policies
+possible_mil_policy	Military Possible Policies
+possible_policy	Possible Policies
+power_projection_from_insults	Power Projection from Insults
+pr_buccaneers_influence	The Buccaneers Influence
+pr_captains_influence	The Captains Influence
+pr_smugglers_influence	The Smugglers Influence
+prestige	Yearly Prestige
+prestige_decay	Prestige Decay
+prestige_from_battles_in_fleet_modifier	Fleet Prestige from Battles
+prestige_from_land	Prestige from Land Battles
+prestige_from_naval	Prestige from Naval Battles
+prestige_per_development_from_conversion	Prestige per Development from Missionary
+privateer_efficiency	Privateer Efficiency
+privateering_efficiency_in_fleet_modifier	Fleet Privateering Efficiency
+production_efficiency	Production Efficiency
+promote_culture_cost	Promote Culture Cost
+province_trade_power_modifier	Local Trade Power Modifier
+province_trade_power_value	Local Trade Power
+province_warscore_cost	Province War Score Cost
+rajput_loyalty_modifier	Rajput Loyalty Equilibrium
+range	Fleet Exploration Range
+raze_power_gain	Razing Power Gain
+reasons_to_elect	Reasons to Elect
+rebel_support_efficiency	Rebel Support Efficiency
+recover_army_morale_speed	Recover Army Morale Speed
+recover_navy_morale_speed	Recover Navy Morale Speed
+reduced_liberty_desire	Liberty Desire in Subjects
+reduced_liberty_desire_on_other_continent	Reduced Liberty Desire on other Continent
+reduced_liberty_desire_on_same_continent	Liberty Desire in Same Continent Subjects
+reduced_native_attacks	Native attacks are severely reduced
+reduced_stab_impacts	Lowered Impact on Stability from Diplomatic Actions
+reduced_trade_penalty_on_non_main_tradenode	Reduced trade penalty on non main trade node
+reelection_cost	Reelection Cost
+reform_progress_growth	Reform Progress Growth
+reform_progress_growth_building	Reform Progress Contribution
+regiment_disembark_speed	Regiment Disembark Speed
+regiment_manpower_usage	Regiment Manpower Usage
+regiment_recruit_speed	Local Recruitment Time
+reinforce_cost_modifier	Reinforce Cost
+reinforce_speed	Reinforce Speed
+relation_with_accepted_culture	Opinion of Accepted Culture
+relation_with_heathens	Opinion of Heathens
+relation_with_heretics	Opinion of Heretics
+relation_with_other_culture	Opinion of Non-Accepted Culture
+relation_with_same_culture	Opinion of same Culture
+relation_with_same_culture_group	Opinion of same Culture Group
+relation_with_same_religion	Opinion of same Religion
+religious_unity	Religious Unity
+republican_tradition	Yearly Republican Tradition
+reserves_organisation	Reduced Morale Damage Taken By Reserves
+reverse_relation_with_same_religion	Others of the same Religion Opinion of Country
+rival_border_fort_maintenance	Fort Maintenance on border with rival
+rival_change_cost	Change Rival Cost
+rr_girondists_influence	Girondist Influence
+rr_jacobins_influence	Jacobin Influence
+rr_royalists_influence	Imperial Influence
+russian_modernization_gain_modifier	Modernization Gain Modifier
+sailor_maintenance_modifer	Sailor Maintenance
+sailors_recovery_speed	Sailor Recovery Speed
+same_culture_advisor_cost	Cost of Advisors with Ruler's Culture
+same_religion_advisor_cost	Cost of Advisors with Ruler's Religion
+sea_repair	Ships Can Repair When in Coastal Sea Zones
+settle_cost	Settle Cost
+ship_durability	Ship Durability
+ship_power_propagation	Ship Tradepower Propagation
+ship_recruit_speed	Shipbuilding Time
+ship_trade_power	Ship Trade Power
+ship_trade_power_modifier	Ship Trade Power Modifier
+shock_damage	Shock Damage
+shock_damage_received	Shock Damage Received
+siege_ability	Siege Ability
+siege_blockade_progress	Blockade Impact on Siege
+special_unit_cost_modifier	Special Unit Cost Modifier
+special_unit_forcelimit	Special Unit Force Limit
+special_unit_manpower_cost_modifier	Special Unit Manpower Cost Modifier
+spy_action_cost_modifier	Spy Action Cost Modifier
+spy_offence	Spy Network Construction
+stability_cost_modifier	Stability Cost Modifier
+stability_cost_to_declare_war	Stability Hit To Declare War
+state_governing_cost	State Governing Cost
+state_governing_cost_increase	State Governing Increase Cost
+state_maintenance_modifier	State Maintenance
+statewide_governing_cost	Statewide Governing Cost
+sunk_ship_morale_hit_recieved	Morale Hit When Losing a Ship
+supply_limit	Supply Limit
+supply_limit_modifier	Supply Limit Modifier
+tax_income	Tax Income
+technology_cost	Technology Cost
+territories_governing_cost	Territories Governing Cost
+tolerance_heathen	Tolerance of Heathens
+tolerance_heretic	Tolerance of Heretics
+tolerance_of_heathens_capacity	Maximum Tolerance of Heathens
+tolerance_of_heretics_capacity	Maximum Tolerance of Heretics
+tolerance_own	Tolerance of the True Faith
+trade_company_governing_cost	Trade Company Governing Cost
+trade_company_investment_cost	Trade Company Investment Cost
+trade_efficiency	Trade Efficiency
+trade_goods_size	Local Goods Produced
+trade_goods_size_modifier	Local Goods Produced Modifier
+trade_power_in_fleet_modifier	Trade Power per Ship in Fleet
+trade_range_modifier	Trade Range
+trade_steering	Trade Steering
+trade_value	Trade Value
+trade_value_modifier	Trade Value Modifier
+transfer_trade_power_reasons	Transfer Trade Acceptance
+transport_attrition	Attrition when loaded on Ships
+transport_cost	Transport Cost
+transport_hull_size_modifier	Transport Hull Size
+transport_number_of_cannons_modifier	Transport Cannons
+transport_power	Transport Combat Ability
+treasure_fleet_income	Treasure Fleet Income
+tribal_development_growth	Tribal Development Growth
+tributary_conversion_cost_modifier	Tributary to Vassal Cost Modifier
+unjustified_demands	Unjustified Demands
+unrest_catholic_provinces	Unrest in Catholic Provinces
+vaisyas_influence_modifier	Vaishyas Influence
+vaisyas_influence_modifier	Vaishyas Influence
+vaisyas_non_muslim_influence_modifier	Vaishyas Influence
+vaisyas_non_muslim_influence_modifier	Vaishyas Influence
+vassal_forcelimit_bonus	Vassal Force Limit Contribution
+vassal_income	Income from Vassals
+vassal_manpower_bonus	Vassal Manpower Contribution
+vassal_naval_forcelimit_bonus	Vassal Naval Force Limit Contribution
+vassal_sailors_bonus	Vassal Sailors Contribution
+vassal_tax_modifier	Vassal Tax Income
+war_exhaustion	Monthly War Exhaustion
+war_exhaustion_cost	War Exhaustion Cost Reduction
+war_taxes_cost_modifier	War Taxes Cost
+warscore_cost_vs_other_religion	War Score Cost vs Other Religions
+warscore_from_battles_modifier	War Score from Battles Modifier
+yearly_absolutism	Yearly Absolutism
+yearly_army_professionalism	Yearly Army Professionalism
+yearly_authority	Yearly Authority
+yearly_corruption	Yearly Corruption
+yearly_doom_reduction	Yearly Doom Reduction
+yearly_government_power	Yearly Government Power
+yearly_harmony	Yearly Harmony Increase
+yearly_innovativeness	Yearly Innovativeness
+yearly_karma_decay	Yearly Karma Decay
+yearly_patriarch_authority	Yearly Patriarch Authority
+yearly_revolutionary_zeal	Yearly Revolutionary Zeal
+yearly_tribal_allegiance	Yearly Tribal Allegiance
+years_of_nationalism	Years of Separatism
+years_to_integrate_personal_union	Years for Personal Union Integration
+# Mods
+acolytes_influence_modifier	Acolytes Loyalty Equilibrium
+adventurers_loyalty_modifier	Adventurers Loyalty Equilibrium
+artificers_influence_modifier	Artificers Influence
+artificers_loyalty_modifier	Artificers Loyalty Equilibrium
+ghulams_influence_modifier	Ghulam Influence
+ghulams_loyalty_modifier	Ghulam Loyalty Modifier
+mages_influence_modifier	Mages Influence
+mages_loyalty_modifier	Mages Loyalty Equilibrium
+monstrous_tribes	Monstrous Tribes Loyalty Equilibrium
+raj_ministries_loyalty_modifier	Ministries Loyalty Equilibrium
+uppercastes_loyalty_modifier	Upper Castes Loyalty Equilibrium
+
+#Cultures and Culture Groups
+germanic	Germanic
+scandinavian	Nordic
+british	British
+gaelic	Celtic
+latin	Latin
+iberian	Iberian
+french	French
+finno_ugric	Ugric
+south_slavic	South Slavic
+west_slavic	West Slavic
+carpathian	Carpathian
+east_slavic	East Slavic
+slavic	Slavic
+baltic	Baltic
+byzantine	Byzantine
+caucasian	Caucasian
+turko_semitic	Levantine
+maghrebi	Maghrebi
+iranian	Iranian
+altaic	Altaic
+central_american	Central American
+aridoamerican	Aridoamerican
+maya	Mayan
+otomanguean	Otomanguean
+andean_group	Andean
+je_tupi	Tupi
+je	Je
+maranon	Marañón
+chibchan	Chibchan
+mataco	Matacoan
+araucanian	Araucanian
+carribean	Caribbean
+eskaleut	Eskaleut
+central_algonquian	Central Algonquian
+plains_algonquian	Plains Algonquian
+eastern_algonquian	Eastern Algonquian
+iroquoian	Iroquoian
+siouan	Siouan
+caddoan	Caddoan
+muskogean	Muskogean
+sonoran	Sonoran
+apachean	Apachean
+na_dene	Na-Déné
+penutian	Penutian
+east_asian	Chinese
+korean_g	Korean
+japanese_g	Japanese
+tibetan_group	Tibetan
+malay	Malay
+thai_group	Tai
+southeastasian_group	Mon-Khmer
+burman	Burman
+pacific	Pacific
+aboriginal_australian	Aboriginal
+eastern_aryan	Eastern Aryan
+hindusthani	Hindustani
+western_aryan	Western Aryan
+dravidian	Dravidian
+central_indic	Central Indian
+mande	Mande
+sahelian	Sahelian
+west_african	West African
+southern_african	Southern African
+kongo_group	Kongo
+great_lakes_group	Great Lakes
+african	East Bantu
+cushitic	Cushitic
+sudanese	Sudanese
+evenks	Evenki
+kamchatkan_g	Kamchatkan
+tartar	Tatar
+lost_cultures_group	Lost Cultures
+pommeranian	Pomeranian
+prussian	Prussian
+baltic_german	Balten
+lower_saxon	Lower Saxon
+hannoverian	Westphalian
+hessian	Rhenish
+saxon	Saxon
+franconian	Franconian
+swabian	Swabian
+swiss	Swiss
+bavarian	Bavarian
+austrian	Austrian
+dutch	Dutch
+flemish	Flemish
+frisian	Frisian
+swedish	Swedish
+danish	Danish
+norwegian	Norwegian
+finnish	Finnish
+sapmi	Sámi
+karelian	Karelian
+icelandic	Icelandic
+norse	Norse
+english	English
+american	American
+welsh	Welsh
+cornish	Cornish
+scottish	Scottish
+irish	Irish
+highland_scottish	Highlander
+lombard	Lombard
+tuscan	Tuscan
+sardinian	Sardinian
+romagnan	Romagnol
+ligurian	Ligurian
+venetian	Venetian
+dalmatian	Dalmatian
+neapolitan	Neapolitan
+piedmontese	Piedmontese
+umbrian	Umbrian
+sicilian	Sicilian
+maltese	Maltese
+castillian	Castilian
+mexican	Mexican
+platinean	Platinean
+leonese	Leonese
+aragonese	Aragonese
+catalan	Catalan
+galician	Galician
+andalucian	Andalusian
+portugese	Portuguese
+brazilian	Brazilian
+basque	Basque
+cosmopolitan_french	Francien
+gascon	Gascon
+normand	Norman
+aquitaine	Aquitanian
+burgundian	Burgundian
+occitain	Occitan
+wallonian	Walloon
+louisianans	Louisianan
+quebecois	Québécois
+anglois	Anglois
+breton	Breton
+uralic	Uralic
+samoyed	Samoyed
+ostyaki	Ostyak
+ingrian	Ingrian
+croatian	Croatian
+serbian	Serbian
+slovene	Slovene
+bosnian	Bosnian
+bulgarian	Bulgarian
+albanian	Albanian
+czech	Czech
+polish	Polish
+schlesian	Silesian
+sorbian	Sorbian
+slovak	Slovak
+transylvanian	Transylvanian
+romanian	Romanian
+hungarian	Hungarian
+russian	Muscovite
+novgorodian	Novgorodian
+ryazanian	Ryazanian
+byelorussian	Byelorussian
+ruthenian	Ruthenian
+russian_new	Muscovite
+novgorodian_new	Novgorodian
+ryazanian_new	Ryazanian
+byelorussian_new	Byelorussian
+ruthenian_new	Ruthenian
+slovak_new	Slovak
+czech_new	Czech
+polish_new	Polish
+schlesian_new	Silesian
+sorbian_new	Sorbian
+croatian_new	Croatian
+serbian_new	Serbian
+slovene_new	Slovene
+bosnian_new	Bosnian
+bulgarian_new	Bulgarian
+estonian	Estonian
+lithuanian	Lithuanian
+latvian	Latvian
+greek	Greek
+pontic_greek	Pontic
+goths	Gothic
+georgian	Georgian
+circassian	Circassian
+dagestani	Dagestani
+armenian	Armenian
+turkish	Turkish
+al_misr_arabic	Egyptian
+al_suryah_arabic	Syrian
+al_iraqiya_arabic	Mashriqi
+gulf_arabic	Khaleeji
+bedouin_arabic	Bedouin
+mahri_culture	Mahri
+hejazi_culture	Hejazi
+omani_culture	Omani
+yemeni_culture	Yemeni
+moroccan	Moroccan
+tunisian	Tunisian
+algerian	Algerian
+berber	Berber
+persian	Persian
+luri	Luri
+azerbaijani	Azerbaijani
+khorasani	Khorasani
+baluchi	Baluchi
+afghani	Afghan
+kurdish	Kurdish
+mazandarani	Mazandarani
+mongol	Mongol
+chahar	Korchin
+khalkha	Khalkha
+oirats	Oirat
+uzbehk	Uzbek
+turkmeni	Turkmeni
+uyghur	Uyghur
+khazak	Kazakh
+kirgiz	Kyrgyz
+aztek	Aztec
+totonac	Totonac
+purepecha	Purepecha
+matlatzinca	Matlantzinca
+tecos	Tecos
+tepic	Tepic
+chichimecan	Chichimecan
+guamares	Guamares
+otomi	Otomi
+yaqui	Yaqui
+yucatec	Yucatec
+putun	Putun
+mayan	Mayan
+highland_mayan	Highland Mayan
+lacandon	Lacandon
+wastek	Wastek
+chontales	Chontales
+zapotek	Zapotek
+mixtec	Mixtec
+tlapanec	Tlapanec
+inca	Quechua
+aimara	Aimara
+diaguita	Diaguita
+chimuan	Chimuan
+tupinamba	Tupinamba
+guarani	Guarani
+charruan	Charruan
+ge	Ge
+jivaro	Jivaro
+chachapoyan	Chachapoyan
+muisca	Muisca
+cara	Caran
+miskito	Miskito
+chacoan	Chacoan
+mapuche	Mapuche
+patagonian	Patagonian
+het	Het
+huarpe	Huarpe
+arawak	Taino
+maipurean	Maipurean
+carib	Carib
+guajiro	Lokono
+aleutian	Aleutian
+inuit	Inuit
+shawnee	Shawnee
+illini	Illini
+miami	Myaamia
+anishinabe	Anishinabe
+algonquin	Anicinabe
+cree	Cree
+innu	Innu-Naskapi
+mesquakie	Mesquakie
+cheyenne	Cheyenne
+blackfoot	Blackfoot
+arapaho	Arapaho
+plains_cree	Plains Cree
+bungi	Bungi
+delaware	Delaware
+abenaki	Abenaki
+mikmaq	Mikmaq
+maliseet	Maliseet
+mahican	Mahican
+powhatan	Powhatan
+pequot	Pequot
+massachusset	Massachusset
+iroquois	Iroquois
+cherokee	Cherokee
+huron	Huron
+laurentian	Laurentian
+tionontate	Tionontate
+susquehannock	Susquehannock
+dakota	Dakota
+nakota	Nakota
+chiwere	Chiwere
+osage	Osage
+wichita	Wichita
+caddo	Caddo
+pawnee	Pawnee
+creek	Creek
+choctaw	Choctaw
+chickasaw	Chickasaw
+yuchi	Yuchi
+yoron	Yoron
+catawba	Catawba
+natchez	Natchez
+yamasee	Yamasee
+pueblo	Pueblo
+piman	Piman
+shoshone	Shoshone
+kiowa	Kiowa
+apache	Eastern Apache
+mescalero	Mescalero
+lipan	Lipan
+navajo	Navajo
+chipewyan	Chipewyan
+haida	Haida
+athabascan	Athabascan
+salish	Salish
+chinook	Chinook
+yokuts	Yokuts
+vietnamese_new	Sino-Vietnamese
+korean_new	Sino-Korean
+tibetan_new	Sino-Tibetan
+altaic_new	Sino-Altaic
+zhuang_new	Sino-Zhuang
+manchu_new	Manchu
+chihan	Zhili
+cantonese	Cantonese
+jin	Jin
+wu	Wu
+chimin	Min
+hakka	Hakka
+gan	Gan
+xiang	Xiang
+sichuanese	Sichuanese
+jianghuai	Jianghuai
+xibei	Xibei
+hubei	Hubei
+zhongyuan	Zhongyuan
+shandong_culture	Shandong
+korean	Korean
+togoku	Togoku
+japanese	Saigoku
+kyushuan	Kyushuan
+tibetan	Tibetan
+yi	Yi
+bai	Bai
+miao	Miao
+malayan	Malayan
+sumatran	Sumatran
+acehnese	Acehnese
+javanese	Javanese
+sundanese	Sundanese
+filipino	Filipino
+bornean	Bornean
+madagascan	Madagascan
+sulawesi	Sulawesi
+moluccan	Moluccan
+nusa_tenggara	Nusa Tenggara
+cham	Cham
+central_thai	Siamese
+northern_thai	Khon Muang
+lao	Lao
+shan	Shan
+zhuang	Zhuang
+khmer	Khmer
+mon	Mon
+vietnamese	Vietnamese
+burmese	Burmese
+chin	Chin
+karen	Karen
+kachin	Kachin
+arakanese	Arakanese
+papuan	Papuan
+maori	Maori
+melanesian	Melanesian
+polynesian	Polynesian
+aboriginal	Kuric
+yura	Yura
+paman	Paman
+gunwinyguan	Gunwinyguan
+palawa	Palawa
+kulin	Kulin
+gamilaraay	Gamilaraay
+nyoongah	Nyoongah
+assamese	Assamese
+bengali	Bengali
+kochi	Kochi
+bihari	Bihari
+pahari	Pahari
+nepali	Nepali
+oriya	Oriya
+sinhala	Sinhalese
+avadhi	Avadhi
+kanauji	Hindavi
+vindhyan	Vindhyan
+panjabi	Panjabi
+kashmiri	Kashmiri
+gujarati	Gujarati
+parsi	Parsi
+saurashtri	Saurashtri
+marathi	Marathi
+sindhi	Sindhi
+rajput	Rajasthani
+malvi	Malvi
+kannada	Kannada
+malayalam	Malayalam
+tamil	Tamil
+telegu	Telugu
+gondi	Gondi
+garjati	Garjati
+jharkhandi	Jharkandi
+mali	Mali
+songhai	Songhai
+soninke	Soninke
+bambara	Bambara
+bozo	Bozo
+dyola	Dyola
+hausa	Hausa
+kanuri	Kanuri
+bilala	Bilala
+tunjur	Tunjur
+tuareg	Tuareg
+senegambian	Senegambian
+fulani	Fulani
+yorumba	Yoruba
+aka	Akan
+nupe	Nupe
+fon	Fon
+mossi	Mossi
+dagomba	Dagomba
+makua	Makua
+nguni	Nguni
+bemba	Bemba
+khoisan	Khoisan
+shona	Shona
+nyasa	Nyasa
+lunda	Lunda
+luba	Luba
+kongolese	Kongolese
+yaka	Yaka
+kuba	Kuba
+mbundu	Mbundu
+chokwe	Chokwe
+mbangala	Mbangala
+jukun	Jukun
+sawabantu	Sawabantu
+rwandan	Rwandan
+ganda	Ganda
+masaba	Masaba
+madagasque	Malagasy
+takama	Takama
+bena	Bena
+bantu	Thagiicu
+swahili	Swahili
+somali	Somali
+harari	Harari
+afar	Afar
+oromo	Oromo
+tigray	Tigray
+sidamo	Sidamo
+amhara	Amhara
+acholi	Acholi
+nubian	Nubian
+beja	Beja
+evenk	Evenk
+yakut	Yakut
+yukagyr	Yukaghir
+buryat	Buryat
+tungus	Tungus
+manchu	Jurchen
+ainu	Ainu
+kamchatkan	Kamchatkan
+nivkh	Nivkh
+astrakhani	Astrakhani
+bashkir	Bashkir
+crimean	Crimean
+kazani	Kazani
+mishary	Mishar
+nogaybak	Nogai
+siberian	Siberian
+atlantean	Atlantean
+spartan	Spartan
+athenian	Athenian
+old_egyptian	Old Egyptian
+roman	Roman
+jan_mayenese	Jan Mayenese
+pruthenian	Pruthenian
+phoenician	Phoenician
+scanian	Scanian
+anglosaxon	Anglo-Saxon
+babylonian	Babylonian
+etrurian	Etrurian
+parthian	Parthian
+aramaic	Aramaic
+hebrew	Hebrew
+scythian	Scythian
+livonian	Livonian
+
+# religion  # Religion Group
+christian	Christian
+catholic	Catholic
+anglican	Anglican
+hussite	Hussite
+protestant	Protestant
+reformed	Reformed
+orthodox	Orthodox
+coptic	Coptic
+muslim	Muslim
+sunni	Sunni
+shiite	Shiite
+ibadi	Ibad
+eastern	Eastern
+buddhism	Theravada
+vajrayana	Vajrayana
+mahayana	Mahayana
+confucianism	Confucian
+shinto	Shinto
+dharmic	Dharmic
+hinduism	Hindu
+sikhism	Sik
+pagan	Pagan
+animism	Animist
+shamanism	Totemist
+totemism	Totemist
+inti	Inti
+nahuatl	Nahuatl
+mesoamerican_religion	Mayan
+norse_pagan_reformed	Norse
+tengri_pagan_reformed	Tengri
+jewish_group	Jewish
+jewish	Jewish
+zoroastrian_group	Zoroastrian
+zoroastrian	Zoroastrian
+
+western_mediterrenean_area	Western Mediterranean
+eastern_mediterrenean_area	Eastern Mediterranean
+black_sea_area	Black Sea
+baltic_area	Baltic Sea
+kattegat_area	Kattegat
+north_sea_area	North Sea
+norwegian_sea_area	Norwegian Sea
+white_sea_area	White Sea
+red_sea_area	Red Sea
+persian_gulf_area	Persian Gulf
+arabian_sea_area	Arabian Sea
+andaman_sea_area	Andaman Sea
+bay_of_bengal_area	Bay of Bengal
+eastern_indian_ocean_area	Eastern Indian Ocean
+western_indian_ocean_area	Western Indian Ocean
+south_indian_ocean_area	South Indian Ocean
+great_australian_bight_area	Great Australian Bight
+swahili_coast_sea_area	Swahili Coast
+south_china_sea_area	South China Sea
+celebes_sea_area	Celebes Sea
+java_sea_area	Java Sea
+east_china_sea_area	East China Sea
+sea_of_japan_area	Sea of Japan
+sea_of_okhotsk_area	Sea of Okhotsk
+berring_sea_area	Bering Sea
+tasman_sea_area	Tasman Sea
+coral_sea_area	Coral Sea
+philipine_sea_area	Philipine Sea
+banda_arafura_seas_area	Banda & Arafura
+gulf_of_alaska_area	Gulf of Alaska
+sea_of_grau_area	Sea of Grau
+chilean_sea_area	Chilean Sea
+gulf_of_panama_area	Gulf of Panama
+bay_of_biscay_area	Bay of Biscay
+english_channel_area	English Channel
+caribbean_sea_area	Caribbean Sea
+gulf_of_mexico_area	Gulf of Mexico
+sea_of_labrador_area	Labrador Sea
+hudson_bay_sea_area	Hudson Bay Sea
+denmark_strait_area	Denmark Strait
+gulf_of_guinea_sea_area	Gulf of Guinea Sea
+cape_of_storms_area	Cape of Storms
+skeleton_coast_area	Skeleton Coast
+east_pacific_ocean_area	East Pacific
+polynesian_triangle_area	Polynesian Triangle
+south_pacific_area	South Pacific
+north_pacific_area	North Pacific
+north_pacific_coast_area	Pacific Coast
+coast_of_brazil_sea_area	Coast of Brazil
+coast_of_guyana_area	Coast of Guyana
+celtic_sea_area	Celtic Sea
+west_african_coast_sea_area	West African Sea
+south_atlantic_area	South Atlantic
+argentine_sea_area	Argentine Sea
+gulf_of_st_lawrence_area	Gulf of St Lawrence
+gulf_stream_area	Gulf Stream
+sargasso_sea_area	Sargasso Sea
+north_atlantic_area	North Atlantic
+bahama_channel_area	Bahama Channel
+brittany_area	Brittany
+normandy_area	Normandy
+provence_area	Provence
+poitou_area	Poitou
+guyenne_area	Guyenne
+pyrenees_area	Gascony
+languedoc_area	Languedoc
+bourgogne_area	Eastern Burgundy
+west_burgundy_area	Western Burgundy
+massif_central_area	Auvergne
+savoy_dauphine_area	Savoy
+lorraine_area	Lorraine
+picardy_area	Picardy
+ile_de_france_area	Île-de-France
+champagne_area	Champagne
+loire_area	Loire Valley
+orleans_area	Orléanais
+wallonia_area	Wallonia
+holland_area	Holland
+flanders_area	Flanders
+frisia_area	Frisia
+brabant_area	South Brabant
+north_brabant_area	North Brabant
+aragon_area	Aragon
+catalonia_area	Catalonia
+valencia_area	Valencia
+lower_andalucia_area	Lower Andalucia
+upper_andalucia_area	Upper Andalucia
+castille_area	South Castile
+toledo_area	Toledo
+asturias_area	North Castile
+galicia_area	Galicia
+baleares_area	Baleares
+basque_country	Vasconia
+leon_area	León
+extremadura_area	Extremadura
+beieras_area	Beiras
+alentejo_area	Alentejo
+macaronesia_area	Macaronesia
+venetia_area	Venetia
+lombardy_area	Lombardy
+po_valley_area	Po Valley
+piedmont_area	Piedmont
+tuscany_area	Tuscany
+liguria_area	Liguria
+corsica_sardinia_area	Western Mediterranean Islands
+sicily_area	Eastern Sicily
+western_sicily_area	Western Sicily
+naples_area	2Campania
+lazio_area	Lazio-Umbria
+calabria_area	Calabria
+apulia_area	Apulia
+emilia_romagna_area	Emilia-Romagna
+central_italy_area	Marche-Abruzzo
+munster_area	Munster
+connacht_area	Connacht
+leinster_area	Leinster
+ulster_area	Ulster
+kingdom_of_the_isles_area	The Isles
+highlands_area	Highlands
+lowlands_area	Lowlands
+wales_area	Wales
+scottish_marches_area	Northern England
+yorkshire_area	Yorkshire
+west_midlands_area	West Midlands
+east_midlands_area	East Midlands
+wessex_area	Wessex
+home_counties_area	London
+east_anglia_area	East Anglia
+jutland_area	North Jutland
+denmark_area	Denmark
+skaneland_area	Skåneland
+gotaland_area	Östra Götaland
+vastra_gotaland_area	Västra Götaland
+svealand_area	Västra Svealand
+ostra_svealand_area	Östra Svealand
+norrland_area	Norrland
+finland_area	Finland
+bothnia_area	Ostrobothnia
+laponia_area	Laponia
+karelia_area	South Karelia
+subarctic_islands_area	2North Atlantic Islands
+greenland_area	Greenland
+estonia_ingria_area	Estonia
+livonia_area	Livonia
+curonia_area	Curonia
+east_prussia_area	East Prussia
+west_prussia_area	West Prussia
+wielkopolska_area	Wielkopolska
+malopolska_area	Malopolska
+red_ruthenia_area	Red Ruthenia
+podolia_volhynia_area	Podolia
+volhynia_area	Volhynia
+pripyat_area	Pripyat
+podlasie_area	Podlasie
+mazovia_area	Mazovia
+central_poland_area	Central Poland
+sandomierz_area	Sandomierz
+kuyavia_area	Kuyavia
+samogitia_area	Samogitia
+lithuania_area	2Aukstaitija
+west_dniepr_area	West Dniepr
+east_dniepr_area	East Dniepr
+chernigov_area	Chernigov
+sloboda_ukraine_area	Sloboda Ukraine
+yedisan_area	Yedisan
+zaporizhia_area	Zaporizhia
+azov_area	Azov
+crimea_area	Crimea
+white_ruthenia_area	White Ruthenia
+minsk_area	Minsk
+ryazan_area	Ryazan
+moscow_area	Moscow
+vladimir_area	Vladimir
+yaroslavl_area	Yaroslavl
+tver_area	Tver
+suzdal_area	Suzdal
+smolensk_area	Smolensk
+oka_area	Oka
+novgorod_area	Novgorod
+pskov_area	Pskov
+vologda_area	Vologda
+beloozero_area	Beloozero
+astrakhan_area	Astrakhan
+lower_don_area	Lower Don
+kazan_area	Kazan
+samara_area	Samara
+lower_yik_area	Lower Yik
+nogai_area	Nogai
+ural_area	Ural
+pomor_area	Pomorye
+arkhangelsk_area	Arkhangelsk
+bashkiria_area	Bashkiria
+volga_area	Volga
+galich_area	Galich
+kama_area	Kama
+tambov_area	Tambov
+saratov_area	Saratov
+silesia_area	Silesia
+bohemia_area	Bohemia
+erzgebirge_area	Erzgebirge
+lusatia_area	Lusatia
+moravia_area	Moravia
+south_saxony_area	Saxony
+upper_bavaria_area	Upper Bavaria
+lower_bavaria_area	Lower Bavaria
+east_bavaria_area	East Bavaria
+lower_swabia_area	West Swabia
+franconia_area	Lower Franconia
+upper_franconia_area	Upper Franconia
+upper_swabia_area	East Swabia
+northern_saxony_area	Saxony-Anhalt
+thuringia_area	Thuringia
+neumark_area	Neumark
+mittelmark_area	Mittelmark
+vorpommern_area	Vorpommern
+hinter_pommern_area	Hinterpommern
+tirol_area	Tirol
+austria_proper_area	Austria Proper
+inner_austria_area	Inner Austria
+carinthia_area	Carniola
+switzerland_area	Switzerland
+romandie_area	Romandie
+upper_rhineland_area	Baden
+alsace_area	Alsace
+palatinate_area	Palatinate
+north_rhine_area	North Rhine
+lower_rhineland_area	Lower Rhineland
+westphalia_area	South Westphalia
+north_westphalia_area	North Westphalia
+hesse_area	Hesse
+braunschweig_area	Braunschweig
+weser_area	Weser
+holstein_area	Schleswig-Holstein
+lower_saxony_area	Lower Saxony
+mecklenburg_area	Mecklenburg
+macedonia_area	Macedonia
+morea_area	Morea
+northern_greece_area	Northern Greece
+thrace_area	Thrace
+bulgaria_area	Bulgaria
+silistria_area	Silistria
+wallachia_area	Wallachia
+moldavia_area	Moldavia
+transylvania_area	Northern Transylvania
+southern_transylvania_area	Southern Transylvania
+slovakia_area	Slovakia
+serbia_area	Serbia
+rascia_area	Rascia
+albania_area	Albania
+bosnia_area	Bosnia
+croatia_area	Croatia
+slavonia_area	Slavonia
+east_adriatic_coast_area	Dalmatia
+alfold_area	Alföld
+transdanubia_area	Transdanubia
+imereti_area	Imereti
+samtskhe_area	Samtskhe
+kartli_kakheti_area	Kartli-Kakheti
+armenia_area	Armenia
+shirvan_area	Shirvan
+circassia_area	Circassia
+dagestan_area	Dagestan
+rum_area	Rum
+erzurum_area	Erzurum
+hudavendigar_area	Hüdavendigar
+germiyan_area	Germiyan
+aydin_area	Aydin
+ankara_area	Ankara
+aegean_archipelago_area	Aegean Archipelago
+kastamonu_area	Karadeniz
+karaman_area	Karaman
+cukurova_area	Çukurova
+aleppo_area	Aleppo
+syria_area	Syria
+trans_jordan_area	Transjordan
+palestine_area	Palestine
+dulkadir_area	Dulkadir
+iraq_arabi_area	Iraq Arabi
+basra_area	Basra
+luristan_area	Luristan
+north_kurdistan_area	Kurdistan
+khuzestan_area	Khuzestan
+shahrizor_area	Shahrizor
+al_jazira_area	Al Jazira
+bahrain_area	Bahrain
+pirate_coast_area	Pirate Coast
+nafud_area	An Nafud
+tabuk_area	Tabuk
+medina_area	Medina
+mecca_area	Mecca
+asir_area	Asir
+tihama_al_yemen_area	Tihama al-Yemen
+upper_yemen_area	Upper Yemen
+yemen_area	Lower Yemen
+hadramut_area	Hadramut
+mahra_area	Mahra
+yamamah_area	al-Yamamah
+qasim_area	al-Qasim
+dhofar_area	Dhofar
+oman_area	Oman
+mascat_area	Muscat
+syrian_desert_area	Syrian Desert
+gulf_of_arabia_area	Red Sea Hills
+al_wahat_area	al-Wahat
+delta_area	Delta
+bahari_area	Bahari
+vostani_area	Vostani
+said_area	Said
+tripolitania_area	Tripolitania
+cyrenaica_area	Cyrenaica
+fezzan_area	Fezzan
+tunisia_area	Tunisia
+djerba_area	Djerba
+algiers_area	Algiers
+barbary_coast_area	Barbary Coast
+kabylia_area	Kabylia
+hautes_plaines_area	Hautes Plains
+ouled_nail_area	Ouled Nail
+north_saharan_area	North Sahara
+tafilalt_area	Tafilalt
+sus_area	Sus
+southern_morocco_area	Southern Morocco
+western_morocco_area	Gharb
+marrekesh_area	Central Morocco
+northern_morocco_area	North Morocco
+madagascar_highlands_area	Madagascar Highlands
+betsimasaraka_area	Betsimasaraka
+sakalava_area	Sakalava
+lower_zambezi_area	Lower Zambezi
+upper_zambezi_area	Upper Zambezi
+shire_area	Shire
+butua_area	Butua
+zimbabwe_area	Zimbabwe
+ruvuma_area	Ruvuma
+ngonde_area	Ngonde
+mozambique_area	Mozambique
+uticulo_makuana_area	Makuana
+quelimane_area	Quelimane
+limpopo_area	Natal
+central_swahili_coast_area	Central Swahili Coast
+northern_swahili_coast_area	Northern Swahili Coast
+mombasa_area	Mombasa
+kenya_area	Kenya
+jubba_area	Jubba
+tanzania_area	Tanzania
+buha_area	Buha
+buzinza_area	Buzinza
+luba_area	Luba
+katanga_area	Shaba
+zambia_area	Zambia
+chokwe_area	Chokwe
+rwanda_area	Rwanda
+uganda_area	Uganda
+bunyoro_area	Bunyoro
+kasai_area	Kasai
+sankuru_area	Sankuru
+ogaden_area	Ogaden
+darfur_central_sahara_area	Central Sahara
+kurdufan_area	Kurdufan
+lower_nubia_area	Lower Nubia
+dongola_area	Dongola
+upper_nubia_area	Upper Nubia
+sennar_area	Sennar
+red_sea_coast_area	Red Sea Coast
+tigray_area	Tigray
+ifat_area	Ifat
+somaliland_area	Somaliland
+southern_ethiopia_area	Kaffa
+hadiya_area	Hadiya
+central_ethiopia_area	Central Ethiopia
+damot_area	Damot
+aussa_area	Aussa
+shewa_area	Shewa
+mogadishu_area	Mogadishu
+ajuuran_area	Ajuuraan
+majarteen_area	Majeerteen
+mascarenes_area	Mascarenes
+indian_ocean_islands_area	Indian Ocean Islands
+papua_area	Papuan Peninsula
+vogelkop_area	Vogelkop Peninsula
+melanesia_area	Melanesia
+fiji_area	Fiji
+micronesia_area	East Micronesia
+west_micronesia_area	West Micronesia
+western_australia_area	2Perth
+northern_australia_area	Capricornia
+top_end_area	Top End
+eastern_australia_area	New South Wales
+southern_australia_area	Victoria
+murray_river_area	Princeland
+illawara_area	Illawara
+north_queensland_area	Queensland
+south_queensland_area	Brisbane
+pilbara_area	Pilbara
+tasmania_area	Tasmania
+northern_polynesia_area	Northern Polynesia
+eastern_polynesia_area	Eastern Polynesia
+polynesia_area	Polynesia
+te_ika_a_maui_hauauru_area	Te Ika a Maui Hauauru
+te_ika_a_maui_waho_area	Te Ika a Maui Waho
+te_waipounamu_area	Te Waipounamu
+western_sahara_area	Western Sahara
+cap_verde_area	Cap Verde
+jolof_area	Jolof
+tekrur_area	Tekrur
+baghena_area	Baghena
+manding_area	Manding
+futa_jallon_area	Futa Jallon
+massina_area	Massina
+jenne_area	Jenne
+upper_volta_area	Upper Volta
+kong_area	Kong
+lower_volta_area	Lower Volta
+lower_niger_area	Lower Niger
+hausa_area	Kano
+katsina_area	Katsina
+zazzau_area	Zazzau
+bornu_area	Bornu
+kanem_area	Kanem
+adamawa_plateau_area	Adamawa Plateau
+dendi_area	Dendi
+azbin_area	West Azbin
+east_azbin_area	East Azbin
+atacora_oueme_area	Atacora Oueme
+gulf_of_guinea_area	Gulf of Guinea
+benin_area	Benin
+sao_tome_area	Sao Tome
+west_africa_coast_area	West African Coast
+guinea_coast_area	Guinea
+south_atlantic_islands_area	South Atlantic Islands
+matamba_area	Matamba
+kongo_area	Kongo
+angola_namibia_area	Angola
+cape_of_good_hope_area	Cape of Good Hope
+south_african_plateau_area	South African Plateau
+makran_area	Makran
+sistan_area	Sistan
+kalat_area	Kalat
+ferghana_area	Ferghana
+arys_area	Arys
+kyzylkum_area	Kyzylkum
+transoxiana_area	Transoxiana
+termez_area	Khuttalan
+khiva_area	Khiva
+kabulistan_area	Kabulistan
+transcaspia_area	Transcaspia
+mashhad_area	Mashhad
+herat_area	Herat
+birjand_area	Birjand
+ghor_area	Ghor
+merv_area	Merv
+balkh_area	Balkh
+kerman_area	Kerman
+mogostan_area	Mogostan
+farsistan_area	Farsistan
+iraq_e_ajam_area	Iraq-e-Ajam
+azerbaijan_area	Azerbaijan
+isfahan_area	Isfahan
+tabriz_area	Tabriz
+tabarestan_area	Tabarestan
+sirhind_area	Sirhind
+sind_sagar_area	Sind Sagar
+oudh_area	Oudh
+katehar_area	Katehar
+purvanchal_area	Purvanchal
+upper_doab_area	Upper Doab
+lower_doab_area	Lower Doab
+lahore_area	Lahore
+multan_area	Multan
+naga_hills_area	Naga Hills
+east_bengal_area	East Bengal
+north_bengal_area	North Bengal
+tripura_area	Tripura
+bihar_area	Bihar
+mithila_area	Mithila
+jharkhand_area	Jharkhand
+upper_mahanadi_area	Upper Mahanadi
+gaur_area	Gaur
+west_bengal_area	West Bengal
+gird_area	Gird
+baghelkhand_area	Baghelkhand
+bundelkhand_area	Bundelkhand
+gondwana_area	Gondwana
+orissa_area	Orissa
+garjat_area	Garjat
+telingana_area	North Telingana
+golconda_area	South Telingana
+andhra_area	Andhra
+raichur_doab_area	Raichur Doab
+khandesh_area	Khandesh
+rayalaseema_area	Rayalaseema
+malabar_area	Malabar
+malwa_area	Malwa
+mewar_area	Mewar
+jangladesh_area	Jangladesh
+marwar_area	Marwar
+jaipur_area	Jaipur
+sindh_area	Southern Sindh
+northern_sindh_area	Northern Sindh
+north_carnatic_area	North Carnatic
+south_carnatic_area	South Carnatic
+madura_area	Madura
+tanjore_area	Tanjore
+kongu_area	Kongu
+konkan_area	Konkan
+desh_area	Desh
+ahmednagar_area	Ahmednagar
+kanara_area	Kanara
+maidan_area	Maidan
+mysore_area	Mysore
+berar_area	Berar
+assam_area	Assam
+himalayan_hills_area	Himalayan Hills
+nepal_area	Nepal
+baisi_rajya_area	Baisi Rajya
+bhutan_area	Bhutan
+kashmir_area	Kashmir
+lanka_area	North Lanka
+south_lanka_area	South Lanka
+ahmedabad_area	Ahmedabad
+patan_area	Patan
+tapti_area	Tapti
+saurashtra_area	Saurashtra
+upper_burma_area	Upper Burma
+central_burma_area	Central Burma
+chindwin_area	Chindwin
+kachin_area	Kachin
+shan_hill_area	Shan Hills
+karenni_area	Karenni
+malaya_area	Malaya
+johor_area	Johor
+malacca_area	Malacca
+khorat_area	Khorat
+champasak_area	Champasak
+champa_area	Champa
+tay_nguyen_area	Tay Nguyen
+cambodia_area	Cambodia
+angkor_area	Angkor
+lower_burma_area	Lower Burma
+arakan_area	Rakhine
+mekong_area	Mekong
+tenasserim_area	Central Tenasserim
+north_tenasserim_area	North Tenasserim
+north_malaya_area	North Malaya
+vietnam_area	2Annam
+red_river_delta_area	Sông Hông
+north_laos_area	Luang Prabang
+vientiane_area	Vientiane
+central_thai_area	Central Thailand
+sukhothai_area	Sukhothai
+northern_thai_area	Chiang Mai
+mindanao_area	East Mindanao
+west_mindanao_area	West Mindanao
+visayas_area	Visayas
+palawan_area	Palawan
+luzon_area	Northern Luzon
+southern_luzon_area	Southern Luzon
+north_sumatra_area	Aceh
+batak_area	Batak
+central_sumatra_area	Riau
+jambi_area	Jambi
+minangkabau_area	Minangkabau
+south_sumatra_area	Lampung
+east_java_area	East Java
+surabaya_area	Surabaya
+central_java_area	Central Java
+west_java_area	West Java
+banten_area	Banten
+kutai_area	Kutai
+sabah_area	Sabah
+brunei_area	Brunei
+kalimantan_area	Kalimantan
+banjar_area	Banjar
+molluca_area	Moluccas
+spice_islands_area	Spice Islands
+lesser_sunda_islands_area	Lesser Sunda Islands
+timor_area	Timor
+makassar_area	Makassar
+sulawesi_area	North Sulawesi
+south_sulawesi_area	South Sulawesi
+pyongan_area	Pyongan
+hamgyeong_area	Hamgyeong
+western_korea_area	Western Korea
+eastern_korea_area	Eastern Korea
+south_korea_area	Southern Korea
+hokkaido_area	Hokkaido
+hokuriku_area	Hokuriku
+kanto_area	Western Kanto
+eastern_kanto_area	Eastern Kanto
+kyushu_area	Southern Kyushu
+shikoku_area	Shikoku
+eastern_chubu_area	Eastern Chubu
+chubu_area	Western Chubu
+kinai_area	Kinai
+thohoku_area	Tohoku
+sanindo_area	San'indo
+saigoku_area	Sanyodo
+kamchatka_area	Kamchatka
+kolyma_area	Kolyma
+okhotsk_area	Okhotsk
+yakutia_area	Yakutia
+sakha_area	Sakha
+buryatia_area	Buryatia
+tunguska_area	Tunguska
+central_siberia_area	Central Siberia
+kara_area	Kara
+ob_area	Ob
+irkutsk_area	Irkutsk
+perm_area	Perm
+balchasj_area	Balchash
+kazakhstan_area	Kazakhstan
+syr_darya_area	Syr Darya
+yrtesh_area	Yrtesh
+ishim_area	Ishim
+aqmola_area	Aqmola
+heilongjiang_area	West Heilongjiangord
+east_heilongjiang_area	East Heilongjiangord
+central_heilongjiang_area	Central Heilongjiang
+cicigar_area	Cicigar
+ilan_hala_area	North Ilin Hala
+sakhalin_area	Sakhalin
+central_jilin_area	South Ilin Hala
+ningguta_area	Ningguta
+furdan_area	Furdan
+jilin_area	South Jilin
+liaoning_area	Liaoning
+ordos_area	Ordos
+chahar_area	Chahar
+inner_mongolia_area	Inner Mongolia
+outer_mongolia_area	Outer Mongolia
+xilin_gol_area	Xilin Gol
+altai_sayan_area	Kobdo
+tannu_uriankhai_area	Tannu Uriankhai
+central_mongolia_area	Gobi
+uliastai_area	Uliastai
+jetysuu_area	Jetysuu
+kashgaria_area	Kashgaria
+tarim_basin_area	Central Altishahr
+shanshan_area	Shanshan
+turpan_kumul_area	Turpan-Kumul
+zungaria_area	South Dzungaria
+amdo_area	Amdo
+tsang_area	U
+kham_area	Kham
+utsang_area	2Tsang
+ngari_area	Ngari
+hebei_area	North Hebei
+south_hebei_area	South Hebei
+shandong_area	Shandong
+jiangsu_area	North Jiangsu
+south_jiangsu_area	South Jiangsu
+anhui_area	North Anhui
+south_anhui_area	South Anhui
+zhejiang_area	Zhejiang
+jiangxi_area	Jiangxi
+fujian_area	Fujian
+taiwan_area	Taiwan
+guangdong_area	East Guangdong
+west_guangdong_area	West Guangdong
+guangxi_area	Guangxi
+yun_gui_area	Yun-Gui Hinterland
+yun_gui_borderland_area	Yun-Gui Frontier
+sichuan_area	Sichuan
+chuannan_area	Chuannan
+chuanbei_area	Chuanbei
+huguang_area	Hubei
+hunan_area	Hunan
+henan_area	South Henan
+north_henan_area	North Henan
+shanxi_area	Shanxi
+shaanxi_area	Shaanxi
+gansu_area	East Gansu
+west_gansu_area	West Gansu
+rio_grande_do_sol_area	Rio Grande do Sul
+minas_gerais_area	Minas Gerais
+diamantina_area	Diamantina
+goias_area	Goias
+pontal_area	Pontal
+mato_grosso_area	Mato Grosso
+ofaie_area	Ofaie
+guapore_area	Guapore
+sao_paolo_area	Sao Paulo
+west_sao_paolo_area	Guayra
+rio_de_janeiro_area	Rio de Janeiro
+bahia_area	Bahia
+pernambuco_area	Pernambuco
+ceara_area	Ceará
+sao_francisco_area	Sao Francisco
+maranhao_area	Maranhao
+piaui_area	Piauí
+grao_para_area	Grao Para
+amapa_area	Amapá
+amazon_area	Amazon
+paraguay_area	Paraguay
+bahia_blanca_area	Bahiá Blanca
+nehuenken_area	Neheunken
+buenos_aires_area	Buenos Aires
+misiones_area	Mesopotamia
+jujuy_area	Jujuy
+banda_oriental_area	Banda Oriental
+guyana_area	Guyana
+suriname_area	Suriname
+upper_guyana_area	Upper Guyana
+quito_area	Quito
+iquitos_area	Iquitos
+venezuela_area	Venezuela
+maracaibo_area	Maracaibo
+central_llanos_area	Central Llanos
+bogota_area	Bogota
+popayan_area	Popayan
+colombian_amazonas_area	Colombian Amazonas
+cordillera_occidental_area	Cordillera Occidental
+coquivacoa_area	Coquivacoa
+northern_chile_area	Northern Chile
+central_chile_area	Central Chile
+southern_chile_area	Southern Chile
+antisuyu_area	Antisuyu
+kuntisuyu_area	Kuntisuyu
+chimor_area	Chimor
+ucayali_area	Ucayali
+cajamarca_area	Cajamarca
+huanuco_area	Huanuco
+beni_area	Beni
+moxos_area	Moxos
+potosi_area	Potosí
+great_woods_area	New Hampshire
+maine_area	Maine
+eastern_maine_area	Eastern Maine
+massachusetts_bay_area	Massachusetts
+connecticut_valley_area	Connecticut
+hudson_valley_area	Hudson Valley
+new_york_area	New York
+delaware_valley_area	Delaware Valley
+iroquoisia_area	Iroquoisia
+south_iroquoisia_area	Lake Champlain
+susquehanna_area	Westsylvania
+westsylvania_area	Alleghenies
+maryland_area	Maryland
+chesapeake_area	Virginia
+great_valley_area	Great Valley
+piedmont_north_america_area	Piedmont Plateau
+carolinas_area	North Carolina
+south_carolina_area	South Carolina
+south_carolina_piedmont_area	South Carolina Piedmont
+american_georgia_area	Georgia
+upper_american_georgia_area	Upper Georgia
+florida_area	Florida
+north_florida_area	East Florida
+appalachia_area	2Vandalia
+south_appalachia_area	Overmountain
+west_florida_area	West Florida
+mississippi_area	Mississippi
+choctaw_area	Tennessee
+alabama_area	Alabama
+kentucky_area	Kentucky
+western_kentucky_area	Western Kentucky
+ohio_country_area	Ohio
+miami_river_area	Indiana
+illinois_country_area	Illinois
+southern_illinois_area	Southern Illinois
+mississippi_plain_area	Arkansas
+michigan_area	Michigan
+lake_superior_area	Lake Superior
+wisconsin_area	Wisconsin
+lower_louisiana_area	Louisiana
+upper_louisiana_area	Upper Louisiana
+ozarks_area	Ozarks
+iowa_area	Iowa
+lower_plains_area	Southern Plains
+central_plains_area	Central Plains
+kansas_area	Kansas
+high_plains_area	High Plains
+dakota_area	North Dakota
+south_dakota_area	3South Dakota
+minnessota_area	Minnesota
+upper_missouri_area	Upper Missouri
+badlands_area	Badlands
+llano_estacado_area	Llano Estacado
+coastal_prarie_area	2Coastal Prairie
+texas_area	Texas
+texas_plains_area	Texas Plains
+oregon_area	Oregon
+columbia_river_area	Columbia River
+snake_river_area	Snake River
+salish_sea_area	2Puget Sound
+interior_plateau_area	Interior Plateau
+hecate_strait_area	Hecate Strait
+alaska_area	Western Alaska
+east_alaska_area	Alaska Panhandle
+lower_acadia_area	Lower Acadia
+straits_of_georgia_area	Straits of Georgia
+upper_acadia_area	Upper Acadia
+st_john_valley_area	St John's Valley
+newfoundland_area	Newfoundland
+labrador_area	Labrador
+cote_nord_area	Cote Nord
+notre_dame_mountains_area	Québec
+lower_canada_area	Lower Canada
+trois_rivieres_area	Trois-Rivieres
+upper_canada_area	Upper Canada
+laurentian_area	Laurentia
+upper_ontario_area	Upper Ontario
+huronia_area	Huronia
+ottawa_valley_area	Ottawa Valley
+james_bay_area	James Bay
+inner_ontario_area	Abitibi
+hudson_bay_area	Hudson Bay
+red_river_area	Red River of the North
+manitoba_area	Manitoba
+assiniboia_area	Assiniboia
+saskatchewan_area	Saskatchewan
+prairies_area	Alberta
+athabasca_area	Athabasca
+northeast_mexico_area	Coahuila
+durango_area	Durango
+chihuahua_area	Chihuahua
+pecos_area	Pecos
+rio_grande_area	Tamaulipas
+sonora_area	Sonora
+new_mexico_area	New Mexico
+apacheria_area	Apacheria
+colorado_plateau_area	Colorado Plateau
+arizona_area	Arizona
+california_area	Alta California
+central_valley_area	Central Valley
+northern_california_area	North California
+baja_california_area	Baja California
+jalisco_area	Jalisco
+nayarit_area	Nayarit
+michoacan_area	Michoacan
+tierra_caliente_area	Tierra Caliente
+gran_chichimeca_area	Gran Chichimeca
+guanajuato_area	Guanajuato
+zacatecas_area	Zacatecas
+mexico_area	Mexico
+puebla_area	Puebla
+guerrero_area	Guerrero
+oaxaca_area	Oaxaca
+mixteca_area	Mixteca
+eastern_mexico_area	Veracruz
+huasteca_area	Huasteca
+chiapas_area	Chiapas
+yucatan_area	West Yucatan
+east_yucatan_area	East Yucatan
+campeche_area	Campeche
+guatemala_area	Guatemala
+guatemala_lowlands_area	Guatemala Lowlands
+honduras_area	Honduras
+nicaragua_area	Nicaragua
+costa_rica_area	Costa Rica
+panama_area	Panama
+cuba_area	West Cuba
+east_cuba_area	East Cuba
+hispaniola_area	Haiti
+dominica_area	Dominica
+greater_antilles_area	Greater Antilles
+lucayan_area	Lucayan Archipelago
+leeward_islands_area	Leeward Islands
+windward_islands_area	Windward Islands
+transvaal_area	Transvaal
+pomerelia_area	Pomerelia
+magadan_area	Magadan
+netherlands_area	Netherlands
+indonesian_islands_area	Indonesian Islands
+iceland_area	Iceland
+south_laos_area	South Laos
+random_new_world_region	New World's Ocean
+france_region	France
+scandinavia_region	Scandinavia
+low_countries_region	Low Countries
+italy_region	Italy
+north_german_region	North Germany
+south_german_region	South Germany
+russia_region	Russia
+ural_region	Ural
+iberia_region	Iberia
+british_isles_region	Britain
+baltic_region	Baltic
+poland_region	Poland
+ruthenia_region	Ruthenia
+crimea_region	Pontic Steppe
+balkan_region	Balkans
+carpathia_region	Carpathia
+egypt_region	Egypt
+maghreb_region	Maghreb
+mashriq_region	Mashriq
+anatolia_region	Anatolia
+persia_region	Persia
+khorasan_region	Khorasan
+caucasia_region	Caucasia
+arabia_region	Arabia
+niger_region	Niger
+guinea_region	Guinea
+sahel_region	Sahel
+horn_of_africa_region	Horn of Africa
+east_africa_region	East Africa
+central_africa_region	Central Africa
+kongo_region	Congo
+central_asia_region	Central Asia
+south_africa_region	South Africa
+west_siberia_region	West Siberia
+east_siberia_region	East Siberia
+mongolia_region	Mongolia
+manchuria_region	Manchuria
+korea_region	Korea
+tibet_region	Tibet
+hindusthan_region	Hindustan
+bengal_region	Bengal
+west_india_region	Western India
+deccan_region	Deccan
+coromandel_region	Coromandel
+burma_region	Burma
+japan_region	Japan
+australia_region	Australia
+south_china_region	South China
+xinan_region	Xinan
+north_china_region	North China
+brazil_region	Brazil
+la_plata_region	La Plata
+colombia_region	Colombia
+peru_region	Peru
+upper_peru_region	Upper Peru
+malaya_region	Malaya
+moluccas_region	Moluccas
+indonesia_region	Indonesia
+oceanea_region	Oceania
+indo_china_region	Indochina
+canada_region	Canada
+great_lakes_region	Great Lakes
+northeast_america_region	Northeast
+mississippi_region	Mississippi
+great_plains_region	Great Plains
+california_region	California
+cascadia_region	Cascadia
+hudson_bay_region	Hudson Bay
+mexico_region	Mexico
+rio_grande_region	Rio Grande
+central_america_region	Central America
+carribeans_region	Caribbeans
+baltic_sea_region	Baltic Sea
+north_atlantic_region	North Atlantic
+american_east_coast_region	American East Coast
+mediterrenean_region	Mediterranean
+caribbean_sea_region	Caribbean Sea
+west_african_sea_region	West African Sea
+west_indian_ocean_region	Western Indian Ocean
+arabian_sea_region	Arabian Sea
+east_indian_ocean_region	Eastern Indian Ocean
+south_indian_ocean_region	South Indian Ocean
+south_china_sea_region	South China Sea
+east_china_sea_region	East China Sea
+north_west_pacific_region	North West Pacific
+south_west_pacific_region	South West Pacific
+south_east_pacific_region	South East Pacific
+north_east_pacific_region	North East Pacific
+pacific_south_america_region	Pacific South America
+atlantic_south_america_region	Atlantic South America
+south_atlantic_region	South Atlantic
+india_superregion	India
+east_indies_superregion	East Indies
+oceania_superregion	Oceania
+china_superregion	China
+europe_superregion	Western Europe
+eastern_europe_superregion	Eastern Europe
+tartary_superregion	Tartary
+far_east_superregion	Far East
+africa_superregion	Northern Africa
+southern_africa_superregion	Southern Africa
+south_america_superregion	Amazonia
+andes_superregion	Andes
+north_america_superregion	North America
+central_america_superregion	Central America
+near_east_superregion	Levant
+persia_superregion	Persia
+new_world_superregion	The New World
+west_american_sea_superregion	East Pacific
+east_american_sea_superregion	West Atlantic
+north_european_sea_superregion	North Atlantic
+south_european_sea_superregion	Mediterranean Sea
+west_african_sea_superregion	East Atlantic
+east_african_sea_superregion	Western Indian Ocean
+indian_pacific_sea_superregion	Indian Ocean
+north_pacific_sea_superregion	West Pacific
+europe	Europe
+asia	Asia
+africa	Africa
+north_america	North America
+south_america	South America
+oceania	Oceania
+island_check_provinces	island_check_provinces
+new_world	New World
+
+# Personalities and Traits
+accomplished_sailor_personality	Accomplished Sailor
+architectural_visionary_personality	Architectural Visionary
+babbling_buffoon_personality	Babbling Buffoon
+battlefield_medic_personality	Battlefield Medic
+benevolent_personality	Benevolent
+bold_fighter_personality	Bold Fighter
+born_to_the_saddle_personality	Born to the Saddle
+buccaneer_personality	Buccaneer
+calm_personality	Calm
+cannoneer_personality	Cannoneer
+careful_personality	Careful
+charismatic_negotiator_personality	Charismatic Negotiator
+conqueror_personality	Conqueror
+craven_personality	Craven
+cruel_personality	Cruel
+cruel_tactician_personality	Cruel Tactician
+cuirassier_leader_personality	Cuirassier Leader
+cunning_navigator_personality	Cunning Navigator
+defensive_planner_personality	Defensive Planner
+drunkard_personality	Indulgent
+embezzler_personality	Embezzler
+entrepreneur_personality	Entrepreneur
+expansionist_personality	Expansionist
+extortioner_personality	Extortioner
+fertile_personality	Fertile
+fierce_negotiator_personality	Fierce Negotiator
+free_thinker_personality	Free Thinker
+frontline_holder_personality	Frontline Holder
+glory_seeker_personality	Glory Seeker
+goal_oriented_personality	Goal Oriented
+great_explorer_personality	Great Explorer
+greedy_personality	Greedy
+hardy_warrior_personality	Hardy Warrior
+immortal_personality	Immortal
+incorruptible_personality	Incorruptible
+industrious_personality	Industrious
+infertile_personality	Infertile
+inspirational_captain_personality	Inspirational Captain
+inspirational_leader_general_personality	Inspirational Leader
+inspiring_leader_personality	Inspiring Leader
+intricate_web_weaver_personality	Intricate Webweaver
+ironside_personality	Ironside
+just_personality	Just
+kind_hearted_personality	Kind-Hearted
+lawgiver_personality	Lawgiver
+level_headed_personality	Level-Headed
+loose_lips_personality	Loose Lips
+malevolent_personality	Malevolent
+martial_educator_personality	Martial Educator
+master_of_arms_personality	Master of Arms
+midas_touched_personality	Midas Touched
+naive_personality	Naive Enthusiast
+naval_cannoneer_personality	Naval Cannoneer
+naval_engineer_personality	Naval Engineer
+naval_gunner_personality	Naval Gunner
+naval_showman_personality	Naval Showman
+naval_strategist_personality	Naval Strategist
+navigator_personality	Navigator
+obsessive_perfectionist_personality	Obsessive Perfectionist
+pious_personality	Pious
+prize_hunter_personality	Prize Hunter
+ram_raider_personality	Ram Raider
+righteous_personality	Righteous
+ruthless_blockader_personality	Ruthless Blockader
+ruthless_personality	Ruthless
+scholar_personality	Scholar
+secretive_personality	Secretive
+siege_specialist_personality	Siege Specialist
+silver_tongue_personality	Silver Tongue
+sinner_personality	Sinner
+strict_drillmaster_personality	Strict Drillmaster
+strict_personality	Strict
+tactical_genius_personality	Tactical Genius
+tolerant_personality	Tolerant
+well_advised_personality	Well Advised
+well_connected_personality	Well Connected
+wooden_waller_personality	Wooden Waller
+zealot_personality	Zealot
+
+army_organiser	Army Organizer
+army_reformer	Army Reformer
+artist	Artist
+colonial_governor	Colonial Governor
+commandant	Commandant
+diplomat	Diplomat
+fortification_expert	Military Engineer
+grand_captain	Grand Captain
+inquisitor	Inquisitor
+master_of_mint	Master of Mint
+natural_scientist	Natural Scientist
+naval_reformer	Naval Reformer
+navigator	Navigator
+philosopher	Philosopher
+quartermaster	Quartermaster
+recruitmaster	Master Recruiter
+spymaster	Spymaster
+statesman	Statesman
+theologian	Theologian
+trader	Trader
+treasurer	Treasurer
+
+### Buildings
+barracks	Barracks
+coastal_defence	Coastal Defence
+conscription_center	Conscription Center
+counting_house	Counting House
+courthouse	Courthouse
+dock	Dock
+drydock	Drydock
+farm_estate	Farm Estate
+fort_15th	Castle
+fort_16th	Bastion
+fort_17th	Star Fort
+fort_18th	Fortress
+furnace	Furnace
+grand_shipyard	Grand Shipyard
+impressment_offices	Impressment Offices
+manufactory	Manufactory
+marketplace	Marketplace
+mills	Mill
+naval_battery	Naval Battery
+plantations	Plantation
+ramparts	Ramparts
+regimental_camp	Regimental Camp
+shipyard	Shipyard
+soldier_households	Soldier's Households
+state_house	State House
+stock_exchange	Stock Exchange
+temple	Temple
+textile	Textile Manufactory
+town_hall	Town Hall
+trade_depot	Trade Depot
+tradecompany	Trade Station
+training_fields	Training Fields
+university	University
+weapons	Weapons Manufactory
+wharf	Naval Equipment Manufactory
+workshop	Workshop
+
+### Idea Groups
+administrative_ideas	Administrative Ideas
+aristocracy_ideas	Aristocratic Ideas
+court_ideas	Court Ideas
+defensive_ideas	Defensive Ideas
+diplomatic_ideas	Diplomatic Ideas
+economic_ideas	Divine Ideas
+expansion_ideas	Economic Ideas
+exploration_ideas	Espionage Ideas
+horde_gov_ideas	Expansion Ideas
+humanist_ideas	Exploration Ideas
+indigenous_ideas	Horde Ideas
+influence_ideas	Humanist Ideas
+infrastructure_ideas	Indigenous Ideas
+innovativeness_ideas	Influence Ideas
+maritime_ideas	Infrastructure Ideas
+mercenary_ideas	Innovative Ideas
+naval_ideas	Maritime Ideas
+offensive_ideas	Mercenary Ideas
+plutocracy_ideas	Naval Ideas
+quality_ideas	Offensive Ideas
+quantity_ideas	Plutocratic Ideas
+religious_ideas	Quality Ideas
+spy_ideas	Quantity Ideas
+theocracy_gov_ideas	Religious Ideas
+trade_ideas	Trade Ideas
+
+### Trade Goods
+amber	Amber
+apiculture	Beekeeping
+beer	Beer
+camel	Camels
+cannon	Cannons
+carpet	Carpet
+champagne	Champagne
+cheese	Cheese
+chinaware	Chinaware
+chocolate	Chocolate
+cigars	Cigars
+cinnamon	Cinnamon
+citrus	Citrus
+cloth	Cloth
+cloves	Cloves
+coal	Coal
+cocoa	Cocoa
+coffee	Coffee
+copper	Copper
+cotton	Cotton
+dates	Dates
+dyes	Dyes
+ebony	Ebony
+elephants	Elephants
+exotic_animals	Exotic Animals
+exotic_fur	Exotic Fur
+fish	Fish
+fur	Fur
+fur_clothing	Fur Clothing
+gems	Gems
+glass	Glass
+gold	Gold
+grain	Grain
+gunpowder	Gunpowder
+horses	Horses
+incense	Incense
+indigo	Indigo Dye
+iron	Iron
+ivory	Ivory
+jade	Jade
+jade_sculptures	Jade Sculptures
+jewellery	Jewellery
+lead	Lead
+leather	Leather
+livestock	Livestock
+llama	Llama
+lumber	Lumber
+maize	Maize
+maple_syrup	Maple Syrup
+marble	Marble
+marble_sculpture	Marble Sculptures
+mercury	Mercury
+metalworking	Metalworking
+millet	Millet
+munitions	Munitions
+naval_supplies	Naval Supplies
+nutmeg	Nutmeg
+olive_oil	Olives
+opium	Opium
+optics	Optics
+palm_oil	Palm Oil
+paper	Paper
+pearls	Pearls
+potato	Potatoes
+rice	Rice
+rum	Rum
+saffron	Saffron
+salt	Salt
+sea_turtle	Sea Turtles
+seafood	Seafood
+silk	Silk
+silver	Silver
+slaves	Slaves
+spices	Spices
+steam_engine	Steam Engine
+String_Instruments	String Instruments
+sugar	Sugar
+sulfur	Sulfur
+tar	Tar
+tea	Tea
+tin	Tin
+tobacco	Tobacco
+tomato	Tomatoes
+tropical_wood	Tropical Wood
+uniforms	Uniforms
+vanilla	Vanilla
+whaling	Whales
+wine	Wine
+woodworking	Woodworking
+wool	Wool
+zinc	Zinc

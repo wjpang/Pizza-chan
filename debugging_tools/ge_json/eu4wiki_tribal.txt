@@ -1,0 +1,564 @@
+__NOTOC__
+{{mod header|Governments Expanded}}
+
+=[[Governments_Expanded/Monarchy|Monarchy]] | [[Governments_Expanded/Republic|Republic]] | [[Governments_Expanded/Theocracy|Theocracy]] | [[Governments_Expanded/Tribal|Tribal]]=
+
+{| class="eu4box-inline mw-collapsible" style="text-align: center; margin: auto; max-width: 730px;"
+|+ <span style="white-space: nowrap;">'''Reform Tiers'''</span>
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 1: [[#Tribal Administration|Tribal Administration]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_horde_riding|Steppe Nomads}}
+{{Navicon|Gov_chieftain|Tribal Federation}}
+{{Navicon|Gov_tribal_council|Tribal Despotism}}
+{{Navicon|Gov_indian_crown|Tribal Monarchy}}
+{{Navicon|Gov_shaman|Siberian Native Council}}
+{{Navicon|Gov_chieftain|Gond Kingdom}}
+{{Navicon|Gov_horde_riding|Great Mongol State}}
+{{Navicon|Gov_generic_people|Eghaevbo Administration}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 2: [[#Cultural Values|Cultural Values]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_tribal_martial_society|Martial Society}}
+{{Navicon|Gov_tribal_civil_society|Civil Society}}
+{{Navicon|Gov_great_law_of_peace|Great Law of Peace}}
+{{Navicon|Gov_kongolese_king|Royal Society}}
+{{Navicon|Gov_tatar_slave_raid|Slave Raids}}
+{{Navicon|Gov_steppe_shepherds|Herders of the Steppe}}
+{{Navicon|Gov_steppe_shepherds|Legacy of the Pax Mongolica}}
+{{Navicon|Gov_generic_people|Three Jurchen Tribes}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 3: [[#Tribal Religion|Tribal Religion]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_tribal_religious_society|Religious Society}}
+{{Navicon|Gov_tribal_lip_service|Lip Service}}
+{{Navicon|Gov_noble_muslim|Sheikhdom}}
+{{Navicon|Gov_kongolese_cross|Adoption of Christianity}}
+{{Navicon|Gov_steppe_buddhists|Great Code of Nomads}}
+{{Navicon|Gov_strength_of_the_khalsa|The World under the Tengri}}
+{{Navicon|Gov_arabic_scripture|Maintain Charade}}
+{{Navicon|Gov_church|Tolerance of the Church}}
+{{Navicon|Gov_generic_people|Children of Osanobua}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 4: [[#Military Organisation|Military Organisation]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_national_guard|Gunpowder Weapons}}
+{{Navicon|Gov_national_guard|Modern Firearms}}
+{{Navicon|Gov_soldiers_4|Traditionalism}}
+{{Navicon|Gov_soldiers_4|Traditionalism}}
+{{Navicon|Gov_soldiers_2|Turkoman Gunners}}
+{{Navicon|Gov_soldiers_3|Mongol Ties}}
+{{Navicon|Gov_feudal_theocracy|Lessons of Subutai}}
+{{Navicon|Gov_tatar_slave_raid|Tatar Raiders}}
+{{Navicon|Gov_tribal_martial_society|African Jungle Warriors}}
+{{Navicon|Gov_noble_indian|Indian Elephant Riders}}
+{{Navicon|Gov_generic_people|Warrior Kings}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 5: [[#Modernization|Modernization]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_tribal_centralize_power|Centralize Power}}
+{{Navicon|Gov_retain_tribal_hierarchy|Retain Tribal Hierarchy}}
+{{Navicon|Gov_kongolese_king_2|Unite the Royal Houses}}
+{{Navicon|Gov_iranian_bureaucracy|Iranian Bureacracy}}
+{{Navicon|Gov_paper_money_map|Reintroduce the Dirham}}
+{{Navicon|Gov_asian_scripture|Birth of the Manchu}}
+{{Navicon|Gov_judge|Bashqaq Administration}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 6: [[#Tribal Reformation|Tribal Reformation]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_rioting_burning_2|Barbaric Despoilers}}
+{{Navicon|Gov_fist_in_air|Unified Horde Identity}}
+{{Navicon|king_highlighted|Reform into Monarchy}}
+{{Navicon|parliament_highlighted|Reform into Republic}}
+{{Navicon|pope_highlighted|Reform into Theocracy}}
+{{Navicon|horde_riding_highlighted|Become Horde}}
+{{Navicon|Gov_iroquois_longhouse|Haudenosaunee}}
+{{Navicon|Gov_soldiers_2|Recruit Cossacks}}
+{{Navicon|Gov_castle|Feudal Vassals}}
+{{end box wrapper}}
+|}
+
+== Reform Tiers ==
+
+=== Tribal Administration ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Steppe Nomads"
+| '''Steppe Nomads'''
+|
+* global_manpower_modifier = 0.2
+* land_forcelimit_modifier = 0.2
+* loot_amount = 0.50
+* global_institution_spread = -0.15
+* reinforce_cost_modifier = -0.5
+* cav_to_inf_ratio = 0.25
+* movement_speed = 0.2
+* years_of_nationalism = -5
+|
+{{desc|Steppe Nomads|A governmental form where a sovereign or military ruler rule a tribal chiefdom, with constant Casus Bellis on all their neighbors and troops who fight better on the plains.|image=Gov_horde_riding}}
+
+|- id="Tribal Federation"
+| '''Tribal Federation'''
+|
+* years_of_nationalism = -5
+|
+{{desc|Tribal Federation|A governmental form where a confederation of tribes rule with a certain degree of internal autonomy but are nationally governed by a central authority.|image=Gov_chieftain}}
+
+|- id="Tribal Despotism"
+| '''Tribal Despotism'''
+|
+* core_creation = -0.1
+|
+{{desc|Tribal Despotism|A political system where a tribe is controlled by an individual ruler with unlimited power and the ability to exercise any action without consequence or retribution, often ruling through fear.|image=Gov_tribal_council}}
+
+|- id="Tribal Monarchy"
+| '''Tribal Monarchy'''
+|
+* vassal_income = 0.2
+|
+{{desc|Tribal Monarchy|A political system where a large tribal society has formed a kingdom, with one strong ruler who rules through law.|image=Gov_indian_crown}}
+
+|- id="Siberian Native Council"
+| '''Siberian Native Council'''
+|
+* stability_cost_modifier = -0.33
+* global_institution_spread = -0.2
+|
+{{desc|Siberian Native Council|The Siberian Council is as an assembly of elders that is led by a joint chief.|image=Gov_shaman}}
+
+|- id="Gond Kingdom"
+| '''Gond Kingdom'''
+|
+* defensiveness = 0.2
+|
+{{desc|Gond Kingdom|Gondwana is a land of jungles, hills and forts but most of all it is a land of many tribes. Controlling this land means affording various minor power holders a large degree of self rule and privilege. Forts are imperative to control the various groups within our kingdom and controlling them will allow us to command the loyalties of the Gond people.|image=Gov_chieftain}}
+
+|- id="Great Mongol State"
+| '''Great Mongol State'''
+|
+* horde_unity = 1
+* global_manpower_modifier = 0.2
+* land_forcelimit_modifier = 0.2
+* loot_amount = 0.50
+* reinforce_cost_modifier = -0.5
+* cav_to_inf_ratio = 0.25
+* movement_speed = 0.2
+* years_of_nationalism = -5
+|
+{{desc|Great Mongol State|The Mongol Empire of Genghis Khan has been restored under our leadership. We are rebuilding the systems of government established by the Great Khan while avoiding the mistakes of his unworthy successors.|image=Gov_horde_riding}}
+
+|- id="Eghaevbo Administration"
+| '''Eghaevbo Administration'''
+|
+* core_creation = -0.10
+* governing_capacity = 150
+|
+{{desc|Eghaevbo Administration|With the institution of the Eghaevbo n’Ogbe and Eghaevbo n’Ore the further seperation of the royal power and the chiefs was cemented, lowering the influence of the Uzama and increasing the authority of the monarch.|image=Gov_generic_people}}
+
+|}
+=== Cultural Values ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Martial Society"
+| '''Martial Society'''
+|
+* global_manpower_modifier = 0.2
+|
+{{desc|Martial Society|Martial values have always been important in our society and as we expand a militarized society is what we must continue to build and preserve at the core of our state.|image=Gov_tribal_martial_society}}
+
+|- id="Civil Society"
+| '''Civil Society'''
+|
+* global_tax_modifier = 0.05
+* yearly_corruption = -0.05
+|
+{{desc|Civil Society|No state can exist with only warriors. We must build up stronger ties with civil society and the urbanites in our realm so that we can better extract revenue from them.|image=Gov_tribal_civil_society}}
+
+|- id="Great Law of Peace"
+| '''Great Law of Peace'''
+|
+* global_unrest = -2
+* governing_capacity = 150
+|
+{{desc|Great Law of Peace|By formalizing a series of universal laws across our peoples into a constitution , we shall insure no innocent citizen will suffer,|image=Gov_great_law_of_peace}}
+
+|- id="Royal Society"
+| '''Royal Society'''
+|
+* global_autonomy = -0.05
+* state_maintenance_modifier = -0.25
+|
+{{desc|Royal Society|The high concentration of wealth and power centered around the capital, and the practice of granting positions of power to royal family led to a very centralized kingdom that was in full control of its resources.|image=Gov_kongolese_king}}
+
+|- id="Slave Raids"
+| '''Slave Raids'''
+|
+* production_efficiency = 0.05
+* global_trade_goods_size_modifier = 0.10
+|
+{{desc|Slave Raids|Hard work is they key to a prosperous society, however, why put blood and sweat in building up your own lands when you can make your neighbours do it for you?|image=Gov_tatar_slave_raid}}
+
+|- id="Herders of the Steppe"
+| '''Herders of the Steppe'''
+|
+* manpower_recovery_speed = 0.1
+* min_autonomy_in_territories = -0.1
+|
+{{desc|Herders of the Steppe|Our people have harvested the steppes for generations, roaming the lands far and wide, letting our herds eat their fill.|image=Gov_steppe_shepherds}}
+
+|- id="Legacy of the Pax Mongolica"
+| '''Legacy of the Pax Mongolica'''
+|
+* global_unrest = -1
+* num_accepted_cultures = 2
+|
+{{desc|Legacy of the Pax Mongolica|The Legacy of the Pax Mongolica lives on in our hearts, hospitality and acceptance over cultural differences remains as a core value for our peoples.|image=Gov_steppe_shepherds}}
+
+|- id="Three Jurchen Tribes"
+| '''Three Jurchen Tribes'''
+|
+* global_trade_goods_size_modifier = 0.05
+* global_tax_modifier = 0.05
+* land_attrition = -0.10
+|
+{{desc|Three Jurchen Tribes|Let us unite the Agricultural Haixi, the sedentary Jianzhou and the Wild Jurchen; Hunters from the North. As we are one people divided by culture, lifestyle and profession. Combined, we are unstoppable.|image=Gov_generic_people}}
+
+|}
+=== Tribal Religion ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Religious Society"
+| '''Religious Society'''
+|
+* stability_cost_modifier = -0.1
+* religious_unity = 0.15
+|
+{{desc|Religious Society|While clan loyalties can take us far our expansion has made us the masters of more peoples than we once did. A strongly religious society can withstand expansion in both time and space more efficiently and will give us the cohesion we need.|image=Gov_tribal_religious_society}}
+
+|- id="Lip Service"
+| '''Lip Service'''
+|
+* land_maintenance_modifier = -0.1
+|
+{{desc|Lip Service|While it is important to observe religious practices to maintain our legitimacy we should not get bogged down in the principles of righteous rule and morality. Pragmatism will take us longer and allow us to support a larger state and army.|image=Gov_tribal_lip_service}}
+
+|- id="Sheikhdom"
+| '''Sheikhdom'''
+|
+* tolerance_own = 1
+* warscore_cost_vs_other_religion = -0.10
+|
+{{desc|Sheikhdom|Our rulers are wise and noble, and their domain shall extend as far as god wills it.|image=Gov_noble_muslim}}
+
+|- id="Adoption of Christianity"
+| '''Adoption of Christianity'''
+|
+* tolerance_heathen = 2
+|
+{{desc|Adoption of Christianity|Christianity got adopted, but the congolese catholic church retained much of their ancestral beliefs.|image=Gov_kongolese_cross}}
+
+|- id="Great Code of Nomads"
+| '''Great Code of Nomads'''
+|
+* global_trade_power = 0.2
+* tolerance_own = 1
+|
+{{desc|Great Code of Nomads|The Oirats governed themselves pursuant to a document known as the Great Code of the Nomads (Iki Tsaadzhin Bichig). The Code was promulgated in 1640 by them, their brethren in Dzungaria and some of the Eastern Mongols who all gathered near the Tarbagatai Mountains in Dzungaria to resolve their differences and to unite under the banner of the Gelugpa sect. Although the goal of unification was not met, the summit leaders did ratify the Code, which regulated all aspects of nomadic life.|image=Gov_steppe_buddhists}}
+
+|- id="The World under the Tengri"
+| '''The World under the Tengri'''
+|
+* tolerance_own = 1
+* tolerance_heathen = 1
+* tolerance_heretic = 1
+|
+{{desc|The World under the Tengri|We are all living under the Sky Gods, and as such are equally small in their eyes. As such we are all subject to their whims, regardless of what you believe them to be.|image=Gov_strength_of_the_khalsa}}
+
+|- id="Maintain Charade"
+| '''Maintain Charade'''
+|
+* diplomatic_reputation = 1
+* global_unrest = -1
+|
+{{desc|Maintain Charade|Let the Chinese and Mongolians keep their Buddhist llamas, their weak and corrupting influence may have proven usefull in pacifying the mongol and tibetan people, but the jurgen know better then to say this out loud.|image=Gov_arabic_scripture}}
+
+|- id="Tolerance of the Church"
+| '''Tolerance of the Church'''
+|
+* tolerance_heathen = 1
+* state_maintenance_modifier = -0.10
+|
+{{desc|Tolerance of the Church|We of the Tatar People are a pious and harsh people. We have no need of the soft god of the Rus. However, there is no need to rob these men of their churches.|image=Gov_church}}
+
+|- id="Children of Osanobua"
+| '''Children of Osanobua'''
+|
+* global_unrest = -1
+* development_cost = -0.10
+|
+{{desc|Children of Osanobua|Allow only chief priests and shrines of the children of Osanobua in the royal capital only, further empowering the royal authority in religious matters|image=Gov_generic_people}}
+
+|}
+=== Military Organisation ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Gunpowder Weapons"
+| '''Gunpowder Weapons'''
+|
+* fire_damage = 0.05
+* infantry_cost = -0.10
+|
+{{desc|Gunpowder Weapons|The era of lightning fast attacks is reaching its end, using our pillaged resources to equip our ranged infantry forces with gunpowdered weapons will cause their fire to drop the enemies like flies.|image=Gov_national_guard}}
+
+|- id="Modern Firearms"
+| '''Modern Firearms'''
+|
+* fire_damage = 0.05
+* mil_tech_cost_modifier = -0.1
+|
+{{desc|Modern Firearms|Embrace the modern combat of the time, even though it crushes the old traditions. For we can not lag behind and be crushed by the wheel of time.|image=Gov_national_guard}}
+
+|- id="Traditionalism"
+| '''Traditionalism'''
+|
+* shock_damage = 0.05
+* cavalry_cost = -0.10
+* cav_to_inf_ratio = 0.10
+|
+{{desc|Traditionalism|Let us hold on to our traditions and reform them into new and powerful shock attacks.|image=Gov_soldiers_4}}
+
+|- id="Traditionalism"
+| '''Traditionalism'''
+|
+* infantry_power = 0.10
+|
+{{desc|Traditionalism|In the face of an ever changing world where gunpowder is ever spreading, let us revive the ancient traditions of our people. that kept us safe for generations.|image=Gov_soldiers_4}}
+
+|- id="Turkoman Gunners"
+| '''Turkoman Gunners'''
+|
+* artillery_power = 0.05
+* artillery_cost = -0.10
+* artillery_bonus_vs_fort = 1
+|
+{{desc|Turkoman Gunners|Let us embrace these new weapons of destruction and go forth, for now no wall of men or stone can stop our expansion.|image=Gov_soldiers_2}}
+
+|- id="Mongol Ties"
+| '''Mongol Ties'''
+|
+* cavalry_cost = -0.10
+* reinforce_cost_modifier = -0.20
+|
+{{desc|Mongol Ties|Our ancient ties with the neighbouring mongols has left us with both a good amount of goodwill amongst these nomads that live in the saddle, as well as plenty of friends and families among those that are willing to join our armies.|image=Gov_soldiers_3}}
+
+|- id="Lessons of Subutai"
+| '''Lessons of Subutai'''
+|
+* leader_land_manuever = 1
+* leader_siege = 1
+|
+{{desc|Lessons of Subutai|Let us learn from Subutai's campaigns, his mastery of manouver warfare, defeat in detail and using trickery, speed and deception to take even fortified positions is legendary. By studying his life we might be able to teach our own generals to follow in his footsteps.|image=Gov_feudal_theocracy}}
+
+|- id="Tatar Raiders"
+| '''Tatar Raiders'''
+|
+* shock_damage = 0.10
+* recover_army_morale_speed = -0.05
+* loot_amount = 0.50
+|
+{{desc|Tatar Raiders|Our warriors are ferocious and strong,Their charges and raw power will break any line that stands before them, sadly this includes the officers that try to keep them from looting and foraging along the way.|image=Gov_tatar_slave_raid}}
+
+|- id="African Jungle Warriors"
+| '''African Jungle Warriors'''
+|
+* shock_damage = 0.05
+* movement_speed = 0.10
+* hostile_attrition = 1
+|
+{{desc|African Jungle Warriors|By using jungle specialists as our vanguard we can raid and wear our enemy down, as well as quickly overwhelm them during a moment of unawareness.|image=Gov_tribal_martial_society}}
+
+|- id="Indian Elephant Riders"
+| '''Indian Elephant Riders'''
+|
+* cavalry_power = 0.10
+* shock_damage_received = -0.10
+* cavalry_cost = 0.10
+|
+{{desc|Indian Elephant Riders|The mighty elephants are hard to train and ride into battle, but once unleashed are hard to stop and tend to cause massive casualties amongst our enemies.|image=Gov_noble_indian}}
+
+|- id="Warrior Kings"
+| '''Warrior Kings'''
+|
+* leader_land_manuever = 1
+* leader_land_shock = 1
+|
+{{desc|Warrior Kings|The leaders of the Edo people were a breed of ruler known for their personal military achievments and conquests, assisted by their mobility and supply canals to bring supplies and soldiers quickly.|image=Gov_generic_people}}
+
+|}
+=== Modernization ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Centralize Power"
+| '''Centralize Power'''
+|
+* core_creation = -0.05
+* stability_cost_modifier = -0.05
+|
+{{desc|Centralize Power|We are too reliant on the loyalties of the clans and tribes within our state. Let us instead start to build up institutional loyalty and divide the responsibilities of the state between formal offices under our ruler.|image=Gov_tribal_centralize_power}}
+
+|- id="Retain Tribal Hierarchy"
+| '''Retain Tribal Hierarchy'''
+|
+* governing_capacity = 150
+* max_absolutism = 10
+|
+{{desc|Retain Tribal Hierarchy|Any form of modernization must preserve the ancient hierarchies of the clans and tribes within our nation. Without the support of these groups our country will not be able to expand and thrive as it has up to now.|image=Gov_retain_tribal_hierarchy}}
+
+|- id="Unite the Royal Houses"
+| '''Unite the Royal Houses'''
+|
+* legitimacy = 1
+* yearly_absolutism = 0.25
+* max_absolutism = 15
+|
+{{desc|Unite the Royal Houses|By Uniting the Royal houses the time of civil wars and elective monarchs has come to an end, and we will be able to rule more effectively as there are no pretenders diverting our subjects loyalty.|image=Gov_kongolese_king_2}}
+
+|- id="Iranian Bureacracy"
+| '''Iranian Bureacracy'''
+|
+* governing_capacity = 250
+* global_autonomy = -0.025
+|
+{{desc|Iranian Bureacracy|Our domination of the persian peoples and their native administration is highly efficient, we should expand their system and adopt it as our own.|image=Gov_iranian_bureaucracy}}
+
+|- id="Reintroduce the Dirham"
+| '''Reintroduce the Dirham'''
+|
+* trade_efficiency = 0.10
+* diplomatic_annexation_cost = -0.15
+|
+{{desc|Reintroduce the Dirham|The Dirham was the currency under the mongol khans of old. Let us reintroduce it so that we may unite our realm and promote trade. By spreading our currency to our vassals their economy will be tied to ours and so be much easier to reduce their local privileges.|image=Gov_paper_money_map}}
+
+|- id="Birth of the Manchu"
+| '''Birth of the Manchu'''
+|
+* culture_conversion_cost = -0.20
+* idea_cost = -0.10
+|
+{{desc|Birth of the Manchu|Our Jurchen ancestors were vassals of the Ming, This is a shame that will taint the Jurchen name forever. let us expunge the Jurchen name from history and let us be known as the Manchu, a new ethnicity that conquered all of China.|image=Gov_asian_scripture}}
+
+|- id="Bashqaq Administration"
+| '''Bashqaq Administration'''
+|
+* global_unrest = -2
+* governing_capacity = 250
+|
+{{desc|Bashqaq Administration|The Basqaq's were military and administrative administrators that controlled the provinces, and were responsible for both the civil and military maintenance of their regions. The intertwining of these rules meant less local unrest due to powerful local representatives of the khan.|image=Gov_judge}}
+
+|}
+=== Tribal Reformation ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Barbaric Despoilers"
+| '''Barbaric Despoilers'''
+|
+* raze_power_gain = 0.33
+* 
+|
+{{desc|Barbaric Despoilers|In war, nothing is truly sacred. To fight is to live, and the strongest should seize whatever they covet.|image=Gov_rioting_burning_2}}
+
+|- id="Unified Horde Identity"
+| '''Unified Horde Identity'''
+|
+* horde_unity = 2
+|
+{{desc|Unified Horde Identity|We must put aside old tribal allegiances in the name of the Horde. We are one people under one Khan.|image=Gov_fist_in_air}}
+
+|- id="Reform into Monarchy"
+| '''Reform into Monarchy'''
+|
+|
+{{desc|Reform into Monarchy|It is time we abandon our tribal trappings and create a fully fledged monarchy carried by institutions and not clan loyalties.|image=king_highlighted}}
+
+|- id="Reform into Republic"
+| '''Reform into Republic'''
+|
+|
+{{desc|Reform into Republic|We must guard the liberties of our citizens and form a state where the head of government is not hereditary but instead elected from those with the right qualities.|image=parliament_highlighted}}
+
+|- id="Reform into Theocracy"
+| '''Reform into Theocracy'''
+|
+|
+{{desc|Reform into Theocracy|Religious guidance is the road forward for our people. Let us involve the clergy in the rule of our nation and reap the rewards of a just and |image=pope_highlighted}}
+
+|- id="Become Horde"
+| '''Become Horde'''
+|
+|
+{{desc|Become Horde|The steppes call for our people. Let us abandon the sedentary traditions of our ancestors and fully embrace the free life of the open plains.|image=horde_riding_highlighted}}
+
+|- id="Haudenosaunee"
+| '''Haudenosaunee'''
+|
+* years_of_nationalism = -5
+* num_accepted_cultures = 2
+|
+{{desc|Haudenosaunee|The Haudenosaunee is who we are, The people of the Longhouse, A strong people made unbreakable through the unity of our tribes. Formed from the ashes of our forefathers by the Peacemaker centuries ago, Our nation will span the entire continent, and shall unite all our lost kinsmen.|image=Gov_iroquois_longhouse}}
+
+|- id="Recruit Cossacks"
+| '''Recruit Cossacks'''
+|
+* reinforce_cost_modifier = 0.20
+* reinforce_speed = -0.15
+|
+{{desc|Recruit Cossacks|We can enlarge our army by conscripting our local subjects. This will have a negative effect on the cohesiveness of our mounted forces howevery, as cossack and tatars are highly distrustfull of eachother.|image=Gov_soldiers_2}}
+* enables_cossack_estate = yes
+
+|- id="Feudal Vassals"
+| '''Feudal Vassals'''
+|
+* vassal_income = 0.25
+* vassal_forcelimit_bonus = 1.00
+|
+{{desc|Feudal Vassals|Let us ennoble our sedentary subjects and grant them rights equal to the tribes, so that they may prosper and serve in our armies alongside the tribal horsemen.|image=Gov_castle}}
+* enables_noble_estate = yes
+
+|}
+
+[[Category:Governments Expanded]]

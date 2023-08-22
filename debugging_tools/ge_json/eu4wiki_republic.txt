@@ -1,0 +1,1975 @@
+__NOTOC__
+{{mod header|Governments Expanded}}
+
+=[[Governments_Expanded/Monarchy|Monarchy]] | [[Governments_Expanded/Republic|Republic]] | [[Governments_Expanded/Theocracy|Theocracy]] | [[Governments_Expanded/Tribal|Tribal]]=
+
+{| class="eu4box-inline mw-collapsible" style="text-align: center; margin: auto; max-width: 730px;"
+|+ <span style="white-space: nowrap;">'''Reform Tiers'''</span>
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 1: [[#Power Structure|Power Structure]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_people_walking|Oligarchy}}
+{{Navicon|Gov_politician|Plutocracy}}
+{{Navicon|Gov_trading_city|Venetian Government}}
+{{Navicon|Gov_pirate_republic|Pirate Republic}}
+{{Navicon|Gov_nobleman|Noble Elite}}
+{{Navicon|Gov_free_city|Free City}}
+{{Navicon|Gov_trading_city|Trading City}}
+{{Navicon|Gov_ambrosian_republic|Ambrosian Republic}}
+{{Navicon|Gov_merchant|Veche Republic}}
+{{Navicon|Gov_parliament|American Republic}}
+{{Navicon|Gov_constitution|Federal Republic}}
+{{Navicon|Gov_peasants|Colonial Government}}
+{{Navicon|Gov_dutch_republic|Dutch Republic}}
+{{Navicon|Gov_peasant_republic|Peasants Republic}}
+{{Navicon|Gov_revolutionary_republic|Revolutionary Republic}}
+{{Navicon|Gov_revolutionary_republic|Revolutionary State}}
+{{Navicon|Gov_parliament_hall|Presidential Dictator}}
+{{Navicon|Gov_horde_riding|Sich Rada}}
+{{Navicon|Gov_parliament_hall|Military Dictatorship}}
+{{Navicon|Reform_signoria|Italian Signoria}}
+{{Navicon|Reform_protectorate_parliament|Protectorate Parliament}}
+{{Navicon|Gov_prussian_monarchy|Stratocratic Administration}}
+{{Navicon|Reform_united_cantons|Autonomous Swiss Cantons}}
+{{Navicon|Gov_florentine_republic|The Florentine Republic}}
+{{Navicon|Gov_genoa|Genoese Republic}}
+{{Navicon|Gov_old_confederacy|Old Swiss Confederacy}}
+{{Navicon|Gov_merchant|Great Russian Republic}}
+{{Navicon|Gov_peasant_republic|Caucasian Federation}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 2: [[#Republican Virtues|Republican Virtues]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_merchant|Authoritarianism}}
+{{Navicon|Gov_man_and_children|Political Dynasties}}
+{{Navicon|Gov_assembly_hall|Republicanism}}
+{{Navicon|Gov_council_of_captains|Council of Captains}}
+{{Navicon|Gov_articles_of_agreement|Articles of Agreement}}
+{{Navicon|Gov_smugglers_haven|Smugglers Haven}}
+{{Navicon|Reform_liberte|Liberté Ideals}}
+{{Navicon|Reform_egalite|Egalité Ideals}}
+{{Navicon|Reform_fraternite|Fraternité Ideals}}
+{{Navicon|Gov_de_medici|De Medici Dynasty}}
+{{Navicon|Gov_peasants|Support the Borghese}}
+{{Navicon|Gov_peasants|Rule by Consent}}
+{{Navicon|Gov_hansa_trade|De Moedernegotie}}
+{{Navicon|Gov_peasants|Mixed Republic}}
+{{Navicon|Gov_swiss_army|Independence}}
+{{Navicon|Gov_peasant_republic|Sovereignty without a Sovereign}}
+{{Navicon|Gov_italy_ghibbelline|Support Ghibbellines}}
+{{Navicon|Gov_italy_guelph|Support Guelphs}}
+{{Navicon|Gov_hansa_trade|Legacy of Saint Ambrose}}
+{{Navicon|Gov_merchant|Hanseatic Ties}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 3: [[#Frequency of Elections|Frequency of Elections]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_ballot_box|Frequent Elections}}
+{{Navicon|Gov_constitution|Consolidation of Power}}
+{{Navicon|Reform_consolidate_power_in_doge|Consolidate Power in the Doge}}
+{{Navicon|Reform_consolidate_power_in_cities|Disperse Power Across the Cities}}
+{{Navicon|Gov_noble_indian|Permanent Marathas Council}}
+{{Navicon|Gov_rajput_kingdom|Governmental Purbias Register}}
+{{Navicon|Gov_paper_with_seal_3|Sortition}}
+{{Navicon|Gov_merchant_ship|Council of the Indies}}
+{{Navicon|Reform_legislative_assembly|Legislative Assembly}}
+{{Navicon|Reform_national_constituent|Constituent Assembly}}
+{{Navicon|Gov_paper_with_seal_3|Factional Politics}}
+{{Navicon|Gov_vroedschap|Vroedschappen}}
+{{Navicon|Gov_peasant_republic|Council of 48}}
+{{Navicon|Gov_italian_mercenary|Captain And Defender of Liberty}}
+{{Navicon|Gov_merchant|Princes of Novogorod}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 4: [[#Military Organisation|Military Organisation]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_soldiers_2|Feudal Levies}}
+{{Navicon|Gov_national_guard|National Guard}}
+{{Navicon|Gov_latin_militia|Milizia Nationale}}
+{{Navicon|Gov_landsknecht|Mercenary Corps}}
+{{Navicon|Gov_soldiers|Professional Army}}
+{{Navicon|Gov_italian_mercenary|Condottieri Contracts}}
+{{Navicon|Gov_imperial_army|Lead the Imperical Circle}}
+{{Navicon|Gov_Turkish_iqta|Expanded Devshirme}}
+{{Navicon|Gov_Tatar_raid|Tatar Mercenaries}}
+{{Navicon|Gov_soldiers_5|Elephant Cavalry}}
+{{Navicon|Gov_soldiers_5|Portuguese Marines}}
+{{Navicon|Gov_noble_indian|Permanent Marathas Council}}
+{{Navicon|Gov_rajput_kingdom|Governmental Purbias Register}}
+{{Navicon|Gov_new_order_regiments|New Order Regiments}}
+{{Navicon|Gov_king|Generalkriegskommissariat}}
+{{Navicon|Gov_gustavan_artillery|Gustavan Artillery}}
+{{Navicon|Gov_soldiers|The Black Guard}}
+{{Navicon|Gov_austrian_army|Re-Organize the Imperial Army}}
+{{Navicon|Gov_mamluk_horse|Arabian Horses}}
+{{Navicon|Gov_national_guard|Pospolite Ruszenie}}
+{{Navicon|Gov_national_guard|Polish National Guard}}
+{{Navicon|Gov_england_henry_8|Henrician Reforms}}
+{{Navicon|Gov_berber_warrior|Berber Cavalry}}
+{{Navicon|Gov_spain_jinite|Jinetes}}
+{{Navicon|Gov_spain_tercio|Miquelet Militia}}
+{{Navicon|Gov_king|Royal Ordinances}}
+{{Navicon|Gov_hesse_jaegers|Elite Jägers}}
+{{Navicon|Gov_generic_people|Warrior Kings}}
+{{Navicon|Gov_hesse_jaegers|Employ the Snaphaener}}
+{{Navicon|Gov_england_redcoat|Redcoats}}
+{{Navicon|Gov_samurai|Recruit Ronin}}
+{{Navicon|Gov_daimyo|Ashigaru Generals}}
+{{Navicon|Gov_asian_scripture|Wei-Suo System}}
+{{Navicon|Gov_persia_abbas|Abbas's Reforms}}
+{{Navicon|Gov_hejaz_cavalry|Sherifan Levies}}
+{{Navicon|Gov_soldiers|Restore the Komnenoid Army}}
+{{Navicon|Gov_fort|Jaesungbangryak}}
+{{Navicon|Gov_hesse_jaegers|Five Military Force}}
+{{Navicon|Gov_soldiers_6|Honor of the Thai People}}
+{{Navicon|Gov_szlachta_noble_1|Form the Vojstatic}}
+{{Navicon|Gov_william_3|Reforms of William III}}
+{{Navicon|Gov_swiss_mercenaries|Reform the Condotierri}}
+{{Navicon|Gov_soldiers_2|Turkoman Gunners}}
+{{Navicon|Gov_soldiers_3|Mongol Ties}}
+{{Navicon|Gov_feudal_theocracy|Lessons of Subutai}}
+{{Navicon|Gov_peasant_republic|Peasant Militia}}
+{{Navicon|Gov_merchant|Tysyatskys}}
+{{Navicon|Gov_catalan_company|Almogavars}}
+{{Navicon|Gov_soldiers|Republican Guard}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 5: [[#Regionalism|Regionalism]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_landscape|Provincial Governments}}
+{{Navicon|Gov_map|Administrative Divisions}}
+{{Navicon|Gov_merchant_ship|Union of States}}
+{{Navicon|Gov_merchant_ship|Exile Colonial Companies}}
+{{Navicon|Gov_paper_money_map|Advanced Bookkeeping}}
+{{Navicon|Gov_map_2|Communal Territories}}
+{{Navicon|Gov_voc_ship|Verenigde Indische Companies}}
+{{Navicon|Gov_swiss_cantons|Confederation of Cantons}}
+{{Navicon|Gov_peasant_republic|Expand the 48}}
+{{Navicon|Gov_map_2|Union of Cities}}
+{{Navicon|Gov_merchant|Volost Colonies}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 6: [[#Separation of Power|Separation of Power]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_judge|Parliamentarism}}
+{{Navicon|Gov_man_on_podium|Presidential System}}
+{{Navicon|Gov_pirate_king|Pirate King}}
+{{Navicon|Gov_war_against_the_world|War Against the World Doctrine}}
+{{Navicon|Gov_black_market_consortium|Black Market Consortium}}
+{{Navicon|Gov_king|Imperial Diplomacy}}
+{{Navicon|Gov_soldiers_7|Municipal Self-Defense}}
+{{Navicon|Reform_feuillant|The Feuillant System}}
+{{Navicon|Gov_parliament_hall|The Two-Chamber System}}
+{{Navicon|Gov_Stadholder|Stadholders}}
+{{Navicon|Gov_andrea_doria|Andrea Doria's Constitution}}
+{{Navicon|Gov_dutch_tulip_field|Ware Vrijheid}}
+{{Navicon|Gov_nobleman|The Consigliere}}
+{{Navicon|Gov_man_on_podium|Council of Petitions}}
+{{Navicon|Gov_peasant_republic|Hansa Representatives}}
+{{Navicon|Gov_merchant|Council of Lords}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 7: [[#Consolidation of Power|Consolidation of Power]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_castle|Broaden Executive Powers}}
+{{Navicon|Gov_generic_people|Devolution of Powers}}
+{{Navicon|Gov_king|Absolute Power of the President}}
+{{Navicon|Reform_revolutionary_council|A Revolutionary Council}}
+{{Navicon|Gov_confederation_of_states|Confederation of States}}
+{{Navicon|Gov_peasant_republic|Dominate the Hansa}}
+{{Navicon|Gov_judge|Empowered Aristocratic Courts}}
+{{Navicon|Gov_colonial_rule|Empowered Sovereign Trade Companies}}
+{{Navicon|Gov_imperial_inquisition|Empowered Consolidation of Power}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 8: [[#Guiding Principle of Administration|Guiding Principle of Administration]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_paper_with_seal_3|Political Principle}}
+{{Navicon|Gov_parliament_hall|Moral Principle}}
+{{Navicon|Gov_revolutionary_republic|Revolutionary Principle}}
+{{Navicon|Reform_equal_electorate|Equality Principle}}
+{{Navicon|Reform_imperial_nobility|Imperial Principle}}
+{{Navicon|Gov_dutch_tolerance|Tolerance Principle}}
+{{Navicon|Gov_peasant_republic|Independent Principle}}
+{{Navicon|Gov_soldiers_2|Empowered Principle of Heritage}}
+{{Navicon|Gov_economy_trade|Empowered Principle of Profit}}
+{{Navicon|Gov_french_louis|Empowered Principle of Power}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 9: [[#Electorate|Electorate]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_dutch_flag|Landholders}}
+{{Navicon|Gov_people_walking|Citizenry}}
+{{Navicon|Reform_admiralty|Board of Admirals}}
+{{Navicon|Reform_equal_electorate|Equal Electorate}}
+{{Navicon|Reform_three_classes|Three Social Classes}}
+{{Navicon|Reform_military_dictatorship|Military Electorate}}
+{{Navicon|Gov_regents|The Regents}}
+{{Navicon|Gov_peasant_republic|Peasantry}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 10: [[#Office Selection|Office Selection]]
+|-
+| {{box wrapper}}
+{{Navicon|Gov_politician|Appointment by Committee}}
+{{Navicon|Gov_map_2|Bureaucratic Aparatus}}
+{{Navicon|Gov_paper_with_seal|Extended Suffrage}}
+{{Navicon|Gov_raadspensionaris|Raadspensionaris}}
+{{Navicon|Gov_peasant_republic|Hansa Universities}}
+{{end box wrapper}}
+
+|-
+! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier 11: [[#Question of Dictatorship|Question of Dictatorship]]
+|-
+| {{box wrapper}}
+{{Navicon|king_2_highlighted|Seize Executive Power}}
+{{Navicon|religious_leader_highlighted|Proclaim Divine Guidance}}
+{{Navicon|Gov_soldiers_2|Strengthen Executive Powers}}
+{{Navicon|Gov_parliament_hall|Reinforce Republican Values}}
+{{Navicon|parliament_highlighted|Lower the Black Flag}}
+{{Navicon|Gov_man_on_podium|President For Life}}
+{{Navicon|Reform_government_for_people|Government for the People}}
+{{Navicon|Reform_become_rev_empire|A Revolutionary Empire}}
+{{end box wrapper}}
+|}
+
+== Reform Tiers ==
+
+=== Power Structure ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Oligarchy"
+| '''Oligarchy'''
+|
+* global_tax_modifier = 0.05
+* max_absolutism = -40
+|
+{{desc|Oligarchy|In an Oligarchy the ruler is elected from a group of very influential persons at the very top of society. This ruling class is also the only group that the head of government answers directly to and it is their support the state relies upon.|image=Gov_people_walking}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Plutocracy"
+| '''Plutocracy'''
+|
+* max_absolutism = -50
+* merchants = 1
+|
+{{desc|Plutocracy|A Plutocratic Republic is one where wealth and trade dictate the agenda. The ruler is elected from among the most influential merchant families within the state and will have to rely on their support.|image=Gov_politician}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* is_merchant_republic = yes
+
+|- id="Venetian Government"
+| '''Venetian Government'''
+|
+* max_absolutism = -50
+* merchants = 1
+* yearly_corruption = -0.1
+|
+{{desc|Venetian Government|The Most Serene Republic of Venice employs a complex and convoluted system for electing officials to public office. A series of secret ballots appoints 41 electors, who then each cast a vote into an urn. A single vote is extracted from the urn, and the man whose name is written on it becomes the new Doge. The system attempts to combat electoral corruption and ensure a fair vote.|image=Gov_trading_city}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* lottery_election = yes
+* election_on_death = yes
+* is_merchant_republic = yes
+
+|- id="Pirate Republic"
+| '''Pirate Republic'''
+|
+* republican_tradition = -1
+* max_absolutism = -50
+* naval_forcelimit_modifier = 0.5
+* capture_ship_chance = 0.33
+* governing_cost = 0.75
+* may_perform_slave_raid_on_same_religion = yes
+|
+{{desc|Pirate Republic|Insofar as this loose collection of pirate crews can be called a state, the Pirate Republic is a haven for all manner of thieves, murderers, and smugglers.|image=Gov_pirate_republic}}
+* locked_government_type = yes
+* force_admiral_leader = yes
+
+|- id="Noble Elite"
+| '''Noble Elite'''
+|
+* army_tradition = 0.25
+* max_absolutism = -20
+* nobles_influence_modifier = 0.05
+* maratha_exclusive_influence_modifier = 0.05
+* rajput_exclusive_influence_modifier = 0.05
+|
+{{desc|Noble Elite|In this Republic the right to rule is hereditary within certain noble families. These families elect the ruler from within their own group and this head of government will also have to rely on their support.|image=Gov_nobleman}}
+* enables_plutocratic_idea_group = no
+* enables_aristocratic_idea_group = yes
+
+|- id="Free City"
+| '''Free City'''
+|
+* trade_efficiency = 0.1
+* development_cost = -0.1
+* max_absolutism = -20
+* burghers_influence_modifier = 0.15
+|
+{{desc|Free City|This is a free Imperial city that has been granted special rights and privileges by the Emperor himself.|image=Gov_free_city}}
+* locked_government_type = yes
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Trading City"
+| '''Trading City'''
+|
+* max_absolutism = -20
+* global_trade_power = 0.1
+* max_absolutism = -20
+|
+{{desc|Trading City|A governmental form where the nation is governed as a republic with a heavy reliance on trade and commerce.\nTrading Cities can only be created by the leader of a Trade League.\nIf a Trading City grows to more than one province, the government form will change to §YMerchant Republic§!.\n|image=Gov_trading_city}}
+* locked_government_type = yes
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Ambrosian Republic"
+| '''Ambrosian Republic'''
+|
+* global_tax_modifier = 0.1
+* land_morale = 0.05
+* governing_capacity = 50
+* max_absolutism = -30
+|
+{{desc|Ambrosian Republic|It was a short-lived city-state government that formed in the Duchy of Milan when the Duke died without an heir in 1447.|image=Gov_ambrosian_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Veche Republic"
+| '''Veche Republic'''
+|
+* merchants = 1
+* governing_capacity = 50
+* max_absolutism = -50
+|
+{{desc|Veche Republic|This state is governed by a Veche, a council with the highest legislative and judicial authority consisting of Boyars, Merchants and even commoners.|image=Gov_merchant}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="American Republic"
+| '''American Republic'''
+|
+* war_exhaustion = -0.04
+* stability_cost_modifier = -0.1
+* max_absolutism = -20
+|
+{{desc|American Republic|The American Republic is a confederation of the Thirteen States of America, each with their own independence and governments, with a President who rules for four years after election.|image=Gov_parliament}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* blocked_call_diet = yes
+
+|- id="Federal Republic"
+| '''Federal Republic'''
+|
+* diplomatic_reputation = 1
+* global_spy_defence = 0.1
+* max_absolutism = -30
+|
+{{desc|Federal Republic|The Federal Republic is a federation of the Thirteen States of America, each with their own independence and governments, with a President who rules for four years after election.|image=Gov_constitution}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* blocked_call_diet = yes
+
+|- id="Colonial Government"
+| '''Colonial Government'''
+|
+* global_autonomy = -0.05
+* recover_army_morale_speed = 0.02
+* embracement_cost = -0.1
+* governing_capacity = 100
+|
+{{desc|Colonial Government|A provincial government set to handle the affairs of the New World colonies, led by a Governor or Viceroy.|image=Gov_peasants}}
+* locked_government_type = yes
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Dutch Republic"
+| '''Dutch Republic'''
+|
+* heavy_ship_power = 0.1
+* trade_efficiency = 0.1
+* governing_capacity = 50
+* max_absolutism = -30
+|
+{{desc|Dutch Republic|The Dutch Republic is a confederation of seven provinces, which have their own governments and are very independent, and Generality lands, which are governed directly by the States-General, the federal government.|image=Gov_dutch_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Peasants Republic"
+| '''Peasants Republic'''
+|
+* production_efficiency = 0.1
+* land_morale = 0.05
+* max_absolutism = -50
+|
+{{desc|Peasants Republic|A governmental form where peasant communities hold the power themselves and elect rulers from among their leaders.|image=Gov_peasant_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* enables_peasant_estate = yes
+
+|- id="Revolutionary Republic"
+| '''Revolutionary Republic'''
+|
+* tolerance_heretic = 2
+* land_morale = 0.1
+* global_autonomy = -0.2
+* max_revolutionary_zeal = 50
+|
+{{desc|Revolutionary Republic|The revolutionary republic represents the government of the nation by a small executive with the support of an elective chamber of deputies. Revolutionary propaganda gives the armies defending the revolution strong morale, and the principle that everyone is equal gives strong leadership.|image=Gov_revolutionary_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* locked_government_type = yes
+
+|- id="Revolutionary State"
+| '''Revolutionary State'''
+|
+* tolerance_heretic = 2
+* land_morale = 0.1
+* global_autonomy = -0.2
+* max_revolutionary_zeal = 25
+|
+{{desc|Revolutionary State|The revolutionary republic represents the government of the nation by a small executive with the support of an elective chamber of deputies. This state will do its utmost to support the cause of the Revolution and spread the ideals of liberty and equality.|image=Gov_revolutionary_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* locked_government_type = yes
+
+|- id="Presidential Dictator"
+| '''Presidential Dictator'''
+|
+* global_autonomy = -0.075
+* land_morale = 0.1
+|
+{{desc|Presidential Dictator|In this state an appointed dictator exercises almost absolute power over the state.|image=Gov_parliament_hall}}
+* locked_government_type = yes
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Sich Rada"
+| '''Sich Rada'''
+|
+* cavalry_power = 0.2
+* cavalry_cost = -0.2
+* cav_to_inf_ratio = 0.2
+* governing_capacity = 50
+* max_absolutism = -40
+|
+{{desc|Sich Rada|Free Cossacks are ruled by a military council presided over by a Hetman.|image=Gov_horde_riding}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Military Dictatorship"
+| '''Military Dictatorship'''
+|
+* global_autonomy = -0.075
+* land_morale = 0.1
+* max_absolutism = -10
+|
+{{desc|Military Dictatorship|A military dictator has seized power and rules the state as an autocrat. New rulers are invariably selected from among the Generals.|image=Gov_parliament_hall}}
+* generals_become_rulers = yes
+* locked_government_type = yes
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Italian Signoria"
+| '''Italian Signoria'''
+|
+* global_tax_modifier = 0.05
+* max_absolutism = -30
+|
+{{desc|Italian Signoria|The Republic functions most smoothly under the de facto jurisdiction of our most prominent political family. Any suggestion that this is barely distinguishable from a monarchy is of course nonsense.|image=Reform_signoria}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* enables_nepotism = yes
+
+|- id="Protectorate Parliament"
+| '''Protectorate Parliament'''
+|
+* global_autonomy = -0.05
+* land_morale = 0.05
+* max_absolutism = -20
+* republican_tradition = -0.5
+|
+{{desc|Protectorate Parliament|Under the benevolent guidance of the Lord Protector, our nation is administered by a rump parliament loyal to the Commonwealth.\n\nDisables elections.|image=Reform_protectorate_parliament}}
+* locked_government_type = yes
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* blocked_call_diet = yes
+
+|- id="Stratocratic Administration"
+| '''Stratocratic Administration'''
+|
+* war_exhaustion = -0.02
+* monthly_militarized_society = 0.05
+* global_autonomy = -0.075
+* republican_tradition = -0.5
+* max_absolutism = -10
+* governing_capacity_modifier = -0.5
+|
+{{desc|Stratocratic Administration|The Prussian Republic is ruled not by corrupt oligarchs, nor by the will of the ignorant masses, but by its most skilled and proven military commanders. The expansion and protection of our borders are the prime directives for the state.\n\nDisables elections.|image=Gov_prussian_monarchy}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* generals_become_rulers = yes
+
+|- id="Autonomous Swiss Cantons"
+| '''Autonomous Swiss Cantons'''
+|
+* governing_capacity = -50
+* free_policy = 1
+* mercenary_manpower = 0.5
+* max_absolutism = -30
+|
+{{desc|Autonomous Swiss Cantons|The Swiss Federation is not a singular nation in itself, it is a federation of independent Cantons with the common goal of maintaining their independence and economic stability.|image=Reform_united_cantons}}
+
+|- id="The Florentine Republic"
+| '''The Florentine Republic'''
+|
+* trade_efficiency = 0.1
+* build_cost = -0.10
+* max_absolutism = -30
+|
+{{desc|The Florentine Republic|We normally think of a Republic as a government where everyone votes for representatives who will represent their interests to the government (think of the United States pledge of allegiance: "and to the republic for which it stands..."). However, Florence was a Republic in the sense that there was a constitution which limited the power of the nobility (as well as laborers) and ensured that no one person or group could have complete political control (so it was far from our ideal of everyone voting, in fact a very small percentage of the population had the vote). Political power resided in the hands of middle-class merchants, a few wealthy families (such as the Medici, important art patrons who would later rule Florence) and the powerful guilds.|image=Gov_florentine_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Genoese Republic"
+| '''Genoese Republic'''
+|
+* max_absolutism = -50
+* global_trade_goods_size_modifier = 0.10
+* merchants = 1
+|
+{{desc|Genoese Republic|The Merchantile Republic of Genoa has been a powerful force in the mediterean, born during the 11th century amidst crusades and as a communal republic for self-defence and self-determination. Our merchants and fleets go wherever there is profit to be made, setting up trade posts from north africa to the black sea, bringing wealth and prosperity to all. Wars and Disease have hurt our state, leading to a decline and a reduction in our might, being dominated by the italian and francien powers. With our silk weavers, bankers and daring merchants. The Republic that recognizes no superior!|image=Gov_genoa}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* is_merchant_republic = yes
+
+|- id="Old Swiss Confederacy"
+| '''Old Swiss Confederacy'''
+|
+* republican_tradition = 0.25
+* infantry_cost = -0.10
+* min_autonomy = 10
+* max_absolutism = -50
+|
+{{desc|Old Swiss Confederacy|The Alte Eidgenossenschaft, or Old Swiss Confederacy, was a loose confederation of independent small states (cantons) within the Holy Roman Empire. It is the precursor of the modern state of Switzerland. It formed during the 14th century, from a nucleus in what is now Central Switzerland, expanding to include the cities of Zürich and Berne by the middle of the century. This formed a rare union of rural and urban communes, all of which enjoyed imperial immediacy in the Holy Roman Empire.|image=Gov_old_confederacy}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+
+|- id="Great Russian Republic"
+| '''Great Russian Republic'''
+|
+* governing_capacity = 250
+* global_manpower_modifier = 0.20
+* max_absolutism = -30
+|
+{{desc|Great Russian Republic|With the unification of Russia under Great Novgorod, our Great Kniaz has greatly reduced the bureaucracy limiting his power. We have created an effective but just institution to lead the Russian people to their destiny.|image=Gov_merchant}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* enables_veche_parties = yes
+
+|- id="Caucasian Federation"
+| '''Caucasian Federation'''
+|
+* num_accepted_cultures = 2
+* tolerance_heretic = 1
+* max_absolutism = -30
+|
+{{desc|Caucasian Federation|After decades of warfare and strife, the ancient lands of Caucasia are united, finally free of political query and combat. The time is nigh to proclaim ourselves as the legitimate rulers of all of Caucasia. We shall form a federation of Caucasian states, allowing regional representation to all subjects.|image=Gov_peasant_republic}}
+* enables_plutocratic_idea_group = yes
+* enables_aristocratic_idea_group = no
+* enables_caucasus_candidates = yes
+
+|}
+=== Republican Virtues ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Authoritarianism"
+| '''Authoritarianism'''
+|
+* global_unrest = -1
+* harsh_treatment_cost = -0.10
+|
+{{desc|Authoritarianism|While it is no Monarchy, this republic values law and order above all else and will act forcefully to ensure that the authority of the central government is respected throughout the country.|image=Gov_merchant}}
+
+|- id="Political Dynasties"
+| '''Political Dynasties'''
+|
+* candidate_random_bonus = 1
+|
+{{desc|Political Dynasties|In this country a number of families have over time emerged as very willing to assume the responsibilities of state. So much so that it has become both expected of them to shoulder that responsibility, and expected of the state to offer it to their scions.|image=Gov_man_and_children}}
+* enables_nepotism = yes
+
+|- id="Republicanism"
+| '''Republicanism'''
+|
+* republican_tradition = 0.2
+|
+{{desc|Republicanism|This Republic has made itself a guardian of Republican ideals, citizen power and everyone working together for the common good.|image=Gov_assembly_hall}}
+
+|- id="Council of Captains"
+| '''Council of Captains'''
+|
+* pr_captains_influence = 0.1
+* privateer_efficiency = 0.33
+|
+{{desc|Council of Captains|The Pirate Republic should be governed by the will of its greatest captains. It is their alliance that holds our nation together, and so their decisions must take precedence over any other authority.|image=Gov_council_of_captains}}
+
+|- id="Articles of Agreement"
+| '''Articles of Agreement'''
+|
+* pr_buccaneers_influence = 0.1
+* republican_tradition = 0.5
+* global_sailors_modifier = 0.1
+|
+{{desc|Articles of Agreement|The Articles of Agreement are the cornerstone of the social order on board a pirate ship. They guarantee that every crewman has an equal vote in all matters and an equal share of all plunder. Articles such as these should be established for the Republic itself, so that the liberty and equality of all pirates is secured.|image=Gov_articles_of_agreement}}
+
+|- id="Smugglers Haven"
+| '''Smugglers Haven'''
+|
+* pr_smugglers_influence = 0.1
+* global_foreign_trade_power = 0.3
+|
+{{desc|Smugglers Haven|A pirate enterprise cannot function without a way to sell their stolen goods. We must ensure that conditions in the Republic are favorable for smuggling operations.|image=Gov_smugglers_haven}}
+
+|- id="Liberté Ideals"
+| '''Liberté Ideals'''
+|
+* rr_girondists_influence = 0.1
+* num_accepted_cultures = 2
+|
+{{desc|Liberté Ideals|Liberté is the school of thought within the Revolution that claims that any individual should have the divine right to do whatever he or she wishes that does not do harm to or restrict the liberty of others.|image=Reform_liberte}}
+
+|- id="Egalité Ideals"
+| '''Egalité Ideals'''
+|
+* rr_jacobins_influence = 0.1
+* republican_tradition = 0.25
+|
+{{desc|Egalité Ideals|Those who believe in the ideals of Egalité believe that the law, whether it be a rule or a right, applies equally to all people, regardless of faith, social class, culture, and gender. Equally, all citizens should have access to all positions in our government based only on their competence.|image=Reform_egalite}}
+
+|- id="Fraternité Ideals"
+| '''Fraternité Ideals'''
+|
+* rr_royalists_influence = 0.1
+* culture_conversion_cost = -0.2
+* harsh_treatment_cost = -0.25
+|
+{{desc|Fraternité Ideals|Not everyone acknowledges the ideals of Fraternité as an ideal of the Revolution, but view it as a reactionary element within our own state who wish to return to the old government. Fraternité is a sense of brotherhood and those who follow its principles believe that the state should follow an authoritarian route where there is a proper place for all citizens assigned by the state.|image=Reform_fraternite}}
+
+|- id="De Medici Dynasty"
+| '''De Medici Dynasty'''
+|
+* max_absolutism = 5
+|
+{{desc|De Medici Dynasty|The De Medici dynasty has produced many grand consuls for our Florentine Republic, perhaps we should allow them to continue supplying us with their talented and well groomed heirs.|image=Gov_de_medici}}
+* enables_demedici = yes
+
+|- id="Support the Borghese"
+| '''Support the Borghese'''
+|
+* republican_tradition = 0.3
+|
+{{desc|Support the Borghese|A new and remarkable society has been emerging, a rich and expanding semi-aristocratic class, the borghese, interested in the urban institutions and republican government, by using this interest, we can stabilize our governing bodies, and resist monarchic influences.|image=Gov_peasants}}
+
+|- id="Rule by Consent"
+| '''Rule by Consent'''
+|
+* republican_tradition = 0.5
+* stability_cost_modifier = 0.1
+* max_absolutism = -10
+|
+{{desc|Rule by Consent|The Doges of Genoa were elected for life, but rarely served their full term, often being ousted by political, popular or military coups. While this greatly served in keeping the Doges honest and out of corruption, this restricted the executive power to the near limit of use.|image=Gov_peasants}}
+* enables_deposition = yes
+
+|- id="De Moedernegotie"
+| '''De Moedernegotie'''
+|
+* global_prov_trade_power_modifier = 0.20
+* navy_tradition = 0.5
+* burghers_influence_modifier = 0.10
+* burghers_loyalty_modifier = 0.05
+|
+{{desc|De Moedernegotie|The "Moedernegotie", also known as the 'Mother of all Trade', was the massive flow of basic goods from the baltic to the Dutch shores, from where it would feed the Dutch markets and citizenry, Polish grain, Livonian wood and Swedish steel would be traded as far as France or the Portuguese cities. This Trade fed the early republic and major parts of western europe and youngsters sailing on these reliable voyages was the cradle of many a sailor or merchant.|image=Gov_hansa_trade}}
+
+|- id="Mixed Republic"
+| '''Mixed Republic'''
+|
+* reform_progress_growth = 0.15
+* stability_cost_modifier = -0.15
+|
+{{desc|Mixed Republic|Mixed government (or a mixed constitution) is a form of government that combines elements of democracy (polity), aristocracy and monarchy, making impossible their respective degenerations which are conceived as anarchy, oligarchy and tyranny. The idea was popularized during classical antiquity in order to describe the stability, the innovation and the success of the republic as a form of government developed under the Roman constitution.|image=Gov_peasants}}
+
+|- id="Independence"
+| '''Independence'''
+|
+* war_exhaustion = -0.025
+* manpower_recovery_speed = 0.10
+* infantry_power = 0.05
+|
+{{desc|Independence|The key Virtue of the Swiss confederacy is its firm belief in independence and self governance, as such we will endure and recover as many times as is needed.|image=Gov_swiss_army}}
+
+|- id="Sovereignty without a Sovereign"
+| '''Sovereignty without a Sovereign'''
+|
+* hostile_attrition = 1
+* defensiveness = 0.1
+|
+{{desc|Sovereignty without a Sovereign|No man has the right to rule us, no lord is born higher than us. Freedom to live without feudal oppression is our hard-fought and hard-won right, and we shall resist and who serve to empower or restore the tools of our oppression.|image=Gov_peasant_republic}}
+* enables_no_crown = yes
+
+|- id="Support Ghibbellines"
+| '''Support Ghibbellines'''
+|
+* diplomatic_reputation = 1
+* improve_relation_modifier = 0.15
+* army_tradition = 0.25
+* republican_tradition = -0.25
+|
+{{desc|Support Ghibbellines|Italy is a chaotic and disunified region, and we weep seeing the constant bloodshed between squabbling city-states. We must aid the Holy Roman Emperor in reining in, and ultimately bringing peace to Italy. Let us join the Ghibelline faction and help bring order and peace to Italy.|image=Gov_italy_ghibbelline}}
+* enables_support_ghibbellines = yes #Fuckdapope
+
+|- id="Support Guelphs"
+| '''Support Guelphs'''
+|
+* development_cost = -0.05
+* global_trade_goods_size_modifier = 0.10
+* papal_influence = 0.5
+* legitimacy = -0.5
+|
+{{desc|Support Guelphs|There are those who believe that the Emperor has a higher authority than the pope. This is bordering on heresy, and they must realize the folly of their ways. The Guelph faction seeks to drive out the German "Emperor" from our wonderful Italy, and we will rally our merchants and clergymen in their support.|image=Gov_italy_guelph}}
+* enables_support_ghuelps = yes #Fuckdaemprah
+
+|- id="Legacy of Saint Ambrose"
+| '''Legacy of Saint Ambrose'''
+|
+* tolerance_own = 1
+* innovativeness_gain = 0.5
+* burghers_influence_modifier = 0.10
+* burghers_loyalty_modifier = 0.05
+|
+{{desc|Legacy of Saint Ambrose|Ambrose was a bishop of Milan who became one of the most influential ecclesiastical figures of the 4th century. He was the Roman governor of Liguria and Emilia, headquartered in Milan, before being made bishop of Milan by popular acclamation in 374. Ambrose was one of the four original Doctors of the Church, and is the patron saint of Milan.|image=Gov_hansa_trade}}
+
+|- id="Hanseatic Ties"
+| '''Hanseatic Ties'''
+|
+* trade_steering = 0.1
+|
+{{desc|Hanseatic Ties|Novgorod has always had close ties to the Hansa and Neva has always been the port to the west. this has helped us remain strong, stable and rich, Let us strenghten our trade network and increase the peoples belief in the republican way!|image=Gov_merchant}}
+* enables_hansa_ties = yes #0.10 RT per republic ally or vassal, cap at 5
+
+|}
+=== Frequency of Elections ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Frequent Elections"
+| '''Frequent Elections'''
+|
+* max_absolutism = -10
+* election_cycle = -1
+|
+{{desc|Frequent Elections|Long terms make rulers reckless and the very idea that someone would rule for a long time is contrary to the very idea of a republic. Let us reform our election system to ensure better accountability from our elected officials.|image=Gov_ballot_box}}
+
+|- id="Consolidation of Power"
+| '''Consolidation of Power'''
+|
+* max_absolutism = 10
+* election_cycle = 1
+|
+{{desc|Consolidation of Power|The current terms for officials are too short to see through larger projects. This only feeds populism and leads to short-sighted policies. Let us reform our election system to allow for longer terms so that our elected officials have the power they need to conduct their office.|image=Gov_constitution}}
+
+|- id="Consolidate Power in the Doge"
+| '''Consolidate Power in the Doge'''
+|
+* governing_capacity = 250
+|
+{{desc|Consolidate Power in the Doge|For years, our Republic has had its power base divided between the Doge, the Council of Ten, the citizens, and countless other legislative bodies. Each are subject to each other, but the Doge sits at the top of the hierarchy. Our loose government system has been useful thus far in advancing our trade efforts, but as our nation expands across the world, it’s become clear that we must grant the Doge executive powers across all branches of the government if we are to eliminate corruption in our administration.|image=Reform_consolidate_power_in_doge}}
+
+|- id="Disperse Power Across the Cities"
+| '''Disperse Power Across the Cities'''
+|
+* diplomatic_upkeep = 1
+* global_foreign_trade_power = 0.1
+|
+{{desc|Disperse Power Across the Cities|Our government is a strange mix between a Republic, an Oligarchy, and a Monarchy. Trade and commerce are our primary concern and we’re not interested in building a global empire, only making an empire of trade. If we shatter powers in our nation and grant greater control to the Trade Cities, we shall make our trade league much more inviting for the smaller powers who only desire the freedom and economic stability that we can provide.|image=Reform_consolidate_power_in_cities}}
+
+|- id="Permanent Marathas Council"
+| '''Permanent Marathas Council'''
+|
+* leader_land_shock = 1
+* maratha_influence_modifier = 0.1
+* maratha_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Permanent Marathas Council|Maratha generals and civic leaders are an important part of the balance of power in our nation. We should formalize their assemblies and establish a permanent council of the Marathas to guide our nation.|image=Gov_noble_indian}}
+* maratha_general_interaction = yes
+
+|- id="Governmental Purbias Register"
+| '''Governmental Purbias Register'''
+|
+* recover_army_morale_speed = 0.05
+* rajput_influence_modifier = 0.1
+* rajput_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Governmental Purbias Register|The state is taking measures to attract elite Rajput warriors from all over India. Steps should be taken to organize these warriors into cohesive regiments upon arrival so that they can be deployed more effectively.|image=Gov_rajput_kingdom}}
+* better_purbias_interaction = yes
+
+|- id="Sortition"
+| '''Sortition'''
+|
+* yearly_corruption = -0.1
+|
+{{desc|Sortition|Elections by majority votes are prone to corruption or worse, populism. We shall employ a complex system of allotment to determine who should lead our Republic by selecting almost at random from among a pool of suitable candidates.|image=Gov_paper_with_seal_3}}
+* lottery_election = yes
+* election_on_death = yes
+
+|- id="Council of the Indies"
+| '''Council of the Indies'''
+|
+* global_tariffs = 0.2
+* treasure_fleet_income = 0.2
+|
+{{desc|Council of the Indies|Our vast colonial territories must have a central administration that reports directly to the Crown. Though individual Viceroys will govern their respective territories, the Council will be the supreme colonial authority, and its courts will extend our law to the farthest reaches of the New World.|image=Gov_merchant_ship}}
+
+|- id="Legislative Assembly"
+| '''Legislative Assembly'''
+|
+* yearly_revolutionary_zeal = 1.5
+|
+{{desc|Legislative Assembly|With the collapse of the old government, we have an opportunity to reconstruct a new legislative government which treats all people, regardless of social class, as equals. This government shall be absolutely committed to the ideals of the Revolution, and will not suffer those who wish to subjugate us back into the old regime.|image=Reform_legislative_assembly}}
+
+|- id="Constituent Assembly"
+| '''Constituent Assembly'''
+|
+* improve_relation_modifier = 0.15
+* diplomatic_upkeep = 1
+|
+{{desc|Constituent Assembly|The Constituent Assembly was a rough outline of democracy provided by the old government that governed the people in three distinct constituents. By building and expanding upon the old government rather than overhauling it with the new, we may prove to the reactionary governments on our border that we are still a civilized nation and a force for good in this changing world.|image=Reform_national_constituent}}
+
+|- id="Factional Politics"
+| '''Factional Politics'''
+|
+* republican_tradition = 0.1
+* stability_cost_modifier = 0.15
+|
+{{desc|Factional Politics|By allowing different factions in the nation to back candidates we can make sure the elected ruler will have the proper support to push through some reforms.|image=Gov_paper_with_seal_3}}
+* enable_factional_elections = yes
+
+|- id="Vroedschappen"
+| '''Vroedschappen'''
+|
+* candidate_random_bonus = 2
+* stability_cost_modifier = -0.10
+|
+{{desc|Vroedschappen|After the Burgundian aquisition of the dutch counties, in order to govern them, the cities organized "Vroedschappen", councils of the urban elite and wise, to represent them on a provincial level. These men were chosen as they were believed to be able to resist the allure of wealth and corruption due to their own wisdom, prestige and current wealth. As representatives of the provinces, they were the ones that elected the Stadtholders.|image=Gov_vroedschap}}
+
+|- id="Council of 48"
+| '''Council of 48'''
+|
+* election_cycle = 1
+|
+{{desc|Council of 48|Our nation is not governed by feudal lords or bishops, but by the council of our best and brightest, so unlike the more organized nations, we are in no need of frequent elections to have excellent governance.|image=Gov_peasant_republic}}
+* enables_peasant_council = yes
+
+|- id="Captain And Defender of Liberty"
+| '''Captain And Defender of Liberty'''
+|
+* merc_maintenance_modifier = -0.15
+* max_absolutism = 5
+|
+{{desc|Captain And Defender of Liberty|Let us elect a council of captains and defenders of liberty to rule us and guarentee the maintainance of the republic. Also ensure the possibility to invite famous generals to our cause by offering them the head of the council and offering them power in trade for their support and leadership.|image=Gov_italian_mercenary}}
+* enables_sforza = yes
+
+|- id="Princes of Novogorod"
+| '''Princes of Novogorod'''
+|
+* max_absolutism = 10
+|
+{{desc|Princes of Novogorod|Since time immemorial, Russia has been ruled by autonomous princes, and Novgorod is no exception, despite our Republican sentiment. We invite princes from neighboring nations to lead and assist in administration, though their power wanes. The revitalization of this system might in fact bolster our governance.|image=Gov_merchant}}
+* enables_princes_of_novogorod = yes
+
+|}
+=== Military Organisation ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Feudal Levies"
+| '''Feudal Levies'''
+|
+* war_taxes_cost_modifier = -1
+* nobles_influence_modifier = 0.05
+* vassal_forcelimit_bonus = 1
+|
+{{desc|Feudal Levies|Our military should rely on our feudal subject's contributions. In addition to strengthening our subject's loyalty, we need to increase their military cooperation with their overlord. This will give us a wider selection of recruits.|image=Gov_soldiers_2}}
+* enables_marcher_lords = yes #25% vassal force limit and manpower
+
+|- id="National Guard"
+| '''National Guard'''
+|
+* land_morale = 0.05
+* recover_army_morale_speed = 0.1
+|
+{{desc|National Guard|Our great nation needs an army core not of conscripted peasants or of mercenaries fighting for money. Let our army be build from the noble volunteers that willingly risk their lives for the homeland!|image=Gov_national_guard}}
+* enables_patriotism = yes #+25% Manpower in primary culture provinces
+
+|- id="Milizia Nationale"
+| '''Milizia Nationale'''
+|
+* land_morale = 0.10
+* mercenary_manpower = -0.50
+|
+{{desc|Milizia Nationale|Who fights better?, a soldier fighting for his pockets, or a soldier fighting for his prince, land and family!. Let us rely on the strenght of our own arms, our own sons and our own banners instead!.|image=Gov_latin_militia}}
+* enables_patriotism = yes
+
+|- id="Mercenary Corps"
+| '''Mercenary Corps'''
+|
+* mercenary_manpower = 0.25
+* reinforce_speed = 0.25
+* merc_maintenance_modifier = -0.25
+|
+{{desc|Mercenary Corps|A military should be built on what makes the world run; gold. We should fill our ranks with mercenaries and give them free reign to loot as they please.|image=Gov_landsknecht}}
+* enables_foreign_worship = yes #10% Religious Unity if you employ mercenaries
+
+|- id="Professional Army"
+| '''Professional Army'''
+|
+* discipline = 0.025
+* mercenary_discipline = -0.10
+* land_maintenance_modifier = 0.10
+* drill_decay_modifier = -0.20
+|
+{{desc|Professional Army|A well-trained national army is the way to do things right. We must rely on our national forces to do the job right. Loyalty and discipline are the foundations of a state's armies. We cannot entrust the armament of our nation to faithless soldiers of fortune.|image=Gov_soldiers}}
+* enables_general_guards = yes #+1.25 AP per General
+
+|- id="Condottieri Contracts"
+| '''Condottieri Contracts'''
+|
+* mercenary_discipline = 0.05
+* mercenary_manpower = 0.50
+* war_exhaustion = -0.01
+|
+{{desc|Condottieri Contracts|Well paid mercenaries perform as well as any national army. Relying on them (and lining their pockets with a bit of extra coin) will give us the edge over nations that must rely on their subjects to fight for them.|image=Gov_italian_mercenary}}
+
+|- id="Lead the Imperical Circle"
+| '''Lead the Imperical Circle'''
+|
+* vassal_forcelimit_bonus = 1
+* land_maintenance_modifier = -0.05
+|
+{{desc|Lead the Imperical Circle|We can trust in our imperial kinfolk to bolster our national armies. Strong integration with our Circle will allow us to field more troops for less coin by means of a common defensive structure.|image=Gov_imperial_army}}
+
+|- id="Expanded Devshirme"
+| '''Expanded Devshirme'''
+|
+* manpower_recovery_speed = 0.10
+|
+{{desc|Expanded Devshirme|The Devshrime System already provides us with a steady stream of Janissaries, but we have less control than we would hope for. We should centralize and expand the process to ensure the quality of the soldiers.|image=Gov_Turkish_iqta}}
+* enables_devshirme = yes #25% Manpower in Orthodox Provinces
+* enables_janissary_guards = yes #5% Janissary Discipline if under 20% Janissaries
+
+|- id="Tatar Mercenaries"
+| '''Tatar Mercenaries'''
+|
+* cavalry_power = 0.10
+* mercenary_discipline = 0.025
+|
+{{desc|Tatar Mercenaries|By setting up turkic mercenary captains, we can use them to attract strong and loyal mercenaries in times of war.|image=Gov_Tatar_raid}}
+
+|- id="Elephant Cavalry"
+| '''Elephant Cavalry'''
+|
+* cavalry_power = 0.05
+* land_morale = 0.05
+|
+{{desc|Elephant Cavalry|By using Elephants as shock cavalry, we can break the enemy line and morale, allowing us to break through the gaps.|image=Gov_soldiers_5}}
+* enables_elephant_cavalry = yes #3% siege ability per 5% Cavalry Combat Ability
+
+|- id="Portuguese Marines"
+| '''Portuguese Marines'''
+|
+* discipline = 0.025
+* shock_damage_received = -0.05
+* fire_damage_received = -0.05
+|
+{{desc|Portuguese Marines|In order to provide specialized artillery and riflemen to the Navy of the Portuguese Crown, in 1585 a special marine unit was raised. This elite regiment later often served as a bodyguard for the Portuguese Monarch|image=Gov_soldiers_5}}
+
+|- id="Permanent Marathas Council"
+| '''Permanent Marathas Council'''
+|
+* leader_land_shock = 1
+* maratha_influence_modifier = 0.1
+* maratha_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Permanent Marathas Council|Maratha generals and civic leaders are an important part of the balance of power in our nation. We should formalize their assemblies and establish a permanent council of the Marathas to guide our nation.|image=Gov_noble_indian}}
+* maratha_general_interaction = yes
+
+|- id="Governmental Purbias Register"
+| '''Governmental Purbias Register'''
+|
+* recover_army_morale_speed = 0.05
+* rajput_influence_modifier = 0.1
+* rajput_loyalty_modifier = 0.05
+* nobles_influence_modifier = -0.1
+* nobles_loyalty_modifier = -0.05
+|
+{{desc|Governmental Purbias Register|The state is taking measures to attract elite Rajput warriors from all over India. Steps should be taken to organize these warriors into cohesive regiments upon arrival so that they can be deployed more effectively.|image=Gov_rajput_kingdom}}
+* better_purbias_interaction = yes
+
+|- id="New Order Regiments"
+| '''New Order Regiments'''
+|
+* discipline = 0.025
+* drill_gain_modifier = 0.25
+* mil_tech_cost_modifier = -0.05
+|
+{{desc|New Order Regiments|By hiring Dutch, Scottish and Swedish mercenary captains to train regiments of peasants and commoners, equipped by the crown, we will have both more manpower and loyalty then troops supplied by the nobility, and the professionalism and modern innovation from the western powers.|image=Gov_new_order_regiments}}
+
+|- id="Generalkriegskommissariat"
+| '''Generalkriegskommissariat'''
+|
+* global_tax_modifier = 0.10
+* global_regiment_cost = -0.05
+* global_autonomy = -0.025
+|
+{{desc|Generalkriegskommissariat|Following the 30 Years' War, Frederick William, Elector of Brandenburg, set up the General War Commissariat to oversee the army, as well as to levy taxes necessary to support the army. It soon became a bureaucratic machine for civil government as well. Frederick William used it to govern the state. Many members were landed aristocracy known as Junkers, who served in the army as well. The commissariats helped to centralize power.|image=Gov_king}}
+
+|- id="Gustavan Artillery"
+| '''Gustavan Artillery'''
+|
+* movement_speed = 0.10
+* artillery_power = 0.05
+|
+{{desc|Gustavan Artillery|Field artillery has long been a static emplacement for firing before the battle starts. Let us use lighter pieces on the battlefield itself for additional firepower and mobility, let us shred the Imperial Tercios to pieces!|image=Gov_gustavan_artillery}}
+
+|- id="The Black Guard"
+| '''The Black Guard'''
+|
+* mercenary_discipline = 0.05
+* mercenary_manpower = 0.25
+|
+{{desc|The Black Guard|Formerly a Habsburg unit raised to defend the low countries, The Black Guard Landsknechten served the danish kings in fighting noble and swedish revolts until their demise in the battle of hemingstead.|image=Gov_soldiers}}
+
+|- id="Re-Organize the Imperial Army"
+| '''Re-Organize the Imperial Army'''
+|
+* global_regiment_cost = -0.10
+* global_supply_limit_modifier = 0.25
+* loot_amount = 0.25
+|
+{{desc|Re-Organize the Imperial Army|The age of seasonal warfare is ending, Disbanding army by fall and recruiting new ones for a spring campaign is just too costly in the age where disciplined soldiers with pike and shot form the backbone of armies. Furthermore, During these multi-seasonal wars, why should we have to bear the burden of taxation to pay for the armies our enemy forces us to raise?. 'When the army marches, the enemy pays!' |image=Gov_austrian_army}}
+
+|- id="Arabian Horses"
+| '''Arabian Horses'''
+|
+* cavalry_flanking = 0.5
+* shock_damage = 0.05
+|
+{{desc|Arabian Horses|By establishing Arabian marches we can guarentee a steady supply of suitable and strong horses for our military. Our riders will be veterans ready to strike at our enemies flanks. We shall crush the enemy under our steeds' hooves.|image=Gov_mamluk_horse}}
+* enables_arabian_horses = yes # 3% Cavalry Combat Ability per Arab vassal
+
+|- id="Pospolite Ruszenie"
+| '''Pospolite Ruszenie'''
+|
+* shock_damage = 0.10
+* cavalry_flanking = 1
+|
+{{desc|Pospolite Ruszenie|Pospolite ruszenie is a name for the mobilisation of armed forces during the period of the Kingdom of Poland and the Polish-Lithuanian Commonwealth. The tradition of wartime mobilisation of part of the population existed from before the 13th century to the 19th century. In the later era, pospolite ruszenie units were formed from the szlachta.|image=Gov_national_guard}}
+
+|- id="Polish National Guard"
+| '''Polish National Guard'''
+|
+* reinforce_speed = 0.33
+* reinforce_cost_modifier = -0.20
+* recover_army_morale_speed = 0.1
+|
+{{desc|Polish National Guard|Poland has not yet perished, So long as we still live. What the foreign force has taken from us, We shall with sabre retrieve.|image=Gov_national_guard}}
+
+|- id="Henrician Reforms"
+| '''Henrician Reforms'''
+|
+* land_forcelimit_modifier = 0.15
+* naval_forcelimit_modifier = 0.15
+|
+{{desc|Henrician Reforms|Following the continued rise of militarism in the French, Spanish and Imperial nations, The English crown had a standing army of a few hundred men and a couple of fort garrisons. In addition of being horribly outnumbered, these men were armed with billhooks and crossbows, rather then muskets and pikes. The Henrician Reforms instituted by Henry VIII was the creation of a much extended standing army, expanding the navy, re-organizing the militia system and creating a series of coastal forts against potential Catholic invasions from the south.|image=Gov_england_henry_8}}
+* enables_device_forts = yes #25% Fort Defence in British Forts
+* enables_longbow_training = yes #15% Manpower in English Islander provinces.
+
+|- id="Berber Cavalry"
+| '''Berber Cavalry'''
+|
+* cavalry_power = 0.10
+* land_morale = 0.05
+* monthly_piety = -0.001
+|
+{{desc|Berber Cavalry|Our fellow believers conquered these lands centuries ago, and every time we are in need, they send a great mounted host across the straits. Strengthening our ties with our Northern African brethren may have allowed us to subsist thus far, but we cannot continue continue to tread this path quite so lightly. Let us create a continuous flow of Berber tribesmen to settle in our lands and ensure this land of sheep and goats is to remain ours.|image=Gov_berber_warrior}}
+* enables_grazing_herds = yes #-5% Development Cost and Culture Conversion Cost in Iberian Hills and Drylands
+
+|- id="Jinetes"
+| '''Jinetes'''
+|
+* cavalry_power = 0.15
+* cavalry_cost = -0.10
+* cavalry_flanking = 0.5
+|
+{{desc|Jinetes|Jinete (or genitour) means a Spanish light horseman armed with a javelin, sword and a shield, a troop type developed in the early Middle Ages in response to the massed light cavalry of the Moors. Often fielded in significant numbers by the Spanish, and at times the most numerous of the Spanish mounted troops, they played an important role in Spanish mounted warfare throughout the Reconquista until the sixteenth century.|image=Gov_spain_jinite}}
+
+|- id="Miquelet Militia"
+| '''Miquelet Militia'''
+|
+* infantry_cost = -0.10
+* infantry_power = 0.05
+|
+{{desc|Miquelet Militia|The irregular militias from Catalonia and Valencia were infamous light troops that bravely defended their homes from french or imperial rule. After the crushing of the political attempt for independece, the military force was integrated into the army as light infantry.|image=Gov_spain_tercio}}
+
+|- id="Royal Ordinances"
+| '''Royal Ordinances'''
+|
+* mil_tech_cost_modifier = -0.15
+* artillery_cost = -0.10
+* drill_gain_modifier = 0.25
+|
+{{desc|Royal Ordinances|The Army was reorganized on the French model and in 1704 the old Tercios were transformed into Regiments. The first modern military school (the Artillery School) was created in Segovia in 1764. Finally, in 1768 King Charles III sanctioned the "Royal Ordinances for the Regime, Discipline, Subordination, and Service in His Armies".|image=Gov_king}}
+
+|- id="Elite Jägers"
+| '''Elite Jägers'''
+|
+* fire_damage = 0.05
+* infantry_power = 0.10
+* global_regiment_cost = 0.10
+|
+{{desc|Elite Jägers|The Hessian Jäger (Sharpshooter) is armed with three things: ruthlessness, discipline, and his büchse. This ruthlessness is beneficial to the soldier, but not always to the Hessian state. Their equipment is expensive, and their tendency to decimate the enemy —even after the battle is won— hasn't done our diplomacy any favours.|image=Gov_hesse_jaegers}}
+
+|- id="Warrior Kings"
+| '''Warrior Kings'''
+|
+* leader_land_manuever = 1
+* leader_land_shock = 1
+|
+{{desc|Warrior Kings|The leaders of the Edo people were a breed of ruler known for their personal military achievments and conquests, assisted by their mobility and supply canals to bring supplies and soldiers quickly.|image=Gov_generic_people}}
+
+|- id="Employ the Snaphaener"
+| '''Employ the Snaphaener'''
+|
+* infantry_fire = 0.25
+* infantry_power = 0.05
+* years_of_nationalism = 5
+|
+{{desc|Employ the Snaphaener|Snaphanerne (The Quickshots) were the Scanians who refused integration into Sweden when conquered from Denmark. With the noble power broken in this region, let us hire these excellent riflemen and use their fiery spirit of independence for our own Kingdom.|image=Gov_hesse_jaegers}}
+* enables_patriotism = yes
+
+|- id="Redcoats"
+| '''Redcoats'''
+|
+* fire_damage = 0.05
+* infantry_power = 0.05
+|
+{{desc|Redcoats|Redcoats|image=Gov_england_redcoat}}
+* enables_patriotism = yes
+
+|- id="Recruit Ronin"
+| '''Recruit Ronin'''
+|
+* mercenary_discipline = 0.05
+* merc_maintenance_modifier = -0.10
+* possible_mercenaries = 0.25
+|
+{{desc|Recruit Ronin|A samurai who lost his lord learns to serve not people, but money. As long as they live, these hardened fighters will never swear loyalty to any other ruler, choosing instead to risk their lives for survival and a chance to redeem themselves through battle—and to meet their masters with honor.  Let us recruit these brave wanderers into our ranks and give them the fight they deserve.|image=Gov_samurai}}
+
+|- id="Ashigaru Generals"
+| '''Ashigaru Generals'''
+|
+* fire_damage = 0.05
+* fire_damage_received = -0.05
+* drill_gain_modifier = 0.25
+|
+{{desc|Ashigaru Generals|After many decades of war, the might of one skilled samurai lord, while formidable, paled in comparison in the face of organized armies with matchlock firearms—tanegashimas. Their efficiency lied on their strict formation and ability to stand still in enemy fire range while delivering shots themselves. By accepting these people into our higher ranks, we can bolster the might of our army several times over.|image=Gov_daimyo}}
+
+|- id="Wei-Suo System"
+| '''Wei-Suo System'''
+|
+* manpower_recovery_speed = 0.10
+* army_tradition = 1
+* land_maintenance_modifier = -0.10
+* discipline = -0.05
+|
+{{desc|Wei-Suo System|To guarantee proper manpower for its wars, previous dynasties relied on a system where one family member per household was chosen for battles, if that person died, another one would take its place. This came at the cost of low discipline for their troops, but in return, much needed replaceability. When Zhu Yuanzhang formed Ming, he designed a society that everyone could stay in their ancestral careers. This was in hope of a low-cost army of many men who could also fulfill their agricultural duties.|image=Gov_asian_scripture}}
+
+|- id="Abbas's Reforms"
+| '''Abbas's Reforms'''
+|
+* land_forcelimit_modifier = 0.10
+* artillery_cost = -0.10
+* ghulams_influence_modifier = 0.05
+|
+{{desc|Abbas's Reforms|With the dominance and increasing independence of the Qasilbash and noble forces the Shah realized he needed a personal force to guarentee his control over the state and prevent the shah from having to watch powerlessly as the Qasilbash led revolts over their personal Ambition or domestic crisises.|image=Gov_persia_abbas}}
+* enables_fire_ghulams = yes
+
+|- id="Sherifan Levies"
+| '''Sherifan Levies'''
+|
+* manpower_recovery_speed = 0.15
+* reinforce_cost_modifier = -0.20
+|
+{{desc|Sherifan Levies|Ashraf, wealthy landowners that they are, have access to swathes of peasants, though until recent years these peasants have been more than occupied tilling the dry, cracked earth to grow whatever meager crops could manage. Agricultural technology has lifted much of the burden off of the peasantry, allowing Ashraf to draw upon them for our army.|image=Gov_hejaz_cavalry}}
+
+|- id="Restore the Komnenoid Army"
+| '''Restore the Komnenoid Army'''
+|
+* army_tradition_decay = -0.01
+* possible_mercenaries = 0.15
+|
+{{desc|Restore the Komnenoid Army|Alexios I Komnenos' military reforms saved the empire from onslaught of Normans and Turks. Under Komnenoi Emperors, the Empire saw increasing professionalization and an influx of foreign mercenaries ranging from nomadic warriors and Anglo-Saxon infantry. A professional army allowed the empire to compete with the enemies that outnumbered it, and the mercenaries who had no interest in local politics, took direct orders from the Emperor and no one else, thus giving the emperor a large advantage in quelling internal conflicts. The army also became adaptive to facing different type of foes, such as arming Imperial Cataphracts with long lances to counter Turkish cavalry and Norman knights.|image=Gov_soldiers}}
+* enables_varangian_guard = yes #2.5% merc discipline if you got a scandinavian ally or subject
+
+|- id="Jaesungbangryak"
+| '''Jaesungbangryak'''
+|
+* movement_speed = 0.2
+* #regiment_recruit_speed = -0.2
+|
+{{desc|Jaesungbangryak|Jaesungbangryak is a defense system that assumes that central action is to be taken soon after the beginning of a conflict. Used to the small character of the invasions, the Korean army is to be conscripted early after the beginning of the war, and it is to be comprised of light, highly mobile units. The frontiers would be defended by permanent defense institutions.|image=Gov_fort}}
+* enables_central_army_conscription = yes
+
+|- id="Five Military Force"
+| '''Five Military Force'''
+|
+* fire_damage = 0.1
+* land_maintenance_modifier = -0.05
+|
+{{desc|Five Military Force|With growth of Joseon, and the states around it, the former defense system is not going to provide enough safety. This is why, Five Military Force is to be established, and with it, a Drilled Standing Force armed with matchlocks would replace the cavalry-focused army. These regiments would later become famous for their elite skills.|image=Gov_hesse_jaegers}}
+
+|- id="Honor of the Thai People"
+| '''Honor of the Thai People'''
+|
+* legitimacy = 1
+* land_forcelimit_modifier = 0.20
+|
+{{desc|Honor of the Thai People|We care how we move forward, together, as a people.  The King's appointed by heaven serve us all, and not themselves.|image=Gov_soldiers_6}}
+* enables_siamese_honor = yes #-2 unrest if <50 legitimacy, +5% ICA if >75 legitimacy
+
+|- id="Form the Vojstatic"
+| '''Form the Vojstatic'''
+|
+* land_maintenance_modifier = -0.05
+* land_forcelimit = 6
+* merc_maintenance_modifier = -0.15#temp
+|
+{{desc|Form the Vojstatic|Following the collapse of the Serbian Empire, the Despotate in its rough lands had a much reduced pool of wealth and manpower, to maintain combat effectiveness against the Turks and Hungarians we will create the Vojstatic. This modern, cannon equipped standing army raised from our own citizens shall defend our castles and cities from any invaders. Further Strenghtened by strenghtened by numerous mercenary companies.|image=Gov_szlachta_noble_1}}
+* #enables_royal_levies = yes #+1 & 5% Land Force Limit for each military monarch point
+
+|- id="Reforms of William III"
+| '''Reforms of William III'''
+|
+* mercenary_discipline = 0.05
+* reinforce_speed = 0.25
+|
+{{desc|Reforms of William III|To avoid the desertion of individual mercenaries as well as the captains that are supposed to keep them in line, The State will pay for each soldier that falls in battle. Thus there is no longer any benefit for mercenaries to break and retreat the second the battle gets tough.|image=Gov_william_3}}
+
+|- id="Reform the Condotierri"
+| '''Reform the Condotierri'''
+|
+* army_tradition = 0.5
+* land_forcelimit_modifier = 0.15
+* possible_condottieri = 0.5
+|
+{{desc|Reform the Condotierri|Since the rise of the landsknechts we have lost our edge in military power, let us restore the tradition of renting out our armies and improve the military experience of our forces.|image=Gov_swiss_mercenaries}}
+
+|- id="Turkoman Gunners"
+| '''Turkoman Gunners'''
+|
+* artillery_power = 0.05
+* artillery_cost = -0.10
+* artillery_bonus_vs_fort = 1
+|
+{{desc|Turkoman Gunners|Let us embrace these new weapons of destruction and go forth, for now no wall of men or stone can stop our expansion.|image=Gov_soldiers_2}}
+
+|- id="Mongol Ties"
+| '''Mongol Ties'''
+|
+* cavalry_cost = -0.10
+* reinforce_cost_modifier = -0.20
+|
+{{desc|Mongol Ties|Our ancient ties with the neighbouring mongols has left us with both a good amount of goodwill amongst these nomads that live in the saddle, as well as plenty of friends and families among those that are willing to join our armies.|image=Gov_soldiers_3}}
+
+|- id="Lessons of Subutai"
+| '''Lessons of Subutai'''
+|
+* leader_land_manuever = 1
+* leader_siege = 1
+|
+{{desc|Lessons of Subutai|Let us learn from Subutai's campaigns, his mastery of manouver warfare, defeat in detail and using trickery, speed and deception to take even fortified positions is legendary. By studying his life we might be able to teach our own generals to follow in his footsteps.|image=Gov_feudal_theocracy}}
+
+|- id="Peasant Militia"
+| '''Peasant Militia'''
+|
+* fire_damage_received = -0.10
+|
+{{desc|Peasant Militia|Our marshes are deep, our roads small and fortified. Any who dare cross them will find no rabble of farmers, but a well-trained and well-organized peasant militia. Their formation and use of the land hinders any attempts at bombardment or flanking. 'Wohr di, Goor, de Buur, de kump!' (Beware, guard, the farmer who is coming!)|image=Gov_peasant_republic}}
+* enables_bear_arms = yes #privilege, -20% infantry cost and +2 unrest, scaled
+
+|- id="Tysyatskys"
+| '''Tysyatskys'''
+|
+* army_tradition = 0.5
+* global_unrest = -1
+|
+{{desc|Tysyatskys|Leaders of a thousand men each, the tysyatskys are some of the most important leaders of our military. Let us empower these leaders so that they can effectively handle our army and represent the common folk.|image=Gov_merchant}}
+
+|- id="Almogavars"
+| '''Almogavars'''
+|
+* mercenary_manpower = 0.25
+* spy_offence = 0.10
+|
+{{desc|Almogavars|The heirs of the bloody reconquista are ready to pick up their arms to join yet another bloody struggle against the heretics, heathens or the enemies of any that pay them. Following the end of the peninsular reconquista they spread out over the mediterean in search of loot and stable employment, let us hire these ruthless veterans and fortune seekers for our wars.|image=Gov_catalan_company}}
+* enables_fury_of_the_reconquista = yes #2.5% mercenary discipline and +5% Morale while at war with heathens
+
+|- id="Republican Guard"
+| '''Republican Guard'''
+|
+* drill_gain_modifier = 0.25
+|
+{{desc|Republican Guard|If we establish a Republican Guard made up of the most dedicated souls of our populace we can be guarenteed of their fervor in battle, and have this elite corps be readily filled among those inspired by our republic!|image=Gov_soldiers}}
+* enables_republican_guard = yes #+3% ICA and 4% Manpower Recovery for each 10 RT over 50
+
+|}
+=== Regionalism ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Provincial Governments"
+| '''Provincial Governments'''
+|
+* state_maintenance_modifier = -0.25
+* development_cost = -0.10
+|
+{{desc|Provincial Governments|In order for our administration to be efficient we must allow provincial governments the freedom they need to perform their functions. Local elections will ensure that trustworthy individuals can be appointed who would then answer to the central government.|image=Gov_landscape}}
+* enables_town_rights = yes
+
+|- id="Administrative Divisions"
+| '''Administrative Divisions'''
+|
+* governing_capacity = 250
+|
+{{desc|Administrative Divisions|Let us divide the state into geographic regions ruled and administered by officials appointed by our central government.|image=Gov_map}}
+
+|- id="Union of States"
+| '''Union of States'''
+|
+* global_trade_power = 0.1
+* merchants = 1
+|
+{{desc|Union of States|Rather than one unified state our country has grown from a large number of states integrated into one confederacy. As our administration grows and evolves we must not infringe on the rights of the member states, doing so would trample on the very principles of our existence.|image=Gov_merchant_ship}}
+
+|- id="Exile Colonial Companies"
+| '''Exile Colonial Companies'''
+|
+* expel_minorities_cost = -0.3
+|
+{{desc|Exile Colonial Companies|The New World is a place of great opportunity, and for us it is an opportunity to establish Exile Colonies and rid our nation of convicts and minorities. By allowing colonial companies to claim sovereignty over our undesirables, we will create harmony in the Old World and expand our influence in the New World.|image=Gov_merchant_ship}}
+
+|- id="Advanced Bookkeeping"
+| '''Advanced Bookkeeping'''
+|
+* interest = -1.0
+* yearly_corruption = -0.05
+|
+{{desc|Advanced Bookkeeping|By employing only the most skilled bookkeepers, we can avoid some of the negative effects of borrowing money via some "creative" accounting. In addition to decreasing bank interest, their vigilance will keep the estates from circumventing our national system.|image=Gov_paper_money_map}}
+
+|- id="Communal Territories"
+| '''Communal Territories'''
+|
+* years_of_nationalism = -5
+* min_autonomy_in_territories = -0.1
+|
+{{desc|Communal Territories|By establishing local communes under our guidance instead of formally annexing them to our direct control, we can prevent the outright revolts that come with forcefully integrating newly conquered lands.|image=Gov_map_2}}
+
+|- id="Verenigde Indische Companies"
+| '''Verenigde Indische Companies'''
+|
+* global_prov_trade_power_modifier = 0.20
+* trade_company_investment_cost = -0.25
+|
+{{desc|Verenigde Indische Companies|De Verenigde Indische Companies, or the United Indian Companies, Were the VOC, for india, and later the WIC, for the americas. By uniting the indian trade companies we will reduce internal merchant conflicts and can focus on out-competing our rivals instead of our friends. Eventually being able to supplant our rivals completely from the faraway markets.|image=Gov_voc_ship}}
+
+|- id="Confederation of Cantons"
+| '''Confederation of Cantons'''
+|
+* global_garrison_growth = 1
+* garrison_size = 0.25
+|
+{{desc|Confederation of Cantons|The local control organized by individual cantons means that problems are fixed locally, lands can be developed locally, and each region is responsible for its own fortifications, leading them to make the best use of natural resources and advantages.|image=Gov_swiss_cantons}}
+* enables_mountain_towns = yes
+
+|- id="Expand the 48"
+| '''Expand the 48'''
+|
+* governing_capacity = 150
+* years_of_nationalism = -5
+|
+{{desc|Expand the 48|Four of the five parts of Dithmarschen send twelve judges each to our governmental body to represent their parishes. We should expand the districts that send representatives to our council.|image=Gov_peasant_republic}}
+
+|- id="Union of Cities"
+| '''Union of Cities'''
+|
+* min_autonomy = 5
+* global_unrest = -2
+* global_spy_defence = 0.20
+|
+{{desc|Union of Cities|The Italian Politics are dominated by city states and puppet regimes, by granting them some more autonomy we can ensure their loyalty and cooperation. And prevent them from opening the gates to the first rival nation that comes along.|image=Gov_map_2}}
+
+|- id="Volost Colonies"
+| '''Volost Colonies'''
+|
+* production_efficiency = 0.20
+* min_autonomy_in_territories = -0.05
+|
+{{desc|Volost Colonies|Vast lands to the east that were being colonised by Novgorod or just paid tribute to it were divided into volosts.|image=Gov_merchant}}
+
+|}
+=== Separation of Power ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Parliamentarism"
+| '''Parliamentarism'''
+|
+* global_unrest = -1
+|
+{{desc|Parliamentarism|It is time we separate the head of government from the head of state and give the legislative assemblies of the land a larger share in the day to day rule of our state.|image=Gov_judge}}
+* blocked_call_diet = yes
+
+|- id="Presidential System"
+| '''Presidential System'''
+|
+* embracement_cost = -0.1
+|
+{{desc|Presidential System|The Chairman or President of our governing body must be elected separately from the legislative branch of government. The president can then appoint or dismiss members of the government.|image=Gov_man_on_podium}}
+
+|- id="Pirate King"
+| '''Pirate King'''
+|
+* pr_captains_influence = 0.1
+* harsh_treatment_cost = -0.2
+* leader_naval_fire = 1
+|
+{{desc|Pirate King|Every great empire stands in opposition to us. To stand any chance of survival we must rally behind our own Pirate King, and the King's word will be law.|image=Gov_pirate_king}}
+* admirals_become_rulers = yes
+
+|- id="War Against the World Doctrine"
+| '''War Against the World Doctrine'''
+|
+* pr_buccaneers_influence = 0.1
+* years_of_nationalism = -5
+* global_ship_recruit_speed = -0.15
+|
+{{desc|War Against the World Doctrine|The tyrants of the world must be unseated! We can no longer tolerate kings and despots making slaves of our fellow man. And so we shall adopt a new doctrine: war against the world!|image=Gov_war_against_the_world}}
+* gives_war_against_the_world_tooltip_dummy = yes
+
+|- id="Black Market Consortium"
+| '''Black Market Consortium'''
+|
+* pr_smugglers_influence = 0.1
+|
+{{desc|Black Market Consortium|The pirates that run amok in the Republic cannot be trusted to bathe themselves, let alone to govern a nation whose future hands on the edge of a cutlass. A Consortium formed of the most influential black market merchants shall be established as its true governors. Profit must come before liberty.|image=Gov_black_market_consortium}}
+
+|- id="Imperial Diplomacy"
+| '''Imperial Diplomacy'''
+|
+* diplomatic_reputation = 2
+* diplomatic_upkeep = 1
+|
+{{desc|Imperial Diplomacy|The city cannot maintain its independence without the support of the Emperor and our other allies. We shall focus our energies on strengthening our diplomatic ties and ensuring that, whenever we have need of them, our friends will be there to help us defend the city.|image=Gov_king}}
+
+|- id="Municipal Self-Defense"
+| '''Municipal Self-Defense'''
+|
+* land_forcelimit_modifier = 0.25
+* global_manpower = 5
+|
+{{desc|Municipal Self-Defense|Only by relying on the military capabilities of our city can we ensure our survival. We shall allocate more political power to the captains of the City Watch and ensure that they have all they need to provide for our defense.|image=Gov_soldiers_7}}
+
+|- id="The Feuillant System"
+| '''The Feuillant System'''
+|
+* stability_cost_modifier = -0.1
+* republican_tradition = -0.1
+|
+{{desc|The Feuillant System|There are many citizens and politicians in the Republic who wish to return to the tyranny of an absolute monarchy. However, the Feuillant political group believe in a compromise; that powers in the nation should be split between an Emperor and a President, similar to a constitutional monarchy. By riding the delicate balance between Empire and Republic, we may actually please both the Imperialists and Republicans within our nation.|image=Reform_feuillant}}
+
+|- id="The Two-Chamber System"
+| '''The Two-Chamber System'''
+|
+* free_policy = 1
+* republican_tradition = 0.15
+|
+{{desc|The Two-Chamber System|For a long time, the Canton system maintained the peace, stability, and independence of small democratic leagues like the Swiss and Swabian Federations. By similarly dividing our legislature into a Grand Council representing the Cantons, and the Senate representing the republic as a whole, we may protect the interests of the individual cities and cultural identities within our nation while still placing the values of the Revolution above all else!|image=Gov_parliament_hall}}
+
+|- id="Stadholders"
+| '''Stadholders'''
+|
+* republican_tradition = -0.5
+* max_absolutism = 5
+* army_tradition = 1
+* nobles_influence_modifier = 0.15
+|
+{{desc|Stadholders|By appointing a noble as the protector of our city, we will gain the military experience and priority of the nobility.|image=Gov_Stadholder}}
+
+|- id="Andrea Doria's Constitution"
+| '''Andrea Doria's Constitution'''
+|
+* stability_cost_modifier = -0.25
+* max_absolutism = 10
+* election_cycle = -2
+|
+{{desc|Andrea Doria's Constitution|To stop the endless factional infighting, Andrea Doria created 28 new public Alberghi, these political organisations were comprised of multiple, sometimes rival, families. By uniting them under a single banner Andrea forced them to align behind their shared political goals. Thus putting an end to the cycle of major coups and blood feuds that had dominated the Genoan Republic and were driving it to the brink of non-existance.|image=Gov_andrea_doria}}
+* enables_disables_deposition = yes
+
+|- id="Ware Vrijheid"
+| '''Ware Vrijheid'''
+|
+* republican_tradition = 0.25
+* reform_progress_growth = 0.15
+|
+{{desc|Ware Vrijheid|'De Ware Vrijheid', or the True Freedom, was the political stance during the Stadtholderless period held by the De Witt's, and was the belief that princes and magnates were detrimental to the public good, as their personal quests for power and glory would time and again waste money and life on destructive campaigns.|image=Gov_dutch_tulip_field}}
+
+|- id="The Consigliere"
+| '''The Consigliere'''
+|
+* max_absolutism = 5
+* candidate_random_bonus = 1
+|
+{{desc|The Consigliere|A four-man council elected for a three-month term, headed by the 'Duke of the Republic'. thanks to this government form, the head of the state will be more competent, and its direction clearer for our citizens.|image=Gov_nobleman}}
+
+|- id="Council of Petitions"
+| '''Council of Petitions'''
+|
+* global_unrest = -2
+* reelection_cost = -0.1
+|
+{{desc|Council of Petitions|A form of plebejan tribune where the non-aristocrats can make their voices heard and let people know that the government is serving their interests and heard their pleas.|image=Gov_man_on_podium}}
+
+|- id="Hansa Representatives"
+| '''Hansa Representatives'''
+|
+* global_prov_trade_power_modifier = 0.15
+|
+{{desc|Hansa Representatives|The Hansa have been our staunch allies in our struggle against the monarchists, all the while the greedy eye our land. Let us integrate them into our governing body in order to satisfy their need for control and bargain for a guaranteed fee on shipwrecked goods.|image=Gov_peasant_republic}}
+
+|- id="Council of Lords"
+| '''Council of Lords'''
+|
+* tolerance_own = 1
+* state_maintenance_modifier = -0.20
+|
+{{desc|Council of Lords|The Council of lords was headed by the archbishop of Novogorod and was responsible for both the ordinary executive functions as well as the religious functions in the republic.|image=Gov_merchant}}
+* enables_holy_tithe = yes #5% Tax per TOTF over 4
+
+|}
+=== Consolidation of Power ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Broaden Executive Powers"
+| '''Broaden Executive Powers'''
+|
+* stability_cost_modifier = -0.15
+|
+{{desc|Broaden Executive Powers|As the country grows so does the need to be able to act swiftly and efficiently. The only way to ensure this is by broadening the powers of the executive branch so that it has the tools it needs.|image=Gov_castle}}
+
+|- id="Devolution of Powers"
+| '''Devolution of Powers'''
+|
+* diplomats = 1
+|
+{{desc|Devolution of Powers|No single person can rule a country as big and complex as ours. Collecting such powers in the hand of one ruler is also contrary to the Republican ideals of our ancestors.\nDecentralization and Devolution is how we can best remain able to dynamically meet the needs of an ever-growing state.|image=Gov_generic_people}}
+
+|- id="Absolute Power of the President"
+| '''Absolute Power of the President'''
+|
+* all_power_cost = -0.05
+* election_cycle = 1
+|
+{{desc|Absolute Power of the President|While we have members of our nation elected to represent the people of their constituency, we must never forget that it is the President who has been elected to represent all people. The role of the elected representatives within the Revolution should be merely to advise the President who wields absolute power over the Republic.|image=Gov_king}}
+
+|- id="A Revolutionary Council"
+| '''A Revolutionary Council'''
+|
+* max_revolutionary_zeal = 10
+* election_cycle = -1
+|
+{{desc|A Revolutionary Council|It’s become clear that the cult of personality surrounding our ruler is rapidly returning us to the old ways of government. We cannot allow this to happen, so by concentrating power into a council of elected individuals to represent the values of the Revolution, we strip power away from the individual at our state’s head and create another shield against the horror of absolute rulership.|image=Reform_revolutionary_council}}
+
+|- id="Confederation of States"
+| '''Confederation of States'''
+|
+* diplomatic_upkeep = 1
+* improve_relation_modifier = 0.15
+* max_absolutism = -10
+|
+{{desc|Confederation of States|As our nation was born out of several independent states that rebelled against foreign oppression and religious persecution, it is foreign threats that kept us united in these first years, before formally uniting as a confederacy of states. Let us open our hands to invite additional states and nations into our union!|image=Gov_confederation_of_states}}
+
+|- id="Dominate the Hansa"
+| '''Dominate the Hansa'''
+|
+* merchants = 1
+* diplomatic_reputation = 1
+|
+{{desc|Dominate the Hansa|Let us start to establish trade posts like the other hansa cities, and slowly supplant hamburg and lubeck from their dominant positions in the league.|image=Gov_peasant_republic}}
+
+|- id="Empowered Aristocratic Courts"
+| '''Empowered Aristocratic Courts'''
+|
+* yearly_corruption = -0.10
+* state_maintenance_modifier = -0.15
+|
+{{desc|Empowered Aristocratic Courts|The Noble Aristocrats have long dominated local courts in lower regions, often bribing their way into positions of power, by granting them these privileges we will both reduce the corruption on a local level as well as stabilize the courts and their influence.|image=Gov_judge}}
+* enables_magnate_law = yes
+* enables_aristocratic_idea_group = yes
+* enables_plutocratic_idea_group = no
+
+|- id="Empowered Sovereign Trade Companies"
+| '''Empowered Sovereign Trade Companies'''
+|
+* max_absolutism = -5
+* trade_company_investment_cost = -0.10
+* ae_impact = -0.10
+|
+{{desc|Empowered Sovereign Trade Companies|By granting our trade companies charters to own and wage wars on their own we can expand our influence in the indies while not engaging in full on conflicts, instead using our trade companies as proxies to seize lands and trade centers.|image=Gov_colonial_rule}}
+* enables_voc_mentality = yes
+
+|- id="Empowered Consolidation of Power"
+| '''Empowered Consolidation of Power'''
+|
+* max_absolutism = 5
+* global_autonomy = -0.05
+|
+{{desc|Empowered Consolidation of Power|The Long Reign of our rulers means that they have enough time to pass the needed laws and influences to accomplish their goals while in office. And successive elections means their words carry more weight as they represent the will of the people.|image=Gov_imperial_inquisition}}
+* enables_absolute_reelection = yes
+
+|}
+=== Guiding Principle of Administration ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Political Principle"
+| '''Political Principle'''
+|
+* free_adm_policy = 1
+* possible_adm_policy = 1
+|
+{{desc|Political Principle|As a Republic the guiding principles of our state must be those that further the efficiency of the political apparatus and the political ideals.|image=Gov_paper_with_seal_3}}
+
+|- id="Moral Principle"
+| '''Moral Principle'''
+|
+* free_dip_policy = 1
+* possible_dip_policy = 1
+|
+{{desc|Moral Principle|One of the primary functions of the state is to uphold good and moral values. As our Republic in many ways relies on the good and virtuous behavior of its citizens corruption and sinful behavior must be counteracted and rooted out for the good of the entire country.|image=Gov_parliament_hall}}
+
+|- id="Revolutionary Principle"
+| '''Revolutionary Principle'''
+|
+* rr_girondists_influence = 0.1
+* land_morale = 0.1
+* global_manpower_modifier = 0.15
+|
+{{desc|Revolutionary Principle|The purpose of our state is quite simple; to spread the Revolution. We must centralise our state around the idea that it is only be liberating all people of the world into Revolutionary states that we may create an everlasting state of peace and equality in the world.|image=Gov_revolutionary_republic}}
+
+|- id="Equality Principle"
+| '''Equality Principle'''
+|
+* tolerance_heretic = 2
+* tolerance_heathen = 2
+* rr_jacobins_influence = 0.1
+|
+{{desc|Equality Principle|Although our state holds Egalité as one of its core values, it is clear that we have completely failed in our goal to treat all our people with fairness and equality. The core principle of our nation must be to eliminate the barriers of gender, culture, and social class and ensure that it is known that all people are created equal and a good start to that would be to ensure that religion remains a private matter and does not dictate one’s rights within the state.|image=Reform_equal_electorate}}
+
+|- id="Imperial Principle"
+| '''Imperial Principle'''
+|
+* rr_royalists_influence = 0.1
+* ae_impact = -0.1
+* province_warscore_cost = -0.1
+|
+{{desc|Imperial Principle|The Revolution has made it clear that our nation, above all others, wields the divine right to hold Imperial Hegemony over all other nations. The states around us are fragile and weak, and it is clear that only by directly controlling these states ourselves will we ensure that the values of the Revolution are enforced on the people.|image=Reform_imperial_nobility}}
+
+|- id="Tolerance Principle"
+| '''Tolerance Principle'''
+|
+* religious_unity = 0.20
+* advisor_cost = -0.10
+* advisor_pool = 1
+|
+{{desc|Tolerance Principle|Our nation was born in the fight for religious freedom and to stop the bloody and harsh foreign abuses against our people. Because of this, Tolerance is a virtue at the heart of both our people and our nation. Portuguese Jews, French Hugenots and German refugees, we welcome them all.|image=Gov_dutch_tolerance}}
+
+|- id="Independent Principle"
+| '''Independent Principle'''
+|
+* possible_mil_policy = 1
+* war_exhaustion = -0.025
+|
+{{desc|Independent Principle|Our people are united in their fierce drive for independence, and this idea has come to dominate our government.|image=Gov_peasant_republic}}
+
+|- id="Empowered Principle of Heritage"
+| '''Empowered Principle of Heritage'''
+|
+* possible_mil_policy = 1
+* free_mil_policy = 1
+* nobles_loyalty_modifier = 0.05
+|
+{{desc|Empowered Principle of Heritage|The knights of old dominated the battlefields and saved our republic many times over. Let us Raise them up and guarentee their privileges in exchange for their protection of our most serene republic.|image=Gov_soldiers_2}}
+
+|- id="Empowered Principle of Profit"
+| '''Empowered Principle of Profit'''
+|
+* interest = -1
+* trade_steering = 0.25
+|
+{{desc|Empowered Principle of Profit|The merchants are what funds and sustains our republic, we should let them dominate our economic policy so that we enjoy the ease of loans and let the trade flow into our coffers.|image=Gov_economy_trade}}
+* enables_home_market = yes
+
+|- id="Empowered Principle of Power"
+| '''Empowered Principle of Power'''
+|
+* election_cycle = 1
+* reelection_cost = -0.25
+* republican_tradition = -0.1
+|
+{{desc|Empowered Principle of Power|Let us increase the reign of our rulers and smooth over the re-election process. it might cause some unrest among the more republican types among us, but its for the good of stability of the republic.|image=Gov_french_louis}}
+* enables_long_reign = yes
+
+|}
+=== Electorate ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Landholders"
+| '''Landholders'''
+|
+* manpower_recovery_speed = 0.1
+|
+{{desc|Landholders|The landholders are at the heart of power in any society and our state is no exception. Let us extend the power to vote to all those that have land and grade their number of votes in accordance with the size of their properties.|image=Gov_dutch_flag}}
+
+|- id="Citizenry"
+| '''Citizenry'''
+|
+* land_morale = 0.1
+|
+{{desc|Citizenry|A Republic relies on its citizens to function and so it is only right that each citizen in our state will have the power to vote for who will guide our country. Attaining the privilege of being a citizen will also be a spur for all those under our rule to strive for good conduct.|image=Gov_people_walking}}
+
+|- id="Board of Admirals"
+| '''Board of Admirals'''
+|
+* leader_naval_fire = 1
+* republican_tradition = -0.5
+|
+{{desc|Board of Admirals|Our nation lives and dies on our ability to project power on the sea. To that end we have handed over the reins of government to the Board of Admirals, whose members are experienced and patriotic beyond reproach.\n\nDisables elections.|image=Reform_admiralty}}
+* admirals_become_rulers = yes
+
+|- id="Equal Electorate"
+| '''Equal Electorate'''
+|
+* global_unrest = -2
+* global_tax_modifier = 0.1
+* female_advisor_chance = 0.33
+* rr_jacobins_influence = 0.1
+|
+{{desc|Equal Electorate|We must dissolve all barriers that separate our people and extend the right to hold a political office to all people. Gender, religion, social class, culture, all are irrelevant to one’s capability to hold a political office and so we must strive to maintain equality of opportunity within our government.|image=Reform_equal_electorate}}
+
+|- id="Three Social Classes"
+| '''Three Social Classes'''
+|
+* core_creation = -0.1
+* rr_girondists_influence = 0.1
+|
+{{desc|Three Social Classes|In the days before the birth of the Revolution, the old government attempted to sway the people away from taking arms by allowing three social classes representation within the government; the clergy, the peasants, and the upper class. Perhaps we could emulate this system by organizing our people into an upper, middle, and lower class based on their economic status and creating three distinct political entities within our government to represent their interests.|image=Reform_three_classes}}
+
+|- id="Military Electorate"
+| '''Military Electorate'''
+|
+* leader_land_fire = 1
+* army_tradition = 0.5
+* rr_royalists_influence = 0.1
+|
+{{desc|Military Electorate|Our nation values comradery above all else, and nobody exemplifies the value of being a comrade like our boys fighting on the fields of battle. These are the men who’ve seen the horrors of war and fought alongside their countrymen to preserve and advance the Revolution, and these men should be the ones to rule us. We must alter the requirements to hold an office in our government so that only those who have served in our military are eligible to represent the people within the government.|image=Reform_military_dictatorship}}
+* generals_become_rulers = yes
+* has_term_election = no
+
+|- id="The Regents"
+| '''The Regents'''
+|
+* development_cost = -0.10
+|
+{{desc|The Regents|The Regents were a aristocratic class of merchants who had, through their fortune first bought their way into the countries elite, and then attempted to reduce social mobility to stop anyone from breaching their class. Their investments into the Dutch agriculture made it the most advanced and most productive in all of Europe and beyond. To signify their wealth and status, they ordered construction of palaces in the imperial French style.|image=Gov_regents}}
+* enables_regent_investments = yes
+
+|- id="Peasantry"
+| '''Peasantry'''
+|
+* infantry_cost = -0.15
+* infantry_power = 0.10
+* army_tradition_decay = 0.01
+|
+{{desc|Peasantry|The furor of the peasantry being called to arms to defend their state is a terrifying thing to witness, these rugged and strong men are not mere cityboys that lived a life of weakness, but strong and fertile men with large families. Supplying their own equipment and training at home, this is an electorate not to be trifled with.|image=Gov_peasant_republic}}
+
+|}
+=== Office Selection ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Appointment by Committee"
+| '''Appointment by Committee'''
+|
+* advisor_pool = 1
+* advisor_cost = -0.05
+|
+{{desc|Appointment by Committee|Let us abandon arbitrary appointments to governmental offices. Committees shall be established to decide on the best candidate for a given role to ensure that administrative competence is the norm in our realm.|image=Gov_politician}}
+
+|- id="Bureaucratic Aparatus"
+| '''Bureaucratic Aparatus'''
+|
+* min_autonomy_in_territories = -0.10
+|
+{{desc|Bureaucratic Aparatus|The bureaucracy is expanding to meet the needs of the expanding bureaucracy.|image=Gov_map_2}}
+
+|- id="Extended Suffrage"
+| '''Extended Suffrage'''
+|
+* num_accepted_cultures = 1
+|
+{{desc|Extended Suffrage|Let us open up the availability of important offices to more of those living within our borders so that we have a wider and more representative selection of civil servants.|image=Gov_paper_with_seal}}
+
+|- id="Raadspensionaris"
+| '''Raadspensionaris'''
+|
+* free_dip_policy = 1
+* global_autonomy = -0.025
+|
+{{desc|Raadspensionaris|De Raadspensionaris, or "the Grand pensionary" was the premier civil power of the Netherlands, as representative of the county of holland he was the most powerful of the dutch representatives, and was considered the major representative of the Dutch Republic in absence of the Stadtholder.  As the premier civil vervant of the Republic, it fell upon him to execute the laws and manage the domestic and foreign policies.|image=Gov_raadspensionaris}}
+
+|- id="Hansa Universities"
+| '''Hansa Universities'''
+|
+* advisor_pool = 1
+* dip_advisor_cost = -0.15
+* global_institution_spread = 1
+|
+{{desc|Hansa Universities|By aligning outself to the hansa we managed to get access to their academic classes and can convince some traders and academics to take up residence in our capital, where they will spread the modern sciences and news of the wider world.|image=Gov_peasant_republic}}
+* enables_attracting_academics = yes #12.5% Innovativeness Gain per 20 prestige
+
+|}
+=== Question of Dictatorship ===
+{| class="mildtable sortable" style="width:100%"
+! style="width:150px" | Type
+! style="width:300px" class="unsortable" | Effects
+! class="unsortable" | Description & notes
+
+|- id="Seize Executive Power"
+| '''Seize Executive Power'''
+|
+|
+{{desc|Seize Executive Power|Republicanism has served us well but it is time we empower a strong ruler to take our state into a new era.|image=king_2_highlighted}}
+
+|- id="Proclaim Divine Guidance"
+| '''Proclaim Divine Guidance'''
+|
+|
+{{desc|Proclaim Divine Guidance|Divine guidance and not popular support must be the governing rule in our state. Let us appoint someone who will truly care for the moral well-being of our subjects.|image=religious_leader_highlighted}}
+
+|- id="Strengthen Executive Powers"
+| '''Strengthen Executive Powers'''
+|
+* max_absolutism = 25
+|
+{{desc|Strengthen Executive Powers|Especially in a Republic the authority and strength of the state is of the utmost importance. We must strengthen central power and ensure that each and every decision made in our capital reaches every corner of our country.|image=Gov_soldiers_2}}
+
+|- id="Reinforce Republican Values"
+| '''Reinforce Republican Values'''
+|
+* free_adm_policy = 1
+* reelection_cost = -0.1
+|
+{{desc|Reinforce Republican Values|Safeguarding the Republican values upon which this country has been built is the only way to ensure a successful evolution of our state.|image=Gov_parliament_hall}}
+
+|- id="Lower the Black Flag"
+| '''Lower the Black Flag'''
+|
+|
+{{desc|Lower the Black Flag|The time has come to end our lives of piracy and settle down to establish a more stable Republic.|image=parliament_highlighted}}
+
+|- id="President For Life"
+| '''President For Life'''
+|
+* republican_tradition = -0.5
+* monarch_admin_power = 1
+* monarch_military_power = 1
+|
+{{desc|President For Life|Though many Revolutionary politicians are supporting the idea of a Revolutionary Empire with a hereditary ruler at its head, others are fiercely resisting this idea and claiming that it betrays the very ideals of the Revolution itself. The President is sovereign, and none may supersede the authority of the Presidency. By electing our Presidents to rule for life, we will both secure the absolute leadership the Imperialists demand without completely abandoning the ideals of the Republic.|image=Gov_man_on_podium}}
+
+|- id="Government for the People"
+| '''Government for the People'''
+|
+* max_revolutionary_zeal = 20
+|
+{{desc|Government for the People|Egalité, Fraternité, Liberté. All three virtues of the Republic point to one thing; that the Republic exists to serve its people, and for no other reason. We will never surrender to the Imperialists, and the President shall always serve his term with the singular focus of protecting the freedom and equality of our people.|image=Reform_government_for_people}}
+
+|- id="A Revolutionary Empire"
+| '''A Revolutionary Empire'''
+|
+|
+{{desc|A Revolutionary Empire|Even in a Republic fueled by the fires of Revolution, it’s becoming clear that political dynasties are being established in our nation. Our President wishes to crown himself Emperor and continue to spread the ideals of the Revolution, with the Emperorship claiming sovereignty over all people.|image=Reform_become_rev_empire}}
+
+|}
+
+[[Category:Governments Expanded]]

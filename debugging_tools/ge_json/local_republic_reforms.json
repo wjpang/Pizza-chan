@@ -1,0 +1,1325 @@
+"Republic": {
+	"Power Structure": {
+		"Oligarchy": {
+			"Image": "/images/0/05/Gov_people_walking.png",
+			"Effects": {
+				"National Tax Modifier": 0.05,
+				"Maximum Absolutism": -40
+			}
+		},
+		"Plutocracy": {
+			"Image": "/images/6/61/Gov_politician.png",
+			"Effects": {
+				"Maximum Absolutism": -50,
+				"Merchants": 1
+			}
+		},
+		"Venetian Government": {
+			"Image": "/images/3/30/Gov_trading_city.png",
+			"Effects": {
+				"Maximum Absolutism": -50,
+				"Merchants": 1,
+				"Yearly Corruption": -0.1
+			}
+		},
+		"Pirate Republic": {
+			"Image": "/images/1/11/Gov_pirate_republic.png",
+			"Effects": {
+				"Yearly Republican Tradition": -1,
+				"Maximum Absolutism": -50,
+				"Naval Force Limit Modifier": 0.5,
+				"Chance to Capture Enemy Ships": 0.33,
+				"May Raid Coasts, including coasts of countries with same religion.": yes
+			}
+		},
+		"Noble Elite": {
+			"Image": "/images/1/1e/Gov_nobleman.png",
+			"Effects": {
+				"Yearly Army Tradition": 0.25,
+				"Maximum Absolutism": -20,
+				"Nobility Influence": 0.05,
+				"Marathas Influence": 0.05,
+				"Rajputs Influence": 0.05
+			}
+		},
+		"Free City": {
+			"Image": "/images/b/b1/Gov_free_city.png",
+			"Effects": {
+				"Trade Efficiency": 0.1,
+				"Development Cost": -0.1,
+				"Maximum Absolutism": -20,
+				"Burghers Influence": 0.15
+			}
+		},
+		"Trading City": {
+			"Image": "/images/3/30/Gov_trading_city.png",
+			"Effects": {
+				"Maximum Absolutism": -20,
+				"Global Trade Power": 0.1,
+				"Maximum Absolutism": -20
+			}
+		},
+		"Ambrosian Republic": {
+			"Image": "/images/9/9f/Gov_ambrosian_republic.png",
+			"Effects": {
+				"National Tax Modifier": 0.1,
+				"Morale of Armies": 0.05,
+				"Governing Capacity": 50,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Veche Republic": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Merchants": 1,
+				"Governing Capacity": 50,
+				"Maximum Absolutism": -50
+			}
+		},
+		"American Republic": {
+			"Image": "/images/a/aa/Gov_parliament.png",
+			"Effects": {
+				"Monthly War Exhaustion": -0.04,
+				"Stability Cost Modifier": -0.1,
+				"Maximum Absolutism": -20
+			}
+		},
+		"Federal Republic": {
+			"Image": "/images/5/5b/Gov_constitution.png",
+			"Effects": {
+				"Diplomatic Reputation": 1,
+				"Spy Defense": 0.1,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Colonial Government": {
+			"Image": "/images/a/a8/Gov_peasants.png",
+			"Effects": {
+				"Monthly Autonomy Change": -0.05,
+				"Recover Army Morale Speed": 0.02,
+				"Institution Embracement Cost": -0.1,
+				"Governing Capacity": 100
+			}
+		},
+		"Dutch Republic": {
+			"Image": "/images/7/7a/Gov_dutch_republic.png",
+			"Effects": {
+				"Heavy Ship Combat Ability": 0.1,
+				"Trade Efficiency": 0.1,
+				"Governing Capacity": 50,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Peasants Republic": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Production Efficiency": 0.1,
+				"Morale of Armies": 0.05,
+				"Maximum Absolutism": -50
+			}
+		},
+		"Revolutionary Republic": {
+			"Image": "/images/5/56/Gov_revolutionary_republic.png",
+			"Effects": {
+				"Tolerance of Heretics": 2,
+				"Morale of Armies": 0.1,
+				"Monthly Autonomy Change": -0.2,
+				"Maximum Revolutionary Zeal": 50
+			}
+		},
+		"Revolutionary State": {
+			"Image": "/images/5/56/Gov_revolutionary_republic.png",
+			"Effects": {
+				"Tolerance of Heretics": 2,
+				"Morale of Armies": 0.1,
+				"Monthly Autonomy Change": -0.2,
+				"Maximum Revolutionary Zeal": 25
+			}
+		},
+		"Presidential Dictator": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Monthly Autonomy Change": -0.075,
+				"Morale of Armies": 0.1
+			}
+		},
+		"Sich Rada": {
+			"Image": "/images/e/ea/Gov_horde_riding.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.2,
+				"Cavalry Cost": -0.2,
+				"Cavalry to Infantry Ratio": 0.2,
+				"Governing Capacity": 50,
+				"Maximum Absolutism": -40
+			}
+		},
+		"Military Dictatorship": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Monthly Autonomy Change": -0.075,
+				"Morale of Armies": 0.1,
+				"Maximum Absolutism": -10
+			}
+		},
+		"Italian Signoria": {
+			"Image": "/images/8/86/Reform_signoria.png",
+			"Effects": {
+				"National Tax Modifier": 0.05,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Protectorate Parliament": {
+			"Image": "/images/e/e5/Reform_protectorate_parliament.png",
+			"Effects": {
+				"Monthly Autonomy Change": -0.05,
+				"Morale of Armies": 0.05,
+				"Maximum Absolutism": -20,
+				"Yearly Republican Tradition": -0.5
+			}
+		},
+		"Stratocratic Administration": {
+			"Image": "/images/c/ca/Gov_prussian_monarchy.png",
+			"Effects": {
+				"Monthly War Exhaustion": -0.02,
+				"Monthly Autonomy Change": -0.075,
+				"Yearly Republican Tradition": -0.5,
+				"Maximum Absolutism": -10,
+				"Governing Capacity Modifier": -0.5
+			}
+		},
+		"Autonomous Swiss Cantons": {
+			"Image": "/images/3/34/Reform_united_cantons.png",
+			"Effects": {
+				"Governing Capacity": -50,
+				"Free Policies": 1,
+				"Mercenary Manpower": 0.5,
+				"Maximum Absolutism": -30
+			}
+		},
+		"The Florentine Republic": {
+			"Image": "/images/9/9b/Gov_florentine_republic.png",
+			"Effects": {
+				"Trade Efficiency": 0.1,
+				"Construction Cost": -0.10,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Genoese Republic": {
+			"Image": "/images/d/d4/Gov_genoa.png",
+			"Effects": {
+				"Maximum Absolutism": -50,
+				"Goods Produced Modifier": 0.10,
+				"Merchants": 1
+			}
+		},
+		"Old Swiss Confederacy": {
+			"Image": "/images/4/4f/Gov_old_confederacy.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.25,
+				"Infantry Cost": -0.10,
+				"Minimum Autonomy": 10,
+				"Maximum Absolutism": -50
+			}
+		},
+		"Great Russian Republic": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Governing Capacity": 250,
+				"National Manpower Modifier": 0.20,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Caucasian Federation": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Accepted Cultures": 2,
+				"Tolerance of Heretics": 1,
+				"Maximum Absolutism": -30
+			}
+		}
+	},
+	"Republican Virtues": {
+		"Authoritarianism": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Harsh Treatment Cost": -0.10
+			}
+		},
+		"Political Dynasties": {
+			"Image": "/images/b/b6/Gov_man_and_children.png",
+			"Effects": {
+			}
+		},
+		"Republicanism": {
+			"Image": "/images/4/47/Gov_assembly_hall.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.2
+			}
+		},
+		"Council of Captains": {
+			"Image": "/images/5/5d/Gov_council_of_captains.png",
+			"Effects": {
+				"Privateer Efficiency": 0.33
+			}
+		},
+		"Articles of Agreement": {
+			"Image": "/images/e/e4/Gov_articles_of_agreement.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.5,
+				"National Sailors Modifier": 0.1
+			}
+		},
+		"Smugglers Haven": {
+			"Image": "/images/f/f3/Gov_smugglers_haven.png",
+			"Effects": {
+				"Trade Power Abroad": 0.3
+			}
+		},
+		"Liberté Ideals": {
+			"Image": "/images/c/c2/Reform_liberte.png",
+			"Effects": {
+				"Girondist Influence": 0.1,
+				"Accepted Cultures": 2
+			}
+		},
+		"Egalité Ideals": {
+			"Image": "/images/2/28/Reform_egalite.png",
+			"Effects": {
+				"Jacobin Influence": 0.1,
+				"Yearly Republican Tradition": 0.25
+			}
+		},
+		"Fraternité Ideals": {
+			"Image": "/images/b/b6/Reform_fraternite.png",
+			"Effects": {
+				"Imperial Influence": 0.1,
+				"Culture Conversion Cost": -0.2,
+				"Harsh Treatment Cost": -0.25
+			}
+		},
+		"De Medici Dynasty": {
+			"Image": "/images/c/c1/Gov_de_medici.png",
+			"Effects": {
+				"Maximum Absolutism": 5
+			}
+		},
+		"Support the Borghese": {
+			"Image": "/images/a/a8/Gov_peasants.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.3
+			}
+		},
+		"Rule by Consent": {
+			"Image": "/images/a/a8/Gov_peasants.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.5,
+				"Stability Cost Modifier": 0.1,
+				"Maximum Absolutism": -10
+			}
+		},
+		"De Moedernegotie": {
+			"Image": "/images/4/40/Gov_hansa_trade.png",
+			"Effects": {
+				"Provincial Trade Power Modifier": 0.20,
+				"Yearly Navy Tradition": 0.5,
+				"Burghers Influence": 0.10,
+				"Burghers Loyalty Equilibrium": 0.05
+			}
+		},
+		"Mixed Republic": {
+			"Image": "/images/a/a8/Gov_peasants.png",
+			"Effects": {
+				"Reform Progress Growth": 0.15,
+				"Stability Cost Modifier": -0.15
+			}
+		},
+		"Independence": {
+			"Image": "/images/8/83/Gov_swiss_army.png",
+			"Effects": {
+				"Monthly War Exhaustion": -0.025,
+				"Manpower Recovery Speed": 0.10,
+				"Infantry Combat Ability": 0.05
+			}
+		},
+		"Sovereignty without a Sovereign": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Attrition for Enemies": 1,
+				"Fort Defense": 0.1
+			}
+		},
+		"Support Ghibbellines": {
+			"Image": "/images/5/50/Gov_italy_ghibbelline.png",
+			"Effects": {
+				"Diplomatic Reputation": 1,
+				"Improve Relations": 0.15,
+				"Yearly Army Tradition": 0.25,
+				"Yearly Republican Tradition": -0.25
+			}
+		},
+		"Support Guelphs": {
+			"Image": "/images/1/1f/Gov_italy_guelph.png",
+			"Effects": {
+				"Development Cost": -0.05,
+				"Goods Produced Modifier": 0.10,
+				"Yearly Papal Influence": 0.5,
+				"Yearly Legitimacy": -0.5
+			}
+		},
+		"Legacy of Saint Ambrose": {
+			"Image": "/images/4/40/Gov_hansa_trade.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"Burghers Influence": 0.10,
+				"Burghers Loyalty Equilibrium": 0.05
+			}
+		},
+		"Hanseatic Ties": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Trade Steering": 0.1
+			}
+		}
+	},
+	"Frequency of Elections": {
+		"Frequent Elections": {
+			"Image": "/images/5/59/Gov_ballot_box.png",
+			"Effects": {
+				"Maximum Absolutism": -10,
+			}
+		},
+		"Consolidation of Power": {
+			"Image": "/images/5/5b/Gov_constitution.png",
+			"Effects": {
+				"Maximum Absolutism": 10,
+			}
+		},
+		"Consolidate Power in the Doge": {
+			"Image": "/images/f/fd/Reform_consolidate_power_in_doge.png",
+			"Effects": {
+				"Governing Capacity": 250
+			}
+		},
+		"Disperse Power Across the Cities": {
+			"Image": "/images/e/e1/Reform_consolidate_power_in_cities.png",
+			"Effects": {
+				"Diplomatic Relations": 1,
+				"Trade Power Abroad": 0.1
+			}
+		},
+		"Permanent Marathas Council": {
+			"Image": "/images/8/82/Gov_noble_indian.png",
+			"Effects": {
+				"Land Leader Shock": 1,
+				"Marathas Influence": 0.1,
+				"Marathas Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Governmental Purbias Register": {
+			"Image": "/images/d/d7/Gov_rajput_kingdom.png",
+			"Effects": {
+				"Recover Army Morale Speed": 0.05,
+				"Rajputs Influence": 0.1,
+				"Rajputs Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Sortition": {
+			"Image": "/images/c/cf/Gov_paper_with_seal_3.png",
+			"Effects": {
+				"Yearly Corruption": -0.1
+			}
+		},
+		"Council of the Indies": {
+			"Image": "/images/f/f4/Gov_merchant_ship.png",
+			"Effects": {
+				"Tariffs": 0.2,
+				"Treasure Fleet income": 0.2
+			}
+		},
+		"Legislative Assembly": {
+			"Image": "/images/0/0f/Reform_legislative_assembly.png",
+			"Effects": {
+				"Yearly Revolutionary Zeal": 1.5
+			}
+		},
+		"Constituent Assembly": {
+			"Image": "/images/0/02/Reform_national_constituent.png",
+			"Effects": {
+				"Improve Relations": 0.15,
+				"Diplomatic Relations": 1
+			}
+		},
+		"Factional Politics": {
+			"Image": "/images/c/cf/Gov_paper_with_seal_3.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.1,
+				"Stability Cost Modifier": 0.15
+			}
+		},
+		"Vroedschappen": {
+			"Image": "/images/1/1e/Gov_vroedschap.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.10
+			}
+		},
+		"Council of 48": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+			}
+		},
+		"Captain And Defender of Liberty": {
+			"Image": "/images/f/f7/Gov_italian_mercenary.png",
+			"Effects": {
+				"Mercenary Maintenance": -0.15,
+				"Maximum Absolutism": 5
+			}
+		},
+		"Princes of Novogorod": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Maximum Absolutism": 10
+			}
+		}
+	},
+	"Military Organisation": {
+		"Feudal Levies": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"War Taxes Cost": -1,
+				"Nobility Influence": 0.05,
+				"Vassal Force Limit Contribution": 1
+			}
+		},
+		"National Guard": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Morale of Armies": 0.05,
+				"Recover Army Morale Speed": 0.1
+			}
+		},
+		"Milizia Nationale": {
+			"Image": "/images/9/9c/Gov_latin_militia.png",
+			"Effects": {
+				"Morale of Armies": 0.10,
+				"Mercenary Manpower": -0.50
+			}
+		},
+		"Mercenary Corps": {
+			"Image": "/images/3/3f/Gov_landsknecht.png",
+			"Effects": {
+				"Mercenary Manpower": 0.25,
+				"Reinforce Speed": 0.25,
+				"Mercenary Maintenance": -0.25
+			}
+		},
+		"Professional Army": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Discipline": 0.025,
+				"Mercenary Discipline": -0.10,
+				"Land Maintenance Modifier": 0.10,
+				"Regiment Drill Loss": -0.20
+			}
+		},
+		"Condottieri Contracts": {
+			"Image": "/images/f/f7/Gov_italian_mercenary.png",
+			"Effects": {
+				"Mercenary Discipline": 0.05,
+				"Mercenary Manpower": 0.50,
+				"Monthly War Exhaustion": -0.01
+			}
+		},
+		"Lead the Imperical Circle": {
+			"Image": "/images/b/b2/Gov_imperial_army.png",
+			"Effects": {
+				"Vassal Force Limit Contribution": 1,
+				"Land Maintenance Modifier": -0.05
+			}
+		},
+		"Expanded Devshirme": {
+			"Image": "/images/2/24/Gov_Turkish_iqta.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.10
+			}
+		},
+		"Tatar Mercenaries": {
+			"Image": "/images/e/e9/Gov_Tatar_raid.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.10,
+				"Mercenary Discipline": 0.025
+			}
+		},
+		"Elephant Cavalry": {
+			"Image": "/images/1/1f/Gov_soldiers_5.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.05,
+				"Morale of Armies": 0.05
+			}
+		},
+		"Portuguese Marines": {
+			"Image": "/images/1/1f/Gov_soldiers_5.png",
+			"Effects": {
+				"Discipline": 0.025,
+				"Shock Damage Received": -0.05,
+				"Fire Damage Received": -0.05
+			}
+		},
+		"Permanent Marathas Council": {
+			"Image": "/images/8/82/Gov_noble_indian.png",
+			"Effects": {
+				"Land Leader Shock": 1,
+				"Marathas Influence": 0.1,
+				"Marathas Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Governmental Purbias Register": {
+			"Image": "/images/d/d7/Gov_rajput_kingdom.png",
+			"Effects": {
+				"Recover Army Morale Speed": 0.05,
+				"Rajputs Influence": 0.1,
+				"Rajputs Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"New Order Regiments": {
+			"Image": "/images/f/f8/Gov_new_order_regiments.png",
+			"Effects": {
+				"Discipline": 0.025,
+				"Army Drill Gain Modifier": 0.25,
+				"Military Technology Cost": -0.05
+			}
+		},
+		"Generalkriegskommissariat": {
+			"Image": "/images/4/49/Gov_king.png",
+			"Effects": {
+				"National Tax Modifier": 0.10,
+				"Regiment Costs": -0.05,
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Gustavan Artillery": {
+			"Image": "/images/0/04/Gov_gustavan_artillery.png",
+			"Effects": {
+				"Movement Speed": 0.10,
+				"Artillery Combat Ability": 0.05
+			}
+		},
+		"The Black Guard": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Mercenary Discipline": 0.05,
+				"Mercenary Manpower": 0.25
+			}
+		},
+		"Re-Organize the Imperial Army": {
+			"Image": "/images/9/90/Gov_austrian_army.png",
+			"Effects": {
+				"Regiment Costs": -0.10,
+				"National Supply Limit Modifier": 0.25,
+				"Looting Speed": 0.25
+			}
+		},
+		"Arabian Horses": {
+			"Image": "/images/a/a9/Gov_mamluk_horse.png",
+			"Effects": {
+				"Cavalry Flanking Ability": 0.5,
+				"Shock Damage": 0.05
+			}
+		},
+		"Pospolite Ruszenie": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Shock Damage": 0.10,
+				"Cavalry Flanking Ability": 1
+			}
+		},
+		"Polish National Guard": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Reinforce Speed": 0.33,
+				"Reinforce Cost": -0.20,
+				"Recover Army Morale Speed": 0.1
+			}
+		},
+		"Henrician Reforms": {
+			"Image": "/images/8/83/Gov_england_henry_8.png",
+			"Effects": {
+				"Land Force Limit Modifier": 0.15,
+				"Naval Force Limit Modifier": 0.15
+			}
+		},
+		"Berber Cavalry": {
+			"Image": "/images/f/f5/Gov_berber_warrior.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.10,
+				"Morale of Armies": 0.05,
+				"Monthly Piety": -0.001
+			}
+		},
+		"Jinetes": {
+			"Image": "/images/2/24/Gov_spain_jinite.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.15,
+				"Cavalry Cost": -0.10,
+				"Cavalry Flanking Ability": 0.5
+			}
+		},
+		"Miquelet Militia": {
+			"Image": "/images/e/ee/Gov_spain_tercio.png",
+			"Effects": {
+				"Infantry Cost": -0.10,
+				"Infantry Combat Ability": 0.05
+			}
+		},
+		"Royal Ordinances": {
+			"Image": "/images/4/49/Gov_king.png",
+			"Effects": {
+				"Military Technology Cost": -0.15,
+				"Artillery Cost": -0.10,
+				"Army Drill Gain Modifier": 0.25
+			}
+		},
+		"Elite Jägers": {
+			"Image": "/images/4/44/Gov_hesse_jaegers.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Infantry Combat Ability": 0.10,
+				"Regiment Costs": 0.10
+			}
+		},
+		"Warrior Kings": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Land Leader Shock": 1
+			}
+		},
+		"Employ the Snaphaener": {
+			"Image": "/images/4/44/Gov_hesse_jaegers.png",
+			"Effects": {
+				"Infantry Fire": 0.25,
+				"Infantry Combat Ability": 0.05,
+				"Years of Separatism": 5
+			}
+		},
+		"Redcoats": {
+			"Image": "/images/2/2d/Gov_england_redcoat.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Infantry Combat Ability": 0.05
+			}
+		},
+		"Recruit Ronin": {
+			"Image": "/images/3/37/Gov_samurai.png",
+			"Effects": {
+				"Mercenary Discipline": 0.05,
+				"Mercenary Maintenance": -0.10,
+				"possible_mercenaries": 0.25
+			}
+		},
+		"Ashigaru Generals": {
+			"Image": "/images/e/ec/Gov_daimyo.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Fire Damage Received": -0.05,
+				"Army Drill Gain Modifier": 0.25
+			}
+		},
+		"Wei-Suo System": {
+			"Image": "/images/1/17/Gov_asian_scripture.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.10,
+				"Yearly Army Tradition": 1,
+				"Land Maintenance Modifier": -0.10,
+				"Discipline": -0.05
+			}
+		},
+		"Abbas's Reforms": {
+			"Image": "/images/e/ec/Gov_persia_abbas.png",
+			"Effects": {
+				"Land Force Limit Modifier": 0.10,
+				"Artillery Cost": -0.10,
+				"Ghulam Influence": 0.05
+			}
+		},
+		"Sherifan Levies": {
+			"Image": "/images/2/24/Gov_hejaz_cavalry.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.15,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Restore the Komnenoid Army": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Yearly Army Tradition Decay": -0.01,
+				"possible_mercenaries": 0.15
+			}
+		},
+		"Jaesungbangryak": {
+			"Image": "/images/0/08/Gov_fort.png",
+			"Effects": {
+				"Movement Speed": 0.2
+			}
+		},
+		"Five Military Force": {
+			"Image": "/images/4/44/Gov_hesse_jaegers.png",
+			"Effects": {
+				"Land Fire Damage": 0.1,
+				"Land Maintenance Modifier": -0.05
+			}
+		},
+		"Honor of the Thai People": {
+			"Image": "/images/5/5a/Gov_soldiers_6.png",
+			"Effects": {
+				"Yearly Legitimacy": 1,
+				"Land Force Limit Modifier": 0.20
+			}
+		},
+		"Form the Vojstatic": {
+			"Image": "/images/5/5e/Gov_szlachta_noble_1.png",
+			"Effects": {
+				"Land Maintenance Modifier": -0.05,
+				"Land Force Limit": 6,
+				"Mercenary Maintenance": -0.15
+			}
+		},
+		"Reforms of William III": {
+			"Image": "/images/5/55/Gov_william_3.png",
+			"Effects": {
+				"Mercenary Discipline": 0.05,
+				"Reinforce Speed": 0.25
+			}
+		},
+		"Reform the Condotierri": {
+			"Image": "/images/6/60/Gov_swiss_mercenaries.png",
+			"Effects": {
+				"Yearly Army Tradition": 0.5,
+				"Land Force Limit Modifier": 0.15,
+				"Possible Condottieri": 0.5
+			}
+		},
+		"Turkoman Gunners": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Artillery Combat Ability": 0.05,
+				"Artillery Cost": -0.10,
+			}
+		},
+		"Mongol Ties": {
+			"Image": "/images/7/75/Gov_soldiers_3.png",
+			"Effects": {
+				"Cavalry Cost": -0.10,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Lessons of Subutai": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Leader Siege": 1
+			}
+		},
+		"Peasant Militia": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Fire Damage Received": -0.10
+			}
+		},
+		"Tysyatskys": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Yearly Army Tradition": 0.5,
+				"National Unrest": -1
+			}
+		},
+		"Almogavars": {
+			"Image": "/images/b/bf/Gov_catalan_company.png",
+			"Effects": {
+				"Mercenary Manpower": 0.25,
+				"Spy Network Construction": 0.10
+			}
+		},
+		"Republican Guard": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Army Drill Gain Modifier": 0.25
+			}
+		}
+	},
+	"Regionalism": {
+		"Provincial Governments": {
+			"Image": "/images/5/51/Gov_landscape.png",
+			"Effects": {
+				"State Maintenance": -0.25,
+				"Development Cost": -0.10
+			}
+		},
+		"Administrative Divisions": {
+			"Image": "/images/6/6b/Gov_map.png",
+			"Effects": {
+				"Governing Capacity": 250
+			}
+		},
+		"Union of States": {
+			"Image": "/images/f/f4/Gov_merchant_ship.png",
+			"Effects": {
+				"Global Trade Power": 0.1,
+				"Merchants": 1
+			}
+		},
+		"Exile Colonial Companies": {
+			"Image": "/images/f/f4/Gov_merchant_ship.png",
+			"Effects": {
+				"Expel Minorities Cost": -0.3
+			}
+		},
+		"Advanced Bookkeeping": {
+			"Image": "/images/e/e8/Gov_paper_money_map.png",
+			"Effects": {
+				"Interest Per Annum": -1.0,
+				"Yearly Corruption": -0.05
+			}
+		},
+		"Communal Territories": {
+			"Image": "/images/b/b9/Gov_map_2.png",
+			"Effects": {
+				"Years of Separatism": -5,
+				"Minimum Autonomy in Territories": -0.1
+			}
+		},
+		"Verenigde Indische Companies": {
+			"Image": "/images/b/b3/Gov_voc_ship.png",
+			"Effects": {
+				"Provincial Trade Power Modifier": 0.20,
+				"Trade Company Investment cost": -0.25
+			}
+		},
+		"Confederation of Cantons": {
+			"Image": "/images/f/f5/Gov_swiss_cantons.png",
+			"Effects": {
+				"National Garrison Growth": 1,
+				"Garrison Size": 0.25
+			}
+		},
+		"Expand the 48": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Governing Capacity": 150,
+				"Years of Separatism": -5
+			}
+		},
+		"Union of Cities": {
+			"Image": "/images/b/b9/Gov_map_2.png",
+			"Effects": {
+				"Minimum Autonomy": 5,
+				"National Unrest": -2,
+				"Spy Defense": 0.20
+			}
+		},
+		"Volost Colonies": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Production Efficiency": 0.20,
+				"Minimum Autonomy in Territories": -0.05
+			}
+		}
+	},
+	"Separation of Power": {
+		"Parliamentarism": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"National Unrest": -1
+			}
+		},
+		"Presidential System": {
+			"Image": "/images/c/c5/Gov_man_on_podium.png",
+			"Effects": {
+				"Institution Embracement Cost": -0.1
+			}
+		},
+		"Pirate King": {
+			"Image": "/images/9/92/Gov_pirate_king.png",
+			"Effects": {
+				"Harsh Treatment Cost": -0.2,
+				"Naval Leader Fire": 1
+			}
+		},
+		"War Against the World Doctrine": {
+			"Image": "/images/4/4c/Gov_war_against_the_world.png",
+			"Effects": {
+				"Years of Separatism": -5,
+				"Shipbuilding Time": -0.15
+			}
+		},
+		"Black Market Consortium": {
+			"Image": "/images/2/21/Gov_black_market_consortium.png",
+			"Effects": {
+			}
+		},
+		"Imperial Diplomacy": {
+			"Image": "/images/4/49/Gov_king.png",
+			"Effects": {
+				"Diplomatic Reputation": 2,
+				"Diplomatic Relations": 1
+			}
+		},
+		"Municipal Self-Defense": {
+			"Image": "/images/8/8a/Gov_soldiers_7.png",
+			"Effects": {
+				"Land Force Limit Modifier": 0.25,
+			}
+		},
+		"The Feuillant System": {
+			"Image": "/images/4/49/Reform_feuillant.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.1,
+				"Yearly Republican Tradition": -0.1
+			}
+		},
+		"The Two-Chamber System": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Free Policies": 1,
+				"Yearly Republican Tradition": 0.15
+			}
+		},
+		"Stadholders": {
+			"Image": "/images/9/92/Gov_Stadholder.png",
+			"Effects": {
+				"Yearly Republican Tradition": -0.5,
+				"Maximum Absolutism": 5,
+				"Yearly Army Tradition": 1,
+				"Nobility Influence": 0.15
+			}
+		},
+		"Andrea Doria's Constitution": {
+			"Image": "/images/e/e1/Gov_andrea_doria.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.25,
+				"Maximum Absolutism": 10,
+			}
+		},
+		"Ware Vrijheid": {
+			"Image": "/images/3/38/Gov_dutch_tulip_field.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.25,
+				"Reform Progress Growth": 0.15
+			}
+		},
+		"The Consigliere": {
+			"Image": "/images/1/1e/Gov_nobleman.png",
+			"Effects": {
+				"Maximum Absolutism": 5,
+			}
+		},
+		"Council of Petitions": {
+			"Image": "/images/c/c5/Gov_man_on_podium.png",
+			"Effects": {
+				"National Unrest": -2,
+				"Reelection Cost": -0.1
+			}
+		},
+		"Hansa Representatives": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Provincial Trade Power Modifier": 0.15
+			}
+		},
+		"Council of Lords": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"State Maintenance": -0.20
+			}
+		}
+	},
+	"Consolidation of Power": {
+		"Broaden Executive Powers": {
+			"Image": "/images/5/50/Gov_castle.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.15
+			}
+		},
+		"Devolution of Powers": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Diplomats": 1
+			}
+		},
+		"Absolute Power of the President": {
+			"Image": "/images/4/49/Gov_king.png",
+			"Effects": {
+			}
+		},
+		"A Revolutionary Council": {
+			"Image": "/images/a/ac/Reform_revolutionary_council.png",
+			"Effects": {
+				"Maximum Revolutionary Zeal": 10,
+			}
+		},
+		"Confederation of States": {
+			"Image": "/images/1/1a/Gov_confederation_of_states.png",
+			"Effects": {
+				"Diplomatic Relations": 1,
+				"Improve Relations": 0.15,
+				"Maximum Absolutism": -10
+			}
+		},
+		"Dominate the Hansa": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Merchants": 1,
+				"Diplomatic Reputation": 1
+			}
+		},
+		"Empowered Aristocratic Courts": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"Yearly Corruption": -0.10,
+				"State Maintenance": -0.15
+			}
+		},
+		"Empowered Sovereign Trade Companies": {
+			"Image": "/images/8/8d/Gov_colonial_rule.png",
+			"Effects": {
+				"Maximum Absolutism": -5,
+				"Trade Company Investment cost": -0.10,
+				"Aggressive Expansion Impact": -0.10
+			}
+		},
+		"Empowered Consolidation of Power": {
+			"Image": "/images/4/41/Gov_imperial_inquisition.png",
+			"Effects": {
+				"Maximum Absolutism": 5,
+				"Monthly Autonomy Change": -0.05
+			}
+		}
+	},
+	"Guiding Principle of Administration": {
+		"Political Principle": {
+			"Image": "/images/c/cf/Gov_paper_with_seal_3.png",
+			"Effects": {
+				"Administrative Free Policies": 1,
+				"Administrative Possible Policies": 1
+			}
+		},
+		"Moral Principle": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Diplomatic Free Policies": 1,
+			}
+		},
+		"Revolutionary Principle": {
+			"Image": "/images/5/56/Gov_revolutionary_republic.png",
+			"Effects": {
+				"Girondist Influence": 0.1,
+				"Morale of Armies": 0.1,
+				"National Manpower Modifier": 0.15
+			}
+		},
+		"Equality Principle": {
+			"Image": "/images/f/fb/Reform_equal_electorate.png",
+			"Effects": {
+				"Tolerance of Heretics": 2,
+				"Tolerance of Heathens": 2,
+				"Jacobin Influence": 0.1
+			}
+		},
+		"Imperial Principle": {
+			"Image": "/images/8/8f/Reform_imperial_nobility.png",
+			"Effects": {
+				"Imperial Influence": 0.1,
+				"Aggressive Expansion Impact": -0.1,
+				"Province War Score Cost": -0.1
+			}
+		},
+		"Tolerance Principle": {
+			"Image": "/images/d/d2/Gov_dutch_tolerance.png",
+			"Effects": {
+				"Religious Unity": 0.20,
+				"Advisor Costs": -0.10,
+				"Possible Advisors": 1
+			}
+		},
+		"Independent Principle": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Monthly War Exhaustion": -0.025
+			}
+		},
+		"Empowered Principle of Heritage": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Military Free Policies": 1,
+				"Nobility Loyalty Equilibrium": 0.05
+			}
+		},
+		"Empowered Principle of Profit": {
+			"Image": "/images/4/43/Gov_economy_trade.png",
+			"Effects": {
+				"Interest Per Annum": -1,
+				"Trade Steering": 0.25
+			}
+		},
+		"Empowered Principle of Power": {
+			"Image": "/images/8/81/Gov_french_louis.png",
+			"Effects": {
+				"Reelection Cost": -0.25,
+				"Yearly Republican Tradition": -0.1
+			}
+		}
+	},
+	"Electorate": {
+		"Landholders": {
+			"Image": "/images/8/8a/Gov_dutch_flag.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.1
+			}
+		},
+		"Citizenry": {
+			"Image": "/images/0/05/Gov_people_walking.png",
+			"Effects": {
+				"Morale of Armies": 0.1
+			}
+		},
+		"Board of Admirals": {
+			"Image": "/images/0/01/Reform_admiralty.png",
+			"Effects": {
+				"Naval Leader Fire": 1,
+				"Yearly Republican Tradition": -0.5
+			}
+		},
+		"Equal Electorate": {
+			"Image": "/images/f/fb/Reform_equal_electorate.png",
+			"Effects": {
+				"National Unrest": -2,
+				"National Tax Modifier": 0.1,
+				"Female Advisor Chance": 0.33,
+				"Jacobin Influence": 0.1
+			}
+		},
+		"Three Social Classes": {
+			"Image": "/images/c/cb/Reform_three_classes.png",
+			"Effects": {
+				"Core-Creation Cost": -0.1,
+				"Girondist Influence": 0.1
+			}
+		},
+		"Military Electorate": {
+			"Image": "/images/8/8a/Reform_military_dictatorship.png",
+			"Effects": {
+				"Land Leader Fire": 1,
+				"Yearly Army Tradition": 0.5,
+				"Imperial Influence": 0.1
+			}
+		},
+		"The Regents": {
+			"Image": "/images/0/03/Gov_regents.png",
+			"Effects": {
+				"Development Cost": -0.10
+			}
+		},
+		"Peasantry": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Infantry Cost": -0.15,
+				"Infantry Combat Ability": 0.10,
+				"Yearly Army Tradition Decay": 0.01
+			}
+		}
+	},
+	"Office Selection": {
+		"Appointment by Committee": {
+			"Image": "/images/6/61/Gov_politician.png",
+			"Effects": {
+				"Possible Advisors": 1,
+				"Advisor Costs": -0.05
+			}
+		},
+		"Bureaucratic Aparatus": {
+			"Image": "/images/b/b9/Gov_map_2.png",
+			"Effects": {
+				"Minimum Autonomy in Territories": -0.10
+			}
+		},
+		"Extended Suffrage": {
+			"Image": "/images/9/93/Gov_paper_with_seal.png",
+			"Effects": {
+				"Accepted Cultures": 1
+			}
+		},
+		"Raadspensionaris": {
+			"Image": "/images/7/73/Gov_raadspensionaris.png",
+			"Effects": {
+				"Diplomatic Free Policies": 1,
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Hansa Universities": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Possible Advisors": 1,
+				"Diplomatic Advisor Cost": -0.15,
+				"Institution Spread": 1
+			}
+		}
+	},
+	"Question of Dictatorship": {
+		"Seize Executive Power": {
+			"Image": "/images/9/98/King_2_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Proclaim Divine Guidance": {
+			"Image": "/images/5/54/Religious_leader_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Strengthen Executive Powers": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Maximum Absolutism": 25
+			}
+		},
+		"Reinforce Republican Values": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Administrative Free Policies": 1,
+				"Reelection Cost": -0.1
+			}
+		},
+		"Lower the Black Flag": {
+			"Image": "/images/7/79/Parliament_highlighted.png",
+			"Effects": {
+			}
+		},
+		"President For Life": {
+			"Image": "/images/c/c5/Gov_man_on_podium.png",
+			"Effects": {
+				"Yearly Republican Tradition": -0.5,
+				"Monarch Administrative Skill": 1,
+				"Monarch Military Skill": 1
+			}
+		},
+		"Government for the People": {
+			"Image": "/images/8/81/Reform_government_for_people.png",
+			"Effects": {
+				"Maximum Revolutionary Zeal": 20
+			}
+		},
+		"A Revolutionary Empire": {
+			"Image": "/images/8/88/Reform_become_rev_empire.png",
+			"Effects": {
+			}
+		}
+	}
+}

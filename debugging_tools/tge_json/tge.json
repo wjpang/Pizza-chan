@@ -1,0 +1,854 @@
+{
+	"Grain": {
+		"modifier": {
+			"Land Force Limit Modifier": 0.2
+		},
+		"province": {
+			"Land Force Limit": 0.5
+		},
+		"image": "/images/6/66/Grain.png",
+		"price": 2.5
+	},
+	"Wine": {
+		"modifier": {
+			"National Unrest": -1
+		},
+		"province": {
+			"Local Unrest": -1
+		},
+		"image": "/images/6/69/Wine.png",
+		"price": 2.5
+	},
+	"Wool": {
+		"modifier": {
+			"Ship Costs": -0.05
+		},
+		"province": {
+			"Friendly Movement Speed": 0.1
+		},
+		"image": "/images/3/34/Wool.png",
+		"price": 2.5
+	},
+	"Cloth": {
+		"modifier": {
+			"Mercenary Maintenance": -0.15
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "/images/5/51/Cloth.png",
+		"price": 3
+	},
+	"Fish": {
+		"modifier": {
+			"National Sailors Modifier": 0.25
+		},
+		"province": {
+			"Local Sailors Modifier": 0.25
+		},
+		"image": "/images/f/fb/Fish.png",
+		"price": 2.5
+	},
+	"Fur": {
+		"modifier": {
+			"Yearly Prestige": 0.5
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/0/00/Fur.png",
+		"price": 2
+	},
+	"Salt": {
+		"modifier": {
+			"Land Maintenance Modifier": -0.05
+		},
+		"province": {
+			"Local Defensiveness": 0.15
+		},
+		"image": "/images/7/77/Salt.png",
+		"price": 3
+	},
+	"Naval Supplies": {
+		"modifier": {
+			"Naval Force Limit Modifier": 0.2
+		},
+		"province": {
+			"Naval Force Limit": 0.5
+		},
+		"image": "/images/f/f1/Naval_supplies.png",
+		"price": 2
+	},
+	"Copper": {
+		"modifier": {
+			"Recruitment Time": -0.2
+		},
+		"province": {
+			"Recruitment Time": -0.2
+		},
+		"image": "/images/1/12/Copper.png",
+		"price": 3
+	},
+	"Gold": {
+		"image": "/images/1/10/Gold.png",
+		"price": 0
+	},
+	"Iron": {
+		"modifier": {
+			"Regiment Costs": -0.05
+		},
+		"province": {
+			"Local Construction Time": -0.2
+		},
+		"image": "/images/4/45/Iron.png",
+		"price": 3
+	},
+	"Slaves": {
+		"modifier": {
+			"Tariffs": 0.25
+		},
+		"province": {
+			"Local Missionary Strength": 0.01
+		},
+		"image": "/images/2/25/Slaves.png",
+		"price": 2
+	},
+	"Ivory": {
+		"modifier": {
+			"Diplomatic Reputation": 2
+		},
+		"province": {
+			"State Maintenance": -0.2
+		},
+		"image": "/images/5/55/Ivory.png",
+		"price": 4
+	},
+	"Tea": {
+		"modifier": {
+			"Advisor Costs": -0.1
+		},
+		"province": {
+			"Garrison Growth": 0.25
+		},
+		"image": "/images/5/59/Tea.png",
+		"price": 2
+	},
+	"Chinaware": {
+		"modifier": {
+			"Yearly Legitimacy": 0.25,
+			"Yearly Devotion": 0.25,
+			"Yearly Horde Unity": 0.25,
+			"Yearly Republican Tradition": 0.12,
+			"Yearly Meritocracy": 0.1
+		},
+		"province": {
+			"Monthly Autonomy Change": -0.1
+		},
+		"image": "/images/9/92/Chinaware.png",
+		"price": 3
+	},
+	"Spices": {
+		"modifier": {
+			"Spy Network Construction": 0.25
+		},
+		"province": {
+			"Monthly Devastation": -0.1
+		},
+		"image": "/images/9/94/Spices.png",
+		"price": 3
+	},
+	"Coffee": {
+		"modifier": {
+			"Institution Spread": 0.05
+		},
+		"province": {
+			"Institution Spread": 0.1
+		},
+		"image": "/images/e/e9/Coffee.png",
+		"price": 3
+	},
+	"Cotton": {
+		"modifier": {
+			"Global Settler Increase": 20
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "/images/c/c3/Cotton.png",
+		"price": 3
+	},
+	"Sugar": {
+		"modifier": {
+			"Cost of Reducing War Exhaustion": -0.2
+		},
+		"province": {
+			"Local Unrest": -1
+		},
+		"image": "/images/a/a9/Sugar.png",
+		"price": 3
+	},
+	"Tobacco": {
+		"modifier": {
+			"Spy Defense": 0.25
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/1/19/Tobacco.png",
+		"price": 3
+	},
+	"Cocoa": {
+		"modifier": {
+			"Manpower Recovery Speed": 0.05
+		},
+		"province": {
+			"Local Manpower Modifier": 0.1
+		},
+		"image": "/images/8/8d/Cocoa.png",
+		"price": 3
+	},
+	"Silk": {
+		"modifier": {
+			"Accepted Cultures": 1
+		},
+		"province": {
+			"Provincial Trade Power Value": 2
+		},
+		"image": "/images/8/83/Silk.png",
+		"price": 4
+	},
+	"Dyes": {
+		"modifier": {
+			"Caravan Power": 0.2
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/2/27/Dyes.png",
+		"price": 4
+	},
+	"Tropical Wood": {
+		"modifier": {
+			"Development Cost": -0.05
+		},
+		"province": {
+			"Local Construction Cost": -0.2
+		},
+		"image": "/images/f/f7/Tropical_Wood.png",
+		"price": 2
+	},
+	"Livestock": {
+		"modifier": {
+			"Cavalry Cost": -0.1
+		},
+		"province": {
+			"Supply Limit Modifier": 0.5
+		},
+		"image": "/images/e/e1/Livestock.png",
+		"price": 2
+	},
+	"Incense": {
+		"modifier": {
+			"Tolerance of the True Faith": 0.5
+		},
+		"province": {
+			"Trade Value Modifier": 0.1
+		},
+		"image": "/images/1/1d/Incense.png",
+		"price": 2.5
+	},
+	"Glass": {
+		"modifier": {
+			"Diplomatic Technology Cost": -0.05
+		},
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "/images/1/15/Glass.png",
+		"price": 3
+	},
+	"Paper": {
+		"modifier": {
+			"Administrative Technology Cost": -0.05
+		},
+		"province": {
+			"State Maintenance": -0.1
+		},
+		"image": "/images/b/b2/Paper.png",
+		"price": 3.5
+	},
+	"Gems": {
+		"modifier": {
+			"Yearly Inflation Reduction": 0.05
+		},
+		"province": {
+			"Local Tax Modifier": 0.15
+		},
+		"image": "/images/d/d5/Gems.png",
+		"price": 4
+	},
+	"Coal": {
+		"modifier": {
+			"Goods Produced Modifier": 0.1
+		},
+		"province": {
+			"State Maintenance": -0.2
+		},
+		"image": "/images/a/a7/Coal.png",
+		"price": 5
+	},
+	"Unknown": {
+		"image": "/images/d/dd/Unknown.png",
+		"price": 0
+	},
+	"Beer": {
+		"modifier": {
+			"Morale of Armies": 0.05
+		},
+		"province": {
+			"Local Years of Separatism": -2
+		},
+		"image": "/images/8/84/Beer_mug222.png",
+		"price": 2.5
+	},
+	"Apiculture": {
+		"modifier": {
+			"Manpower Recovery Speed": 0.05
+		},
+		"province": {
+			"Local Defensiveness": 0.1
+		},
+		"image": "/images/6/62/Honeycomb22.png",
+		"price": 2.5
+	},
+	"Whaling": {
+		"modifier": {
+			"Production Efficiency": 0.1
+		},
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "/images/f/fa/Wal_mug222.png",
+		"price": 3.0
+	},
+	"Lumber": {
+		"modifier": {
+			"Construction Cost": -0.1
+		},
+		"province": {
+			"Local Construction Cost": -0.2
+		},
+		"image": "/images/6/65/Lum_mug222.png",
+		"price": 2
+	},
+	"Palm Oil": {
+		"modifier": {
+			"Embargo Efficiency": 0.25
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/3/3d/Pal_mug222.png",
+		"price": 2.75
+	},
+	"Cinnamon": {
+		"modifier": {
+			"Aggressive Expansion Impact": -0.1
+		},
+		"province": {
+			"Trade Value Modifier": 0.1
+		},
+		"image": "/images/4/42/Cin_mug222.png",
+		"price": 3.5
+	},
+	"Saffron": {
+		"modifier": {
+			"Mercenary Maintenance": -0.1
+		},
+		"province": {
+			"Monthly Devastation": -0.1
+		},
+		"image": "/images/9/9c/Saf_mug222.png",
+		"price": 4.25
+	},
+	"Rice": {
+		"modifier": {
+			"National Manpower Modifier": 0.1
+		},
+		"province": {
+			"Local Manpower Modifier": 0.25
+		},
+		"image": "/images/6/6f/Rice_d.png",
+		"price": 2
+	},
+	"Opium": {
+		"modifier": {
+			"Yearly Corruption": -0.1
+		},
+		"province": {
+			"Local Unrest": -1
+		},
+		"image": "/images/6/6e/Opiu.png",
+		"price": 4
+	},
+	"Rum": {
+		"modifier": {
+			"Privateer Efficiency": 0.2
+		},
+		"province": {
+			"Shipbuilding Time": -0.25
+		},
+		"image": "/images/f/ff/Rum2.png",
+		"price": 3
+	},
+	"Horses": {
+		"modifier": {
+			"Cavalry Combat Ability": 0.1
+		},
+		"province": {
+			"Friendly Movement Speed": 0.2
+		},
+		"image": "/images/9/93/Dasdasdasdasd.png",
+		"price": 3.25
+	},
+	"Olive Oil": {
+		"modifier": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"province": {
+			"Trade Value Modifier": 0.1
+		},
+		"image": "/images/f/f8/Dasdasdasd.png",
+		"price": 3.0
+	},
+	"Amber": {
+		"modifier": {
+			"Development Cost": -0.05
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "/images/6/6a/Sdsadasdasd.png",
+		"price": 3.5
+	},
+	"Jade": {
+		"modifier": {
+			"Administrative Free Policies": 1
+		},
+		"province": {
+			"State Maintenance": -0.25
+		},
+		"image": "/images/7/7e/Jade.png",
+		"price": 4
+	},
+	"Marble": {
+		"modifier": {
+			"Fort Maintenance": -0.15
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "/images/9/9c/Marble6.png",
+		"price": 3.0
+	},
+	"Lead": {
+		"modifier": {
+			"Infantry Cost": -0.15
+		},
+		"province": {
+			"Local Regiment Cost": -0.15
+		},
+		"image": "/images/0/0d/Lea_mug222.png",
+		"price": 3.5
+	},
+	"Cloves": {
+		"modifier": {
+			"Trade Efficiency": 0.1
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/wiki.PNG?wordmark",
+		"price": 3.5
+	},
+	"Mercury": {
+		"modifier": {
+			"Idea Cost": -0.1
+		},
+		"province": {
+			"Institution Spread": 0.2
+		},
+		"image": "/images/7/79/Mre_mug222.png",
+		"price": 3
+	},
+	"Camel": {
+		"modifier": [],
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "/images/4/48/Mcam_mug222.png",
+		"price": 2.5
+	},
+	"Gunpowder": {
+		"modifier": {
+			"Land Fire Damage": 0.1
+		},
+		"province": {
+			"Local Attrition for Enemies": 1
+		},
+		"image": "/images/d/d8/Gum_mug222.png",
+		"price": 3.5
+	},
+	"Elephants": {
+		"modifier": {
+			"Shock Damage": 0.1
+		},
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "/images/8/8e/Ele_mug222.png",
+		"price": 3
+	},
+	"Tin": {
+		"modifier": {
+			"Artillery Cost": -0.1
+		},
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "/images/4/4b/Tin_mug222.png",
+		"price": 3
+	},
+	"Dates": {
+		"modifier": {
+			"Manpower Recovery Speed": 0.05
+		},
+		"province": {
+			"Local Manpower Modifier": 0.1
+		},
+		"image": "/images/e/e0/Date.png",
+		"price": 2.5
+	},
+	"Cheese": {
+		"modifier": {
+			"Garrison Size": 0.15
+		},
+		"province": {
+			"Local Culture Conversion Cost": -0.2
+		},
+		"image": "/images/d/d3/Che_mug222.png",
+		"price": 2.75
+	},
+	"Citrus": {
+		"modifier": {
+			"Naval Attrition": -0.15
+		},
+		"province": {
+			"Trade Value Modifier": 0.1
+		},
+		"image": "/images/d/dd/Chi_mug222.png",
+		"price": 3.25
+	},
+	"Seafood": {
+		"modifier": {
+			"Improve Relations": 0.15
+		},
+		"province": {
+			"Local Sailors Modifier": 0.2
+		},
+		"image": "/images/c/c3/La_mug222.png",
+		"price": 2.75
+	},
+	"Carpet": {
+		"modifier": {
+			"Culture Conversion Cost": -0.15
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/e/ec/Car_mug222.png",
+		"price": 3
+	},
+	"Nutmeg": {
+		"modifier": {
+			"Trade Power Abroad": 0.1
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 4.5
+	},
+	"Maize": {
+		"modifier": {
+			"Land Maintenance Modifier": -0.05
+		},
+		"province": {
+			"Local Manpower Modifier": 0.15
+		},
+		"image": "/images/f/f1/Maizea.png",
+		"price": 2.5
+	},
+	"Pearls": {
+		"modifier": {
+			"Monarch Diplomatic Skill": 1
+		},
+		"province": {
+			"Local Tax Modifier": 0.2
+		},
+		"image": "/images/3/31/Peald.png",
+		"price": 4
+	},
+	"Metalworking": {
+		"modifier": [],
+		"province": [],
+		"image": "/images/e/e1/Metal.png",
+		"price": 3.5
+	},
+	"Silver": {
+		"image": "/images/f/f6/Silv.png",
+		"price": 0
+	},
+	"Exotic Animals": {
+		"modifier": {
+			"Yearly Prestige": 1
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/3/32/Exo.png",
+		"price": 4
+	},
+	"Vanilla": {
+		"modifier": {
+			"Vassal Force Limit Contribution": 0.2
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/1/14/Van.png",
+		"price": 3.5
+	},
+	"Munitions": {
+		"modifier": {
+			"Discipline": 0.025
+		},
+		"province": {
+			"Local Regiment Cost": -0.25
+		},
+		"image": "/images/8/8f/Muni.png",
+		"price": 4
+	},
+	"Woodworking": {
+		"modifier": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"province": {
+			"Possible Number of Buildings": 1
+		},
+		"image": "/images/2/23/Woodwork.png",
+		"price": 3.5
+	},
+	"Ebony": {
+		"modifier": {
+			"Possible Number of Buildings": 1
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "/images/f/f1/Ebo.png",
+		"price": 3.5
+	},
+	"Tar": {
+		"modifier": {
+			"Ship Durability": 0.05
+		},
+		"province": {
+			"Naval Maintenance Modifier": -0.01
+		},
+		"image": "/images/7/7c/Tar.png",
+		"price": 2.75
+	},
+	"Sulfur": {
+		"modifier": {
+			"Infantry Combat Ability": 0.05
+		},
+		"province": {
+			"Local Attrition for Enemies": 1
+		},
+		"image": "/images/6/6e/Sur.png",
+		"price": 3.25
+	},
+	"Leather": {
+		"modifier": {
+			"Shock Damage Received": -0.05
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/0/0d/Lea_mug222.png",
+		"price": 3.5
+	},
+	"Jewellery": {
+		"modifier": {
+			"Administrative Efficiency": 0.025
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "/images/d/d1/Jel.png",
+		"price": 5
+	},
+	"Maple Syrup": {
+		"modifier": {
+			"Accepted Cultures": 1
+		},
+		"province": {
+			"Trade Value Modifier": 0.1
+		},
+		"image": "/images/f/ff/Mapple.png",
+		"price": 3.5
+	},
+	"Potato": {
+		"modifier": {
+			"Reinforce Cost": -0.05
+		},
+		"province": {
+			"Local Manpower Modifier": 0.15
+		},
+		"image": "/images/5/54/Pot.png",
+		"price": 2.5
+	},
+	"Steam Engine": {
+		"modifier": {
+			"Technology Cost": -0.025
+		},
+		"province": {
+			"Local Development Cost": -0.1
+		},
+		"image": "/images/a/ab/Steam_engine.png",
+		"price": 5
+	},
+	"Zinc": {
+		"modifier": {
+			"Innovativeness Gain": 0.25
+		},
+		"province": {
+			"Local Defensiveness": 0.15
+		},
+		"image": "/images/c/cb/Zinc.png",
+		"price": 3
+	},
+	"Optics": {
+		"modifier": {
+			"Naval Leader Maneuver": 1
+		},
+		"province": {
+			"State Maintenance": -0.25
+		},
+		"image": "/images/a/a4/Optics.png",
+		"price": 4
+	},
+	"Brass": {
+		"modifier": {
+			"Advisor Costs": -0.1
+		},
+		"province": {
+			"Monthly Devastation": -0.1
+		},
+		"image": "/images/d/de/Brass.png",
+		"price": 3.5
+	},
+	"Cannon": {
+		"modifier": {
+			"Artillery Combat Ability": 0.1
+		},
+		"province": {
+			"Local Attrition for Enemies": 1
+		},
+		"image": "/images/a/a6/Cannon.png",
+		"price": 4.25
+	},
+	"Tomato": {
+		"modifier": {
+			"Merchant Trade Power": 5
+		},
+		"province": {
+			"Local Manpower Modifier": 0.15
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 2.75
+	},
+	"Champagne": {
+		"modifier": {
+			"Reform Progress Growth": 0.1
+		},
+		"province": {
+			"Local Unrest": -1
+		},
+		"image": "/images/wiki.PNG?wordmark",
+		"price": 3.0
+	},
+	"Llama": {
+		"modifier": [],
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 2.5
+	},
+	"Indigo": {
+		"modifier": [],
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 4
+	},
+	"Sea Turtle": {
+		"modifier": {
+			"Native Assimilation": 0.25
+		},
+		"province": {
+			"Provincial Trade Power Modifier": 0.1
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 3
+	},
+	"Uniforms": {
+		"modifier": {
+			"Recover Army Morale Speed": 0.05
+		},
+		"province": {
+			"Local Production Efficiency": 0.1
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 4.25
+	},
+	"Marble Sculpture": {
+		"modifier": {
+			"great_project_upgrade_cost": -0.15
+		},
+		"province": {
+			"Local Development Cost": -0.05
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 4
+	},
+	"Cigars": {
+		"modifier": [],
+		"province": {
+			"local_prosperity_growth": "+0.1"
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 4.25
+	},
+	"Chocolate": {
+		"modifier": [],
+		"province": {
+			"statewide_governing_cost": -0.15
+		},
+		"image": "images/wiki.PNG?wordmark",
+		"price": 4
+	}
+}

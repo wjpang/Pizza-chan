@@ -1,0 +1,23 @@
+{
+    "NED_DUT": "Netherland-Dutch",
+    "NED_FRI": "Netherland-Frisian",
+    "NED_FLE": "Netherland-Flemish",
+    "RUS_MOS": "Russia-Muscovy",
+    "RUS_NOV": "Russia-Novgorod",
+    "COLONIAL_BRI": "Colonial-British",
+    "COLONIAL_DUT": "Colonial-Dutch",
+    "COLONIAL_LAT": "Colonial-Latin",
+    "COLONIAL_POR": "Colonial-Portuguese",
+    "COLONIAL_SPA": "Colonial-Spanish",
+    "GRE_GRE": "Greece-Greek",
+    "GRE_LAT": "Greece-Latin",
+    "KOJ_KNI": "Jerusalem-Knights",
+    "KOJ_LAT": "Jerusalem-Latin",
+    "HLR_BUR": "Holy Roman Empire-Burgundy",
+    "HLR_BOH": "Holy Roman Empire-Bohemia",
+    "HLR_HAB": "Holy Roman Empire-Habsburg",
+    "HLR_LAT": "Holy Roman Empire-Latin",
+    "GER_REV": "Germany-Revolutionary",
+    "PLC_LIT": "Commonwealth-Lithuania",
+    "PLC_POL": "Commonwealth-Poland"
+}
