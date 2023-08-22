@@ -11,11 +11,11 @@ from dotenv import load_dotenv
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 load_dotenv()
-EMF_SERVER_ID = int(os.getenv("EMF_SERVER_ID"))
-REACT_MESSAGE_ID = int(os.getenv("REACT_MESSAGE_ID"))
-ACTION_LOG_CHANNEL_ID = int(os.getenv("ACTION_LOG_CHANNEL_ID"))
-MULTIPLAYER_MESSAGE_ID = int(os.getenv("MULTIPLAYER_MESSAGE_ID"))
-POLITICS_MESSAGE_ID = int(os.getenv("POLITICS_MESSAGE_ID"))
+EMF_SERVER_ID = int(os.getenv("EMF_SERVER_ID", "0"))
+REACT_MESSAGE_ID = int(os.getenv("REACT_MESSAGE_ID", "0"))
+ACTION_LOG_CHANNEL_ID = int(os.getenv("ACTION_LOG_CHANNEL_ID", "0"))
+MULTIPLAYER_MESSAGE_ID = int(os.getenv("MULTIPLAYER_MESSAGE_ID", "0"))
+POLITICS_MESSAGE_ID = int(os.getenv("POLITICS_MESSAGE_ID", "0"))
 
 intents = disnake.Intents.default()
 intents.members = True

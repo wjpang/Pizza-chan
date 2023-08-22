@@ -5,11 +5,11 @@ from disnake.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-EMF_SERVER_ID = int(os.getenv("EMF_SERVER_ID"))
-REACT_CHANNEL_ID = int(os.getenv("REACT_CHANNEL_ID"))
-REACT_MESSAGE_ID = int(os.getenv("REACT_MESSAGE_ID"))
-BOTCAVE_CHANNEL_ID = int(os.getenv("BOTCAVE_CHANNEL_ID"))
-MELVA_ID = int(os.getenv("MELVA_ID"))
+EMF_SERVER_ID = int(os.getenv("EMF_SERVER_ID", "0"))
+REACT_CHANNEL_ID = int(os.getenv("REACT_CHANNEL_ID", "0"))
+REACT_MESSAGE_ID = int(os.getenv("REACT_MESSAGE_ID", "0"))
+BOTCAVE_CHANNEL_ID = int(os.getenv("BOTCAVE_CHANNEL_ID", "0"))
+MELVA_ID = int(os.getenv("MELVA_ID", "0"))
 
 
 class ADM(commands.Cog):
