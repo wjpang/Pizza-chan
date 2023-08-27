@@ -87,7 +87,7 @@ def parse_correct_json():
             event_name = event_name.split("FEE_")[1].split("_Events")[0].replace("_", " ").title()
 
         new_dict[event_name] = {}
-        for event_type in ["country_event", "province_event"]:
+        for event_type in {"country_event", "province_event"}:
             if event_type in event_data:
                 events = event_data[event_type]
                 if isinstance(events, list):
@@ -268,30 +268,33 @@ def recurse_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
             or key.startswith("religion")
             or key.startswith("superregion")
         ]
-        key_provinces_check = [key == "owns_core_province" or key == "owns" or key == "province_id"]
+        key_provinces_check = [key in {"owns_core_province", "owns", "province_id"}]
         key_flag_check = [
-            key == "flag"
-            or key == "clr_country_flag"
-            or key == "clr_global_flag"
-            or key == "clr_heir_flag"
-            or key == "clr_province_flag"
-            or key == "clr_ruler_flag"
-            or key == "has_country_flag"
-            or key == "has_global_flag"
-            or key == "has_heir_flag"
-            or key == "has_province_flag"
-            or key == "has_ruler_flag"
-            or key == "set_country_flag"
-            or key == "set_global_flag"
-            or key == "set_heir_flag"
-            or key == "set_province_flag"
-            or key == "set_ruler_flag"
+            key
+            in {
+                "flag",
+                "clr_country_flag",
+                "clr_global_flag",
+                "clr_heir_flag",
+                "clr_province_flag",
+                "clr_ruler_flag",
+                "has_country_flag",
+                "has_global_flag",
+                "has_heir_flag",
+                "has_province_flag",
+                "has_ruler_flag",
+                "set_country_flag",
+                "set_global_flag",
+                "set_heir_flag",
+                "set_province_flag",
+                "set_ruler_flag",
+            }
         ]
 
-        if key in ("ai_chance", "picture", "desc") or (key == "name" and ".OPT" in value):
+        if key in {"ai_chance", "picture", "desc"} or (key == "name" and ".OPT" in value):
             del dictionary[key]
         else:
-            check_province = not key == "random_list"
+            check_province = key != "random_list"
             if isinstance(value, (dict, list)) and (".T" in key or ".OPT" in key or "Expires" in value):
                 localized_name = loc_names.get(key)
                 if localized_name is not None:
@@ -383,15 +386,14 @@ def recurse_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
                         localized_name = loc_datas.get(value)
                         dictionary[new_key] = dictionary.pop(key)
                         dictionary[new_key] = localized_name
+                    elif key == "id":
+                        new_value = f"{value}.T"
+                        loc_names = loc_names.get(new_value)
+                        if loc_names is not None:
+                            new_value = loc_names
                     else:
-                        if key == "id":
-                            new_value = value + ".T"
-                            loc_names = loc_names.get(new_value)
-                            if loc_names is not None:
-                                new_value = loc_names
-                        else:
-                            new_value = value.strip('"')
-                            new_value = int(value) if value.isdigit() or (value.startswith("-") and value[1:].isdigit()) else value.replace("_", " ").title()
+                        new_value = value.strip('"')
+                        new_value = int(value) if value.isdigit() or (value.startswith("-") and value[1:].isdigit()) else value.replace("_", " ").title()
                 if key in dictionary and not flag:
                     dictionary[new_key] = dictionary.pop(key)
                     dictionary[new_key] = new_value

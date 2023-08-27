@@ -49,14 +49,11 @@ def _get_args():
 
 def decode(file_path, save_intermediate, no_json):
     try:
-        file = open(file_path, "r")
-        data = file.read()
-        file.close()
+        with open(file_path, "r", encoding="utf-8") as file:
+            data = file.read()
     except FileNotFoundError:
         print(f"ERROR: Unable to find file: {file_path}")
         return None
-
-    file_name = basename(file_path)
 
     data = re.sub(r"#.*", "", data)  # Remove comments
     data = re.sub(
@@ -108,25 +105,21 @@ def decode(file_path, save_intermediate, no_json):
     file_name = basename(file_path)
 
     if save_intermediate:
-        with open(f"./output/{file_name}.intermediate", "w") as output:
+        with open(f"./output/{file_name}.intermediate", "w", encoding="utf-8") as output:
             output.write(data)
 
     try:
         json_data = json.loads(data, object_pairs_hook=_handle_duplicates)
     except json.decoder.JSONDecodeError:
         print(f"ERROR: Unable to parse {file_name}")
-        print(
-            "Dumping intermediate code into file: {}_{:.0f}.intermediate".format(
-                file_name, time.time()
-            )
-        )
+        print(f"Dumping intermediate code into file: {file_name}_{time.time():.0f}.intermediate")
 
-        with open("./output/{}_{:.0f}.intermediate".format(file_name, time.time()), "w") as output:
+        with open(f"./output/{file_name}_{time.time():.0f}.intermediate", "w", encoding="utf-8") as output:
             output.write(data)
 
         return None
 
-    with open(f"{file_name[:-4]}.json", "w") as file:
+    with open(f"{file_name[:-4]}.json", "w", encoding="utf-8") as file:
         json.dump(json_data, file, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
 
     return data

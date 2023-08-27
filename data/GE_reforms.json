@@ -349,12 +349,6 @@
 				"Yearly Legitimacy": 0.5
 			}
 		},
-		"Crown of Saint Wencleslaus": {
-			"Image": "/images/b/bb/Gov_crown_of_saint_wenceslaus.png",
-			"Effects": {
-				"Yearly Legitimacy": 0.5
-			}
-		},
 		"Office of Lord Regent": {
 			"Image": "/images/d/d9/Gov_sten_sture.png",
 			"Effects": {
@@ -2853,8 +2847,7 @@
 			"Image": "/images/3/30/Gov_trading_city.png",
 			"Effects": {
 				"Maximum Absolutism": -20,
-				"Global Trade Power": 0.1,
-				"Maximum Absolutism": -20
+				"Global Trade Power": 0.1
 			}
 		},
 		"Ambrosian Republic": {
@@ -3480,1636 +3473,1630 @@
 		"Royal Ordinances": {
 			"Image": "/images/4/49/Gov_king.png",
 			"Effects": {
-                "Military Technology Cost": -0.15,
-                "Artillery Cost": -0.10,
-                "Army Drill Gain Modifier": 0.25
-            }
-        },
-        "Elite Jägers": {
-            "Image": "/images/4/44/Gov_hesse_jaegers.png",
-            "Effects": {
-                "Land Fire Damage": 0.05,
-                "Infantry Combat Ability": 0.10,
-                "Regiment Costs": 0.10
-            }
-        },
-        "Warrior Kings": {
-            "Image": "/images/9/96/Gov_generic_people.png",
-            "Effects": {
-                "Land Leader Maneuver": 1,
-                "Land Leader Shock": 1
-            }
-        },
-        "Employ the Snaphaener": {
-            "Image": "/images/4/44/Gov_hesse_jaegers.png",
-            "Effects": {
-                "Infantry Fire": 0.25,
-                "Infantry Combat Ability": 0.05,
-                "Years of Separatism": 5
-            }
-        },
-        "Redcoats": {
-            "Image": "/images/2/2d/Gov_england_redcoat.png",
-            "Effects": {
-                "Land Fire Damage": 0.05,
-                "Infantry Combat Ability": 0.05
-            }
-        },
-        "Recruit Ronin": {
-            "Image": "/images/3/37/Gov_samurai.png",
-            "Effects": {
-                "Mercenary Discipline": 0.05,
-                "Mercenary Maintenance": -0.10,
-                "possible_mercenaries": 0.25
-            }
-        },
-        "Ashigaru Generals": {
-            "Image": "/images/e/ec/Gov_daimyo.png",
-            "Effects": {
-                "Land Fire Damage": 0.05,
-                "Fire Damage Received": -0.05,
-                "Army Drill Gain Modifier": 0.25
-            }
-        },
-        "Wei-Suo System": {
-            "Image": "/images/1/17/Gov_asian_scripture.png",
-            "Effects": {
-                "Manpower Recovery Speed": 0.10,
-                "Yearly Army Tradition": 1,
-                "Land Maintenance Modifier": -0.10,
-                "Discipline": -0.05
-            }
-        },
-        "Abbas's Reforms": {
-            "Image": "/images/e/ec/Gov_persia_abbas.png",
-            "Effects": {
-                "Land Force Limit Modifier": 0.10,
-                "Artillery Cost": -0.10,
-                "Ghulam Influence": 0.05
-            }
-        },
-        "Sherifan Levies": {
-            "Image": "/images/2/24/Gov_hejaz_cavalry.png",
-            "Effects": {
-                "Manpower Recovery Speed": 0.15,
-                "Reinforce Cost": -0.20
-            }
-        },
-        "Restore the Komnenoid Army": {
-            "Image": "/images/5/5b/Gov_soldiers.png",
-            "Effects": {
-                "Yearly Army Tradition Decay": -0.01,
-                "possible_mercenaries": 0.15
-            }
-        },
-        "Jaesungbangryak": {
-            "Image": "/images/0/08/Gov_fort.png",
-            "Effects": {
-                "Movement Speed": 0.2
-            }
-        },
-        "Five Military Force": {
-            "Image": "/images/4/44/Gov_hesse_jaegers.png",
-            "Effects": {
-                "Land Fire Damage": 0.1,
-                "Land Maintenance Modifier": -0.05
-            }
-        },
-        "Honor of the Thai People": {
-            "Image": "/images/5/5a/Gov_soldiers_6.png",
-            "Effects": {
-                "Yearly Legitimacy": 1,
-                "Land Force Limit Modifier": 0.20
-            }
-        },
-        "Form the Vojstatic": {
-            "Image": "/images/5/5e/Gov_szlachta_noble_1.png",
-            "Effects": {
-                "Land Maintenance Modifier": -0.05,
-                "Land Force Limit": 6,
-                "Mercenary Maintenance": -0.15
-            }
-        },
-        "Reforms of William III": {
-            "Image": "/images/5/55/Gov_william_3.png",
-            "Effects": {
-                "Mercenary Discipline": 0.05,
-                "Reinforce Speed": 0.25
-            }
-        },
-        "Reform the Condotierri": {
-            "Image": "/images/6/60/Gov_swiss_mercenaries.png",
-            "Effects": {
-                "Yearly Army Tradition": 0.5,
-                "Land Force Limit Modifier": 0.15,
-                "Possible Condottieri": 0.5
-            }
-        },
-        "Turkoman Gunners": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Artillery Combat Ability": 0.05,
-                "Artillery Cost": -0.10
-            }
-        },
-        "Mongol Ties": {
-            "Image": "/images/7/75/Gov_soldiers_3.png",
-            "Effects": {
-                "Cavalry Cost": -0.10,
-                "Reinforce Cost": -0.20
-            }
-        },
-        "Lessons of Subutai": {
-            "Image": "/images/4/44/Gov_feudal_theocracy.png",
-            "Effects": {
-                "Land Leader Maneuver": 1,
-                "Leader Siege": 1
-            }
-        },
-        "Peasant Militia": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Fire Damage Received": -0.10
-            }
-        },
-        "Tysyatskys": {
-            "Image": "/images/8/8f/Gov_merchant.png",
-            "Effects": {
-                "Yearly Army Tradition": 0.5,
-                "National Unrest": -1
-            }
-        },
-        "Almogavars": {
-            "Image": "/images/b/bf/Gov_catalan_company.png",
-            "Effects": {
-                "Mercenary Manpower": 0.25,
-                "Spy Network Construction": 0.10
-            }
-        },
-        "Republican Guard": {
-            "Image": "/images/5/5b/Gov_soldiers.png",
-            "Effects": {
-                "Army Drill Gain Modifier": 0.25
-            }
-        }
-    },
-    "Tier 5: Regionalism": {
-        "Provincial Governments": {
-            "Image": "/images/5/51/Gov_landscape.png",
-            "Effects": {
-                "State Maintenance": -0.25,
-                "Development Cost": -0.10
-            }
-        },
-        "Administrative Divisions": {
-            "Image": "/images/6/6b/Gov_map.png",
-            "Effects": {
-                "Governing Capacity": 250
-            }
-        },
-        "Union of States": {
-            "Image": "/images/f/f4/Gov_merchant_ship.png",
-            "Effects": {
-                "Global Trade Power": 0.1,
-                "Merchants": 1
-            }
-        },
-        "Exile Colonial Companies": {
-            "Image": "/images/f/f4/Gov_merchant_ship.png",
-            "Effects": {
-                "Expel Minorities Cost": -0.3
-            }
-        },
-        "Advanced Bookkeeping": {
-            "Image": "/images/e/e8/Gov_paper_money_map.png",
-            "Effects": {
-                "Interest Per Annum": -1.0,
-                "Yearly Corruption": -0.05
-            }
-        },
-        "Communal Territories": {
-            "Image": "/images/b/b9/Gov_map_2.png",
-            "Effects": {
-                "Years of Separatism": -5,
-                "Minimum Autonomy in Territories": -0.1
-            }
-        },
-        "Verenigde Indische Companies": {
-            "Image": "/images/b/b3/Gov_voc_ship.png",
-            "Effects": {
-                "Provincial Trade Power Modifier": 0.20,
-                "Trade Company Investment cost": -0.25
-            }
-        },
-        "Confederation of Cantons": {
-            "Image": "/images/f/f5/Gov_swiss_cantons.png",
-            "Effects": {
-                "National Garrison Growth": 1,
-                "Garrison Size": 0.25
-            }
-        },
-        "Expand the 48": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Governing Capacity": 150,
-                "Years of Separatism": -5
-            }
-        },
-        "Union of Cities": {
-            "Image": "/images/b/b9/Gov_map_2.png",
-            "Effects": {
-                "Minimum Autonomy": 5,
-                "National Unrest": -2,
-                "Spy Defense": 0.20
-            }
-        },
-        "Volost Colonies": {
-            "Image": "/images/8/8f/Gov_merchant.png",
-            "Effects": {
-                "Production Efficiency": 0.20,
-                "Minimum Autonomy in Territories": -0.05
-            }
-        }
-    },
-    "Tier 6: Separation of Power": {
-        "Parliamentarism": {
-            "Image": "/images/9/99/Gov_judge.png",
-            "Effects": {
-                "National Unrest": -1
-            }
-        },
-        "Presidential System": {
-            "Image": "/images/c/c5/Gov_man_on_podium.png",
-            "Effects": {
-                "Institution Embracement Cost": -0.1
-            }
-        },
-        "Pirate King": {
-            "Image": "/images/9/92/Gov_pirate_king.png",
-            "Effects": {
-                "Harsh Treatment Cost": -0.2,
-                "Naval Leader Fire": 1
-            }
-        },
-        "War Against the World Doctrine": {
-            "Image": "/images/4/4c/Gov_war_against_the_world.png",
-            "Effects": {
-                "Years of Separatism": -5,
-                "Shipbuilding Time": -0.15
-            }
-        },
-        "Black Market Consortium": {
-            "Image": "/images/2/21/Gov_black_market_consortium.png",
-            "Effects": {
-            }
-        },
-        "Imperial Diplomacy": {
-            "Image": "/images/4/49/Gov_king.png",
-            "Effects": {
-                "Diplomatic Reputation": 2,
-                "Diplomatic Relations": 1
-            }
-        },
-        "Municipal Self-Defense": {
-            "Image": "/images/8/8a/Gov_soldiers_7.png",
-            "Effects": {
-                "Land Force Limit Modifier": 0.25
-            }
-        },
-        "The Feuillant System": {
-            "Image": "/images/4/49/Reform_feuillant.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.1,
-                "Yearly Republican Tradition": -0.1
-            }
-        },
-        "The Two-Chamber System": {
-            "Image": "/images/b/b6/Gov_parliament_hall.png",
-            "Effects": {
-                "Free Policies": 1,
-                "Yearly Republican Tradition": 0.15
-            }
-        },
-        "Stadholders": {
-            "Image": "/images/9/92/Gov_Stadholder.png",
-            "Effects": {
-                "Yearly Republican Tradition": -0.5,
-                "Maximum Absolutism": 5,
-                "Yearly Army Tradition": 1,
-                "Nobility Influence": 0.15
-            }
-        },
-        "Andrea Doria's Constitution": {
-            "Image": "/images/e/e1/Gov_andrea_doria.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.25,
-                "Maximum Absolutism": 10
-            }
-        },
-        "Ware Vrijheid": {
-            "Image": "/images/3/38/Gov_dutch_tulip_field.png",
-            "Effects": {
-                "Yearly Republican Tradition": 0.25,
-                "Reform Progress Growth": 0.15
-            }
-        },
-        "The Consigliere": {
-            "Image": "/images/1/1e/Gov_nobleman.png",
-            "Effects": {
-                "Maximum Absolutism": 5
-            }
-        },
-        "Council of Petitions": {
-            "Image": "/images/c/c5/Gov_man_on_podium.png",
-            "Effects": {
-                "National Unrest": -2,
-                "Reelection Cost": -0.1
-            }
-        },
-        "Hansa Representatives": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Provincial Trade Power Modifier": 0.15
-            }
-        },
-        "Council of Lords": {
-            "Image": "/images/8/8f/Gov_merchant.png",
-            "Effects": {
-                "Tolerance of the True Faith": 1,
-                "State Maintenance": -0.20
-            }
-        }
-    },
-    "Tier 7: Consolidation of Power": {
-        "Broaden Executive Powers": {
-            "Image": "/images/5/50/Gov_castle.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.15
-            }
-        },
-        "Devolution of Powers": {
-            "Image": "/images/9/96/Gov_generic_people.png",
-            "Effects": {
-                "Diplomats": 1
-            }
-        },
-        "Absolute Power of the President": {
-            "Image": "/images/4/49/Gov_king.png",
-            "Effects": {
-            }
-        },
-        "A Revolutionary Council": {
-            "Image": "/images/a/ac/Reform_revolutionary_council.png",
-            "Effects": {
-                "Maximum Revolutionary Zeal": 10
-            }
-        },
-        "Confederation of States": {
-            "Image": "/images/1/1a/Gov_confederation_of_states.png",
-            "Effects": {
-                "Diplomatic Relations": 1,
-                "Improve Relations": 0.15,
-                "Maximum Absolutism": -10
-            }
-        },
-        "Dominate the Hansa": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Merchants": 1,
-                "Diplomatic Reputation": 1
-            }
-        },
-        "Empowered Aristocratic Courts": {
-            "Image": "/images/9/99/Gov_judge.png",
-            "Effects": {
-                "Yearly Corruption": -0.10,
-                "State Maintenance": -0.15
-            }
-        },
-        "Empowered Sovereign Trade Companies": {
-            "Image": "/images/8/8d/Gov_colonial_rule.png",
-            "Effects": {
-                "Maximum Absolutism": -5,
-                "Trade Company Investment cost": -0.10,
-                "Aggressive Expansion Impact": -0.10
-            }
-        },
-        "Empowered Consolidation of Power": {
-            "Image": "/images/4/41/Gov_imperial_inquisition.png",
-            "Effects": {
-                "Maximum Absolutism": 5,
-                "Monthly Autonomy Change": -0.05
-            }
-        }
-    },
-    "Tier 8: Guiding Principle of Administration": {
-        "Political Principle": {
-            "Image": "/images/c/cf/Gov_paper_with_seal_3.png",
-            "Effects": {
-                "Administrative Free Policies": 1,
-                "Administrative Possible Policies": 1
-            }
-        },
-        "Moral Principle": {
-            "Image": "/images/b/b6/Gov_parliament_hall.png",
-            "Effects": {
-                "Diplomatic Free Policies": 1
-            }
-        },
-        "Revolutionary Principle": {
-            "Image": "/images/5/56/Gov_revolutionary_republic.png",
-            "Effects": {
-                "Girondist Influence": 0.1,
-                "Morale of Armies": 0.1,
-                "National Manpower Modifier": 0.15
-            }
-        },
-        "Equality Principle": {
-            "Image": "/images/f/fb/Reform_equal_electorate.png",
-            "Effects": {
-                "Tolerance of Heretics": 2,
-                "Tolerance of Heathens": 2,
-                "Jacobin Influence": 0.1
-            }
-        },
-        "Imperial Principle": {
-            "Image": "/images/8/8f/Reform_imperial_nobility.png",
-            "Effects": {
-                "Imperial Influence": 0.1,
-                "Aggressive Expansion Impact": -0.1,
-                "Province War Score Cost": -0.1
-            }
-        },
-        "Tolerance Principle": {
-            "Image": "/images/d/d2/Gov_dutch_tolerance.png",
-            "Effects": {
-                "Religious Unity": 0.20,
-                "Advisor Costs": -0.10,
-                "Possible Advisors": 1
-            }
-        },
-        "Independent Principle": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Monthly War Exhaustion": -0.025
-            }
-        },
-        "Empowered Principle of Heritage": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Military Free Policies": 1,
-                "Nobility Loyalty Equilibrium": 0.05
-            }
-        },
-        "Empowered Principle of Profit": {
-            "Image": "/images/4/43/Gov_economy_trade.png",
-            "Effects": {
-                "Interest Per Annum": -1,
-                "Trade Steering": 0.25
-            }
-        },
-        "Empowered Principle of Power": {
-            "Image": "/images/8/81/Gov_french_louis.png",
-            "Effects": {
-                "Reelection Cost": -0.25,
-                "Yearly Republican Tradition": -0.1
-            }
-        }
-    },
-    "Tier 9: Electorate": {
-        "Landholders": {
-            "Image": "/images/8/8a/Gov_dutch_flag.png",
-            "Effects": {
-                "Manpower Recovery Speed": 0.1
-            }
-        },
-        "Citizenry": {
-            "Image": "/images/0/05/Gov_people_walking.png",
-            "Effects": {
-                "Morale of Armies": 0.1
-            }
-        },
-        "Board of Admirals": {
-            "Image": "/images/0/01/Reform_admiralty.png",
-            "Effects": {
-                "Naval Leader Fire": 1,
-                "Yearly Republican Tradition": -0.5
-            }
-        },
-        "Equal Electorate": {
-            "Image": "/images/f/fb/Reform_equal_electorate.png",
-            "Effects": {
-                "National Unrest": -2,
-                "National Tax Modifier": 0.1,
-                "Female Advisor Chance": 0.33,
-                "Jacobin Influence": 0.1
-            }
-        },
-        "Three Social Classes": {
-            "Image": "/images/c/cb/Reform_three_classes.png",
-            "Effects": {
-                "Core-Creation Cost": -0.1,
-                "Girondist Influence": 0.1
-            }
-        },
-        "Military Electorate": {
-            "Image": "/images/8/8a/Reform_military_dictatorship.png",
-            "Effects": {
-                "Land Leader Fire": 1,
-                "Yearly Army Tradition": 0.5,
-                "Imperial Influence": 0.1
-            }
-        },
-        "The Regents": {
-            "Image": "/images/0/03/Gov_regents.png",
-            "Effects": {
-                "Development Cost": -0.10
-            }
-        },
-        "Peasantry": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Infantry Cost": -0.15,
-                "Infantry Combat Ability": 0.10,
-                "Yearly Army Tradition Decay": 0.01
-            }
-        }
-    },
-    "Tier 10: Office Selection": {
-        "Appointment by Committee": {
-            "Image": "/images/6/61/Gov_politician.png",
-            "Effects": {
-                "Possible Advisors": 1,
-                "Advisor Costs": -0.05
-            }
-        },
-        "Bureaucratic Aparatus": {
-            "Image": "/images/b/b9/Gov_map_2.png",
-            "Effects": {
-                "Minimum Autonomy in Territories": -0.10
-            }
-        },
-        "Extended Suffrage": {
-            "Image": "/images/9/93/Gov_paper_with_seal.png",
-            "Effects": {
-                "Accepted Cultures": 1
-            }
-        },
-        "Raadspensionaris": {
-            "Image": "/images/7/73/Gov_raadspensionaris.png",
-            "Effects": {
-                "Diplomatic Free Policies": 1,
-                "Monthly Autonomy Change": -0.025
-            }
-        },
-        "Hansa Universities": {
-            "Image": "/images/3/39/Gov_peasant_republic.png",
-            "Effects": {
-                "Possible Advisors": 1,
-                "Diplomatic Advisor Cost": -0.15,
-                "Institution Spread": 1
-            }
-        }
-    },
-    "Tier 11: Question of Dictatorship": {
-        "Seize Executive Power": {
-            "Image": "/images/9/98/King_2_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Proclaim Divine Guidance": {
-            "Image": "/images/5/54/Religious_leader_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Strengthen Executive Powers": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Maximum Absolutism": 25
-            }
-        },
-        "Reinforce Republican Values": {
-            "Image": "/images/b/b6/Gov_parliament_hall.png",
-            "Effects": {
-                "Administrative Free Policies": 1,
-                "Reelection Cost": -0.1
-            }
-        },
-        "Lower the Black Flag": {
-            "Image": "/images/7/79/Parliament_highlighted.png",
-            "Effects": {
-            }
-        },
-        "President For Life": {
-            "Image": "/images/c/c5/Gov_man_on_podium.png",
-            "Effects": {
-                "Yearly Republican Tradition": -0.5,
-                "Monarch Administrative Skill": 1,
-                "Monarch Military Skill": 1
-            }
-        },
-        "Government for the People": {
-            "Image": "/images/8/81/Reform_government_for_people.png",
-            "Effects": {
-                "Maximum Revolutionary Zeal": 20
-            }
-        },
-        "A Revolutionary Empire": {
-            "Image": "/images/8/88/Reform_become_rev_empire.png",
-            "Effects": {
-            }
-        }
-    }
+				"Military Technology Cost": -0.15,
+				"Artillery Cost": -0.10,
+				"Army Drill Gain Modifier": 0.25
+			}
+		},
+		"Elite Jägers": {
+			"Image": "/images/4/44/Gov_hesse_jaegers.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Infantry Combat Ability": 0.10,
+				"Regiment Costs": 0.10
+			}
+		},
+		"Warrior Kings": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Land Leader Shock": 1
+			}
+		},
+		"Employ the Snaphaener": {
+			"Image": "/images/4/44/Gov_hesse_jaegers.png",
+			"Effects": {
+				"Infantry Fire": 0.25,
+				"Infantry Combat Ability": 0.05,
+				"Years of Separatism": 5
+			}
+		},
+		"Redcoats": {
+			"Image": "/images/2/2d/Gov_england_redcoat.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Infantry Combat Ability": 0.05
+			}
+		},
+		"Recruit Ronin": {
+			"Image": "/images/3/37/Gov_samurai.png",
+			"Effects": {
+				"Mercenary Discipline": 0.05,
+				"Mercenary Maintenance": -0.10,
+				"possible_mercenaries": 0.25
+			}
+		},
+		"Ashigaru Generals": {
+			"Image": "/images/e/ec/Gov_daimyo.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Fire Damage Received": -0.05,
+				"Army Drill Gain Modifier": 0.25
+			}
+		},
+		"Wei-Suo System": {
+			"Image": "/images/1/17/Gov_asian_scripture.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.10,
+				"Yearly Army Tradition": 1,
+				"Land Maintenance Modifier": -0.10,
+				"Discipline": -0.05
+			}
+		},
+		"Abbas's Reforms": {
+			"Image": "/images/e/ec/Gov_persia_abbas.png",
+			"Effects": {
+				"Land Force Limit Modifier": 0.10,
+				"Artillery Cost": -0.10,
+				"Ghulam Influence": 0.05
+			}
+		},
+		"Sherifan Levies": {
+			"Image": "/images/2/24/Gov_hejaz_cavalry.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.15,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Restore the Komnenoid Army": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Yearly Army Tradition Decay": -0.01,
+				"possible_mercenaries": 0.15
+			}
+		},
+		"Jaesungbangryak": {
+			"Image": "/images/0/08/Gov_fort.png",
+			"Effects": {
+				"Movement Speed": 0.2
+			}
+		},
+		"Five Military Force": {
+			"Image": "/images/4/44/Gov_hesse_jaegers.png",
+			"Effects": {
+				"Land Fire Damage": 0.1,
+				"Land Maintenance Modifier": -0.05
+			}
+		},
+		"Honor of the Thai People": {
+			"Image": "/images/5/5a/Gov_soldiers_6.png",
+			"Effects": {
+				"Yearly Legitimacy": 1,
+				"Land Force Limit Modifier": 0.20
+			}
+		},
+		"Form the Vojstatic": {
+			"Image": "/images/5/5e/Gov_szlachta_noble_1.png",
+			"Effects": {
+				"Land Maintenance Modifier": -0.05,
+				"Land Force Limit": 6,
+				"Mercenary Maintenance": -0.15
+			}
+		},
+		"Reforms of William III": {
+			"Image": "/images/5/55/Gov_william_3.png",
+			"Effects": {
+				"Mercenary Discipline": 0.05,
+				"Reinforce Speed": 0.25
+			}
+		},
+		"Reform the Condotierri": {
+			"Image": "/images/6/60/Gov_swiss_mercenaries.png",
+			"Effects": {
+				"Yearly Army Tradition": 0.5,
+				"Land Force Limit Modifier": 0.15,
+				"Possible Condottieri": 0.5
+			}
+		},
+		"Turkoman Gunners": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Artillery Combat Ability": 0.05,
+				"Artillery Cost": -0.10
+			}
+		},
+		"Mongol Ties": {
+			"Image": "/images/7/75/Gov_soldiers_3.png",
+			"Effects": {
+				"Cavalry Cost": -0.10,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Lessons of Subutai": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Leader Siege": 1
+			}
+		},
+		"Peasant Militia": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Fire Damage Received": -0.10
+			}
+		},
+		"Tysyatskys": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Yearly Army Tradition": 0.5,
+				"National Unrest": -1
+			}
+		},
+		"Almogavars": {
+			"Image": "/images/b/bf/Gov_catalan_company.png",
+			"Effects": {
+				"Mercenary Manpower": 0.25,
+				"Spy Network Construction": 0.10
+			}
+		},
+		"Republican Guard": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Army Drill Gain Modifier": 0.25
+			}
+		}
+	},
+	"Tier 5: Regionalism": {
+		"Provincial Governments": {
+			"Image": "/images/5/51/Gov_landscape.png",
+			"Effects": {
+				"State Maintenance": -0.25,
+				"Development Cost": -0.10
+			}
+		},
+		"Administrative Divisions": {
+			"Image": "/images/6/6b/Gov_map.png",
+			"Effects": {
+				"Governing Capacity": 250
+			}
+		},
+		"Union of States": {
+			"Image": "/images/f/f4/Gov_merchant_ship.png",
+			"Effects": {
+				"Global Trade Power": 0.1,
+				"Merchants": 1
+			}
+		},
+		"Exile Colonial Companies": {
+			"Image": "/images/f/f4/Gov_merchant_ship.png",
+			"Effects": {
+				"Expel Minorities Cost": -0.3
+			}
+		},
+		"Advanced Bookkeeping": {
+			"Image": "/images/e/e8/Gov_paper_money_map.png",
+			"Effects": {
+				"Interest Per Annum": -1.0,
+				"Yearly Corruption": -0.05
+			}
+		},
+		"Communal Territories": {
+			"Image": "/images/b/b9/Gov_map_2.png",
+			"Effects": {
+				"Years of Separatism": -5,
+				"Minimum Autonomy in Territories": -0.1
+			}
+		},
+		"Verenigde Indische Companies": {
+			"Image": "/images/b/b3/Gov_voc_ship.png",
+			"Effects": {
+				"Provincial Trade Power Modifier": 0.20,
+				"Trade Company Investment cost": -0.25
+			}
+		},
+		"Confederation of Cantons": {
+			"Image": "/images/f/f5/Gov_swiss_cantons.png",
+			"Effects": {
+				"National Garrison Growth": 1,
+				"Garrison Size": 0.25
+			}
+		},
+		"Expand the 48": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Governing Capacity": 150,
+				"Years of Separatism": -5
+			}
+		},
+		"Union of Cities": {
+			"Image": "/images/b/b9/Gov_map_2.png",
+			"Effects": {
+				"Minimum Autonomy": 5,
+				"National Unrest": -2,
+				"Spy Defense": 0.20
+			}
+		},
+		"Volost Colonies": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Production Efficiency": 0.20,
+				"Minimum Autonomy in Territories": -0.05
+			}
+		}
+	},
+	"Tier 6: Separation of Power": {
+		"Parliamentarism": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"National Unrest": -1
+			}
+		},
+		"Presidential System": {
+			"Image": "/images/c/c5/Gov_man_on_podium.png",
+			"Effects": {
+				"Institution Embracement Cost": -0.1
+			}
+		},
+		"Pirate King": {
+			"Image": "/images/9/92/Gov_pirate_king.png",
+			"Effects": {
+				"Harsh Treatment Cost": -0.2,
+				"Naval Leader Fire": 1
+			}
+		},
+		"War Against the World Doctrine": {
+			"Image": "/images/4/4c/Gov_war_against_the_world.png",
+			"Effects": {
+				"Years of Separatism": -5,
+				"Shipbuilding Time": -0.15
+			}
+		},
+		"Black Market Consortium": {
+			"Image": "/images/2/21/Gov_black_market_consortium.png",
+			"Effects": {
+			}
+		},
+		"Imperial Diplomacy": {
+			"Image": "/images/4/49/Gov_king.png",
+			"Effects": {
+				"Diplomatic Reputation": 2,
+				"Diplomatic Relations": 1
+			}
+		},
+		"Municipal Self-Defense": {
+			"Image": "/images/8/8a/Gov_soldiers_7.png",
+			"Effects": {
+				"Land Force Limit Modifier": 0.25
+			}
+		},
+		"The Feuillant System": {
+			"Image": "/images/4/49/Reform_feuillant.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.1,
+				"Yearly Republican Tradition": -0.1
+			}
+		},
+		"The Two-Chamber System": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Free Policies": 1,
+				"Yearly Republican Tradition": 0.15
+			}
+		},
+		"Stadholders": {
+			"Image": "/images/9/92/Gov_Stadholder.png",
+			"Effects": {
+				"Yearly Republican Tradition": -0.5,
+				"Maximum Absolutism": 5,
+				"Yearly Army Tradition": 1,
+				"Nobility Influence": 0.15
+			}
+		},
+		"Andrea Doria's Constitution": {
+			"Image": "/images/e/e1/Gov_andrea_doria.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.25,
+				"Maximum Absolutism": 10
+			}
+		},
+		"Ware Vrijheid": {
+			"Image": "/images/3/38/Gov_dutch_tulip_field.png",
+			"Effects": {
+				"Yearly Republican Tradition": 0.25,
+				"Reform Progress Growth": 0.15
+			}
+		},
+		"The Consigliere": {
+			"Image": "/images/1/1e/Gov_nobleman.png",
+			"Effects": {
+				"Maximum Absolutism": 5
+			}
+		},
+		"Council of Petitions": {
+			"Image": "/images/c/c5/Gov_man_on_podium.png",
+			"Effects": {
+				"National Unrest": -2,
+				"Reelection Cost": -0.1
+			}
+		},
+		"Hansa Representatives": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Provincial Trade Power Modifier": 0.15
+			}
+		},
+		"Council of Lords": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"State Maintenance": -0.20
+			}
+		}
+	},
+	"Tier 7: Consolidation of Power": {
+		"Broaden Executive Powers": {
+			"Image": "/images/5/50/Gov_castle.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.15
+			}
+		},
+		"Devolution of Powers": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Diplomats": 1
+			}
+		},
+		"Absolute Power of the President": {
+			"Image": "/images/4/49/Gov_king.png",
+			"Effects": {
+			}
+		},
+		"A Revolutionary Council": {
+			"Image": "/images/a/ac/Reform_revolutionary_council.png",
+			"Effects": {
+				"Maximum Revolutionary Zeal": 10
+			}
+		},
+		"Confederation of States": {
+			"Image": "/images/1/1a/Gov_confederation_of_states.png",
+			"Effects": {
+				"Diplomatic Relations": 1,
+				"Improve Relations": 0.15,
+				"Maximum Absolutism": -10
+			}
+		},
+		"Dominate the Hansa": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Merchants": 1,
+				"Diplomatic Reputation": 1
+			}
+		},
+		"Empowered Aristocratic Courts": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"Yearly Corruption": -0.10,
+				"State Maintenance": -0.15
+			}
+		},
+		"Empowered Sovereign Trade Companies": {
+			"Image": "/images/8/8d/Gov_colonial_rule.png",
+			"Effects": {
+				"Maximum Absolutism": -5,
+				"Trade Company Investment cost": -0.10,
+				"Aggressive Expansion Impact": -0.10
+			}
+		},
+		"Empowered Consolidation of Power": {
+			"Image": "/images/4/41/Gov_imperial_inquisition.png",
+			"Effects": {
+				"Maximum Absolutism": 5,
+				"Monthly Autonomy Change": -0.05
+			}
+		}
+	},
+	"Tier 8: Guiding Principle of Administration": {
+		"Political Principle": {
+			"Image": "/images/c/cf/Gov_paper_with_seal_3.png",
+			"Effects": {
+				"Administrative Free Policies": 1,
+				"Administrative Possible Policies": 1
+			}
+		},
+		"Moral Principle": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Diplomatic Free Policies": 1
+			}
+		},
+		"Revolutionary Principle": {
+			"Image": "/images/5/56/Gov_revolutionary_republic.png",
+			"Effects": {
+				"Girondist Influence": 0.1,
+				"Morale of Armies": 0.1,
+				"National Manpower Modifier": 0.15
+			}
+		},
+		"Equality Principle": {
+			"Image": "/images/f/fb/Reform_equal_electorate.png",
+			"Effects": {
+				"Tolerance of Heretics": 2,
+				"Tolerance of Heathens": 2,
+				"Jacobin Influence": 0.1
+			}
+		},
+		"Imperial Principle": {
+			"Image": "/images/8/8f/Reform_imperial_nobility.png",
+			"Effects": {
+				"Imperial Influence": 0.1,
+				"Aggressive Expansion Impact": -0.1,
+				"Province War Score Cost": -0.1
+			}
+		},
+		"Tolerance Principle": {
+			"Image": "/images/d/d2/Gov_dutch_tolerance.png",
+			"Effects": {
+				"Religious Unity": 0.20,
+				"Advisor Costs": -0.10,
+				"Possible Advisors": 1
+			}
+		},
+		"Independent Principle": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Monthly War Exhaustion": -0.025
+			}
+		},
+		"Empowered Principle of Heritage": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Military Free Policies": 1,
+				"Nobility Loyalty Equilibrium": 0.05
+			}
+		},
+		"Empowered Principle of Profit": {
+			"Image": "/images/4/43/Gov_economy_trade.png",
+			"Effects": {
+				"Interest Per Annum": -1,
+				"Trade Steering": 0.25
+			}
+		},
+		"Empowered Principle of Power": {
+			"Image": "/images/8/81/Gov_french_louis.png",
+			"Effects": {
+				"Reelection Cost": -0.25,
+				"Yearly Republican Tradition": -0.1
+			}
+		}
+	},
+	"Tier 9: Electorate": {
+		"Landholders": {
+			"Image": "/images/8/8a/Gov_dutch_flag.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.1
+			}
+		},
+		"Citizenry": {
+			"Image": "/images/0/05/Gov_people_walking.png",
+			"Effects": {
+				"Morale of Armies": 0.1
+			}
+		},
+		"Board of Admirals": {
+			"Image": "/images/0/01/Reform_admiralty.png",
+			"Effects": {
+				"Naval Leader Fire": 1,
+				"Yearly Republican Tradition": -0.5
+			}
+		},
+		"Equal Electorate": {
+			"Image": "/images/f/fb/Reform_equal_electorate.png",
+			"Effects": {
+				"National Unrest": -2,
+				"National Tax Modifier": 0.1,
+				"Female Advisor Chance": 0.33,
+				"Jacobin Influence": 0.1
+			}
+		},
+		"Three Social Classes": {
+			"Image": "/images/c/cb/Reform_three_classes.png",
+			"Effects": {
+				"Core-Creation Cost": -0.1,
+				"Girondist Influence": 0.1
+			}
+		},
+		"Military Electorate": {
+			"Image": "/images/8/8a/Reform_military_dictatorship.png",
+			"Effects": {
+				"Land Leader Fire": 1,
+				"Yearly Army Tradition": 0.5,
+				"Imperial Influence": 0.1
+			}
+		},
+		"The Regents": {
+			"Image": "/images/0/03/Gov_regents.png",
+			"Effects": {
+				"Development Cost": -0.10
+			}
+		},
+		"Peasantry": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Infantry Cost": -0.15,
+				"Infantry Combat Ability": 0.10,
+				"Yearly Army Tradition Decay": 0.01
+			}
+		}
+	},
+	"Tier 10: Office Selection": {
+		"Appointment by Committee": {
+			"Image": "/images/6/61/Gov_politician.png",
+			"Effects": {
+				"Possible Advisors": 1,
+				"Advisor Costs": -0.05
+			}
+		},
+		"Bureaucratic Aparatus": {
+			"Image": "/images/b/b9/Gov_map_2.png",
+			"Effects": {
+				"Minimum Autonomy in Territories": -0.10
+			}
+		},
+		"Extended Suffrage": {
+			"Image": "/images/9/93/Gov_paper_with_seal.png",
+			"Effects": {
+				"Accepted Cultures": 1
+			}
+		},
+		"Raadspensionaris": {
+			"Image": "/images/7/73/Gov_raadspensionaris.png",
+			"Effects": {
+				"Diplomatic Free Policies": 1,
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Hansa Universities": {
+			"Image": "/images/3/39/Gov_peasant_republic.png",
+			"Effects": {
+				"Possible Advisors": 1,
+				"Diplomatic Advisor Cost": -0.15,
+				"Institution Spread": 1
+			}
+		}
+	},
+	"Tier 11: Question of Dictatorship": {
+		"Seize Executive Power": {
+			"Image": "/images/9/98/King_2_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Proclaim Divine Guidance": {
+			"Image": "/images/5/54/Religious_leader_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Strengthen Executive Powers": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Maximum Absolutism": 25
+			}
+		},
+		"Reinforce Republican Values": {
+			"Image": "/images/b/b6/Gov_parliament_hall.png",
+			"Effects": {
+				"Administrative Free Policies": 1,
+				"Reelection Cost": -0.1
+			}
+		},
+		"Lower the Black Flag": {
+			"Image": "/images/7/79/Parliament_highlighted.png",
+			"Effects": {
+			}
+		},
+		"President For Life": {
+			"Image": "/images/c/c5/Gov_man_on_podium.png",
+			"Effects": {
+				"Yearly Republican Tradition": -0.5,
+				"Monarch Administrative Skill": 1,
+				"Monarch Military Skill": 1
+			}
+		},
+		"Government for the People": {
+			"Image": "/images/8/81/Reform_government_for_people.png",
+			"Effects": {
+				"Maximum Revolutionary Zeal": 20
+			}
+		},
+		"A Revolutionary Empire": {
+			"Image": "/images/8/88/Reform_become_rev_empire.png",
+			"Effects": {
+			}
+		}
+	}
 },
 "Theocracy": {
-    "Tier 1: Leadership": {
-        "Clerical State": {
-            "Image": "/images/2/2e/Gov_religious_leader.png",
-            "Effects": {
-                "National Tax Modifier": 0.05
-            }
-        },
-        "Monastic Order": {
-            "Image": "/images/f/ff/Gov_monks.png",
-            "Effects": {
-                "Fort Maintenance": -0.2
-            }
-        },
-        "Papacy": {
-            "Image": "/images/a/a1/Gov_papacy.png",
-            "Effects": {
-                "Prestige per Development from Missionary": 0.33,
-                "Tolerance of the True Faith": 1,
-                "Clergy Influence": 0.2
-            }
-        },
-        "Crusader State": {
-            "Image": "/images/1/19/Reform_holy_state.png",
-            "Effects": {
-                "Permanent Casus Belli against neighboring heathens and heretics.": true,
-                "Manpower Recovery Speed": 0.15
-            }
-        },
-        "Autonomous Swiss Cantons": {
-            "Image": "/images/3/34/Reform_united_cantons.png",
-            "Effects": {
-                "Governing Capacity": -50,
-                "Free Policies": 1,
-                "Mercenary Manpower": 0.5,
-                "Maximum Absolutism": -30
-            }
-        },
-        "Ajuraan Sultanate": {
-            "Image": "/images/a/a1/Muslim_highlighted.png",
-            "Effects": {
-                "Global Trade Power": 0.10,
-                "Trade Range": 0.25
-            }
-        },
-        "Dynastic Theocracies": {
-            "Image": "/images/4/44/Gov_feudal_theocracy.png",
-            "Effects": {
-                "Yearly Devotion": 0.25
-            }
-        }
-    },
-    "Tier 2: Internal & External Mission": {
-        "Internal Mission": {
-            "Image": "/images/7/78/Gov_clergyman.png",
-            "Effects": {
-                "Tolerance of the True Faith": 2
-            }
-        },
-        "External Mission": {
-            "Image": "/images/5/5b/Gov_soldiers.png",
-            "Effects": {
-                "Manpower Recovery Speed": 0.1
-            }
-        },
-        "Colonial Mission": {
-            "Image": "/images/2/2e/Gov_colonial_church.png",
-            "Effects": {
-                "Fleet Exploration Range": 0.25,
-                "Settler Chance": 0.10
-            }
-        },
-        "Mission to Civilize": {
-            "Image": "/images/6/6e/Reform_mission_to_civilize.png",
-            "Effects": {
-                "Native Assimilation": 0.35,
-                "Native Uprising Chance": -0.5
-            }
-        },
-        "Mission on the High Seas": {
-            "Image": "/images/0/09/Reform_mission_to_kill_pirates.png",
-            "Effects": {
-                "National Sailors Modifier": 0.2,
-                "Naval Force Limit Modifier": 0.25,
-                "Chance to Capture Enemy Ships": 0.33
-            }
-        }
-    },
-    "Tier 3: Divine Cause": {
-        "Safeguard Holy Sites": {
-            "Image": "/images/4/47/Gov_church.png",
-            "Effects": {
-                "Yearly Prestige": 1
-            }
-        },
-        "Combat Heresy": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Morale of Armies": 0.1
-            }
-        },
-        "Expulsion of Heathens": {
-            "Image": "/images/5/51/Gov_landscape.png",
-            "Effects": {
-                "Development Cost": -0.10,
-                "Culture Conversion Cost": -0.10,
-                "Expel Minorities Cost": -0.20
-            }
-        },
-        "The Guru's Wisdom": {
-            "Image": "/images/4/49/Gov_nayankara_system.png",
-            "Effects": {
-                "Missionary Strength": 0.03,
-                "Institution Spread": 0.1
-            }
-        },
-        "Kingdom of God": {
-            "Image": "/images/e/ed/Reform_kingdom_of_god.png",
-            "Effects": {
-                "National Manpower Modifier": 0.1,
-                "Yearly Prestige": 1,
-                "Yearly Devotion": 1
-            }
-        },
-        "The Holy Office": {
-            "Image": "/images/9/99/Gov_judge.png",
-            "Effects": {
-                "Yearly Corruption": -0.05
-            }
-        },
-        "State-Sanctioned Missionaries": {
-            "Image": "/images/9/93/Gov_Teuton_3.png",
-            "Effects": {
-                "Missionary Strength": 0.02,
-                "Missionary Maintenance Cost": -0.25
-            }
-        },
-        "Fighting for Israel": {
-            "Image": "/images/5/51/Gov_landscape.png",
-            "Effects": {
-                "Morale of Armies": 0.15
-            }
-        }
-    },
-    "Tier 4: Clergy in Administration": {
-        "Subservient Bureaucrats": {
-            "Image": "/images/9/93/Gov_paper_with_seal.png",
-            "Effects": {
-                "Yearly Corruption": -0.1
-            }
-        },
-        "Zealous Administrators": {
-            "Image": "/images/c/cf/Gov_paper_with_seal_3.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.1
-            }
-        },
-        "Permanent Marathas Council": {
-            "Image": "/images/8/82/Gov_noble_indian.png",
-            "Effects": {
-                "Land Leader Shock": 1,
-                "Marathas Influence": 0.1,
-                "Marathas Loyalty Equilibrium": 0.05,
-                "Nobility Influence": -0.1,
-                "Nobility Loyalty Equilibrium": -0.05
-            }
-        },
-        "Governmental Purbias Register": {
-            "Image": "/images/d/d7/Gov_rajput_kingdom.png",
-            "Effects": {
-                "Recover Army Morale Speed": 0.05,
-                "Rajputs Influence": 0.1,
-                "Rajputs Loyalty Equilibrium": 0.05,
-                "Nobility Influence": -0.1,
-                "Nobility Loyalty Equilibrium": -0.05
-            }
-        },
-        "Divine Nobility": {
-            "Image": "/images/1/1e/Gov_nobleman.png",
-            "Effects": {
-                "Yearly Army Tradition": 1,
-                "Nobility Influence": 0.1,
-                "Marathas Influence": 0.1,
-                "Rajputs Influence": 0.1,
-                "Nobility Loyalty Equilibrium": 0.05,
-                "Marathas Loyalty Equilibrium": 0.05,
-                "Rajputs Loyalty Equilibrium": 0.05
-            }
-        },
-        "Mercantile Tithe": {
-            "Image": "/images/8/8f/Gov_merchant.png",
-            "Effects": {
-                "Global Trade Power": 0.05,
-                "Marathas Influence": 0.1,
-                "Rajputs Influence": 0.1,
-                "Burghers Influence": 0.1,
-                "Burghers Loyalty Equilibrium": 0.05,
-                "Vaishyas Influence": 0.1
-            }
-        },
-        "Monastic Breweries": {
-            "Image": "/images/b/bd/Reform_monastic_breweries.png",
-            "Effects": {
-                "Goods Produced Modifier": 0.1
-            }
-        },
-        "Integration of the Sohei": {
-            "Image": "/images/b/bc/Reform_warrior_monks.png",
-            "Effects": {
-                "Discipline": 0.05,
-                "Infantry Combat Ability": 0.1,
-                "Mercenary Manpower": 0.1
-            }
-        }
-    },
-    "Tier 5: Religious Enforcement": {
-        "Holy Orthodoxy": {
-            "Image": "/images/6/62/Gov_holy_orthodoxy.png",
-            "Effects": {
-                "Yearly Corruption": -0.10,
-                "Yearly Devotion": 0.5
-            }
-        },
-        "Inquisition": {
-            "Image": "/images/2/29/Gov_inquisition.png",
-            "Effects": {
-                "Missionary Strength": 0.01,
-                "Missionary Strength vs Heretics": 0.02,
-                "Prestige per Development from Missionary": 0.2
-            }
-        },
-        "Religious Pragmatism": {
-            "Image": "/images/7/75/Gov_religious_pragmatism.png",
-            "Effects": {
-                "Religious Unity": 0.10,
-                "Advisor Costs": -0.10
-            }
-        },
-        "Papal Curia": {
-            "Image": "/images/a/ac/Gov_roman_law.png",
-            "Effects": {
-                "Advisor Costs": -0.15,
-                "Yearly Prestige": 1,
-                "Diplomatic Relations": 1
-            }
-        },
-        "Ulema Guidance": {
-            "Image": "/images/9/9f/Gov_noble_muslim.png",
-            "Effects": {
-                "Tolerance of the True Faith": 1,
-                "Missionary Strength": 0.01,
-                "Clergy Loyalty Equilibrium": 0.05,
-                "Clergy Influence": 0.10
-            }
-        }
-    },
-    "Tier 6: Secularization?": {
-        "Partial Secularisation": {
-            "Image": "/images/9/9f/Reform_partial_secularisation.png",
-            "Effects": {
-                "Idea Cost": -0.1,
-                "Institution Spread": 0.05
-            }
-        },
-        "Strengthen Religious Head": {
-            "Image": "/images/1/1e/Gov_nobleman.png",
-            "Effects": {
-                "Yearly Absolutism": 1
-            }
-        },
-        "Hereditary Religious Leadership": {
-            "Image": "/images/a/a1/Muslim_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Crowned Ruler": {
-            "Image": "/images/9/9b/Crown_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Proclaim Republic": {
-            "Image": "/images/7/79/Parliament_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Magister Militum Dei": {
-            "Image": "/images/5/5a/Gov_soldiers_6.png",
-            "Effects": {
-                "Land Leader Fire": 1
-            }
-        },
-        "Embrace Conciliarism": {
-            "Image": "/images/e/ee/Reform_conciliarism.png",
-            "Effects": {
-            }
-        },
-        "Restore the Davidic Line": {
-            "Image": "/images/5/5b/Gov_crown.png",
-            "Effects": {
-                "Maximum Absolutism": 25
-            }
-        }
-    },
-    "Tier 7: Separation of Powers": {
-        "Clerical Commission": {
-            "Image": "/images/7/78/Gov_clergyman.png",
-            "Effects": {
-                "National Unrest": -1,
-                "Diplomatic Relations": 1
-            }
-        },
-        "Divine Guidance": {
-            "Image": "/images/2/21/Reform_divine_guidance.png",
-            "Effects": {
-                "Maximum Absolutism": 20
-            }
-        },
-        "Theocratic Democracy": {
-            "Image": "/images/4/47/Gov_assembly_hall.png",
-            "Effects": {
-                "National Unrest": -1
-            }
-        },
-        "Regionally Elected Commanders": {
-            "Image": "/images/0/03/Reform_regionally_elected_commanders.png",
-            "Effects": {
-                "National Unrest": -1
-            }
-        },
-        "Open Public Elections": {
-            "Image": "/images/0/03/Reform_monastic_elections.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.1,
-                "Maximum Absolutism": 20
-            }
-        },
-        "A Dynastic Order": {
-            "Image": "/images/2/2f/Reform_commander_king.png",
-            "Effects": {
-                "Yearly Devotion": 0.1,
-                "Harsh Treatment Cost": -0.2,
-                "Land Leader Fire": 1
-            }
-        },
-        "Lords of the Sea": {
-            "Image": "/images/f/f2/Reform_admiral_king.png",
-            "Effects": {
-                "Yearly Devotion": 0.1,
-                "Morale of Navies": 0.15,
-                "Naval Leader Fire": 1
-            }
-        }
-    },
-    "Tier 8: The Nature of Our Faith": {
-        "Church and State": {
-            "Image": "/images/2/23/Reform_church_and_state.png",
-            "Effects": {
-                "Free Policies": 1
-            }
-        },
-        "Soul and Body": {
-            "Image": "/images/0/02/Reform_religious_harmony.png",
-            "Effects": {
-                "Accepted Cultures": 2
-            }
-        },
-        "God and Man": {
-            "Image": "/images/2/2e/Gov_religious_leader.png",
-            "Effects": {
-                "Missionaries": 1,
-                "Missionary Strength": 0.01
-            }
-        },
-        "Organize Our Faith": {
-            "Image": "/images/1/12/Reform_organising_our_religion.png",
-            "Effects": {
-                "Yearly Absolutism": 1,
-                "Yearly Devotion": 1
-            }
-        }
-    },
-    "Tier 9: Our Faith and the World": {
-        "One State Under God": {
-            "Image": "/images/c/ce/Gov_rioting_burning_2.png",
-            "Effects": {
-                "War Score Cost vs Other Religions": -0.3
-            }
-        },
-        "The Global Crusade": {
-            "Image": "/images/e/ec/Reform_religious_permanent_revolution.png",
-            "Effects": {
-            }
-        },
-        "The Many Fingers of God": {
-            "Image": "/images/1/17/Gov_asian_scripture.png",
-            "Effects": {
-                "Tolerance of Heretics": 2,
-                "Tolerance of Heathens": 2
-            }
-        },
-        "Priestly Autonomy": {
-            "Image": "/images/a/a5/Gov_strength_of_the_khalsa.png",
-            "Effects": {
-                "Governing Capacity": 250
-            }
-        },
-        "Proclaim Religious Head": {
-            "Image": "/images/d/dc/Gov_shaman.png",
-            "Effects": {
-                "War Score Cost vs Other Religions": -0.25,
-                "Diplomatic Reputation": 1
-            }
-        },
-        "All Under Tengri": {
-            "Image": "/images/5/5a/Reform_all_under_tengri.png",
-            "Effects": {
-                "Cavalry Combat Ability": 0.15,
-                "Cavalry to Infantry Ratio": 0.25
-            }
-        }
-    },
-    "Tier 10: Mobilize the Faithful": {
-        "Holy War": {
-            "Image": "/images/8/86/Gov_holy_war.png",
-            "Effects": {
-                "Manpower Recovery Speed": 0.10
-            }
-        },
-        "Militarized Monasteries.": {
-            "Image": "/images/a/ac/Gov_militarized_monasteries.png",
-            "Effects": {
-                "Yearly Army Tradition": 0.5,
-                "Fort Defense": 0.10
-            }
-        },
-        "Brothers In Arms": {
-            "Image": "/images/d/d4/Gov_brothers_in_arms.png",
-            "Effects": {
-                "Mercenary Discipline": 0.025,
-                "Mercenary Manpower": 0.25
-            }
-        },
-        "Bishop's Military": {
-            "Image": "/images/b/bf/Gov_bishops_army.png",
-            "Effects": {
-                "Military Free Policies": 1,
-                "Maximum Absolutism": 5
-            }
-        },
-        "Permanent Marathas Council": {
-            "Image": "/images/8/82/Gov_noble_indian.png",
-            "Effects": {
-                "Land Leader Shock": 1,
-                "Marathas Influence": 0.1,
-                "Marathas Loyalty Equilibrium": 0.05,
-                "Nobility Influence": -0.1,
-                "Nobility Loyalty Equilibrium": -0.05
-            }
-        },
-        "Governmental Purbias Register": {
-            "Image": "/images/d/d7/Gov_rajput_kingdom.png",
-            "Effects": {
-                "Recover Army Morale Speed": 0.05,
-                "Rajputs Influence": 0.1,
-                "Rajputs Loyalty Equilibrium": 0.05,
-                "Nobility Influence": -0.1,
-                "Nobility Loyalty Equilibrium": -0.05
-            }
-        },
-        "Land Focus": {
-            "Image": "/images/a/ab/Gov_Teuton_2.png",
-            "Effects": {
-                "Infantry Combat Ability": 0.05,
-                "Discipline": 0.025
-            }
-        },
-        "Mamluk Soldiers": {
-            "Image": "/images/4/44/Gov_feudal_theocracy.png",
-            "Effects": {
-                "Discipline": 0.025,
-                "Army Drill Gain Modifier": 0.25,
-                "Yearly Army Professionalism": 0.002,
-                "Land Maintenance Modifier": 0.1
-            }
-        },
-        "Tradition of Masada and Bar Kochba": {
-            "Image": "/images/0/08/Gov_fort.png",
-            "Effects": {
-                "Fort Defense": 0.25,
-                "Attrition for Enemies": 1
-            }
-        },
-        "Turkoman Gunners": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Artillery Combat Ability": 0.05,
-                "Artillery Cost": -0.10
-            }
-        },
-        "Mongol Ties": {
-            "Image": "/images/7/75/Gov_soldiers_3.png",
-            "Effects": {
-                "Cavalry Cost": -0.10,
-                "Reinforce Cost": -0.20
-            }
-        },
-        "Lessons of Subutai": {
-            "Image": "/images/4/44/Gov_feudal_theocracy.png",
-            "Effects": {
-                "Land Leader Maneuver": 1,
-                "Leader Siege": 1
-            }
-        }
-    },
-    "Tier 11: Diplomacy": {
-        "Unrestricted Diplomacy": {
-            "Image": "/images/4/47/Gov_unrestricted_diplomacy.png",
-            "Effects": {
-                "Diplomatic Reputation": 1
-            }
-        },
-        "Holy Claims": {
-            "Image": "/images/f/ff/Gov_holy_claims.png",
-            "Effects": {
-                "Aggressive Expansion Impact": -0.10
-            }
-        },
-        "Network of Faithful Allies": {
-            "Image": "/images/3/3b/Gov_network_of_faithful_allies.png",
-            "Effects": {
-                "Income from Vassals": 0.2,
-                "Vassal Force Limit Contribution": 0.50,
-                "Liberty Desire in Subjects": 10
-            }
-        },
-        "Bishop's Diplomacy": {
-            "Image": "/images/4/4e/Gov_bishops_diplomacy.png",
-            "Effects": {
-                "Diplomatic Free Policies": 1,
-                "Maximum Absolutism": 5
-            }
-        },
-        "Naval Focus": {
-            "Image": "/images/1/1f/Gov_soldiers_5.png",
-            "Effects": {
-                "Galley Combat Ability": 0.10,
-                "Ship Durability": 0.05
-            }
-        },
-        "Yeshiva Scholarship": {
-            "Image": "/images/5/5b/Gov_constitution.png",
-            "Effects": {
-                "Technology Cost": -0.05,
-                "Tolerance of the True Faith": 1
-            }
-        }
-    },
-    "Tier 12: Judiciary": {
-        "Secular Law": {
-            "Image": "/images/a/a0/Gov_secular_law.png",
-            "Effects": {
-                "National Unrest": -1,
-                "Tolerance of Heretics": 1
-            }
-        },
-        "Theocratic Law": {
-            "Image": "/images/2/2f/Gov_theocratic_law.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.15,
-                "Yearly Devotion": 0.5
-            }
-        },
-        "Roman Law": {
-            "Image": "/images/a/ac/Gov_roman_law.png",
-            "Effects": {
-                "Yearly Papal Influence": 1
-            }
-        },
-        "Papal Decree": {
-            "Image": "/images/1/11/Gov_papal_law.png",
-            "Effects": {
-                "Tolerance of the True Faith": 1,
-                "Improve Relations": 0.15,
-                "Monarch Diplomatic Skill": 1
-            }
-        },
-        "Jizya Tax": {
-            "Image": "/images/f/f6/Gov_jizja_law.png",
-            "Effects": {
-                "National Tax Modifier": 0.20
-            }
-        },
-        "Harmonious Law": {
-            "Image": "/images/7/7c/Gov_harmonious_law.png",
-            "Effects": {
-                "Yearly Harmony Increase": 0.5
-            }
-        },
-        "Pagan Law": {
-            "Image": "/images/b/be/Gov_pagan_law.png",
-            "Effects": {
-                "Core-Creation Cost": -0.1
-            }
-        },
-        "Bishop's Law": {
-            "Image": "/images/4/4a/Gov_bishop%27s_law.png",
-            "Effects": {
-                "Administrative Free Policies": 1,
-                "Maximum Absolutism": 5
-            }
-        }
-    }
+	"Tier 1: Leadership": {
+		"Clerical State": {
+			"Image": "/images/2/2e/Gov_religious_leader.png",
+			"Effects": {
+				"National Tax Modifier": 0.05
+			}
+		},
+		"Monastic Order": {
+			"Image": "/images/f/ff/Gov_monks.png",
+			"Effects": {
+				"Fort Maintenance": -0.2
+			}
+		},
+		"Papacy": {
+			"Image": "/images/a/a1/Gov_papacy.png",
+			"Effects": {
+				"Prestige per Development from Missionary": 0.33,
+				"Tolerance of the True Faith": 1,
+				"Clergy Influence": 0.2
+			}
+		},
+		"Crusader State": {
+			"Image": "/images/1/19/Reform_holy_state.png",
+			"Effects": {
+				"Permanent Casus Belli against neighboring heathens and heretics.": true,
+				"Manpower Recovery Speed": 0.15
+			}
+		},
+		"Autonomous Swiss Cantons": {
+			"Image": "/images/3/34/Reform_united_cantons.png",
+			"Effects": {
+				"Governing Capacity": -50,
+				"Free Policies": 1,
+				"Mercenary Manpower": 0.5,
+				"Maximum Absolutism": -30
+			}
+		},
+		"Ajuraan Sultanate": {
+			"Image": "/images/a/a1/Muslim_highlighted.png",
+			"Effects": {
+				"Global Trade Power": 0.10,
+				"Trade Range": 0.25
+			}
+		},
+		"Dynastic Theocracies": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Yearly Devotion": 0.25
+			}
+		}
+	},
+	"Tier 2: Internal & External Mission": {
+		"Internal Mission": {
+			"Image": "/images/7/78/Gov_clergyman.png",
+			"Effects": {
+				"Tolerance of the True Faith": 2
+			}
+		},
+		"External Mission": {
+			"Image": "/images/5/5b/Gov_soldiers.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.1
+			}
+		},
+		"Colonial Mission": {
+			"Image": "/images/2/2e/Gov_colonial_church.png",
+			"Effects": {
+				"Fleet Exploration Range": 0.25,
+				"Settler Chance": 0.10
+			}
+		},
+		"Mission to Civilize": {
+			"Image": "/images/6/6e/Reform_mission_to_civilize.png",
+			"Effects": {
+				"Native Assimilation": 0.35,
+				"Native Uprising Chance": -0.5
+			}
+		},
+		"Mission on the High Seas": {
+			"Image": "/images/0/09/Reform_mission_to_kill_pirates.png",
+			"Effects": {
+				"National Sailors Modifier": 0.2,
+				"Naval Force Limit Modifier": 0.25,
+				"Chance to Capture Enemy Ships": 0.33
+			}
+		}
+	},
+	"Tier 3: Divine Cause": {
+		"Safeguard Holy Sites": {
+			"Image": "/images/4/47/Gov_church.png",
+			"Effects": {
+				"Yearly Prestige": 1
+			}
+		},
+		"Combat Heresy": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Morale of Armies": 0.1
+			}
+		},
+		"Expulsion of Heathens": {
+			"Image": "/images/5/51/Gov_landscape.png",
+			"Effects": {
+				"Development Cost": -0.10,
+				"Culture Conversion Cost": -0.10,
+				"Expel Minorities Cost": -0.20
+			}
+		},
+		"The Guru's Wisdom": {
+			"Image": "/images/4/49/Gov_nayankara_system.png",
+			"Effects": {
+				"Missionary Strength": 0.03,
+				"Institution Spread": 0.1
+			}
+		},
+		"Kingdom of God": {
+			"Image": "/images/e/ed/Reform_kingdom_of_god.png",
+			"Effects": {
+				"National Manpower Modifier": 0.1,
+				"Yearly Prestige": 1,
+				"Yearly Devotion": 1
+			}
+		},
+		"The Holy Office": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"Yearly Corruption": -0.05
+			}
+		},
+		"State-Sanctioned Missionaries": {
+			"Image": "/images/9/93/Gov_Teuton_3.png",
+			"Effects": {
+				"Missionary Strength": 0.02,
+				"Missionary Maintenance Cost": -0.25
+			}
+		},
+		"Fighting for Israel": {
+			"Image": "/images/5/51/Gov_landscape.png",
+			"Effects": {
+				"Morale of Armies": 0.15
+			}
+		}
+	},
+	"Tier 4: Clergy in Administration": {
+		"Subservient Bureaucrats": {
+			"Image": "/images/9/93/Gov_paper_with_seal.png",
+			"Effects": {
+				"Yearly Corruption": -0.1
+			}
+		},
+		"Zealous Administrators": {
+			"Image": "/images/c/cf/Gov_paper_with_seal_3.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.1
+			}
+		},
+		"Permanent Marathas Council": {
+			"Image": "/images/8/82/Gov_noble_indian.png",
+			"Effects": {
+				"Land Leader Shock": 1,
+				"Marathas Influence": 0.1,
+				"Marathas Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Governmental Purbias Register": {
+			"Image": "/images/d/d7/Gov_rajput_kingdom.png",
+			"Effects": {
+				"Recover Army Morale Speed": 0.05,
+				"Rajputs Influence": 0.1,
+				"Rajputs Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Divine Nobility": {
+			"Image": "/images/1/1e/Gov_nobleman.png",
+			"Effects": {
+				"Yearly Army Tradition": 1,
+				"Nobility Influence": 0.1,
+				"Marathas Influence": 0.1,
+				"Rajputs Influence": 0.1,
+				"Nobility Loyalty Equilibrium": 0.05,
+				"Marathas Loyalty Equilibrium": 0.05,
+				"Rajputs Loyalty Equilibrium": 0.05
+			}
+		},
+		"Mercantile Tithe": {
+			"Image": "/images/8/8f/Gov_merchant.png",
+			"Effects": {
+				"Global Trade Power": 0.05,
+				"Marathas Influence": 0.1,
+				"Rajputs Influence": 0.1,
+				"Burghers Influence": 0.1,
+				"Burghers Loyalty Equilibrium": 0.05,
+				"Vaishyas Influence": 0.1
+			}
+		},
+		"Monastic Breweries": {
+			"Image": "/images/b/bd/Reform_monastic_breweries.png",
+			"Effects": {
+				"Goods Produced Modifier": 0.1
+			}
+		},
+		"Integration of the Sohei": {
+			"Image": "/images/b/bc/Reform_warrior_monks.png",
+			"Effects": {
+				"Discipline": 0.05,
+				"Infantry Combat Ability": 0.1,
+				"Mercenary Manpower": 0.1
+			}
+		}
+	},
+	"Tier 5: Religious Enforcement": {
+		"Holy Orthodoxy": {
+			"Image": "/images/6/62/Gov_holy_orthodoxy.png",
+			"Effects": {
+				"Yearly Corruption": -0.10,
+				"Yearly Devotion": 0.5
+			}
+		},
+		"Inquisition": {
+			"Image": "/images/2/29/Gov_inquisition.png",
+			"Effects": {
+				"Missionary Strength": 0.01,
+				"Missionary Strength vs Heretics": 0.02,
+				"Prestige per Development from Missionary": 0.2
+			}
+		},
+		"Religious Pragmatism": {
+			"Image": "/images/7/75/Gov_religious_pragmatism.png",
+			"Effects": {
+				"Religious Unity": 0.10,
+				"Advisor Costs": -0.10
+			}
+		},
+		"Papal Curia": {
+			"Image": "/images/a/ac/Gov_roman_law.png",
+			"Effects": {
+				"Advisor Costs": -0.15,
+				"Yearly Prestige": 1,
+				"Diplomatic Relations": 1
+			}
+		},
+		"Ulema Guidance": {
+			"Image": "/images/9/9f/Gov_noble_muslim.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"Missionary Strength": 0.01,
+				"Clergy Loyalty Equilibrium": 0.05,
+				"Clergy Influence": 0.10
+			}
+		}
+	},
+	"Tier 6: Secularization?": {
+		"Partial Secularisation": {
+			"Image": "/images/9/9f/Reform_partial_secularisation.png",
+			"Effects": {
+				"Idea Cost": -0.1,
+				"Institution Spread": 0.05
+			}
+		},
+		"Strengthen Religious Head": {
+			"Image": "/images/1/1e/Gov_nobleman.png",
+			"Effects": {
+				"Yearly Absolutism": 1
+			}
+		},
+		"Hereditary Religious Leadership": {
+			"Image": "/images/a/a1/Muslim_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Crowned Ruler": {
+			"Image": "/images/9/9b/Crown_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Proclaim Republic": {
+			"Image": "/images/7/79/Parliament_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Magister Militum Dei": {
+			"Image": "/images/5/5a/Gov_soldiers_6.png",
+			"Effects": {
+				"Land Leader Fire": 1
+			}
+		},
+		"Embrace Conciliarism": {
+			"Image": "/images/e/ee/Reform_conciliarism.png",
+			"Effects": {
+			}
+		},
+		"Restore the Davidic Line": {
+			"Image": "/images/5/5b/Gov_crown.png",
+			"Effects": {
+				"Maximum Absolutism": 25
+			}
+		}
+	},
+	"Tier 7: Separation of Powers": {
+		"Clerical Commission": {
+			"Image": "/images/7/78/Gov_clergyman.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Diplomatic Relations": 1
+			}
+		},
+		"Divine Guidance": {
+			"Image": "/images/2/21/Reform_divine_guidance.png",
+			"Effects": {
+				"Maximum Absolutism": 20
+			}
+		},
+		"Theocratic Democracy": {
+			"Image": "/images/4/47/Gov_assembly_hall.png",
+			"Effects": {
+				"National Unrest": -1
+			}
+		},
+		"Regionally Elected Commanders": {
+			"Image": "/images/0/03/Reform_regionally_elected_commanders.png",
+			"Effects": {
+				"National Unrest": -1
+			}
+		},
+		"Open Public Elections": {
+			"Image": "/images/0/03/Reform_monastic_elections.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.1,
+				"Maximum Absolutism": 20
+			}
+		},
+		"A Dynastic Order": {
+			"Image": "/images/2/2f/Reform_commander_king.png",
+			"Effects": {
+				"Yearly Devotion": 0.1,
+				"Harsh Treatment Cost": -0.2,
+				"Land Leader Fire": 1
+			}
+		},
+		"Lords of the Sea": {
+			"Image": "/images/f/f2/Reform_admiral_king.png",
+			"Effects": {
+				"Yearly Devotion": 0.1,
+				"Morale of Navies": 0.15,
+				"Naval Leader Fire": 1
+			}
+		}
+	},
+	"Tier 8: The Nature of Our Faith": {
+		"Church and State": {
+			"Image": "/images/2/23/Reform_church_and_state.png",
+			"Effects": {
+				"Free Policies": 1
+			}
+		},
+		"Soul and Body": {
+			"Image": "/images/0/02/Reform_religious_harmony.png",
+			"Effects": {
+				"Accepted Cultures": 2
+			}
+		},
+		"God and Man": {
+			"Image": "/images/2/2e/Gov_religious_leader.png",
+			"Effects": {
+				"Missionaries": 1,
+				"Missionary Strength": 0.01
+			}
+		},
+		"Organize Our Faith": {
+			"Image": "/images/1/12/Reform_organising_our_religion.png",
+			"Effects": {
+				"Yearly Absolutism": 1,
+				"Yearly Devotion": 1
+			}
+		}
+	},
+	"Tier 9: Our Faith and the World": {
+		"One State Under God": {
+			"Image": "/images/c/ce/Gov_rioting_burning_2.png",
+			"Effects": {
+				"War Score Cost vs Other Religions": -0.3
+			}
+		},
+		"The Global Crusade": {
+			"Image": "/images/e/ec/Reform_religious_permanent_revolution.png",
+			"Effects": {
+			}
+		},
+		"The Many Fingers of God": {
+			"Image": "/images/1/17/Gov_asian_scripture.png",
+			"Effects": {
+				"Tolerance of Heretics": 2,
+				"Tolerance of Heathens": 2
+			}
+		},
+		"Priestly Autonomy": {
+			"Image": "/images/a/a5/Gov_strength_of_the_khalsa.png",
+			"Effects": {
+				"Governing Capacity": 250
+			}
+		},
+		"Proclaim Religious Head": {
+			"Image": "/images/d/dc/Gov_shaman.png",
+			"Effects": {
+				"War Score Cost vs Other Religions": -0.25,
+				"Diplomatic Reputation": 1
+			}
+		},
+		"All Under Tengri": {
+			"Image": "/images/5/5a/Reform_all_under_tengri.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.15,
+				"Cavalry to Infantry Ratio": 0.25
+			}
+		}
+	},
+	"Tier 10: Mobilize the Faithful": {
+		"Holy War": {
+			"Image": "/images/8/86/Gov_holy_war.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.10
+			}
+		},
+		"Militarized Monasteries.": {
+			"Image": "/images/a/ac/Gov_militarized_monasteries.png",
+			"Effects": {
+				"Yearly Army Tradition": 0.5,
+				"Fort Defense": 0.10
+			}
+		},
+		"Brothers In Arms": {
+			"Image": "/images/d/d4/Gov_brothers_in_arms.png",
+			"Effects": {
+				"Mercenary Discipline": 0.025,
+				"Mercenary Manpower": 0.25
+			}
+		},
+		"Bishop's Military": {
+			"Image": "/images/b/bf/Gov_bishops_army.png",
+			"Effects": {
+				"Military Free Policies": 1,
+				"Maximum Absolutism": 5
+			}
+		},
+		"Permanent Marathas Council": {
+			"Image": "/images/8/82/Gov_noble_indian.png",
+			"Effects": {
+				"Land Leader Shock": 1,
+				"Marathas Influence": 0.1,
+				"Marathas Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Governmental Purbias Register": {
+			"Image": "/images/d/d7/Gov_rajput_kingdom.png",
+			"Effects": {
+				"Recover Army Morale Speed": 0.05,
+				"Rajputs Influence": 0.1,
+				"Rajputs Loyalty Equilibrium": 0.05,
+				"Nobility Influence": -0.1,
+				"Nobility Loyalty Equilibrium": -0.05
+			}
+		},
+		"Land Focus": {
+			"Image": "/images/a/ab/Gov_Teuton_2.png",
+			"Effects": {
+				"Infantry Combat Ability": 0.05,
+				"Discipline": 0.025
+			}
+		},
+		"Mamluk Soldiers": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Discipline": 0.025,
+				"Army Drill Gain Modifier": 0.25,
+				"Yearly Army Professionalism": 0.002,
+				"Land Maintenance Modifier": 0.1
+			}
+		},
+		"Tradition of Masada and Bar Kochba": {
+			"Image": "/images/0/08/Gov_fort.png",
+			"Effects": {
+				"Fort Defense": 0.25,
+				"Attrition for Enemies": 1
+			}
+		},
+		"Turkoman Gunners": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Artillery Combat Ability": 0.05,
+				"Artillery Cost": -0.10
+			}
+		},
+		"Mongol Ties": {
+			"Image": "/images/7/75/Gov_soldiers_3.png",
+			"Effects": {
+				"Cavalry Cost": -0.10,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Lessons of Subutai": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Leader Siege": 1
+			}
+		}
+	},
+	"Tier 11: Diplomacy": {
+		"Unrestricted Diplomacy": {
+			"Image": "/images/4/47/Gov_unrestricted_diplomacy.png",
+			"Effects": {
+				"Diplomatic Reputation": 1
+			}
+		},
+		"Holy Claims": {
+			"Image": "/images/f/ff/Gov_holy_claims.png",
+			"Effects": {
+				"Aggressive Expansion Impact": -0.10
+			}
+		},
+		"Network of Faithful Allies": {
+			"Image": "/images/3/3b/Gov_network_of_faithful_allies.png",
+			"Effects": {
+				"Income from Vassals": 0.2,
+				"Vassal Force Limit Contribution": 0.50,
+				"Liberty Desire in Subjects": 10
+			}
+		},
+		"Bishop's Diplomacy": {
+			"Image": "/images/4/4e/Gov_bishops_diplomacy.png",
+			"Effects": {
+				"Diplomatic Free Policies": 1,
+				"Maximum Absolutism": 5
+			}
+		},
+		"Naval Focus": {
+			"Image": "/images/1/1f/Gov_soldiers_5.png",
+			"Effects": {
+				"Galley Combat Ability": 0.10,
+				"Ship Durability": 0.05
+			}
+		},
+		"Yeshiva Scholarship": {
+			"Image": "/images/5/5b/Gov_constitution.png",
+			"Effects": {
+				"Technology Cost": -0.05,
+				"Tolerance of the True Faith": 1
+			}
+		}
+	},
+	"Tier 12: Judiciary": {
+		"Secular Law": {
+			"Image": "/images/a/a0/Gov_secular_law.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Tolerance of Heretics": 1
+			}
+		},
+		"Theocratic Law": {
+			"Image": "/images/2/2f/Gov_theocratic_law.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.15,
+				"Yearly Devotion": 0.5
+			}
+		},
+		"Roman Law": {
+			"Image": "/images/a/ac/Gov_roman_law.png",
+			"Effects": {
+				"Yearly Papal Influence": 1
+			}
+		},
+		"Papal Decree": {
+			"Image": "/images/1/11/Gov_papal_law.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"Improve Relations": 0.15,
+				"Monarch Diplomatic Skill": 1
+			}
+		},
+		"Jizya Tax": {
+			"Image": "/images/f/f6/Gov_jizja_law.png",
+			"Effects": {
+				"National Tax Modifier": 0.20
+			}
+		},
+		"Harmonious Law": {
+			"Image": "/images/7/7c/Gov_harmonious_law.png",
+			"Effects": {
+				"Yearly Harmony Increase": 0.5
+			}
+		},
+		"Pagan Law": {
+			"Image": "/images/b/be/Gov_pagan_law.png",
+			"Effects": {
+				"Core-Creation Cost": -0.1
+			}
+		},
+		"Bishop's Law": {
+			"Image": "/images/4/4a/Gov_bishop%27s_law.png",
+			"Effects": {
+				"Administrative Free Policies": 1,
+				"Maximum Absolutism": 5
+			}
+		}
+	}
 },
 "Tribal": {
-    "Tier 1: Tribal Administration": {
-        "Steppe Nomads": {
-            "Image": "/images/e/ea/Gov_horde_riding.png",
-            "Effects": {
-                "National Manpower Modifier": 0.2,
-                "Land Force Limit Modifier": 0.2,
-                "Looting Speed": 0.50,
-                "Institution Spread": -0.15,
-                "Reinforce Cost": -0.5,
-                "Cavalry to Infantry Ratio": 0.25,
-                "Movement Speed": 0.2,
-                "Years of Separatism": -5
-            }
-        },
-        "Tribal Federation": {
-            "Image": "/images/9/91/Gov_chieftain.png",
-            "Effects": {
-                "Years of Separatism": -5
-            }
-        },
-        "Tribal Despotism": {
-            "Image": "/images/7/70/Gov_tribal_council.png",
-            "Effects": {
-                "Core-Creation Cost": -0.1
-            }
-        },
-        "Tribal Monarchy": {
-            "Image": "/images/b/b6/Gov_indian_crown.png",
-            "Effects": {
-                "Income from Vassals": 0.2
-            }
-        },
-        "Siberian Native Council": {
-            "Image": "/images/d/dc/Gov_shaman.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.33,
-                "Institution Spread": -0.2
-            }
-        },
-        "Gond Kingdom": {
-            "Image": "/images/9/91/Gov_chieftain.png",
-            "Effects": {
-                "Fort Defense": 0.2
-            }
-        },
-        "Great Mongol State": {
-            "Image": "/images/e/ea/Gov_horde_riding.png",
-            "Effects": {
-                "Yearly Horde Unity": 1,
-                "National Manpower Modifier": 0.2,
-                "Land Force Limit Modifier": 0.2,
-                "Looting Speed": 0.50,
-                "Reinforce Cost": -0.5,
-                "Cavalry to Infantry Ratio": 0.25,
-                "Movement Speed": 0.2,
-                "Years of Separatism": -5
-            }
-        },
-        "Eghaevbo Administration": {
-            "Image": "/images/9/96/Gov_generic_people.png",
-            "Effects": {
-                "Core-Creation Cost": -0.10,
-                "Governing Capacity": 150
-            }
-        }
-    },
-    "Tier 2: Cultural Values": {
-        "Martial Society": {
-            "Image": "/images/7/75/Gov_tribal_martial_society.png",
-            "Effects": {
-                "National Manpower Modifier": 0.2
-            }
-        },
-        "Civil Society": {
-            "Image": "/images/0/00/Gov_tribal_civil_society.png",
-            "Effects": {
-                "National Tax Modifier": 0.05,
-                "Yearly Corruption": -0.05
-            }
-        },
-        "Great Law of Peace": {
-            "Image": "/images/6/67/Gov_great_law_of_peace.png",
-            "Effects": {
-                "National Unrest": -2,
-                "Governing Capacity": 150
-            }
-        },
-        "Royal Society": {
-            "Image": "/images/f/f8/Gov_kongolese_king.png",
-            "Effects": {
-                "Monthly Autonomy Change": -0.05,
-                "State Maintenance": -0.25
-            }
-        },
-        "Slave Raids": {
-            "Image": "/images/0/00/Gov_tatar_slave_raid.png",
-            "Effects": {
-                "Production Efficiency": 0.05,
-                "Goods Produced Modifier": 0.10
-            }
-        },
-        "Herders of the Steppe": {
-            "Image": "/images/e/e9/Gov_steppe_shepherds.png",
-            "Effects": {
-                "Manpower Recovery Speed": 0.1,
-                "Minimum Autonomy in Territories": -0.1
-            }
-        },
-        "Legacy of the Pax Mongolica": {
-            "Image": "/images/e/e9/Gov_steppe_shepherds.png",
-            "Effects": {
-                "National Unrest": -1,
-                "Accepted Cultures": 2
-            }
-        },
-        "Three Jurchen Tribes": {
-            "Image": "/images/9/96/Gov_generic_people.png",
-            "Effects": {
-                "Goods Produced Modifier": 0.05,
-                "National Tax Modifier": 0.05,
-                "Land Attrition": -0.10
-            }
-        }
-    },
-    "Tier 3: Tribal Religion": {
-        "Religious Society": {
-            "Image": "/images/5/54/Gov_tribal_religious_society.png",
-            "Effects": {
-                "Stability Cost Modifier": -0.1,
-                "Religious Unity": 0.15
-            }
-        },
-        "Lip Service": {
-            "Image": "/images/d/d7/Gov_tribal_lip_service.png",
-            "Effects": {
-                "Land Maintenance Modifier": -0.1
-            }
-        },
-        "Sheikhdom": {
-            "Image": "/images/9/9f/Gov_noble_muslim.png",
-            "Effects": {
-                "Tolerance of the True Faith": 1,
-                "War Score Cost vs Other Religions": -0.10
-            }
-        },
-        "Adoption of Christianity": {
-            "Image": "/images/9/9f/Gov_kongolese_cross.png",
-            "Effects": {
-                "Tolerance of Heathens": 2
-            }
-        },
-        "Great Code of Nomads": {
-            "Image": "/images/5/57/Gov_steppe_buddhists.png",
-            "Effects": {
-                "Global Trade Power": 0.2,
-                "Tolerance of the True Faith": 1
-            }
-        },
-        "The World under the Tengri": {
-            "Image": "/images/a/a5/Gov_strength_of_the_khalsa.png",
-            "Effects": {
-                "Tolerance of the True Faith": 1,
-                "Tolerance of Heathens": 1,
-                "Tolerance of Heretics": 1
-            }
-        },
-        "Maintain Charade": {
-            "Image": "/images/9/9a/Gov_arabic_scripture.png",
-            "Effects": {
-                "Diplomatic Reputation": 1,
-                "National Unrest": -1
-            }
-        },
-        "Tolerance of the Church": {
-            "Image": "/images/4/47/Gov_church.png",
-            "Effects": {
-                "Tolerance of Heathens": 1,
-                "State Maintenance": -0.10
-            }
-        },
-        "Children of Osanobua": {
-            "Image": "/images/9/96/Gov_generic_people.png",
-            "Effects": {
-                "National Unrest": -1,
-                "Development Cost": -0.10
-            }
-        }
-    },
-    "Tier 4: Military Organisation": {
-        "Gunpowder Weapons": {
-            "Image": "/images/0/03/Gov_national_guard.png",
-            "Effects": {
-                "Land Fire Damage": 0.05,
-                "Infantry Cost": -0.10
-            }
-        },
-        "Modern Firearms": {
-            "Image": "/images/0/03/Gov_national_guard.png",
-            "Effects": {
-                "Land Fire Damage": 0.05,
-                "Military Technology Cost": -0.1
-            }
-        },
-        "Traditionalism": {
-            "Image": "/images/7/7f/Gov_soldiers_4.png",
-            "Effects": {
-                "Shock Damage": 0.05,
-                "Cavalry Cost": -0.10,
-                "Cavalry to Infantry Ratio": 0.10
-            }
-        },
-        "Traditionalism": {
-            "Image": "/images/7/7f/Gov_soldiers_4.png",
-            "Effects": {
-                "Infantry Combat Ability": 0.10
-            }
-        },
-        "Turkoman Gunners": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Artillery Combat Ability": 0.05,
-                "Artillery Cost": -0.10
-            }
-        },
-        "Mongol Ties": {
-            "Image": "/images/7/75/Gov_soldiers_3.png",
-            "Effects": {
-                "Cavalry Cost": -0.10,
-                "Reinforce Cost": -0.20
-            }
-        },
-        "Lessons of Subutai": {
-            "Image": "/images/4/44/Gov_feudal_theocracy.png",
-            "Effects": {
-                "Land Leader Maneuver": 1,
-                "Leader Siege": 1
-            }
-        },
-        "Tatar Raiders": {
-            "Image": "/images/0/00/Gov_tatar_slave_raid.png",
-            "Effects": {
-                "Shock Damage": 0.10,
-                "Recover Army Morale Speed": -0.05,
-                "Looting Speed": 0.50
-            }
-        },
-        "African Jungle Warriors": {
-            "Image": "/images/7/75/Gov_tribal_martial_society.png",
-            "Effects": {
-                "Shock Damage": 0.05,
-                "Movement Speed": 0.10,
-                "Attrition for Enemies": 1
-            }
-        },
-        "Indian Elephant Riders": {
-            "Image": "/images/8/82/Gov_noble_indian.png",
-            "Effects": {
-                "Cavalry Combat Ability": 0.10,
-                "Shock Damage Received": -0.10,
-                "Cavalry Cost": 0.10
-            }
-        },
-        "Warrior Kings": {
-            "Image": "/images/9/96/Gov_generic_people.png",
-            "Effects": {
-                "Land Leader Maneuver": 1,
-                "Land Leader Shock": 1
-            }
-        }
-    },
-    "Tier 5: Modernization": {
-        "Centralize Power": {
-            "Image": "/images/8/85/Gov_tribal_centralize_power.png",
-            "Effects": {
-                "Core-Creation Cost": -0.05,
-                "Stability Cost Modifier": -0.05
-            }
-        },
-        "Retain Tribal Hierarchy": {
-            "Image": "/images/5/5f/Gov_retain_tribal_hierarchy.png",
-            "Effects": {
-                "Governing Capacity": 150,
-                "Maximum Absolutism": 10
-            }
-        },
-        "Unite the Royal Houses": {
-            "Image": "/images/9/91/Gov_kongolese_king_2.png",
-            "Effects": {
-                "Yearly Legitimacy": 1,
-                "Yearly Absolutism": 0.25,
-                "Maximum Absolutism": 15
-            }
-        },
-        "Iranian Bureacracy": {
-            "Image": "/images/f/f7/Gov_iranian_bureaucracy.png",
-            "Effects": {
-                "Governing Capacity": 250,
-                "Monthly Autonomy Change": -0.025
-            }
-        },
-        "Reintroduce the Dirham": {
-            "Image": "/images/e/e8/Gov_paper_money_map.png",
-            "Effects": {
-                "Trade Efficiency": 0.10,
-                "Diplomatic Annexation Cost": -0.15
-            }
-        },
-        "Birth of the Manchu": {
-            "Image": "/images/1/17/Gov_asian_scripture.png",
-            "Effects": {
-                "Culture Conversion Cost": -0.20,
-                "Idea Cost": -0.10
-            }
-        },
-        "Bashqaq Administration": {
-            "Image": "/images/9/99/Gov_judge.png",
-            "Effects": {
-                "National Unrest": -2,
-                "Governing Capacity": 250
-            }
-        }
-    },
-    "Tier 6: Tribal Reformation": {
-        "Barbaric Despoilers": {
-            "Image": "/images/c/ce/Gov_rioting_burning_2.png",
-            "Effects": {
-            }
-        },
-        "Unified Horde Identity": {
-            "Image": "/images/3/34/Gov_fist_in_air.png",
-            "Effects": {
-                "Yearly Horde Unity": 2
-            }
-        },
-        "Reform into Monarchy": {
-            "Image": "/images/f/f2/King_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Reform into Republic": {
-            "Image": "/images/7/79/Parliament_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Reform into Theocracy": {
-            "Image": "/images/3/35/Pope_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Become Horde": {
-            "Image": "/images/1/16/Horde_riding_highlighted.png",
-            "Effects": {
-            }
-        },
-        "Haudenosaunee": {
-            "Image": "/images/6/66/Gov_iroquois_longhouse.png",
-            "Effects": {
-                "Years of Separatism": -5,
-                "Accepted Cultures": 2
-            }
-        },
-        "Recruit Cossacks": {
-            "Image": "/images/c/cb/Gov_soldiers_2.png",
-            "Effects": {
-                "Reinforce Cost": 0.20,
-                "Reinforce Speed": -0.15
-            }
-        },
-        "Feudal Vassals": {
-            "Image": "/images/5/50/Gov_castle.png",
-            "Effects": {
-                "Income from Vassals": 0.25,
-                "Vassal Force Limit Contribution": 1.00
-            }
-        }
-    }
+	"Tier 1: Tribal Administration": {
+		"Steppe Nomads": {
+			"Image": "/images/e/ea/Gov_horde_riding.png",
+			"Effects": {
+				"National Manpower Modifier": 0.2,
+				"Land Force Limit Modifier": 0.2,
+				"Looting Speed": 0.50,
+				"Institution Spread": -0.15,
+				"Reinforce Cost": -0.5,
+				"Cavalry to Infantry Ratio": 0.25,
+				"Movement Speed": 0.2,
+				"Years of Separatism": -5
+			}
+		},
+		"Tribal Federation": {
+			"Image": "/images/9/91/Gov_chieftain.png",
+			"Effects": {
+				"Years of Separatism": -5
+			}
+		},
+		"Tribal Despotism": {
+			"Image": "/images/7/70/Gov_tribal_council.png",
+			"Effects": {
+				"Core-Creation Cost": -0.1
+			}
+		},
+		"Tribal Monarchy": {
+			"Image": "/images/b/b6/Gov_indian_crown.png",
+			"Effects": {
+				"Income from Vassals": 0.2
+			}
+		},
+		"Siberian Native Council": {
+			"Image": "/images/d/dc/Gov_shaman.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.33,
+				"Institution Spread": -0.2
+			}
+		},
+		"Gond Kingdom": {
+			"Image": "/images/9/91/Gov_chieftain.png",
+			"Effects": {
+				"Fort Defense": 0.2
+			}
+		},
+		"Great Mongol State": {
+			"Image": "/images/e/ea/Gov_horde_riding.png",
+			"Effects": {
+				"Yearly Horde Unity": 1,
+				"National Manpower Modifier": 0.2,
+				"Land Force Limit Modifier": 0.2,
+				"Looting Speed": 0.50,
+				"Reinforce Cost": -0.5,
+				"Cavalry to Infantry Ratio": 0.25,
+				"Movement Speed": 0.2,
+				"Years of Separatism": -5
+			}
+		},
+		"Eghaevbo Administration": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Core-Creation Cost": -0.10,
+				"Governing Capacity": 150
+			}
+		}
+	},
+	"Tier 2: Cultural Values": {
+		"Martial Society": {
+			"Image": "/images/7/75/Gov_tribal_martial_society.png",
+			"Effects": {
+				"National Manpower Modifier": 0.2
+			}
+		},
+		"Civil Society": {
+			"Image": "/images/0/00/Gov_tribal_civil_society.png",
+			"Effects": {
+				"National Tax Modifier": 0.05,
+				"Yearly Corruption": -0.05
+			}
+		},
+		"Great Law of Peace": {
+			"Image": "/images/6/67/Gov_great_law_of_peace.png",
+			"Effects": {
+				"National Unrest": -2,
+				"Governing Capacity": 150
+			}
+		},
+		"Royal Society": {
+			"Image": "/images/f/f8/Gov_kongolese_king.png",
+			"Effects": {
+				"Monthly Autonomy Change": -0.05,
+				"State Maintenance": -0.25
+			}
+		},
+		"Slave Raids": {
+			"Image": "/images/0/00/Gov_tatar_slave_raid.png",
+			"Effects": {
+				"Production Efficiency": 0.05,
+				"Goods Produced Modifier": 0.10
+			}
+		},
+		"Herders of the Steppe": {
+			"Image": "/images/e/e9/Gov_steppe_shepherds.png",
+			"Effects": {
+				"Manpower Recovery Speed": 0.1,
+				"Minimum Autonomy in Territories": -0.1
+			}
+		},
+		"Legacy of the Pax Mongolica": {
+			"Image": "/images/e/e9/Gov_steppe_shepherds.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Accepted Cultures": 2
+			}
+		},
+		"Three Jurchen Tribes": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Goods Produced Modifier": 0.05,
+				"National Tax Modifier": 0.05,
+				"Land Attrition": -0.10
+			}
+		}
+	},
+	"Tier 3: Tribal Religion": {
+		"Religious Society": {
+			"Image": "/images/5/54/Gov_tribal_religious_society.png",
+			"Effects": {
+				"Stability Cost Modifier": -0.1,
+				"Religious Unity": 0.15
+			}
+		},
+		"Lip Service": {
+			"Image": "/images/d/d7/Gov_tribal_lip_service.png",
+			"Effects": {
+				"Land Maintenance Modifier": -0.1
+			}
+		},
+		"Sheikhdom": {
+			"Image": "/images/9/9f/Gov_noble_muslim.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"War Score Cost vs Other Religions": -0.10
+			}
+		},
+		"Adoption of Christianity": {
+			"Image": "/images/9/9f/Gov_kongolese_cross.png",
+			"Effects": {
+				"Tolerance of Heathens": 2
+			}
+		},
+		"Great Code of Nomads": {
+			"Image": "/images/5/57/Gov_steppe_buddhists.png",
+			"Effects": {
+				"Global Trade Power": 0.2,
+				"Tolerance of the True Faith": 1
+			}
+		},
+		"The World under the Tengri": {
+			"Image": "/images/a/a5/Gov_strength_of_the_khalsa.png",
+			"Effects": {
+				"Tolerance of the True Faith": 1,
+				"Tolerance of Heathens": 1,
+				"Tolerance of Heretics": 1
+			}
+		},
+		"Maintain Charade": {
+			"Image": "/images/9/9a/Gov_arabic_scripture.png",
+			"Effects": {
+				"Diplomatic Reputation": 1,
+				"National Unrest": -1
+			}
+		},
+		"Tolerance of the Church": {
+			"Image": "/images/4/47/Gov_church.png",
+			"Effects": {
+				"Tolerance of Heathens": 1,
+				"State Maintenance": -0.10
+			}
+		},
+		"Children of Osanobua": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"National Unrest": -1,
+				"Development Cost": -0.10
+			}
+		}
+	},
+	"Tier 4: Military Organisation": {
+		"Gunpowder Weapons": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Infantry Cost": -0.10
+			}
+		},
+		"Modern Firearms": {
+			"Image": "/images/0/03/Gov_national_guard.png",
+			"Effects": {
+				"Land Fire Damage": 0.05,
+				"Military Technology Cost": -0.1
+			}
+		},
+		"Traditionalism": {
+			"Image": "/images/7/7f/Gov_soldiers_4.png",
+			"Effects": {
+				"Shock Damage": 0.05,
+				"Cavalry Cost": -0.10,
+				"Cavalry to Infantry Ratio": 0.10
+			}
+		},
+		"Turkoman Gunners": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Artillery Combat Ability": 0.05,
+				"Artillery Cost": -0.10
+			}
+		},
+		"Mongol Ties": {
+			"Image": "/images/7/75/Gov_soldiers_3.png",
+			"Effects": {
+				"Cavalry Cost": -0.10,
+				"Reinforce Cost": -0.20
+			}
+		},
+		"Lessons of Subutai": {
+			"Image": "/images/4/44/Gov_feudal_theocracy.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Leader Siege": 1
+			}
+		},
+		"Tatar Raiders": {
+			"Image": "/images/0/00/Gov_tatar_slave_raid.png",
+			"Effects": {
+				"Shock Damage": 0.10,
+				"Recover Army Morale Speed": -0.05,
+				"Looting Speed": 0.50
+			}
+		},
+		"African Jungle Warriors": {
+			"Image": "/images/7/75/Gov_tribal_martial_society.png",
+			"Effects": {
+				"Shock Damage": 0.05,
+				"Movement Speed": 0.10,
+				"Attrition for Enemies": 1
+			}
+		},
+		"Indian Elephant Riders": {
+			"Image": "/images/8/82/Gov_noble_indian.png",
+			"Effects": {
+				"Cavalry Combat Ability": 0.10,
+				"Shock Damage Received": -0.10,
+				"Cavalry Cost": 0.10
+			}
+		},
+		"Warrior Kings": {
+			"Image": "/images/9/96/Gov_generic_people.png",
+			"Effects": {
+				"Land Leader Maneuver": 1,
+				"Land Leader Shock": 1
+			}
+		}
+	},
+	"Tier 5: Modernization": {
+		"Centralize Power": {
+			"Image": "/images/8/85/Gov_tribal_centralize_power.png",
+			"Effects": {
+				"Core-Creation Cost": -0.05,
+				"Stability Cost Modifier": -0.05
+			}
+		},
+		"Retain Tribal Hierarchy": {
+			"Image": "/images/5/5f/Gov_retain_tribal_hierarchy.png",
+			"Effects": {
+				"Governing Capacity": 150,
+				"Maximum Absolutism": 10
+			}
+		},
+		"Unite the Royal Houses": {
+			"Image": "/images/9/91/Gov_kongolese_king_2.png",
+			"Effects": {
+				"Yearly Legitimacy": 1,
+				"Yearly Absolutism": 0.25,
+				"Maximum Absolutism": 15
+			}
+		},
+		"Iranian Bureacracy": {
+			"Image": "/images/f/f7/Gov_iranian_bureaucracy.png",
+			"Effects": {
+				"Governing Capacity": 250,
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Reintroduce the Dirham": {
+			"Image": "/images/e/e8/Gov_paper_money_map.png",
+			"Effects": {
+				"Trade Efficiency": 0.10,
+				"Diplomatic Annexation Cost": -0.15
+			}
+		},
+		"Birth of the Manchu": {
+			"Image": "/images/1/17/Gov_asian_scripture.png",
+			"Effects": {
+				"Culture Conversion Cost": -0.20,
+				"Idea Cost": -0.10
+			}
+		},
+		"Bashqaq Administration": {
+			"Image": "/images/9/99/Gov_judge.png",
+			"Effects": {
+				"National Unrest": -2,
+				"Governing Capacity": 250
+			}
+		}
+	},
+	"Tier 6: Tribal Reformation": {
+		"Barbaric Despoilers": {
+			"Image": "/images/c/ce/Gov_rioting_burning_2.png",
+			"Effects": {
+			}
+		},
+		"Unified Horde Identity": {
+			"Image": "/images/3/34/Gov_fist_in_air.png",
+			"Effects": {
+				"Yearly Horde Unity": 2
+			}
+		},
+		"Reform into Monarchy": {
+			"Image": "/images/f/f2/King_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Reform into Republic": {
+			"Image": "/images/7/79/Parliament_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Reform into Theocracy": {
+			"Image": "/images/3/35/Pope_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Become Horde": {
+			"Image": "/images/1/16/Horde_riding_highlighted.png",
+			"Effects": {
+			}
+		},
+		"Haudenosaunee": {
+			"Image": "/images/6/66/Gov_iroquois_longhouse.png",
+			"Effects": {
+				"Years of Separatism": -5,
+				"Accepted Cultures": 2
+			}
+		},
+		"Recruit Cossacks": {
+			"Image": "/images/c/cb/Gov_soldiers_2.png",
+			"Effects": {
+				"Reinforce Cost": 0.20,
+				"Reinforce Speed": -0.15
+			}
+		},
+		"Feudal Vassals": {
+			"Image": "/images/5/50/Gov_castle.png",
+			"Effects": {
+				"Income from Vassals": 0.25,
+				"Vassal Force Limit Contribution": 1.00
+			}
+		}
+	}
 }
 }

@@ -36,7 +36,7 @@ def main():
         line = line.split("=")
         tags_final[line[0].strip()] = tags_loc[line[0].strip()]
 
-    with open("tags.json", "w", encoding="utf-8") as f:
+    with open(f"{os.path.dirname(os.path.dirname(os.path.dirname(os.getcwd())))}\\data\\tags\\tags.json", "w", encoding="utf-8") as f:
         json.dump(tags_final, f, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
 
 
