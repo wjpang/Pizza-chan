@@ -3,7 +3,6 @@ import re
 from distutils import text_file
 
 eu4DIR = r"A:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV"
-# eu4DIR = r'C:\Program Files\Epic Games\EuropaUniversalis4'  # This is for EGS. Ignore this --Vielor
 
 culture_input = eu4DIR + "\common\cultures\\00_cultures.txt"
 localisation_dir = eu4DIR + r"\localisation"
