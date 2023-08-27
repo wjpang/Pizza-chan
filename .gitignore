@@ -2,7 +2,6 @@
 __pycache__
 pizza_cache
 
-debugging_tools/colours/color_combinations.txt
 .env
 .pylintrc
 desktop.ini
