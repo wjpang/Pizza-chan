@@ -1,0 +1,296 @@
+{
+	"ADM": {
+		"Loyal Friend": {
+			"Administrative Advisor Cost": -0.33
+		},
+		"Court Physician": {
+			"Average Monarch Lifespan": 0.1
+		},
+		"Cardinal": {
+			"Curia Powers Cost": -0.2,
+			"Skill Scaled Modifier": {
+				"Appoint Cardinal Cost": -0.1
+			}
+		},
+		"Archbishop": {
+			"Monthly Fervor": 0.5
+		},
+		"Feudal Tax Collector": {
+			"Income from Vassals": 0.25
+		},
+		"Architect": {
+			"Construction Cost": -0.1,
+			"Skill Scaled Modifier": {
+				"Construction Time": -0.05
+			}
+		},
+		"Great Administrator": {
+			"Core-Creation Cost": -0.05
+		},
+		"Steward": {
+			"State Governing Cost": -0.075
+		},
+		"Administrative Genius": {
+			"Administrative Technology Cost": -0.05
+		},
+		"Anti Corruption Officer": {
+			"Yearly Corruption": -0.1
+		},
+		"First Minister": {
+			"Yearly Republican Tradition": 0.2
+		},
+		"State Administrator": {
+			"State Maintenance": -0.15
+		},
+		"Gold Digger": {
+			"Monthly Gold Inflation Modifier": -0.15
+		},
+		"Free Thinker": {
+			"Idea Cost": -0.05
+		},
+		"Revolutionist": {
+			"Yearly Revolutionary Zeal": 1
+		},
+		"Reformist": {
+			"Reform Progress Growth": 0.1
+		},
+		"State Theorist": {
+			"Yearly Absolutism": 0.5
+		},
+		"Visionary": {
+			"Great Project Upgrade Cost": -0.15,
+			"Skill Scaled Modifier": {
+				"Great Project Upgrade Time": -0.05
+			}
+		},
+		"Great Philosopher": {
+			"Religious Harmonization Speed": 0.15
+		},
+		"Arch-Chamberlain": {
+			"Imperial Authority Growth Modifier": 0.05
+		},
+		"Monk": {
+			"Clergy Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Clergy Influence": 0.02
+			}
+		},
+		"Brahmin Preacher": {
+			"Brahmins Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Brahmins Influence": 0.02
+			}
+		},
+		"Dhimmi Scholar": {
+			"Dhimmi Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Dhimmi Influence": 0.02
+			}
+		},
+		"Jain Bureaucrat": {
+			"Jains Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Jains Influence": 0.02
+			}
+		},
+		"Missionary": {
+			"Missionaries": 1
+		},
+		"Imperial Bureaucrat": {
+			"Mandate Growth Modifier": 0.05,
+			"Skill Scaled Modifier": {
+				"Yearly Meritocracy": 0.1
+			}
+		},
+		"Imam": {
+			"Monthly Piety Accelerator": 0.002
+		},
+		"Scholar": {
+			"Institution Spread": 0.25,
+			"Skill Scaled Modifier": {
+				"Institution Embracement Cost": -0.05
+			}
+		},
+		"Inventor": {
+			"Innovativeness Gain": 0.25
+		},
+		"Witch Hunter": {
+			"Missionary Strength vs Heretics": 0.035,
+			"Skill Scaled Modifier": {
+				"Resistance to Reformation": 0.15
+			}
+		}
+	},
+	"DIP": {
+		"Loyal Friend": {
+			"Diplomatic Advisor Cost": -0.33
+		},
+		"Concubine": {
+			"Chance of New Heir": 0.5
+		},
+		"Sailor Master Recruiter": {
+			"National Sailors Modifier": 0.15
+		},
+		"Blockade Specialist": {
+			"Blockade Efficiency": 0.25
+		},
+		"Pirate Captain": {
+			"Chance to Capture Enemy Ships": 0.25,
+			"Skill Scaled Modifier": {
+				"Privateer Efficiency": 0.05
+			}
+		},
+		"Great Negotiator": {
+			"Vassalization Acceptance": 10
+		},
+		"Vicegerent": {
+			"Liberty Desire from Subjects Development": -0.15
+		},
+		"Travelling Salesman": {
+			"Caravan Power": 0.15,
+			"Skill Scaled Modifier": {
+				"Cost to Promote Mercantilism": -0.1
+			}
+		},
+		"Traditional Naval Tactician": {
+			"Yearly Navy Tradition": 0.5
+		},
+		"Diplomatic Genius": {
+			"Diplomatic Technology Cost": -0.05
+		},
+		"Cultural Commissioner": {
+			"Culture Conversion Cost": -0.1
+		},
+		"Herald": {
+			"Monthly War Exhaustion": -0.03
+		},
+		"Arch-Chancellor": {
+			"Approval of Imperial Reforms by Catholic Princes": 5
+		},
+		"Envoy": {
+			"Envoy Travel Time": -0.15
+		},
+		"Vaishya Peasant": {
+			"Vaishyas Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Vaishyas Influence": 0.02
+			}
+		},
+		"Guild Trader": {
+			"Burghers Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Burghers Influence": 0.02
+			}
+		},
+		"Historian": {
+			"Unjustified Demands": -0.25,
+			"Skill Scaled Modifier": {
+				"Cost to fabricate claims": -0.1
+			}
+		},
+		"Plantation Owner": {
+			"Goods Produced Modifier": 0.05
+		},
+		"Galley Captain": {
+			"Galley Combat Ability": 0.1
+		},
+		"Galleon Captain": {
+			"Heavy Ship Combat Ability": 0.1
+		},
+		"Colonial Administrator": {
+			"Settler Chance": 0.05
+		},
+		"Treasure Fleet Captain": {
+			"Treasure Fleet Income": 0.25
+		}
+	},
+	"MIL": {
+		"Loyal Friend": {
+			"Military Advisor Cost": -0.33
+		},
+		"Feudal Lord": {
+			"Vassal Force Limit Contribution": 0.33
+		},
+		"Knight": {
+			"Cavalry Combat Ability": 0.1
+		},
+		"Traditional Tactician": {
+			"Yearly Army Tradition": 0.5
+		},
+		"Landsknecht": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Mercenary Leader": {
+			"Mercenary Maintenance": -0.15,
+			"Skill Scaled Modifier": {
+				"Mercenary Cost": -0.05
+			}
+		},
+		"Lord of a Castle": {
+			"Fort Maintenance": -0.15
+		},
+		"Nobleman": {
+			"Leaders Without Upkeep": 1
+		},
+		"Military Genius": {
+			"Military Technology Cost": -0.05
+		},
+		"Siege Expert": {
+			"Siege Ability": 0.1
+		},
+		"Master of Artillery": {
+			"Artillery Combat Ability": 0.1
+		},
+		"Looting Expert": {
+			"Looting Speed": 0.33,
+			"Skill Scaled Modifier": {
+				"Available Loot": 0.1
+			}
+		},
+		"Marshal": {
+			"General Cost": -0.1
+		},
+		"Arch-Marshal": {
+			"Manpower Against Imperial Enemies": 15000
+		},
+		"Supply Expert": {
+			"National Supply Limit Modifier": 0.2
+		},
+		"Sergeant": {
+			"Regiment Drill Loss": -0.2
+		},
+		"Maratha Warrior": {
+			"Marathas Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Marathas Influence": 0.02
+			}
+		},
+		"Gentleman": {
+			"Nobles Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Nobles Influence": 0.02
+			}
+		},
+		"Cossack": {
+			"Cossack Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Cossack Influence": 0.02
+			}
+		},
+		"Tribal Chieftain": {
+			"Tribes Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Tribes Influence": 0.02
+			}
+		},
+		"Rajput Warrior": {
+			"Rajput Loyalty Equilibrium": 0.1,
+			"Skill Scaled Modifier": {
+				"Rajput Influence": 0.02
+			}
+		},
+		"Banneret": {
+			"Manpower Recovery Speed": 0.1
+		}
+	}
+}
