@@ -34,8 +34,8 @@ class ADM(commands.Cog):
             await ctx.channel.purge(limit=int(amount) + 1)
 
     @adm.command(pass_context=True)
-    async def players(self, bot, ctx):
-        guild = bot.get_guild(EMF_SERVER_ID)
+    async def players(self, ctx):
+        guild = self.bot.get_guild(EMF_SERVER_ID)
         player_role = disnake.utils.get(guild.roles, name="Player")
         channel = guild.get_channel(REACT_CHANNEL_ID)
         message = await channel.fetch_message(REACT_MESSAGE_ID)
@@ -44,8 +44,15 @@ class ADM(commands.Cog):
                 continue
             async for user in reaction.users():
                 if not isinstance(user, disnake.User) and player_role not in user.roles:
-                    await bot.get_channel(BOTCAVE_CHANNEL_ID).send(f"User {user} reacted but did not receive the role")
+                    await self.bot.get_channel(BOTCAVE_CHANNEL_ID).send(f"User {user} reacted but did not receive the role")
                     await user.add_roles(player_role)
+
+    @adm.command(pass_context=True)
+    async def leave(self, ctx, *, guild_name):
+        author_roles = ctx.author.roles
+        if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles) or ctx.author.id == MELVA_ID:
+            guild = disnake.utils.get(self.bot.guilds, name=guild_name)
+            await guild.leave()
 
 
 def setup(bot):

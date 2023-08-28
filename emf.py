@@ -57,13 +57,15 @@ def __init__(self, bot):
 @commands.has_role("Botmakers")
 async def reload(ctx):
     """Reloads extensions"""
-    await ctx.send("Reloading extensions...")
-    for exten in startup_extensions:
-        try:
-            bot.reload_extension(exten)
-        except Exception as err:
-            await ctx.send(f"Something went wrong when loading extension {exten}: {err}")
-    await ctx.send("Reloaded!")
+    author_roles = ctx.author.roles
+    if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles):
+        await ctx.send("Reloading extensions...")
+        for exten in startup_extensions:
+            try:
+                bot.reload_extension(exten)
+            except Exception as err:
+                await ctx.send(f"Something went wrong when loading extension {exten}: {err}")
+        await ctx.send("Reloaded!")
 
 
 @bot.command()
@@ -112,9 +114,11 @@ async def restart(ctx):
 @commands.has_role("Botmakers")
 async def servers(ctx):
     """Get all servers the bot is in"""
-    guild_lst = bot.guilds
-    for guild in guild_lst:
-        await ctx.send(guild)
+    author_roles = ctx.author.roles
+    if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles):
+        guild_lst = bot.guilds
+        for guild in guild_lst:
+            await ctx.send(guild)
 
 
 print("Pizza Pizza Pii~")
