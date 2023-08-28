@@ -13,7 +13,7 @@ class TGE(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.slash_command(description="Trade Goods Expandec")
+    @commands.slash_command(description="Trade Goods Expanded")
     async def tge(self, inter):
         pass
 

@@ -179,7 +179,7 @@ class VANILLA(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.slash_command(case_insensitive=True, invoke_without_command=True)
+    @commands.slash_command(description="Vanilla")
     async def vanilla(self, inter):
         pass
 

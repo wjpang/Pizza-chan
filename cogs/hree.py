@@ -10,7 +10,7 @@ class HREE(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.slash_command(description="Great Monuments Expanded")
+    @commands.slash_command(description="Holy Roman Empire Expanded")
     async def hree(self, inter):
         pass
 
