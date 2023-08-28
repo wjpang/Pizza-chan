@@ -1,37 +1,22 @@
-import aiohttp
+import json
+
 import ftfy
-from bs4 import BeautifulSoup
 from disnake.ext import commands
 
 import embed_maker
 
-ADVISORS = [[], [], []]
 
-
-async def update_ate():
-    global ADVISORS
-    ADVISORS = [[], [], []]
-    async with aiohttp.ClientSession() as cs:
-        async with cs.get("https://steamcommunity.com/workshop/filedetails/discussion/2737385499/4944391335293065029/") as r:
-            tree = await r.read()
-    soup = BeautifulSoup(tree, "html.parser")
-    container = soup.find(id="forum_op_4944391335293065029")
-    titles = container.find_all("div", class_="bb_h1")
-    i = 3
-    for title in titles:
-        if title.contents[0] == "Administrative Advisors":
-            i = 0
-        elif title.contents[0] == "Diplomatic Advisors":
-            i = 1
-        elif title.contents[0] == "Military Advisors":
-            i = 2
+def message_maker(advisor, mp, advisors):
+    message = f"```{advisor} ({mp})\n----------\n"
+    for modifier, value in advisors[advisor].items():
+        if modifier == "Skill Scaled Modifier":
+            message += f"{modifier}:\n"
+            for mod, val in value.items():
+                message += f"\t{mod}: {val}\n"
         else:
-            ADVISORS[i].append(title.contents[0])
-    ADVISORS[0], ADVISORS[1], ADVISORS[2] = (
-        sorted(ADVISORS[0]),
-        sorted(ADVISORS[1]),
-        sorted(ADVISORS[2]),
-    )
+            message += f"{modifier}: {value}\n"
+    message += "```\n"
+    return message
 
 
 class ATE(commands.Cog):
@@ -40,7 +25,7 @@ class ATE(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.slash_command(description="Great Monuments Expanded")
+    @commands.slash_command(description="Advisor Types Expanded")
     async def ate(self, inter):
         pass
 
@@ -70,49 +55,77 @@ class ATE(commands.Cog):
         await inter.send(embed=ate_embed_info.embed)
 
     @ate.sub_command(description="Search for a specific advisor")
-    async def find(self, inter):
-        # await update_ate()
-        await inter.send('Sorry, this command has not been implemented yet. Please use `+ate info` and "Ctrl + F" for the time being.')
-        # Descriptions are hard to scrape in bullet form, so this still needs json files
+    async def find(self, inter, *, advisor_in: str = commands.Param(name="advisor")):
+        with open("./data/ATE.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+        advisor_lst = advisor_in.split(",")
+        message = ""
+        for advisor in advisor_lst:
+            advisor = advisor.strip().title()
+            if advisor == "Imperial Bureaucrat":
+                message += "Imperial Bureaucrat provides only 0.1 Yearly Meritocracy (scaled with Advisor's level), as opposed to vanilla's normal 0.25 Yearly Meritocracy.\n"
+            if advisor == "Loyal Friend":
+                for mp, advisors in data.items():
+                    temp = message_maker(advisor, mp, advisors)
+                    if len(f"{message}{temp}") > 2000:
+                        await inter.send(ftfy.fix_text(message))
+                        message = ""
+                    message += temp
+                continue
+            found = 0
+            for mp, advisors in data.items():
+                if advisor in advisors.keys():
+                    found = 1
+                    temp = message_maker(advisor, mp, advisors)
+                    if len(f"{message}{temp}") > 2000:
+                        await inter.send(ftfy.fix_text(message))
+                        message = ""
+                    message += temp
+                    break
+            if not found:
+                message += f"{advisor} not found! If you think this is a mistake, ping Vielor or Melvasul.\n"
 
-        # with open('./data/ATE.json', 'r') as f:
-        # 	ateData = json.load(f)
+        await inter.send(ftfy.fix_text(message))
 
-        # with open('./data/ATE_descriptions.json', 'r') as f:
-        # 	ateDataDescription = json.load(f)
-
-        # try:
-        # 	ateBodyMessage = f'```{ateDataDescription[advisor]} \n---------\n'
-        # 	for key, values in ateData[advisor].items():
-        # 		ateBodyMessage = ateBodyMessage + f'{key.title()}: {values} \n'
-        # 	ateBodyMessage = ateBodyMessage + '```'
-        # 	await inter.send(ateBodyMessage)
-        # except Exception:
-        # 	await inter.send('Pizza couldn\'t find it T~T')
+    @ate.sub_command(description="Show list of all Advisors in ATE")
+    async def advisors(self, inter):
+        with open("./data/ATE.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+        message = ""
+        for mp, advisors in data.items():
+            message += f"**{mp.upper()}**\n"
+            message += "```"
+            for advisor in advisors.keys():
+                message += f"\u203B {advisor}\n"
+            message += "```\n"
+        await inter.send(ftfy.fix_text(message))
 
     @ate.sub_command(description="Show list of all Administrative Advisors in ATE")
     async def adm(self, inter):
-        await update_ate()
+        with open("./data/ATE.json", "r", encoding="utf-8") as f:
+            data = json.load(f)["ADM"]
         message = "```"
-        for advisor in ADVISORS[0]:
+        for advisor in data.keys():
             message += f"\u203B {advisor}\n"
         message += "```"
         await inter.send(ftfy.fix_text(message))
 
     @ate.sub_command(description="Show list of all Diplomatic Advisors in ATE")
     async def dip(self, inter):
-        await update_ate()
+        with open("./data/ATE.json", "r", encoding="utf-8") as f:
+            data = json.load(f)["DIP"]
         message = "```"
-        for advisor in ADVISORS[1]:
+        for advisor in data.keys():
             message += f"\u203B {advisor}\n"
         message += "```"
         await inter.send(ftfy.fix_text(message))
 
     @ate.sub_command(description="Show list of all Military Advisors in ATE")
     async def mil(self, inter):
-        await update_ate()
+        with open("./data/ATE.json", "r", encoding="utf-8") as f:
+            data = json.load(f)["MIL"]
         message = "```"
-        for advisor in ADVISORS[2]:
+        for advisor in data.keys():
             message += f"\u203B {advisor}\n"
         message += "```"
         await inter.send(ftfy.fix_text(message))
