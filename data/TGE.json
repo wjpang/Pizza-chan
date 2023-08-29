@@ -4,236 +4,53 @@
 		"Province bonus": "Land Force Limit 0.5",
 		"Trade leader bonus": "Land Force Limit Modifier 0.2"
 	},
-	"Rice": {
-		"Price": "2",
-		"Province bonus": "Local Manpower Modifier 0.25",
-		"Trade leader bonus": "National Manpower Modifier 0.1"
-	},
 	"Wine": {
 		"Price": "2.5",
 		"Province bonus": "Local Unrest -1",
 		"Trade leader bonus": "National Unrest -1"
-	},
-	"Champagne": {
-		"Price": "3.0",
-		"Province bonus": "Local Unrest -1",
-		"Trade leader bonus": "Reform Progress Growth 0.1"
-	},
-	"Fish": {
-		"Price": "2.5",
-		"Province bonus": "Local Sailors Modifier 0.25",
-		"Trade leader bonus": "National Sailors Modifier 0.25"
-	},
-	"Salt": {
-		"Price": "3",
-		"Province bonus": "Local Defensiveness 0.15",
-		"Trade leader bonus": "Land Maintenance Modifier -0.05"
-	},
-	"Beer": {
-		"Price": "2.5",
-		"Province bonus": "Local Years of Separatism -2",
-		"Trade leader bonus": "Morale of Armies 0.05"
-	},
-	"Beekeeping": {
-		"Price": "2.5",
-		"Province bonus": "Local Defensiveness 0.1",
-		"Trade leader bonus": "Manpower Recovery Speed 0.05"
-	},
-	"Whales": {
-		"Price": "3.0",
-		"Province bonus": "Local Production Efficiency 0.1",
-		"Trade leader bonus": "Production Efficiency 0.1"
-	},
-	"Cheese": {
-		"Price": "2.75",
-		"Province bonus": "Local Culture Conversion Cost -0.2",
-		"Trade leader bonus": "Garrison Size 0.15"
-	},
-	"Citrus": {
-		"Price": "3.25",
-		"Province bonus": "Trade Value Modifier 0.1",
-		"Trade leader bonus": "Naval Attrition -0.15"
-	},
-	"Seafood": {
-		"Price": "2.75",
-		"Province bonus": "Local Sailors Modifier 0.2",
-		"Trade leader bonus": "Improve Relations 0.15"
-	},
-	"Olives": {
-		"Price": "3.0",
-		"Province bonus": "Trade Value Modifier 0.1",
-		"Trade leader bonus": "Provincial Trade Power Modifier 0.1"
-	},
-	"Maize": {
-		"Price": "2.5",
-		"Province bonus": "Local Manpower Modifier 0.15",
-		"Trade leader bonus": "Land Maintenance Modifier -0.05"
-	},
-	"Potatoes": {
-		"Price": "2.5",
-		"Province bonus": "Local Fort Maintenance -0.15",
-		"Trade leader bonus": "Reinforce Cost -0.05"
-	},
-	"Cloth": {
-		"Price": "3",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Mercenary Maintenance -0.15"
 	},
 	"Wool": {
 		"Price": "2.5",
 		"Province bonus": "Local Friendly Movement Speed 0.1",
 		"Trade leader bonus": "Ship Costs -0.05"
 	},
+	"Cloth": {
+		"Price": "3",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Mercenary Maintenance -0.15"
+	},
+	"Fish": {
+		"Price": "2.5",
+		"Province bonus": "Local Sailors Modifier 0.25",
+		"Trade leader bonus": "National Sailors Modifier 0.25"
+	},
 	"Fur": {
 		"Price": "2",
 		"Province bonus": "Local Trade Power Modifier 0.1",
 		"Trade leader bonus": "Yearly Prestige 0.5"
 	},
-	"Carpet": {
+	"Salt": {
 		"Price": "3",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Culture Conversion Cost -0.15"
-	},
-	"Silk": {
-		"Price": "4",
-		"Province bonus": "Local Trade Power 2",
-		"Trade leader bonus": "Number of accepted Cultures 1"
-	},
-	"Cotton": {
-		"Price": "3",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Global Settler Increase 20"
+		"Province bonus": "Local Defensiveness 0.15",
+		"Trade leader bonus": "Land Maintenance Modifier -0.05"
 	},
 	"Naval Supplies": {
 		"Price": "2",
 		"Province bonus": "Naval Force Limit 0.5",
 		"Trade leader bonus": "Naval Force Limit Modifier 0.2"
 	},
-	"Tar": {
-		"Price": "2.75",
-		"Province bonus": "Naval Maintenance Modifier -0.01",
-		"Trade leader bonus": "Ship Durability 0.05"
-	},
-	"Sulfur": {
-		"Price": "3.25",
-		"Province bonus": "Local Attrition For Enemies 1",
-		"Trade leader bonus": "Infantry Combat Ability 0.05"
-	},
-	"Lumber": {
-		"Price": "2",
-		"Province bonus": "Local Construction Cost -0.2",
-		"Trade leader bonus": "Construction Cost -0.1"
-	},
-	"Marble": {
-		"Price": "3.0",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Fort Maintenance -0.15"
-	},
-	"Gunpowder": {
-		"Price": "3.5",
-		"Province bonus": "Local Attrition For Enemies 1",
-		"Trade leader bonus": "Land Fire Damage 0.1"
-	},
-	"Jade": {
-		"Price": "3.25",
-		"Province bonus": "Local State Maintenance -0.25",
-		"Trade leader bonus": "Administrative Free Policies 1"
-	},
-	"Amber": {
-		"Price": "3.5",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Development Cost -0.05"
-	},
-	"Exotic Animals": {
-		"Price": "4",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Yearly Prestige 1"
-	},
-	"Rum": {
-		"Price": "3",
-		"Province bonus": "Shipbuilding Time -0.25",
-		"Trade leader bonus": "Privateer Efficiency 0.2"
-	},
-	"Horses": {
-		"Price": "3.25",
-		"Province bonus": "Local Friendly Movement Speed 0.2",
-		"Trade leader bonus": "Cavalry Combat Ability 0.1"
-	},
-	"Pearls": {
-		"Price": "4",
-		"Province bonus": "Local Tax Modifier 0.2",
-		"Trade leader bonus": "Monarch Diplomatic Skill 1"
-	},
-	"Ebony": {
-		"Price": "3.5",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Global Possible Number of Buildings 1"
-	},
-	"Tropical Wood": {
-		"Price": "2",
-		"Province bonus": "Local Construction Cost -0.2",
-		"Trade leader bonus": "Development Cost -0.05"
-	},
-	"Dyes": {
-		"Price": "4",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Caravan Power 0.2"
-	},
-	"Indigo Dye": {
-		"Price": "4",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Goods Produced in provinces with Indigo +15%"
-	},
-	"Llama": {
-		"Price": "2.5",
-		"Province bonus": "Local Production Efficiency 0.1",
-		"Trade leader bonus": "Development Cost in Mountain/Hills/Highlands Provinces -10%"
-	},
-	"Sea Turtles": {
-		"Price": "3",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Native Assimilation 0.25"
-	},
 	"Copper": {
 		"Price": "3",
 		"Province bonus": "Local Recruitment Time -0.2",
 		"Trade leader bonus": "Recruitment Time -0.2"
 	},
+	"Gold": {
+		"Price": "0"
+	},
 	"Iron": {
 		"Price": "3",
 		"Province bonus": "Local Build Cost -0.2",
 		"Trade leader bonus": "Regiment Costs -0.05"
-	},
-	"Tin": {
-		"Price": "3",
-		"Province bonus": "Local Production Efficiency 0.1",
-		"Trade leader bonus": "Artillery Cost -0.1"
-	},
-	"Lead": {
-		"Price": "3.5",
-		"Province bonus": "Local Regiment Cost -0.15",
-		"Trade leader bonus": "Infantry Cost -0.15"
-	},
-	"Mercury": {
-		"Price": "3",
-		"Province bonus": "Local Institution Spread 0.2",
-		"Trade leader bonus": "Idea Cost -0.1"
-	},
-	"Gold": {
-		"Price": "0"
-	},
-	"Silver": {
-		"Price": "0"
-	},
-	"Zinc": {
-		"Price": "3",
-		"Province bonus": "Local Defensiveness 0.15",
-		"Trade leader bonus": "Innovativeness Gain 0.25"
-	},
-	"Fur Clothing": {
-		"Price": "3.5",
-		"Province bonus": "Local Monthly Devastation -0.1",
-		"Trade leader bonus": "Land Attrition -0.1"
 	},
 	"Slaves": {
 		"Price": "2",
@@ -245,140 +62,30 @@
 		"Province bonus": "Local State Maintenance -0.2",
 		"Trade leader bonus": "Diplomatic Reputation 2"
 	},
-	"Palm Oil": {
-		"Price": "2.75",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Embargo Efficiency 0.25"
-	},
-	"Dates": {
-		"Price": "2.5",
-		"Province bonus": "Local Manpower Modifier 0.1",
-		"Trade leader bonus": "Manpower Recovery Speed 0.05"
-	},
-	"Camels": {
-		"Price": "2.5",
-		"Province bonus": "Local Production Efficiency 0.1",
-		"Trade leader bonus": "Development Cost in Arid Owned Province -10%"
-	},
-	"Elephants": {
-		"Price": "3",
-		"Province bonus": "Local Production Efficiency 0.1",
-		"Trade leader bonus": "Shock Damage 0.1"
-	},
-	"Exotic Fur": {
-		"Price": "4",
-		"Province bonus": "Local Prosperity Growth +0.1",
-		"Trade leader bonus": "All Estate's Loyalty Equilibrium 0.05"
-	},
-	"Millet": {
-		"Price": "2.5",
-		"Province bonus": "Local Garrison Size 0.1",
-		"Trade leader bonus": "Manpower in Own Culture Provinces 0.15"
-	},
-	"Vanilla": {
-		"Price": "3.5",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Vassal Force Limit Contribution 0.2"
-	},
-	"Spices": {
-		"Price": "3",
-		"Province bonus": "Local Monthly Devastation -0.1",
-		"Trade leader bonus": "Spy Network Construction 0.25"
-	},
-	"Cinnamon": {
-		"Price": "3.5",
-		"Province bonus": "Trade Value Modifier 0.1",
-		"Trade leader bonus": "Aggressive Expansion Impact -0.1"
-	},
-	"Saffron": {
-		"Price": "4.25",
-		"Province bonus": "Local Monthly Devastation -0.1",
-		"Trade leader bonus": "Mercenary Maintenance -0.1"
-	},
-	"Cloves": {
-		"Price": "3.5",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Trade Efficiency 0.1"
-	},
-	"Nutmeg": {
-		"Price": "4.5",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Trade Power Abroad 0.1"
-	},
-	"Leather": {
-		"Price": "3.5",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Shock Damage Received -0.05"
-	},
-	"Metalworking": {
-		"Price": "3.5",
-		"Province bonus": "Production Efficiency in Provinces with Production Building +5%",
-		"Trade leader bonus": "Goods Produced 0.1"
-	},
-	"Munitions": {
-		"Price": "4",
-		"Province bonus": "Local Regiment Cost -0.25",
-		"Trade leader bonus": "Discipline 0.025"
-	},
-	"Woodworking": {
-		"Price": "3.5",
-		"Province bonus": "Possible Number of Buildings 1",
-		"Trade leader bonus": "Governing Capacity Modifier 0.1"
-	},
-	"Jewellery": {
-		"Price": "5",
-		"Province bonus": "Local Trade Power Modifier 0.1",
-		"Trade leader bonus": "Administrative Efficiency 0.025"
-	},
-	"Optics": {
-		"Price": "4",
-		"Province bonus": "Local State Maintenance -0.25",
-		"Trade leader bonus": "Naval Leader Maneuver 1"
-	},
-	"Marble Sculptures": {
-		"Price": "4",
-		"Province bonus": "Local Development Cost -0.05",
-		"Trade leader bonus": "Great Project Upgrade Cost -0.15"
-	},
-	"Chocolate": {
-		"Price": "4",
-		"Province bonus": "Statewide Governing Cost -0.15",
-		"Trade leader bonus": "Morale of Armies in Colonies/Subjects and Client States +10%"
-	},
-	"Cigars": {
-		"Price": "4.25",
-		"Province bonus": "Local Prosperity Growth +0.1",
-		"Trade leader bonus": "Base Tax in New Colonies +2"
-	},
-	"Jade Sculptures": {
-		"Price": "4",
-		"Province bonus": "Possible Number of Buildings 1",
-		"Trade leader bonus": "Development Cost Modifier -0.025"
-	},
-	"String Instruments": {
-		"Price": "4.5",
-		"Province bonus": "Local Trade Power 2.0",
-		"Trade leader bonus": "Governing Capacity 150"
-	},
 	"Tea": {
 		"Price": "2",
 		"Province bonus": "Garrison Growth 0.25",
 		"Trade leader bonus": "Advisor Costs -0.1"
-	},
-	"Opium": {
-		"Price": "4",
-		"Province bonus": "Local Unrest -1",
-		"Trade leader bonus": "Yearly Corruption -0.1"
 	},
 	"Chinaware": {
 		"Price": "3",
 		"Province bonus": "Local Autonomy -0.1",
 		"Trade leader bonus": "Yearly Legitimacy 0.25"
 	},
+	"Spices": {
+		"Price": "3",
+		"Province bonus": "Local Monthly Devastation -0.1",
+		"Trade leader bonus": "Spy Network Construction 0.25"
+	},
 	"Coffee": {
 		"Price": "3",
 		"Province bonus": "Local Institution Spread 0.1",
 		"Trade leader bonus": "Institution Spread 0.05"
+	},
+	"Cotton": {
+		"Price": "3",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Global Settler Increase 20"
 	},
 	"Sugar": {
 		"Price": "3",
@@ -395,15 +102,20 @@
 		"Province bonus": "Local Manpower Modifier 0.1",
 		"Trade leader bonus": "Manpower Recovery Speed 0.05"
 	},
-	"Maple Syrup": {
-		"Price": "3.5",
-		"Province bonus": "Trade Value Modifier 0.1",
+	"Silk": {
+		"Price": "4",
+		"Province bonus": "Local Trade Power 2",
 		"Trade leader bonus": "Number of accepted Cultures 1"
 	},
-	"Tomatoes": {
-		"Price": "2.75",
-		"Province bonus": "Local Manpower Modifier 0.15",
-		"Trade leader bonus": "Merchant Trade Power 5"
+	"Dyes": {
+		"Price": "4",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Caravan Power 0.2"
+	},
+	"Tropical Wood": {
+		"Price": "2",
+		"Province bonus": "Local Construction Cost -0.2",
+		"Trade leader bonus": "Development Cost -0.05"
 	},
 	"Livestock": {
 		"Price": "2",
@@ -420,37 +132,325 @@
 		"Province bonus": "Local Production Efficiency 0.1",
 		"Trade leader bonus": "Diplomatic Technology Cost -0.05"
 	},
-	"Gems": {
-		"Price": "4",
-		"Province bonus": "Local Tax Modifier 0.15",
-		"Trade leader bonus": "Yearly Inflation Reduction 0.05"
-	},
 	"Paper": {
 		"Price": "3.5",
 		"Province bonus": "Local State Maintenance -0.1",
 		"Trade leader bonus": "Administrative Technology Cost -0.05"
+	},
+	"Gems": {
+		"Price": "4",
+		"Province bonus": "Local Tax Modifier 0.15",
+		"Trade leader bonus": "Yearly Inflation Reduction 0.05"
 	},
 	"Coal": {
 		"Price": "5",
 		"Province bonus": "Local State Maintenance -0.2",
 		"Trade leader bonus": "Goods Produced Modifier 0.1"
 	},
+	"Unknown": {
+		"Price": "0"
+	},
+	"Beer": {
+		"Price": "2.5",
+		"Province bonus": "Local Years of Separatism -2",
+		"Trade leader bonus": "Morale of Armies 0.05"
+	},
+	"Beekeeping": {
+		"Price": "2.5",
+		"Province bonus": "Local Defensiveness 0.1",
+		"Trade leader bonus": "Manpower Recovery Speed 0.05"
+	},
+	"Whales": {
+		"Price": "3.0",
+		"Province bonus": "Local Production Efficiency 0.1",
+		"Trade leader bonus": "Production Efficiency 0.1"
+	},
+	"Lumber": {
+		"Price": "2",
+		"Province bonus": "Local Construction Cost -0.2",
+		"Trade leader bonus": "Construction Cost -0.1"
+	},
+	"Palm Oil": {
+		"Price": "2.75",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Embargo Efficiency 0.25"
+	},
+	"Cinnamon": {
+		"Price": "3.5",
+		"Province bonus": "Trade Value Modifier 0.1",
+		"Trade leader bonus": "Aggressive Expansion Impact -0.1"
+	},
+	"Saffron": {
+		"Price": "4.25",
+		"Province bonus": "Local Monthly Devastation -0.1",
+		"Trade leader bonus": "Mercenary Maintenance -0.1"
+	},
+	"Rice": {
+		"Price": "2",
+		"Province bonus": "Local Manpower Modifier 0.25",
+		"Trade leader bonus": "National Manpower Modifier 0.1"
+	},
+	"Opium": {
+		"Price": "4",
+		"Province bonus": "Local Unrest -1",
+		"Trade leader bonus": "Yearly Corruption -0.1"
+	},
+	"Rum": {
+		"Price": "3",
+		"Province bonus": "Shipbuilding Time -0.25",
+		"Trade leader bonus": "Privateer Efficiency 0.2"
+	},
+	"Horses": {
+		"Price": "3.25",
+		"Province bonus": "Local Friendly Movement Speed 0.2",
+		"Trade leader bonus": "Cavalry Combat Ability 0.1"
+	},
+	"Olives": {
+		"Price": "3.0",
+		"Province bonus": "Trade Value Modifier 0.1",
+		"Trade leader bonus": "Provincial Trade Power Modifier 0.1"
+	},
+	"Amber": {
+		"Price": "3.5",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Development Cost -0.05"
+	},
+	"Jade": {
+		"Price": "3.25",
+		"Province bonus": "Local State Maintenance -0.25",
+		"Trade leader bonus": "Administrative Free Policies 1"
+	},
+	"Marble": {
+		"Price": "3.0",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Fort Maintenance -0.15"
+	},
+	"Lead": {
+		"Price": "3.5",
+		"Province bonus": "Local Regiment Cost -0.15",
+		"Trade leader bonus": "Infantry Cost -0.15"
+	},
+	"Cloves": {
+		"Price": "3.5",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Trade Efficiency 0.1"
+	},
+	"Mercury": {
+		"Price": "3",
+		"Province bonus": "Local Institution Spread 0.2",
+		"Trade leader bonus": "Idea Cost -0.1"
+	},
+	"Camels": {
+		"Price": "2.5",
+		"Province bonus": "Local Production Efficiency 0.1",
+		"Trade leader bonus": "Development Cost in Arid Owned Province -10%"
+	},
+	"Gunpowder": {
+		"Price": "3.5",
+		"Province bonus": "Local Attrition For Enemies 1",
+		"Trade leader bonus": "Land Fire Damage 0.1"
+	},
+	"Elephants": {
+		"Price": "3",
+		"Province bonus": "Local Production Efficiency 0.1",
+		"Trade leader bonus": "Shock Damage 0.1"
+	},
+	"Tin": {
+		"Price": "3",
+		"Province bonus": "Local Production Efficiency 0.1",
+		"Trade leader bonus": "Artillery Cost -0.1"
+	},
+	"Dates": {
+		"Price": "2.5",
+		"Province bonus": "Local Manpower Modifier 0.1",
+		"Trade leader bonus": "Manpower Recovery Speed 0.05"
+	},
+	"Cheese": {
+		"Price": "2.75",
+		"Province bonus": "Local Culture Conversion Cost -0.2",
+		"Trade leader bonus": "Garrison Size 0.15"
+	},
+	"Citrus": {
+		"Price": "3.25",
+		"Province bonus": "Trade Value Modifier 0.1",
+		"Trade leader bonus": "Naval Attrition -0.15"
+	},
+	"Seafood": {
+		"Price": "2.75",
+		"Province bonus": "Local Sailors Modifier 0.2",
+		"Trade leader bonus": "Improve Relations 0.15"
+	},
+	"Carpet": {
+		"Price": "3",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Culture Conversion Cost -0.15"
+	},
+	"Nutmeg": {
+		"Price": "4.5",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Trade Power Abroad 0.1"
+	},
+	"Maize": {
+		"Price": "2.5",
+		"Province bonus": "Local Manpower Modifier 0.15",
+		"Trade leader bonus": "Land Maintenance Modifier -0.05"
+	},
+	"Pearls": {
+		"Price": "4",
+		"Province bonus": "Local Tax Modifier 0.2",
+		"Trade leader bonus": "Monarch Diplomatic Skill 1"
+	},
+	"Metalworking": {
+		"Price": "3.5",
+		"Province bonus": "Production Efficiency in Provinces with Production Building +5%",
+		"Trade leader bonus": "Goods Produced 0.1"
+	},
+	"Silver": {
+		"Price": "0"
+	},
+	"Exotic Animals": {
+		"Price": "4",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Yearly Prestige 1"
+	},
+	"Vanilla": {
+		"Price": "3.5",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Vassal Force Limit Contribution 0.2"
+	},
+	"Munitions": {
+		"Price": "4",
+		"Province bonus": "Local Regiment Cost -0.25",
+		"Trade leader bonus": "Discipline 0.025"
+	},
+	"Woodworking": {
+		"Price": "3.5",
+		"Province bonus": "Possible Number of Buildings 1",
+		"Trade leader bonus": "Governing Capacity Modifier 0.1"
+	},
+	"Ebony": {
+		"Price": "3.5",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Global Possible Number of Buildings 1"
+	},
+	"Tar": {
+		"Price": "2.75",
+		"Province bonus": "Naval Maintenance Modifier -0.01",
+		"Trade leader bonus": "Ship Durability 0.05"
+	},
+	"Sulfur": {
+		"Price": "3.25",
+		"Province bonus": "Local Attrition For Enemies 1",
+		"Trade leader bonus": "Infantry Combat Ability 0.05"
+	},
+	"Leather": {
+		"Price": "3.5",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Shock Damage Received -0.05"
+	},
+	"Jewellery": {
+		"Price": "5",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Administrative Efficiency 0.025"
+	},
+	"Maple Syrup": {
+		"Price": "3.5",
+		"Province bonus": "Trade Value Modifier 0.1",
+		"Trade leader bonus": "Number of accepted Cultures 1"
+	},
+	"Potatoes": {
+		"Price": "2.5",
+		"Province bonus": "Local Fort Maintenance -0.15",
+		"Trade leader bonus": "Reinforce Cost -0.05"
+	},
 	"Steam Engine": {
 		"Price": "5",
 		"Province bonus": "Local Development Cost -0.1",
 		"Trade leader bonus": "Technology Cost -0.025"
 	},
-	"Unknown": {
-		"Price": "0"
+	"Zinc": {
+		"Price": "3",
+		"Province bonus": "Local Defensiveness 0.15",
+		"Trade leader bonus": "Innovativeness Gain 0.25"
+	},
+	"Optics": {
+		"Price": "4",
+		"Province bonus": "Local State Maintenance -0.25",
+		"Trade leader bonus": "Naval Leader Maneuver 1"
+	},
+	"Fur Clothing": {
+		"Price": "3.5",
+		"Province bonus": "Local Monthly Devastation -0.1",
+		"Trade leader bonus": "Land Attrition -0.1"
 	},
 	"Cannons": {
 		"Price": "4.25",
 		"Province bonus": "Local Attrition For Enemies 1",
 		"Trade leader bonus": "Artillery Combat Ability 0.1"
 	},
+	"Tomatoes": {
+		"Price": "2.75",
+		"Province bonus": "Local Manpower Modifier 0.15",
+		"Trade leader bonus": "Merchant Trade Power 5"
+	},
+	"Champagne": {
+		"Price": "3.0",
+		"Province bonus": "Local Unrest -1",
+		"Trade leader bonus": "Reform Progress Growth 0.1"
+	},
+	"Llama": {
+		"Price": "2.5",
+		"Province bonus": "Local Production Efficiency 0.1",
+		"Trade leader bonus": "Development Cost in Mountain/Hills/Highlands Provinces -10%"
+	},
+	"Indigo Dye": {
+		"Price": "4",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Goods Produced in provinces with Indigo +15%"
+	},
+	"Sea Turtles": {
+		"Price": "3",
+		"Province bonus": "Local Trade Power Modifier 0.1",
+		"Trade leader bonus": "Native Assimilation 0.25"
+	},
 	"Uniforms": {
 		"Price": "4.25",
 		"Province bonus": "Local Production Efficiency 0.1",
 		"Trade leader bonus": "Recover Army Morale Speed 0.05"
+	},
+	"Marble Sculptures": {
+		"Price": "4",
+		"Province bonus": "Local Development Cost -0.05",
+		"Trade leader bonus": "Great Project Upgrade Cost -0.15"
+	},
+	"Cigars": {
+		"Price": "4.25",
+		"Province bonus": "Local Prosperity Growth +0.1",
+		"Trade leader bonus": "Base Tax in New Colonies +2"
+	},
+	"Chocolate": {
+		"Price": "4",
+		"Province bonus": "Statewide Governing Cost -0.15",
+		"Trade leader bonus": "Morale of Armies in Colonies/Subjects and Client States +10%"
+	},
+	"Jade Sculptures": {
+		"Price": "4",
+		"Province bonus": "Possible Number of Buildings 1",
+		"Trade leader bonus": "Development Cost Modifier -0.025"
+	},
+	"Millet": {
+		"Price": "2.5",
+		"Province bonus": "Local Garrison Size 0.1",
+		"Trade leader bonus": "Manpower in Own Culture Provinces 0.15"
+	},
+	"Exotic Fur": {
+		"Price": "4",
+		"Province bonus": "Local Prosperity Growth +0.1",
+		"Trade leader bonus": "All Estate's Loyalty Equilibrium 0.05"
+	},
+	"String Instruments": {
+		"Price": "4.5",
+		"Province bonus": "Local Trade Power 2.0",
+		"Trade leader bonus": "Governing Capacity 150"
 	}
 }

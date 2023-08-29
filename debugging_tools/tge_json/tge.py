@@ -58,15 +58,6 @@ def _handle_duplicates(ordered_pairs):
 
 
 def main():
-    # Goal:
-    # {
-    #     [good_name]: {
-    #         "Price": [value],
-    # 	      "Province bonus": [modifier],
-    # 	      "Trade leader bonus": [modifier]
-    #     },
-    #     ...
-    # }
     final = {}
 
     # Special Province bonuses/Trade leader bonuses
@@ -91,31 +82,32 @@ def main():
     with open(f"{os.path.dirname(os.getcwd())}\\localisation\\modifiers\\modifiers.json", "r", encoding="utf-8") as f:
         mod_loc = json.load(f)
 
-    # Goods' names & prices
+    # Get goods and their prices, province bonuses, and trade leader bonuses
     with open(PRICES, "r", encoding="utf-8") as f:
         prices = json.loads(parse(f.read()), object_pairs_hook=_handle_duplicates)
-    for good, price in prices.items():
-        try:
-            final[tge_loc[good]] = {"Price": str(price["base_price"])}
-        except KeyError:
-            final[van_loc[good]] = {"Price": str(price["base_price"])}
-
-    # Goods' province bonuses, trade leader bonuses
     with open(GOODS, "r", encoding="utf-8") as f:
         goods = json.loads(parse(f.read()), object_pairs_hook=_handle_duplicates)
+
+    # Save to final dict
     for good, data in goods.items():
+        # Init Good names & Price
+        try:
+            final[tge_loc[good]] = {"Price": str(prices[good]["base_price"])}
+        except KeyError:
+            final[van_loc[good]] = {"Price": str(prices[good]["base_price"])}
         if good in {"unknown", "gold", "silver"}:
             continue
+        # Province bonus
         try:
             province = f"{mod_loc[list(data['province'].keys())[0]]} {list(data['province'].values())[0]}"
+        except AttributeError:
+            province = special[good]
+        # Trade leader bonus
+        try:
             modifier = f"{mod_loc[list(data['modifier'].keys())[0]]} {list(data['modifier'].values())[0]}"
         except AttributeError:
-            if not list(data["province"]):
-                province = special[good]
-                modifier = f"{mod_loc[list(data['modifier'].keys())[0]]} {list(data['modifier'].values())[0]}"
-            else:
-                province = f"{mod_loc[list(data['province'].keys())[0]]} {list(data['province'].values())[0]}"
-                modifier = special[good]
+            modifier = special[good]
+        # Save bonuses to final
         try:
             final[tge_loc[good]]["Province bonus"] = province
             final[tge_loc[good]]["Trade leader bonus"] = modifier
@@ -129,7 +121,9 @@ def main():
 
     # Goods' images
     with Image.open(IMAGES) as im:
-        print(im.format, im.size, im.mode)
+        goods = list(final.keys())
+        for i, good in enumerate(goods):
+            im.crop((i * 64, 0, (i + 1) * 64, 64)).save(f"{os.path.dirname(os.path.dirname(os.getcwd()))}\\data\\tge_images\\{good.lower().replace(' ', '_')}.png")
 
 
 if __name__ == "__main__":
