@@ -7,12 +7,12 @@ import time
 from os.path import basename
 
 # all definitions
-mod_path = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2185445645"
-vanilla_path = r"A:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV"
-localisation_dir = mod_path + r"\localisation"
-localisation_dir_vanilla = vanilla_path + r"\localisation"
-event_modifiers_dir = mod_path + r"\common\event_modifiers"
-event_modifiers_dir_vanilla = vanilla_path + r"\common\event_modifiers"
+MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2185445645"
+VANILLA_PATH = r"A:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV"
+LOC_DIR = MOD_PATH + r"\localisation"
+LOC_DIR_VAN = VANILLA_PATH + r"\localisation"
+EVENT_MOD_DIR = MOD_PATH + r"\common\event_modifiers"
+EVENT_MOD_DIR_VAN = VANILLA_PATH + r"\common\event_modifiers"
 
 path = os.getcwd()
 parent = os.path.dirname(path)
@@ -22,14 +22,14 @@ tags = parent + "\\tags.txt"
 data = parent + "\\database.txt"
 provinces = parent + "\\provinces.json"
 
-events_path = mod_path + r"\events"
+EVENTS_PATH = MOD_PATH + r"\events"
 
-event_json = "events.json"
-event_modifiers_json = "eventModifiers.json"
-event_localisation = "eventsLoc.txt"
-events_input = glob.glob(events_path + r"\*.txt")
-modifiers_input = glob.glob(event_modifiers_dir + r"\*.txt") + glob.glob(event_modifiers_dir_vanilla + r"\*.txt")
-event_output_b4_json = "events.txt"
+EVENT_JSON = "events.json"
+EVENT_MODS_JSON = "eventModifiers.json"
+EVENT_LOC = "eventsLoc.txt"
+events_input = glob.glob(EVENTS_PATH + r"\*.txt")
+modifiers_input = glob.glob(EVENT_MOD_DIR + r"\*.txt") + glob.glob(EVENT_MOD_DIR_VAN + r"\*.txt")
+EVENT_OU_B4_JSON = "events.txt"
 
 new_dict = {}
 add_ruler_modifier = False
@@ -48,10 +48,11 @@ extended_nested_search = modifier_search + [
 
 
 def start():
+    """All shit"""
     # merging_events(events_input)
-    # create_localisation_file(event_localisation, localisation_dir, localisation_dir_vanilla)
+    # create_localisation_file(EVENT_LOC, LOC_DIR, LOC_DIR_VAN)
     # merging_modifiers(modifiers_input)
-    # json_parser(event_output_b4_json)
+    # json_parser(EVENT_OU_B4_JSON)
 
     # parse_correct_json()
 
@@ -59,6 +60,7 @@ def start():
 
 
 def parse_correct_json():
+    """Builds the corretc json"""
     # Read the new keys from the text file
     with open("eventsLoc.txt", "r", encoding="utf-8") as f:
         new_keys = {}
@@ -73,7 +75,7 @@ def parse_correct_json():
             new_keys[old_key] = new_key
 
     #  Load the original dictionary from the JSON file
-    with open(event_json, "r+", encoding="utf8") as events_in:
+    with open(EVENT_JSON, "r+", encoding="utf8") as events_in:
         original_dict = json.load(events_in)
 
     # Replace the old keys with the new keys
@@ -103,6 +105,7 @@ def parse_correct_json():
 
 
 def process_event(event_data, event_title):
+    """Processes nested list/dict events into singular one"""
     event_dict = {"desc": event_data.get("desc")}
 
     keys_to_check = [
@@ -130,6 +133,7 @@ def process_event(event_data, event_title):
 
 
 def process_option(option):
+    """Processes nested list/dict options into singular one"""
     global add_ruler_modifier
     global add_disaster_modifier
 
@@ -165,6 +169,7 @@ def process_option(option):
 
 
 def process_modifiers(modifier):
+    """Processes nested list/dict modifiers into singular one"""
     global add_ruler_modifier
     global add_disaster_modifier
     result = {}
@@ -178,7 +183,7 @@ def process_modifiers(modifier):
         if "duration" in modifier_data:
             del modifier_data["duration"]
 
-        with open(event_modifiers_json, "r", encoding="utf-8") as mod_file:
+        with open(EVENT_MODS_JSON, "r", encoding="utf-8") as mod_file:
             mod_dict = json.load(mod_file)
 
         # Search for the dictionary with the key matching the modifier
@@ -203,10 +208,11 @@ def process_modifiers(modifier):
 
 
 def build(new_dict):
+    """Final Build"""
     localized_names = {}
     localized_datas = {}
     localized_provinces = {}
-    with open(event_localisation, "r", encoding="utf-8") as file:
+    with open(EVENT_LOC, "r", encoding="utf-8") as file:
         for line in file:
             if len(line.strip().split("\t")) == 2:
                 key, localized_name = line.strip().split("\t")
@@ -235,6 +241,7 @@ def build(new_dict):
 
 
 def recurse_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
+    """Recursively iterates through the dictionary to parse and localise it"""
     global add_ruler_modifier
     global add_disaster_modifier
     check_province = False
@@ -403,6 +410,7 @@ def recurse_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
 
 
 def merging_events(events_input):
+    """Merges all the events files in one file, divided by country"""
     print("Started the Merge of all files")
     with open("events.txt", "w", encoding="utf-8") as event_output:
         for event_file in events_input:
@@ -430,6 +438,7 @@ def merging_events(events_input):
 
 
 def merging_modifiers(modifiers_input):
+    """Merges all modifiers used in FEE's files into one json, localising and parsing them"""
     print("Started Merging Modifiers")
     modifiers_output = ""
     modifiers_to_update = []
@@ -438,17 +447,16 @@ def merging_modifiers(modifiers_input):
             for line_modifiers in reading_modifiers:
                 if line_modifiers.strip().startswith("#") or len(line_modifiers) < 2 and line_modifiers != "}" or line_modifiers.strip().startswith("picture"):
                     continue
-                else:
-                    modifiers_output += line_modifiers.split("#")[0].replace("= { }", "= {\n}").replace("= {}", "= {\n}").strip() + "\n"
+                modifiers_output += line_modifiers.split("#")[0].replace("= { }", "= {\n}").replace("= {}", "= {\n}").strip() + "\n"
         modifiers_output += "\n"
 
-    with open("eventModifiers.txt", "w", encoding="utf-8") as file:
-        file.write(modifiers_output)
+    # with open("eventModifiers.txt", "w", encoding="utf-8") as file:
+    #     file.write(modifiers_output)
 
     print("Merged all modifiers into one file")
     second_json_parser(modifiers_output)
     print("Jsonised the Modifiers")
-    with open(event_modifiers_json, "r+", encoding="utf-8") as event_modif_file:
+    with open(EVENT_MODS_JSON, "r+", encoding="utf-8") as event_modif_file:
         event_mod_dict = json.load(event_modif_file)
         for key, value in event_mod_dict.items():
             if isinstance(value, dict):
@@ -467,23 +475,24 @@ def merging_modifiers(modifiers_input):
         del event_mod_dict[key][modifier]
         event_mod_dict[key][new_value] = number
 
-    with open(event_modifiers_json, "w", encoding="utf-8") as file:
+    with open(EVENT_MODS_JSON, "w", encoding="utf-8") as file:
         json.dump(event_mod_dict, file, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
     print("Localised the modifiers")
 
 
-def create_localisation_file(event_localisation, localisation_dir, localisation_dir_vanilla):
+def create_localisation_file(EVENT_LOC, LOC_DIR, LOC_DIR_VAN):
+    """Fill the eventsLoc.txt with the localised values of the needed strings"""
     print("Started the creation of localisation")
     tolerance = 0.0125  # Adjust this tolerance value as needed
     array = []
     unique_array = []
-    filenames = fee_filter(localisation_dir, "yml")
-    filenames.extend(fee_filter(localisation_dir, "l_english.yml"))
-    filenames.extend(fee_filter(localisation_dir_vanilla, "l_english.yml"))
+    filenames = fee_filter(LOC_DIR, "yml")
+    filenames.extend(fee_filter(LOC_DIR, "l_english.yml"))
+    filenames.extend(fee_filter(LOC_DIR_VAN, "l_english.yml"))
 
     key = ""
 
-    with open(event_output_b4_json, encoding="utf-8") as file:
+    with open(EVENT_OU_B4_JSON, encoding="utf-8") as file:
         for line in file:
             line = line.strip()
             if (
@@ -525,7 +534,7 @@ def create_localisation_file(event_localisation, localisation_dir, localisation_
                             item[1] = line_value.lstrip().strip().strip('"').replace("0", "").replace("1", "").replace('"', "").replace(",", "")
                             break
 
-    with open(event_localisation, "w", encoding="utf-8") as output:
+    with open(EVENT_LOC, "w", encoding="utf-8") as output:
         for key, value in unique_array:
             output.write(f"{key}\t{value}\n")
 
@@ -542,66 +551,66 @@ def json_parser(event_o_b4_json):
     """let's parse it all"""
     try:
         with open(event_o_b4_json, "r", encoding="utf8") as file:
-            data = file.read()
+            data_json = file.read()
     except FileNotFoundError:
         print(f"ERROR: Unable to find file: {event_o_b4_json}")
         return None
 
     file_name = basename(event_o_b4_json)
 
-    data = re.sub(r"#.*", "", data)  # Remove comments
-    data = re.sub(
+    data_json = re.sub(r"#.*", "", data_json)  # Remove comments
+    data_json = re.sub(
         r"(?<=^[^\"\n])*(?<=[0-9\.\-trigger_a-zA-Z])+(\s)(?=[0-9\.\-trigger_a-zA-Z])+(?=[^\"\n]*$)",
         "\n",
-        data,
+        data_json,
         flags=re.MULTILINE,
     )  # Separate one line lists
-    data = re.sub(r"[\t]", "", data)
-    data = re.sub(r" \n", "\n", data)
-    data = re.sub("}, },", "},},", data)
+    data_json = re.sub(r"[\t]", "", data_json)
+    data_json = re.sub(r" \n", "\n", data_json)
+    data_json = re.sub("}, },", "},},", data_json)
 
-    if definitions := re.findall(r"(@\w+)=(.+)", data):  # replace @variables with value
+    if definitions := re.findall(r"(@\w+)=(.+)", data_json):  # replace @variables with value
         for definition in definitions:
-            data = re.sub(r"^@.+", "", data, flags=re.MULTILINE)
-            data = re.sub(definition[0], definition[1], data)
+            data_json = re.sub(r"^@.+", "", data_json, flags=re.MULTILINE)
+            data_json = re.sub(definition[0], definition[1], data_json)
 
-    data = re.sub(r"\n{2,}", "\n", data)  # Remove excessive new lines
-    data = re.sub(r"\n", "", data, count=1)  # Remove the first new line
-    data = re.sub(r"{(?=\w)", "{\n", data)  # reformat one-liners
-    data = re.sub(r"(?<=\w)}", "\n}", data)  # reformat one-liners
-    data = re.sub(r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data, flags=re.MULTILINE)  # Add quotes around keys
-    data = re.sub(r"([^><])=", r"\1:", data)  # Replace = with : but not >= or <=
-    data = re.sub(
+    data_json = re.sub(r"\n{2,}", "\n", data_json)  # Remove excessive new lines
+    data_json = re.sub(r"\n", "", data_json, count=1)  # Remove the first new line
+    data_json = re.sub(r"{(?=\w)", "{\n", data_json)  # reformat one-liners
+    data_json = re.sub(r"(?<=\w)}", "\n}", data_json)  # reformat one-liners
+    data_json = re.sub(r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data_json, flags=re.MULTILINE)  # Add quotes around keys
+    data_json = re.sub(r"([^><])=", r"\1:", data_json)  # Replace = with : but not >= or <=
+    data_json = re.sub(
         r"(?<=:)(?!-?(?:0|[1-9]\trigger_d*)(?:\.\trigger_d+)?(?:[eE][+-]?\trigger_d+)?)(?!\".*\")[^{\n]+",  # noqa
         r'"\g<0>"',
-        data,
+        data_json,
     )  # Add quotes around string _values
-    data = re.sub(r':"yes"', ":true", data)  # Replace yes with true
-    data = re.sub(r':"no"', ":false", data)  # Replace no with false
-    data = re.sub(r"([<>]=?)(.+)", r':{"_value":\g<2>,"operand":"\g<1>"}', data)  # Handle < > >= <=
-    data = re.sub(r"(?<![:{])\n(?!}|$)", ",", data)  # Add commas
-    # data = re.sub(r"\s", "", data)  # remove all white space
-    data = re.sub(r'{(("[trigger_a-zA-Z_]+")+)}', r"[\g<1>]", data)  # make lists
-    data = re.sub(r'""', r'","', data)  # Add commas to lists
-    data = re.sub(r'{("\w+"(,"\w+")*)}', r"[\g<1>]", data)
-    data = re.sub(
+    data_json = re.sub(r':"yes"', ":true", data_json)  # Replace yes with true
+    data_json = re.sub(r':"no"', ":false", data_json)  # Replace no with false
+    data_json = re.sub(r"([<>]=?)(.+)", r':{"_value":\g<2>,"operand":"\g<1>"}', data_json)  # Handle < > >= <=
+    data_json = re.sub(r"(?<![:{])\n(?!}|$)", ",", data_json)  # Add commas
+    # data_json = re.sub(r"\s", "", data_json)  # remove all white space
+    data_json = re.sub(r'{(("[trigger_a-zA-Z_]+")+)}', r"[\g<1>]", data_json)  # make lists
+    data_json = re.sub(r'""', r'","', data_json)  # Add commas to lists
+    data_json = re.sub(r'{("\w+"(,"\w+")*)}', r"[\g<1>]", data_json)
+    data_json = re.sub(
         r"((\"hsv\")({\trigger_d\.\trigger_d{1,3}(,\trigger_d\.\trigger_d{1,3}){2}})),",
         r"{\g<2>:\g<3>},",
-        data,
+        data_json,
     )  # fix hsv objects
-    data = re.sub(r":{([^}{:]*)}", r":[\1]", data)  # if there's no : between list elements need to replace {} with []
-    data = re.sub(r"\[(\w+)\]", r'"\g<1>"', data)
-    data = re.sub(r"\",:{", '":{', data)  # Fix user_empire_designs
-    data = "{" + data + "}"
+    data_json = re.sub(r":{([^}{:]*)}", r":[\1]", data_json)  # if there's no : between list elements need to replace {} with []
+    data_json = re.sub(r"\[(\w+)\]", r'"\g<1>"', data_json)
+    data_json = re.sub(r"\",:{", '":{', data_json)  # Fix user_empire_designs
+    data_json = "{" + data_json + "}"
 
     try:
-        json_data = json.loads(data, object_pairs_hook=_handle_duplicates)
+        json_data = json.loads(data_json, object_pairs_hook=_handle_duplicates)
     except json.decoder.JSONDecodeError:
         print(f"ERROR: Unable to parse {file_name}")
         print(f"Dumping intermediate code into file: {file_name}_{time.time():.0f}.intermediate")
 
         with open(f"./output/{file_name}_{time.time():.0f}.intermediate", "w", encoding="utf-8") as output:
-            output.write(data)
+            output.write(data_json)
 
         return None
 
@@ -613,58 +622,58 @@ def json_parser(event_o_b4_json):
 def second_json_parser(event_o_b4_json):
     """let's parse it all"""
 
-    data = event_o_b4_json
-    data = re.sub(r"#.*", "", data)  # Remove comments
-    data = re.sub(
+    data_json = event_o_b4_json
+    data_json = re.sub(r"#.*", "", data_json)  # Remove comments
+    data_json = re.sub(
         r"(?<=^[^\"\n])*(?<=[0-9\.\-trigger_a-zA-Z])+(\s)(?=[0-9\.\-trigger_a-zA-Z])+(?=[^\"\n]*$)",
         "\n",
-        data,
+        data_json,
         flags=re.MULTILINE,
     )  # Separate one line lists
-    data = re.sub(r"[\t ]", "", data)  # Remove tabs and spaces
+    data_json = re.sub(r"[\t ]", "", data_json)  # Remove tabs and spaces
 
-    if definitions := re.findall(r"(@\w+)=(.+)", data):  # replace @variables with value
+    if definitions := re.findall(r"(@\w+)=(.+)", data_json):  # replace @variables with value
         for definition in definitions:
-            data = re.sub(r"^@.+", "", data, flags=re.MULTILINE)
-            data = re.sub(definition[0], definition[1], data)
+            data_json = re.sub(r"^@.+", "", data_json, flags=re.MULTILINE)
+            data_json = re.sub(definition[0], definition[1], data_json)
 
-    data = re.sub(r"\n{2,}", "\n", data)  # Remove excessive new lines
-    data = re.sub(r"\n", "", data, count=1)  # Remove the first new line
-    data = re.sub(r"{(?=\w)", "{\n", data)  # reformat one-liners
-    data = re.sub(r"(?<=\w)}", "\n}", data)  # reformat one-liners
-    data = re.sub(r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data, flags=re.MULTILINE)  # Add quotes around keys
-    data = re.sub(r"([^><])=", r"\1:", data)  # Replace = with : but not >= or <=
-    data = re.sub(
+    data_json = re.sub(r"\n{2,}", "\n", data_json)  # Remove excessive new lines
+    data_json = re.sub(r"\n", "", data_json, count=1)  # Remove the first new line
+    data_json = re.sub(r"{(?=\w)", "{\n", data_json)  # reformat one-liners
+    data_json = re.sub(r"(?<=\w)}", "\n}", data_json)  # reformat one-liners
+    data_json = re.sub(r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data_json, flags=re.MULTILINE)  # Add quotes around keys
+    data_json = re.sub(r"([^><])=", r"\1:", data_json)  # Replace = with : but not >= or <=
+    data_json = re.sub(
         r"(?<=:)(?!-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?)(?!\".*\")[^{},\n]+",
         r'"\g<0>"',
-        data,
+        data_json,
     )  # Add quotes around string _values
-    data = re.sub(r':"yes"', ":true", data)  # Replace yes with true
-    data = re.sub(r':"no"', ":false", data)  # Replace no with false
-    data = re.sub(r"([<>]=?)(.+)", r':{"_value":\g<2>,"operand":"\g<1>"}', data)  # Handle < > >= <=
-    data = re.sub(r"(?<![:{])\n(?!}|$)", ",", data)  # Add commas
-    # data = re.sub(r"\s", "", data)  # remove all white space
-    data = re.sub(r'{(("[trigger_a-zA-Z_]+")+)}', r"[\g<1>]", data)  # make lists
-    data = re.sub(r'""', r'","', data)  # Add commas to lists
-    data = re.sub(r'{("\w+"(,"\w+")*)}', r"[\g<1>]", data)
-    data = re.sub(
+    data_json = re.sub(r':"yes"', ":true", data_json)  # Replace yes with true
+    data_json = re.sub(r':"no"', ":false", data_json)  # Replace no with false
+    data_json = re.sub(r"([<>]=?)(.+)", r':{"_value":\g<2>,"operand":"\g<1>"}', data_json)  # Handle < > >= <=
+    data_json = re.sub(r"(?<![:{])\n(?!}|$)", ",", data_json)  # Add commas
+    # data_json = re.sub(r"\s", "", data_json)  # remove all white space
+    data_json = re.sub(r'{(("[trigger_a-zA-Z_]+")+)}', r"[\g<1>]", data_json)  # make lists
+    data_json = re.sub(r'""', r'","', data_json)  # Add commas to lists
+    data_json = re.sub(r'{("\w+"(,"\w+")*)}', r"[\g<1>]", data_json)
+    data_json = re.sub(
         r"((\"hsv\")({\trigger_d\.\trigger_d{1,3}(,\trigger_d\.\trigger_d{1,3}){2}})),",
         r"{\g<2>:\g<3>},",
-        data,
+        data_json,
     )  # fix hsv objects
-    data = re.sub(r":{([^}{:]*)}", r":[\1]", data)  # if there's no : between list elements need to replace {} with []
-    data = re.sub(r"\[(\w+)\]", r'"\g<1>"', data)
-    data = re.sub(r"\",:{", '":{', data)  # Fix user_empire_designs
-    data = "{" + data + "}"
+    data_json = re.sub(r":{([^}{:]*)}", r":[\1]", data_json)  # if there's no : between list elements need to replace {} with []
+    data_json = re.sub(r"\[(\w+)\]", r'"\g<1>"', data_json)
+    data_json = re.sub(r"\",:{", '":{', data_json)  # Fix user_empire_designs
+    data_json = "{" + data_json + "}"
 
     try:
-        json_data = json.loads(data, object_pairs_hook=_handle_duplicates)
+        json_data = json.loads(data_json, object_pairs_hook=_handle_duplicates)
     except json.decoder.JSONDecodeError:
         print("ERROR: Unable to parse eventModifiers")
         print(f"Dumping intermediate code into file: eventModifiers_{time.time():.0f}.intermediate")
 
         with open(f"./output/eventModifiers_{time.time():.0f}.intermediate", "w", encoding="utf-8") as output:
-            output.write(data)
+            output.write(data_json)
 
         return None
 
