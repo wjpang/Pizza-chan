@@ -7,5 +7,7 @@ This bot obtains the information from the game files as well as the mod files an
 
 ## Links
 [EUIV Steam Link](https://store.steampowered.com/app/236850/Europa_Universalis_IV/)
+
 [EMF mod collection](https://steamcommunity.com/workshop/filedetails/?id=1626860092)
+
 [Expanded Mod Discord](https://discord.gg/expanded-mod-discord-905457759099682868)
