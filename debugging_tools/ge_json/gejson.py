@@ -1,377 +1,183 @@
-"""
-Governments Expanded Reforms to JSON
-By LoStack: https://github.com/stackpoint
-"""
-
-
-import codecs
-import contextlib
+import glob
+import json
 import os
-import random
 import re
-import shutil
 import time
+from os.path import basename
 
-import requests
-from bs4 import BeautifulSoup
+# all definitions
+MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\1596815683"
+VANILLA_PATH = r"A:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV"
+LOC_DIR = MOD_PATH + r"\localisation"
+LOC_DIR_VAN = VANILLA_PATH + r"\localisation"
+GOV_REF_DIR = MOD_PATH + r"\common\government_reforms"
+
+path = os.getcwd()
+parent = os.path.dirname(path)
+finalpath = os.path.dirname(parent) + r"\data\FEE.json"
+
+tags = parent + "\\tags.txt"
+database = parent + "\\database.txt"
+provinces = parent + "\\provinces.json"
+
+GOV_REF_JSON = "govRef.json"
+REFO_LOC = "refLoc.txt"
+GOV_REF_INPUT = glob.glob(GOV_REF_DIR + r"\*.txt")
+GOV_REF_OUT_B4_JSON = "gov_ref.txt"
+
+new_dict = {}
 
 
 def start():
-    cwd = os.getcwd()
-    governments = cwd + r"\common\governments\00_governments.txt"
-    rText = cwd + r"\common\government_reforms"
-    reforms = gmFilter(rText, "txt")
-    rYml = cwd + r"\localisation"
-    local = gmFilter(rYml, "yml")
-    local.extend(
-        gmFilter(
-            r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\localisation",
-            "english.yml",
-        )
-    )
+    """All shit"""
+    merging_reforms(GOV_REF_INPUT)
+    # create_localisation_file(REFO_LOC, LOC_DIR, LOC_DIR_VAN)
 
-    monarchy = []
-    republic = []
-    tribal = []
-    theocracy = []
+    # parse_correct_json()
 
-    gmSort(monarchy, "monarchy", governments)
-    gmSort(republic, "republic", governments)
-    gmSort(tribal, "tribal", governments)
-    gmSort(theocracy, "theocracy", governments)
-
-    gmReforms(monarchy, reforms)
-    gmReforms(republic, reforms)
-    gmReforms(tribal, reforms)
-    gmReforms(theocracy, reforms)
-
-    gmLocal(monarchy, local)
-    gmLocal(republic, local)
-    gmLocal(tribal, local)
-    gmLocal(theocracy, local)
-
-    gmJSON(monarchy, "monarchy")
-    gmJSON(republic, "republic")
-    gmJSON(tribal, "tribal")
-    gmJSON(theocracy, "theocracy")
-
-    # gmWiki(monarchy, 'monarchy')
-    # gmWiki(republic, 'republic')
-    # gmWiki(tribal, 'tribal')
-    # gmWiki(theocracy, 'theocracy')
+    build(new_dict)
 
 
-def gmImage(url):
-    time.sleep(1)
-    # get contents from url
-    content = requests.get(url).content
-    # get soup
-    soup = BeautifulSoup(content, "html.parser")
-    # find the tag : <img ... >
-    image_tags = soup.findAll("img")
-    # print out image urls
-    return image_tags[0].get("src")
-
-
-def gmJSON(gmArray, name):
-    text = ""
-
-    tiers = [gmArray[i] for i in range(len(gmArray)) if type(gmArray[i]) == str]
-    with open(f"{name}_reforms.json", "w", encoding="utf8") as output:
-        for k in range(len(tiers) // 2):
-            text += (
-                f""""{tiers[k * 2 + 1]}"""
-                + """": {
-"""
-            )
-            for i in range(len(gmArray)):
-                if type(gmArray[i]) != list:
+def merging_reforms(goverment_reforms):
+    """Merges all Government Reforms from GE's files into one json"""
+    print("Started Merging Government Reforms")
+    modifiers_output = ""
+    modifiers_to_update = []
+    for modifiers_file in goverment_reforms:
+        with open(modifiers_file, "r", encoding="utf-8") as reading_modifiers:
+            for line_modifiers in reading_modifiers:
+                if line_modifiers.strip().startswith("#") or len(line_modifiers) < 2 and line_modifiers != "}" or line_modifiers.strip().startswith("picture"):
                     continue
-                if gmArray[i][1] is None:
-                    continue
-                if gmArray[i][2] != k:
-                    continue
+                modifiers_output += line_modifiers.split("#")[0].replace("= { }", "= {\n}").replace("= {}", "= {\n}").strip() + "\n"
+        modifiers_output += "\n"
 
-                link = "https://eu4.paradoxwikis.com/File:"
+    print("Merged all Government Reforms into one file")
+    json_parser(modifiers_output)
+    print("Jsonised the Government Reforms")
+    with open(GOV_REF_JSON, "r+", encoding="utf-8") as event_modif_file:
+        event_mod_dict = json.load(event_modif_file)
+        for key, value in event_mod_dict.items():
+            if isinstance(value, dict):
+                for modifier, number in value.items():
+                    with open(database, "r+", encoding="utf_8") as data_mods:
+                        for data_line in data_mods:
+                            dat_a = data_line.split("\t")
+                            if dat_a[0] == str(modifier):
+                                new_value = dat_a[1].strip()
+                                modifiers_to_update.append((key, modifier, new_value))
+                                break
 
-                if gmArray[i][4][-7:] == "_reform":
-                    link += f"""Reform_{gmArray[i][4][:-7]}"""
-                elif gmArray[i][4] in {
-                    "kingdom_of_god",
-                    "regionally_elected_commanders",
-                }:
-                    link += f"""Reform_{gmArray[i][4]}"""
-                elif gmArray[i][4][-12:] == "_highlighted":
-                    link += gmArray[i][4]
-                else:
-                    link += f"""Gov_{gmArray[i][4]}"""
+    # Update the event_mod_dict after iteration
+    for key, modifier, new_value in modifiers_to_update:
+        number = event_mod_dict[key][modifier]
+        del event_mod_dict[key][modifier]
+        event_mod_dict[key][new_value] = number
 
-                link += ".png"
-
-                text += (
-                    f"""    "{gmArray[i][1]}"""
-                    + '''": {
-        "Image": "'''
-                    + gmImage(link)
-                    + """",
-        "Effects": {"""
-                )
-                if len(gmArray[i][6]) > 0:
-                    for j in range(len(gmArray[i][6])):
-                        if len(gmArray[i][6][j].split("=")) < 2:
-                            continue
-                        text = (
-                            text
-                            + '''
-            "'''
-                            + gmArray[i][6][j].split("=")[0].strip()
-                            + """": """
-                            + gmArray[i][6][j].split("=")[1].strip()
-                            + """"""
-                        )
-                        if j != len(gmArray[i][6]) - 1:
-                            text = f"""{text},"""
-                text = (
-                    text
-                    + """
-        }
-    },
-"""
-                )
-            text = (
-                text[:-2]
-                + """
-},
-"""
-            )
-        output.write(text[:-2])
+    with open(GOV_REF_JSON, "w", encoding="utf-8") as file:
+        json.dump(event_mod_dict, file, indent="\t", separators=(",", ": "), ensure_ascii=False)
+    print("Localised the Government Reforms")
 
 
-def gmWiki(gmArray, name):
-    tiers = [gmArray[i] for i in range(len(gmArray)) if type(gmArray[i]) == str]
-    with open(f"eu4wiki_{name}.txt", "w", encoding="utf8") as output:
-        text = """__NOTOC__
-{{mod header|Governments Expanded}}
-
-=[[Governments_Expanded/Monarchy|Monarchy]] | [[Governments_Expanded/Republic|Republic]] | [[Governments_Expanded/Theocracy|Theocracy]] | [[Governments_Expanded/Tribal|Tribal]]=
-
-{| class="eu4box-inline mw-collapsible" style="text-align: center; margin: auto; max-width: 730px;"
-|+ <span style="white-space: nowrap;">\'\'\'Reform Tiers\'\'\'</span>
-
-"""
-        for i in range(len(tiers) // 2):
-            text = (
-                text
-                + """|-
-! class="gridBG header" style="text-align: left; color: white; padding-left: 5px;" | Tier """
-                + str(i + 1)
-                + """: [[#"""
-                + tiers[i * 2 + 1]
-                + """|"""
-                + tiers[i * 2 + 1]
-                + """]]
-|-
-| {{box wrapper}}
-"""
-            )
-            for j in range(len(gmArray)):
-                if type(gmArray[j]) != list:
-                    continue
-                if gmArray[j][2] == i:
-                    with contextlib.suppress(Exception):
-                        if gmArray[j][4][-7:] == "_reform":
-                            text = text + """{{Navicon|Reform_""" + gmArray[j][4][:-7]
-                        elif gmArray[j][4] in {
-                            "kingdom_of_god",
-                            "regionally_elected_commanders",
-                        }:
-                            text = text + """{{Navicon|Reform_""" + gmArray[j][4]
-                        elif gmArray[j][4][-12:] == "_highlighted":
-                            text = text + """{{Navicon|""" + gmArray[j][4]
-                        else:
-                            text = text + """{{Navicon|Gov_""" + gmArray[j][4]
-                        text = (
-                            f"""{text}|{gmArray[j][1]}"""
-                            + """}}
-"""
-                        )
-                elif gmArray[j][2] > i:
-                    text = (
-                        text
-                        + """{{end box wrapper}}
-
-"""
-                    )
-                    break
-        text = (
-            text
-            + """{{end box wrapper}}
-|}
-
-== Reform Tiers ==
-
-"""
-        )
-        for i in range(len(tiers) // 2):
-            text = (
-                f"""{text}=== {tiers[i * 2 + 1]}"""
-                + """ ===
-{| class="mildtable sortable" style="width:100%"
-! style="width:150px" | Type
-! style="width:300px" class="unsortable" | Effects
-! class="unsortable" | Description & notes
-
-"""
-            )
-            for j in range(len(gmArray)):
-                if type(gmArray[j]) != list:
-                    continue
-                if gmArray[j][2] == i:
-                    if type(gmArray[j][1]) == str:
-                        text = (
-                            f"""{text}|- id="{gmArray[j][1]}"""
-                            + """"
-| \'\'\'"""
-                            + gmArray[j][1]
-                            + """\'\'\'
-|
-"""
-                        )
-                        for k in range(len(gmArray[j][6])):
-                            text = f"{text}* {gmArray[j][6][k]}" + "\n"
-                        text = (
-                            text
-                            + """|
-{{desc|"""
-                            + gmArray[j][1]
-                            + """|"""
-                            + gmArray[j][3]
-                            + "|image="
-                        )
-                        if gmArray[j][4][-7:] == "_reform":
-                            text = f"{text}Reform_{gmArray[j][4][:-7]}" + "}}\n"
-                        elif gmArray[j][4] in {
-                            "kingdom_of_god",
-                            "regionally_elected_commanders",
-                        }:
-                            text = f"{text}Reform_{gmArray[j][4]}" + "}}\n"
-                        elif gmArray[j][4][-12:] == "_highlighted":
-                            text = text + gmArray[j][4] + "}}\n"
-                        else:
-                            text = f"{text}Gov_{gmArray[j][4]}" + "}}\n"
-                        for k in range(len(gmArray[j][8])):
-                            text = f"{text}* {gmArray[j][8][k]}" + "\n"
-                        text = text + "\n"
-                elif gmArray[j][2] > i:
-                    text = text + "|}\n"
-                    break
-        text = text + "|}\n\n[[Category:Governments Expanded]]"
-
-        output.write(text)
+def build(new_dict):
+    """Final Build"""
+    print("Successfully localised the file!")
 
 
-def gmLocal(gmArray, gmText):
-    skip = False
-    for i in range(len(gmArray)):
-        if skip:
-            skip = False
-            continue
-        elif type(gmArray[i]) == str:
-            gmArray[i + 1] = gmFind(gmArray[i], gmText)
-            skip = True
+def json_parser(gov_file):
+    """let's parse it all"""
+    if not isinstance(gov_file, str):
+        try:
+            file = open(gov_file, "r", encoding="utf_8")
+            data = file.read()
+            file.close()
+            file_name = basename(gov_file)
+        except FileNotFoundError:
+            print(f"ERROR: Unable to find file: {gov_file}")
+            return None
+    else:
+        data = gov_file
+        file_name = "govRef.txt"
+
+    data = re.sub(r"#.*", "", data)  # Remove comments
+    data = re.sub(
+        r"(?<=^[^\"\n])*(?<=[0-9\.\-trigger_a-zA-Z])+(\s)(?=[0-9\.\-trigger_a-zA-Z])+(?=[^\"\n]*$)",
+        "\n",
+        data,
+        flags=re.MULTILINE,
+    )  # Separate one line lists
+    data = re.sub(r"[\t ]", "", data)  # Remove tabs and spaces
+    data = re.sub(r"date=1.01.01", "", data)
+    data = re.sub(r"time={months=120} ", "", data)
+    data = re.sub(r"build_cost=1000", "", data)
+    data = re.sub(r"type=monument", "", data)
+    data = re.sub(r"can_be_moved=no", "", data)
+    data = re.sub(r"on_built={}", "", data)
+    data = re.sub(r"on_destroyed={}", "", data)
+    data = re.sub(r"build_trigger={}", "", data)
+    data = re.sub(r"keep_trigger={}", "", data)
+
+    if definitions := re.findall(r"(@\w+)=(.+)", data):  # replace @variables with value
+        for definition in definitions:
+            data = re.sub(r"^@.+", "", data, flags=re.MULTILINE)
+            data = re.sub(definition[0], definition[1], data)
+
+    data = re.sub(r"\n{2,}", "\n", data)  # Remove excessive new lines
+    data = re.sub(r"\n", "", data, count=1)  # Remove the first new line
+    data = re.sub(r"{(?=\w)", "{\n", data)  # reformat one-liners
+    data = re.sub(r"(?<=\w)}", "\n}", data)  # reformat one-liners
+    data = re.sub(r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data, flags=re.MULTILINE)  # Add quotes around keys
+    data = re.sub(r"([^><])=", r"\1:", data)  # Replace = with : but not >= or <=
+    data = re.sub(
+        r"(?<=:)(?!-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?)(?!\".*\")[^{},\n]+",
+        r'"\g<0>"',
+        data,
+    )  # Add quotes around string _values
+    data = re.sub(r':"yes"', ":true", data)  # Replace yes with true
+    data = re.sub(r':"no"', ":false", data)  # Replace no with false
+    data = re.sub(r"([<>]=?)(.+)", r':{"_value":\g<2>,"operand":"\g<1>"}', data)  # Handle < > >= <=
+    data = re.sub(r"(?<![:{])\n(?!}|$)", ",", data)  # Add commas
+    data = re.sub(r"\s", "", data)  # remove all white space
+    data = re.sub(r'{(("[trigger_a-zA-Z_]+")+)}', r"[\g<1>]", data)  # make lists
+    data = re.sub(r'""', r'","', data)  # Add commas to lists
+    data = re.sub(r'{("\w+"(,"\w+")*)}', r"[\g<1>]", data)
+    data = re.sub(
+        r"((\"hsv\")({\trigger_d\.\trigger_d{1,3}(,\trigger_d\.\trigger_d{1,3}){2}})),",
+        r"{\g<2>:\g<3>},",
+        data,
+    )  # fix hsv objects
+    data = re.sub(r":{([^}{:]*)}", r":[\1]", data)  # if there's no : between list elements need to replace {} with []
+    data = re.sub(r"\[(\w+)\]", r'"\g<1>"', data)
+    data = re.sub(r"\",:{", '":{', data)  # Fix user_empire_designs
+    data = "{" + data + "}"
+
+
+    try:
+        json_data = json.loads(data, object_pairs_hook=_handle_duplicates)
+    except json.decoder.JSONDecodeError:
+        print(f"ERROR: Unable to parse {file_name}")
+        print("Dumping intermediate code into file: {}_{:.0f}.intermediate".format(file_name, time.time()))
+
+        with open(f"./output/{file_name}_{time.time():.0f}.intermediate", "w", encoding="utf-8") as output:
+            output.write(data)
+
+        return None
+
+    with open(f"{file_name[:-4]}.json", "w", encoding="utf_8") as file:
+        json.dump(json_data, file, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
+    print("Successfully created the json file")
+
+
+def _handle_duplicates(ordered_pairs):
+    trigger_d = {}
+    for k, v in ordered_pairs:
+        if k in trigger_d:
+            if isinstance(trigger_d[k], list):
+                trigger_d[k].append(v)
+            else:
+                trigger_d[k] = [trigger_d[k], v]
         else:
-            gmArray[i][1] = gmFind(gmArray[i][0], gmText)
-            gmArray[i][3] = gmFind(f"{gmArray[i][0]}_desc", gmText)
-
-    print(gmArray)
-
-
-def gmFind(gmRef, gmText):
-    for file in gmText:
-        with open(file, "r+", encoding="utf8") as gmFile:
-            for lineA in gmFile:
-                lineA = lineA.split("#")[0].strip()
-                if lineA.find(f"{gmRef}:") == 0:
-                    # print(lineA)
-                    return lineA.split('"', 1)[1].strip()[:-1]
-
-
-def gmFilter(gmDir, gmText):
-    gmArray = os.listdir(gmDir)
-    return [gmDir + "\\" + file for file in gmArray if file.endswith(gmText)]
-
-
-def gmReforms(gmArray, gm_reforms):
-    for ref in gmArray:
-        for file in gm_reforms:
-            if type(ref) == str:
-                break
-            with open(file, "r+") as gmFile:
-                for lineA in gmFile:
-                    lineA = lineA.split("#")[0]
-                    if lineA.find(ref[0]) == 0:
-                        ref.extend(["", "", "", "", "", ""])
-                        for lineB in gmFile:
-                            lineB = lineB.split("#")[0]
-                            if lineB.find("icon") >= 0:
-                                ref[4] = lineB.split("=")[1].strip()
-                                if ref[4].find('"') >= 0:
-                                    ref[4] = ref[4][1:-1]
-                            elif lineB.find("modifiers") >= 0:
-                                ref[6] = []
-                                for lineC in gmFile:
-                                    if lineC.find("}") == -1:
-                                        ref[6].append(lineC.strip())
-                                    else:
-                                        break
-                            elif lineB.find("custom_attributes") >= 0:
-                                ref[8] = []
-                                for lineC in gmFile:
-                                    if lineC.find("}") == -1:
-                                        ref[8].append(lineC.strip())
-                                    else:
-                                        break
-                            elif lineB.find("}") == 0:
-                                break
-                        break
-            if len(ref) > 4:
-                break
-
-    # print(gmArray)
-
-
-def gmSort(gmArray, gmText, governments):
-    with open(governments, "r+") as gmFile:
-        for lineA in gmFile:
-            lineA = lineA.split("#")[0]
-            if lineA.find(gmText) == 0:
-                num = 0
-                for lineB in gmFile:
-                    lineB = lineB.split("#")[0]
-                    if lineB.strip() == "reforms = {":
-                        for lineC in gmFile:
-                            lineC = lineC.split("#")[0].strip()
-                            if lineC.find("}") == 0:
-                                num += 1
-                                for lineD in gmFile:
-                                    if lineD.find("}") >= 0:
-                                        for lineE in gmFile:
-                                            if lineE.find("}") < 0:
-                                                gmArray.extend([lineE.split("=")[0].strip(), ""])
-                                            break
-                                    break
-                                break
-                            elif lineC != "":
-                                gmArray.append([lineC, "", num, ""])
-                    elif lineB.find("}") == 0:
-                        break
-                    elif lineB.find("reform_levels") >= 0:
-                        for lineC in gmFile:
-                            gmArray.extend([lineC.split("=")[0].strip(), ""])
-                            break
-                break
-
-    # print(gmArray)
+            trigger_d[k] = v
+    return trigger_d
 
 
 start()
