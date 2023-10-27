@@ -997,6 +997,7 @@ GER_REV	Germany-Revolutionary
 
 accept_vassalization_reasons	Vassalization Acceptance
 add_tribal_land_cost	Add Tribal Land Cost
+ADM	Administrative
 adm_advisor_cost	Administrative Advisor Cost
 adm_tech_cost_modifier	Administrative Technology Cost
 administrative_efficiency	Administrative Efficiency
@@ -1142,6 +1143,7 @@ development_cost_modifier	Development Cost Modifier
 devotion	Yearly Devotion
 dhimmi_influence_modifier	Dhimmi Influence
 dhimmi_loyalty_modifier	Dhimmi Loyalty Equilibrium
+DIP	Diplomatic
 dip_advisor_cost	Diplomatic Advisor Cost
 dip_tech_cost_modifier	Diplomatic Technology Cost
 diplomatic_annexation_cost	Diplomatic Annexation Cost
@@ -1454,6 +1456,7 @@ merchants	Merchants
 meritocracy	Yearly Meritocracy
 migration_cooldown	Migration Cooldown
 migration_cost	Migration Cost
+MIL	Military
 mil_advisor_cost	Military Advisor Cost
 mil_tech_cost_modifier	Military Technology Cost
 military_tactics	Military Tactics
@@ -2345,7 +2348,7 @@ liguria_area	Liguria
 corsica_sardinia_area	Western Mediterranean Islands
 sicily_area	Eastern Sicily
 western_sicily_area	Western Sicily
-naples_area	2Campania
+naples_area	Campania
 lazio_area	Lazio-Umbria
 calabria_area	Calabria
 apulia_area	Apulia
@@ -2378,7 +2381,7 @@ finland_area	Finland
 bothnia_area	Ostrobothnia
 laponia_area	Laponia
 karelia_area	South Karelia
-subarctic_islands_area	2North Atlantic Islands
+subarctic_islands_area	North Atlantic Islands
 greenland_area	Greenland
 estonia_ingria_area	Estonia
 livonia_area	Livonia
@@ -2397,7 +2400,7 @@ central_poland_area	Central Poland
 sandomierz_area	Sandomierz
 kuyavia_area	Kuyavia
 samogitia_area	Samogitia
-lithuania_area	2Aukstaitija
+lithuania_area	Aukstaitija
 west_dniepr_area	West Dniepr
 east_dniepr_area	East Dniepr
 chernigov_area	Chernigov
@@ -2622,7 +2625,7 @@ melanesia_area	Melanesia
 fiji_area	Fiji
 micronesia_area	East Micronesia
 west_micronesia_area	West Micronesia
-western_australia_area	2Perth
+western_australia_area	Perth
 northern_australia_area	Capricornia
 top_end_area	Top End
 eastern_australia_area	New South Wales
@@ -2782,7 +2785,7 @@ mekong_area	Mekong
 tenasserim_area	Central Tenasserim
 north_tenasserim_area	North Tenasserim
 north_malaya_area	North Malaya
-vietnam_area	2Annam
+vietnam_area	Annam
 red_river_delta_area	Sông Hông
 north_laos_area	Luang Prabang
 vientiane_area	Vientiane
@@ -2882,7 +2885,7 @@ zungaria_area	South Dzungaria
 amdo_area	Amdo
 tsang_area	U
 kham_area	Kham
-utsang_area	2Tsang
+utsang_area	Tsang
 ngari_area	Ngari
 hebei_area	North Hebei
 south_hebei_area	South Hebei
@@ -2986,7 +2989,7 @@ american_georgia_area	Georgia
 upper_american_georgia_area	Upper Georgia
 florida_area	Florida
 north_florida_area	East Florida
-appalachia_area	2Vandalia
+appalachia_area	Vandalia
 south_appalachia_area	Overmountain
 west_florida_area	West Florida
 mississippi_area	Mississippi
@@ -3016,13 +3019,13 @@ minnessota_area	Minnesota
 upper_missouri_area	Upper Missouri
 badlands_area	Badlands
 llano_estacado_area	Llano Estacado
-coastal_prarie_area	2Coastal Prairie
+coastal_prarie_area	Coastal Prairie
 texas_area	Texas
 texas_plains_area	Texas Plains
 oregon_area	Oregon
 columbia_river_area	Columbia River
 snake_river_area	Snake River
-salish_sea_area	2Puget Sound
+salish_sea_area	Puget Sound
 interior_plateau_area	Interior Plateau
 hecate_strait_area	Hecate Strait
 alaska_area	Western Alaska
@@ -3370,6 +3373,39 @@ weapons	Weapons Manufactory
 wharf	Naval Equipment Manufactory
 workshop	Workshop
 
+### DLC
+100YearsWarUnitPackDLC	100 Years War Unit Pack
+HorsemenoftheCrescentDLC	Horsemen of the Crescent
+WingedHussarsUnitPackDLC	Winged Hussars Unit Pack
+StarandCrescentDLC	Star and Crescent
+AmericanDreamDLC	American Dream
+PurplePhoenixDLC	Purple Phoenix
+NationalMonumentsDLC	National Monuments
+NationalMonumentsIIDLC	National Monuments II
+ConquestofConstantinopleMusicPackDLC	Conquest of Constantinople Music Pack
+ConquestofParadiseDLC	Conquest of Paradise
+WealthofNationsDLC	Wealth of Nations
+ElDoradoDLC	El Dorado
+CommonSenseDLC	Common Sense
+TheCossacksDLC	The Cossacks
+MareNostrumDLC	Mare Nostrum
+MuslimAdvisorPortraitsDLC	Muslim Advisor Portraits
+RightsofManDLC	Rights of Man
+MandateofHeavenDLC	Mandate of Heaven
+ThirdRomeDLC	Third Rome
+CradleofCivilizationDLC	Cradle of Civilization
+RuleBritanniaDLC	Rule Britannia
+DharmaDLC	Dharma
+DharmaMuslimUnitPackDLC	Dharma - Indian Sultanate Pack
+DharmaHinduUnitPackDLC	Dharma - Hindu Unit Pack
+GoldenCenturyDLC	Golden Century
+EmperorDLC	Emperor
+HicSuntDraconesDLC	Hic Sunt Dracones
+ResPublicaDLC	Res Publica
+ArtofWarDLC	Art of War
+LionsOfTheNorthDLC	Lions of the North
+OriginsDLC	Origins
+
 ### Idea Groups
 administrative_ideas	Administrative Ideas
 aristocracy_ideas	Aristocratic Ideas
@@ -3396,6 +3432,12 @@ religious_ideas	Quality Ideas
 spy_ideas	Quantity Ideas
 theocracy_gov_ideas	Religious Ideas
 trade_ideas	Trade Ideas
+
+#Tehcnology
+indian	Indian
+muslim	Muslim
+chinese	Chinese
+east_african	East African
 
 ### Trade Goods
 amber	Amber
