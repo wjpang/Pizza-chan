@@ -1,132 +1,143 @@
+import datetime
 import json
 import os
 import re
 import time
 from os.path import basename
 
+MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2804377099"
+# eu4_dir = r'C:\Program Files\Epic Games\EuropaUniversalis4'  # This is for EGS
+
+path = os.getcwd()
+parent = os.path.dirname(path)
+finalpath = os.path.dirname(parent) + r"\data\HIE_country_ideas.json"
+
+tags = parent + r"\\tags.txt"
+ideas = parent + r"\ideas.txt"
+database = parent + r"\database.txt"
+
+ideas_hie_out_be4_json = MOD_PATH + r"\common\ideas\HIE_country_ideas.txt"
+
+ideas_dict = {}
+ideas_loc = {}
+LOC_DIR = MOD_PATH + r"\localisation"
+
 
 def start():
-    mod_dir = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2804377099"
-    # eu4_dir = r'C:\Program Files\Epic Games\EuropaUniversalis4'  # This is for EGS
-
-    path = os.getcwd()
-    parent = os.path.dirname(path)
-    finalpath = os.path.dirname(parent) + r"\data\HIE_country_ideas.json"
-
-    tags = parent + r"\\tags.txt"
-    ideas = parent + r"\ideas.txt"
-    data = parent + r"\database.txt"
-
-    ideas_hie_out_be4_json = mod_dir + r"\common\ideas\HIE_country_ideas.txt"
-
-    ideas_hie = "HIE_country_ideas.json"
-    localisation_dir = mod_dir + r"\localisation"
-
     JsonParser(ideas_hie_out_be4_json)
 
-    build(ideas_hie, tags, data, ideas, localisation_dir, finalpath)
+    create_localisation(LOC_DIR)
+
+    build(ideas_dict)
 
 
-def build(ideas_hie, tags, data, ideas, localisation_dir, finalpath):
-    # create ideas.txt (Basically just call the create_ideas function)
-    # create_ideas(ideas_hie, ideas, localisation_dir)
-
+def build(dictionary):
     # create/populate local_country_ideas json
-    with open(ideas_hie, "r+", encoding="utf8") as ideas_out:
-        idea_lib = json.load(ideas_out)
-        idea_lib2 = {}
+    localized_datas = {}
+    final_dict = {}
+    with open(database, "r", encoding="utf-8") as file:
+        for line in file:
+            if len(line.strip().split("\t")) == 2:
+                key, localized_data = line.strip().split("\t")
+                localized_datas[key] = localized_data
 
-        for i in idea_lib:
-            with open(tags, "r+", encoding="utf8") as tags_loc:
-                i_a = i[4:-6]
+    final_dict = recursive_process_dict(dictionary, localized_datas)
 
-                for tagline in tags_loc:
-                    tag_a = tagline.split("\t")
-                    if tag_a[0] == i_a:
-                        i_a = tag_a[1].strip()
-                        break
+    with open(f"{os.path.dirname(finalpath)}\\HIE_country_ideas.json", "w", encoding="utf-8") as output:
+        json.dump(final_dict, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # ) #, sort_keys=True)
 
-                idea_lib2[i_a] = {}
-
-                for j in idea_lib[i]:
-                    if j == "trigger":
-                        continue
-
-                    with open(ideas, "r+", encoding="utf8") as ideasLoc:
-                        jA = j
-
-                        if j == "start":
-                            jA = "Traditions"
-                        elif j == "bonus":
-                            jA = "Ambition"
-                        else:
-                            for idealine in ideasLoc:
-                                ideaA = idealine.split("\t")
-                                if ideaA[0] == jA:
-                                    jA = ideaA[1].strip()
-                                    break
-
-                        idea_lib2[i_a].update({jA: {}})
-
-                        for k in idea_lib[i][j]:
-                            with open(data, "r+", encoding="utf8") as dataLoc:
-                                kA = k
-
-                                for dataline in dataLoc:
-                                    datA = dataline.split("\t")
-                                    if datA[0] == kA:
-                                        kA = datA[1].strip()
-                                        break
-
-                                idea_lib2[i_a][jA].update({kA: idea_lib[i][j][k]})
-
-        with open(f"{os.path.dirname(finalpath)}\\HIE_country_ideas.json", "w", encoding="utf-8") as output:
-            json.dump(idea_lib2, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # ) #, sort_keys=True)
     print("succesfully created the final Json")
 
 
-def create_ideas(ideas_hie, ideas, localisation_dir):
-    with open(ideas_hie, "r+", encoding="utf8") as ideas_out:
-        idea_lib = json.load(ideas_out)
-        array = []
+def recursive_process_dict(dictionary, loc_datas):
+    for key, value in list(dictionary.items()):
+        if key.startswith("HIE_"):
+            new_key = key.replace("_ideas", "")
+            new_key = new_key.replace("HIE_", "")
+            new_key = loc_datas.get(new_key)
+            dictionary[new_key] = dictionary.pop(key)
+            recursive_process_dict(dictionary[new_key], loc_datas)
+        elif key == "effect":
+            new_key = key.replace("_", " ").title()
+            if "custom_tooltip" in value:
+                if "admirals_give_army_professionalism_tt" in value["custom_tooltip"]:
+                    new_key = "Recruiting Admirals grants 0.5% Army Professionalism"
+                    del dictionary[key]["custom_tooltip"]
+                    del dictionary[key]["set_country_flag"]
+            else:
+                new_key = "Remove Temporary Colonist"
+            new_value = True
+            # else:
+            #     new_value = recursive_process_dict(value, loc_datas)
+        elif key.startswith("hie") or key in ("start", "bonus", "MFA_byzantine_claimants"):
+            new_key = ideas_loc.get(key)
+            dictionary[new_key] = dictionary.pop(key)
+            new_value = recursive_process_dict(dictionary[new_key], loc_datas)
+            dictionary[new_key] = new_value
+        else:
+            new_key = loc_datas.get(key)
+            new_value = value
 
-        filenames = gmFilter(localisation_dir, "yml")
-        filenames.extend(gmFilter(localisation_dir, "english.yml"))
+        if key in dictionary:
+            dictionary[new_key] = dictionary.pop(key)
+            dictionary[new_key] = new_value
 
-        for i in idea_lib:
-            for j in idea_lib[i]:
-                if j in {"start", "bonus", "trigger", "free"}:
-                    continue
-                array.append([j, ""])
-                for file in filenames:
-                    with open(file, "r+", encoding="utf8") as localOut:
-                        for line_b in localOut:
-                            line_b = line_b.strip()
-                            if line_b.find(":") != -1:
-                                lineB2 = line_b.split(":", 1)
-                                if array[-1][0].casefold() == "mfa_byzantine_claimants":
-                                    array[-1][1] = "Last Claimants of Byzantium"
-                                elif lineB2[0].casefold() == array[-1][0].casefold():
-                                    array[-1][1] = lineB2[1].split('"', 1)[1][:-1]
-                                    break
-                    if array[-1][1] != "":
-                        break
-                if array[-1][1] == "":
-                    print(array[-1])
-
-    with open(ideas, "w", encoding="utf8") as output:
-        for i in array:
-            output.write(i[0] + "\t" + i[1])
-            output.write("\n")
-    print("succesfully created the localisation file")
+    return dictionary
 
 
-def gmFilter(gm_dir, gm_text):
+def create_localisation(loc_dir):
+    print("Started the creation of localisation")
+    index = 0
+    tolerance = 0.0250
+
+    filenames = hie_filter(loc_dir, "l_english.yml")
+
+    for key in ideas_dict:
+
+        if "trigger" in ideas_dict[key]:
+            del ideas_dict[key]["trigger"]
+        elif "free" in ideas_dict[key]:
+            del ideas_dict[key]["free"]
+
+        for key_sub in ideas_dict[key]:
+            percentage = (index/(len(ideas_dict)*11)) * 100
+            if abs(percentage % 2.5 - 0) < tolerance or abs(percentage % 2.5 - 2.5) < tolerance:
+                current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                print(f"Time: {current_time} - Progress: {percentage:.1f}%")
+            index += 1
+            if key_sub == "start":
+                ideas_loc[key_sub] = "Traditions"
+                continue
+            if key_sub == "bonus":
+                ideas_loc[key_sub] = "Ambition"
+                continue
+            if key_sub == "MFA_byzantine_claimants":
+                ideas_loc[key_sub] = "Last Claimants of Byzantium"
+                continue
+
+            ideas_loc[key_sub] = ""
+
+            for filename in filenames:
+                with open(filename, "r", encoding="utf-8") as file:
+                    for line in file:
+                        if ":" in line:
+                            line_key_sub, line_value = line.split(":", 1)
+                            if line_value.startswith(("0", "1")):
+                                line_value = line[1:]
+                            if line_key_sub.strip() == key_sub:
+                                ideas_loc[key_sub] = line_value.strip().replace('"', "").replace(",", "").title()
+                                break
+
+    print("Created the Localisation Dictionary")
+
+
+def hie_filter(gm_dir, gm_text):
     gm_array = os.listdir(gm_dir)
     return [gm_dir + "\\" + file for file in gm_array if file.endswith(gm_text)]
 
 
 def JsonParser(ideas_hie_out_be4_json):
+    global ideas_dict
     try:
         file = open(ideas_hie_out_be4_json, "r")
         data = file.read()
@@ -188,8 +199,10 @@ def JsonParser(ideas_hie_out_be4_json):
 
         return None
 
-    with open(f"{file_name[:-4]}.json", "w") as file:
-        json.dump(json_data, file, indent="\t")  # , separators=(",", ": "), ensure_ascii=False) #) #, sort_keys=True)
+    ideas_dict = json_data
+
+    # with open(f"{file_name[:-4]}.json", "w") as file:
+    #     json.dump(json_data, file, indent="\t")  # , separators=(",", ": "), ensure_ascii=False) #) #, sort_keys=True)
     print("Successfully created the json file")
 
 
