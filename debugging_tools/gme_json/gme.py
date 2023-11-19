@@ -5,252 +5,200 @@ import re
 import time
 from os.path import basename
 
+# all definitions
+MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2469419235"
+LOC_DIR = MOD_PATH + r"\localisation"
+MON_DIR = MOD_PATH + r"\common\great_projects"
+
 path = os.getcwd()
 parent = os.path.dirname(path)
 finalpath = os.path.dirname(parent) + r"\data\GME.json"
-provinces = parent + "\\provinces.json"
-mod_path = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2469419235"
-# eu4DIR = r'C:\Program Files\Epic Games\EuropaUniversalis4' # This is for EGS -- Vielor
-localisation_dir = mod_path + r"\localisation"
-monuments_path = mod_path + r"\common\great_projects"
 
-data = parent + "\\database.txt"
-monument_localisation = "monumentsLoc.txt"
+provinces = parent + "\\provinces.json"
+database = parent + "\\database.txt"
 tags = parent + "\\tags.txt"
 
-monument_json = "monuments.json"
-monuments_input = glob.glob(monuments_path + "\*.txt")
-monument_output_b4_json = "monuments.txt"
+MON_INPUT = glob.glob(MON_DIR + "\*.txt")
+
+dict_original = {}
+dict_localisation = {}
+check = ""
 
 
 def start():
-    """all definitions"""
-    merging_monuments(monuments_input)
-    json_parser(monument_output_b4_json)
-    create_localisation_file(monument_json, monument_localisation, localisation_dir)
+    """calls"""
+    merging_monuments(MON_INPUT)
+    create_localisation_file(LOC_DIR)
 
-    build(monument_json, finalpath)
+    build(dict_original)
 
 
-def recursive_dict(dictionary):
+def merging_monuments(MON_INPUT):
+    """merge all Monuments into trigger_a single file"""
+    monument_merged_tx = ""
+
+    for monument_file in MON_INPUT:
+        with open(monument_file, "r", encoding="utf-8") as reading_mon:
+            monument_merged_tx += monument_file[100:-4]
+            monument_merged_tx += " = {\n"
+            for line_mon in reading_mon:
+                if line_mon.startswith("#"):
+                    continue
+                monument_merged_tx += "\t"
+                monument_merged_tx += line_mon
+
+            monument_merged_tx += "\n}\n"
+
+    print("Merged all monuments into one file")
+
+    json_parser(monument_merged_tx)
+
+
+def create_localisation_file(directory_localisation):
+    """time to do the unification of the yml"""
+    print("Started the creation of localisation")
+    filenames = gme_filter(directory_localisation, "yml")
+
+    for key in dict_original:
+        for key_sub in dict_original[key]:
+            dict_localisation[key_sub] = ""
+
+            for filename in filenames:
+                with open(filename, "r", encoding="utf-8") as file:
+                    for line in file:
+                        if ":" in line:
+                            line_key_sub, line_value = line.split(":", 1)
+                            if line_value.startswith(("0", "1")):
+                                line_value = line[1:]
+                            if line_key_sub.strip() == key_sub:
+                                dict_localisation[key_sub] = line_value.strip().replace('"', "").replace(",", "")
+                                break
+
+    print("Successfully populated the localisation file")
+
+
+def build(dictionary):
+    """Final build"""
+    localized_datas = {}
+    dict_final = {}
+    localized_provinces = {}
+
+    with open(database, "r", encoding="utf-8") as file:
+        for line in file:
+            if len(line.strip().split("\t")) == 2:
+                key, localized_data = line.strip().split("\t")
+                localized_datas[key] = localized_data
+    with open(provinces, "r", encoding="utf-8") as file:
+        localized_provinces = json.load(file)
+
+    dict_final = recursive_dict(dictionary, dict_localisation, localized_datas, localized_provinces)
+
+    with open(f"{os.path.dirname(finalpath)}\\GME.json", "w", encoding="utf-8") as output:
+        json.dump(dict_final, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
+
+    print("Successfully created the final file")
+
+
+def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
+    global check
+
     for key, value in list(dictionary.items()):
         if key in (
             "time",
+            "can_use_modifiers_trigger",
             "build_trigger",
             "tier_0",
             "upgrade_time",
             "cost_to_upgrade",
             "on_upgraded",
-            "build_cost",
-            "move_days_per_unit_distance",
-            "can_use_modifiers_trigger",
         ):
             del dictionary[key]
         else:
-            if isinstance(value, dict):
-                recursive_dict(value)
-            elif isinstance(value, list):
-                for ite in value:
-                    if isinstance(ite, dict):
-                        recursive_dict(ite)
-            if (
-                key.startswith("tier_")
-                or key.startswith("has_owner")
+            key_localisation_check = [
+                key == "primary_culture"
+                or key.startswith("tier_")
+                or key == "add_building"
+                or key == "add_ruler_personality"
+                or key == "advisor"
+                or key == "accepted_culture"
+                or key == "change_culture"
+                or key == "change_trade_goods"
+                or key == "custom_tooltip"
+                or key == "disaster"
+                or key == "has_building"
+                or key == "has_country_modifier"
+                or key == "has_idea_group"
+                or key == "remove_building"
+                or key == "remove_country_modifier"
+                or key == "ruler_has_personality"
+                or key == "tag"
+                or key == "trade_goods"
+                or key == "trait"
+                or key == "was_tag"
+                or key.startswith("area")
+                or key.startswith("continent")
                 or key.startswith("culture")
+                or key.startswith("owned_by")
+                or key.startswith("region")
                 or key.startswith("religion")
-                or key.startswith("province_is")
-                or key.startswith("can")
-                or key.startswith("has")
-                or key.startswith("government")
-                or key.startswith("is")
-                or key.startswith("owne")
-                or key
-                in (
-                    "area_modifier",
-                    "conditional_modifier",
-                    "country_modifiers",
-                    "dynasty",
-                    "modifier",
-                    "province_modifiers",
-                    "primary_culture",
-                    "region_modifier",
-                    "starting_tier",
-                    "trigger",
-                )
-            ):
+                or key.startswith("superregion")
+            ]
+
+            if isinstance(value, dict):
                 if key == "can_upgrade_trigger":
-                    new_key = "Monument Trigger"
+                    key_new = "Monument Trigger"
+                elif key.startswith("gme_"):
+                    key_new = loc_names.get(key)
                 else:
-                    new_key = key.replace("_", " ").title()
-                dictionary[new_key] = dictionary.pop(key)
-                if new_key.startswith("Religion") or new_key.startswith("Culture") or new_key == "Primary Culture":
-                    if isinstance(value, str):
-                        with open(data, "r+", encoding="utf_8") as data_mods:
-                            for data_line in data_mods:
-                                dat_a = data_line.split("\t")
-                                if dat_a[0] == str(value):
-                                    value = dat_a[1].strip()
-                                    dictionary[new_key] = value
-                                    continue
+                    key_new = key.replace("_", " ").title()
+                dictionary[key_new] = dictionary.pop(key)
+                dictionary[key_new] = value
+                key = key_new
+                recursive_dict(value, loc_names, loc_datas, loc_provinces)
+            elif isinstance(value, list):
+                if any(key_localisation_check) and key not in ("area_modifier", "region_modifier"):
+                    if key in ["tag", "owned_by", "primary_culture"] or key.startswith(("culture", "religion")):
+                        key_new = "Country" if key == "tag" else key.replace("_", " ").title()
+                        if key in dictionary:
+                            dictionary[key_new] = dictionary.pop(key)
+                        if isinstance(value, list):
+                            for i, values in enumerate(value):
+                                localized_data = loc_datas.get(values)
+                                localized_name = loc_names.get(values)
+                                dictionary[key_new][i] = localized_data if localized_data is not None else localized_name
+                        else:
+                            localized_data = loc_datas.get(value)
+                            localized_name = loc_names.get(value)
+                            dictionary[key_new] = localized_data if localized_data is not None else localized_name
+                else:
+                    key_new = "Monument Trigger" if key == "can_upgrade_trigger" else key.replace("_", " ").title()
+                    dictionary[key_new] = dictionary.pop(key)
+                    key = key_new
+                    if len(value) != 0 and isinstance(value, dict):
+                        recursive_dict(value, loc_names, loc_datas, loc_provinces)
                     elif isinstance(value, list):
-                        for i, item in enumerate(value):
-                            with open(data, "r+", encoding="utf_8") as data_mods:
-                                for data_line in data_mods:
-                                    dat_a = data_line.split("\t")
-                                    if dat_a[0] == str(item):
-                                        new_value = dat_a[1].strip()
-                                        dictionary[new_key][i] = new_value
-                                        continue
-                elif new_key.startswith("Owne"):
-                    if isinstance(value, list):
-                        for i, item in enumerate(value):
-                            with open(tags, "r+", encoding="utf_8") as tag_mods:
-                                for tag_line in tag_mods:
-                                    dat_a = tag_line.split("\t")
-                                    if dat_a[0] == str(item):
-                                        new_value = dat_a[1].strip()
-                                        dictionary[new_key][i] = new_value
-                                        continue
-                    else:
-                        with open(tags, "r+", encoding="utf8") as tags_loc:
-                            for tagline in tags_loc:
-                                tag_a = tagline.split("\t")
-                                if tag_a[0] == value:
-                                    country_localised = tag_a[1].strip()
-                                    value = country_localised
-                                    break
-            elif key in ("tag", "Owned By"):
-                new_key = "Country" if key == "tag" else "Owned By"
-                dictionary[new_key] = dictionary.pop(key)
-                if isinstance(value, list):
-                    for i, item in enumerate(value):
-                        with open(tags, "r+", encoding="utf_8") as tag_mods:
-                            for tag_line in tag_mods:
-                                dat_a = tag_line.split("\t")
-                                if dat_a[0] == str(item):
-                                    new_value = dat_a[1].strip()
-                                    dictionary[new_key][i] = new_value
-                                    continue
+                        for values in value:
+                            if isinstance(values, dict):
+                                recursive_dict(values, loc_names, loc_datas, loc_provinces)
+            elif isinstance(key, str):
+                if key == "start":
+                    key_new = "Province"
                 else:
-                    with open(tags, "r+", encoding="utf8") as tags_loc:
-                        for tagline in tags_loc:
-                            tag_a = tagline.split("\t")
-                            if tag_a[0] == value:
-                                country_localised = tag_a[1].strip()
-                                value = country_localised
-                                break
-            elif key == "start":
-                new_key = "Province"
-                dictionary[new_key] = dictionary.pop(key)
-                with open(provinces, "r+", encoding="utf_8") as provinces_in:
-                    province_lib = json.load(provinces_in)
-                    for province_id, province_name in province_lib.items():
-                        province_id_string = str(value)
-                        if province_id_string == province_id:
-                            value = str(value)
-                            value = province_name
-                            break
-                dictionary[new_key] = value
-            elif key.startswith("gme_"):
-                with open(monument_localisation, "r+", encoding="utf_8") as monument_loc:
-                    for monument_line in monument_loc:
-                        monument_name_a = monument_line.split("\t")
-                        if monument_name_a[0] == key:
-                            new_key = monument_name_a[1].strip()
-                            dictionary[new_key] = dictionary.pop(key)
-                            break
-            elif isinstance(key, str) and isinstance(value, float) or isinstance(value, str):
-                with open(data, "r+", encoding="utf_8") as data_mods:
-                    for data_line in data_mods:
-                        dat_a = data_line.split("\t")
-                        if dat_a[0] == key:
-                            new_key = dat_a[1].strip()
-                            dictionary[new_key] = dictionary.pop(key)
-                            continue
-                continue
-            else:
-                if key in ("OR", "NOT", "AND", "NOT"):
-                    if isinstance(value, dict):
-                        recursive_dict(value)
+                    if isinstance(value, bool) or key == "starting_tier" or any(key_localisation_check):
+                        key_new = key.replace("_", " ").title()
                     else:
-                        for i, item in enumerate(value):
-                            if isinstance(item, dict):
-                                recursive_dict(item)
-                                continue
-                            with open(data, "r+", encoding="utf_8") as data_mods:
-                                for data_line in data_mods:
-                                    dat_a = data_line.split("\t")
-                                    if dat_a[0] == str(item):
-                                        new_value = dat_a[1].strip()
-                                        dictionary[key][i] = new_value
-                                        continue
-                else:
-                    if isinstance(key, str) and isinstance(value, dict) and key not in ("Owner", "FROM", "else", "if", "limit"):
-                        new_key = key.replace("_", " ").title()
-                        dictionary[new_key] = dictionary.pop(key)
-                    continue
+                        key_new = loc_datas.get(key)
+                value_new = loc_provinces.get(value) if key == "start" else loc_datas.get(value)
+                if key_new is None:
+                    key_new = key
+                if value_new is None:
+                    value_new = value
+                dictionary[key_new] = dictionary.pop(key)
+                dictionary[key_new] = value_new
+                key = key_new
+                value = value_new
+
     return dictionary
-
-
-def build(mon_json, finalpath):
-    """Final build"""
-    with open(mon_json, "r+", encoding="utf_8") as monuments_in:
-        mon_lib = json.load(monuments_in)
-        mon_lib2 = {}
-
-        mon_lib2 = recursive_dict(mon_lib)
-
-        with open(f"{os.path.dirname(finalpath)}\\GME.json", "w", encoding="utf-8") as output:
-            json.dump(mon_lib2, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
-
-
-def merging_monuments(monuments_input):
-    """merge all Monuments into trigger_a single file"""
-    with open("monuments.txt", "w", encoding="utf-8") as monument_output:
-        for monument_file in monuments_input:
-            with open(monument_file, "r", encoding="utf-8") as reading_mon:
-                monument_output.write(monument_file[100:-4])
-                monument_output.write(" = {\n")
-                for line_mon in reading_mon:
-                    monument_output.write("\t")
-                    monument_output.write(line_mon)
-
-                monument_output.write("\n}\n")
-    print("Merged all monuments into one file")
-
-
-def create_localisation_file(monument_json, monument_localisation, localisation_dir):
-    """time to do the unification of the yml"""
-    with open(monument_json, "r+", encoding="utf_8") as loc_out:
-        loc_lib = json.load(loc_out)
-        array = []
-
-        filenames = gme_filter(localisation_dir, "yml")
-        filenames.extend(gme_filter(localisation_dir, "english.yml"))
-
-        for m_loc in loc_lib:
-            for trigger_m in loc_lib[m_loc]:
-                array.append([trigger_m, ""])
-                for file in filenames:
-                    with open(file, "r+", encoding="utf_8") as loc_out:
-                        for line in loc_out:
-                            line = line.strip()
-                            if line.find(":") != -1:
-                                line2 = line.split(":", 1)
-                                if line2[0].casefold() == array[-1][0].casefold():
-                                    array[-1][1] = line2[1].split('"', 1)[1][:-1]
-                                    break
-                    if array[-1][1] != "":
-                        break
-                # if array[-1][1] == '':
-                #    print(array[-1])
-
-    with open(monument_localisation, "w", encoding="utf_8") as output:
-        for i in array:
-            output.write(i[0] + "\t" + i[1])
-            output.write("\n")
-
-    print("Successfully populated the localisation file")
 
 
 def gme_filter(gm_dir, gm_text):
@@ -259,17 +207,22 @@ def gme_filter(gm_dir, gm_text):
     return [gm_dir + "\\" + file for file in gm_array if file.endswith(gm_text)]
 
 
-def json_parser(monument_o_b4_json):
+def json_parser(mon_file):
     """let's parse it all"""
-    try:
-        file = open(monument_o_b4_json, "r", encoding="utf_8")
-        data = file.read()
-        file.close()
-    except FileNotFoundError:
-        print(f"ERROR: Unable to find file: {monument_o_b4_json}")
-        return None
+    global dict_original
 
-    file_name = basename(monument_o_b4_json)
+    if "\\" in mon_file:
+        try:
+            file = open(mon_file, "r", encoding="utf8")
+            data = file.read()
+            file.close()
+            file_name = basename(mon_file)
+        except FileNotFoundError:
+            print(f"ERROR: Unable to find file: {mon_file}")
+            return None
+    else:
+        data = mon_file
+        file_name = "monFile.txt"
 
     data = re.sub(r"#.*", "", data)  # Remove comments
     data = re.sub(
@@ -282,6 +235,7 @@ def json_parser(monument_o_b4_json):
     data = re.sub(r"date=1.01.01", "", data)
     data = re.sub(r"time={months=120} ", "", data)
     data = re.sub(r"build_cost=1000", "", data)
+    data = re.sub(r"build_cost=0", "", data)
     data = re.sub(r"type=monument", "", data)
     data = re.sub(r"can_be_moved=no", "", data)
     data = re.sub(r"on_built={}", "", data)
@@ -323,8 +277,6 @@ def json_parser(monument_o_b4_json):
     data = re.sub(r"\",:{", '":{', data)  # Fix user_empire_designs
     data = "{" + data + "}"
 
-    file_name = basename(monument_o_b4_json)
-
     try:
         json_data = json.loads(data, object_pairs_hook=_handle_duplicates)
     except json.decoder.JSONDecodeError:
@@ -336,9 +288,11 @@ def json_parser(monument_o_b4_json):
 
         return None
 
-    with open(f"{file_name[:-4]}.json", "w", encoding="utf_8") as file:
-        json.dump(json_data, file, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
-    print("Successfully created the json file")
+    dict_original = json_data
+
+    # with open(f"{file_name[:-4]}.json", "w", encoding="utf8") as file:
+    #     json.dump(json_data, file, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
+    print("Created the initial json file")
 
 
 def _handle_duplicates(ordered_pairs):
