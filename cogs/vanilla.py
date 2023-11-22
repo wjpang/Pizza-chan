@@ -185,7 +185,7 @@ class VANILLA(commands.Cog):
 
     @vanilla.sub_command(description="Search for a Nation or its tag")
     async def ideas(self, inter, *, country_in: str = commands.Param(name="country")):
-        with open("./data/00_vanilla_country_ideas.json", "r", encoding="utf-8") as f:
+        with open("./data/Vanilla_ideas.json", "r", encoding="utf-8") as f:
             vanilla_data = json.load(f)
         with open("data/tags/tags.json", "r", encoding="utf-8") as f:
             tags = json.load(f)
