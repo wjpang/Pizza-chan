@@ -227,6 +227,7 @@
 	"NED": "Netherlands",
 	"UTR": "Utrecht",
 	"ARM": "Armenia",
+	"ARM1": "Greater Armenia",
 	"AST": "Astrakhan",
 	"CRI": "Crimea",
 	"GEO": "Georgia",
@@ -968,5 +969,6 @@
 	"JMN": "Jan Mayen",
 	"ROM": "Roman Empire",
 	"SYN": "Synthetics",
-	"ISR": "Israel"
+	"ISR": "Israel",
+	"ERS": "Eranshahr"
 }

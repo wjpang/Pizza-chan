@@ -229,6 +229,7 @@ LUX	Luxembourg
 NED	Netherlands
 UTR	Utrecht
 ARM	Armenia
+ARM1	Greater Armenia
 AST	Astrakhan
 CRI	Crimea
 GEO	Georgia
@@ -972,6 +973,7 @@ JMN	Jan Mayen
 ROM	Roman Empire
 SYN	Synthetics
 ISR	Israel
+ERS	Eranshahr
 
 NED_DUT	Netherlands-Dutch
 NED_FRI	Netherlands-Frisian

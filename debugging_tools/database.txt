@@ -96,6 +96,7 @@ KRA	Krakow
 LIT	Lithuania
 LIT2	Lithuania-New
 LIV	Livonian Order
+LTG	Latgalia
 MAZ	Mazovia
 POL	Poland
 PRU	Prussia
@@ -229,6 +230,7 @@ LUX	Luxembourg
 NED	Netherlands
 UTR	Utrecht
 ARM	Armenia
+ARM1	Greater Armenia
 AST	Astrakhan
 CRI	Crimea
 GEO	Georgia
@@ -972,6 +974,7 @@ JMN	Jan Mayen
 ROM	Roman Empire
 SYN	Synthetics
 ISR	Israel
+ERS	Eranshahr
 
 NED_DUT	Netherlands-Dutch
 NED_FRI	Netherlands-Frisian
@@ -1200,6 +1203,9 @@ garrison_damage	Garrison Army Damage
 garrison_growth	Garrison Growth
 garrison_size	Garrison Size
 general_cost	General Cost
+ghulams_influence_modifier	Ghilman Influence
+ghulams_loyalty_modifier	Ghilman Loyalty Equilibrium
+ghulams_privilege_slots	Ghilman Max Privileges
 global_allowed_num_of_buildings	Global Possible Number of Buildings
 global_allowed_num_of_manufactories	Possible Number of Manufactories
 global_attacker_dice_roll_bonus	Global Attacker Dice Roll Bonus
@@ -1572,6 +1578,9 @@ promote_culture_cost	Promote Culture Cost
 province_trade_power_modifier	Local Trade Power Modifier
 province_trade_power_value	Local Trade Power
 province_warscore_cost	Province War Score Cost
+qizilbash_influence_modifier	Qizilbash Influence
+qizilbash_loyalty_modifier	Qizilbash Loyalty Equilibrium
+qizilbash_privilege_slots	Qizilbash Max Privileges
 rajput_loyalty_modifier	Rajput Loyalty Equilibrium
 range	Fleet Exploration Range
 raze_power_gain	Razing Power Gain
@@ -1601,6 +1610,7 @@ relation_with_same_culture	Opinion of same Culture
 relation_with_same_culture_group	Opinion of same Culture Group
 relation_with_same_religion	Opinion of same Religion
 religious_unity	Religious Unity
+remove_temporary_colonist	Remove Temporary Colonist
 republican_tradition	Yearly Republican Tradition
 reserves_organisation	Reduced Morale Damage Taken By Reserves
 reverse_relation_with_same_religion	Others of the same Religion Opinion of Country
