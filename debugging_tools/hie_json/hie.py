@@ -18,8 +18,8 @@ database = parent + r"\database.txt"
 
 ideas_hie_out_be4_json = MOD_PATH + r"\common\ideas\HIE_country_ideas.txt"
 
-ideas_dict = {}
-ideas_loc = {}
+dict_ideas = {}
+dict_loc = {}
 LOC_DIR = MOD_PATH + r"\localisation"
 
 
@@ -28,23 +28,23 @@ def start():
 
     create_localisation(LOC_DIR)
 
-    build(ideas_dict)
+    build(dict_ideas)
 
 
 def build(dictionary):
     # create/populate local_country_ideas json
     localized_datas = {}
-    final_dict = {}
+    dict_final = {}
     with open(database, "r", encoding="utf-8") as file:
         for line in file:
             if len(line.strip().split("\t")) == 2:
                 key, localized_data = line.strip().split("\t")
                 localized_datas[key] = localized_data
 
-    final_dict = recursive_process_dict(dictionary, localized_datas)
+    dict_final = recursive_process_dict(dictionary, localized_datas)
 
     with open(f"{os.path.dirname(finalpath)}\\HIE_country_ideas.json", "w", encoding="utf-8") as output:
-        json.dump(final_dict, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # ) #, sort_keys=True)
+        json.dump(dict_final, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # ) #, sort_keys=True)
 
     print("succesfully created the final Json")
 
@@ -52,35 +52,36 @@ def build(dictionary):
 def recursive_process_dict(dictionary, loc_datas):
     for key, value in list(dictionary.items()):
         if key.startswith("HIE_"):
-            new_key = key.replace("_ideas", "")
-            new_key = new_key.replace("HIE_", "")
-            new_key = loc_datas.get(new_key)
-            dictionary[new_key] = dictionary.pop(key)
-            recursive_process_dict(dictionary[new_key], loc_datas)
+            key_new = key.replace("_ideas", "")
+            key_new = key_new.replace("HIE_", "")
+            key_new = loc_datas.get(key_new)
+            dictionary[key_new] = dictionary.pop(key)
+            value_new = dictionary[key_new]
+            recursive_process_dict(dictionary[key_new], loc_datas)
         elif key == "effect":
-            new_key = key.replace("_", " ").title()
+            key_new = key.replace("_", " ").title()
             if "custom_tooltip" in value:
                 if "admirals_give_army_professionalism_tt" in value["custom_tooltip"]:
-                    new_key = "Recruiting Admirals grants 0.5% Army Professionalism"
+                    key_new = "Recruiting Admirals grants 0.5% Army Professionalism"
                     del dictionary[key]["custom_tooltip"]
                     del dictionary[key]["set_country_flag"]
             else:
-                new_key = "Remove Temporary Colonist"
-            new_value = True
+                key_new = "Remove Temporary Colonist"
+            value_new = True
             # else:
-            #     new_value = recursive_process_dict(value, loc_datas)
+            #     value_new = recursive_process_dict(value, loc_datas)
         elif key.startswith("hie") or key in ("start", "bonus", "MFA_byzantine_claimants"):
-            new_key = ideas_loc.get(key)
-            dictionary[new_key] = dictionary.pop(key)
-            new_value = recursive_process_dict(dictionary[new_key], loc_datas)
-            dictionary[new_key] = new_value
+            key_new = dict_loc.get(key)
+            dictionary[key_new] = dictionary.pop(key)
+            value_new = recursive_process_dict(dictionary[key_new], loc_datas)
+            dictionary[key_new] = value_new
         else:
-            new_key = loc_datas.get(key)
-            new_value = value
+            key_new = loc_datas.get(key)
+            value_new = value
 
         if key in dictionary:
-            dictionary[new_key] = dictionary.pop(key)
-            dictionary[new_key] = new_value
+            dictionary[key_new] = dictionary.pop(key)
+            dictionary[key_new] = value_new
 
     return dictionary
 
@@ -92,30 +93,31 @@ def create_localisation(loc_dir):
 
     filenames = hie_filter(loc_dir, "l_english.yml")
 
-    for key in ideas_dict:
+    for key in dict_ideas:
+        index += 1
 
-        if "trigger" in ideas_dict[key]:
-            del ideas_dict[key]["trigger"]
-        elif "free" in ideas_dict[key]:
-            del ideas_dict[key]["free"]
+        if "trigger" in dict_ideas[key]:
+            del dict_ideas[key]["trigger"]
+        elif "free" in dict_ideas[key]:
+            del dict_ideas[key]["free"]
 
-        for key_sub in ideas_dict[key]:
-            percentage = (index/(len(ideas_dict)*11)) * 100
+        for key_sub in dict_ideas[key]:
+            percentage = (index/(len(dict_ideas)*11)) * 100
             if abs(percentage % 2.5 - 0) < tolerance or abs(percentage % 2.5 - 2.5) < tolerance:
                 current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 print(f"Time: {current_time} - Progress: {percentage:.1f}%")
             index += 1
             if key_sub == "start":
-                ideas_loc[key_sub] = "Traditions"
+                dict_loc[key_sub] = "Traditions"
                 continue
             if key_sub == "bonus":
-                ideas_loc[key_sub] = "Ambition"
+                dict_loc[key_sub] = "Ambition"
                 continue
             if key_sub == "MFA_byzantine_claimants":
-                ideas_loc[key_sub] = "Last Claimants of Byzantium"
+                dict_loc[key_sub] = "Last Claimants of Byzantium"
                 continue
 
-            ideas_loc[key_sub] = ""
+            dict_loc[key_sub] = ""
 
             for filename in filenames:
                 with open(filename, "r", encoding="utf-8") as file:
@@ -125,7 +127,7 @@ def create_localisation(loc_dir):
                             if line_value.startswith(("0", "1")):
                                 line_value = line[1:]
                             if line_key_sub.strip() == key_sub:
-                                ideas_loc[key_sub] = line_value.strip().replace('"', "").replace(",", "").title()
+                                dict_loc[key_sub] = line_value.strip().replace('"', "").replace(",", "").title()
                                 break
 
     print("Created the Localisation Dictionary")
@@ -137,7 +139,7 @@ def hie_filter(gm_dir, gm_text):
 
 
 def JsonParser(ideas_hie_out_be4_json):
-    global ideas_dict
+    global dict_ideas
     try:
         file = open(ideas_hie_out_be4_json, "r")
         data = file.read()
@@ -199,7 +201,7 @@ def JsonParser(ideas_hie_out_be4_json):
 
         return None
 
-    ideas_dict = json_data
+    dict_ideas = json_data
 
     # with open(f"{file_name[:-4]}.json", "w") as file:
     #     json.dump(json_data, file, indent="\t")  # , separators=(",", ": "), ensure_ascii=False) #) #, sort_keys=True)
