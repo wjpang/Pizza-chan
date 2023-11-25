@@ -30,6 +30,19 @@ class ASE(commands.Cog):
         )
         await inter.send(embed=ase_embed.embed)
 
+    @ase.sub_command(description="Steam Page")
+    async def et(self, inter):
+        """Returns the ASE-ET compatch page"""
+        ase_embed = embed_maker.EmbedMaker(
+            "CompPatch for ASE and ET",
+            "https://steamcommunity.com/sharedfiles/filedetails/?id=2593020513",
+            "Ages for all the Ages!",
+            0xD5000,
+            "Made by Melvasul and co.",
+            "https://steamuserimages-a.akamaihd.net/ugc/1678142567665301974/F35C9EC9B397C2159984064AC95E9E9841E24727/",
+        )
+        await inter.send(embed=ase_embed.embed)
+
     @ase.sub_command(description="You can only search entire Ages")
     async def find(self, inter, *, age: str):
         age = age.title()
