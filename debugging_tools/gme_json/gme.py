@@ -71,7 +71,7 @@ def create_localisation_file(directory_localisation):
                             if line_value.startswith(("0", "1")):
                                 line_value = line[1:]
                             if line_key_sub.strip() == key_sub:
-                                dict_localisation[key_sub] = line_value.strip().replace('"', "").replace(",", "")
+                                dict_localisation[key_sub] = line_value.strip().replace('"', "").replace(",", "").title()
                                 break
 
     print("Successfully populated the localisation file")

@@ -33,7 +33,7 @@
 			"Aggressive Expansion Impact": -0.10
 		},
 		"    Ethiopia: Prester John": {
-			"Inflation Reduction": -0.5
+			"Inflation Reduction": 0.5
 		},
 		"    Tuscan Renaissance": {
 			"Idea Cost": -0.075
@@ -94,9 +94,6 @@
 		},
 		"    Papal Warriors": {
 			"Land Leader Shock": 2
-		},
-		"    Persian Court": {
-			"Advisor Cost": -0.30
 		},
 		"    Saxon Piety": {
 			"Tolerance of True Faith": 3

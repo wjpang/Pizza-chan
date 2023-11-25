@@ -1,0 +1,1008 @@
+{
+	"Crisis Of The Mughal Empire": {
+		"Potential": {
+			"Country": "Mughals",
+			"Not": {
+				"Has Country Flag": "Had Fee Crisis Of The Mughal Empire"
+			},
+			"Or": {
+				"Current Age": [
+					"Age Of Absolutism",
+					"Age Of Revolutions"
+				]
+			},
+			"Is Free Or Tributary Trigger": true,
+			"Government": "Monarchy",
+			"Religion Group": "Muslim",
+			"Num Of Owned Provinces With": {
+				"Value": 50,
+				"Is Core": "Root"
+			}
+		},
+		"Can Start": {
+			"Or": {
+				"Current Age": [
+					"Age Of Absolutism",
+					"Age Of Revolutions"
+				]
+			},
+			"If": {
+				"Limit": {
+					"Has Dlc": "Rightsofman"
+				},
+				"Or": {
+					"Ruler Has Personality": "Cruel",
+					"Overextension Percentage": 1,
+					"Not": {
+						"Legitimacy": 20
+					},
+					"Custom Trigger": "Our §YTolerance of Heathens§! is less than §Y0§!",
+					"Variable Arithmetic Trigger": "The combined amount of the ruler skills of §Y[This.Monarch.GetName]§! is less than §Y6§!"
+				}
+			},
+			"Else": {
+				"Or": {
+					"Overextension Percentage": 1,
+					"Not": {
+						"Legitimacy": 20
+					},
+					"Custom Trigger": "Our §YTolerance of Heathens§! is less than §Y0§!",
+					"Variable Arithmetic Trigger": "The combined amount of the ruler skills of §Y[This.Monarch.GetName]§! is less than §Y6§!"
+				}
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"All Province": {
+					"Not": {
+						"Unrest": 0.01
+					}
+				}
+			}
+		},
+		"Can End": {
+			"Hidden Trigger": {
+				"Has Country Flag": "Had Fee Crisis Of The Mughal Empire"
+			},
+			"Legitimacy": 75,
+			"Stability": 2,
+			"Not": [
+				{
+					"Num Of Loans": 5
+				},
+				{
+					"Corruption": 2
+				},
+				{
+					"Num Of Rebel Armies": 1
+				},
+				{
+					"Num Of Rebel Controlled Provinces": 1
+				}
+			],
+			"Is Bankrupt": false
+		},
+		"Modifier": {
+			"Global Unrest": 6,
+			"Stability Cost Modifier": 0.5,
+			"Advisor Cost": 0.5
+		},
+		"On Start": "Crisis of the Mughal Empire",
+		"On End": "The Empire Victorious",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"200": [
+					"Disloyalty in the Army",
+					"Economic Collapse",
+					"Mutiny in the Army"
+				],
+				"100": [
+					"Discontent Among the Hindu",
+					"Degeneration of the Nobility",
+					"[Root.GetAdjective] Peasants Rise Up",
+					"Jains Demand Support",
+					"Lack of Officers",
+					"Sharia Restrictions Backfire",
+					"Nobles Revolt!",
+					"Succession Problems",
+					"Corruption in Administration"
+				],
+				"250": "Rajput Rebellion"
+			}
+		}
+	},
+	"Decline Of The Ottomans": {
+		"Potential": {
+			"Not": [
+				{
+					"Has Dlc": "Domination"
+				},
+				{
+					"Has Country Flag": "Had Fee Decline Of The Ottomans"
+				},
+				{
+					"Exists": "Rûm"
+				},
+				{
+					"Exists": "Byzantium"
+				}
+			],
+			"Country": "Ottomans",
+			"Or": {
+				"Current Age": [
+					"Age Of Reformation",
+					"Age Of Absolutism",
+					"Age Of Revolutions"
+				]
+			},
+			"Is Free Or Tributary Trigger": true,
+			"Has Reform": "Monarchy Mechanic",
+			"Religion Group": "Muslim",
+			"Delta Area": {
+				"Type": "All",
+				"Owned By": "ROOT"
+			},
+			"Al Wahat Area": {
+				"Type": "All",
+				"Owned By": "ROOT"
+			},
+			"Bahari Area": {
+				"Type": "All",
+				"Owned By": "ROOT"
+			},
+			"Gulf Of Arabia Area": {
+				"Type": "All",
+				"Owned By": "ROOT"
+			}
+		},
+		"Can Start": {
+			"Has Any Disaster": false,
+			"Num Of Cities": 120,
+			"Or": {
+				"Revanchism": 1,
+				"Governing Capacity Percentage": 1.1,
+				"Not": [
+					{
+						"Crown Land Share": 50
+					},
+					{
+						"Stability": 0
+					}
+				],
+				"And": {
+					"Is Year": 1580,
+					"Not": {
+						"Has Institution": "Printing Press"
+					}
+				},
+				"Any Core Province": {
+					"Not": {
+						"Owned By": "ROOT"
+					}
+				}
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Not": {
+					"Has Reform": "Monarchy Mechanic"
+				},
+				"Is Subject Other Than Tributary Trigger": true
+			}
+		},
+		"Can End": {
+			"Or": {
+				"And": {
+					"Custom Trigger": "Had the '§YDecline of the Ottomans§!' disaster for at least §Y15 years§!",
+					"Stability": 3,
+					"Not": [
+						{
+							"Corruption": 2
+						},
+						{
+							"Num Of Loans": 5
+						},
+						{
+							"Num Of Rebel Armies": 1
+						},
+						{
+							"Num Of Rebel Controlled Provinces": 1
+						}
+					],
+					"Is Bankrupt": false
+				},
+				"Not": {
+					"Any Owned Province": {
+						"Or": {
+							"Region": "Anatolia",
+							"Province Id": 151
+						}
+					}
+				}
+			}
+		},
+		"Modifier": {
+			"Stability Cost Modifier": 0.25,
+			"Global Institution Spread": -1.5,
+			"Global Unrest": 5,
+			"Technology Cost": 0.5
+		},
+		"On Start": "The Decline of the Ottomans",
+		"On End": "Tanzimat",
+		"On Monthly": {
+			"Events": [
+				"Greek Revolts!"
+			],
+			"Random Events": {
+				"2000": 0,
+				"50": [
+					"Stagnating Economy",
+					"Debasing Currency",
+					"Celali Revolts",
+					"Corrupt Landholding",
+					"Ottoman Superiority Questioned",
+					"Famine in the Cities",
+					"Decadent Ruling Classes",
+					"Egypt Demands Autonomy"
+				],
+				"100": [
+					"Illiterate Populace",
+					"Failures of the Timar System",
+					"The Decline of Ottoman Trade Dominance",
+					"More Economic Downturn",
+					"Price Controls",
+					"Balkan Separatism",
+					"Hungarian Separatism",
+					"Bulgarian Awakening",
+					"Great Bosnian Uprising",
+					"Serbian Revolution",
+					"Contacts with the West",
+					"Rampant Corruption"
+				],
+				"75": [
+					"Croat Resistance",
+					"Romanian Uprising"
+				]
+			}
+		}
+	},
+	"Division Of The Habsburg Monarchy": {
+		"Potential": {
+			"Or": [
+				{
+					"Country": "Austria",
+					"Was Tag": "Austria"
+				},
+				{
+					"Current Age": [
+						"Age Of Discovery",
+						"Age Of Reformation"
+					]
+				}
+			],
+			"Not": {
+				"Has Country Flag": "Had Fee Division Of The Habsburg Monarchy"
+			},
+			"Government": "Monarchy",
+			"Is Free Or Tributary Trigger": true,
+			"Num Of Cities": 15,
+			"Num Of Owned Provinces With": {
+				"Value": 15,
+				"Is Core": "Root"
+			}
+		},
+		"Can Start": {
+			"Current Age": "Age Of Reformation",
+			"Has Any Disaster": false,
+			"Not": {
+				"Stability": 1
+			},
+			"Custom Trigger": "The ruling dynasty is '§Yvon Habsburg§!'",
+			"Or": {
+				"And": [
+					{
+						"Ruler Age": 50,
+						"Or": {
+							"Has Heir": false,
+							"Not": {
+								"Heir Claim": 80
+							}
+						}
+					},
+					{
+						"Not": {
+							"Months Of Ruling": 60
+						},
+						"Calc True If": {
+							"All Subject Country": {
+								"Or": {
+									"Junior Union With": "Root",
+									"And": {
+										"Is Expanded Mod Active": {
+											"Mod": "Subjects"
+										},
+										"Is Subject Of Type": "Brother Kingdom"
+									}
+								}
+							},
+							"Amount": 2,
+							"Desc": "Fee Division Of The Habsburg Monarchy Has Pus Tt"
+						}
+					},
+					{
+						"Has Regency": true,
+						"Or": {
+							"Not": {
+								"Legitimacy": 70
+							},
+							"Has Heir": false,
+							"And": {
+								"Has Heir": true,
+								"Custom Trigger": "Heir has either less than §Y1§! in any skill or all skills combined are less than §Y8§!"
+							}
+						}
+					}
+				]
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Not": {
+					"Government": "Monarchy"
+				},
+				"Is Lesser In Union": true,
+				"Custom Trigger": "The ruling dynasty is NOT '§Yvon Habsburg§!'"
+			}
+		},
+		"Can End": {
+			"Legitimacy": 100,
+			"Is Bankrupt": false,
+			"Not": {
+				"Num Of Loans": 5
+			},
+			"Or": {
+				"And": [
+					{
+						"Custom Trigger": [
+							"Had the '§YDivision of the Habsburg Monarchy§!' disaster for at least §Y15 years§!",
+							"All provinces in the following areas are owned by §Y[Root.GetName]§! or its non-tributary subjects: §YInner Austria§! §YAustria Proper§! §YTirol§! §YBohemia§! and §YTransdanubia§!"
+						]
+					},
+					{
+						"Custom Trigger": [
+							"Had the '§YDivision of the Habsburg Monarchy§!' disaster for at least §Y30 years§!",
+							"All provinces in the following areas are owned by §Y[Root.GetName]§! or its non-tributary subjects: §YInner Austria§! §YAustria Proper§! and §YTirol§!"
+						]
+					}
+				]
+			}
+		},
+		"Modifier": {
+			"Imperial Authority Value": -0.1,
+			"Land Morale": -0.1,
+			"Stability Cost Modifier": 0.25,
+			"Reduced Liberty Desire": -20
+		},
+		"On Start": "Division of the Habsburg Monarchy",
+		"On End": "Reunification!",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": []
+		}
+	},
+	"Italian Republican Matter": {
+		"Potential": {
+			"Country": "Italy",
+			"Italy Region": {
+				"Owned By": "ROOT"
+			},
+			"Or": {
+				"Is Year": 1600,
+				"Current Age": [
+					"Age Of Absolutism",
+					"Age Of Revolutions"
+				]
+			},
+			"Not": {
+				"Has Country Flag": "Fee Ita Republican Matter Subversed"
+			}
+		},
+		"Can Start": {
+			"Has Any Disaster": false
+		},
+		"Can Stop": {
+			"Has Any Disaster": true,
+			"Is Subject Other Than Tributary Trigger": true
+		},
+		"Down Progress": {
+			"Factor": 1
+		},
+		"Can End": {
+			"Stability": 1,
+			"Is At War": false,
+			"Not": [
+				{
+					"Italy Region": {
+						"Controlled By": "Ita Republican Rebels"
+					}
+				},
+				{
+					"Italy Region": {
+						"Controlled By": "Ita Monarchy Rebels"
+					}
+				}
+			],
+			"Custom Trigger": "One of the followign must be true:\\n\t§YRepublican§! or §YMonarchist§! rebels enforce their demand\\n\tThe disaster has been going for at least §Y15 years§!"
+		},
+		"Modifier": {
+			"Reform Progress Growth": -0.5,
+			"Stability Cost Modifier": 0.75,
+			"Global Unrest": 5,
+			"Prestige": -3,
+			"Legitimacy": -2,
+			"Republican Tradition": -1,
+			"Devotion": -2,
+			"Horde Unity": -2,
+			"Meritocracy": -2
+		},
+		"On Start": "A Republican Matter",
+		"On End": "A New State",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1600": 0,
+				"100": [
+					"Giovine Italia",
+					"King's Aider"
+				]
+			}
+		}
+	},
+	"Rampjaar": {
+		"Potential": {
+			"Country": "Netherlands",
+			"Not": {
+				"Has Country Flag": "Had Fee Netherlands Rampjaar"
+			},
+			"Is Free Or Tributary Trigger": true
+		},
+		"Can Start": {
+			"Or": [
+				{
+					"Current Age": [
+						"Age Of Absolutism",
+						"Age Of Revolutions"
+					]
+				},
+				{
+					"War Exhaustion": 10,
+					"Not": {
+						"War Score": -25
+					},
+					"Num Of Owned Provinces With": {
+						"Value": 3,
+						"Not": {
+							"Controlled By": "Root"
+						}
+					}
+				}
+			],
+			"Is At War": true
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"And": {
+					"Is At War": false,
+					"Stability": 1,
+					"Not": [
+						{
+							"War Exhaustion": 0.01
+						},
+						{
+							"Num Of Rebel Controlled Provinces": 1
+						}
+					]
+				}
+			}
+		},
+		"Can End": {
+			"Not": [
+				{
+					"Num Of Rebel Armies": 1
+				},
+				{
+					"Num Of Rebel Controlled Provinces": 1
+				},
+				{
+					"War Exhaustion": 0.01
+				}
+			],
+			"Stability": 2,
+			"Is At War": false,
+			"Custom Trigger": "Had the '§YRampjaar§!' disaster for at least §Y1 year§!"
+		},
+		"Modifier": {
+			"Land Morale": -0.1,
+			"Global Unrest": 10,
+			"Stability Cost Modifier": 0.2
+		},
+		"On Start": "Rampjaar",
+		"On End": "The Rampjaar has Ended",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"200": [
+					"[Root.Monarch.GetName] and the Mob",
+					"Imperial Intervention"
+				],
+				"100": [
+					"Panic in the Netherlands",
+					"Orangist Coup",
+					"Disloyalty in the Army"
+				]
+			}
+		}
+	},
+	"Partition Of Poland?": {
+		"Potential": {
+			"Or": [
+				{
+					"Country": "Commonwealth",
+					"And": [
+						{
+							"Was Tag": "Commonwealth",
+							"Not": {
+								"Exists": "Commonwealth"
+							}
+						},
+						{
+							"Country": "Poland",
+							"Not": {
+								"Exists": "Commonwealth"
+							}
+						},
+						{
+							"Was Tag": "Poland",
+							"Not": {
+								"Exists": "Poland"
+							}
+						}
+					]
+				},
+				{
+					"Current Age": [
+						"Age Of Absolutism",
+						"Age Of Revolutions"
+					]
+				}
+			],
+			"Not": {
+				"Has Country Flag": "Had Fee Partition Of Poland"
+			},
+			"Is Subject": false
+		},
+		"Can Start": {
+			"Has Any Disaster": false,
+			"Calc True If": {
+				"All Neighbor Country": {
+					"Fee Partition Of Poland Is Valid Neighbor Country": {
+						"Disaster Target": "Root"
+					}
+				},
+				"Amount": 2
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Custom Trigger": "There is no strong enough independent neighbor country that is neither allied to nor has a truce with §Y[Root.GetName]§!"
+			}
+		},
+		"Can End": {
+			"Custom Trigger": [
+				"Had the '§YPartition of Poland?§!' disaster for at least §Y5 years§!",
+				"There is no strong enough independent neighbor country that is neither allied to nor has a truce with §Y[Root.GetName]§!"
+			],
+			"Stability": 2,
+			"Is Bankrupt": false,
+			"Not": [
+				{
+					"Num Of Loans": 5
+				},
+				{
+					"Corruption": 2
+				},
+				{
+					"Num Of Rebel Armies": 1
+				},
+				{
+					"Num Of Rebel Controlled Provinces": 1
+				}
+			]
+		},
+		"Modifier": {
+			"Discipline": -0.05,
+			"Land Forcelimit Modifier": -0.25,
+			"All Power Cost": 0.1
+		},
+		"On Start": "Threats of Partition",
+		"On End": "Future Secured",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"300": [
+					"Black Eagles",
+					"Danzig or War",
+					"Polish Rebels"
+				],
+				"100": [
+					"Debased Currency",
+					"A New Constitution?",
+					"Demands for Peasant Autonomy",
+					"Cossacks Restless",
+					"Confederation of Bar"
+				],
+				"200": [
+					"Foreign Trade Dries Up",
+					"The May Constitution"
+				]
+			}
+		}
+	},
+	"Pashtun Uprising": {
+		"Potential": {
+			"Country": "Delhi",
+			"Not": {
+				"Has Country Flag": "Had Fee Pashtun Uprising"
+			},
+			"Current Age": "Age Of Discovery",
+			"Technology Group": "Indian",
+			"Government": "Monarchy",
+			"Is Free Or Tributary Trigger": true
+		},
+		"Can Start": {
+			"Current Age": "Age Of Discovery",
+			"Has Any Disaster": false,
+			"Not": [
+				{
+					"Primary Culture": "Afghan"
+				},
+				{
+					"Legitimacy": 50
+				}
+			],
+			"Unrest": 1,
+			"If": {
+				"Limit": {
+					"Has Estate": "Estate Rajput"
+				},
+				"Not": {
+					"Estate Loyalty": {
+						"Estate": "Estate Rajput",
+						"Loyalty": 30
+					}
+				},
+				"Estate Influence": {
+					"Estate": "Estate Rajput",
+					"Influence": 20
+				}
+			},
+			"Else If": {
+				"Limit": {
+					"Has Estate": "Estate Nobles"
+				},
+				"Not": {
+					"Estate Loyalty": {
+						"Estate": "Estate Nobles",
+						"Loyalty": 30
+					}
+				},
+				"Estate Influence": {
+					"Estate": "Estate Nobles",
+					"Influence": 20
+				}
+			},
+			"Num Of Owned Provinces With": {
+				"Value": 25,
+				"Is Core": "Root"
+			}
+		},
+		"Can Stop": {
+			"If": {
+				"Limit": {
+					"Has Estate": "Estate Rajput"
+				},
+				"Or": {
+					"Has Any Disaster": true,
+					"Primary Culture": "Afghan",
+					"Not": {
+						"Government": "Monarchy"
+					},
+					"Estate Loyalty": {
+						"Estate": "Estate Rajput",
+						"Loyalty": 60
+					}
+				}
+			},
+			"Else If": {
+				"Limit": {
+					"Has Estate": "Estate Nobles"
+				},
+				"Or": {
+					"Has Any Disaster": true,
+					"Primary Culture": "Afghan",
+					"Not": {
+						"Government": "Monarchy"
+					},
+					"Estate Loyalty": {
+						"Estate": "Estate Nobles",
+						"Loyalty": 60
+					}
+				}
+			},
+			"Else": {
+				"Or": {
+					"Has Any Disaster": true,
+					"Primary Culture": "Afghan",
+					"Not": {
+						"Government": "Monarchy"
+					}
+				}
+			}
+		},
+		"Can End": {
+			"Hidden Trigger": {
+				"Has Country Flag": "Had Fee Pashtun Uprising"
+			},
+			"Stability": 2,
+			"Not": [
+				{
+					"Num Of Rebel Armies": 1
+				},
+				{
+					"Num Of Rebel Controlled Provinces": 1
+				}
+			],
+			"Is At War": false,
+			"Or": {
+				"Not": {
+					"Unrest": 0
+				},
+				"Custom Trigger": "Had the '§YPashtun Uprising§!' disaster for at least §Y2 years§!",
+				"All Owned Province": {
+					"Not": {
+						"Unrest": 0.01
+					}
+				}
+			}
+		},
+		"Modifier": {
+			"Technology Cost": 0.2,
+			"Global Manpower Modifier": -0.2,
+			"Global Unrest": 6
+		},
+		"On Start": "Pashtun Uprising",
+		"On End": "The [Root.GovernmentName] is Victorious",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"200": "Trade Routes Abandoned",
+				"100": [
+					"Rajput Revolts",
+					"Shortage of Gold and Silver",
+					"Popular Uprising",
+					"Bureaucracy Collapses"
+				],
+				"150": [
+					"Anarchy Spreads",
+					"Autocracy Rejected"
+				],
+				"300": "Afghani Problems"
+			}
+		}
+	},
+	"Portuguese Succession Crisis": {
+		"Potential": {
+			"Country": "Portugal",
+			"Not": {
+				"Has Country Flag": "Had Fee Portuguese Succession Crisis"
+			},
+			"Or": {
+				"Current Age": [
+					"Age Of Discovery",
+					"Age Of Reformation"
+				]
+			},
+			"Government": "Monarchy",
+			"Is Free Or Tributary Trigger": true
+		},
+		"Can Start": {
+			"Current Age": "Age Of Reformation",
+			"Not": {
+				"Legitimacy": 50
+			},
+			"Has Any Disaster": false
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Not": {
+					"Government": "Monarchy"
+				},
+				"Is Lesser In Union": true
+			}
+		},
+		"Can End": {
+			"Hidden Trigger": {
+				"Has Country Flag": "Had Fee Portuguese Succession Crisis"
+			},
+			"Or": {
+				"Is Lesser In Union": true,
+				"And": {
+					"Stability": 2,
+					"Not": [
+						{
+							"Num Of Rebel Armies": 1
+						},
+						{
+							"Num Of Rebel Controlled Provinces": 1
+						}
+					]
+				}
+			}
+		},
+		"Modifier": {
+			"Global Unrest": 5,
+			"Legitimacy": -5,
+			"Stability Cost Modifier": 0.5,
+			"Monthly Heir Claim Increase": -1,
+			"Block Introduce Heir": true
+		},
+		"On Start": "Portuguese Succession Crisis",
+		"On End": "The Succession is Secure",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"100": [
+					"Spread of Civil War",
+					"Chaos Engulfs the Provinces",
+					"Nobility Worried"
+				],
+				"200": "The Cardinal who would be King",
+				"150": "Spanish Intervention"
+			}
+		}
+	},
+	"Zemene Mesafint": {
+		"Potential": {
+			"Or": [
+				{
+					"Country": [
+						"Ethiopia",
+						"Aksum"
+					],
+					"Tag": [
+						"Ethiopia",
+						"Aksum"
+					],
+					"And": {
+						"Not": [
+							{
+								"Exists": "Ethiopia"
+							},
+							{
+								"Exists": "Aksum"
+							}
+						],
+						"Or": {
+							"Was Tag": [
+								"Ethiopia",
+								"Aksum"
+							]
+						}
+					}
+				},
+				{
+					"Current Age": [
+						"Age Of Absolutism",
+						"Age Of Revolutions"
+					]
+				}
+			],
+			"Not": {
+				"Has Country Flag": "Had Fee Zemene Mesafint"
+			},
+			"Is Free Or Tributary Trigger": true,
+			"Num Of Owned Provinces With": {
+				"Value": 50,
+				"Is Core": "Root"
+			}
+		},
+		"Can Start": {
+			"Or": [
+				{
+					"Current Age": [
+						"Age Of Absolutism",
+						"Age Of Revolutions"
+					]
+				},
+				{
+					"Not": [
+						{
+							"Legitimacy Equivalent": 50
+						},
+						{
+							"Stability": -1
+						},
+						{
+							"Government": "Monarchy"
+						}
+					],
+					"Has Regency": true
+				}
+			]
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"And": {
+					"Government": "Monarchy",
+					"Stability": 2,
+					"Legitimacy Equivalent": 90
+				}
+			}
+		},
+		"Can End": {
+			"Hidden Trigger": {
+				"Has Country Flag": "Had Fee Zemene Mesafint"
+			},
+			"Stability": 1,
+			"Legitimacy Equivalent": 100,
+			"Not": [
+				{
+					"Num Of Rebel Armies": 1
+				},
+				{
+					"Num Of Rebel Controlled Provinces": 1
+				}
+			]
+		},
+		"Modifier": {
+			"Global Unrest": 5,
+			"Stability Cost Modifier": 0.5,
+			"Global Autonomy": 0.03,
+			"Tolerance Own": -3,
+			"Technology Cost": 0.2,
+			"Development Cost": 0.2
+		},
+		"On Start": "Zemene Mesafint",
+		"On End": "The End of an Era",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"100": [
+					"Princes Demand the Right to Rule",
+					"Succession Crisis",
+					"Regional Conflicts",
+					"The End of Absolute Monarchy?"
+				],
+				"200": [
+					"Rise of Empress Mentewab",
+					"Rise of the Wara Sheh Dynasty"
+				],
+				"75": "[Root.Monarch.GetTitle] Assasinated!"
+			}
+		}
+	}
+}
