@@ -176,7 +176,7 @@ class HIE(commands.Cog):
 
     @hie.sub_command(description="Search for a Nation or its tag")
     async def find(self, inter, *, country_in: str = commands.Param(name="country")):
-        with open("./data/HIE_country_ideas.json", "r", encoding="utf-8") as f:
+        with open("./data/HIE.json", "r", encoding="utf-8") as f:
             hie_data = json.load(f)
         with open("data/tags/tags.json", "r", encoding="utf-8") as f:
             tags = json.load(f)
