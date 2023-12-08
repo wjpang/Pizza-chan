@@ -242,7 +242,7 @@ class HIE(commands.Cog):
 
     @hie.sub_command(description="Shows a list of all Countries in HIE")
     async def countries(self, inter):
-        with open("./data/HIE_country_ideas.json", "r", encoding="utf-8") as f:
+        with open("./data/HIE.json", "r", encoding="utf-8") as f:
             hie_data = json.load(f)
         country_lst = sorted([key.title() for key in hie_data])
 

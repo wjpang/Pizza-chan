@@ -10,7 +10,7 @@ MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2804
 
 path = os.getcwd()
 parent = os.path.dirname(path)
-finalpath = os.path.dirname(parent) + r"\data\HIE_country_ideas.json"
+finalpath = os.path.dirname(parent) + r"\data\HIE.json"
 
 tags = parent + r"\\tags.txt"
 ideas = parent + r"\ideas.txt"
@@ -32,7 +32,6 @@ def start():
 
 
 def build(dictionary):
-    # create/populate local_country_ideas json
     localized_datas = {}
     dict_final = {}
     with open(database, "r", encoding="utf-8") as file:
@@ -43,7 +42,7 @@ def build(dictionary):
 
     dict_final = recursive_process_dict(dictionary, localized_datas)
 
-    with open(f"{os.path.dirname(finalpath)}\\HIE_country_ideas.json", "w", encoding="utf-8") as output:
+    with open(f"{os.path.dirname(finalpath)}\\HIE.json", "w", encoding="utf-8") as output:
         json.dump(dict_final, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # ) #, sort_keys=True)
 
     print("succesfully created the final Json")
