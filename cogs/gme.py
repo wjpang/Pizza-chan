@@ -98,7 +98,7 @@ pretty_lst = {
     "}": "]",
     ": \u001B[0;34mTrue\u001B[0;0m": "",
     "'": "",
-    "[]": "\u001B[0;31mNone\u001B[0;0m",
+    "[]": "",
 }
 stuff_to_color = [
     "Province",
@@ -154,7 +154,8 @@ class GME(commands.Cog):
     @gme.sub_command(description="Can search both a region or a monument")
     async def find(self, inter, *, monument_in: str = commands.Param(name="monument")):
         indent = 0
-        chunk_size = 1995
+        chunk_size = 1988
+
         with open("./data/GME.json", "r", encoding="utf-8") as f:
             gme_data = json.load(f)
         regions_lst = sorted([key.title() for key in gme_data])
@@ -173,14 +174,14 @@ class GME(commands.Cog):
                 continue
             else:
                 # This will run if someone searches for a specific monument
-                monument = accessory(monument_filter(monument_region))
+                monument = accessory(monument_filter(monument_region)).title()
                 message = f"```ansi\n\u001B[0;33m{monument}\u001B[0;0m \n---------\n"
                 found = 0
-                for region, region_monuments in gme_data.items():
+                for region in gme_data:
+                    region_monuments = sorted([key.title() for key in gme_data[region]])
                     if monument not in region_monuments:
                         continue
                     found = 1
-                    # message += build_message(gme_data[region][monument])
                     for stats, vals in gme_data[region][monument].items():
                         if isinstance(vals, dict):
                             message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m:\n"
@@ -190,8 +191,10 @@ class GME(commands.Cog):
                             message += "\t" * indent + f"{color}{stats}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m\n"
                         else:
                             message += "\t" * indent + f"{stats}: \u001B[0;34m{vals}\u001B[0;0m \n"
-                        for old, new in pretty_lst.items():
-                            message = message.replace(old, new)
+
+                    for old, new in pretty_lst.items():
+                        message = message.replace(old, new)
+
                     if len(f"{message}\n```") >= 2000:
                         chunks = [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
                         for chunk in chunks:
@@ -204,7 +207,7 @@ class GME(commands.Cog):
                         await inter.send(f"{message}```")
                     break
             if not found:
-                await inter.send(f"The monument/region: {monument_region} does not exist in GME")
+                await inter.send(f"The monument or region: {monument_region} does not exist in GME")
 
     @gme.sub_command(description="Show a map of all monuments in the world")
     async def map(self, inter):
@@ -212,7 +215,6 @@ class GME(commands.Cog):
 
     @gme.sub_command(description="Show list of all Regions in GME")
     async def regions(self, inter):
-        print("GME region list request received")
         with open("./data/GME.json", "r", encoding="utf-8") as f:
             gme_data = json.load(f)
 
