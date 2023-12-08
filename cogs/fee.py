@@ -109,22 +109,47 @@ class FEE(commands.Cog):
         if random.randrange(1, 1001) >= 500:
             await inter.send_message(file=disnake.File(r"./files/hedgehog_avocado.png"))
 
-    @fee.sub_command(description="Shows a list of all Disasters in FEE")
-    async def disasters(self, inter):
-        message = (
-            "```These are all the Disasters in FEE\n---------\n"
-            "Disaster: Crisis of the Mughal Empire\n"
-            "Disaster: Decline of the Ottomans\n"
-            "Disaster: Division of the Habsburg Monarchy\n"
-            "Disaster: Italian Republican Matter\n"
-            "Disaster: Baronian Revolt\n"
-            "Disaster: Rampjaar\n"
-            "Disaster: Partition of Poland?\n"
-            "Disaster: Pashtun Uprising\n"
-            "Disaster: Portuguese Succession Crisis\n"
-            "Disaster: Zemene Mesafint\n```"
-        )
-        await inter.send(message)
+    @fee.sub_command(description="You can search for disasters")
+    async def disaster(self, inter, *, disaster_in: str = commands.Param(name="disaster")):
+        indent = 0
+        chunk_size = 1988
+
+        with open("./data/Disaster.json", "r", encoding="utf-8") as f:
+            fee_data = json.load(f)
+
+        disaster_list = sorted([key.title() for key in fee_data])
+        disaster_in_list = disaster_in.split(",")
+
+        message = ""
+        for disaster_in in disaster_in_list:
+            disaster_in = disaster_in.strip().title()
+            if disaster_in not in disaster_list:
+                await inter.send(f"The disaster: {disaster_in} does not exist in FEE")
+            else:
+                message = f"```ansi\n\u001B[0;33m{disaster_in}\u001B[0;0m\n---------\n"
+                for stats, vals in fee_data[disaster_in].items():
+                    if isinstance(vals, dict):
+                        message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m:\n"
+                        message += build_message(vals, indent + 1, stuff_to_color)
+                    elif stats in stuff_to_color:
+                        color = color_map.get(stats, "")  # Get the color for the stat
+                        message += "\t" * indent + f"{color}{stats}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m\n"
+                    else:
+                        message += "\t" * indent + f"{stats}: \u001B[0;34m{vals}\u001B[0;0m \n"
+
+                for old, new in pretty_lst.items():
+                    message = message.replace(old, new)
+
+                if len(f"{message}\n```") >= 2000:
+                    chunks = [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
+                    for chunk in chunks:
+                        if not chunk.startswith("```ansi"):
+                            await inter.send(f"```ansi\n{chunk}```")
+                        else:
+                            await inter.send(f"{chunk}```")
+                    message = "```\n"
+                else:
+                    await inter.send(f"{message}```")
 
     @fee.sub_command(description="You can search events from the /fee events command")
     async def find(self, inter, *, event_in: str = commands.Param(name="nation")):
@@ -199,6 +224,18 @@ class FEE(commands.Cog):
             event = event.replace("Plc", "PLC")
             event = event.replace("Hre", "HRE")
             message += f"{event} \n"
+        await inter.send(f"{message}```")
+
+    @fee.sub_command(description="Shows a list of all disasters in FEE")
+    async def disasters(self, inter):
+        with open("./data/Disaster.json", "r", encoding="utf-8") as f:
+            fee_data = json.load(f)
+
+        message = "```These are all the disasters in FEE\n---------\n"
+        disaster_list = sorted([key.title() for key in fee_data])
+
+        for disaster in disaster_list:
+            message += f"{disaster} \n"
         await inter.send(f"{message}```")
 
     # @fee.sub_command(description="Returns a map of all nations with FEE events")
