@@ -1,185 +1,209 @@
 {
 	"Discovery": {
-		"Objectives": "",
-		"    Build a Fleet": "Have at least 6 Heavy Ships or 20 Light Ships",
-		"    Piles of Gold": "Own at least 3 provinces producing Gold",
-		"    Dynamic Court": "Have employed an advisor for each type",
-		"---": "",
-		"Generic Abilities": "",
-		"    Exploration Corps": {
-			"Free Maintenance on Explorers and Conquistadors:": true
+		"Objectives": {
+			"Build a Fleet": {
+				"Have at least 6 Heavy Ships or 20 Light Ships": true
+			},
+			"Piles of Gold": {
+				"Number of provinces producing Gold": 3
+			},
+			"Dynamic Court": {
+				"Have employed an advisor for each type": true
+			}
 		},
-		"    Glorious Renaissance": {
-			"Prestige Decay": -0.10
+		"Generic Abilities": {
+			"Exploration Corps": {
+				"Free Maintenance on Explorers and Conquistadors:": true
+			},
+			"Glorious Renaissance": {
+				"Prestige Decay": -0.10
+			},
+			"Ruling Dynasty": {
+				"Reelection Cost": -0.10
+			}
 		},
-		"    Ruling Dynasty": {
-			"Reelection Cost": -0.10
-		},
-		"----": "",
-		"Country-Specific Abilities": "",
-		"    Aragon: Consulate of the Sea": {
-			"Global Province Trade Power Modifier": 0.50
-		},
-		"    Castille: Castillian Inquisition": {
-			"Missionary Strength vs Heathens": 0.03
-		},
-		"    Cusco/Inca: Qhapaq Nan": {
-			"Movement Speed": 0.15
-		},
-		"    AQ/QQ: Qoyunlu Feuds": {
-			"Province War Score Cost": -0.25
-		},
-		"    Dehli: Hindustani Claims": {
-			"Aggressive Expansion Impact": -0.10
-		},
-		"    Ethiopia: Prester John": {
-			"Inflation Reduction": 0.5
-		},
-		"    Tuscan Renaissance": {
-			"Idea Cost": -0.075
-		},
-		"    Hungarian Defense": {
-			"Defensiveness": 0.35
-		},
-		"    Malaccan Spices": {
-			"Domestic Trade Power": 0.30
-		},
-		"    Ming: Grand Imperial Projects": {
-			"Construction Cost": -0.20
-		},
-		"    Songhai: Timbuktu University": {
-			"Technology Cost": -0.10
-		},
-		"    Vijayangar: Nayankara": {
-			"General Cost": -0.50,
-			"Maratha Loyalty Modifier": 0.10
+		"Country-Specific Abilities": {
+			"Aragon: Consulate of the Sea": {
+				"Global Province Trade Power Modifier": 0.50
+			},
+			"Castille: Castillian Inquisition": {
+				"Missionary Strength vs Heathens": 0.03
+			},
+			"Cusco/Inca: Qhapaq Nan": {
+				"Movement Speed": 0.15
+			},
+			"AQ/QQ: Qoyunlu Feuds": {
+				"Province War Score Cost": -0.25
+			},
+			"Dehli: Hindustani Claims": {
+				"Aggressive Expansion Impact": -0.10
+			},
+			"Ethiopia: Prester John": {
+				"Inflation Reduction": 0.5
+			},
+			"Tuscan Renaissance": {
+				"Idea Cost": -0.075
+			},
+			"Hungarian Defense": {
+				"Defensiveness": 0.35
+			},
+			"Malaccan Spices": {
+				"Domestic Trade Power": 0.30
+			},
+			"Ming: Grand Imperial Projects": {
+				"Construction Cost": -0.20
+			},
+			"Songhai: Timbuktu University": {
+				"Technology Cost": -0.10
+			},
+			"Vijayangar: Nayankara": {
+				"General Cost": -0.50,
+				"Maratha Loyalty Modifier": 0.10
+			}
 		}
 	},
 	"Reformation": {
-		"Objectives": "",
-		"    Foster Piety": "Have at least 5 temples or cathedrals",
-		"    Prepare for War": "Have joined the Protestant or Catholic League",
-		"    Strength in Unity": "Have 100% Religious Unity",
-		"---": "",
-		"Generic Abilities": "",
-		"    Jerusalem Ambition: (Catholic Crusader States)": {
-			"Movement on/off boat": 0.33,
-			"Landing Penalty": -2
+		"Objectives": {
+			"Foster Piety": {
+				"Number of Temples or Cathedral": 5
+			},
+			"Prepare for War": {
+				"Have joined the Protestant or Catholic League": true
+			},
+			"Strength in Unity": {
+				"Religious Unity": 100
+			}
 		},
-		"    Jihad: (Muslim)": {
-			"Morale vs Heathen and Heretics": 0.10
+		"Generic Abilities": {
+			"Jihad: (Muslim)": {
+				"Morale vs Heathen and Heretics": 0.10
+			},
+			"Confessionalism (Catholic)": {
+				"Curia Power Cost": -0.2
+			},
+			"Confessionalism: (Reformed)": {
+				"Monthly Ferover": 1
+			},
+			"Confessionalism: (Non-Orthodox/Coptic Christian Denomination)": {
+				"Church Power": 0.15
+			},
+			"Dharmic Syncretism": {
+				"Tolerance Heathen": 2
+			}
 		},
-		"    Confessionalism (Catholic)": {
-			"Curia Power Cost": -0.2
-		},
-		    "Confessionalism: (Reformed)": {
-			"Monthly Ferover": 1
-		},
-		"    Confessionalism: (Others, not Orthodox nor Coptic)": {
-			"Church Power": 0.15
-		},
-		"    Dharmic Syncretism": {
-			"Tolerance Heathen": 2
-		},
-		"----": "",
-		"Country-Specific Abilities": "",
-		"    Bavarian Centralization": {
-			"Monthly Autonomy Change": -0.30
-		},
-		"    Brandenburg War Commissariat": {
-			"War Taxes Cost": -1.00
-		},
-		"    Palatine Court": {
-			"Diplomatic Relations": 2
-		},
-		"    Papal Warriors": {
-			"Land Leader Shock": 2
-		},
-		"    Saxon Piety": {
-			"Tolerance of True Faith": 3
-		},
-		"    Swiss Neutrality": {
-			"Improve Relations": 0.30
-		},
-		"    Taungu Martial Culture": {
-			"Infantry Combat Ability": 0.20
+		"Country-Specific Abilities": {
+			"Bavarian Centralization": {
+				"Monthly Autonomy Change": -0.30
+			},
+			"Brandenburg War Commissariat": {
+				"War Taxes Cost": -1.00
+			},
+			"Palatine Court": {
+				"Diplomatic Relations": 2
+			},
+			"Papal Warriors": {
+				"Land Leader Shock": 2
+			},
+			"Saxon Piety": {
+				"Tolerance of True Faith": 3
+			},
+			"Swiss Neutrality": {
+				"Improve Relations": 0.30
+			},
+			"Taungu Martial Culture": {
+				"Infantry Combat Ability": 0.20
+			}
 		}
 	},
 	"Absolutism": {
-		"Objectives": "",
-		"    Economic Theory": "Have completed either Trade or Economic idea group",
-		"    Innovative Culture": "Have at least 30 Innovativeness",
-		"    Stable Society": "Have a National Unrest inferior to -7",
-		"---": "",
-		"Generic Abilities": "",
-		"    Strategic Warfare": {
-			"Global Recruitment Speed": -0.33
+		"Objectives": {
+			"Economic Theory": {
+				"Have completed either Trade or Economic idea group": true
+			},
+			"Innovative Culture": {
+				"Amount of Innovativeness": 30
+			},
+			"Stable Society": {
+				"National Unrest inferior to": -7
+			}
 		},
-		"    Cultural Relativism": {
-			"Promote Culture Cost": -0.50
+		"Generic Abilities": {
+			"Strategic Warfare": {
+				"Global Recruitment Speed": -0.33
+			},
+			"Cultural Relativism": {
+				"Promote Culture Cost": -0.50
+			},
+			"Imperial Control": {
+				"Governing Capacity Modifier": 0.15
+			},
+			"Centralised State": {
+				"Governing Cost in provinces of Owned, Accepted or Brother Culture": -0.25
+			}
 		},
-		"    Imperial Control": {
-			"Governing Capacity Modifier": 0.15
-		},
-		"    Centralised State": {
-			"Governing Cost in provinces of Owned, Accepted or Brother Culture": -0.25
-		},
-		"----": "",
-		"Country-Specific Abilities": "",
-		"    Ayutthaya: Venice of the East": {
-			"Global Trade Power": 0.25
-		},
-		"    Barbary Pirates (Berbers minus Morocco)": {
-			"Light Ship Combat Ability": 0.20
-		},
-		"    Japanese Prosperity": {
-			"Development Cost": -0.05,
-			"Global Prosperity Growth": 1.0,
-			"Global Monthly Devastation": -0.10
-		},
-		"    Morrocan Interior": {
-			"Land Attrition": -0.50
+		"Country-Specific Abilities": {
+			"Ayutthaya: Venice of the East": {
+				"Global Trade Power": 0.25
+			},
+			"Barbary Pirates (Berbers minus Morocco)": {
+				"Light Ship Combat Ability": 0.20
+			},
+			"Japanese Prosperity": {
+				"Development Cost": -0.05,
+				"Global Prosperity Growth": 1.0,
+				"Global Monthly Devastation": -0.10
+			},
+			"Morrocan Interior": {
+				"Land Attrition": -0.50
+			}
 		}
 	},
 	"Revolutions": {
-		"Objectives": "",
-		"    Industrial Nation": "Have at least 5 Furnaces",
-		"    Powerful Diplomacy": "Have at least 7 diplomatic relations slots",
-		"    Join the Revolution": "Is Revolutionary",
-		"---": "",
-		"Generic Abilities": "",
-		"    Enlightened Governance": {
-			"Devotion": 1,
-			"Horde Unity": 1,
-			"Meritocracy": 1,
-			"Republican Tradition": 0.5,
-			"Yearly Legitimacy": 1
+		"Objectives": {
+			"Industrial Nation": {
+				"Number of Furnaces": 5
+			},
+			"Powerful Diplomacy": {
+				"Number of Diplomatic Relations slot": 7
+			},
+			"Join the Revolution": {
+				"Is Revolutionary": true
+			}
 		},
-		"    Nationalistic Fervor": {
-			"Manpower in Provinces of Owner's Primary Culture": 0.25
+		"Generic Abilities": {
+			"Enlightened Governance": {
+				"Devotion": 1,
+				"Horde Unity": 1,
+				"Meritocracy": 1,
+				"Republican Tradition": 0.5,
+				"Yearly Legitimacy": 1
+			},
+			"Nationalistic Fervor": {
+				"Manpower in Own Culture Provinces": 0.25
+			},
+			"Universal Literacy": {
+				"All Power Cost": -0.05
+			},
+			"Uniform Education": {
+				"Culture Conversion Cost": -0.30
+			}
 		},
-		"    Universal Literacy": {
-			"All Power Cost": -0.05
-		},
-		"    Uniform Education": {
-			"Culture Conversion Cost": -0.30
-		},
-		"----": "",
-		"Country-Specific Abilities": "",
-		"    German Industrialization": {
-			"Production Efficiecny": 0.33
-		},
-		"    Italian Hegemony (SPI/ITA)": {
-			"Administrative Efficiency": 0.05
-		},
-		"    Hanoverian Marriages": {
-			"Yearly Prestige": 2
-		},
-		"    Maratha Horsemen": {
-			"Shock Damage": 0.20
-		},
-		"    American Minutemen": {
-			"Global Reinforce Speed": 0.50
+		"Country-Specific Abilities": {
+			"German Industrialization": {
+				"Production Efficiecny": 0.33
+			},
+			"Italian Hegemony (SPI/ITA)": {
+				"Administrative Efficiency": 0.05
+			},
+			"Hanoverian Marriages": {
+				"Yearly Prestige": 2
+			},
+			"Maratha Horsemen": {
+				"Shock Damage": 0.20
+			},
+			"American Minutemen": {
+				"Global Reinforce Speed": 0.50
+			}
 		}
 	}
 }

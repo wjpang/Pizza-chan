@@ -183,7 +183,7 @@ NSA	Nassau
 RVA	Dortmund
 DTT	Dithmarschen
 ARA	Aragon
-CAS	Castille
+CAS	Castile
 CAT	Catalonia
 GRA	Granada
 NAV	Navarra

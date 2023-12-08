@@ -1,0 +1,5457 @@
+{
+	"Hagia Sophia": {
+		"Province": "Constantinople",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"The Religion Of §Y[Root.Getname]§! Is Either §Ycatholic§! §Yorthodox§! Or §Ycoptic§! Or Part Of The §Ymuslim§! Religion Group And Is Either The State Or The Syncretic Religion Of The Owner.": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.25,
+				"Tolerance of Heretics": 0.25,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.5,
+				"Tolerance of Heretics": 0.5,
+				"Monthly Piety Accelerator": 0.001,
+				"Yearly Patriarch Authority": 0.002,
+				"Yearly Papal Influence": 0.5,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 1,
+				"Tolerance of Heretics": 1,
+				"Monthly Piety Accelerator": 0.002,
+				"Yearly Patriarch Authority": 0.005,
+				"Yearly Papal Influence": 1,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Stonehenge": {
+		"Province": "Hampshire",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"Province Is Or Accepts Religion Group": {
+					"Religion Group": "Pagan"
+				},
+				"And": [
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Or": {
+							"Culture": [
+								"Anglois",
+								"English"
+							]
+						},
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of Heretics": 0.5,
+				"Tolerance of Heathens": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of Heretics": 0.5,
+				"Tolerance of Heathens": 0.5,
+				"Stability Cost Modifier": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of Heretics": 1,
+				"Tolerance of Heathens": 1,
+				"Stability Cost Modifier": -0.25,
+				"Missionary Strength": 0.01
+			}
+		}
+	},
+	"Tower Of London": {
+		"Province": "London",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"And": [
+					{
+						"Culture": "Norman",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Or": {
+							"Culture Group": "British",
+							"Culture": "Anglois"
+						},
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Army Tradition": 0.25
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"Tag": "France",
+							"Was Tag": "France",
+							"Overlord": {
+								"Or": {
+									"Tag": "France",
+									"Was Tag": "France"
+								}
+							}
+						}
+					},
+					"Fra": {
+						"mission_completed": "fra_london"
+					}
+				},
+				"Modifier": {
+					"Maximum Absolutism": 5
+				}
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Yearly Army Tradition": 0.25,
+				"Yearly Prestige": 0.25
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"Tag": "France",
+							"Was Tag": "France",
+							"Overlord": {
+								"Or": {
+									"Tag": "France",
+									"Was Tag": "France"
+								}
+							}
+						}
+					},
+					"Fra": {
+						"mission_completed": "fra_london"
+					}
+				},
+				"Modifier": {
+					"Maximum Absolutism": 10,
+					"Maximum Revolutionary Zeal": 5
+				}
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Yearly Army Tradition": 0.5,
+				"Yearly Prestige": 0.5
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"Tag": "France",
+							"Was Tag": "France",
+							"Overlord": {
+								"Or": {
+									"Tag": "France",
+									"Was Tag": "France"
+								}
+							}
+						}
+					},
+					"Fra": {
+						"mission_completed": "fra_london"
+					}
+				},
+				"Modifier": {
+					"Maximum Absolutism": 10,
+					"Maximum Revolutionary Zeal": 10
+				}
+			}
+		}
+	},
+	"Buddha Statues": {
+		"Province": "Bamyan",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Culture Conversion Cost": -0.1,
+				"Missionary Strength": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Culture Conversion Cost": -0.1,
+				"Missionary Strength": 0.01,
+				"Missionaries": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Culture Conversion Cost": -0.25,
+				"Missionary Strength": 0.01,
+				"Missionaries": 1,
+				"Idea Cost": -0.05
+			}
+		}
+	},
+	"Parthenon": {
+		"Province": "Athens",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"Province Is Or Accepts Religion Group": {
+					"Religion Group": "Pagan"
+				},
+				"And": [
+					{
+						"Culture": "Greek",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Athenian",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -3
+			},
+			"Country Modifiers": {
+				"Advisor Costs": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -3
+			},
+			"Country Modifiers": {
+				"Advisor Costs": -0.1,
+				"Possible Advisors": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -3
+			},
+			"Country Modifiers": {
+				"Advisor Costs": -0.2,
+				"Possible Advisors": 1,
+				"Yearly Corruption": -0.1
+			}
+		}
+	},
+	"The Forbidden City": {
+		"Province": "Beijing",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Owner": {
+				"has_reform": "celestial_empire"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.25,
+				"Mandate Growth Modifier": 0.03
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.5,
+				"Mandate Growth Modifier": 0.03,
+				"Prestige Decay": -0.01
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.5,
+				"Mandate Growth Modifier": 0.05,
+				"Prestige Decay": -0.02
+			}
+		}
+	},
+	"Angkor Wat": {
+		"Province": "Angkor",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism Or Is Dharmic": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.05,
+				"Technology Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.1,
+				"Technology Cost": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.15,
+				"Technology Cost": -0.1
+			}
+		}
+	},
+	"Petra": {
+		"Province": "Maan",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"And": [
+					{
+						"Culture": "Syrian",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Bedouin",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Envoy Travel Time": -0.2
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Envoy Travel Time": -0.25,
+				"Cost to fabricate claims": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 2,
+				"Envoy Travel Time": -0.33,
+				"Diplomatic Relations": 1,
+				"Cost to fabricate claims": -0.2
+			}
+		}
+	},
+	"Cologne Cathedral": {
+		"Province": "Köln",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Papal Influence": 0.5,
+				"Monthly Fervor": 0.25,
+				"Church Power": 0.05,
+				"Enforce Religion Cost": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Papal Influence": 1,
+				"Monthly Fervor": 0.5,
+				"Church Power": 0.1,
+				"Enforce Religion Cost": -0.25
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Papal Influence": 2,
+				"Monthly Fervor": 1,
+				"Church Power": 0.15,
+				"Enforce Religion Cost": -0.33
+			}
+		}
+	},
+	"Moscow Kremlin": {
+		"Province": "Moskva",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"Culture Group": [
+					"East Slavic",
+					"Slavic"
+				],
+				"Culture": "Roman"
+			},
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15,
+				"Local Manpower Modifier": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25,
+				"Local Manpower Modifier": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.33,
+				"Local Manpower Modifier": 1
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Regiment Costs": -0.1
+			}
+		}
+	},
+	"Machu Picchu": {
+		"Province": "Abancay",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Culture Group": "Andean",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Idea Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Idea Cost": -0.1,
+				"Reform Progress Growth": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Idea Cost": -0.15,
+				"Reform Progress Growth": 0.1,
+				"Cost to Promote Mercantilism": -0.15
+			}
+		}
+	},
+	"Chichen Itza": {
+		"Province": "Sotuta",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Culture Group": "Mayan",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Manpower Recovery Speed": 0.1,
+				"Recruitment Time": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Manpower Recovery Speed": 0.15,
+				"Recruitment Time": -0.3
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Manpower Recovery Speed": 0.2,
+				"Recruitment Time": -0.5,
+				"Infantry Cost": -0.1
+			}
+		}
+	},
+	"Himeji Castle": {
+		"Province": "Harima",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Spy Network Construction": 0.1,
+				"Spy Defense": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.5
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Spy Network Construction": 0.15,
+				"Spy Defense": 0.25
+			}
+		}
+	},
+	"Moai": {
+		"Province": "Rapanui",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Culture": "Polynesian",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.05,
+				"Tolerance of the True Faith": 0.5,
+				"Nobles Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.1,
+				"Tolerance of the True Faith": 1,
+				"Nobles Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.25,
+				"Tolerance of the True Faith": 1,
+				"Tolerance of Heretics": 1,
+				"Nobles Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Saint Peter'S Basilica": {
+		"Province": "Roma",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Catholic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Appoint Cardinal Cost": -0.05,
+				"Curia Powers Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Appoint Cardinal Cost": -0.1,
+				"Curia Powers Cost": -0.1,
+				"Idea Cost": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Appoint Cardinal Cost": -0.2,
+				"Curia Powers Cost": -0.1,
+				"Idea Cost": -0.1,
+				"Clergy Influence": 0.1
+			}
+		}
+	},
+	"Mount Fuji": {
+		"Province": "Kai",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"The Religion Of §Y[Root.Getname]§! Is Either §Yshinto§! Or §Ymahayana§! And Is Either The State The Syncretic Or The Harmonized Religion Of The Owner.": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.1,
+				"Local Monthly Devastation": -0.05
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.15,
+				"Local Monthly Devastation": -0.05,
+				"Local Tax Modifier": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.2,
+				"Local Monthly Devastation": -0.1,
+				"Local Tax Modifier": 0.2
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.05,
+				"Local Tax Modifier": 0.05
+			},
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.1,
+				"Yearly Prestige": 0.5
+			}
+		}
+	},
+	"Tenochtitlan": {
+		"Province": "Mexico",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Culture Group": "Central American",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Construction Cost": -0.1,
+				"Local Goods Produced Modifier": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Doom Reduction": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Construction Cost": -0.15,
+				"Local Development Cost": -0.1,
+				"Local Goods Produced Modifier": 0.33
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Doom Reduction": 2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Construction Cost": -0.15,
+				"Local Development Cost": -0.2,
+				"Local Goods Produced Modifier": 0.5
+			},
+			"Area Modifier": {
+				"Local Development Cost": -0.05
+			},
+			"Country Modifiers": {
+				"Yearly Doom Reduction": 3
+			}
+		}
+	},
+	"Notre-Dame Cathedral": {
+		"Province": "Paris",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Papal Influence": 0.5,
+				"Monthly Fervor": 0.25,
+				"Church Power": 0.05,
+				"Tolerance of the True Faith": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Papal Influence": 1,
+				"Monthly Fervor": 0.5,
+				"Church Power": 0.1,
+				"Tolerance of the True Faith": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Papal Influence": 2,
+				"Monthly Fervor": 1,
+				"Church Power": 0.15,
+				"Tolerance of the True Faith": 2,
+				"Religious Unity": 0.1
+			}
+		}
+	},
+	"Shwedagon Pagoda": {
+		"Province": "Dagon",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Unrest": -2,
+				"Local Development Cost": -0.05
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Clergy Loyalty Equilibrium": 0.1,
+				"Yearly Karma Decay": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.1
+			},
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.1,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"The Great Wall Of China": {
+		"Province": "Ningxia",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"And": {
+					"Culture Group": "Chinese",
+					"Province Is Or Accepts Culture": true
+				},
+				"Owner": {
+					"Is Emperor Of China": true
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Garrison Growth": 0.33
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Garrison Growth": 0.66
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.5
+			},
+			"Country Modifiers": {
+				"Attrition for Enemies": 1,
+				"Garrison Size": 0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Garrison Growth": 1
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.75
+			},
+			"Country Modifiers": {
+				"Attrition for Enemies": 2,
+				"Garrison Size": 0.25
+			}
+		}
+	},
+	"Ambras Castle": {
+		"Province": "Inntal",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.1,
+				"Army Drill Gain Modifier": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.1
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Army Drill Gain Modifier": 0.3
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Army Drill Gain Modifier": 0.5
+			}
+		}
+	},
+	"Mesa Verde": {
+		"Province": "Tachii'nii",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Totemist"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Technology Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Unrest": -2
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Idea Cost": -0.05,
+				"Technology Cost": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Unrest": -3
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Idea Cost": -0.1,
+				"Technology Cost": -0.1
+			}
+		}
+	},
+	"Taj Mahal": {
+		"Province": "Central Doab",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Prestige Decay": -0.005
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Unrest": -2
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.002,
+				"Prestige Decay": -0.005,
+				"Monthly Splendor": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.003,
+				"Prestige Decay": -0.01,
+				"Monthly Splendor": 2,
+				"Power Projection from Insults": 1
+			}
+		}
+	},
+	"Alhambra": {
+		"Province": "Granada",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Income from Vassals": 0.1,
+				"Liberty Desire in Subjects": 5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Income from Vassals": 0.1,
+				"Liberty Desire in Subjects": 5,
+				"Diplomatic Reputation": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Administrative Efficiency": 0.05,
+				"Income from Vassals": 0.1,
+				"Liberty Desire in Subjects": 10,
+				"Diplomatic Reputation": 1
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"mission_completed": "ARB_across_the_strait"
+					}
+				},
+				"Modifier": {
+					"Diplomatic Annexation Cost": -0.05
+				}
+			}
+		}
+	},
+	"The Grand Palace Of Bangkok": {
+		"Province": "Bangkok",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.25,
+				"Governing Capacity Modifier": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.5,
+				"Governing Capacity Modifier": 0.1,
+				"Vassal Force Limit Contribution": 0.3
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 1,
+				"Governing Capacity Modifier": 0.15,
+				"Vassal Force Limit Contribution": 0.5,
+				"Aggressive Expansion Impact": -0.1
+			}
+		}
+	},
+	"Bagan Temples": {
+		"Province": "Pagan",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Missionary Strength": 0.01
+			},
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.05,
+				"Missionary Strength": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Missionary Strength": 0.02
+			},
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.1,
+				"Missionary Strength": 0.01,
+				"Missionaries": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Missionary Strength": 0.03
+			},
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.15,
+				"Missionary Strength": 0.02,
+				"Missionaries": 2
+			}
+		}
+	},
+	"Aït Benhaddou": {
+		"Province": "Demnate",
+		"Starting Tier": 2,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Caravan Power": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Caravan Power": 0.2,
+				"Trade Efficiency": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Caravan Power": 0.33,
+				"Trade Efficiency": 0.1,
+				"Global Trade Power": 0.05
+			}
+		}
+	},
+	"Registan Square": {
+		"Province": "Samarkand",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Stability Cost Modifier": -0.1,
+				"Enforce Religion Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.002,
+				"Stability Cost Modifier": -0.15,
+				"Enforce Religion Cost": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.003,
+				"Stability Cost Modifier": -0.25,
+				"Enforce Religion Cost": -0.15
+			}
+		}
+	},
+	"Harmandir Sahib": {
+		"Province": "Doaba",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Monthly Autonomy Change": -0.05,
+				"Minimum Autonomy in Territories": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Monthly Autonomy Change": -0.1,
+				"Minimum Autonomy in Territories": -0.15
+			}
+		}
+	},
+	"Jokhang Temple": {
+		"Province": "Lhasa",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.05,
+				"Missionary Maintenance Cost": -0.1,
+				"Yearly Karma Decay": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.1,
+				"Missionary Strength": 0.01,
+				"Missionary Maintenance Cost": -0.2,
+				"Yearly Karma Decay": 0.025
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.25,
+				"Missionary Strength": 0.02,
+				"Missionary Maintenance Cost": -0.3,
+				"Yearly Karma Decay": 0.05
+			}
+		}
+	},
+	"Borobudur Temple": {
+		"Province": "Kotagede",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"And": {
+					"Culture Group": "Malay",
+					"Province Is Or Accepts Culture": true
+				},
+				"Province Is Buddhist Or Accepts Buddhism": true
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Autonomy": -0.01
+			},
+			"Country Modifiers": {
+				"Culture Conversion Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Autonomy": -0.025
+			},
+			"Country Modifiers": {
+				"Culture Conversion Cost": -0.1,
+				"National Unrest": -1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Culture Conversion Cost": -0.25,
+				"National Unrest": -2,
+				"Number of accepted Cultures": 1,
+				"Monthly Autonomy Change": -0.05
+			}
+		}
+	},
+	"Temple Of Confucius": {
+		"Province": "Yanzhou",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"Province Is Or Accepts Religion": {
+					"Religion": "Confucian"
+				},
+				"Has Owner Harmonized Religion": true
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Harmony Increase": 0.25,
+				"Yearly Prestige": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Harmony Increase": 0.33,
+				"Religious Unity": 0.25,
+				"Yearly Prestige": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Harmony Increase": 0.5,
+				"Religious Unity": 0.5,
+				"Yearly Prestige": 1
+			}
+		}
+	},
+	"Murud-Janjira Fort": {
+		"Province": "Chaul",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Force Limit Modifier": 0.1,
+				"Naval Maintenance Modifier": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Force Limit Modifier": 0.2,
+				"Naval Maintenance Modifier": -0.15,
+				"Yearly Navy Tradition": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Force Limit Modifier": 0.3,
+				"Naval Maintenance Modifier": -0.2,
+				"Yearly Navy Tradition": 1,
+				"Admiral Cost": -0.1
+			}
+		}
+	},
+	"Pura Besakih": {
+		"Province": "Bali",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Brahmins Loyalty Equilibrium": 0.05,
+				"Stability Cost Modifier": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Brahmins Loyalty Equilibrium": 0.1,
+				"Stability Cost Modifier": -0.1,
+				"Monthly War Exhaustion": -0.02
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Brahmins Loyalty Equilibrium": 0.15,
+				"Stability Cost Modifier": -0.15,
+				"Monthly War Exhaustion": -0.05,
+				"National Unrest": -1
+			}
+		}
+	},
+	"Kanbawzathadi Palace": {
+		"Province": "Pegu",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Diplomatic Advisor Cost": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Diplomatic Relations": 1,
+				"Diplomatic Advisor Cost": -0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Diplomatic Relations": 2,
+				"Advisor Costs": -0.2
+			}
+		}
+	},
+	"Pyramid Of Cheops": {
+		"Province": "Cairo",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"Province Is Or Accepts Religion Group": {
+					"Religion Group": "Pagan"
+				},
+				"And": [
+					{
+						"Culture Group": "Levantine",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Government Power": 0.5,
+				"Prestige Decay": -0.005,
+				"All Estate's Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Prestige Decay": -0.01,
+				"Yearly Government Power": 0.5,
+				"All Estate's Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Government Power": 1,
+				"All Estate's Loyalty Equilibrium": 0.05,
+				"Prestige Decay": -0.01,
+				"No Stability Loss On Monarch Death": true
+			}
+		}
+	},
+	"City Of Khami": {
+		"Province": "Zimbabwe",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Cost to fabricate claims": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.2
+			},
+			"Country Modifiers": {
+				"Technology Cost": -0.05,
+				"Cost to fabricate claims": -0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Technology Cost": -0.05,
+				"Cost to fabricate claims": -0.3
+			}
+		}
+	},
+	"Prambanan Temple": {
+		"Province": "Kotagede",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Development Cost": -0.02,
+				"Missionary Strength": 0.005
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Development Cost": -0.05,
+				"Missionary Strength": 0.01
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Development Cost": -0.1,
+				"Missionary Strength": 0.02,
+				"Missionaries": 1
+			}
+		}
+	},
+	"Inukshuk": {
+		"Province": "Ahiarmiut",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Number of accepted Cultures": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Number of accepted Cultures": 1,
+				"Cost of Advisors with Ruler's Culture": -0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Number of accepted Cultures": 2,
+				"Cost of Advisors with Ruler's Culture": -0.2,
+				"Promote Culture Cost": -0.15
+			}
+		}
+	},
+	"Baku Ateshgah": {
+		"Province": "Shirvan",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Zoroastrian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Discipline": 0.025,
+				"Fire Damage Received": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Discipline": 0.05,
+				"Fire Damage Received": -0.1,
+				"Culture Conversion Cost": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Discipline": 0.1,
+				"Fire Damage Received": -0.1,
+				"Land Fire Damage": 0.05,
+				"Culture Conversion Cost": -0.1
+			}
+		}
+	},
+	"Kiev Pechersk Lavra": {
+		"Province": "Kiev",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Orthodox"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Patriarch Authority": 0.001
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Patriarch Authority": 0.002,
+				"Tolerance of the True Faith": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Yearly Patriarch Authority": 0.005,
+				"Tolerance of the True Faith": 2
+			}
+		}
+	},
+	"Belem Tower": {
+		"Province": "Lisboa",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Trade Power": 5
+			},
+			"Area Modifier": {
+				"Local Manpower Modifier": 0.15
+			},
+			"Country Modifiers": {
+				"Global Trade Power": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Trade Power": 10
+			},
+			"Area Modifier": {
+				"Local Manpower Modifier": 0.25
+			},
+			"Country Modifiers": {
+				"Global Trade Power": 0.1,
+				"National Sailors Modifier": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Trade Power": 15
+			},
+			"Area Modifier": {
+				"Local Manpower Modifier": 0.5
+			},
+			"Country Modifiers": {
+				"Global Trade Power": 0.15,
+				"National Sailors Modifier": 0.25
+			}
+		}
+	},
+	"Sankin-Kotai Palaces": {
+		"Province": "Musashi",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Culture Group": "Japanese",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"War Taxes Cost": -0.5,
+				"Prestige from Land Battles": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"War Taxes Cost": -0.5,
+				"Prestige from Land Battles": 1,
+				"General Cost": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Recruitment Time": -0.25
+			},
+			"Country Modifiers": {
+				"War Taxes Cost": -1,
+				"Prestige from Land Battles": 1,
+				"General Cost": -0.1
+			}
+		}
+	},
+	"Mausoleum At Halicarnassus": {
+		"Province": "Mentese",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Monthly Splendor": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Monthly Splendor": 1,
+				"Average Monarch Lifespan": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 1,
+				"Monthly Splendor": 1.5,
+				"Average Monarch Lifespan": 0.1
+			}
+		}
+	},
+	"Heddal Stave Church": {
+		"Province": "Bratsberg",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.05,
+				"Missionary Maintenance Cost": -0.1,
+				"Missionaries": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.1,
+				"Missionary Maintenance Cost": -0.2,
+				"Missionaries": 1
+			}
+		}
+	},
+	"Versailles": {
+		"Province": "Paris",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"And": [
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture Group": "French",
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"National Tax Modifier": 0.1,
+				"Improve Relations": 0.1,
+				"Nobles Loyalty Equilibrium": 0.05,
+				"Nobles Influence": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"National Tax Modifier": 0.15,
+				"Improve Relations": 0.1,
+				"Income from Vassals": 0.1,
+				"Nobles Loyalty Equilibrium": 0.1,
+				"Nobles Influence": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"National Tax Modifier": 0.2,
+				"Improve Relations": 0.15,
+				"Income from Vassals": 0.2,
+				"Nobles Loyalty Equilibrium": 0.15,
+				"Nobles Influence": 0.1
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"mission_completed": "fra_means_expansion",
+						"Is Emperor": true
+					}
+				},
+				"Modifier": {
+					"Land Leader Fire": 1,
+					"Reinforce Speed": 0.2
+				}
+			}
+		}
+	},
+	"El Escorial": {
+		"Province": "Madrid",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"And": [
+					{
+						"Culture Group": "Iberian",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Autonomy Change": -0.01,
+				"Tariffs": 0.05,
+				"Treasure Fleet Income": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Autonomy Change": -0.025,
+				"Governing Capacity Modifier": 0.05,
+				"Tariffs": 0.1,
+				"Treasure Fleet Income": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Autonomy Change": -0.05,
+				"Governing Capacity Modifier": 0.1,
+				"Tariffs": 0.2,
+				"Treasure Fleet Income": 0.2
+			}
+		}
+	},
+	"Cerro Rico Del Potosí": {
+		"Province": "Potosi",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1.0
+			},
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.05
+			},
+			"Country Modifiers": [],
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"alliance_with": "Ming",
+							"Overlord": {
+								"alliance_with": "Ming"
+							},
+							"Any Ally": {
+								"Is Emperor Of China": true
+							},
+							"is_subject_of": "Ming"
+						}
+					},
+					"Mng": {
+						"mission_completed": "mng_single_whip_law",
+						"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+					}
+				},
+				"Modifier": {
+					"Local Goods Produced": 1,
+					"Yearly Inflation Reduction": 0.02
+				}
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 2.0
+			},
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.1
+			},
+			"Country Modifiers": {
+				"Interest Per Annum": -0.25
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"alliance_with": "Ming",
+							"Overlord": {
+								"alliance_with": "Ming"
+							},
+							"Any Ally": {
+								"Is Emperor Of China": true
+							},
+							"is_subject_of": "Ming"
+						}
+					},
+					"Mng": {
+						"mission_completed": "mng_single_whip_law",
+						"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+					}
+				},
+				"Modifier": {
+					"Local Goods Produced": 2,
+					"Yearly Inflation Reduction": 0.03
+				}
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 3.0
+			},
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.15
+			},
+			"Country Modifiers": {
+				"Interest Per Annum": -0.5
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"alliance_with": "Ming",
+							"Overlord": {
+								"alliance_with": "Ming"
+							},
+							"Any Ally": {
+								"Is Emperor Of China": true
+							},
+							"is_subject_of": "Ming"
+						}
+					},
+					"Mng": {
+						"mission_completed": "mng_single_whip_law",
+						"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+					}
+				},
+				"Modifier": {
+					"Local Goods Produced": 3,
+					"Yearly Inflation Reduction": 0.05
+				}
+			}
+		}
+	},
+	"Kaaba": {
+		"Province": "Mecca",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Or": {
+				"Province Is Or Accepts Religion Group": {
+					"Religion Group": "Muslim"
+				},
+				"Owner": {
+					"Has Chosen The '§Yconvert The Mosque Into A Church!§!' Option In The @Byz §Y[Byz.Getadjective]§! Event §Yfate Of The Masjid Al-Haram§!.": true
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.1,
+				"Religious Unity": 0.1
+			},
+			"Conditional Modifier": [
+				{
+					"Tooltip Potential": {
+						"Owner": {
+							"Tag": "Byzantium"
+						}
+					},
+					"Trigger": {
+						"Owner": {
+							"Has Chosen The '§Yconvert The Mosque Into A Church!§!' Option In The @Byz §Y[Byz.Getadjective]§! Event §Yfate Of The Masjid Al-Haram§!.": true
+						}
+					},
+					"Modifier": {
+						"Religious Unity": -0.05
+					}
+				},
+				{
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "YEM_islamic_ambitions"
+						}
+					},
+					"Modifier": {
+						"Provincial Trade Power Modifier": 0.025
+					}
+				}
+			]
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Religious Unity": 0.15,
+				"War Score Cost vs Other Religions": -0.05
+			},
+			"Conditional Modifier": [
+				{
+					"Tooltip Potential": {
+						"Owner": {
+							"Tag": "Byzantium"
+						}
+					},
+					"Trigger": {
+						"Owner": {
+							"Has Chosen The '§Yconvert The Mosque Into A Church!§!' Option In The @Byz §Y[Byz.Getadjective]§! Event §Yfate Of The Masjid Al-Haram§!.": true
+						}
+					},
+					"Modifier": {
+						"Religious Unity": -0.075,
+						"War Score Cost vs Other Religions": 0.05
+					}
+				},
+				{
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "YEM_islamic_ambitions"
+						}
+					},
+					"Modifier": {
+						"Provincial Trade Power Modifier": 0.05
+					}
+				}
+			]
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Religious Unity": 0.2,
+				"War Score Cost vs Other Religions": -0.1
+			},
+			"Conditional Modifier": [
+				{
+					"Tooltip Potential": {
+						"Owner": {
+							"Tag": "Byzantium"
+						}
+					},
+					"Trigger": {
+						"Owner": {
+							"Has Chosen The '§Yconvert The Mosque Into A Church!§!' Option In The @Byz §Y[Byz.Getadjective]§! Event §Yfate Of The Masjid Al-Haram§!.": true
+						}
+					},
+					"Modifier": {
+						"Religious Unity": -0.1,
+						"War Score Cost vs Other Religions": 0.1
+					}
+				},
+				{
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "YEM_islamic_ambitions"
+						}
+					},
+					"Modifier": {
+						"Provincial Trade Power Modifier": 0.1
+					}
+				}
+			]
+		}
+	},
+	"Holy City Of Jerusalem": {
+		"Province": "Jerusalem",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Or": {
+				"Province Is Or Accepts Religion Group": [
+					{
+						"Religion Group": "Muslim"
+					},
+					{
+						"Religion Group": "Christian"
+					}
+				],
+				"Province Is Or Accepts Religion": {
+					"Religion": "Jewish"
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Missionary Strength": 0.01
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.1,
+				"Missionary Strength vs Heretics": 0.01,
+				"Monthly Fervor": 0.25,
+				"Church Power": 0.05,
+				"Yearly Papal Influence": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Missionary Strength": 0.02
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Missionary Strength vs Heretics": 0.02,
+				"Monthly Fervor": 0.5,
+				"Church Power": 0.1,
+				"Yearly Papal Influence": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Missionary Strength": 0.03
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Missionary Strength vs Heretics": 0.03,
+				"Missionaries": 1,
+				"Monthly Fervor": 1,
+				"Church Power": 0.15,
+				"Yearly Papal Influence": 1
+			}
+		}
+	},
+	"Great Mosque Of Djenné": {
+		"Province": "Jenne",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Missionary Strength vs Heathens": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.002,
+				"Missionary Strength vs Heathens": 0.02,
+				"Missionaries": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.003,
+				"Missionary Strength vs Heathens": 0.03,
+				"Missionaries": 1
+			}
+		}
+	},
+	"Imperial City Of Hue": {
+		"Province": "Hue",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Harmony Increase": 0.25,
+				"Yearly Legitimacy": 0.5,
+				"State Maintenance": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Harmony Increase": 0.33,
+				"Yearly Karma Decay": 0.1,
+				"Yearly Legitimacy": 1,
+				"State Maintenance": -0.2,
+				"Minimum Autonomy in Territories": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Harmony Increase": 0.5,
+				"Yearly Karma Decay": 0.15,
+				"Yearly Legitimacy": 1,
+				"State Maintenance": -0.25,
+				"Minimum Autonomy in Territories": -0.1
+			}
+		}
+	},
+	"Baiturrahman Grand Mosque": {
+		"Province": "Kutaraja",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.005,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Missionary Strength": 0.01,
+				"Tolerance of the True Faith": 1,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Missionary Strength": 0.02,
+				"Tolerance of the True Faith": 2,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Bam Citadel": {
+		"Province": "Bam",
+		"Starting Tier": 2,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Caravan Power": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Caravan Power": 0.2,
+				"Merchants": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.35
+			},
+			"Country Modifiers": {
+				"Caravan Power": 0.4,
+				"Merchants": 1
+			}
+		}
+	},
+	"Bara Katra": {
+		"Province": "Dhaka",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"Culture Group": [
+					"Eastern Aryan",
+					"Hindustani"
+				]
+			},
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Trade Steering": 0.05,
+				"Global Ship Trade Power": 0.1,
+				"Burghers Loyalty Equilibrium": 0.05,
+				"Jains Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Trade Steering": 0.1,
+				"Global Ship Trade Power": 0.1,
+				"Burghers Loyalty Equilibrium": 0.1,
+				"Jains Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Trade Steering": 0.2,
+				"Global Ship Trade Power": 0.3,
+				"Merchants": 1,
+				"Burghers Loyalty Equilibrium": 0.15,
+				"Jains Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Bran Castle": {
+		"Province": "Királyföld",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"If": {
+				"Limit": {
+					"Owner": {
+						"Not": {
+							"has_country_flag": "teu_can_utilize_bran_castle"
+						}
+					}
+				},
+				"Or": {
+					"And": [
+						{
+							"Culture Group": "Carpathian",
+							"Province Is Or Accepts Culture": true
+						},
+						{
+							"Culture": "Roman",
+							"Province Is Or Accepts Culture": true
+						}
+					]
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Fort Maintenance on border with rival": -0.15,
+				"National Garrison Growth": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Fort Maintenance on border with rival": -0.2,
+				"National Garrison Growth": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Fort Maintenance on border with rival": -0.3,
+				"National Garrison Growth": 0.3
+			}
+		}
+	},
+	"Brandenburg Gate": {
+		"Province": "Berlin",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Militarization of State": 0.01,
+				"Monthly Early Prussian Militarized": 0.01,
+				"Monthly Prussian Militarized Society": 0.01,
+				"Monthly Total Prussian Militarized Society": 0.01,
+				"Prestige from Land Battles": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Militarization of State": 0.02,
+				"Prestige from Land Battles": 1,
+				"Army Tradition From Battles": 0.25,
+				"Monthly Early Prussian Militarized": 0.02,
+				"Monthly Prussian Militarized Society": 0.02,
+				"Monthly Total Prussian Militarized Society": 0.02
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Militarization of State": 0.05,
+				"Prestige from Land Battles": 1.5,
+				"Army Tradition From Battles": 0.5,
+				"Monthly Early Prussian Militarized": 0.05,
+				"Monthly Prussian Militarized Society": 0.05,
+				"Monthly Total Prussian Militarized Society": 0.05
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"mission_completed": "emp_brapru_the_balance_of_power"
+					}
+				},
+				"Modifier": {
+					"Max effect of Absolutism": 0.1
+				}
+			}
+		}
+	},
+	"Bibliotheca Corviniana": {
+		"Province": "Pest",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread": 0.2,
+				"Institution Embracement Cost": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread": 0.3,
+				"Institution Embracement Cost": -0.1,
+				"Idea Cost": -0.05
+			}
+		}
+	},
+	"Cahokia": {
+		"Province": "Cahokia",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Totemist"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Monthly Devastation": -0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tribal Development Growth": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Monthly Devastation": -0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tribal Development Growth": 0.02,
+				"National Manpower Modifier": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -1
+			},
+			"Country Modifiers": {
+				"Tribal Development Growth": 0.03,
+				"National Manpower Modifier": 0.2
+			}
+		}
+	},
+	"Cartagena De Indias Fort System": {
+		"Province": "Cartagena",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15,
+				"Blockade Force Required": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Global Ship Trade Power": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Attrition For Enemies": 0.5,
+				"Blockade Force Required": 1,
+				"Hostile Fleet Attrition": 5
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Global Ship Trade Power": 0.2,
+				"Prestige from Naval Battles": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Attrition For Enemies": 1,
+				"Blockade Force Required": 1,
+				"Hostile Fleet Attrition": 10
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Global Ship Trade Power": 0.3,
+				"Prestige from Naval Battles": 1
+			}
+		}
+	},
+	"Chan Chan Citadel": {
+		"Province": "Chanchan",
+		"Starting Tier": 2,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15,
+				"Garrison Growth": 0.33
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Relations": 1,
+				"Yearly Authority": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.1,
+				"Garrison Growth": 0.66,
+				"Local Defensiveness": 0.33
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Diplomatic Relations": 1,
+				"Yearly Authority": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Garrison Growth": 1,
+				"Local Defensiveness": 0.5
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.25,
+				"Local Development Cost": -0.1
+			},
+			"Country Modifiers": {
+				"Diplomatic Relations": 2,
+				"Yearly Authority": 0.3
+			}
+		}
+	},
+	"Doge'S Palace": {
+		"Province": "Venezia",
+		"Starting Tier": 2,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reform Progress Growth": 0.1,
+				"Yearly Republican Tradition": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reform Progress Growth": 0.2,
+				"Yearly Republican Tradition": 0.25,
+				"Yearly Prestige": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reform Progress Growth": 0.3,
+				"Yearly Republican Tradition": 0.5,
+				"Yearly Prestige": 1
+			}
+		}
+	},
+	"Duomo Di Milano": {
+		"Province": "Milan",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.25
+			},
+			"Area Modifier": {
+				"Local Religious Conversion Resistance": 0.33
+			},
+			"Country Modifiers": {
+				"Yearly Papal Influence": 0.5,
+				"Monthly Fervor": 0.25,
+				"Church Power": 0.05,
+				"Resistance to Reformation": 0.15,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.5
+			},
+			"Area Modifier": {
+				"Local Religious Conversion Resistance": 0.66
+			},
+			"Country Modifiers": {
+				"Yearly Papal Influence": 1,
+				"Monthly Fervor": 0.5,
+				"Church Power": 0.1,
+				"Resistance to Reformation": 0.3,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.75
+			},
+			"Area Modifier": {
+				"Local Religious Conversion Resistance": 1
+			},
+			"Country Modifiers": {
+				"Yearly Papal Influence": 2,
+				"Monthly Fervor": 1,
+				"Church Power": 0.15,
+				"Resistance to Reformation": 0.5,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Dutch Polders": {
+		"Province": "Amsterdam",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"Culture": [
+					"Dutch",
+					"Flemish",
+					"Frisian",
+					"Roman"
+				]
+			},
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.1,
+				"Local Monthly Devastation": -0.25
+			},
+			"Country Modifiers": {
+				"Goods Produced Modifier": 0.05,
+				"Burghers Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.15,
+				"Local Monthly Devastation": -0.5
+			},
+			"Country Modifiers": {
+				"Goods Produced Modifier": 0.05,
+				"Burghers Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25,
+				"Local Monthly Devastation": -1
+			},
+			"Country Modifiers": {
+				"Goods Produced Modifier": 0.1,
+				"Burghers Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Ellora Caves": {
+		"Province": "Daulatabad",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"And": {
+					"Religion Group": "Dharmic",
+					"Has Owner Religion": true
+				},
+				"Province Is Buddhist Or Accepts Buddhism": true
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.25,
+				"Tolerance of Heretics": 0.25,
+				"Tolerance of Heathens": 0.25,
+				"Brahmins Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.5,
+				"Tolerance of Heretics": 0.5,
+				"Tolerance of Heathens": 0.5,
+				"Brahmins Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 1,
+				"Tolerance of Heretics": 1,
+				"Tolerance of Heathens": 1,
+				"Brahmins Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Erdene Zuu": {
+		"Province": "Qaraqorum",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"And": {
+					"Religion": "Tengri",
+					"Has Owner Religion": true
+				},
+				"Province Is Buddhist Or Accepts Buddhism": true
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.05
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Religious Unity": 0.1,
+				"Clergy Loyalty Equilibrium": 0.05,
+				"Yearly Karma Decay": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Horde Unity": 0.5,
+				"Religious Unity": 0.2,
+				"Clergy Loyalty Equilibrium": 0.1,
+				"Yearly Karma Decay": 0.025
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Horde Unity": 1,
+				"Religious Unity": 0.3,
+				"Clergy Loyalty Equilibrium": 0.15,
+				"Yearly Karma Decay": 0.05
+			}
+		}
+	},
+	"Etchmiadzin Cathedral": {
+		"Province": "Yerevan",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Coptic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.05
+			},
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.5,
+				"Missionary Strength": 0.005,
+				"Prestige per Development from Missionary": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.1
+			},
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 1,
+				"Missionary Strength": 0.01,
+				"Prestige per Development from Missionary": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.25
+			},
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 2,
+				"Missionary Strength": 0.02,
+				"Prestige per Development from Missionary": 0.3
+			}
+		}
+	},
+	"Fuerte Del Morro": {
+		"Province": "Borikén",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Force Limit Modifier": 0.1,
+				"Overlord Naval Force Limit Modifier": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Blockade Force Required": 0.5
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Naval Force Limit Modifier": 0.2,
+				"Overlord Naval Force Limit Modifier": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Blockade Force Required": 1
+			},
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Naval Force Limit Modifier": 0.3,
+				"Overlord Naval Force Limit Modifier": 0.3
+			}
+		}
+	},
+	"Gomateshwara Statue": {
+		"Province": "Seringapatam",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.25,
+				"Tolerance of Heretics": 0.25,
+				"Tolerance of Heathens": 0.25,
+				"Maximum Tolerance of Heretics": 0.25,
+				"Maximum Tolerance of Heathens": 0.25,
+				"Diplomatic Reputation": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 0.5,
+				"Tolerance of Heretics": 0.5,
+				"Tolerance of Heathens": 0.5,
+				"Maximum Tolerance of Heretics": 0.5,
+				"Maximum Tolerance of Heathens": 0.5,
+				"Diplomatic Reputation": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 1,
+				"Tolerance of Heretics": 1,
+				"Tolerance of Heathens": 1,
+				"Maximum Tolerance of Heretics": 1,
+				"Maximum Tolerance of Heathens": 1,
+				"Diplomatic Reputation": 2
+			}
+		}
+	},
+	"Great Living Chola Temples": {
+		"Province": "Tanjore",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.005,
+				"Brahmins Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.01,
+				"Culture Conversion Cost": -0.05,
+				"Brahmins Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.02,
+				"Culture Conversion Cost": -0.1,
+				"Brahmins Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Gyeongbok Palace": {
+		"Province": "Hanseong",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Or": {
+				"And": {
+					"Or": [
+						{
+							"Culture": [
+								"Sino-Korean",
+								"Korean"
+							]
+						},
+						{
+							"Province Is Or Accepts Religion": {
+								"Religion": "Confucian"
+							},
+							"Has Owner Harmonized Religion": true
+						}
+					],
+					"Province Is Or Accepts Culture": true
+				},
+				"Owner": {
+					"Monument Is Enabled As A Reward": true
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.05
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Advisor Costs": -0.05,
+				"Monthly Autonomy Change": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.1
+			},
+			"Area Modifier": {
+				"Local Development Cost": -0.05
+			},
+			"Country Modifiers": {
+				"Advisor Costs": -0.1,
+				"Monarch Administrative Skill": 1,
+				"Monthly Autonomy Change": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.15
+			},
+			"Area Modifier": {
+				"Local Development Cost": -0.1
+			},
+			"Country Modifiers": {
+				"Advisor Costs": -0.2,
+				"Monarch Administrative Skill": 2,
+				"Monthly Autonomy Change": -0.1
+			}
+		}
+	},
+	"Hampi": {
+		"Province": "Vijayanagar",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"And": {
+					"Religion Group": "Dharmic",
+					"Has Owner Religion": true
+				},
+				"Province Is Buddhist Or Accepts Buddhism": true
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.25
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Religious Unity": 0.1,
+				"All Estate's Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.5
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Religious Unity": 0.25,
+				"All Estate's Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Monthly Devastation": -1
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 1,
+				"Religious Unity": 0.25,
+				"All Estate's Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Historical Center Of Prague": {
+		"Province": "Prague",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Imperial Authority Modifier": 0.05,
+				"Tolerance of the True Faith": 0.25,
+				"Tolerance of Heretics": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Imperial Authority Modifier": 0.1,
+				"Tolerance of the True Faith": 0.25,
+				"Tolerance of Heretics": 0.25,
+				"Yearly Papal Influence": 0.5,
+				"Monthly Fervor": 0.25,
+				"Church Power": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Imperial Authority Modifier": 0.15,
+				"Tolerance of the True Faith": 0.5,
+				"Tolerance of Heretics": 0.5,
+				"Yearly Papal Influence": 1,
+				"Monthly Fervor": 0.5,
+				"Church Power": 0.1
+			}
+		}
+	},
+	"Holy City Of Kairouan": {
+		"Province": "Kairwan",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Institution Spread In True Faith Provinces": 0.2
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.002,
+				"Tolerance of the True Faith": 0.5,
+				"Institution Spread In True Faith Provinces": 0.33
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.003,
+				"Tolerance of the True Faith": 1,
+				"Institution Spread In True Faith Provinces": 0.5
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"mission_completed": "ARB_maghreb"
+					}
+				},
+				"Modifier": {
+					"Overextension Impact Modifier": -0.1
+				}
+			}
+		}
+	},
+	"Imam Hussein And Al-Abbas Holy Shrines": {
+		"Province": "Karbala",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Shiite"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Missionary Strength vs Heretics": 0.01,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.002,
+				"Missionary Strength vs Heretics": 0.02,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.003,
+				"Missionary Strength vs Heretics": 0.03,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Kashi Vishwanath Temple": {
+		"Province": "Varanasi",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Core-Creation Cost": -0.05,
+				"Brahmins Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Core-Creation Cost": -0.075,
+				"Aggressive Expansion Impact": -0.05,
+				"Brahmins Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Core-Creation Cost": -0.1,
+				"Aggressive Expansion Impact": -0.1,
+				"Brahmins Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Khajuraho": {
+		"Province": "Mahoba",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Heir Claim Increase": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Development Cost": -0.1
+			},
+			"Country Modifiers": {
+				"Monthly Heir Claim Increase": 0.2,
+				"Chance of New Heir": 0.33
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Development Cost": -0.2
+			},
+			"Country Modifiers": {
+				"Monthly Heir Claim Increase": 0.3,
+				"Chance of New Heir": 0.5
+			}
+		}
+	},
+	"Kilwa City": {
+		"Province": "Kilwa",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Global Ship Trade Power": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Global Ship Trade Power": 0.2,
+				"Merchant Trade Power": 2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 1,
+				"Global Ship Trade Power": 0.3,
+				"Merchant Trade Power": 4
+			}
+		}
+	},
+	"Kraków Cloth Hall": {
+		"Province": "Krakow",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced Modifier": 0.1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Merchants": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.1
+			},
+			"Country Modifiers": {
+				"Merchants": 1,
+				"Global Trade Power": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.2
+			},
+			"Country Modifiers": {
+				"Merchants": 2,
+				"Global Trade Power": 0.1
+			}
+		}
+	},
+	"Maidan-E Naqsh-E Jahan": {
+		"Province": "Isfahan",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Legitimacy": 0.25,
+				"Monthly Splendor": 0.5,
+				"Prestige per Development from Missionary": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Legitimacy": 0.5,
+				"Monthly Splendor": 1,
+				"Prestige per Development from Missionary": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Legitimacy": 1,
+				"Monthly Splendor": 1.5,
+				"Prestige per Development from Missionary": 0.3
+			}
+		}
+	},
+	"Malbork Castle": {
+		"Province": "Marienburg",
+		"Starting Tier": 2,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.5
+			},
+			"Area Modifier": {
+				"Local Autonomy": -0.025
+			},
+			"Country Modifiers": {
+				"Yearly Legitimacy": 0.25,
+				"Yearly Devotion": 0.25,
+				"Mercenary Cost": -0.05,
+				"Garrison Size": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 1
+			},
+			"Area Modifier": {
+				"Local Autonomy": -0.05
+			},
+			"Country Modifiers": {
+				"Yearly Legitimacy": 0.5,
+				"Yearly Devotion": 0.5,
+				"Mercenary Cost": -0.05,
+				"Garrison Size": 0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 1
+			},
+			"Area Modifier": {
+				"Local Autonomy": -0.1
+			},
+			"Country Modifiers": {
+				"Yearly Legitimacy": 1,
+				"Yearly Devotion": 1,
+				"Mercenary Cost": -0.1,
+				"Garrison Size": 0.25
+			}
+		}
+	},
+	"Malta Forts": {
+		"Province": "Malta",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15,
+				"Hostile Disembark Time": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"War Score Cost vs Other Religions": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25,
+				"Local Attrition For Enemies": 0.5,
+				"Hostile Disembark Time": 1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"War Score Cost vs Other Religions": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.5,
+				"Local Attrition For Enemies": 1,
+				"Hostile Disembark Time": 2
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"War Score Cost vs Other Religions": -0.15
+			}
+		}
+	},
+	"Mehrangarh Fort": {
+		"Province": "Marwar",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15,
+				"Local Manpower Modifier": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.15,
+				"Local Manpower Modifier": 0.15
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Advisor Costs": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25,
+				"Local Manpower Modifier": 0.25
+			},
+			"Country Modifiers": {
+				"Yearly Prestige": 1,
+				"Advisor Costs": -0.2,
+				"Special Unit Force Limit": 0.1
+			}
+		}
+	},
+	"Nan Madoll": {
+		"Province": "Micronesia",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Global Settler Increase": 10
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Global Settler Increase": 15,
+				"Yearly Navy Tradition": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Global Settler Increase": 25,
+				"Yearly Navy Tradition": 1,
+				"Settler Chance": 0.05
+			}
+		}
+	},
+	"Porcelain Tower Of Nanjing": {
+		"Province": "Nanjing",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Culture Group": "Chinese",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Meritocracy": 0.1,
+				"Institution Spread": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Yearly Meritocracy": 0.25,
+				"Institution Spread": 0.2,
+				"Institution Embracement Cost": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Yearly Meritocracy": 0.5,
+				"Institution Spread": 0.3,
+				"Institution Embracement Cost": -0.15
+			}
+		}
+	},
+	"Qhapaq Ñan": {
+		"Province": "Quito",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"Culture Group": "Andean",
+				"Culture": [
+					"Caran",
+					"Chachapoyan"
+				]
+			},
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Friendly Movement Speed": 0.15,
+				"Local Recruitment Time": -0.25
+			},
+			"Country Modifiers": {
+				"Yearly Authority": 0.1,
+				"Reinforce Speed": 0.1,
+				"Trade Efficiency": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Friendly Movement Speed": 0.33,
+				"Local Recruitment Time": -0.5
+			},
+			"Country Modifiers": {
+				"Yearly Authority": 0.2,
+				"Reinforce Speed": 0.2,
+				"Trade Efficiency": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Friendly Movement Speed": 0.5,
+				"Local Recruitment Time": -0.75
+			},
+			"Country Modifiers": {
+				"Yearly Authority": 0.3,
+				"Reinforce Speed": 0.33,
+				"Trade Efficiency": 0.2
+			}
+		}
+	},
+	"Rila Monasteries": {
+		"Province": "Kostendil",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Orthodox"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.1,
+				"Religious Unity": 0.1,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.2,
+				"Religious Unity": 0.1,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.3,
+				"Religious Unity": 0.25,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Rock-Hewn Churches At Lalibela": {
+		"Province": "Lasta",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Coptic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.005,
+				"Yearly Prestige": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.01,
+				"Missionary Maintenance Cost": -0.05,
+				"Yearly Prestige": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.02,
+				"Missionary Maintenance Cost": -0.1,
+				"Yearly Prestige": 1
+			}
+		}
+	},
+	"Royal Palace Of Caserta": {
+		"Province": "Napoli",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Reform Progress Growth": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Reform Progress Growth": 0.1,
+				"Governing Capacity": 50
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 1,
+				"Reform Progress Growth": 0.15,
+				"Governing Capacity": 100
+			}
+		}
+	},
+	"San Antonio Missions": {
+		"Province": "Tanu",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Catholic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Unrest": -1,
+				"Local Tax Modifier": 0.05
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength vs Heathens": 0.01,
+				"Institution Spread In True Faith Provinces": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.1
+			},
+			"Area Modifier": {
+				"Local Unrest": -1,
+				"Local Settler Increase": 15
+			},
+			"Country Modifiers": {
+				"Missionary Strength vs Heathens": 0.02,
+				"Institution Spread In True Faith Provinces": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.15
+			},
+			"Area Modifier": {
+				"Local Unrest": -2,
+				"Local Settler Increase": 25
+			},
+			"Country Modifiers": {
+				"Missionary Strength vs Heathens": 0.03,
+				"Institution Spread In True Faith Provinces": 0.3,
+				"Missionaries": 1
+			}
+		}
+	},
+	"Sankore Madrasah": {
+		"Province": "Timbuktu",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread": 0.15,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread": 0.3,
+				"Technology Cost": -0.05,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread": 0.5,
+				"Technology Cost": -0.1,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Santa Maria Del Fiore": {
+		"Province": "Firenze",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Splendor": 0.5,
+				"Prestige Decay": -0.005
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Advisor Costs": -0.1,
+				"Monthly Splendor": 1,
+				"Prestige Decay": -0.01
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Advisor Costs": -0.2,
+				"Monthly Splendor": 2,
+				"Prestige Decay": -0.01
+			}
+		}
+	},
+	"Spiral Minaret Of Samarra": {
+		"Province": "Tikrit",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.01,
+				"Yearly Prestige": 0.25,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.02,
+				"Yearly Prestige": 0.5,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Missionary Strength": 0.03,
+				"Yearly Prestige": 1,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Sultan Ahmed Mosque": {
+		"Province": "Constantinople",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Prestige per Development from Missionary": 0.1,
+				"Tolerance of the True Faith": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Prestige per Development from Missionary": 0.2,
+				"Tolerance of the True Faith": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Tax Modifier": 0.15
+			},
+			"Country Modifiers": {
+				"Prestige per Development from Missionary": 0.3,
+				"Tolerance of the True Faith": 1
+			}
+		}
+	},
+	"Sun Temple In Konârak": {
+		"Province": "Cuttack",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Dharmic"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Production Efficiency": 0.05
+			},
+			"Country Modifiers": {
+				"Religious Unity": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Production Efficiency": 0.05
+			},
+			"Country Modifiers": {
+				"Prestige Decay": -0.005,
+				"Religious Unity": 0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Production Efficiency": 0.1
+			},
+			"Country Modifiers": {
+				"Prestige Decay": -0.01,
+				"Religious Unity": 0.25
+			}
+		}
+	},
+	"Swayambhunath": {
+		"Province": "Katmandu",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Buddhist Or Accepts Buddhism": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Clergy Loyalty Equilibrium": 0.05,
+				"Brahmins Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Tax Modifier": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.05,
+				"Clergy Loyalty Equilibrium": 0.1,
+				"Brahmins Loyalty Equilibrium": 0.1,
+				"Missionary Strength vs Heretics": 0.01
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Tax Modifier": 0.75
+			},
+			"Country Modifiers": {
+				"Yearly Karma Decay": 0.1,
+				"Clergy Loyalty Equilibrium": 0.15,
+				"Brahmins Loyalty Equilibrium": 0.15,
+				"Missionary Strength vs Heretics": 0.02
+			}
+		}
+	},
+	"The White House": {
+		"Province": "Piscataway",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Owner": {
+				"Or": {
+					"Is Former Colonial Nation": true,
+					"Tag": "United States",
+					"And": {
+						"Is Subject": false,
+						"Capital Scope": {
+							"Or": {
+								"continent": [
+									"north_america",
+									"south_america"
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reform Progress Growth": 0.05,
+				"State Governing Cost": -0.05,
+				"Reelection Cost": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reform Progress Growth": 0.1,
+				"State Governing Cost": -0.15,
+				"Reelection Cost": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reform Progress Growth": 0.2,
+				"State Governing Cost": -0.25,
+				"Reelection Cost": -0.1
+			}
+		}
+	},
+	"Tikal": {
+		"Province": "Petén",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Culture Group": "Mayan",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.15
+			},
+			"Area Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Development Cost": -0.2
+			},
+			"Area Modifier": {
+				"Local Unrest": -2
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Development Cost": -0.3
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.3,
+				"National Unrest": -2
+			}
+		}
+	},
+	"Tiwanaku": {
+		"Province": "Tiahuanaco",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion": {
+				"Religion": "Inti"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Authority": 0.1,
+				"Missionary Strength": 0.005
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Authority": 0.2,
+				"Missionary Strength": 0.01,
+				"Religious Unity": 0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Authority": 0.3,
+				"Missionary Strength": 0.02,
+				"Religious Unity": 0.3
+			}
+		}
+	},
+	"Tortuga Island": {
+		"Province": "Tortuga",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15,
+				"Blockade Force Required": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Privateer Efficiency": 0.2,
+				"Chance to Capture Enemy Ships": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25
+			},
+			"Area Modifier": {
+				"Blockade Force Required": 1
+			},
+			"Country Modifiers": {
+				"Privateer Efficiency": 0.33,
+				"Power Projection from Insults": 0.5,
+				"Chance to Capture Enemy Ships": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.5
+			},
+			"Area Modifier": {
+				"Blockade Force Required": 1
+			},
+			"Country Modifiers": {
+				"Privateer Efficiency": 0.5,
+				"Power Projection from Insults": 1,
+				"Chance to Capture Enemy Ships": 0.3
+			}
+		}
+	},
+	"Ulm Minster": {
+		"Province": "Ulm",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"And": [
+					{
+						"Culture Group": "Germanic",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Imperial Authority From Free Cities": 0.1,
+				"Yearly Prestige": 0.5,
+				"Tolerance of the True Faith": 0.5,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Imperial Authority From Free Cities": 0.2,
+				"Yearly Prestige": 1,
+				"Tolerance of the True Faith": 1,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Walls Of Benin": {
+		"Province": "Benin",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Pagan"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Prestige from Land Battles": 0.5,
+				"Nobles Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.15
+			},
+			"Country Modifiers": {
+				"Prestige from Land Battles": 1,
+				"Provincial Trade Power Modifier": 0.1,
+				"Nobles Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25
+			},
+			"Country Modifiers": {
+				"Prestige from Land Battles": 1,
+				"Provincial Trade Power Modifier": 0.2,
+				"Nobles Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Winter Palace": {
+		"Province": "Neva",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"Culture Group": [
+					"East Slavic",
+					"Slavic"
+				],
+				"Culture": "Roman"
+			},
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Institution Growth": 3
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.25,
+				"Reform Progress Growth": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Institution Growth": 6
+			},
+			"Area Modifier": {
+				"Local Institution Spread": 0.1
+			},
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.5,
+				"Reform Progress Growth": 0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Institution Growth": 12
+			},
+			"Area Modifier": {
+				"Local Institution Spread": 0.25
+			},
+			"Country Modifiers": {
+				"Yearly Absolutism": 0.5,
+				"Reform Progress Growth": 0.2
+			}
+		}
+	},
+	"Zacatecas Mine City": {
+		"Province": "Zacatecas",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1.0
+			},
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.05
+			},
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 2.0
+			},
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.1
+			},
+			"Country Modifiers": {
+				"Interest Per Annum": -0.25
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 3.0
+			},
+			"Area Modifier": {
+				"Local Goods Produced Modifier": 0.15
+			},
+			"Country Modifiers": {
+				"Interest Per Annum": -0.5
+			}
+		}
+	},
+	"Falun Copper Mine": {
+		"Province": "Dalaskogen",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 3.0
+			},
+			"Area Modifier": {
+				"Local Construction Cost": -0.05,
+				"Local Build Cost": -0.05
+			},
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 6.0
+			},
+			"Area Modifier": {
+				"Local Construction Cost": -0.1,
+				"Local Build Cost": -0.1
+			},
+			"Country Modifiers": {
+				"Artillery Cost": -0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 9.0
+			},
+			"Area Modifier": {
+				"Local Construction Cost": -0.2,
+				"Local Build Cost": -0.2
+			},
+			"Country Modifiers": {
+				"Artillery Cost": -0.2
+			}
+		}
+	},
+	"Kronborg": {
+		"Province": "Sjælland",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Tradition from Protecting Trade": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.25,
+				"Naval Combat Local Bonus off Owned Coast": 1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Tradition from Protecting Trade": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Defensiveness": 0.33,
+				"Naval Combat Local Bonus off Owned Coast": 2
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Naval Tradition from Protecting Trade": 1
+			}
+		}
+	},
+	"Visby City": {
+		"Province": "Gotland",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Shipbuilding Time": -0.25,
+				"Hostile Disembark Time": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Privateer Efficiency": 0.2
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Shipbuilding Time": -0.33,
+				"Hostile Disembark Time": 1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Privateer Efficiency": 0.33,
+				"Domestic Trade Power": 0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Shipbuilding Time": -0.5,
+				"Hostile Disembark Time": 2
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Privateer Efficiency": 0.5,
+				"Domestic Trade Power": 0.25
+			}
+		}
+	},
+	"Trakai Castle": {
+		"Province": "Trakai",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Manpower Modifier": 0.15
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.25,
+				"Monthly Splendor": 0.5,
+				"Reform Progress Growth": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Manpower Modifier": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 0.5,
+				"Monthly Splendor": 1,
+				"Reform Progress Growth": 0.1,
+				"Possible Advisors": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Manpower Modifier": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Yearly Prestige": 1,
+				"Monthly Splendor": 1.5,
+				"Reform Progress Growth": 0.2,
+				"Possible Advisors": 2
+			}
+		}
+	},
+	"Salvador Da Bahia": {
+		"Province": "Bahia",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Trade Power": 10
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Global Trade Power": 0.1,
+				"Global Settler Increase": 10
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Trade Power": 15
+			},
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Goods Produced": 0.25
+			},
+			"Country Modifiers": {
+				"Global Trade Power": 0.15,
+				"Global Settler Increase": 15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Trade Power": 25
+			},
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Goods Produced": 0.5
+			},
+			"Country Modifiers": {
+				"Global Trade Power": 0.2,
+				"Global Settler Increase": 20
+			}
+		}
+	},
+	"M'Banza-Kongo": {
+		"Province": "Mpemba",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Culture Group": "Kongo",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread In True Faith Provinces": 0.2,
+				"Reform Progress Growth": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread In True Faith Provinces": 0.33,
+				"Reform Progress Growth": 0.15,
+				"Yearly Legitimacy": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Institution Spread In True Faith Provinces": 0.5,
+				"Reform Progress Growth": 0.2,
+				"Yearly Legitimacy": 1,
+				"Allow Free Estate Privilege Revocation": true
+			}
+		}
+	},
+	"Harar Jugol": {
+		"Province": "Harer",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Institution Growth": 3
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Prestige per Development from Missionary": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Institution Growth": 3
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.1,
+				"Prestige per Development from Missionary": 0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Institution Growth": 6
+			},
+			"Country Modifiers": {
+				"Stability Cost Modifier": -0.25,
+				"Prestige per Development from Missionary": 0.3
+			}
+		}
+	},
+	"Dujiangyan": {
+		"Province": "Chengdu",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Development Cost Modifier": -0.05,
+				"Province Governing Cost Modifier": -0.2
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Development Cost Modifier": -0.1,
+				"Possible Number of Buildings": 1
+			},
+			"Area Modifier": {
+				"Province Governing Cost Modifier": -0.2
+			},
+			"Region Modifier": {
+				"Local Monthly Devastation": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Development Cost Modifier": -0.1,
+				"Possible Number of Buildings": 1,
+				"Province Governing Cost Modifier": -0.4
+			},
+			"Country Modifiers": {
+				"Global Monthly Devastation": -0.05
+			}
+		}
+	},
+	"Palace Of The Popes": {
+		"Province": "Avignon",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Province Governing Cost Modifier": -0.15
+			},
+			"Country Modifiers": {
+				"Clergy Max Privileges": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Province Governing Cost Modifier": -0.25
+			},
+			"Country Modifiers": {
+				"Clergy Max Privileges": 1,
+				"Clergy Loyalty Equilibrium": 0.1,
+				"Yearly Papal Influence": 1,
+				"Church Power": 0.25,
+				"Monthly Fervor": 0.3
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Province Governing Cost Modifier": -0.33
+			},
+			"Country Modifiers": {
+				"Clergy Max Privileges": 1,
+				"Clergy Loyalty Equilibrium": 0.15,
+				"Yearly Papal Influence": 2,
+				"Church Power": 0.33,
+				"Monthly Fervor": 0.5
+			}
+		}
+	},
+	"Edinburgh Castle": {
+		"Province": "Lothian",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Or": {
+				"And": [
+					{
+						"Culture": "Scottish",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Highlander",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Culture": "Roman",
+						"Province Is Or Accepts Culture": true
+					},
+					{
+						"Or": {
+							"Culture Group": "British",
+							"Culture": "Anglois"
+						},
+						"Province Is Or Accepts Culture": true
+					}
+				]
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Defender Dice Roll Bonus": 1
+			},
+			"Area Modifier": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Garrison Size": 0.5
+			},
+			"Area Modifier": {
+				"Local Defender Dice Roll Bonus": 1
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Nobles Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Garrison Size": 1
+			},
+			"Area Modifier": {
+				"Local Defender Dice Roll Bonus": 1,
+				"Local Attrition For Enemies": 1
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Nobles Loyalty Equilibrium": 0.15,
+				"Military Free Policies": 1
+			}
+		}
+	},
+	"Aljafería Palace": {
+		"Province": "Zaragoza",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Harsh Treatment Cost": -0.1,
+				"Missionary Strength": 0.01
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Harsh Treatment Cost": -0.25,
+				"Missionary Strength": 0.01,
+				"Resistance to Reformation": 0.25
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Unrest": -1
+			},
+			"Country Modifiers": {
+				"Harsh Treatment Cost": -0.33,
+				"Missionary Strength": 0.02,
+				"Resistance to Reformation": 0.5
+			}
+		}
+	},
+	"Divrigi Hospital & Mosque": {
+		"Province": "Divrigi",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Reinforce Speed": 0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Innovativeness Gain": 0.2,
+				"Reinforce Speed": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Innovativeness Gain": 0.33,
+				"Reinforce Speed": 0.25
+			}
+		}
+	},
+	"Saint Basil Cathedral": {
+		"Province": "Moskva",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Christian"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 2
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Cost of Advisors with Ruler's Religion": -0.1,
+				"Tolerance of the True Faith": 2,
+				"All Estate's Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Cost of Advisors with Ruler's Religion": -0.2,
+				"Tolerance of the True Faith": 2,
+				"All Estate's Loyalty Equilibrium": 0.1
+			}
+		}
+	},
+	"Hangzhou Grand Canal": {
+		"Province": "Hangzhou",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 0.5,
+				"Trade Value Modifier": 0.1
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.1,
+				"Local Development Cost": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.15
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.25,
+				"Local Development Cost": -0.05
+			},
+			"Region Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.25
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.33,
+				"Local Development Cost": -0.1
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Eunuchs Loyalty Equilibrium": 0.05
+			}
+		}
+	},
+	"Suzhou Grand Canal": {
+		"Province": "Suzhou",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 0.5,
+				"Trade Value Modifier": 0.1
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.1,
+				"Local Development Cost": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.15
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.25,
+				"Local Development Cost": -0.05
+			},
+			"Region Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.25
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.33,
+				"Local Development Cost": -0.1
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Eunuchs Loyalty Equilibrium": 0.05
+			}
+		}
+	},
+	"Zhenjiang Grand Canal": {
+		"Province": "Zhenjiang",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 0.5,
+				"Trade Value Modifier": 0.1
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.1,
+				"Local Development Cost": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.15
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.25,
+				"Local Development Cost": -0.05
+			},
+			"Region Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.25
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.33,
+				"Local Development Cost": -0.1
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Eunuchs Loyalty Equilibrium": 0.05
+			}
+		}
+	},
+	"Nanjing Grand Canal": {
+		"Province": "Nanjing",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Goods Produced": 0.5,
+				"Trade Value Modifier": 0.1
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.1,
+				"Local Development Cost": -0.025
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.15
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.25,
+				"Local Development Cost": -0.05
+			},
+			"Region Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Goods Produced": 1,
+				"Trade Value Modifier": 0.25
+			},
+			"Area Modifier": {
+				"Local Monthly Devastation": -0.33,
+				"Local Development Cost": -0.1
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Eunuchs Loyalty Equilibrium": 0.05
+			}
+		}
+	},
+	"Imperial City Of Kyoto": {
+		"Province": "Kyoto",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Culture Group": "Japanese",
+			"Province Is Or Accepts Culture": true
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Liberty Desire in Subjects": 5,
+				"Yearly Legitimacy": 0.3
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"All Estate's Loyalty Equilibrium": 0.1,
+				"Liberty Desire in Subjects": 10
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"All Estate's Loyalty Equilibrium": 0.1,
+				"Liberty Desire in Subjects": 10,
+				"Maximum Absolutism": 10
+			}
+		}
+	},
+	"Kazan Kremlin": {
+		"Province": "Kazan",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Great Project Upgrade Time": -0.1,
+				"Monthly Autonomy Change": -0.025,
+				"Garrison Army Damage": 0.5
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Friendly Movement Speed": 0.25
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Great Project Upgrade Time": -0.2,
+				"Monthly Autonomy Change": -0.025,
+				"Garrison Army Damage": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Friendly Movement Speed": 0.25
+			},
+			"Country Modifiers": {
+				"Great Project Upgrade Time": -0.25,
+				"Monthly Autonomy Change": -0.05,
+				"Garrison Army Damage": 1
+			}
+		}
+	},
+	"Narikala Fortress": {
+		"Province": "Tbilisi",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Fort Maintenance": -1,
+				"Local Assault Fort ability": -0.75,
+				"Local Defensiveness": 0.5
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Fort Maintenance": -1,
+				"Local Assault Fort ability": -0.75,
+				"Local Defensiveness": 0.5
+			},
+			"Region Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Fort Maintenance": -1,
+				"Local Assault Fort ability": -0.75,
+				"Local Defensiveness": 0.5
+			},
+			"Country Modifiers": []
+		}
+	},
+	"Golestan Palace": {
+		"Province": "Teheran",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"And": {
+				"Culture": "Persian",
+				"Province Is Or Accepts Culture": true
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Persian Influence": 0.03,
+				"Monthly Splendor": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Monthly Persian Influence": 0.05,
+				"Monthly Splendor": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 2,
+				"Monthly Persian Influence": 0.1,
+				"Monthly Splendor": 2
+			}
+		}
+	},
+	"Itchan Kala": {
+		"Province": "Khiva",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Placed Merchant Power Modifier": 1,
+				"Center of Trade Upgrade Cost": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Placed Merchant Power Modifier": 1,
+				"Center of Trade Upgrade Cost": -0.2,
+				"Reduced trade penalty on non main trade node": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Placed Merchant Power Modifier": 1,
+				"Center of Trade Upgrade Cost": -0.2,
+				"Reduced trade penalty on non main trade node": 0.25
+			}
+		}
+	},
+	"Tomb Of Shah Rukn-E-Alam": {
+		"Province": "Multan",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": {
+				"Religion Group": "Muslim"
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 1,
+				"Opinion of Heretics": 10
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 1,
+				"Opinion of Heretics": 20
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Tolerance of the True Faith": 2,
+				"Opinion of Heretics": 20
+			}
+		}
+	},
+	"Nizwa Fort": {
+		"Province": "Nizwa",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Attrition": 1,
+				"Maximum Attrition": 1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Autonomy Change Cooldown": -0.15
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Attrition": 2,
+				"Maximum Attrition": 2
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Autonomy Change Cooldown": -0.25,
+				"Maximum Absolutism": 5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Autonomy Change Cooldown": -0.25,
+				"Max Privileges per Estate": 1,
+				"Maximum Absolutism": 10
+			}
+		}
+	},
+	"City Of Sana'A": {
+		"Province": "Sana'a",
+		"Starting Tier": 2,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Trade Power Modifier": 0.1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Cost to Promote Mercantilism": -0.1
+			},
+			"Conditional Modifier": [
+				{
+					"Trigger": {
+						"Completed The §Ycity Of Sana'A§! Mission As §Y[Ras.Getname]§!": true
+					},
+					"Modifier": {
+						"Manpower in True Faith Provinces": 0.05,
+						"Diplomatic Technology Cost": -0.025
+					}
+				},
+				{
+					"Trigger": {
+						"Completed The §Ycity Of Sana'A§! Mission As Non-§Y[Ras.Getname]§!": true
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 0,
+						"Missionary Strength": 0.01
+					}
+				}
+			]
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Trade Power Modifier": 0.15
+			},
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Cost to Promote Mercantilism": -0.2
+			},
+			"Conditional Modifier": [
+				{
+					"Trigger": {
+						"Completed The §Ycity Of Sana'A§! Mission As §Y[Ras.Getname]§!": true
+					},
+					"Modifier": {
+						"Manpower in True Faith Provinces": 0.15,
+						"Diplomatic Technology Cost": -0.05
+					}
+				},
+				{
+					"Trigger": {
+						"Completed The §Ycity Of Sana'A§! Mission As Non-§Y[Ras.Getname]§!": true
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 1,
+						"Missionary Strength": 0.02
+					}
+				}
+			]
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Trade Power Modifier": 0.25
+			},
+			"Country Modifiers": {
+				"Cost to Promote Mercantilism": -0.33,
+				"Merchants": 1
+			},
+			"Conditional Modifier": [
+				{
+					"Trigger": {
+						"Completed The §Ycity Of Sana'A§! Mission As §Y[Ras.Getname]§!": true
+					},
+					"Modifier": {
+						"Manpower in True Faith Provinces": 0.25,
+						"Diplomatic Technology Cost": -0.1
+					}
+				},
+				{
+					"Trigger": {
+						"Completed The §Ycity Of Sana'A§! Mission As Non-§Y[Ras.Getname]§!": true
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 2,
+						"Missionary Strength": 0.03
+					}
+				}
+			]
+		}
+	},
+	"Al-Azhar University": {
+		"Province": "Cairo",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Institution Spread": 0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Possible Advisors": 1,
+				"Yearly Government Power": 0.25
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Institution Spread": 0.25
+			},
+			"Region Modifier": [],
+			"Country Modifiers": {
+				"Possible Advisors": 1,
+				"Idea Cost": -0.05,
+				"Yearly Government Power": 0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Institution Spread": 0.5
+			},
+			"Country Modifiers": {
+				"Possible Advisors": 2,
+				"Idea Cost": -0.05,
+				"Yearly Government Power": 1
+			}
+		}
+	}
+}

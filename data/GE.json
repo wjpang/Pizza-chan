@@ -312,7 +312,7 @@
 				"Potential": {
 					"OR": {
 						"Country": [
-							"Castille",
+							"Castile",
 							"León"
 						],
 						"Has Reform": "Kingdom Of Castille And Leon"
@@ -331,7 +331,7 @@
 				"Potential": {
 					"OR": {
 						"Country": [
-							"Castille",
+							"Castile",
 							"Spain"
 						],
 						"Has Reform": "Crown Of Castille"
@@ -3704,7 +3704,7 @@
 				"Potential": {
 					"OR": {
 						"Country": [
-							"Castille",
+							"Castile",
 							"Spain"
 						],
 						"Has Reform": "Casa De Contraction Reform"
@@ -3713,7 +3713,7 @@
 				"Trigger": {
 					"OR": {
 						"Country": [
-							"Castille",
+							"Castile",
 							"Spain"
 						],
 						"Has Reform": "Casa De Contraction Reform"

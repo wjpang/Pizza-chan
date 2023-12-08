@@ -184,7 +184,7 @@ NSA	Nassau
 RVA	Dortmund
 DTT	Dithmarschen
 ARA	Aragon
-CAS	Castille
+CAS	Castile
 CAT	Catalonia
 GRA	Granada
 NAV	Navarra
@@ -1146,6 +1146,7 @@ development_cost_modifier	Development Cost Modifier
 devotion	Yearly Devotion
 dhimmi_influence_modifier	Dhimmi Influence
 dhimmi_loyalty_modifier	Dhimmi Loyalty Equilibrium
+dhimmi_privilege_slots	Dhimmi Privilege Slots
 DIP	Diplomatic
 dip_advisor_cost	Diplomatic Advisor Cost
 dip_tech_cost_modifier	Diplomatic Technology Cost
@@ -1169,6 +1170,9 @@ engagement_cost_modifier	Ship Engagement Width Modifier
 envoy_travel_time	Envoy Travel Time
 establish_order_cost	Establish Order Cost
 estate_interaction_cooldown_modifier	Estate Interaction Cooldown Modifier
+eunuchs_influence_modifier	Eunuchs Loyalty Modifier
+eunuchs_loyalty_modifier	Eunuchs Loyalty Equilibrium
+eunuchs_privilege_slots	Eunuchs Privilege Slots
 expand_administration_cost	Expand Administration Cost
 expand_infrastructure_cost_modifier	Expand Infrastructure Cost Modifier
 expel_minorities_cost	Expel Minorities Cost
@@ -1305,16 +1309,20 @@ is_cawa_modifier	Is Cawa Modifier
 is_cossack_modifier	Is Cossack Modifier
 is_hussars_modifier	Is Hussars Modifier
 is_janissary_modifier	Is Janisary Modifier
+is_mamluks_modifier	Is Mamluks Modifier
 is_marine_modifier	Is Marine Modifier
 is_mercenary_modifier	Is Mercenary Modifier
+is_qizilbash_modifier	Is Qizilbash Modifier
 is_rajput_modifier	Is Rajput Modifier
 is_revolutionary_guard_modifier	Is Revolutionary Guard Modifier
 is_samurai_modifier	Is Samurai Modifier
 is_streltsy_modifier	Is Streltsy Modifier
 is_tercio_modifier	Is Tercio Modifier
+jains_loyalty_modifier	Jains Loyalty Equilibrium
 janissary_cost_modifier	Janissary Recruitment Cost
-janissaries_privilege_slots	Janissary Max Privileges
 janissaries_influence_modifier	Janissary Influence
+janissaries_loyalty_modifier	Janissary Loyalty Equilibrium
+janissaries_privilege_slots	Janissary Max Privileges
 justify_trade_conflict_cost	Cost to Justify Trade Conflict
 land_attrition	Land Attrition
 land_forcelimit	Land Force Limit
@@ -1487,6 +1495,7 @@ monthly_karma	Monthly Karma
 monthly_karma_accelerator	Monthly Karma Accelerator
 monthly_militarized_society	Militarization of State
 monthly_ottoman_decadence	Monthly Decadence
+monthly_persian_influence	Monthly Persian Influence
 monthly_piety	Monthly Piety
 monthly_piety_accelerator	Monthly Piety Accelerator
 monthly_prussian_militarized_society_1	Monthly Early Prussian Militarized
@@ -1535,9 +1544,11 @@ no_religion_penalty	Heretic and Heathen provinces do not give any penalties
 no_stability_loss_on_monarch_death	No stability loss on ruler's death
 nobles_influence_modifier	Nobles Influence
 nobles_loyalty_modifier	Nobles Loyalty Equilibrium
+nobles_privilege_slots	Nobles Privilege Slots
 nomadic_tribes_loyalty_modifier	Tribes Loyalty Equilibrium
 num_accepted_cultures	Number of accepted Cultures
 num_of_parliament_issues	Number of possible Parliament Issues
+num_of_pronoiars	Number of Pronoiars
 number_of_cannons	Number of Cannons on Ships
 number_of_cannons_flagship	Flagship Cannons
 number_of_cannons_flagship_modifier	Flagship Cannons
@@ -1679,8 +1690,7 @@ tributary_conversion_cost_modifier	Tributary to Vassal Cost Modifier
 unjustified_demands	Unjustified Demands
 unrest_catholic_provinces	Unrest in Catholic Provinces
 vaisyas_influence_modifier	Vaishyas Influence
-vaisyas_influence_modifier	Vaishyas Influence
-vaisyas_non_muslim_influence_modifier	Vaishyas Influence
+vaisyas_loyalty_modifier	Vaishyas Loyalty Equilibrium
 vaisyas_non_muslim_influence_modifier	Vaishyas Influence
 vassal_forcelimit_bonus	Vassal Force Limit Contribution
 vassal_income	Income from Vassals
