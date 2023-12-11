@@ -173,6 +173,57 @@ def country_filter(country, tags):
     return tags[country.upper()]
 
 
+color_map = {
+    "Province": "\u001B[0;33m",  # Red
+    "Starting Tier": "\u001B[0;33m",  # Green
+    "Monument Trigger": "\u001B[0;33m",  # Blue
+    "Tier 1": "\u001B[0;33m",
+    "Tier 2": "\u001B[0;33m",
+    "Tier 3": "\u001B[0;33m",
+    "Province Modifiers": "\u001B[0;33m",
+    "Area Modifier": "\u001B[0;33m",
+    "Region Modifier": "\u001B[0;33m",
+    "Country Modifiers": "\u001B[0;33m",
+    "Conditional Modifier": "\u001B[0;33m",
+    "Trigger": "\u001B[0;33m",
+    "Modifier": "\u001B[0;33m",
+    "Culture": "\u001B[0;33m",
+    "Culture Group": "\u001B[0;33m",
+    "Religion": "\u001B[0;33m",
+    "Religion Group": "\u001B[0;33m",
+    "Area": "\u001B[0;33m",
+    "Is Year": "\u001B[0;33m",
+}
+pretty_lst = {
+    "{": "[",
+    "}": "]",
+    ": \u001B[0;34mTrue\u001B[0;0m": "",
+    "'": "",
+    "[]": "",
+}
+stuff_to_color = [
+    "Province",
+    "Starting Tier",
+    "Monument Trigger",
+    "Tier 1",
+    "Tier 2",
+    "Tier 3",
+    "Province Modifiers",
+    "Area Modifier",
+    "Region Modifier",
+    "Country Modifiers",
+    "Conditional Modifier",
+    "Trigger",
+    "Modifier",
+    "Culture",
+    "Culture Group",
+    "Religion",
+    "Religion Group",
+    "Area",
+    "Is Year",
+]
+
+
 class VANILLA(commands.Cog):
     """Vanilla"""
 
@@ -239,6 +290,121 @@ class VANILLA(commands.Cog):
                 message += f"{tag} doesn't exist oAo. If Pizza-chan is wrong, ping Melvasul or Vielor\n"
         await inter.send(ftfy.fix_text(message))
 
+    @vanilla.sub_command(description="search for either reforms, tiers or governments")
+    async def reform(self, inter, *, reform_in: str = commands.Param(name="reform")):
+        indent = 0
+        found = 0
+
+        with open("./data/Vanilla_reforms.json", "r", encoding="utf-8") as f:
+            vanilla_data = json.load(f)
+        government_lst = sorted(vanilla_data.keys())
+
+        reform_list = reform_in.split(",")
+        print(reform_list)
+
+        for reform in reform_list:
+            found = 0
+            reform = reform.strip().title()
+            if reform in government_lst:  # used to search for Monarchy, Republic, etc
+                message = f"```ansi\n\u001B[0;33m{reform}:\u001B[0;0m\n---------\n"
+                for government in vanilla_data[reform]:
+                    message += f"{government}\n"
+                await inter.send(f"{message}```")
+                continue
+            else:
+                for government in government_lst:  # used to search specific tiers
+                    if found == 1:
+                        break
+                    tier_lst = sorted(vanilla_data[government].keys())
+                    if reform in tier_lst:
+                        found = 1
+                        message = f"```ansi\n\u001B[0;33m{reform}:\u001B[0;0m\n---------\n"
+                        for tier in sorted(vanilla_data[government][reform].keys()):
+                            message += f"{tier}\n"
+                        await inter.send(f"{message}```")
+                        break
+                    else:
+                        for tier in tier_lst:
+                            reform_lst = sorted(vanilla_data[government][tier].keys())
+                            if reform in reform_lst:
+                                found = 1
+                                message = f"```ansi\n\u001B[0;33m{reform}:\u001B[0;0m\n---------\n"
+                                for stats, vals in vanilla_data[government][tier][reform].items():
+                                    if isinstance(vals, dict) and stats not in ("Effect", "Removed Effect"):
+                                        message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m:\n"
+                                        message += build_message(vals, indent + 1, stuff_to_color)
+                                    else:
+                                        message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m \n"
+                                    for old, new in pretty_lst.items():
+                                        message = message.replace(old, new)
+                                await inter.send(f"{message}```")
+                                break
+            if found == 0:
+                await inter.send(f"The searched government/tier/reform: {reform} does not exist")
+
+    @vanilla.sub_command(description="You can search for a monument")
+    async def monument(self, inter, *, monument_input: str = commands.Param(name="monument")):
+        indent = 0
+        chunk_size = 1988
+
+        with open("./data/Vanilla_monuments.json", "r", encoding="utf-8") as f:
+            monument_data = json.load(f)
+
+        monument_data_list = sorted([key.title() for key in monument_data])
+        mon_input_list = monument_input.split(",")
+
+        message = ""
+        for monument_input in mon_input_list:
+            monument_input = monument_input.strip().title()
+            if monument_input not in monument_data_list:
+                await inter.send(f"The Monument: {monument_input} does not exist in Vanilla")
+            else:
+                message = f"```ansi\n\u001B[0;33m{monument_input}\u001B[0;0m\n---------\n"
+                for stats, vals in monument_data[monument_input].items():
+                    if isinstance(vals, dict):
+                        message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m:\n"
+                        message += build_message(vals, indent + 1, stuff_to_color)
+                    elif stats in stuff_to_color:
+                        color = color_map.get(stats, "")  # Get the color for the stat
+                        message += "\t" * indent + f"{color}{stats}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m\n"
+                    else:
+                        message += "\t" * indent + f"{stats}: \u001B[0;34m{vals}\u001B[0;0m \n"
+
+                for old, new in pretty_lst.items():
+                    message = message.replace(old, new)
+
+                if len(f"{message}\n```") >= 2000:
+                    chunks = [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
+                    for chunk in chunks:
+                        if not chunk.startswith("```ansi"):
+                            await inter.send(f"```ansi\n{chunk}```")
+                        else:
+                            await inter.send(f"{chunk}```")
+                    message = "```\n"
+                else:
+                    await inter.send(f"{message}```")
+
+    @vanilla.sub_command(description="Show all the monuments in Vanilla")
+    async def monumentslist(self, inter):
+        with open("./data/Vanilla_monuments.json", "r", encoding="utf-8") as f:
+            monument_data = json.load(f)
+        chunk_size = 1990
+
+        message = "```These are all the Monuments in Vanilla\n---------\n"
+        monument_list = sorted([key.title() for key in monument_data])
+
+        for monument in monument_list:
+            message += f"{monument} \n"
+
+        if len(f"{message}```") > 2000:
+            chunks = [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
+            for chunk in chunks:
+                if not chunk.startswith("```"):
+                    await inter.send(f"```{chunk}```")
+                else:
+                    await inter.send(f"{chunk}```")
+            message = "```"
+
     @vanilla.sub_command(description="Turns a country in a tag")
     async def tag(self, inter, *, nations_in: str = commands.Param(name="country")):
         with open("data/tags/tags.json", "r", encoding="utf-8") as f:
@@ -263,3 +429,28 @@ class VANILLA(commands.Cog):
 
 def setup(bot):
     bot.add_cog(VANILLA(bot))
+
+
+def build_message(data, indent=0, stuff_to_color=None):
+    message = ""
+
+    for stats, vals in data.items():
+        if isinstance(vals, dict):
+            message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m:\n"
+            message += build_message(vals, indent + 1, stuff_to_color)
+        elif isinstance(vals, list):
+            if len(vals) == 0:
+                message += "\t" * indent + f"\u001B[0;33m{stats.title()}\u001B[0;0m:\n"
+                continue
+            for item in vals:
+                if isinstance(item, dict):
+                    message += "\t" * indent + f"{stats}:\n".title()
+                    message += build_message(item, indent + 1, stuff_to_color)
+                elif isinstance(item, str):
+                    message += "\t" * indent + f"{stats}: {vals} \n".title()
+        elif stats in stuff_to_color:
+            color = color_map.get(stats, "")
+            message += "\t" * indent + f"{color}{stats}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m\n"
+        else:
+            message += "\t" * indent + f"{stats}: \u001B[0;34m{vals}\u001B[0;0m \n"
+    return message
