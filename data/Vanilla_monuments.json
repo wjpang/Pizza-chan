@@ -44,9 +44,7 @@
 		"Starting Tier": 0,
 		"Monument Trigger": {
 			"Or": {
-				"Province Is Or Accepts Religion Group": {
-					"Religion Group": "Pagan"
-				},
+				"Province Is Or Accepts Religion Group": "Pagan",
 				"And": [
 					{
 						"Culture": "Roman",
@@ -253,9 +251,7 @@
 		"Starting Tier": 0,
 		"Monument Trigger": {
 			"Or": {
-				"Province Is Or Accepts Religion Group": {
-					"Religion Group": "Pagan"
-				},
+				"Province Is Or Accepts Religion Group": "Pagan",
 				"And": [
 					{
 						"Culture": "Greek",
@@ -422,9 +418,7 @@
 		"Province": "Köln",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -642,9 +636,7 @@
 		"Province": "Roma",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Catholic"
-			}
+			"Province Is Or Accepts Religion": "Catholic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -759,9 +751,7 @@
 		"Province": "Paris",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -925,9 +915,7 @@
 		"Province": "Tachii'nii",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Totemist"
-			}
+			"Province Is Or Accepts Religion": "Totemist"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -963,9 +951,7 @@
 		"Province": "Central Doab",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -1153,9 +1139,7 @@
 		"Province": "Samarkand",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -1189,9 +1173,7 @@
 		"Province": "Doaba",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -1306,9 +1288,7 @@
 		"Starting Tier": 1,
 		"Monument Trigger": {
 			"Or": {
-				"Province Is Or Accepts Religion": {
-					"Religion": "Confucian"
-				},
+				"Province Is Or Accepts Religion": "Confucian",
 				"Has Owner Harmonized Religion": true
 			}
 		},
@@ -1375,9 +1355,7 @@
 		"Province": "Bali",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -1443,9 +1421,7 @@
 		"Starting Tier": 0,
 		"Monument Trigger": {
 			"Or": {
-				"Province Is Or Accepts Religion Group": {
-					"Religion Group": "Pagan"
-				},
+				"Province Is Or Accepts Religion Group": "Pagan",
 				"And": [
 					{
 						"Culture Group": "Levantine",
@@ -1525,9 +1501,7 @@
 		"Province": "Kotagede",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -1588,9 +1562,7 @@
 		"Province": "Shirvan",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Zoroastrian"
-			}
+			"Province Is Or Accepts Religion": "Zoroastrian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -1624,9 +1596,7 @@
 		"Province": "Kiev",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Orthodox"
-			}
+			"Province Is Or Accepts Religion": "Orthodox"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -1765,9 +1735,7 @@
 		"Province": "Bratsberg",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -2023,9 +1991,7 @@
 		"Starting Tier": 2,
 		"Monument Trigger": {
 			"Or": {
-				"Province Is Or Accepts Religion Group": {
-					"Religion Group": "Muslim"
-				},
+				"Province Is Or Accepts Religion Group": "Muslim",
 				"Owner": {
 					"Has Chosen The '§Yconvert The Mosque Into A Church!§!' Option In The @Byz §Y[Byz.Getadjective]§! Event §Yfate Of The Masjid Al-Haram§!.": true
 				}
@@ -2154,9 +2120,7 @@
 						"Religion Group": "Christian"
 					}
 				],
-				"Province Is Or Accepts Religion": {
-					"Religion": "Jewish"
-				}
+				"Province Is Or Accepts Religion": "Jewish"
 			}
 		},
 		"Tier 1": {
@@ -2204,9 +2168,7 @@
 		"Province": "Jenne",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -2277,9 +2239,7 @@
 		"Province": "Kutaraja",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -2532,9 +2492,7 @@
 		"Province": "Cahokia",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Totemist"
-			}
+			"Province Is Or Accepts Religion": "Totemist"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -2688,9 +2646,7 @@
 		"Province": "Milan",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -2881,9 +2837,7 @@
 		"Province": "Yerevan",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Coptic"
-			}
+			"Province Is Or Accepts Religion": "Coptic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -2962,9 +2916,7 @@
 		"Province": "Seringapatam",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -3013,9 +2965,7 @@
 		"Province": "Tanjore",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3058,9 +3008,7 @@
 							]
 						},
 						{
-							"Province Is Or Accepts Religion": {
-								"Religion": "Confucian"
-							},
+							"Province Is Or Accepts Religion": "Confucian",
 							"Has Owner Harmonized Religion": true
 						}
 					],
@@ -3158,9 +3106,7 @@
 		"Province": "Prague",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3200,9 +3146,7 @@
 		"Province": "Kairwan",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3245,9 +3189,7 @@
 		"Province": "Karbala",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Shiite"
-			}
+			"Province Is Or Accepts Religion": "Shiite"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3281,9 +3223,7 @@
 		"Province": "Varanasi",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3316,9 +3256,7 @@
 		"Province": "Mahoba",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -3354,9 +3292,7 @@
 		"Province": "Kilwa",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3423,9 +3359,7 @@
 		"Province": "Isfahan",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3700,9 +3634,7 @@
 		"Province": "Kostendil",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Orthodox"
-			}
+			"Province Is Or Accepts Religion": "Orthodox"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3736,9 +3668,7 @@
 		"Province": "Lasta",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Coptic"
-			}
+			"Province Is Or Accepts Religion": "Coptic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3802,9 +3732,7 @@
 		"Province": "Tanu",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Catholic"
-			}
+			"Province Is Or Accepts Religion": "Catholic"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -3880,9 +3808,7 @@
 		"Province": "Firenze",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3915,9 +3841,7 @@
 		"Province": "Tikrit",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3951,9 +3875,7 @@
 		"Province": "Constantinople",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -3990,9 +3912,7 @@
 		"Province": "Cuttack",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Dharmic"
-			}
+			"Province Is Or Accepts Religion Group": "Dharmic"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -4159,9 +4079,7 @@
 		"Province": "Tiahuanaco",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion": {
-				"Religion": "Inti"
-			}
+			"Province Is Or Accepts Religion": "Inti"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -4282,9 +4200,7 @@
 		"Province": "Benin",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Pagan"
-			}
+			"Province Is Or Accepts Religion Group": "Pagan"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -4633,9 +4549,7 @@
 		"Province": "Harer",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -4708,9 +4622,7 @@
 		"Province": "Avignon",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -4881,9 +4793,7 @@
 		"Province": "Moskva",
 		"Starting Tier": 0,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Christian"
-			}
+			"Province Is Or Accepts Religion Group": "Christian"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -5256,9 +5166,7 @@
 		"Province": "Multan",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": {
-				"Religion Group": "Muslim"
-			}
+			"Province Is Or Accepts Religion Group": "Muslim"
 		},
 		"Tier 1": {
 			"Province Modifiers": [],

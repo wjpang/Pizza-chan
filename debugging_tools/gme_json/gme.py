@@ -145,6 +145,17 @@ def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
             ]
 
             if isinstance(value, dict):
+                if key.replace("_", " ").title().startswith(("Province Is Or Accepts Religion", "Province Is Owner Culture")):
+                    key_new = key.replace("_", " ").title()
+                    if key.endswith('religion_group'):
+                        value_new = loc_datas.get(dictionary[key]["religion_group"])
+                    elif key.endswith('religion'):
+                        value_new = loc_datas.get(dictionary[key]["religion"])
+                    else:
+                        value_new = loc_datas.get(dictionary[key]["culture_group"])
+                    dictionary[key_new] = dictionary.pop(key)
+                    dictionary[key_new] = value_new
+                    continue
                 if key == "can_upgrade_trigger":
                     key_new = "Monument Trigger"
                 elif key.startswith("gme_"):

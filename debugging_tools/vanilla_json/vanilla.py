@@ -44,9 +44,9 @@ def start():
 
     # ideas()
 
-    # monuments()
+    monuments()
 
-    reforms()
+    # reforms()
 
 
 def ideas():
@@ -65,7 +65,7 @@ def monuments():
     JsonParser(vanilla_monuemnts_b4_json)
     create_localisation(LOC_DIR)
 
-    dict_final = recursive_process_dict(dict_vanilla, dict_loc, loc_datas, loc_provinces)
+    dict_final = recursive_process_monument_dict(dict_vanilla, dict_loc, loc_datas, loc_provinces)
 
     with open(f"{os.path.dirname(finalpath)}\\Vanilla_monuments.json", "w", encoding="utf-8") as output:
         json.dump(dict_final, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
@@ -79,7 +79,7 @@ def reforms():
     build_correct_json()
     create_localisation(LOC_DIR)
 
-    dict_final = recursive_process_dict_reforms(dict_new, dict_loc, loc_datas)
+    dict_final = recrusive_process_reform_dict(dict_new, dict_loc, loc_datas)
 
     with open(f"{os.path.dirname(finalpath)}\\Vanilla_reforms.json", "w", encoding="utf-8") as output:
         json.dump(dict_final, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
@@ -147,7 +147,7 @@ def recursive_process_ideas_dict(dictionary, loc_datas):
     return dictionary
 
 
-def recursive_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
+def recursive_process_monument_dict(dictionary, loc_names, loc_datas, loc_provinces):
     global check
 
     for key, value in list(dictionary.items()):
@@ -200,6 +200,17 @@ def recursive_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
             ]
 
             if isinstance(value, dict):
+                if key.replace("_", " ").title().startswith(("Province Is Or Accepts Religion", "Province Is Owner Culture")):
+                    key_new = key.replace("_", " ").title()
+                    if key.endswith('religion_group'):
+                        value_new = loc_datas.get(dictionary[key]["religion_group"])
+                    elif key.endswith('religion'):
+                        value_new = loc_datas.get(dictionary[key]["religion"])
+                    else:
+                        value_new = loc_datas.get(dictionary[key]["culture_group"])
+                    dictionary[key_new] = dictionary.pop(key)
+                    dictionary[key_new] = value_new
+                    continue
                 if key == "can_upgrade_trigger":
                     key_new = "Monument Trigger"
                 elif "tier_1" in value:
@@ -215,7 +226,7 @@ def recursive_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
                 dictionary[key_new] = dictionary.pop(key)
                 dictionary[key_new] = value
                 key = key_new
-                recursive_process_dict(value, loc_names, loc_datas, loc_provinces)
+                recursive_process_monument_dict(value, loc_names, loc_datas, loc_provinces)
             elif isinstance(value, list):
                 if any(key_localisation_check) and key not in ("area_modifier", "region_modifier"):
                     if key in ["tag", "owned_by", "primary_culture"] or key.startswith(("culture", "religion")):
@@ -236,11 +247,11 @@ def recursive_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
                     dictionary[key_new] = dictionary.pop(key)
                     key = key_new
                     if len(value) != 0 and isinstance(value, dict):
-                        recursive_process_dict(value, loc_names, loc_datas, loc_provinces)
+                        recursive_process_monument_dict(value, loc_names, loc_datas, loc_provinces)
                     elif isinstance(value, list):
                         for values in value:
                             if isinstance(values, dict):
-                                recursive_process_dict(values, loc_names, loc_datas, loc_provinces)
+                                recursive_process_monument_dict(values, loc_names, loc_datas, loc_provinces)
             elif isinstance(key, str):
                 if key == "start":
                     key_new = "Province"
@@ -263,7 +274,7 @@ def recursive_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
     return dictionary
 
 
-def recursive_process_dict_reforms(dictionary, dict_loc, loc_datas):
+def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
     """Final parser"""
     for key, value in list(dictionary.items()):
         if key in {"icon", "legacy_equivalent", "allow_normal_conversion", "valid_for_nation_designer", "nation_designer_trigger", "nation_designer_cost", "ai", "hidden_effect", "effect", "removed_effect"}:  # noqa
@@ -341,11 +352,11 @@ def recursive_process_dict_reforms(dictionary, dict_loc, loc_datas):
                     localized_name = dict_loc.get(key) or key.replace('_', ' ').title()
                     dictionary[localized_name] = dictionary.pop(key)
                     key = localized_name
-                recursive_process_dict_reforms(value, dict_loc, loc_datas)
+                recrusive_process_reform_dict(value, dict_loc, loc_datas)
             elif isinstance(value, list):
                 for item in value:
                     if isinstance(item, (list, dict)) and len(item) > 1:
-                        recursive_process_dict_reforms(item, dict_loc, loc_datas)
+                        recrusive_process_reform_dict(item, dict_loc, loc_datas)
             else:
                 if value and key.startswith("enables_") and not key.endswith("idea_group"):
                     if dict_loc.get(key) is not None and ":" in dict_loc.get(key):
