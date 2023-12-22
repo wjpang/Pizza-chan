@@ -53,10 +53,7 @@ localized_datas = {}
 localized_provinces = {}
 
 with open(data, "r", encoding="utf-8") as file:
-    for line in file:
-        if len(line.strip().split("\t")) == 2:
-            key, localized_data = line.strip().split("\t")
-            localized_datas[key] = localized_data
+    localized_datas = json.load(file)
 with open(provinces, "r", encoding="utf-8") as file:
     localized_provinces = json.load(file)
 
