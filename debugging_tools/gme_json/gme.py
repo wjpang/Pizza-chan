@@ -15,7 +15,7 @@ parent = os.path.dirname(path)
 finalpath = os.path.dirname(parent) + r"\data\GME.json"
 
 provinces = parent + "\\provinces.json"
-database = parent + "\\database.txt"
+database = parent + "\\database.json"
 tags = parent + "\\tags.txt"
 
 MON_INPUT = glob.glob(MON_DIR + "\*.txt")

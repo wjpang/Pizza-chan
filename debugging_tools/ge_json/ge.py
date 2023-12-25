@@ -19,7 +19,7 @@ parent = os.path.dirname(path)
 finalpath = os.path.dirname(parent)
 
 tags = parent + "\\tags.txt"
-database = parent + "\\database.txt"
+database = parent + "\\database.json"
 provinces = parent + "\\provinces.json"
 
 GOV_REF_INPUT = glob.glob(GOV_REF_DIR + r"\*.txt")

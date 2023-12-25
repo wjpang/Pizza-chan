@@ -15,7 +15,7 @@ parent = os.path.dirname(path)
 finalpath = os.path.dirname(parent) + r"\data\FEE.json"
 
 tags = parent + "\\tags.txt"
-data = parent + "\\database.txt"
+data = parent + "\\database.json"
 provinces = parent + "\\provinces.json"
 
 DISASTER_PATH = MOD_PATH + r"\common\disasters"

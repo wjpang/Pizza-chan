@@ -14,7 +14,7 @@ finalpath = os.path.dirname(parent) + r"\data\HIE.json"
 
 tags = parent + r"\\tags.txt"
 ideas = parent + r"\ideas.txt"
-database = parent + r"\database.txt"
+database = parent + r"\database.json"
 
 ideas_hie_out_be4_json = MOD_PATH + r"\common\ideas\HIE_country_ideas.txt"
 
@@ -57,13 +57,18 @@ def recursive_process_dict(dictionary, loc_datas):
         elif key == "effect":
             key_new = key.replace("_", " ").title()
             if "custom_tooltip" in value:
+                value_new = True
                 if "admirals_give_army_professionalism_tt" in value["custom_tooltip"]:
-                    key_new = "Recruiting Admirals grants 0.5% Army Professionalism"
-                    del dictionary[key]["custom_tooltip"]
-                    del dictionary[key]["set_country_flag"]
+                    key_new = "Army Professionalism gained from recruiting Admirals"
+                    value_new = "0.5"
+                elif 'hie_dev_cost_reduction_in_arctic_tt' in value["custom_tooltip"]:
+                    key_new = "Development Cost in Arctic Provinces"
+                    value_new = "-0.30"
+                del dictionary[key]["custom_tooltip"]
+                del dictionary[key]["set_country_flag"]
             else:
                 key_new = "Remove Temporary Colonist"
-            value_new = True
+                value_new = True
             # else:
             #     value_new = recursive_process_dict(value, loc_datas)
         elif key.startswith("hie") or key in ("start", "bonus", "MFA_byzantine_claimants"):

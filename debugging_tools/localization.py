@@ -11,7 +11,7 @@ def start():
     # mod = mod_path + r"\FlavourEventsExpanded"
     mod = mod_path + r"\Historical-Ideas-Expanded"
     # mod = mod_path + r"\Monuments-Expanded"
-    mod = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\1770950522"
+    # mod = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\1770950522"
     localisation_dir = mod + r"\localisation"
     filenames = glob.glob(localisation_dir + r"\*_l_english.yml")
     output_string = ["l_english", "l_french", "l_german", "l_spanish"]

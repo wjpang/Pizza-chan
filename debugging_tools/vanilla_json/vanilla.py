@@ -17,7 +17,7 @@ finalpath = os.path.dirname(parent) + r"\data\Vanilla_ideas.json"
 
 provinces = parent + "\\provinces.json"
 tags = parent + r"\\tags.txt"
-database = parent + r"\database.txt"
+database = parent + r"\database.json"
 
 vanilla_ideas_b4_json = MOD_PATH + r"\common\ideas\00_country_ideas.txt"
 vanilla_monuemnts_b4_json = MOD_PATH + r"\common\great_projects\01_monuments.txt"

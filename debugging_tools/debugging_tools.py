@@ -10,7 +10,7 @@ parent = r"C:\Users\AlexI\Dropbox\Pizza-chan\debugging_tools"
 
 tags = parent + r"\\tags.txt"
 ideas = parent + r"\ideas.txt"
-data = parent + r"\database.txt"
+data = parent + r"\database.json"
 
 file_path_var = None
 

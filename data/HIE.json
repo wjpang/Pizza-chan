@@ -455,6 +455,39 @@
 			"Infantry Fire": 0.3
 		}
 	},
+	"Herzegovina": {
+		"Traditions": {
+			"Naval Force Limit Modifier": 0.33,
+			"Fort Defense": 0.2
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Heirs Of Zachlmuia": {
+			"Yearly Legitimacy": 1
+		},
+		"Roman Connections": {
+			"Diplomatic Reputation": 1,
+			"Technology Cost": -0.05
+		},
+		"Excellentissimus Dux Chulmorum": {
+			"Yearly Prestige": 1
+		},
+		"Patrikios En Anthypatos": {
+			"Merchants": 1,
+			"Opinion of same Religion": 25
+		},
+		"Mending The Schism": {
+			"Tolerance of Heretics": 4
+		},
+		"Saint Sava": {
+			"Monarch Administrative Skill": 1,
+			"Yearly Patriarch Authority": 0.005
+		},
+		"Unity With Bosnia": {
+			"Improve Relations": 0.15
+		}
+	},
 	"Hungary": {
 		"Traditions": {
 			"Diplomatic Relations": 1,
@@ -560,6 +593,35 @@
 			"Core-Creation Cost": -0.15
 		}
 	},
+	"Moldavia": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Legacy Of The Princes": {
+			"Reform Progress Growth": 0.2
+		},
+		"Necropolises": {
+			"Culture Conversion Cost": -0.25
+		},
+		"Anti-Mongol Tactics": {
+			"Manpower Recovery Speed": 0.15,
+			"Tolerance of the True Faith": 1
+		},
+		"Sellswords": {
+			"Shock Damage Received": -0.1
+		},
+		"Fierce Independence": {
+			"Morale of Armies": 0.1
+		},
+		"People Of The Rivers": {
+			"Attrition for Enemies": 1,
+			"National Sailors Modifier": 0.25
+		}
+	},
 	"Naxos": {
 		"Traditions": {
 			"Galley Combat Ability": 0.15,
@@ -626,6 +688,40 @@
 			"Naval Force Limit Modifier": 0.15
 		}
 	},
+	"Romania": {
+		"Traditions": {
+			"Discipline": 0.05,
+			"Attrition for Enemies": 1
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.2
+		},
+		"Phanariote Century": {
+			"Advisor Costs": -0.15,
+			"Technology Cost": -0.05
+		},
+		"Order Of The Dragon": {
+			"Yearly Army Tradition": 0.5,
+			"Leader Cost": -0.25
+		},
+		"Legacy Of The Princes": {
+			"Reform Progress Growth": 0.2
+		},
+		"Anti-Mongol Tactics": {
+			"Shock Damage Received": -0.1
+		},
+		"Romanian Dominance": {
+			"Infantry Combat Ability": 0.1,
+			"Development Cost": -0.1
+		},
+		"The Eternal Union": {
+			"Diplomatic Annexation Cost": -0.2,
+			"Years for Personal Union Integration": -20
+		},
+		"The New Constitution": {
+			"Number of accepted Cultures": 2
+		}
+	},
 	"Serbia": {
 		"Traditions": {
 			"Morale of Armies": 0.1,
@@ -658,6 +754,73 @@
 		},
 		"Vlachs": {
 			"Manpower Recovery Speed": 0.15
+		}
+	},
+	"Nitra": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Goods Produced Modifier": 0.1
+		},
+		"Ambition": {
+			"Administrative Technology Cost": -0.1
+		},
+		"Elite Heavy Cavalry": {
+			"Yearly Army Tradition": 0.25,
+			"Cavalry Shock": 0.3
+		},
+		"Nitra": {
+			"Yearly Prestige": 1
+		},
+		"Lessons Learned": {
+			"Shock Damage Received": -0.1
+		},
+		"We Remember Moravia": {
+			"Core-Creation Cost": -0.15
+		},
+		"Mongolian Aftermath": {
+			"Fort Defense": 0.2,
+			"Garrison Army Damage": 0.25
+		},
+		"Hospes": {
+			"Development Cost": -0.1,
+			"Institution Spread": 0.33
+		},
+		"Slovak Urbanization": {
+			"Burghers Loyalty Equilibrium": 0.1,
+			"null": 1
+		}
+	},
+	"Transylvania": {
+		"Traditions": {
+			"Domestic Trade Power": 0.1,
+			"Shock Damage Received": -0.1
+		},
+		"Ambition": {
+			"Local Trade Power Modifier": 0.2
+		},
+		"Unio Trium Nationum": {
+			"Cavalry Combat Ability": 0.2
+		},
+		"Székely": {
+			"All Estate's Loyalty Equilibrium": 0.1
+		},
+		"The Little War": {
+			"Yearly Army Tradition": 0.5,
+			"Monthly War Exhaustion": -0.1
+		},
+		"Részek": {
+			"Core-Creation Cost": -0.15
+		},
+		"Diplomatic Duplicity": {
+			"Chance of New Heir": 0.5,
+			"Yearly Prestige": 0.5
+		},
+		"Edict Of Torda": {
+			"Tolerance of Heretics": 3
+		},
+		"Romanian Dominance": {
+			"Development Cost": -0.1,
+			"Discipline": 0.05
 		}
 	},
 	"Ottomans": {
@@ -727,6 +890,290 @@
 			"Technology Cost": -0.05
 		}
 	},
+	"Danzig": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Yearly Devotion": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"The Ancient": {
+			"Yearly Prestige": 1
+		},
+		"Prussia Of Old": {
+			"Improve Relations": 0.25
+		},
+		"Strong Medieval Industry": {
+			"Goods Produced Modifier": 0.15
+		},
+		"The Hanseatic City": {
+			"Development Cost": -0.1,
+			"Center of Trade Upgrade Cost": -0.2
+		},
+		"Polish Relations": {
+			"Diplomatic Reputation": 1,
+			"Monthly Favor Growth Modifier": 0.1
+		},
+		"New Prussia": {
+			"Discipline": 0.05
+		},
+		"New Goods New Industry": {
+			"Global Trade Power": 0.15
+		}
+	},
+	"Estonia": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Yearly Navy Tradition": 1
+		},
+		"Ambition": {
+			"Fire Damage Received": -0.1
+		},
+		"Bogeyman Of The Vikings": {
+			"Shock Damage": 0.1
+		},
+		"Christian But Independent": {
+			"Missionary Strength": 0.01,
+			"Clergy Influence": 0.25,
+			"Monthly Fervor": 0.33,
+			"Yearly Papal Influence": 2,
+			"Yearly Patriarch Authority": 0.0025
+		},
+		"Meie Maa Meie Valitseja": {
+			"Morale of Armies": 0.1
+		},
+		"Teutonic Scars German Influences": {
+			"Attrition for Enemies": 1,
+			"Shock Damage Received": -0.1
+		},
+		"Arrival Of The Reformation": {
+			"Institution Spread In True Faith Provinces": 0.25,
+			"Tolerance of the True Faith": 1
+		},
+		"We Fight": {
+			"Monthly War Exhaustion": -0.025
+		},
+		"Mu Isamaa Mu Õnn Ja Rõõm": {
+			"Yearly Prestige": 1
+		}
+	},
+	"Kurland": {
+		"Traditions": {
+			"Yearly Army Tradition": 0.5,
+			"Institution Spread": 0.33
+		},
+		"Ambition": {
+			"Max effect of Absolutism": 0.1
+		},
+		"The Last Of The Brethren": {
+			"Discipline": 0.05,
+			"Nobles Loyalty Equilibrium": 0.1
+		},
+		"Privilegium Gotthardinum": {
+			"Development Cost": -0.1
+		},
+		"Guns And Canons": {
+			"Artillery Fire": 1
+		},
+		"Lebensraum": {
+			"Colonists": 1
+		},
+		"Remnants Of The Hanseatic Network": {
+			"Global Trade Power": 0.15,
+			"Fleet Exploration Range": 0.15
+		},
+		"The Grand Navy": {
+			"Heavy Ship Combat Ability": 0.1,
+			"Ship Durability": 0.1
+		},
+		"A Modern State A German State": {
+			"Construction Cost": -0.15,
+			"Idea Cost": -0.1
+		}
+	},
+	"Livonian Order": {
+		"Traditions": {
+			"Missionary Strength": 0.02,
+			"War Score Cost vs Other Religions": -0.15
+		},
+		"Ambition": {
+			"Expand Infrastructure Cost Modifier": -0.75
+		},
+		"Born In The Fires Of War": {
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Livonian Brothers Of The Sword": {
+			"Discipline": 0.05
+		},
+		"Codex Templi": {
+			"Yearly Army Tradition": 0.5,
+			"Reform Progress Growth": 0.15
+		},
+		"A Slave Obeys A Mans Choses": {
+			"Yearly Prestige": 1
+		},
+		"Teutonic Union": {
+			"Infantry Combat Ability": 0.1
+		},
+		"Crusader Allies": {
+			"Opinion of same Religion": 25
+		},
+		"From Order To State": {
+			"Tolerance of Heretics": 2,
+			"Institution Spread": 0.33
+		}
+	},
+	"Latgalia": {
+		"Traditions": {
+			"Regiment Manpower Usage": -0.1,
+			"Morale of Armies": 0.1
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.1
+		},
+		"The Original Latvians": {
+			"Infantry Combat Ability": 0.1,
+			"Shock Damage": 0.1
+		},
+		"Hill Forts": {
+			"Fort Defense": 0.15,
+			"Attrition for Enemies": 1
+		},
+		"Latgalian Construction": {
+			"Construction Cost": -0.1
+		},
+		"Remnants Of The Orders": {
+			"Technology Cost": -0.075,
+			"Institution Spread": 0.5
+		},
+		"River Trade": {
+			"Trade Efficiency": 0.1
+		},
+		"Christians By Proxy": {
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.2,
+			"Yearly Papal Influence": 1,
+			"Tolerance of Heathens": 2
+		},
+		"Expelling The Invaders": {
+			"Province War Score Cost": -0.2
+		}
+	},
+	"Livonia": {
+		"Traditions": {
+			"Institution Spread": 0.33,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 0.25,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Ambition": {
+			"Shock Damage Received": -0.1
+		},
+		"Terra Mariana": {
+			"Tolerance of the True Faith": 2,
+			"Yearly Papal Influence": 1,
+			"Clergy Influence": 0.125,
+			"Monthly Fervor": 0.2
+		},
+		"Tradition Of The Orders": {
+			"Discipline": 0.05,
+			"Nobles Privilege Slots": 1
+		},
+		"Land Of The Bishops": {
+			"National Tax Modifier": 0.1,
+			"Prestige per Development from Missionary": 0.1
+		},
+		"Enterports Of The Hansa": {
+			"null": 1,
+			"Trade Efficiency": 0.1
+		},
+		"The Legions Of God": {
+			"Land Force Limit Modifier": 0.1,
+			"Morale of Armies": 0.1
+		},
+		"The Livonian Landtag": {
+			"All Estate's Loyalty Equilibrium": 0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"Among The Lions Of The North": {
+			"Fort Defense": 0.2,
+			"Diplomatic Reputation": 1
+		}
+	},
+	"Riga": {
+		"Traditions": {
+			"Center of Trade Upgrade Cost": -0.25,
+			"Development Cost": -0.1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Portus Antiquus": {
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"Varangian Trade": {
+			"Trade Efficiency": 0.1,
+			"Naval Force Limit Modifier": 0.33
+		},
+		"Frontier Fortifications": {
+			"Fort Defense": 0.2,
+			"Garrison Size": 0.33
+		},
+		"Prince Albert": {
+			"Construction Cost": -0.1,
+			"Missionary Strength": 0.02
+		},
+		"Infirmantium Hospitale": {
+			"Manpower Recovery Speed": 0.2
+		},
+		"State And Church": {
+			"National Unrest": -2
+		},
+		"Part Of The Hansa": {
+			"Merchant Trade Power": 10
+		}
+	},
+	"Teutonic Order": {
+		"Traditions": {
+			"Yearly Army Tradition": 1,
+			"Discipline": 0.05
+		},
+		"Ambition": {
+			"National Tax Modifier": 0.1
+		},
+		"Großschäffer": {
+			"Trade Steering": 0.1,
+			"Trade Efficiency": 0.1
+		},
+		"Schiffskinder": {
+			"National Manpower Modifier": 0.15,
+			"Marines Force Limit": 0.1
+		},
+		"Preußischer Landtag": {
+			"Provincial Trade Power Modifier": 0.15
+		},
+		"Eastern Crusade": {
+			"Missionary Strength": 0.02,
+			"Church Power": 0.05,
+			"Monthly Fervor": 0.3,
+			"Yearly Papal Influence": 1
+		},
+		"Knights Of The Empire": {
+			"Mercenary Cost": -0.15
+		},
+		"Magister Germaniae": {
+			"Military Free Policies": 1
+		},
+		"Prussian Junkers": {
+			"Leaders Without Upkeep": 1
+		}
+	},
 	"Clanricarde": {
 		"Traditions": {
 			"Land Attrition": -0.1,
@@ -793,34 +1240,38 @@
 			"Goods Produced Modifier": 0.1
 		}
 	},
-	"Kildare": {
+	"England": {
 		"Traditions": {
-			"Tolerance of the True Faith": 2,
-			"Land Leader Shock": 1
+			"Infantry Combat Ability": 0.1,
+			"National Tax Modifier": 0.15
 		},
 		"Ambition": {
-			"Development Cost": -0.1
+			"Yearly Prestige": 1
 		},
-		"St. Brigid": {
-			"Goods Produced Modifier": 0.1
+		"Common Law": {
+			"Stability Cost Modifier": -0.15,
+			"National Unrest": -1
 		},
-		"More Than Irish": {
-			"National Unrest": -2
+		"The Royal Navy": {
+			"Heavy Ship Combat Ability": 0.1,
+			"Morale of Navies": 0.1
 		},
-		"Lords Deputy": {
-			"Diplomatic Reputation": 1
+		"Acts Of Union": {
+			"Diplomatic Annexation Cost": -0.15
 		},
-		"Silver Tongues": {
-			"Improve Relations": 0.2
+		"Acts Concerning The Regulation Of Trade": {
+			"Global Trade Power": 0.2,
+			"Cost to Promote Mercantilism": -0.2
 		},
-		"Silken Thomas": {
-			"Morale of Armies": 0.1
+		"New Model Army": {
+			"Discipline": 0.05
 		},
-		"The Wizard Earl": {
+		"The Admiralty": {
+			"Naval Force Limit Modifier": 0.5,
+			"National Sailors Modifier": 0.25
+		},
+		"Empiricism": {
 			"Technology Cost": -0.1
-		},
-		"Franciscan Support": {
-			"Construction Cost": -0.1
 		}
 	},
 	"Offaly": {
@@ -854,6 +1305,41 @@
 		},
 		"River Trade Expertise": {
 			"Domestic Trade Power": 0.2
+		}
+	},
+	"Great Britain": {
+		"Traditions": {
+			"Yearly Navy Tradition": 1,
+			"Naval Force Limit Modifier": 0.33
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"The Navigation Acts": {
+			"Provincial Trade Power Modifier": 0.2
+		},
+		"The Triangle Trade": {
+			"Global Settler Increase": 20,
+			"Trade Efficiency": 0.1
+		},
+		"The East India Company": {
+			"Cost to Promote Mercantilism": -0.33,
+			"Trade Company Governing Cost": -0.33
+		},
+		"Articles Of War": {
+			"Ship Durability": 0.1,
+			"Discipline": 0.05
+		},
+		"Scientific Gunnery": {
+			"Heavy Ship Combat Ability": 0.2,
+			"Diplomatic Technology Cost": -0.1
+		},
+		"Redcoats!": {
+			"Marines Force Limit": 0.25,
+			"Army Professionalism gained from recruiting Admirals": "0.5%"
+		},
+		"Domestic Revolution": {
+			"Goods Produced Modifier": 0.15
 		}
 	},
 	"Ireland": {
@@ -890,6 +1376,36 @@
 		"Unconquerable Ireland": {
 			"Monthly War Exhaustion": -0.02,
 			"Regiment Costs": -0.1
+		}
+	},
+	"Kildare": {
+		"Traditions": {
+			"Tolerance of the True Faith": 2,
+			"Land Leader Shock": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"St. Brigid": {
+			"Goods Produced Modifier": 0.1
+		},
+		"More Than Irish": {
+			"National Unrest": -2
+		},
+		"Lords Deputy": {
+			"Diplomatic Reputation": 1
+		},
+		"Silver Tongues": {
+			"Improve Relations": 0.2
+		},
+		"Silken Thomas": {
+			"Morale of Armies": 0.1
+		},
+		"The Wizard Earl": {
+			"Technology Cost": -0.1
+		},
+		"Franciscan Support": {
+			"Construction Cost": -0.1
 		}
 	},
 	"Munster": {
@@ -1024,6 +1540,38 @@
 			"Goods Produced Modifier": 0.1
 		}
 	},
+	"Scotland": {
+		"Traditions": {
+			"Land Leader Shock": 1,
+			"Land Force Limit Modifier": 0.1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Declaration Of Arbroath": {
+			"Morale of Armies": 0.1
+		},
+		"Schiltron": {
+			"Infantry Shock": 0.2
+		},
+		"Universal Literacy": {
+			"Technology Cost": -0.1,
+			"Institution Spread": 0.2
+		},
+		"Reform The Highlander Regiments": {
+			"Discipline": 0.05
+		},
+		"Scottish Enlightenment": {
+			"Idea Cost": -0.1,
+			"Reform Progress Growth": 0.15
+		},
+		"The Wealth Of Nations": {
+			"Trade Efficiency": 0.15
+		},
+		"Industrial Revolution": {
+			"Goods Produced Modifier": 0.15
+		}
+	},
 	"Sligo": {
 		"Traditions": {
 			"National Tax Modifier": 0.15,
@@ -1118,107 +1666,6 @@
 		"Chief Fortress Of Ireland": {
 			"Garrison Size": 0.25,
 			"Fort Maintenance": -0.2
-		}
-	},
-	"England": {
-		"Traditions": {
-			"Infantry Combat Ability": 0.1,
-			"National Tax Modifier": 0.15
-		},
-		"Ambition": {
-			"Yearly Prestige": 1
-		},
-		"Common Law": {
-			"Stability Cost Modifier": -0.15,
-			"National Unrest": -1
-		},
-		"The Royal Navy": {
-			"Heavy Ship Combat Ability": 0.1,
-			"Morale of Navies": 0.1
-		},
-		"Acts Of Union": {
-			"Diplomatic Annexation Cost": -0.15
-		},
-		"Acts Concerning The Regulation Of Trade": {
-			"Global Trade Power": 0.2,
-			"Cost to Promote Mercantilism": -0.2
-		},
-		"New Model Army": {
-			"Discipline": 0.05
-		},
-		"The Admiralty": {
-			"Naval Force Limit Modifier": 0.5,
-			"National Sailors Modifier": 0.25
-		},
-		"Empiricism": {
-			"Technology Cost": -0.1
-		}
-	},
-	"Scotland": {
-		"Traditions": {
-			"Land Leader Shock": 1,
-			"Land Force Limit Modifier": 0.1
-		},
-		"Ambition": {
-			"Development Cost": -0.1
-		},
-		"Declaration Of Arbroath": {
-			"Morale of Armies": 0.1
-		},
-		"Schiltron": {
-			"Infantry Shock": 0.2
-		},
-		"Universal Literacy": {
-			"Technology Cost": -0.1,
-			"Institution Spread": 0.2
-		},
-		"Reform The Highlander Regiments": {
-			"Discipline": 0.05
-		},
-		"Scottish Enlightenment": {
-			"Idea Cost": -0.1,
-			"Reform Progress Growth": 0.15
-		},
-		"The Wealth Of Nations": {
-			"Trade Efficiency": 0.15
-		},
-		"Industrial Revolution": {
-			"Goods Produced Modifier": 0.15
-		}
-	},
-	"Great Britain": {
-		"Traditions": {
-			"Yearly Navy Tradition": 1,
-			"Naval Force Limit Modifier": 0.5
-		},
-		"Ambition": {
-			"Morale of Navies": 0.15
-		},
-		"The Navigation Acts": {
-			"Provincial Trade Power Modifier": 0.2
-		},
-		"The Triangle Trade": {
-			"Global Settler Increase": 20,
-			"Trade Efficiency": 0.1
-		},
-		"The East India Company": {
-			"Cost to Promote Mercantilism": -0.33,
-			"Trade Company Governing Cost": -0.33
-		},
-		"Articles Of War": {
-			"Ship Durability": 0.1,
-			"Discipline": 0.05
-		},
-		"Scientific Gunnery": {
-			"Heavy Ship Combat Ability": 0.2,
-			"Diplomatic Technology Cost": -0.1
-		},
-		"Redcoats!": {
-			"Marines Force Limit": 0.25,
-			"Recruiting Admirals grants 0.5% Army Professionalism": true
-		},
-		"Domestic Revolution": {
-			"Goods Produced Modifier": 0.15
 		}
 	},
 	"Armenia": {
@@ -1483,6 +1930,244 @@
 			"Merchants": 1
 		}
 	},
+	"Beloozero": {
+		"Traditions": {
+			"Fort Defense": 0.15,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Stability Cost Modifier": -0.15
+		},
+		"The Primary Chronicle": {
+			"Land Attrition": -0.25
+		},
+		"A Varangian Center": {
+			"Construction Cost": -0.1
+		},
+		"Sons Of The Grand Republic": {
+			"Global Trade Power": 0.15
+		},
+		"Yuri Dolgorukiy’S Legacy": {
+			"All Estates Influence Modifier": -0.1,
+			"Yearly Corruption": -0.2
+		},
+		"Religious Freedom": {
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"The Genghis Lineage": {
+			"Discipline": 0.05,
+			"Movement Speed": 0.1
+		},
+		"A Russian Viceroy": {
+			"Land Force Limit Modifier": 0.2
+		}
+	},
+	"Chernigov": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Ambition": {
+			"Administrative Efficiency": 0.05
+		},
+		"Sacred Founding": {
+			"Construction Cost": -0.05,
+			"Tolerance of the True Faith": 1
+		},
+		"Humble Beginnings": {
+			"Development Cost": -0.1
+		},
+		"This Far No Further": {
+			"Diplomatic Reputation": 2
+		},
+		"One To Rival Theodosian": {
+			"Fort Defense": 0.15,
+			"Garrison Size": 0.33
+		},
+		"Council Of Liubech": {
+			"Power Projection from Insults": 1,
+			"Spy Network Construction": 0.33
+		},
+		"Stand Against The Cumans": {
+			"Land Force Limit Modifier": 0.2
+		},
+		"Odyn Ponad Usikh": {
+			"Province War Score Cost": -0.15
+		}
+	},
+	"Crimea": {
+		"Traditions": {
+			"Regiment Costs": -0.15,
+			"May Raid Coasts": true
+		},
+		"Ambition": {
+			"Administrative Efficiency": 0.05
+		},
+		"Mongol Foundation": {
+			"Razing Power Gain": 0.33,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Desht-I Qipchaq": {
+			"Core-Creation Cost": -0.2
+		},
+		"Codex Cumanicus": {
+			"Institution Spread": 0.33,
+			"Reform Progress Growth": 0.15
+		},
+		"Christian Allies": {
+			"Yearly Army Tradition": 0.5,
+			"Diplomatic Reputation": 1
+		},
+		"Tatar Tactics Western Arms": {
+			"Military Technology Cost": -0.1
+		},
+		"Slavic Slaves": {
+			"Global Trade Power": 0.1,
+			"Trade Steering": 0.15
+		},
+		"Khan Of Khans": {
+			"Province War Score Cost": -0.2
+		}
+	},
+	"Glogow": {
+		"Traditions": {
+			"Fort Defense": 0.33,
+			"National Tax Modifier": 0.15
+		},
+		"Ambition": {
+			"Global Trade Power": 0.15
+		},
+		"Xenophilia": {
+			"Number of accepted Cultures": 1,
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"Mining Tradition": {
+			"Production Efficiency": 0.15
+		},
+		"The Main Line": {
+			"Yearly Legitimacy": 1
+		},
+		"Imperial Connections": {
+			"Diplomatic Relations": 1,
+			"Monthly Splendor": 2
+		},
+		"Silesian Craftsmanship": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Treaty Of Trentschin": {
+			"Diplomatic Reputation": 1,
+			"Chance to Inherit Personal Union Subjects": 0.25
+		},
+		"University Of Wrocław": {
+			"Military Technology Cost": -0.1
+		}
+	},
+	"Kiev": {
+		"Traditions": {
+			"Goods Produced Modifier": 0.1,
+			"Cost of Advisors with Ruler's Religion": -0.15
+		},
+		"Ambition": {
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Tale Of Bygone Years": {
+			"Yearly Prestige": 1
+		},
+		"Russkaya Pravda": {
+			"Administrative Technology Cost": -0.1,
+			"Missionaries": 1
+		},
+		"The Varangian Capital": {
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"The Grand Metropolitan": {
+			"Yearly Patriarch Authority": 0.005,
+			"Tolerance of the True Faith": 2
+		},
+		"Remember Remember The 6Th Of December": {
+			"Fire Damage Received": -0.1
+		},
+		"Loyalty Of The Cossacks": {
+			"Cossack Loyalty Equilibrium": 0.1,
+			"null": 0.25
+		},
+		"Rise Up Ruthenia!": {
+			"Morale of Armies": 0.1
+		}
+	},
+	"Kalmyk": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.2,
+			"Monarch Diplomatic Skill": 1
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Remnants Of The Oirat Khanate": {
+			"Land Leader Shock": 1
+		},
+		"The Long Track West": {
+			"Monthly War Exhaustion": -0.02,
+			"Tolerance of the True Faith": 2
+		},
+		"Our New Homeland": {
+			"Morale of Armies": 0.15
+		},
+		"Mongols In A Western World": {
+			"Improve Relations": 0.2,
+			"Institution Spread": 0.33
+		},
+		"Loyalty To The Tsar": {
+			"National Unrest": -2,
+			"Stability Cost Modifier": -0.15
+		},
+		"Russian Auxiliaries": {
+			"Discipline": 0.05
+		},
+		"Our Freedom": {
+			"National Manpower Modifier": 0.2,
+			"All Estates Influence Modifier": -0.1
+		}
+	},
+	"Krakow": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Senioral Province": {
+			"Morale of Armies": 0.1,
+			"Yearly Legitimacy": 1
+		},
+		"Wawel Castle": {
+			"Construction Cost": -0.1,
+			"Yearly Prestige": 1
+		},
+		"The Western Silkroad": {
+			"Caravan Power": 0.25,
+			"Merchants": 1
+		},
+		"Cardinal City": {
+			"Yearly Papal Influence": 2,
+			"Tolerance of the True Faith": 1
+		},
+		"Kazimierz District": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Jagallion University": {
+			"Technology Cost": -0.1
+		},
+		"The Krakow Citadel": {
+			"Fort Defense": 0.2,
+			"Garrison Size": 0.33
+		}
+	},
 	"Lithuania": {
 		"Traditions": {
 			"Shock Damage Received": -0.1,
@@ -1513,6 +2198,210 @@
 		},
 		"Lithuanian Renaissance": {
 			"Technology Cost": -0.05
+		}
+	},
+	"Mazovia": {
+		"Traditions": {
+			"Cavalry Combat Ability": 0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Stability Cost Modifier": -0.15
+		},
+		"Województwo Mazowieckie": {
+			"Possible Winged Hussars": 4,
+			"May Recruit Winged Hussars": true,
+			"Cavalry Cost": -0.2
+		},
+		"Civitas Schinesghe": {
+			"Unjustified Demands": -0.5,
+			"Core-Creation Cost": -0.1
+		},
+		"Grody Ksiazece": {
+			"Fort Defense": 0.2
+		},
+		"Dagome Iudex": {
+			"Yearly Papal Influence": 2,
+			"Tolerance of the True Faith": 1
+		},
+		"Zjazd Gnieznienski": {
+			"Opinion of same Religion": 25,
+			"Clergy Loyalty Equilibrium": 0.05
+		},
+		"Fragmentation Of Poland": {
+			"Shock Damage Received": -0.1
+		},
+		"Warszawa": {
+			"Construction Cost": -0.1
+		}
+	},
+	"Muscovy": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Construction Cost": -0.1
+		},
+		"Ambition": {
+			"Yearly Legitimacy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Elevate Muscovite Metropolitan To Patriarch": {
+			"Yearly Patriarch Authority": 0.005,
+			"Tolerance of the True Faith": 1
+		},
+		"Ugorshchina": {
+			"Morale of Armies": 0.1
+		},
+		"T'Sar Vseya Rossii": {
+			"Cost to fabricate claims": -0.2,
+			"Core-Creation Cost": -0.1
+		},
+		"Zasechnaya Cherta": {
+			"Fort Maintenance": -0.2
+		},
+		"Relentless Push": {
+			"Aggressive Expansion Impact": -0.1
+		},
+		"Samoderzhaviye": {
+			"Maximum Absolutism": 10,
+			"Yearly Absolutism": 1
+		},
+		"Sloboda": {
+			"Culture Conversion Cost": -0.15
+		}
+	},
+	"Nizhny Novgorod": {
+		"Traditions": {
+			"Center of Trade Upgrade Cost": -0.2,
+			"National Manpower Modifier": 0.2
+		},
+		"Ambition": {
+			"Fort Defense": 0.15
+		},
+		"War Camp Turned City": {
+			"Regiment Costs": -0.1,
+			"Recruitment Time": -0.15
+		},
+		"From Wood To Stone": {
+			"Construction Cost": -0.1
+		},
+		"Battling The Tattars": {
+			"Garrison Size": 0.25,
+			"Land Force Limit Modifier": 0.25
+		},
+		"Moscow'S Sister City": {
+			"Diplomatic Reputation": 1,
+			"Yearly Prestige": 0.5
+		},
+		"The Streltsy Quarter": {
+			"Discipline": 0.05,
+			"Special Unit Force Limit": 0.25
+		},
+		"The Center Of Trade For The Empire": {
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"A New Nizhny Novgorod": {
+			"Local Goods Produced Modifier": 0.1
+		}
+	},
+	"Novgorod": {
+		"Traditions": {
+			"Global Trade Power": 0.15,
+			"Shock Damage Received": -0.1
+		},
+		"Ambition": {
+			"Naval Force Limit Modifier": 0.2
+		},
+		"Ledovoye Poboishche": {
+			"Morale of Armies": 0.1
+		},
+		"Novgorodskaya Pervaya Letopis.": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Ushkuiniks": {
+			"Looting Speed": 0.5,
+			"Mercenary Cost": -0.15
+		},
+		"Novgorodian Belka": {
+			"Merchants": 1
+		},
+		"Veliky Novgorod": {
+			"Trade Efficiency": 0.1,
+			"Construction Cost": -0.1
+		},
+		"Continuation Of The Veche": {
+			"Yearly Republican Tradition": 0.5
+		},
+		"Zavolochye": {
+			"Caravan Power": 0.2,
+			"Global Settler Increase": 10
+		}
+	},
+	"Odoyev": {
+		"Traditions": {
+			"Development Cost": -0.1,
+			"Domestic Trade Power": 0.25
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Micheal Of Chernigov": {
+			"Discipline": 0.05,
+			"Tolerance of the True Faith": 2
+		},
+		"The Battle Kulikovo": {
+			"National Manpower Modifier": 0.25
+		},
+		"Mongolian Law": {
+			"Harsh Treatment Cost": -0.33,
+			"Stability Cost Modifier": -0.2
+		},
+		"Toy Makers": {
+			"Yearly Prestige": 1
+		},
+		"Dominance Of The Upper Okra Principalities": {
+			"Vassal Force Limit Contribution": 0.5,
+			"Income from Vassals": 0.33
+		},
+		"The Steppe Melting Pot": {
+			"Morale Damage": 0.1,
+			"Number of accepted Cultures": 1
+		},
+		"Playing The Field": {
+			"Diplomatic Reputation": 1,
+			"Improve Relations": 0.15
+		}
+	},
+	"Opole": {
+		"Traditions": {
+			"Fort Defense": 0.33,
+			"National Tax Modifier": 0.15
+		},
+		"Ambition": {
+			"Global Trade Power": 0.15
+		},
+		"Xenophilia": {
+			"Number of accepted Cultures": 1,
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"Mining Tradition": {
+			"Production Efficiency": 0.15
+		},
+		"The Main Line": {
+			"Yearly Legitimacy": 1
+		},
+		"Imperial Connections": {
+			"Diplomatic Relations": 1,
+			"Monthly Splendor": 2
+		},
+		"Silesian Craftsmanship": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Treaty Of Trentschin": {
+			"Diplomatic Reputation": 1,
+			"Chance to Inherit Personal Union Subjects": 0.25
+		},
+		"University Of Wrocław": {
+			"Military Technology Cost": -0.1
 		}
 	},
 	"Commonwealth-Poland": {
@@ -1587,6 +2476,41 @@
 			"Infantry Combat Ability": 0.1
 		}
 	},
+	"Polotsk": {
+		"Traditions": {
+			"Infantry Cost": -0.1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Yearly Patriarch Authority": 0.0025
+		},
+		"Born Out Of The Sagas": {
+			"Leader Cost": -0.15,
+			"Land Leader Shock": 1
+		},
+		"The Witch King": {
+			"Yearly Army Tradition": 0.5,
+			"Morale Damage": 0.15
+		},
+		"The Grand Citadel Of Polotsk": {
+			"Fort Defense": 0.2,
+			"Garrison Size": 0.2
+		},
+		"The Main Line": {
+			"Cost to fabricate claims": -0.25,
+			"Yearly Legitimacy": 1
+		},
+		"Varangian Trade Hub": {
+			"Center of Trade Upgrade Cost": -0.2,
+			"Merchants": 1
+		},
+		"Lessons From The Teutons": {
+			"Discipline": 0.05
+		},
+		"Imperial Sovereignty": {
+			"All Estate's Loyalty Equilibrium": 0.1
+		}
+	},
 	"Poland": {
 		"Traditions": {
 			"Diplomatic Reputation": 1,
@@ -1625,71 +2549,106 @@
 			"Yearly Army Tradition": 0.5
 		}
 	},
-	"Muscovy": {
+	"Perm": {
 		"Traditions": {
-			"Diplomatic Reputation": 1,
-			"Construction Cost": -0.1
+			"Merchants": 1,
+			"Reform Progress Growth": 0.25
 		},
 		"Ambition": {
-			"Yearly Legitimacy": 1,
-			"Yearly Republican Tradition": 0.3
+			"Monarch Diplomatic Skill": 1
 		},
-		"Elevate Muscovite Metropolitan To Patriarch": {
-			"Yearly Patriarch Authority": 0.005,
-			"Tolerance of the True Faith": 1
+		"From The Sagas": {
+			"Yearly Prestige": 1
 		},
-		"Ugorshchina": {
-			"Morale of Armies": 0.1
+		"Intimate Knowledge Of Nature": {
+			"National Manpower Modifier": 0.15,
+			"Attrition for Enemies": 2
 		},
-		"T'Sar Vseya Rossii": {
-			"Cost to fabricate claims": -0.2,
-			"Core-Creation Cost": -0.1
+		"Stephen Of Perm": {
+			"Institution Spread In True Faith Provinces": 0.33,
+			"Technology Cost": -0.05
 		},
-		"Zasechnaya Cherta": {
-			"Fort Maintenance": -0.2
+		"Recognized Autonomy": {
+			"Diplomatic Reputation": 1
 		},
-		"Relentless Push": {
-			"Aggressive Expansion Impact": -0.1
+		"The Fall Of Novgorod": {
+			"Trade Efficiency": 0.1
 		},
-		"Samoderzhaviye": {
-			"Maximum Absolutism": 10,
-			"Yearly Absolutism": 1
+		"Uralic Center Of Trade": {
+			"Caravan Power": 0.25
 		},
-		"Sloboda": {
-			"Culture Conversion Cost": -0.15
+		"Urbanizing The Uralic Tundra": {
+			"Construction Cost": -0.1,
+			"Development Cost in Arctic Provinces": "-0.30"
 		}
 	},
-	"Novgorod": {
+	"Pskov": {
 		"Traditions": {
-			"Global Trade Power": 0.15,
-			"Shock Damage Received": -0.1
+			"Development Cost": -0.1,
+			"Infantry Combat Ability": 0.1
 		},
 		"Ambition": {
-			"Naval Force Limit Modifier": 0.2
+			"Global Trade Power": 0.15
 		},
-		"Ledovoye Poboishche": {
-			"Morale of Armies": 0.1
+		"The Almost Grand Republic": {
+			"Reform Progress Growth": 0.25,
+			"Yearly Republican Tradition": 0.25
 		},
-		"Novgorodskaya Pervaya Letopis.": {
-			"Stability Cost Modifier": -0.1
+		"Exiled Princes": {
+			"Land Leader Shock": 1,
+			"Monarch Military Skill": 1
 		},
-		"Ushkuiniks": {
-			"Looting Speed": 0.5,
-			"Mercenary Cost": -0.15
+		"The Rights Of Autonomy": {
+			"Trade Efficiency": 0.15
 		},
-		"Novgorodian Belka": {
-			"Merchants": 1
+		"The Fortress Of Izborks": {
+			"Fort Defense": 0.15,
+			"Fort Maintenance": -0.15
 		},
-		"Veliky Novgorod": {
-			"Trade Efficiency": 0.1,
-			"Construction Cost": -0.1
+		"Prince Daumantas Of Pskov": {
+			"Morale of Armies": 0.1,
+			"Tolerance of the True Faith": 1
 		},
-		"Continuation Of The Veche": {
-			"Yearly Republican Tradition": 0.5
+		"Defeat At Rakovor": {
+			"Yearly Army Tradition": 0.5
 		},
-		"Zavolochye": {
-			"Caravan Power": 0.2,
-			"Global Settler Increase": 10
+		"The Treaty Of Bolotovo": {
+			"Improve Relations": 0.15,
+			"Land Force Limit Modifier": 0.15
+		}
+	},
+	"Rostov": {
+		"Traditions": {
+			"Annexation Relations Impact": -0.5,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"The Greatest Among The Ancient": {
+			"Yearly Prestige": 1
+		},
+		"Vladimir-Suzdal": {
+			"Development Cost": -0.1,
+			"Move Capital Cost Modifier": -0.75
+		},
+		"Subjugation By Force": {
+			"Liberty Desire in Subjects": 15,
+			"Vassal Force Limit Contribution": 1
+		},
+		"King Makers Of The Rus": {
+			"Vassalization Acceptance": 10,
+			"Diplomatic Reputation": 1
+		},
+		"The Rise Of The Grand Cities Of Vladimir": {
+			"Construction Cost": -0.1,
+			"Can Concentrate Development With No Losses": true
+		},
+		"White Monuments And Golden Icons": {
+			"Yearly Patriarch Authority": 0.005
+		},
+		"The Birth Of Muscovy": {
+			"Yearly Legitimacy": 1
 		}
 	},
 	"Russia-Muscovy": {
@@ -1765,6 +2724,136 @@
 			"Yearly Devotion": 1
 		}
 	},
+	"Ryazan": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Ambition": {
+			"Administrative Efficiency": 0.05
+		},
+		"Sacred Founding": {
+			"Construction Cost": -0.05,
+			"Tolerance of the True Faith": 1
+		},
+		"Humble Beginnings": {
+			"Development Cost": -0.1
+		},
+		"This Far No Further": {
+			"Diplomatic Reputation": 2
+		},
+		"One To Rival Theodosian": {
+			"Fort Defense": 0.15,
+			"Garrison Size": 0.33
+		},
+		"Council Of Liubech": {
+			"Power Projection from Insults": 1,
+			"Spy Network Construction": 0.33
+		},
+		"Stand Against The Cumans": {
+			"Land Force Limit Modifier": 0.2
+		},
+		"Odyn Ponad Usikh": {
+			"Province War Score Cost": -0.15
+		}
+	},
+	"Silesia": {
+		"Traditions": {
+			"Fort Defense": 0.33,
+			"National Tax Modifier": 0.15
+		},
+		"Ambition": {
+			"Global Trade Power": 0.15
+		},
+		"Xenophilia": {
+			"Number of accepted Cultures": 1,
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"Mining Tradition": {
+			"Production Efficiency": 0.15
+		},
+		"The Main Line": {
+			"Yearly Legitimacy": 1
+		},
+		"Imperial Connections": {
+			"Diplomatic Relations": 1,
+			"Monthly Splendor": 2
+		},
+		"Silesian Craftsmanship": {
+			"Goods Produced Modifier": 0.15
+		},
+		"Treaty Of Trentschin": {
+			"Diplomatic Reputation": 1,
+			"Chance to Inherit Personal Union Subjects": 0.25
+		},
+		"University Of Wrocław": {
+			"Military Technology Cost": -0.1
+		}
+	},
+	"Smolensk": {
+		"Traditions": {
+			"Attrition for Enemies": 1,
+			"Merchants": 1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Tale Of Bygone Years": {
+			"Yearly Prestige": 1
+		},
+		"Varangian Trade": {
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"Natural Resources": {
+			"Goods Produced Modifier": 0.1
+		},
+		"They Will Be Met With Nothing But Wall": {
+			"Fort Defense": 0.2
+		},
+		"Infatuation With Canon": {
+			"Artillery Cost": -0.2,
+			"Artillery Damage from Back Row": 0.2
+		},
+		"The Smolensky Mint": {
+			"Yearly Inflation Reduction": 0.05
+		},
+		"Alliances Of Convenience": {
+			"Diplomatic Relations": 1,
+			"Monthly Favor Growth Modifier": 0.33
+		}
+	},
+	"Tver": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Infantry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.1
+		},
+		"Heirs Of Vladimir": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Alexander Nevsky": {
+			"Shock Damage Received": -0.1,
+			"Yearly Patriarch Authority": 0.005
+		},
+		"Rivaling The Muscovites": {
+			"Innovativeness Gain": 0.5,
+			"Technology Cost": -0.1
+		},
+		"The Practice Of Apanages": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"We Remember Mikhail": {
+			"Morale of Armies": 0.1
+		},
+		"Looking West": {
+			"Opinion of Heretics": 25
+		},
+		"Clawing Beyond The Jaws Of Defeat": {
+			"Discipline": 0.05
+		}
+	},
 	"Ruthenia": {
 		"Traditions": {
 			"Heretic and Heathen provinces do not give any penalties": true,
@@ -1797,6 +2886,106 @@
 		"Bratstvo": {
 			"Technology Cost": -0.05,
 			"Institution Spread In True Faith Provinces": 0.15
+		}
+	},
+	"Galicia-Volhynia": {
+		"Traditions": {
+			"Fort Maintenance": -0.2,
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"Ambition": {
+			"Heretic and Heathen provinces do not give any penalties": true
+		},
+		"Rex Ruthenorum": {
+			"Morale of Armies": 0.1
+		},
+		"Lessons From The Hordes": {
+			"Land Leader Maneuver": 1
+		},
+		"Metropolitanate Of Halychnya": {
+			"Yearly Patriarch Authority": 0.005,
+			"Yearly Legitimacy": 1
+		},
+		"Gateway Of Europe": {
+			"Improve Relations": 0.2
+		},
+		"Uniate Church": {
+			"Idea Cost": -0.1
+		},
+		"Ukrainian Press": {
+			"Institution Spread": 0.5,
+			"Yearly Prestige": 1
+		},
+		"Brotherhoods Of The Faith": {
+			"National Manpower Modifier": 0.2
+		}
+	},
+	"Yaroslavl": {
+		"Traditions": {
+			"Annexation Relations Impact": -0.5,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"The Greatest Among The Ancient": {
+			"Yearly Prestige": 1
+		},
+		"Vladimir-Suzdal": {
+			"Development Cost": -0.1,
+			"Move Capital Cost Modifier": -0.75
+		},
+		"Subjugation By Force": {
+			"Liberty Desire in Subjects": 15,
+			"Vassal Force Limit Contribution": 1
+		},
+		"King Makers Of The Rus": {
+			"Vassalization Acceptance": 10,
+			"Diplomatic Reputation": 1
+		},
+		"The Rise Of The Grand Cities Of Vladimir": {
+			"Construction Cost": -0.1,
+			"Can Concentrate Development With No Losses": true
+		},
+		"White Monuments And Golden Icons": {
+			"Yearly Patriarch Authority": 0.005
+		},
+		"The Birth Of Muscovy": {
+			"Yearly Legitimacy": 1
+		}
+	},
+	"Zaporozhie": {
+		"Traditions": {
+			"Movement Speed": 0.1,
+			"Land Leader Maneuver": 1
+		},
+		"Ambition": {
+			"Power Projection from Insults": 1
+		},
+		"Codex Cumanicus": {
+			"National Unrest": -2,
+			"Number of accepted Cultures": 1
+		},
+		"Irregulars": {
+			"Possible Condottieri": 0.5,
+			"Razing Power Gain": 0.2
+		},
+		"Stanista": {
+			"Global Monthly Devastation": -0.1,
+			"Envoy Travel Time": 0.5
+		},
+		"Khmelnytsky Rebellion": {
+			"Morale of Armies": 0.15
+		},
+		"Bohdan Khmelnytsky": {
+			"Technology Cost": -0.1
+		},
+		"Zaporozka Sitsj": {
+			"Shock Damage Received": -0.1,
+			"Attrition for Enemies": 1
+		},
+		"Hetmansjtsjyna": {
+			"Years of Separatism": -10
 		}
 	},
 	"Ayutthaya": {
@@ -3253,7 +4442,7 @@
 		"Colloquium Generale": {
 			"All Estate's Loyalty Equilibrium": 0.1
 		},
-		"Lessons Learned": {
+		"Lessons Learne": {
 			"Shock Damage Received": -0.1
 		},
 		"Morravian Industrie": {
@@ -3798,41 +4987,6 @@
 		},
 		"Universal Conscription": {
 			"National Manpower Modifier": 0.2
-		}
-	},
-	"Teutonic Order": {
-		"Traditions": {
-			"Yearly Army Tradition": 1,
-			"Discipline": 0.05
-		},
-		"Ambition": {
-			"National Tax Modifier": 0.1
-		},
-		"Großschäffer": {
-			"Trade Steering": 0.1,
-			"Trade Efficiency": 0.1
-		},
-		"Schiffskinder": {
-			"National Manpower Modifier": 0.15,
-			"Marines Force Limit": 0.1
-		},
-		"Preußischer Landtag": {
-			"Provincial Trade Power Modifier": 0.15
-		},
-		"Eastern Crusade": {
-			"Missionary Strength": 0.02,
-			"Church Power": 0.05,
-			"Monthly Fervor": 0.3,
-			"Yearly Papal Influence": 1
-		},
-		"Knights Of The Empire": {
-			"Mercenary Cost": -0.15
-		},
-		"Magister Germaniae": {
-			"Military Free Policies": 1
-		},
-		"Prussian Junkers": {
-			"Leaders Without Upkeep": 1
 		}
 	},
 	"Thuringia": {
@@ -5958,7 +7112,7 @@
 			"Idea Cost": -0.1
 		},
 		"Virabanajigas And Paradesi": {
-			"Global Trade Power": 0.15,
+			"Domestic Trade Power": 0.15,
 			"Goods Produced Modifier": 0.1
 		},
 		"Vijayanagara And Hampi": {
@@ -6660,7 +7814,7 @@
 		},
 		"Fanti Di Mar": {
 			"Shock Damage": 0.1,
-			"Marines Force Limit": 0.33
+			"Marines Force Limit": 0.25
 		},
 		"Aldina": {
 			"Institution Spread": 0.15
@@ -7312,16 +8466,14 @@
 	},
 	"Persia": {
 		"Traditions": {
-			"Fort Defense": 0.15,
-			"Cavalry Shock": 1
+			"Own Territory Dice Roll Bonus": 1,
+			"Morale of Armies": 0.1
 		},
 		"Ambition": {
 			"Development Cost": -0.1
 		},
 		"The Qizilbash": {
-			"Morale of Armies": 0.1,
-			"Manpower in True Faith Provinces": 0.25,
-			"Qizilbash Max Privileges": 1
+			"Manpower in True Faith Provinces": 0.25
 		},
 		"Caravanserais": {
 			"Provincial Trade Power Modifier": 0.15
@@ -7334,12 +8486,11 @@
 			"Goods Produced Modifier": 0.1
 		},
 		"The Jazayer": {
-			"Land Fire Damage": 0.1,
-			"Ghilman Max Privileges": 1
+			"Land Fire Damage": 0.1
 		},
 		"Savaran-E Sepah-E Khorasan": {
-			"Cavalry Flanking Ability": 0.5,
-			"Cavalry to Infantry Ratio": 0.2
+			"Cavalry Combat Ability": 0.25,
+			"Cavalry Flanking Ability": 0.5
 		},
 		"Jazayerchi": {
 			"Discipline": 0.05,
