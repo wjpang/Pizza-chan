@@ -72,6 +72,11 @@ class Events(commands.Cog):
         self.emoji_to_role = {
             disnake.PartialEmoji(name="thonk", id=998954157748801548): 914106554876309544,  # ID of the role associated with a partial emoji's ID
         }
+        self.kislev_message = [
+            "Kislev?",
+            "Kislev.",
+            "For the Tsarina.",
+        ]
 
     async def create_welcome_image(self, member):
         def yeet(
@@ -293,6 +298,8 @@ class Events(commands.Cog):
             await message.channel.send("/o/")
         elif content in {"o/", "\\o", "o7"}:
             await message.channel.send("Salutations o7")
+        elif 'kislev' in content.lower():
+            await message.channel.send(random.choice(self.kislev_message))
 
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload):
@@ -367,15 +374,22 @@ class Events(commands.Cog):
     @commands.Cog.listener()
     async def on_raw_message_delete(self, payload):
         """Message delete event"""
-        if payload.guild_id != EMF_SERVER_ID:
+        if payload.guild_id != EMF_SERVER_ID or payload.cached_message is None:
             return
+
         message = payload.cached_message
         url = message.author.avatar.url if message.author.avatar is not None else message.author.default_avatar.url
+
+        # Get the first audit log entry (latest message deletion)
+        guild = self.bot.get_guild(payload.guild_id)
+        async for entry in guild.audit_logs(limit=1, action=disnake.AuditLogAction.message_delete):
+            user_who_deleted = entry.user
+
         # Text
         await self.bot.get_channel(ACTION_LOG_CHANNEL_ID).send(
             embed=(
                 disnake.Embed(
-                    description=f"**Message sent by {message.author.mention} deleted in {self.bot.get_channel(payload.channel_id).mention}**\n{message.content}",
+                    description=f"**Message sent by {message.author.mention} deleted by {user_who_deleted} in {self.bot.get_channel(payload.channel_id).mention}**\n{message.content}",
                     color=0xFF470F,
                     timestamp=datetime.datetime.now(),
                 )
