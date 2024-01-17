@@ -199,10 +199,10 @@ class COMMANDS(commands.Cog):
     @commands.slash_command(description="EMF modlist that nobody seems to know")
     async def notemf(self, inter):
         await inter.send(
-            "EMF only includes these mods:",
+            "EMF only includes these mods:\nAny other Expanded mod that is not on the list is not part of the EMF",
             file=disnake.File(r"./data/images/EMF-mods.png"),
         )
-        await inter.followup.send("Any other Expanded mod that is not on the list above is not part of the EMF")
+        # await inter.followup.send("Any other Expanded mod that is not on the list above is not part of the EMF")
 
 
 def setup(bot):

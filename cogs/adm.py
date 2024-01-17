@@ -35,17 +35,29 @@ class ADM(commands.Cog):
 
     @adm.command(pass_context=True)
     async def players(self, ctx):
-        guild = self.bot.get_guild(EMF_SERVER_ID)
+        user_count = 0
+        guild = ctx.guild
         player_role = disnake.utils.get(guild.roles, name="Player")
+
+        if not player_role:
+            await ctx.send("The 'Player' role was not found.")
+            return
+
         channel = guild.get_channel(REACT_CHANNEL_ID)
         message = await channel.fetch_message(REACT_MESSAGE_ID)
+
         for reaction in message.reactions:
             if reaction.emoji.name != "thonk":
                 continue
+
             async for user in reaction.users():
                 if not isinstance(user, disnake.User) and player_role not in user.roles:
-                    await self.bot.get_channel(BOTCAVE_CHANNEL_ID).send(f"User {user} reacted but did not receive the role")
+                    await ctx.send(f"{user.mention} reacted but did not have the 'Player' role. Adding the role now.")
                     await user.add_roles(player_role)
+                    user_count += 1
+
+        if not user_count:
+            await ctx.send("Every user already had the 'Player' role.")
 
     @adm.command(pass_context=True)
     async def leave(self, ctx, *, guild_name):
