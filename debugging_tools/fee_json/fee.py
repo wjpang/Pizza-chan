@@ -4,7 +4,6 @@ import json
 import os
 import re
 import time
-from os.path import basename
 
 # all definitions
 MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2185445645"

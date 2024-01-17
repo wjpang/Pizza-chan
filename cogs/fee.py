@@ -48,6 +48,13 @@ def accessory(event):
     return next((key for key, value in event_dict.items() if event in value), event)
 
 
+def country_filter(country, tags):
+    """Filter for country names of length 3"""
+    if country in {"Sus", "Chu", "Zia", "Lau", "Han", "Sui", "Wei", "Xia", "Rûm"} or len(country) != 3:
+        return country
+    return tags[country.upper()]
+
+
 color_map = {
     "Province": "\u001B[0;33m",  # Red
     "Starting Tier": "\u001B[0;33m",  # Green
@@ -158,11 +165,20 @@ class FEE(commands.Cog):
 
         with open("./data/FEE.json", "r", encoding="utf-8") as f:
             fee_data = json.load(f)
+        with open("data/tags/tags.json", "r", encoding="utf-8") as f:
+            tags = json.load(f)
         event_list = sorted([key.title() for key in fee_data])
 
         event_nation_lst = event_in.split(",")
         for event_nation in event_nation_lst:
             event_nation = event_nation.strip().title()
+            if len(event_nation) == 3:
+                # Get country name and tag
+                try:
+                    event_nation = country_filter(event_nation.title(), tags)
+                except Exception:
+                    await inter.send(f"Is {event_nation} Bielefeld? Pizza-chan is sure it doesn't exist. Report to Vielor or Melvasul otherwise.")
+                    continue
             if event_nation in event_list:
                 try:
                     message = f"```ansi\n\u001B[0;33m{event_nation} events\u001B[0;0m:\n---------\n"

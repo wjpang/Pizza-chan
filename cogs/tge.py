@@ -41,7 +41,7 @@ class TGE(commands.Cog):
                 )
                 continue
             try:
-                message = f"Price: {tge_goods[good]['Price']}\n" f"Trade leader bonus: {tge_goods[good]['Trade leader bonus']}\nProvince bonus: {tge_goods[good]['Province bonus']}"
+                message = f"Price: {tge_goods[good]['Price']}\n\n" f"Province bonus:\n{tge_goods[good]['Province bonus']}\n\nTrade leader bonus:\n{tge_goods[good]['Trade leader bonus']}"
                 root = "./data/tge_images/"
                 if len(good.split()) > 1:
                     picture = f"{root}{'_'.join(good.lower().split())}.png"
@@ -49,7 +49,7 @@ class TGE(commands.Cog):
                     picture = f"{root}{good.lower()}.png"
                 tge_good_embed = embed_maker.EmbedMaker("More info here", "https://eu4.paradoxwikis.com/Trade_Goods_Expanded/", message, 0xD50000, good, picture)
                 await inter.send(embed=tge_good_embed.embed)
-            except IndexError:
+            except (IndexError, KeyError):
                 await inter.send("No such good exists!")
 
     @tge.sub_command(description="Gives back a list of all TGE trade goods")
