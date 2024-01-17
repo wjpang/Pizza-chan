@@ -39,11 +39,11 @@ with open(provinces, "r", encoding="utf-8") as file:
 
 def start():
 
-    # ideas()
+    ideas()
 
     monuments()
 
-    # reforms()
+    reforms()
 
 
 def ideas():
@@ -274,7 +274,7 @@ def recursive_process_monument_dict(dictionary, loc_names, loc_datas, loc_provin
 def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
     """Final parser"""
     for key, value in list(dictionary.items()):
-        if key in {"icon", "legacy_equivalent", "allow_normal_conversion", "valid_for_nation_designer", "nation_designer_trigger", "nation_designer_cost", "ai", "hidden_effect", "effect", "removed_effect"}:  # noqa
+        if key in {"icon", "legacy_equivalent", "allow_normal_conversion", "valid_for_nation_designer", "nation_designer_trigger", "nation_designer_cost", "ai", "hidden_effect", "effect", "removed_effect", "assimilation_cultures"}:  # noqa
             del dictionary[key]
         else:
             key_localisation_check = [
@@ -328,10 +328,16 @@ def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
                     continue
                 elif isinstance(value, list):
                     for i, values in enumerate(value):
-                        localized_data = loc_datas.get(values) or values.replace('_', ' ').title()
+                        if key.replace('_', ' ').title() == "Has Dlc":
+                            localized_data = loc_datas.get(values+'DLC')
+                        else:
+                            localized_data = loc_datas.get(values) or values.replace('_', ' ').title()
                         dictionary[new_key][i] = localized_data
                 else:
-                    localized_data = loc_datas.get(value) or value.replace('_', ' ').title()
+                    if key.replace('_', ' ').title() == "Has Dlc":
+                        localized_data = loc_datas.get(value+'DLC')
+                    else:
+                        localized_data = loc_datas.get(value) or value.replace('_', ' ').title()
                     dictionary[new_key] = localized_data
             if isinstance(value, dict):
                 if key == "custom_trigger_tooltip":
