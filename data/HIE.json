@@ -787,7 +787,7 @@
 		},
 		"Slovak Urbanization": {
 			"Burghers Loyalty Equilibrium": 0.1,
-			"null": 1
+			"Burghers Max Privileges": 1
 		}
 	},
 	"Transylvania": {
@@ -1090,7 +1090,7 @@
 			"Prestige per Development from Missionary": 0.1
 		},
 		"Enterports Of The Hansa": {
-			"null": 1,
+			"Burghers Max Privileges": 1,
 			"Trade Efficiency": 0.1
 		},
 		"The Legions Of God": {
@@ -2093,7 +2093,7 @@
 		},
 		"Loyalty Of The Cossacks": {
 			"Cossack Loyalty Equilibrium": 0.1,
-			"null": 0.25
+			"Cossack Force Limit Fraction": 0.25
 		},
 		"Rise Up Ruthenia!": {
 			"Morale of Armies": 0.1
