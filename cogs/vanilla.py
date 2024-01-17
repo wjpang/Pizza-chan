@@ -300,7 +300,6 @@ class VANILLA(commands.Cog):
         government_lst = sorted(vanilla_data.keys())
 
         reform_list = reform_in.split(",")
-        print(reform_list)
 
         for reform in reform_list:
             found = 0
@@ -439,10 +438,12 @@ def build_message(data, indent=0, stuff_to_color=None):
             message += "\t" * indent + f"\u001B[0;33m{stats}\u001B[0;0m:\n"
             message += build_message(vals, indent + 1, stuff_to_color)
         elif isinstance(vals, list):
+            message += "\t" * indent + f"\u001B[0;33m{stats.title()}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m\n"
+            continue
             if len(vals) == 0:
-                message += "\t" * indent + f"\u001B[0;33m{stats.title()}\u001B[0;0m:\n"
                 continue
             for item in vals:
+                print(type(item), item)
                 if isinstance(item, dict):
                     message += "\t" * indent + f"{stats}:\n".title()
                     message += build_message(item, indent + 1, stuff_to_color)
