@@ -4329,7 +4329,7 @@
 			},
 			"Area Modifier": {
 				"Local Construction Cost": -0.05,
-				"Local Build Cost": -0.05
+				"Local Construction Time": -0.05
 			},
 			"Country Modifiers": []
 		},
@@ -4339,7 +4339,7 @@
 			},
 			"Area Modifier": {
 				"Local Construction Cost": -0.1,
-				"Local Build Cost": -0.1
+				"Local Construction Time": -0.1
 			},
 			"Country Modifiers": {
 				"Artillery Cost": -0.1
@@ -4351,7 +4351,7 @@
 			},
 			"Area Modifier": {
 				"Local Construction Cost": -0.2,
-				"Local Build Cost": -0.2
+				"Local Construction Time": -0.2
 			},
 			"Country Modifiers": {
 				"Artillery Cost": -0.2

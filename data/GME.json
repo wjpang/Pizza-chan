@@ -5205,7 +5205,7 @@
 				"Province Modifiers": {
 					"Institution Growth": "4",
 					"Local Construction Cost": -0.1,
-					"Local Build Cost": -0.1,
+					"Local Construction Time": -0.1,
 					"Local Unrest": "-1"
 				},
 				"Area Modifier": [],
@@ -5219,7 +5219,7 @@
 				"Province Modifiers": {
 					"Institution Growth": "8",
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15,
+					"Local Construction Time": -0.15,
 					"Local Unrest": "-2"
 				},
 				"Area Modifier": {
@@ -5237,7 +5237,7 @@
 				"Province Modifiers": {
 					"Institution Growth": "12",
 					"Local Construction Cost": -0.2,
-					"Local Build Cost": -0.2,
+					"Local Construction Time": -0.2,
 					"Local Unrest": "-1"
 				},
 				"Area Modifier": {
@@ -5451,7 +5451,7 @@
 			"Tier 1": {
 				"Province Modifiers": {
 					"Local Construction Cost": -0.1,
-					"Local Build Cost": -0.1,
+					"Local Construction Time": -0.1,
 					"Local Unrest": "-1",
 					"Institution Growth": "4"
 				},
@@ -5469,7 +5469,7 @@
 				"Province Modifiers": {
 					"Institution Growth": "8",
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15,
+					"Local Construction Time": -0.15,
 					"Local Unrest": "-2"
 				},
 				"Area Modifier": {
@@ -5489,7 +5489,7 @@
 				"Province Modifiers": {
 					"Institution Growth": "12",
 					"Local Construction Cost": -0.2,
-					"Local Build Cost": -0.2,
+					"Local Construction Time": -0.2,
 					"Local Unrest": "-1"
 				},
 				"Area Modifier": {
@@ -5703,7 +5703,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15
+					"Local Construction Time": -0.15
 				},
 				"Region Modifier": {
 					"Local Development Cost": -0.25,
@@ -6062,7 +6062,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15,
+					"Local Construction Time": -0.15,
 					"Local Development Cost": -0.15,
 					"Local Goods Produced": 0.25,
 					"Local Institution Spread": 0.25
@@ -7029,7 +7029,7 @@
 				"Area Modifier": {
 					"Local Institution Spread": 0.125,
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15
+					"Local Construction Time": -0.15
 				},
 				"Region Modifier": [],
 				"Country Modifiers": {
@@ -7058,7 +7058,7 @@
 				"Area Modifier": {
 					"Local Institution Spread": 0.25,
 					"Local Construction Cost": -0.2,
-					"Local Build Cost": -0.2
+					"Local Construction Time": -0.2
 				},
 				"Region Modifier": [],
 				"Country Modifiers": {
@@ -7088,7 +7088,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.25,
-					"Local Build Cost": -0.25,
+					"Local Construction Time": -0.25,
 					"Local Institution Spread": 0.33
 				},
 				"Region Modifier": [],
@@ -7556,7 +7556,7 @@
 				"Province Modifiers": {
 					"Local Development Cost": -0.1,
 					"Local Construction Cost": -0.1,
-					"Local Build Cost": -0.1
+					"Local Construction Time": -0.1
 				},
 				"Area Modifier": [],
 				"Region Modifier": [],
@@ -7566,7 +7566,7 @@
 				"Province Modifiers": {
 					"Local Development Cost": -0.15,
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15
+					"Local Construction Time": -0.15
 				},
 				"Area Modifier": {
 					"Local Institution Spread": 0.15
@@ -7580,7 +7580,7 @@
 				"Province Modifiers": {
 					"Local Development Cost": -0.2,
 					"Local Construction Cost": -0.2,
-					"Local Build Cost": -0.2
+					"Local Construction Time": -0.2
 				},
 				"Area Modifier": {
 					"Local Institution Spread": 0.15
@@ -8017,7 +8017,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.15,
-					"Local Build Cost": -0.15
+					"Local Construction Time": -0.15
 				},
 				"Region Modifier": [],
 				"Country Modifiers": {
@@ -8030,7 +8030,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.2,
-					"Local Build Cost": -0.2
+					"Local Construction Time": -0.2
 				},
 				"Region Modifier": [],
 				"Country Modifiers": {
@@ -8044,7 +8044,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.25,
-					"Local Build Cost": -0.25
+					"Local Construction Time": -0.25
 				},
 				"Region Modifier": [],
 				"Country Modifiers": {
@@ -8174,7 +8174,7 @@
 				},
 				"Area Modifier": {
 					"Local Construction Cost": -0.1,
-					"Local Build Cost": -0.1,
+					"Local Construction Time": -0.1,
 					"Local Production Efficiency": 0.25
 				},
 				"Region Modifier": [],
@@ -8194,7 +8194,7 @@
 				},
 				"Region Modifier": {
 					"Local Construction Cost": -0.1,
-					"Local Build Cost": -0.1
+					"Local Construction Time": -0.1
 				},
 				"Country Modifiers": {
 					"Yearly Inflation Reduction": 0.15,

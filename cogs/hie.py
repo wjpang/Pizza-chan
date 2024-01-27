@@ -57,6 +57,18 @@ def hie_special(country):
             "Colonial",
             ["-British", "-Dutch", "-Latin", "-Portuguese", "-Spanish"],
         )
+    if country in {"SPA", "Spain"}:
+        return (
+            "SPA",
+            "Spain",
+            ["-Andalucian", "-Aragonese", "-Basque", "-Castilian", "-Catalan", "-Galician", "-Leonese", "-Portuguese"],
+        )
+    if country in {"ITA", "Italy"}:
+        return (
+            "ITA",
+            "Italy",
+            ["-Sardinian", "-Lombard", "-Dynastic", "-Maritime", "-Republican", "-Sicilian", "-Crusader"],
+        )
     return False
 
 
@@ -68,7 +80,14 @@ def ideas_message(mod, nation, data):
             message += f"\n\u001B[0;33m{key.title()}\u001B[0;0m: "
             message += "{ "
             for k, v in values.items():
-                message += f"{k.title()}: \u001B[0;34m{v}\u001B[0;0m, "
+                if isinstance(v, dict):
+                    message += "} "
+                    message += f"\u001B[0;33m{k.title()}\u001B[0;0m: "
+                    message += "{ "
+                    for k_sub, v_sub in v.items():
+                        message += f"{k_sub.title()}: \u001B[0;34m{v_sub}\u001B[0;0m, "
+                else:
+                    message += f"{k.title()}: \u001B[0;34m{v}\u001B[0;0m, "
             message += "}"
         else:
             message += f"{key.title()}: \u001B[0;34m{values}\u001B[0;0m\n"
@@ -144,9 +163,9 @@ def country_filter(country, tags):
 def shared_ideas(country):
     """Filter for countries with shared ideas"""
     msg = " shares HIE ideas with "
-    if country in {"FLORENCE", "LAN"}:
-        return "TUS", f"Florence{msg}Tuscany"
-    elif country in {"CUSCO", "CSU"}:
+    # if country in {"FLORENCE", "LAN"}:
+    #.    return "TUS", f"Florence{msg}Tuscany"
+    if country in {"CUSCO", "CSU"}:
         return ("INC", f"Cusco{msg}Inca")
     else:
         return False
@@ -170,7 +189,7 @@ class HIE(commands.Cog):
             "The Best Ideas!",
             0xD5000,
             "Made by Melvasul and co.",
-            "https://steamuserimages-a.akamaihd.net/ugc/1811020692174253502/E725A7D56284A2032F65453842F507B377F5D693/",
+            "https://steamuserimages-a.akamaihd.net/ugc/2296337442832342759/45EEB796AF4CF45A9D7AF0F7A62F4E034115EB7F/",
         )
         await inter.send(embed=hie_embed.embed)
 

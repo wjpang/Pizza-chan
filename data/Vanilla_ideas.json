@@ -27,8 +27,7 @@
 		},
 		"Leif'S Legacy": {
 			"Allows recruitment of explorers & conquistadors": true,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Ancestral Faith": {
 			"Tolerance of the True Faith": 2
@@ -323,12 +322,11 @@
 			"Trade Steering": 0.2
 		},
 		"The Call Of Our Forefathers": {
-			"Fleet Exploration Range": 0.33,
+			"Colonial Range": 0.33,
 			"Allows recruitment of explorers & conquistadors": true
 		},
 		"Pioneer Spirit": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Natural Seamanship": {
 			"Morale of Navies": 0.2
@@ -415,8 +413,7 @@
 			"Attrition for Enemies": 1
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"The Althingi": {
 			"National Unrest": -1,
@@ -595,8 +592,7 @@
 		},
 		"Inter Caetera": {
 			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"School Of Salamanca": {
 			"Institution Spread": 0.1,
@@ -618,7 +614,7 @@
 			"Estate Loyalty Change on Privilege revoked": 0.05
 		}
 	},
-	"Castille": {
+	"Castile": {
 		"Traditions": {
 			"Morale of Armies": 0.15,
 			"Naval Force Limit Modifier": 0.25
@@ -638,8 +634,7 @@
 		},
 		"Inter Caetera": {
 			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Infantas": {
 			"Diplomatic Reputation": 1,
@@ -721,36 +716,38 @@
 			"Garrison Army Damage": 0.5
 		}
 	},
-	"Latgalia": {
+	"Revolutionary France": {
 		"Traditions": {
-			"Manpower Recovery Speed": 0.15,
-			"National Unrest": -1
+			"Maximum Revolutionary Zeal": 5,
+			"Harsh Treatment Cost": -0.5
 		},
 		"Ambition": {
-			"Fire Damage Received": -0.1
+			"Siege Ability": 0.15
 		},
-		"Daugava River Trade": {
-			"Trade Efficiency": 0.1
+		"Equality Before The Law": {
+			"Years of Separatism": -10
 		},
-		"Diplomatic Overtures": {
-			"Improve Relations": 0.3
+		"Elan!": {
+			"Morale of Armies": 0.15,
+			"Morale Damage": 0.05
 		},
-		"Religious Flexibility": {
-			"Maximum Tolerance of Heretics": 2
+		"Franc Germinal": {
+			"Production Efficiency": 0.15,
+			"Yearly Inflation Reduction": 0.05
 		},
-		"Latvian People": {
-			"Number of accepted Cultures": 1,
-			"Promote Culture Cost": -0.25
+		"Liberté Égalité Fraternité": {
+			"Tolerance of Heretics": 1,
+			"Tolerance of Heathens": 1
 		},
-		"Modernize Livonian Castles": {
-			"Fort Defense": 0.2
+		"Jourdan Law": {
+			"Manpower Recovery Speed": 0.2
 		},
-		"Daina": {
-			"Prestige Decay": -0.01
+		"Napoleonic Tactics": {
+			"Military Tactics": 0.1,
+			"Army Drill Gain Modifier": 0.5
 		},
-		"Reduction Of Noble Lands": {
-			"Monthly Autonomy Change": -0.05,
-			"Nobles Influence": -0.1
+		"European Ambitions": {
+			"Core-Creation Cost": -0.2
 		}
 	},
 	"Ottomans": {
@@ -1266,7 +1263,7 @@
 		},
 		"Legacy Of The Navigator": {
 			"Morale of Navies": 0.1,
-			"Fleet Exploration Range": 0.2
+			"Colonial Range": 0.2
 		},
 		"Afonsine Ordinance": {
 			"Goods Produced Modifier": 0.1
@@ -1644,6 +1641,102 @@
 			"Yearly Corruption": -0.1
 		}
 	},
+	"Burgundy": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Diplomatic Relations": 1
+		},
+		"Ambition": {
+			"Goods Produced Modifier": 0.15
+		},
+		"The Order Of The Golden Fleece": {
+			"Yearly Prestige": 1
+		},
+		"The Compagnies D'Ordonnance": {
+			"Mercenary Maintenance": -0.15
+		},
+		"Promote The Estates General": {
+			"Mercenary Manpower": 0.5
+		},
+		"Reform Of The Feudal Army": {
+			"Discipline": 0.05
+		},
+		"Integrate The Towns In The Estates General": {
+			"Trade Efficiency": 0.1
+		},
+		"Allow Freedom Of Worship": {
+			"Tolerance of Heretics": 2
+		},
+		"Create The Regimental System": {
+			"National Manpower Modifier": 0.25
+		}
+	},
+	"Genoa": {
+		"Traditions": {
+			"Trade Efficiency": 0.1,
+			"Interest Per Annum": -0.5
+		},
+		"Ambition": {
+			"Naval Maintenance Modifier": -0.2
+		},
+		"Reuniting The Nation": {
+			"Stability Cost Modifier": -0.1,
+			"Cost to Justify Trade Conflict": -0.1
+		},
+		"The Lessons Of Chioggia": {
+			"Morale of Navies": 0.2
+		},
+		"Rebuilding Genoese Trade": {
+			"Trade Power Abroad": 0.1,
+			"National Sailors Modifier": 0.2
+		},
+		"Build The Genoese Arsenal": {
+			"Galley Cost": -0.33
+		},
+		"Overhaul The Bureaucracy": {
+			"National Tax Modifier": 0.1
+		},
+		"Setup The Office Of Grand Admiral ": {
+			"Naval Force Limit Modifier": 0.25
+		},
+		"Standardization Of Designs": {
+			"Shipbuilding Time": -0.1
+		}
+	},
+	"Scotland": {
+		"Traditions": {
+			"Land Leader Shock": 1,
+			"Land Force Limit Modifier": 0.25
+		},
+		"Ambition": {
+			"Land Maintenance Modifier": -0.05
+		},
+		"Break The Black Douglas": {
+			"National Unrest": -1
+		},
+		"Modernize The Royal Scots Navy": {
+			"Ship Costs": -0.1
+		},
+		"Rein In The Clans": {
+			"National Manpower Modifier": 0.2
+		},
+		"Comets?": {
+			"Stability Cost Modifier": -0.1
+		},
+		"Tighten Up Royal Revenue": {
+			"National Tax Modifier": 0.1
+		},
+		"Basilikon Doron": {
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"Yearly Republican Tradition": 0.3,
+			"Yearly Meritocracy": 1,
+			"Yearly Horde Unity": 1
+		},
+		"Pass The Act Of Revocation": {
+			"Aggressive Expansion Impact": -0.15
+		}
+	},
 	"Hungary": {
 		"Traditions": {
 			"Cavalry Combat Ability": 0.2,
@@ -1705,6 +1798,37 @@
 		},
 		"Great Power Diplomacy": {
 			"Aggressive Expansion Impact": -0.15
+		}
+	},
+	"Mamluks Improved": {
+		"Traditions": {
+			"Trade Steering": 0.25,
+			"Cavalry Combat Ability": 0.1
+		},
+		"Ambition": {
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"Red Sea Trade": {
+			"Global Trade Power": 0.05,
+			"Trade Range": 0.1
+		},
+		"Monopoly Ports": {
+			"Trade Efficiency": 0.2
+		},
+		"Monuments To Our Greatness": {
+			"Yearly Prestige": 1
+		},
+		"Purchase New Mamluks": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Reform Of The Army ": {
+			"Discipline": 0.05
+		},
+		"Reform The Fellah System": {
+			"Production Efficiency": 0.1
+		},
+		"Reform Of The Succession": {
+			"Stability Cost Modifier": -0.15
 		}
 	},
 	"Mamluks": {
@@ -2876,8 +3000,7 @@
 			"National Unrest": -2
 		},
 		"Manifest Destiny": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Lessons Of Valley Forge": {
 			"Morale of Armies": 0.1
@@ -3408,7 +3531,7 @@
 			"Shipbuilding Time": -0.1
 		},
 		"Couronian Colonization": {
-			"Fleet Exploration Range": 0.15,
+			"Colonial Range": 0.15,
 			"Naval Force Limit Modifier": 0.25
 		},
 		"Palaces Of Mitau": {
@@ -4882,7 +5005,7 @@
 			"All Estate's Loyalty Equilibrium": 0.1
 		},
 		"Livonian Colonization": {
-			"Fleet Exploration Range": 0.25,
+			"Colonial Range": 0.25,
 			"Global Settler Increase": 10
 		},
 		"Naval Professionalism": {
@@ -5578,8 +5701,7 @@
 			"Merchants": 1
 		},
 		"Settling The Interior": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"The Maritimes": {
 			"Yearly Navy Tradition": 1
@@ -5866,8 +5988,7 @@
 			"Attrition for Enemies": 1
 		},
 		"Carib Seafarers": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Religious Syncretism": {
 			"Tolerance of Heathens": 2
@@ -6743,8 +6864,7 @@
 			"National Unrest": -1
 		},
 		"Conquest Of The New World": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"School Of Salamanca": {
 			"Idea Cost": -0.1
@@ -6814,8 +6934,7 @@
 			"Fort Defense": 0.1
 		},
 		"To The East!": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Open Up The River Trade": {
 			"Trade Efficiency": 0.1
@@ -10135,8 +10254,7 @@
 			"Trade Power Abroad": 0.1
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Death Has Come": {
 			"Attrition for Enemies": 1
@@ -11665,6 +11783,38 @@
 			"Discipline": 0.05
 		}
 	},
+	"Latgalia": {
+		"Traditions": {
+			"Manpower Recovery Speed": 0.15,
+			"National Unrest": -1
+		},
+		"Ambition": {
+			"Fire Damage Received": -0.1
+		},
+		"Daugava River Trade": {
+			"Trade Efficiency": 0.1
+		},
+		"Diplomatic Overtures": {
+			"Improve Relations": 0.3
+		},
+		"Religious Flexibility": {
+			"Maximum Tolerance of Heretics": 2
+		},
+		"Latvian People": {
+			"Number of accepted Cultures": 1,
+			"Promote Culture Cost": -0.25
+		},
+		"Modernize Livonian Castles": {
+			"Fort Defense": 0.2
+		},
+		"Daina": {
+			"Prestige Decay": -0.01
+		},
+		"Reduction Of Noble Lands": {
+			"Monthly Autonomy Change": -0.05,
+			"Nobles Influence": -0.1
+		}
+	},
 	"Crimea": {
 		"Traditions": {
 			"Aggressive Expansion Impact": -0.1,
@@ -11899,8 +12049,7 @@
 			"Development Cost": -0.15
 		},
 		"Outback Stations": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"The Land Down Under": {
 			"Land Attrition": -0.1,
@@ -11930,8 +12079,7 @@
 			"Global Trade Power": 0.1
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Maori Seats": {
 			"Heretic and Heathen provinces do not give any penalties": true,
@@ -12028,8 +12176,7 @@
 			"Development Cost": -0.1
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Plantation Economy": {
 			"Production Efficiency": 0.1,
@@ -12139,8 +12286,7 @@
 			"Diplomats": 1
 		},
 		"Voyage To The New World": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Millenarian Revival": {
 			"Missionary Strength": 0.02
@@ -12178,8 +12324,7 @@
 			"Core-Creation Cost": -0.15
 		},
 		"Expeditionary Sentiment": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Al Awasim": {
 			"Fort Defense": 0.1,
@@ -12372,7 +12517,7 @@
 			"National Tax Modifier": 0.1
 		},
 		"Descendants Of Seafarers": {
-			"Fleet Exploration Range": 0.2
+			"Colonial Range": 0.2
 		},
 		"Viking Raids": {
 			"Privateer Efficiency": 0.15
@@ -13001,8 +13146,7 @@
 			"Trade Efficiency": 0.1
 		},
 		"Nusa Tenggara Colonies": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Gajah Mada'S Oath": {
 			"Morale of Armies": 0.1
@@ -13594,7 +13738,7 @@
 		},
 		"Kilwan Latitude Staves": {
 			"Trade Range": 0.25,
-			"Fleet Exploration Range": 0.2
+			"Colonial Range": 0.2
 		},
 		"Shirazi'S Legacy": {
 			"Yearly Legitimacy": 1,

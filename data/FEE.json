@@ -38473,7 +38473,7 @@
 					"Add Base Production": 1,
 					"Jew Ghetto Of Venice": {
 						"Local Goods Produced": 0.15,
-						"Local Build Cost": -0.1,
+						"Local Construction Time": -0.1,
 						"Expires": "Never"
 					}
 				}
@@ -38506,7 +38506,7 @@
 					"Remove Province Modifier": "Jew Ghetto Of Venice",
 					"Ghetto Novo Of Venice": {
 						"Local Goods Produced": 0.25,
-						"Local Build Cost": -0.15,
+						"Local Construction Time": -0.15,
 						"Expires": "Never"
 					}
 				},
@@ -38974,7 +38974,7 @@
 						"Local Development Cost": -0.1,
 						"Local Tax Modifier": 0.1,
 						"Local Construction Cost": -0.1,
-						"Local Build Cost": -0.1,
+						"Local Construction Time": -0.1,
 						"Expires": "3650 Days"
 					}
 				}

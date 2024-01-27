@@ -154,7 +154,7 @@
 		"Fighting The Roman Military Art": {
 			"Infantry Combat Ability": 0.1
 		},
-		"Ascension Cathedral ": {
+		"Ascension Cathedral": {
 			"Yearly Patriarch Authority": 0.005,
 			"Yearly Prestige": 0.5
 		},
@@ -679,7 +679,10 @@
 			"Global Ship Trade Power": 0.15
 		},
 		"Abolition Of Slavery": {
-			"National Unrest": -2
+			"National Unrest": -2,
+			"Effect": {
+				"This will result in the Abolition of Slavery": true
+			}
 		},
 		"The Door To Balkans And Orient": {
 			"Goods Produced Modifier": 0.1
@@ -806,7 +809,7 @@
 		},
 		"The Little War": {
 			"Yearly Army Tradition": 0.5,
-			"Monthly War Exhaustion": -0.1
+			"Monthly War Exhaustion": -0.025
 		},
 		"Részek": {
 			"Core-Creation Cost": -0.15
@@ -984,7 +987,7 @@
 		},
 		"Remnants Of The Hanseatic Network": {
 			"Global Trade Power": 0.15,
-			"Fleet Exploration Range": 0.15
+			"Colonial Range": 0.15
 		},
 		"The Grand Navy": {
 			"Heavy Ship Combat Ability": 0.1,
@@ -1200,7 +1203,7 @@
 		},
 		"Atlantic Port Of Ireland": {
 			"Global Trade Power": 0.1,
-			"Fleet Exploration Range": 0.25
+			"Colonial Range": 0.25
 		},
 		"Elevation To Earl": {
 			"Diplomatic Reputation": 1
@@ -1316,7 +1319,7 @@
 			"Morale of Navies": 0.15
 		},
 		"The Navigation Acts": {
-			"Provincial Trade Power Modifier": 0.2
+			"Trade Efficiency": 0.1
 		},
 		"The Triangle Trade": {
 			"Global Settler Increase": 20,
@@ -1336,7 +1339,9 @@
 		},
 		"Redcoats!": {
 			"Marines Force Limit": 0.25,
-			"Army Professionalism gained from recruiting Admirals": "0.5%"
+			"Effect": {
+				"Army Professionalism gained from recruiting Admirals": 0.5
+			}
 		},
 		"Domestic Revolution": {
 			"Goods Produced Modifier": 0.15
@@ -1357,9 +1362,8 @@
 			"Liberty Desire in Subjects": 15
 		},
 		"St. Brendan And Ily Brasil": {
-			"Fleet Exploration Range": 0.25,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonial Range": 0.25,
+			"Colonists": 1
 		},
 		"More Than Irish": {
 			"National Unrest": -2
@@ -1947,7 +1951,7 @@
 		"Sons Of The Grand Republic": {
 			"Global Trade Power": 0.15
 		},
-		"Yuri Dolgorukiy’S Legacy": {
+		"Yuri Dolgorukiy'S Legacy": {
 			"All Estates Influence Modifier": -0.1,
 			"Yearly Corruption": -0.2
 		},
@@ -2579,7 +2583,9 @@
 		},
 		"Urbanizing The Uralic Tundra": {
 			"Construction Cost": -0.1,
-			"Development Cost in Arctic Provinces": "-0.30"
+			"Effect": {
+				"Arctic Provinces's Developmetn Cost": -0.3
+			}
 		}
 	},
 	"Pskov": {
@@ -3027,8 +3033,7 @@
 			"Yearly Navy Tradition": 1
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"A Thalassocratic Mandala": {
 			"Liberty Desire from Subjects Development": -0.33,
@@ -3242,7 +3247,6 @@
 			"Discipline": 0.05
 		},
 		"Les Six Grands Vieux": {
-			"Infantry Combat Ability": 0.1,
 			"Yearly Army Tradition Decay": -0.01
 		},
 		"L'Ordonnance De Villers-Cotterêts": {
@@ -3283,8 +3287,7 @@
 		},
 		"Beyond Our Shores": {
 			"Colonists": 1,
-			"Fleet Exploration Range": 0.25,
-			"Remove Temporary Colonist": true
+			"Colonial Range": 0.25
 		},
 		"Cooperative Trade Deals": {
 			"Trade Efficiency": 0.1
@@ -3589,8 +3592,7 @@
 			"Yearly Republican Tradition": 0.3
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Bremer Dykes And Polders": {
 			"Development Cost": -0.1
@@ -3633,7 +3635,7 @@
 			"Yearly Meritocracy": 1,
 			"Yearly Republican Tradition": 0.3
 		},
-		"Whupper Valley: ": {
+		"Whupper Valley:": {
 			"Global Trade Power": 0.15,
 			"Development Cost": -0.1
 		},
@@ -4646,7 +4648,7 @@
 			"Aggressive Expansion Impact": -0.15
 		},
 		"Ambition": {
-			"Governing Capacity Modifier": 0.15
+			"Development Cost in Primary Culture": -0.1
 		},
 		"Preußische Tugenden": {
 			"Tolerance of Heretics": 2,
@@ -4671,7 +4673,10 @@
 			"Discipline": 0.05
 		},
 		"Bildungsreform": {
-			"Technology Cost": -0.1
+			"Technology Cost": -0.1,
+			"Effect": {
+				"Prussian Provinces' Governing Cost": -0.15
+			}
 		}
 	},
 	"Rothenburg": {
@@ -6516,8 +6521,7 @@
 		},
 		"Inter Caetera": {
 			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Encomienda": {
 			"Goods Produced Modifier": 0.05,
@@ -6585,14 +6589,13 @@
 			"Caravan Power": 0.2
 		},
 		"Fogar De Breógan": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Santiago Y Cierra": {
 			"Morale of Armies": 0.15
 		},
 		"Maritime Highways": {
-			"Fleet Exploration Range": 0.15
+			"Colonial Range": 0.15
 		},
 		"Irmandiños": {
 			"Infantry Combat Ability": 0.15
@@ -6705,9 +6708,8 @@
 			"Fort Defense": 0.2
 		},
 		"Follow The Whale Migrations": {
-			"Fleet Exploration Range": 0.33,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonial Range": 0.33,
+			"Colonists": 1
 		},
 		"Navarrese Company": {
 			"Mercenary Cost": -0.15
@@ -6729,7 +6731,7 @@
 	},
 	"Portugal": {
 		"Traditions": {
-			"Fleet Exploration Range": 0.25,
+			"Colonial Range": 0.25,
 			"Infantry Fire": 0.15
 		},
 		"Ambition": {
@@ -6740,16 +6742,15 @@
 			"Diplomatic Technology Cost": -0.1
 		},
 		"The Black Swords": {
-			"Infantry Combat Ability": 0.1,
-			"Marines Force Limit": 0.33
+			"Marines Force Limit": 0.33,
+			"Infantry Combat Ability": 0.1
 		},
 		"Early Adoption Of Gunpowder": {
 			"Military Technology Cost": -0.1
 		},
 		"Tordesillas": {
 			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Feitorias": {
 			"Provincial Trade Power Modifier": 0.2,
@@ -6793,7 +6794,270 @@
 			"Culture Conversion Cost": -0.15
 		}
 	},
-	"Spain": {
+	"Spanish-Andalucian": {
+		"Traditions": {
+			"Construction Cost": -0.15,
+			"Morale of Armies": 0.15
+		},
+		"Ambition": {
+			"National Manpower Modifier": 0.2
+		},
+		"Convivencia": {
+			"Advisor Costs": -0.2,
+			"Tolerance of Heathens": 2
+		},
+		"Capitulaciones De Santa Fe": {
+			"Global Settler Increase": 25
+		},
+		"Fuero Juzgo": {
+			"Monthly Autonomy Change": -0.05,
+			"Effect": {
+				"Culture Group Provinces' Local Unrest": -2,
+				"Culture Group Provinces' Local Tax": 0.15
+			}
+		},
+		"Bridging Christian And Muslim": {
+			"Merchants": 1
+		},
+		"Hacienda System": {
+			"Colonists": 1
+		},
+		"Port To The New World": {
+			"Naval Force Limit Modifier": 0.25,
+			"Treasure Fleet Income": 0.25
+		},
+		"Canals Cisterns And Towers": {
+			"Fort Defense": 0.2,
+			"Attrition for Enemies": 1
+		}
+	},
+	"Spanish-Aragonese": {
+		"Traditions": {
+			"Siege Ability": 0.15,
+			"Diplomatic Reputation": 1
+		},
+		"Ambition": {
+			"Morale of Armies": 0.15
+		},
+		"Catholic Monarchs": {
+			"Yearly Papal Influence": 2,
+			"Tolerance of the True Faith": 2
+		},
+		"Union Of Crowns": {
+			"Years for Personal Union Integration": -20,
+			"Effect": {
+				"Italian Provinces' Local Unrest": -2,
+				"Italian Provinces' Defensiveness": 0.1
+			}
+		},
+		"Aduanas Maritímas": {
+			"Naval Force Limit Modifier": 0.25,
+			"Trade Efficiency": 0.15
+		},
+		"Spanish Inquisition": {
+			"Missionaries": 1
+		},
+		"*Real* Last Claimants Of Byzantium": {
+			"Province War Score Cost": -0.1,
+			"Core-Creation Cost": -0.1
+		},
+		"Lessons Of The French Wars": {
+			"Discipline": 0.05
+		},
+		"The Ordinance Decrees": {
+			"National Manpower Modifier": 0.25
+		}
+	},
+	"Spanish-Basque": {
+		"Traditions": {
+			"Morale of Navies": 0.15,
+			"Number of accepted Cultures": 2
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Nafar Estiloko Bela": {
+			"Global Naval Engagement Modifier": 0.1
+		},
+		"Basque Explorers": {
+			"Allows recruitment of explorers & conquistadors": true,
+			"Colonial Range": 0.33
+		},
+		"Revitalize The Cantabrian Shipyards": {
+			"Naval Force Limit Modifier": 0.33,
+			"Effect": {
+				"Iberian Naval Supplies Provinces' Trade Goods": 0.5
+			}
+		},
+		"Royal Companies": {
+			"Colonists": 1
+		},
+		"Cortes Y Diputaciones": {
+			"National Unrest": -2,
+			"Trade Efficiency": 0.15
+		},
+		"Royal Basque Society": {
+			"Development Cost": -0.05,
+			"Idea Cost": -0.1
+		},
+		"Carlism": {
+			"Morale of Armies": 0.15,
+			"Yearly Devotion": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Spanish-Catalan": {
+		"Traditions": {
+			"Diplomatic Reputation": 1,
+			"Morale of Armies": 0.15
+		},
+		"Ambition": {
+			"Artillery Fire": 1
+		},
+		"Catalan Constitutions": {
+			"National Unrest": -2,
+			"Stability Cost Modifier": -0.15
+		},
+		"Germanies": {
+			"Naval Combat Bonus off Owned Coast": 1
+		},
+		"Aduanas Maritímas": {
+			"Naval Force Limit Modifier": 0.25,
+			"Trade Efficiency": 0.15
+		},
+		"Miqueletes": {
+			"Manpower Recovery Speed": 0.15
+		},
+		"Battaló": {
+			"All Estates Influence Modifier": -0.1,
+			"Goods Produced Modifier": 0.1
+		},
+		"Reinforce The Cortes": {
+			"Development Cost": -0.1
+		},
+		"Taula De Canvi": {
+			"Interest Per Annum": -1,
+			"Yearly Inflation Reduction": 0.1
+		}
+	},
+	"Spanish-Galician": {
+		"Traditions": {
+			"Morale of Armies": 0.15,
+			"Colonial Range": 0.33
+		},
+		"Ambition": {
+			"Morale of Navies": 0.15
+		},
+		"Devout Catholicism": {
+			"Yearly Papal Influence": 2,
+			"Tolerance of the True Faith": 1
+		},
+		"The Overseas Provinces": {
+			"Tariffs": 0.2,
+			"Reduced Liberty Desire on other Continent": 20
+		},
+		"Revive The Northern Fleet": {
+			"Naval Force Limit Modifier": 0.33,
+			"Max number of Flagships": 1
+		},
+		"The Forests Of Spain": {
+			"Heavy Ship Combat Ability": 0.15
+		},
+		"Asiento System": {
+			"Trade Steering": 0.2,
+			"Effect": {
+				"Colonial Subjects' Trade Goods Modifier": 0.1
+			}
+		},
+		"Modernized Camino Real": {
+			"Development Cost": -0.1,
+			"Effect": {
+				"Expanded Infrastructure Provinces' Local Tax": 0.15
+			}
+		},
+		"Centralized Irmandiños": {
+			"Infantry Combat Ability": 0.15
+		}
+	},
+	"Spanish-Leonese": {
+		"Traditions": {
+			"Morale of Armies": 0.15,
+			"Cavalry Combat Ability": 0.2
+		},
+		"Ambition": {
+			"Yearly Army Tradition": 0.5
+		},
+		"The Line Broken Remade": {
+			"Diplomatic Annexation Cost": -0.15,
+			"Yearly Devotion": 1,
+			"Yearly Horde Unity": 1,
+			"Yearly Legitimacy": 1,
+			"Yearly Meritocracy": 1,
+			"Yearly Republican Tradition": 0.3
+		},
+		"Lessons Of The Reconquista": {
+			"Discipline": 0.05
+		},
+		"Las Santas Hermandades": {
+			"National Manpower Modifier": 0.2,
+			"Establish Order Cost": -0.2
+		},
+		"Leonese Academy": {
+			"Culture Conversion Cost": -0.2
+		},
+		"Universidades Reales": {
+			"Idea Cost": -0.15
+		},
+		"Reinforce The Cortes": {
+			"Reform Progress Growth": 0.25,
+			"Effect": {
+				"Parliament Seat' Local Development Cost": -0.1,
+				"Parliament Seat' Governing Cost Modifier": -0.15
+			}
+		},
+		"The Patriarchy Of The Crowns": {
+			"Infantry Combat Ability": 0.15
+		}
+	},
+	"Spanish-Portuguese": {
+		"Traditions": {
+			"Artillery Fire": 1,
+			"Morale of Navies": 0.15
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"The Armillary Sphere": {
+			"Global Naval Engagement Modifier": 0.1
+		},
+		"Real E Supremo Conselho De Portugal": {
+			"Reduced Liberty Desire on other Continent": 20,
+			"Trade Steering": 0.2
+		},
+		"As Três Armadas": {
+			"Max number of Flagships": 1,
+			"Ship Cannons": 0.1
+		},
+		"Tordesillas": {
+			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
+			"Colonists": 1
+		},
+		"Modernized Fusileiros": {
+			"Marines Force Limit": 0.25,
+			"Infantry Combat Ability": 0.15
+		},
+		"Imperator Hispanie Et Lusitanie": {
+			"Governing Capacity Modifier": 0.1
+		},
+		"Sun Never Sets": {
+			"Yearly Prestige": 1,
+			"Naval Force Limit Modifier": 0.25
+		}
+	},
+	"Spanish-Castilian": {
 		"Traditions": {
 			"Morale of Armies": 0.15,
 			"Artillery Fire": 1
@@ -6802,7 +7066,8 @@
 			"Discipline": 0.05
 		},
 		"Catholic Monarchs": {
-			"Yearly Papal Influence": 2
+			"Yearly Papal Influence": 2,
+			"Tolerance of the True Faith": 1
 		},
 		"Cása De Contración": {
 			"Liberty Desire from Subjects Development": -0.2,
@@ -6810,8 +7075,7 @@
 		},
 		"Inter Caetera": {
 			"Can fabricate claims on any overseas province, provided it is overseas for its owner": true,
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Global Currency": {
 			"Global Trade Power": 0.2
@@ -6819,8 +7083,8 @@
 		"Spanish Inquisition": {
 			"Missionaries": 1
 		},
-		"Gregorian Calendar": {
-			"Production Efficiency": 0.1
+		"Grande Y Felicísima Armada": {
+			"Naval Force Limit Modifier": 0.25
 		},
 		"Guerilla Warfare": {
 			"Attrition for Enemies": 1
@@ -7089,17 +7353,17 @@
 	"Vijayanagar": {
 		"Traditions": {
 			"National Manpower Modifier": 0.15,
-			"Infantry Combat Ability": 0.1
+			"Manpower Recovery Speed": 0.15
 		},
 		"Ambition": {
-			"Artillery Combat Ability": 0.1
+			"Land Fire Damage": 0.1
 		},
 		"Amaranayaka Sainya": {
 			"Land Force Limit Modifier": 0.25
 		},
 		"The Council Of Ministers": {
 			"Possible Advisors": 1,
-			"All Estate's Loyalty Equilibrium": 0.05
+			"All Estate's Loyalty Equilibrium": 0.1
 		},
 		"Varnasramadharma": {
 			"Stability Cost Modifier": -0.15
@@ -7167,7 +7431,7 @@
 		"Vivaldi Noli E Malfante": {
 			"Allows recruitment of explorers & conquistadors": true,
 			"Naval Attrition": -0.25,
-			"Fleet Exploration Range": 0.33
+			"Colonial Range": 0.33
 		},
 		"Colonie Genovesi": {
 			"Global Trade Power": 0.15
@@ -7187,39 +7451,39 @@
 			"Ship Durability": 0.1
 		}
 	},
-	"Italy": {
+	"Florence": {
 		"Traditions": {
-			"Yearly Republican Tradition": 0.5,
+			"Yearly Republican Tradition": 0.33,
 			"Yearly Legitimacy": 1,
-			"Yearly Devotion": 1,
-			"National Manpower Modifier": 0.33
+			"Improve Relations": 0.25
 		},
 		"Ambition": {
-			"Possible Policies": 1
+			"Expand Infrastructure Cost Modifier": -0.25
 		},
-		"Culla Del Rinascimento": {
-			"All Power Cost": -0.05
+		"Priorati Comuni E Repubbliche": {
+			"Reelection Cost": -0.1,
+			"Reform Progress Growth": 0.25
 		},
-		"Milizia": {
-			"Morale of Armies": 0.1,
-			"Infantry Combat Ability": 0.15
+		"Arti E Corporazioni": {
+			"Goods Produced Modifier": 0.15
 		},
-		"Arsenali Marittimi": {
-			"Galley Combat Ability": 0.15,
-			"Global Trade Power": 0.15
+		"Fiorino D'Oro": {
+			"Interest Per Annum": -0.75
 		},
-		"Repubbliche Marinare": {
-			"Global Ship Trade Power": 0.2
+		"Esercito Ducale Fiorentino": {
+			"National Manpower Modifier": 0.15,
+			"Fire Damage Received": -0.05
 		},
-		"Corti Imperiali": {
-			"Improve Relations": 0.5
+		"Rinascimento Fiorentino": {
+			"Technology Cost": -0.1,
+			"Idea Cost": -0.1
 		},
-		"Fortificazione All'Italiana": {
-			"Fort Defense": 0.25
+		"Catasto Fiorentino": {
+			"Construction Cost": -0.1,
+			"Development Cost Modifier": -0.075
 		},
-		"Pianure Alluvionali": {
-			"Development Cost": -0.05,
-			"Production Efficiency": 0.1
+		"Uffizi": {
+			"Cost of Advisors with Ruler's Culture": -0.15
 		}
 	},
 	"Lucca": {
@@ -7261,7 +7525,7 @@
 			"Diplomats": 1
 		},
 		"Ambition": {
-			"Cavalry Fire": 1
+			"Cavalry Shock": 0.5
 		},
 		"I Gonzaga": {
 			"Improve Relations": 0.15
@@ -7389,17 +7653,50 @@
 			"Fort Defense": 0.2
 		}
 	},
-	"The Papal State": {
+	"Kingdom Of God": {
 		"Traditions": {
-			"Improve Relations": 0.25,
-			"Advisor Costs": -0.15
+			"Administrative Efficiency": 0.05,
+			"Cost of Advisors with Ruler's Religion": -0.2
 		},
 		"Ambition": {
-			"Manpower in True Faith Provinces": 0.25
+			"Manpower in True Faith Provinces": 0.33
 		},
 		"Patrimonii Sancti Peter": {
 			"Tolerance of the True Faith": 2,
-			"Religious Unity": 0.15
+			"Religious Unity": 0.2
+		},
+		"Bibliotheca Apostolica Vaticana": {
+			"Technology Cost": -0.075
+		},
+		"Vicarius Christi": {
+			"War Score Cost vs Other Religions": -0.2
+		},
+		"Camera Domini Papae": {
+			"Construction Cost": -0.1,
+			"Development Cost": -0.1
+		},
+		"Liber Constitutionum Sanctae Matris Ecclesiae": {
+			"All Estate's Loyalty Equilibrium": 0.1
+		},
+		"Acriter Et Fideliter": {
+			"Yearly Army Tradition": 0.5,
+			"Discipline": 0.05
+		},
+		"Dicasterium Pro Doctrina Fidei": {
+			"Harsh Treatment Cost": -0.33,
+			"Missionary Strength vs Heretics": 0.03
+		}
+	},
+	"The Papal State": {
+		"Traditions": {
+			"Improve Relations": 0.2,
+			"Advisor Costs": -0.1
+		},
+		"Ambition": {
+			"Manpower in True Faith Provinces": 0.2
+		},
+		"Patrimonii Sancti Peter": {
+			"Tolerance of the True Faith": 2
 		},
 		"Bibliotheca Apostolica Vaticana": {
 			"Technology Cost": -0.075
@@ -7408,18 +7705,15 @@
 			"War Score Cost vs Other Religions": -0.15
 		},
 		"Camera Domini Papae": {
-			"Construction Cost": -0.05,
-			"Development Cost": -0.1
+			"Construction Cost": -0.1
 		},
 		"Liber Constitutionum Sanctae Matris Ecclesiae": {
 			"All Estate's Loyalty Equilibrium": 0.1
 		},
 		"Acriter Et Fideliter": {
-			"Yearly Army Tradition": 0.33,
 			"Discipline": 0.05
 		},
 		"Dicasterium Pro Doctrina Fidei": {
-			"Harsh Treatment Cost": -0.25,
 			"Missionary Strength vs Heretics": 0.03
 		}
 	},
@@ -7438,8 +7732,10 @@
 			"Goods Produced Modifier": 0.1
 		},
 		"Braccio Di Montone": {
-			"Shock Damage": 0.1,
-			"Mercenary Maintenance": -0.15
+			"Mercenary Maintenance": -0.15,
+			"Effect": {
+				"Mercenaries' Shock Damage": "0.10"
+			}
 		},
 		"Signoria Perugina": {
 			"Reform Progress Growth": 0.15,
@@ -7726,35 +8022,37 @@
 		"Traditions": {
 			"Yearly Republican Tradition": 0.33,
 			"Yearly Legitimacy": 1,
-			"Improve Relations": 0.25
+			"All Estate's Loyalty Equilibrium": 0.1
 		},
 		"Ambition": {
-			"Construction Cost": -0.1
-		},
-		"Pavese": {
-			"Fire Damage Received": -0.05
-		},
-		"Birthplace Of Renaissance": {
-			"Technology Cost": -0.1,
-			"Idea Cost": -0.1
-		},
-		"Bande Toscane": {
-			"Land Force Limit Modifier": 0.15,
-			"National Manpower Modifier": 0.15
-		},
-		"Uffizi": {
-			"Advisor Costs": -0.15,
-			"Possible Advisors": 1
-		},
-		"Riforma Di Terra": {
-			"Development Cost Modifier": -0.075
+			"Land Force Limit Modifier": 0.15
 		},
 		"Fiorino D'Oro": {
 			"Interest Per Annum": -0.75
 		},
-		"Artigianato Fiorentino": {
-			"Goods Produced Modifier": 0.15,
-			"Institution Spread": 0.05
+		"Bande Toscane": {
+			"Morale of Armies": 0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Porto Di Livorno": {
+			"Ship Trade Power Modifier": 0.15,
+			"Naval Force Limit Modifier": 0.15
+		},
+		"Accademie E Società Culturali": {
+			"Technology Cost": -0.1
+		},
+		"Riforma Di Terra": {
+			"Construction Cost": -0.1,
+			"Development Cost": -0.1
+		},
+		"Thornton Expedition": {
+			"Colonists": 1,
+			"Effect": {
+				"Colonial Colombia's Local Settler Increase": 25
+			}
+		},
+		"Reggimenti Di Fucilieri": {
+			"Land Fire Damage": 0.1
 		}
 	},
 	"Urbino": {
@@ -7813,8 +8111,10 @@
 			"Development Cost": -0.1
 		},
 		"Fanti Di Mar": {
-			"Shock Damage": 0.1,
-			"Marines Force Limit": 0.25
+			"Marines Force Limit": 0.25,
+			"Effect": {
+				"Marines' Shock Damage": 0.1
+			}
 		},
 		"Aldina": {
 			"Institution Spread": 0.15
@@ -7856,6 +8156,322 @@
 		},
 		"Baroni Di Randazzo": {
 			"Infantry Combat Ability": 0.1
+		}
+	},
+	"Italy-Crusader": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"Manpower in True Faith Provinces": 0.25
+		},
+		"Ambition": {
+			"Enforce Religion Cost": -0.15
+		},
+		"Patrimonii Sancti Peter": {
+			"Tolerance of the True Faith": 2,
+			"Yearly Papal Influence": 2
+		},
+		"Sacra Conoscenza": {
+			"Cost of Advisors with Ruler's Religion": -0.15
+		},
+		"Dio Lo Vuole!": {
+			"Manpower Recovery Speed": 0.1,
+			"Effect": {
+				"Years of Manpower recovered in Religious War won": 1
+			}
+		},
+		"Soldati Di Cristo": {
+			"Morale of Armies": 0.15
+		},
+		"Guerra Santa": {
+			"Monthly War Exhaustion": -0.025
+		},
+		"Flotta Crociata": {
+			"Galley Combat Ability": 0.15
+		},
+		"Catechesi": {
+			"Missionary Strength": 0.02,
+			"War Score Cost vs Other Religions": -0.15
+		}
+	},
+	"Italy-Maritime": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"Galley Combat Ability": 0.33
+		},
+		"Ambition": {
+			"Ship Durability": 0.15
+		},
+		"Colonie Mediterranee": {
+			"Naval Force Limit Modifier": 0.25,
+			"Minimum Autonomy in Territories": -0.1
+		},
+		"Arsenali Marittimi Militari": {
+			"Diplomatic Technology Cost": -0.15,
+			"Effect": {
+				"Army Professionalism gained from recruiting Admirals": 0.5
+			}
+		},
+		"Dominio Del Mediterraneo": {
+			"Ship Trade Power Modifier": 0.2,
+			"Morale of Navies": 0.15
+		},
+		"Mare Nostrum": {
+			"Development Cost": -0.1
+		},
+		"Fanti Da Mar": {
+			"Marines Force Limit": 0.25,
+			"Effect": {
+				"Marines' Fire Damage": 0.1,
+				"Marines' Shock Damage": 0.1,
+				"Marines' Shock Damage Received": -0.1
+			}
+		},
+		"Crociate E Berberi": {
+			"Naval Combat Bonus off Owned Coast": 1,
+			"Ship Cannons": 0.1
+		},
+		"Galee Galeazze E Galeoni": {
+			"Global Trade Power": 0.1,
+			"Trade Efficiency": 0.1
+		}
+	},
+	"Italy-Republican": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"Development Cost Modifier": -0.075
+		},
+		"Ambition": {
+			"All Power Cost": -0.05
+		},
+		"Flourishing Republics": {
+			"Random Candidate Bonus": 1,
+			"Reelection Cost": -0.1
+		},
+		"Bande Toscane": {
+			"Morale of Armies": 0.1,
+			"National Manpower Modifier": 0.15
+		},
+		"Culla Del Rinascimento": {
+			"Advisor Costs": -0.15
+		},
+		"Corti Imperiali": {
+			"Improve Relations": 0.25
+		},
+		"Accademie E Società Culturali": {
+			"Idea Cost": -0.1,
+			"Technology Cost": -0.1
+		},
+		"Arti E Corporazioni": {
+			"Goods Produced Modifier": 0.1,
+			"Interest Per Annum": -0.5
+		},
+		"Reggimenti Di Fucilieri": {
+			"Land Fire Damage": 0.1
+		}
+	},
+	"Italy-Lombard": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.15,
+			"National Manpower Modifier": 0.25
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Corona Ferrea": {
+			"Imperial Authority Growth Modifier": 0.1,
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1
+		},
+		"Arti E Corporazioni": {
+			"Local Goods Produced Modifier": 0.1
+		},
+		"Naviglii Lombardi": {
+			"Development Cost": -0.1
+		},
+		"Dòmm De Milan": {
+			"Tolerance of the True Faith": 1,
+			"Yearly Papal Influence": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5
+		},
+		"Dominii Viscontei": {
+			"Core-Creation Cost": -0.15,
+			"Land Force Limit Modifier": 0.2
+		},
+		"Magistri Armorum": {
+			"Fire Damage Received": -0.1,
+			"Shock Damage Received": -0.1
+		},
+		"Commercio Padano": {
+			"Trade Efficiency": 0.1
+		}
+	},
+	"Italy-Dynastic": {
+		"Traditions": {
+			"Diplomatic Reputation": 2,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Diplomatic Annexation Cost": -0.15
+		},
+		"Corti Imperiali": {
+			"Imperial Authority Growth Modifier": 0.15,
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1
+		},
+		"Grazing Plains": {
+			"Cavalry Shock": 0.5,
+			"Cavalry Cost": -0.15
+		},
+		"Triangolo Dinastico": {
+			"Diplomatic Relations": 1,
+			"Years for Personal Union Integration": -20
+		},
+		"Stella Forte": {
+			"Core-Creation Cost": -0.1,
+			"Monarch Diplomatic Skill": 1,
+			"Effect": {
+				"Chance of Lux Stella on new heirs": 0.02
+			}
+		},
+		"Mecenati": {
+			"Cost of Advisors with Ruler's Culture": -0.2
+		},
+		"Ordini Cavallereschi": {
+			"Tolerance of the True Faith": 1,
+			"Yearly Papal Influence": 1,
+			"Church Power": 0.25,
+			"Monthly Fervor": 0.5
+		},
+		"Fonderie Ferraresi": {
+			"Artillery Shock": 0.5,
+			"Artillery Cost": -0.15
+		}
+	},
+	"Italy-Sardinian": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"National Manpower Modifier": 0.33
+		},
+		"Ambition": {
+			"Administrative Efficiency": 0.05
+		},
+		"Statute Sabaudiae": {
+			"State Maintenance": -0.15,
+			"Effect": {
+				"Latin Provinces' Governing Cost": -0.15
+			}
+		},
+		"Palazzo Reale Di Torino": {
+			"Yearly Prestige": 1,
+			"Monthly Splendor": 2
+		},
+		"Regia Armata Sarda": {
+			"Yearly Army Tradition": 0.5,
+			"Discipline": 0.05
+		},
+		"Industrial Sprint": {
+			"Construction Cost": -0.1
+		},
+		"French - Savoyard": {
+			"Diplomats": 1
+		},
+		"Egemonia Italiana": {
+			"Core-Creation Cost": -0.15,
+			"Land Force Limit Modifier": 0.25
+		},
+		"Alpi Ed Alpini": {
+			"Fort Defense": 0.2,
+			"Land Attrition": -0.1
+		}
+	},
+	"Italy-Sicilian": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"National Manpower Modifier": 0.25
+		},
+		"Ambition": {
+			"Discipline": 0.05
+		},
+		"Sicialian Tolerance": {
+			"Tolerance of the True Faith": 1,
+			"Tolerance of Heretics": 1,
+			"Yearly Papal Influence": 1,
+			"Yearly Patriarch Authority": 0.0025
+		},
+		"Parramentu Sicilianu": {
+			"Possible Policies": 1,
+			"Effect": {
+				"Parliament Seat' Local Development Cost": -0.1,
+				"Parliament Seat' Governing Cost Modifier": -0.15
+			}
+		},
+		"Le Due Sicilie": {
+			"Morale of Armies": 0.15,
+			"Morale of Navies": 0.15
+		},
+		"Transumanza": {
+			"Development Cost": -0.075
+		},
+		"Corone": {
+			"Diplomatic Reputation": 1,
+			"Imperial Authority Growth Modifier": 0.1
+		},
+		"Mercati Della Seta": {
+			"Goods Produced Modifier": 0.075
+		},
+		"Nunziatella": {
+			"Land Force Limit Modifier": 0.2,
+			"Land Leader Siege": 1
+		}
+	},
+	"Italy": {
+		"Traditions": {
+			"Yearly Republican Tradition": 0.5,
+			"Yearly Legitimacy": 1,
+			"Yearly Devotion": 1,
+			"National Manpower Modifier": 0.2
+		},
+		"Ambition": {
+			"Free Policies": 1
+		},
+		"Pianure Alluvionali": {
+			"Development Cost": -0.075
+		},
+		"Repubbliche Marinare": {
+			"Global Ship Trade Power": 0.15
+		},
+		"Milizia": {
+			"Morale of Armies": 0.1,
+			"Own Territory Dice Roll Bonus": 1
+		},
+		"Corti Imperiali": {
+			"Improve Relations": 0.5
+		},
+		"Arsenali Marittimi": {
+			"Galley Combat Ability": 0.15,
+			"Naval Force Limit Modifier": 0.15
+		},
+		"Culla Del Rinascimento": {
+			"Possible Policies": 1,
+			"Effect": {
+				"Italy Provinces' Build Cost": -0.1
+			}
+		},
+		"Fortificazione All'Italiana": {
+			"Fort Defense": 0.2
 		}
 	},
 	"Cyprus": {
@@ -8239,8 +8855,10 @@
 			"Global Ship Trade Power": 0.25
 		},
 		"Soldaten Ter Zee": {
-			"Infantry Combat Ability": 0.1,
-			"Marines Force Limit": 0.5
+			"Marines Force Limit": 0.5,
+			"Effect": {
+				"Marines' Infantry Combat Ability": 0.1
+			}
 		},
 		"De Admiraliteit": {
 			"Naval Leader Fire": 2,
@@ -8248,8 +8866,7 @@
 		},
 		"Gekoloniseerd!": {
 			"Colonists": 1,
-			"Fleet Exploration Range": 0.35,
-			"Remove Temporary Colonist": true
+			"Colonial Range": 0.35
 		},
 		"Nieuw Amsterdam": {
 			"Global Settler Increase": 25
@@ -8264,8 +8881,7 @@
 			"Naval Force Limit Modifier": 0.5
 		},
 		"Ambition": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Polders": {
 			"Development Cost": -0.1
@@ -8353,7 +8969,7 @@
 			"Burghers Loyalty Equilibrium": 0.1
 		},
 		"Chart The Globe": {
-			"Fleet Exploration Range": 0.33,
+			"Colonial Range": 0.33,
 			"Global Ship Trade Power": 0.15
 		},
 		"Stock Markets And Upgraded Ports": {
@@ -8447,8 +9063,7 @@
 		},
 		"Manifest Destiny": {
 			"Colonists": 1,
-			"Culture Conversion Cost": -0.2,
-			"Remove Temporary Colonist": true
+			"Culture Conversion Cost": -0.2
 		},
 		"Lessons Of Valley Forge": {
 			"Yearly Army Tradition": 0.5,
@@ -8679,8 +9294,7 @@
 		},
 		"Lord Proprietors": {
 			"Colonists": 1,
-			"Construction Cost": -0.1,
-			"Remove Temporary Colonist": true
+			"Construction Cost": -0.1
 		},
 		"Salutary Neglect": {
 			"Trade Efficiency": 0.15
@@ -8717,8 +9331,7 @@
 			"Provincial Trade Power Modifier": 0.2
 		},
 		"Patroon System": {
-			"Colonists": 1,
-			"Remove Temporary Colonist": true
+			"Colonists": 1
 		},
 		"Liberalised Markets": {
 			"Trade Efficiency": 0.15
@@ -8789,8 +9402,7 @@
 		},
 		"Entradas": {
 			"Colonists": 1,
-			"Automatically Discover Adjacent When a Colony is Built": true,
-			"Remove Temporary Colonist": true
+			"Automatically Discover Adjacent When a Colony is Built": true
 		},
 		"Caboclo": {
 			"Number of accepted Cultures": 2
@@ -8810,8 +9422,7 @@
 	"Colonial-Spanish": {
 		"Traditions": {
 			"Colonists": 1,
-			"Monthly Autonomy Change": -0.05,
-			"Remove Temporary Colonist": true
+			"Monthly Autonomy Change": -0.05
 		},
 		"Ambition": {
 			"Tolerance of the True Faith": 2

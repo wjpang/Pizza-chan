@@ -49,7 +49,7 @@
 	},
 	"Iron": {
 		"Price": "3",
-		"Province bonus": "Local Build Cost -0.2",
+		"Province bonus": "Local Construction Time -0.2",
 		"Trade leader bonus": "Regiment Costs -0.05"
 	},
 	"Slaves": {

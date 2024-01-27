@@ -22,6 +22,14 @@ dict_ideas = {}
 dict_loc = {}
 LOC_DIR = MOD_PATH + r"\localisation"
 
+check_multiple_custom_tooltip = [
+    'HIE_SPA_AND_FUERO_JUZGO_TT',
+    'HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT',
+    'HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT',
+    'HIE_SPA_LEO_REINFORCE_THE_CORTES_TT',
+    'HIE_ITA_SIC_PARRAMENTU_SICILIANU_TT'
+]
+
 
 def start():
     JsonParser(ideas_hie_out_be4_json)
@@ -47,6 +55,10 @@ def build(dictionary):
 
 def recursive_process_dict(dictionary, loc_datas):
     for key, value in list(dictionary.items()):
+        if key in {'removed_effect'}:
+            del dictionary[key]
+            continue
+
         if key.startswith("HIE_"):
             key_new = key.replace("_ideas", "")
             key_new = key_new.replace("HIE_", "")
@@ -55,18 +67,38 @@ def recursive_process_dict(dictionary, loc_datas):
             value_new = dictionary[key_new]
             recursive_process_dict(dictionary[key_new], loc_datas)
         elif key == "effect":
+            # del dictionary[key]
+            # continue
             key_new = key.replace("_", " ").title()
-            if "custom_tooltip" in value:
+            if 'country_event' in value:
+                del dictionary[key]
+                continue
+            if "custom_tooltip" in value or "add_country_modifier" in value:
+                dictionary["Effect"] = {}
+                del dictionary[key]
                 value_new = True
-                if "admirals_give_army_professionalism_tt" in value["custom_tooltip"]:
-                    key_new = "Army Professionalism gained from recruiting Admirals"
-                    value_new = "0.5"
-                elif 'hie_dev_cost_reduction_in_arctic_tt' in value["custom_tooltip"]:
-                    key_new = "Development Cost in Arctic Provinces"
-                    value_new = "-0.30"
-                del dictionary[key]["custom_tooltip"]
-                del dictionary[key]["set_country_flag"]
+                if "custom_tooltip" in value:
+                    if any(key in value["custom_tooltip"] for key in check_multiple_custom_tooltip):
+                        transform_multiple_entry(dictionary["Effect"], value)
+                        continue
+                    result = transform_singular_entry(key, value["custom_tooltip"])
+                    key_new, value_new = result if result is not None else (key, value["custom_tooltip"])
+                    dictionary["Effect"][key_new] = value_new
+                else:
+                    if 'hie_ita_gpv_fanti_da_mar_modifier' in value["add_country_modifier"]["name"]:
+                        transform_multiple_entry(dictionary["Effect"], value)
+                        continue
+                    result = transform_singular_entry(key, value["add_country_modifier"])
+                    key_new, value_new = result if result is not None else (key, value["add_country_modifier"])
+                    dictionary["Effect"][key_new] = value_new
+                continue
+                # result = transform_singular_entry(key, value)
+                # key_new, value_new = result if result is not None else (key, value)
+                # del dictionary[key]["custom_tooltip"]
+                # del dictionary[key]["add_country_modifier"]
             else:
+                del dictionary[key]
+                continue
                 key_new = "Remove Temporary Colonist"
                 value_new = True
             # else:
@@ -87,6 +119,91 @@ def recursive_process_dict(dictionary, loc_datas):
     return dictionary
 
 
+def transform_multiple_entry(dictionary, value):
+    if "add_country_modifier" in value:
+        if 'hie_ita_gpv_fanti_da_mar_modifier' in value["add_country_modifier"]["name"]:
+            key_new = "Marines' Fire Damage"
+            value_new = 0.10
+            dictionary[key_new] = value_new
+            key_new = "Marines' Shock Damage"
+            value_new = 0.10
+            dictionary[key_new] = value_new
+            key_new = "Marines' Shock Damage Received"
+            value_new = -0.10
+            dictionary[key_new] = value_new
+            return
+    else:
+        if 'HIE_SPA_AND_FUERO_JUZGO_TT' in value["custom_tooltip"]:
+            key_new = "Culture Group Provinces' Local Unrest"
+            value_new = -2
+            dictionary[key_new] = value_new
+            key_new = "Culture Group Provinces' Local Tax"
+            value_new = 0.15
+            dictionary[key_new] = value_new
+            return
+        elif 'HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT' in value["custom_tooltip"]:
+            key_new = "Italian Provinces' Local Unrest"
+            value_new = -2
+            dictionary[key_new] = value_new
+            key_new = "Italian Provinces' Defensiveness"
+            value_new = 0.10
+            dictionary[key_new] = value_new
+            return
+        elif 'HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT' in value["custom_tooltip"]:
+            key_new = "Iberian Provinces' Local Unrest"
+            value_new = -2
+            dictionary[key_new] = value_new
+            key_new = "Iberian Provinces' Local Autonomy"
+            value_new = -0.025
+            dictionary[key_new] = value_new
+            return
+        elif 'HIE_SPA_LEO_REINFORCE_THE_CORTES_TT' in value["custom_tooltip"] or 'HIE_ITA_SIC_PARRAMENTU_SICILIANU_TT' in value["custom_tooltip"]:
+            key_new = "Parliament Seat' Local Development Cost"
+            value_new = -0.10
+            dictionary[key_new] = value_new
+            key_new = "Parliament Seat' Governing Cost Modifier"
+            value_new = -0.15
+            dictionary[key_new] = value_new
+            "-10.0 Development Cost and -15.0 Governing Cost in Parliament Seat"
+            return
+
+
+def transform_singular_entry(key, value):
+    if 'duration' not in value:
+        if 'admirals_give_army_professionalism_tt' in value:
+            return "Army Professionalism gained from recruiting Admirals", 0.5
+        elif 'HIE_DEV_COST_REDUCTION_IN_ARCTIC_TT' in value:
+            return "Arctic Provinces's Developmetn Cost", -0.30
+        elif 'HIE_GOV_COST_REDUCTION_IN_PRUSSIAN_PROVINCES_TT' in value:
+            return "Prussian Provinces' Governing Cost", -0.15
+        elif 'HIE_RAG_ABOLITION_SLAVERY_TT' in value:
+            return "This will result in the Abolition of Slavery", True
+        elif 'HIE_SPA_BAS_REVITALIZE_CANTABRIAN_SHIPYARDS_TT' in value:
+            return "Iberian Naval Supplies Provinces' Trade Goods", 0.50
+        elif 'HIE_SPA_GAL_MODERNIZED_CAMINO_REAL_TT' in value:
+            return "Expanded Infrastructure Provinces' Local Tax", 0.15
+        elif 'HIE_SPA_GAL_ASIENTO_SYSTEM_TT' in value:
+            return "Colonial Subjects' Trade Goods Modifier", 0.10
+        elif 'HIE_TUS_THORNTON_EXPEDITION_TT' in value:
+            return "Colonial Colombia's Local Settler Increase", 25
+        elif 'HIE_ITA_CULLA_RINASCIMENTO_TT' in value:
+            return "Italy Provinces' Build Cost", -0.10
+        elif 'HIE_ITA_SAR_STATUTE_SABAUDIAE_TT' in value:
+            return "Latin Provinces' Governing Cost", -0.15
+        elif 'HIE_ITA_MFV_STELLA_FORTE_TT' in value:
+            return 'Chance of Lux Stella on new heirs', 0.02
+        elif 'HIE_ITA_CRU_DIO_LO_VUOLE_TT' in value:
+            return 'Years of Manpower recovered in Religious War won', 1
+
+    else:
+        if 'hie_ven_fanti_mar_modifier' in value["name"]:
+            return "Marines' Shock Damage", 0.10
+        elif 'hie_hol_soldaten_ter_zee_modifier' in value["name"]:
+            return "Marines' Infantry Combat Ability", 0.10
+        elif 'hie_pga_braccio_montone_modifier' in value["name"]:
+            return "Mercenaries' Shock Damage", "0.10"
+
+
 def create_localisation(loc_dir):
     print("Started the creation of localisation")
     index = 0
@@ -104,7 +221,7 @@ def create_localisation(loc_dir):
 
         for key_sub in dict_ideas[key]:
             percentage = (index/(len(dict_ideas)*11)) * 100
-            if abs(percentage % 2.5 - 0) < tolerance or abs(percentage % 2.5 - 2.5) < tolerance:
+            if abs(percentage % 5.0 - 0) < tolerance or abs(percentage % 5.0 - 5.0) < tolerance:
                 current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 print(f"Time: {current_time} - Progress: {percentage:.1f}%")
             index += 1
