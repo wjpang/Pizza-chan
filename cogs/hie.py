@@ -60,7 +60,7 @@ def hie_special(country):
     if country in {"SPA", "Spain"}:
         return (
             "SPA",
-            "Spain",
+            "Spanish",
             ["-Andalucian", "-Aragonese", "-Basque", "-Castilian", "-Catalan", "-Galician", "-Leonese", "-Portuguese"],
         )
     if country in {"ITA", "Italy"}:
@@ -264,6 +264,7 @@ class HIE(commands.Cog):
 
         message = "```"
         for country in country_lst:
+            print(len(country))
             if len(f"{message}{country}\n```") > 2000:
                 await inter.send(f"{message}```")
                 message = "```"
@@ -277,6 +278,35 @@ class HIE(commands.Cog):
             "The map does not include: Holy Roman Empire, Germany",
             file=disnake.File(r"./data/images/hiemapformables.png"),
         )
+
+    @hie.sub_command(description="Find Modifiers in Ideas")
+    async def modifier(self, inter, *, modifier: str = commands.Param(name="modifier")):
+        with open("./data/HIE.json", "r", encoding="utf-8") as f:
+            hie_data = json.load(f)
+        with open("./debugging_tools/database.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if modifier in data:
+            modifier = data[modifier]
+        result = next((key for key, value in data.items() if value.title() == modifier.title()), None)
+        if not result:
+            await inter.send(f"Invalid searched modifier: {modifier}")
+            return
+
+        message = f"```ansi\nAll Countries with \u001B[0;33m{modifier}\u001B[0;0m in their idea\n"
+        message += "---------\n"
+
+        for country, idea_set in hie_data.items():
+            for idea, idea_modifiers in idea_set.items():
+                if modifier in idea_modifiers:
+                    message += f"\u001B[0;33m{country.ljust(28)}\u001B[0;0m"
+                    message += f"\u001B[0;34m{idea_modifiers[modifier]}\u001B[0;0m\n"
+                    break
+                if len(f"{message}\n```") > 1900:
+                    await inter.send(f"{message}```")
+                    message = "```ansi\n"
+
+        await inter.send(f"{message}```")
 
 
 def setup(bot):

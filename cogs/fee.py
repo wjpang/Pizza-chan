@@ -239,6 +239,9 @@ class FEE(commands.Cog):
         for event in event_list:
             event = event.replace("Plc", "PLC")
             event = event.replace("Hre", "HRE")
+            if len(f"{message}{event}\n```")>2000:
+                await inter.send(f"{message}```")
+                message = "```"
             message += f"{event} \n"
         await inter.send(f"{message}```")
 

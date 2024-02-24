@@ -1,3 +1,4 @@
+import asyncio
 import os
 
 import disnake
@@ -65,6 +66,26 @@ class ADM(commands.Cog):
         if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles) or ctx.author.id == MELVA_ID:
             guild = disnake.utils.get(self.bot.guilds, name=guild_name)
             await guild.leave()
+
+    @adm.command(pass_context=True)
+    async def membersEMF(self, ctx, *, guild_name):
+        author_roles = ctx.author.roles
+        if any(role.name in {"Botmakers", "Admin", "Moderators", "Staff", "Lead Devs"} for role in author_roles) or ctx.author.id == MELVA_ID:
+            guild = disnake.utils.get(self.bot.guilds, name=guild_name)
+            members = "\n-".join([member.name for member in guild.text_channels])
+            await ctx.send(members)
+
+    @adm.command(pass_context=True)
+    async def reboot(self, ctx):
+        if ctx.author.id == MELVA_ID:
+            await ctx.send("Rebooting...")
+            await asyncio.sleep(2)
+            await ctx.send("System will reboot in 5 seconds.")
+            await asyncio.sleep(5)
+            root_password = "Melvasul-94"
+            command = f"echo {root_password} | sudo -S shutdown -r now"
+
+            os.system(command)
 
 
 def setup(bot):
