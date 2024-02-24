@@ -1,33 +1,36 @@
 import datetime
+import glob
 import json
 import os
 import re
 import time
 from os.path import basename
 
-MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2804377099"
-# eu4_dir = r'C:\Program Files\Epic Games\EuropaUniversalis4'  # This is for EGS
+# all definitions
+if "\\" in os.getcwd():
+    MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2804377099"
+    # eu4_dir = r'C:\Program Files\Epic Games\EuropaUniversalis4'  # This is for EGS
+else:
+    MOD_PATH = r"/home/atimpone/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/workshop/content/236850/2804377099"
 
-path = os.getcwd()
-parent = os.path.dirname(path)
-finalpath = os.path.dirname(parent) + r"\data\HIE.json"
+path = os.path.abspath(os.path.join(os.getcwd(), ".."))  # this is debugging_tools
+finalpath = os.path.join(os.path.dirname(path), "data", "HIE.json")
 
-tags = parent + r"\\tags.txt"
-ideas = parent + r"\ideas.txt"
-database = parent + r"\database.json"
+tags = os.path.join(path, "tags.txt")
+database = os.path.join(path, "database.json")
 
-ideas_hie_out_be4_json = MOD_PATH + r"\common\ideas\HIE_country_ideas.txt"
+ideas_hie_out_be4_json = os.path.join(MOD_PATH, "common", "ideas", "HIE_country_ideas.txt")
 
 dict_ideas = {}
 dict_loc = {}
-LOC_DIR = MOD_PATH + r"\localisation"
+LOC_DIR = os.path.join(MOD_PATH, "localisation")
 
 check_multiple_custom_tooltip = [
-    'HIE_SPA_AND_FUERO_JUZGO_TT',
-    'HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT',
-    'HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT',
-    'HIE_SPA_LEO_REINFORCE_THE_CORTES_TT',
-    'HIE_ITA_SIC_PARRAMENTU_SICILIANU_TT'
+    "HIE_SPA_AND_FUERO_JUZGO_TT",
+    "HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT",
+    "HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT",
+    "HIE_SPA_LEO_REINFORCE_THE_CORTES_TT",
+    "HIE_ITA_SIC_PARRAMENTU_SICILIANU_TT",
 ]
 
 
@@ -47,7 +50,9 @@ def build(dictionary):
 
     dict_final = recursive_process_dict(dictionary, localized_datas)
 
-    with open(f"{os.path.dirname(finalpath)}\\HIE.json", "w", encoding="utf-8") as output:
+    dict_final = dict(sorted(dict_final.items()))
+
+    with open(os.path.join(os.path.dirname(finalpath), "HIE.json"), "w", encoding="utf-8") as output:
         json.dump(dict_final, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # ) #, sort_keys=True)
 
     print("succesfully created the final Json")
@@ -55,7 +60,7 @@ def build(dictionary):
 
 def recursive_process_dict(dictionary, loc_datas):
     for key, value in list(dictionary.items()):
-        if key in {'removed_effect'}:
+        if key in {"removed_effect"}:
             del dictionary[key]
             continue
 
@@ -65,12 +70,10 @@ def recursive_process_dict(dictionary, loc_datas):
             key_new = loc_datas.get(key_new)
             dictionary[key_new] = dictionary.pop(key)
             value_new = dictionary[key_new]
-            recursive_process_dict(dictionary[key_new], loc_datas)
+            recursive_process_dict(value_new, loc_datas)
         elif key == "effect":
-            # del dictionary[key]
-            # continue
             key_new = key.replace("_", " ").title()
-            if 'country_event' in value:
+            if "country_event" in value:
                 del dictionary[key]
                 continue
             if "custom_tooltip" in value or "add_country_modifier" in value:
@@ -83,26 +86,16 @@ def recursive_process_dict(dictionary, loc_datas):
                         continue
                     result = transform_singular_entry(key, value["custom_tooltip"])
                     key_new, value_new = result if result is not None else (key, value["custom_tooltip"])
-                    dictionary["Effect"][key_new] = value_new
                 else:
-                    if 'hie_ita_gpv_fanti_da_mar_modifier' in value["add_country_modifier"]["name"]:
+                    if "hie_ita_gpv_fanti_da_mar_modifier" in value["add_country_modifier"]["name"]:
                         transform_multiple_entry(dictionary["Effect"], value)
                         continue
                     result = transform_singular_entry(key, value["add_country_modifier"])
                     key_new, value_new = result if result is not None else (key, value["add_country_modifier"])
-                    dictionary["Effect"][key_new] = value_new
-                continue
-                # result = transform_singular_entry(key, value)
-                # key_new, value_new = result if result is not None else (key, value)
-                # del dictionary[key]["custom_tooltip"]
-                # del dictionary[key]["add_country_modifier"]
+                dictionary["Effect"][key_new] = value_new
             else:
                 del dictionary[key]
-                continue
-                key_new = "Remove Temporary Colonist"
-                value_new = True
-            # else:
-            #     value_new = recursive_process_dict(value, loc_datas)
+            continue
         elif key.startswith("hie") or key in ("start", "bonus", "MFA_byzantine_claimants"):
             key_new = dict_loc.get(key)
             dictionary[key_new] = dictionary.pop(key)
@@ -121,87 +114,86 @@ def recursive_process_dict(dictionary, loc_datas):
 
 def transform_multiple_entry(dictionary, value):
     if "add_country_modifier" in value:
-        if 'hie_ita_gpv_fanti_da_mar_modifier' in value["add_country_modifier"]["name"]:
+        if "hie_ita_gpv_fanti_da_mar_modifier" in value["add_country_modifier"]["name"]:
             key_new = "Marines' Fire Damage"
             value_new = 0.10
             dictionary[key_new] = value_new
             key_new = "Marines' Shock Damage"
             value_new = 0.10
             dictionary[key_new] = value_new
-            key_new = "Marines' Shock Damage Received"
-            value_new = -0.10
-            dictionary[key_new] = value_new
+            dictionary["Marines' Shock Damage Received"] = -0.10
             return
-    else:
-        if 'HIE_SPA_AND_FUERO_JUZGO_TT' in value["custom_tooltip"]:
-            key_new = "Culture Group Provinces' Local Unrest"
-            value_new = -2
-            dictionary[key_new] = value_new
-            key_new = "Culture Group Provinces' Local Tax"
-            value_new = 0.15
-            dictionary[key_new] = value_new
-            return
-        elif 'HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT' in value["custom_tooltip"]:
-            key_new = "Italian Provinces' Local Unrest"
-            value_new = -2
-            dictionary[key_new] = value_new
-            key_new = "Italian Provinces' Defensiveness"
-            value_new = 0.10
-            dictionary[key_new] = value_new
-            return
-        elif 'HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT' in value["custom_tooltip"]:
-            key_new = "Iberian Provinces' Local Unrest"
-            value_new = -2
-            dictionary[key_new] = value_new
-            key_new = "Iberian Provinces' Local Autonomy"
-            value_new = -0.025
-            dictionary[key_new] = value_new
-            return
-        elif 'HIE_SPA_LEO_REINFORCE_THE_CORTES_TT' in value["custom_tooltip"] or 'HIE_ITA_SIC_PARRAMENTU_SICILIANU_TT' in value["custom_tooltip"]:
-            key_new = "Parliament Seat' Local Development Cost"
-            value_new = -0.10
-            dictionary[key_new] = value_new
-            key_new = "Parliament Seat' Governing Cost Modifier"
-            value_new = -0.15
-            dictionary[key_new] = value_new
-            "-10.0 Development Cost and -15.0 Governing Cost in Parliament Seat"
-            return
+    elif "HIE_SPA_AND_FUERO_JUZGO_TT" in value["custom_tooltip"]:
+        key_new = "Culture Group Provinces' Local Unrest"
+        value_new = -2
+        dictionary[key_new] = value_new
+        key_new = "Culture Group Provinces' Local Tax"
+        value_new = 0.15
+        dictionary[key_new] = value_new
+        return
+    elif "HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT" in value["custom_tooltip"]:
+        key_new = "Italian Provinces' Local Unrest"
+        value_new = -2
+        dictionary[key_new] = value_new
+        key_new = "Italian Provinces' Defensiveness"
+        value_new = 0.10
+        dictionary[key_new] = value_new
+        return
+    elif "HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT" in value["custom_tooltip"]:
+        key_new = "Iberian Provinces' Local Unrest"
+        value_new = -2
+        dictionary[key_new] = value_new
+        key_new = "Iberian Provinces' Local Autonomy"
+        value_new = -0.025
+        dictionary[key_new] = value_new
+        return
+    elif "HIE_SPA_LEO_REINFORCE_THE_CORTES_TT" in value["custom_tooltip"] or "HIE_ITA_SIC_PARRAMENTU_SICILIANU_TT" in value["custom_tooltip"]:
+        key_new = "Parliament Seat' Local Development Cost"
+        value_new = -0.10
+        dictionary[key_new] = value_new
+        key_new = "Parliament Seat' Governing Cost Modifier"
+        value_new = -0.15
+        dictionary[key_new] = value_new
+        "-10.0 Development Cost and -15.0 Governing Cost in Parliament Seat"
+        return
 
 
 def transform_singular_entry(key, value):
-    if 'duration' not in value:
-        if 'admirals_give_army_professionalism_tt' in value:
-            return "Army Professionalism gained from recruiting Admirals", 0.5
-        elif 'HIE_DEV_COST_REDUCTION_IN_ARCTIC_TT' in value:
-            return "Arctic Provinces's Developmetn Cost", -0.30
-        elif 'HIE_GOV_COST_REDUCTION_IN_PRUSSIAN_PROVINCES_TT' in value:
-            return "Prussian Provinces' Governing Cost", -0.15
-        elif 'HIE_RAG_ABOLITION_SLAVERY_TT' in value:
-            return "This will result in the Abolition of Slavery", True
-        elif 'HIE_SPA_BAS_REVITALIZE_CANTABRIAN_SHIPYARDS_TT' in value:
-            return "Iberian Naval Supplies Provinces' Trade Goods", 0.50
-        elif 'HIE_SPA_GAL_MODERNIZED_CAMINO_REAL_TT' in value:
-            return "Expanded Infrastructure Provinces' Local Tax", 0.15
-        elif 'HIE_SPA_GAL_ASIENTO_SYSTEM_TT' in value:
-            return "Colonial Subjects' Trade Goods Modifier", 0.10
-        elif 'HIE_TUS_THORNTON_EXPEDITION_TT' in value:
-            return "Colonial Colombia's Local Settler Increase", 25
-        elif 'HIE_ITA_CULLA_RINASCIMENTO_TT' in value:
-            return "Italy Provinces' Build Cost", -0.10
-        elif 'HIE_ITA_SAR_STATUTE_SABAUDIAE_TT' in value:
-            return "Latin Provinces' Governing Cost", -0.15
-        elif 'HIE_ITA_MFV_STELLA_FORTE_TT' in value:
-            return 'Chance of Lux Stella on new heirs', 0.02
-        elif 'HIE_ITA_CRU_DIO_LO_VUOLE_TT' in value:
-            return 'Years of Manpower recovered in Religious War won', 1
-
-    else:
-        if 'hie_ven_fanti_mar_modifier' in value["name"]:
+    if "duration" in value:
+        if "hie_ven_fanti_mar_modifier" in value["name"]:
             return "Marines' Shock Damage", 0.10
-        elif 'hie_hol_soldaten_ter_zee_modifier' in value["name"]:
+        elif "hie_hol_soldaten_ter_zee_modifier" in value["name"]:
             return "Marines' Infantry Combat Ability", 0.10
-        elif 'hie_pga_braccio_montone_modifier' in value["name"]:
+        elif "hie_pga_braccio_montone_modifier" in value["name"]:
             return "Mercenaries' Shock Damage", "0.10"
+    elif "admirals_give_army_professionalism_tt" in value:
+        return "Army Professionalism gained from recruiting Admirals", 0.5
+    elif "HIE_DEV_COST_REDUCTION_IN_ARCTIC_TT" in value:
+        return "Arctic Provinces's Developmetn Cost", -0.30
+    elif "HIE_DEV_COST_REDUCTION_IN_JUNGLE_TT" in value:
+        return "Jungle Provinces's Developmetn Cost", -0.15
+    elif "HIE_DEV_COST_REDUCTION_IN_TROPIC_TT" in value:
+        return "Tropical Provinces's Developmetn Cost", -0.10
+    elif "HIE_GOV_COST_REDUCTION_IN_PRUSSIAN_PROVINCES_TT" in value:
+        return "Prussian Provinces' Governing Cost", -0.15
+    elif "HIE_RAG_ABOLITION_SLAVERY_TT" in value:
+        return "This will result in the Abolition of Slavery", True
+    elif "HIE_SPA_BAS_REVITALIZE_CANTABRIAN_SHIPYARDS_TT" in value:
+        return "Iberian Naval Supplies Provinces' Trade Goods", 0.50
+    elif "HIE_SPA_GAL_MODERNIZED_CAMINO_REAL_TT" in value:
+        return "Expanded Infrastructure Provinces' Local Tax", 0.15
+    elif "HIE_SPA_GAL_ASIENTO_SYSTEM_TT" in value:
+        return "Colonial Subjects' Trade Goods Modifier", 0.10
+    elif "HIE_TUS_THORNTON_EXPEDITION_TT" in value:
+        return "Colonial Colombia's Local Settler Increase", 25
+    elif "HIE_ITA_CULLA_RINASCIMENTO_TT" in value:
+        return "Italy Provinces' Build Cost", -0.10
+    elif "HIE_ITA_SAR_STATUTE_SABAUDIAE_TT" in value:
+        return "Latin Provinces' Governing Cost", -0.15
+    elif "HIE_ITA_MFV_STELLA_FORTE_TT" in value:
+        return "Chance of Lux Stella on new heirs", 0.02
+    elif "HIE_ITA_CRU_DIO_LO_VUOLE_TT" in value:
+        return "Years of Manpower recovered in Religious War won", 1
 
 
 def create_localisation(loc_dir):
@@ -209,7 +201,7 @@ def create_localisation(loc_dir):
     index = 0
     tolerance = 0.0250
 
-    filenames = hie_filter(loc_dir, "l_english.yml")
+    filenames = glob.glob(os.path.join(loc_dir, "*l_english.yml"))
 
     for key in dict_ideas:
         index += 1
@@ -220,7 +212,7 @@ def create_localisation(loc_dir):
             del dict_ideas[key]["free"]
 
         for key_sub in dict_ideas[key]:
-            percentage = (index/(len(dict_ideas)*11)) * 100
+            percentage = (index / (len(dict_ideas) * 11)) * 100
             if abs(percentage % 5.0 - 0) < tolerance or abs(percentage % 5.0 - 5.0) < tolerance:
                 current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 print(f"Time: {current_time} - Progress: {percentage:.1f}%")
@@ -251,17 +243,11 @@ def create_localisation(loc_dir):
     print("Created the Localisation Dictionary")
 
 
-def hie_filter(gm_dir, gm_text):
-    gm_array = os.listdir(gm_dir)
-    return [gm_dir + "\\" + file for file in gm_array if file.endswith(gm_text)]
-
-
 def JsonParser(ideas_hie_out_be4_json):
     global dict_ideas
     try:
-        file = open(ideas_hie_out_be4_json, "r")
-        data = file.read()
-        file.close()
+        with open(ideas_hie_out_be4_json, "r") as file:
+            data = file.read()
     except FileNotFoundError:
         print(f"ERROR: Unable to find file: {ideas_hie_out_be4_json}")
         return None

@@ -1,7 +1,7 @@
-import os
 import glob
-from os.path import basename
+import os
 import re
+from os.path import basename
 
 
 def process_mod(mod_path, languages):
@@ -18,9 +18,9 @@ def process_mod(mod_path, languages):
     for file in filenames:
         with open(file, "r", encoding="utf8") as f:
             data = f.read()
-            data = data.replace('\ufeff', '')
+            data = data.replace("\ufeff", "")
             for current_lang, next_lang in zip(lang_list, lang_list[1:] + [lang_list[0]]):
-                data = re.sub(current_lang + r":", next_lang + ":", data)
+                data = re.sub(f"{current_lang}:", f"{next_lang}:", data)
                 final_folder = os.path.join(localisation_dir, languages[next_lang])
                 output_file = os.path.join(final_folder, f"{basename(file).split('l_english.yml')[0]}{next_lang}.yml")
                 if next_lang != "l_english":

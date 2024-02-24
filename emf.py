@@ -12,10 +12,8 @@ intents.message_content = True
 intents.messages = True
 intents.bans = True
 
-
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-
 
 # load cogs
 bot = commands.Bot(command_prefix="+", intents=intents, description="A Pizza Pizza Bot", case_insensitive=True, reload=True, max_messages=1000000000)
@@ -120,20 +118,21 @@ async def servers(ctx):
         for guild in guild_lst:
             await ctx.send(guild)
 
+
 @bot.command()
 @commands.has_role("Botmakers")
 async def invites(ctx):
-  invites = {}
-  for guild in bot.guilds:
-    print(guild)
-    for channel in guild.text_channels:
-      try:
-        invite = await channel.create_invite()
-        invites[guild.name] = invite.url
-        break
-      except disnake.Forbidden:
-        continue
-  await ctx.send(invites)
+    invites = {}
+    for guild in bot.guilds:
+        print(guild)
+        for channel in guild.text_channels:
+            try:
+                invite = await channel.create_invite()
+                invites[guild.name] = invite.url
+                break
+            except disnake.Forbidden:
+                continue
+    await ctx.send(invites)
 
 
 print("Pizza Pizza Pii~")

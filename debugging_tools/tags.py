@@ -1,10 +1,9 @@
 import os
 import re
-from distutils import text_file
 
 eu4DIR = r"A:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV"
 
-culture_input = eu4DIR + "\common\cultures\\00_cultures.txt"
+culture_input = eu4DIR + "\\common\\cultures\\00_cultures.txt"
 localisation_dir = eu4DIR + r"\localisation"
 culture_output = "cultures_exported.txt"
 
@@ -55,21 +54,13 @@ def buildCultures(input_file, culture_output, localized_folder):
 
         for filename in os.listdir(localized_folder):
             if filename.endswith("l_english.yml"):
-                with open(
-                    os.path.join(localized_folder, filename), "r", encoding="utf-8"
-                ) as loc_file:
+                with open(os.path.join(localized_folder, filename), "r", encoding="utf-8") as loc_file:
                     for line in loc_file:
                         line = line.strip()
                         if ":" in line:
                             key, value = line.split(":", 1)
                             key = key.strip()
-                            value = (
-                                value.strip()
-                                .strip('"')
-                                .replace('0 "', "")
-                                .replace('1 "', "")
-                                .replace('2 "', "")
-                            )
+                            value = value.strip().strip('"').replace('0 "', "").replace('1 "', "").replace('2 "', "")
                             localized_values[key] = value
 
         for group in culture_groups:

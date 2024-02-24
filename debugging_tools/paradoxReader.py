@@ -1,7 +1,6 @@
 import argparse
 import json
 import re
-import sys
 import time
 from os import listdir
 from os.path import basename, isdir, isfile, join
@@ -15,11 +14,7 @@ def main():
 
     if isdir(args.file_name):
         successful = 0
-        files = [
-            f
-            for f in listdir(args.file_name)
-            if isfile(join(args.file_name, f)) and str.endswith(f, ".txt")
-        ]
+        files = [f for f in listdir(args.file_name) if isfile(join(args.file_name, f)) and str.endswith(f, ".txt")]
         for file_name in tqdm(files):
             result = decode(join(args.file_name, file_name), args.intermediate, args.no_json)
             if result is not None:
@@ -75,9 +70,7 @@ def decode(file_path, save_intermediate, no_json):
     data = re.sub(r"\n", "", data, count=1)  # Remove the first new line
     data = re.sub(r"{(?=\w)", "{\n", data)  # reformat one-liners
     data = re.sub(r"(?<=\w)}", "\n}", data)  # reformat one-liners
-    data = re.sub(
-        r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data, flags=re.MULTILINE
-    )  # Add quotes around keys
+    data = re.sub(r"^[\w-]+(?=[\=\n><])", r'"\g<0>"', data, flags=re.MULTILINE)  # Add quotes around keys
     data = re.sub(r"([^><])=", r"\1:", data)  # Replace = with : but not >= or <=
     data = re.sub(
         r"(?<=:)(?!-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?)(?!\".*\")[^{\n]+",
@@ -92,12 +85,8 @@ def decode(file_path, save_intermediate, no_json):
     data = re.sub(r'{(("[a-zA-Z_]+")+)}', r"[\g<1>]", data)  # make lists
     data = re.sub(r'""', r'","', data)  # Add commas to lists
     data = re.sub(r'{("\w+"(,"\w+")*)}', r"[\g<1>]", data)
-    data = re.sub(
-        r"((\"hsv\")({\d\.\d{1,3}(,\d\.\d{1,3}){2}})),", r"{\g<2>:\g<3>},", data
-    )  # fix hsv objects
-    data = re.sub(
-        r":{([^}{:]*)}", r":[\1]", data
-    )  # if there's no : between list elements need to replace {} with []
+    data = re.sub(r"((\"hsv\")({\d\.\d{1,3}(,\d\.\d{1,3}){2}})),", r"{\g<2>:\g<3>},", data)  # fix hsv objects
+    data = re.sub(r":{([^}{:]*)}", r":[\1]", data)  # if there's no : between list elements need to replace {} with []
     data = re.sub(r"\[(\w+)\]", r'"\g<1>"', data)
     data = re.sub(r"\",:{", '":{', data)  # Fix user_empire_designs
     data = "{" + data + "}"

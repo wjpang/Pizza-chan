@@ -77,7 +77,7 @@ def build_correct_json():
             continue
         dict_new[key] = {}
         for reform_key, reform_value in value.items():
-            if reform_key != 'reform_levels':
+            if reform_key != "reform_levels":
                 continue
             for list_name, list_reform in reform_value.items():
                 dict_new[key][list_name] = {}
@@ -118,7 +118,18 @@ def build(dictionary):
 def recurse_process_dict(dictionary, loc_datas):
     """Final parser"""
     for key, value in list(dictionary.items()):
-        if key in {"icon", "legacy_equivalent", "allow_normal_conversion", "valid_for_nation_designer", "nation_designer_trigger", "nation_designer_cost", "ai", "hidden_effect", "effect", "removed_effect"}:  # noqa
+        if key in {
+            "icon",
+            "legacy_equivalent",
+            "allow_normal_conversion",
+            "valid_for_nation_designer",
+            "nation_designer_trigger",
+            "nation_designer_cost",
+            "ai",
+            "hidden_effect",
+            "effect",
+            "removed_effect",
+        }:  # noqa
             del dictionary[key]
         else:
             key_localisation_check = [
@@ -154,7 +165,30 @@ def recurse_process_dict(dictionary, loc_datas):
                 or key.startswith("superregion")
             ]
 
-            if key in {"monarchy", "republic", "tribal", "native", "theocracy", "modifiers", "custom_attributes", "potential", "trigger", "conditional", "check_variable", "change_variable", "allow", "government_abilities", "effect", "removed_effect", "post_removed_effect"} or "_opinion" in key or "country_modifier" in key:  # noqa
+            if (
+                key
+                in {
+                    "monarchy",
+                    "republic",
+                    "tribal",
+                    "native",
+                    "theocracy",
+                    "modifiers",
+                    "custom_attributes",
+                    "potential",
+                    "trigger",
+                    "conditional",
+                    "check_variable",
+                    "change_variable",
+                    "allow",
+                    "government_abilities",
+                    "effect",
+                    "removed_effect",
+                    "post_removed_effect",
+                }
+                or "_opinion" in key
+                or "country_modifier" in key
+            ):  # noqa
                 localized_name = key.replace("_", " ").title()
                 if key in {"monarchy", "republic", "tribal", "native", "theocracy"}:
                     value = localise_reform_tiers(value, dict_loc)
@@ -165,20 +199,20 @@ def recurse_process_dict(dictionary, loc_datas):
                 if key in dictionary:
                     dictionary[new_key] = dictionary.pop(key)
                 if not isinstance(value, (list, dict)) and (key == "custom_tooltip"):
-                    localized_name = dict_loc.get(value) or value.replace('_', ' ').title()
+                    localized_name = dict_loc.get(value) or value.replace("_", " ").title()
                     dictionary[new_key] = localized_name
                 elif isinstance(value, dict):
                     continue
                 elif isinstance(value, list):
                     for i, values in enumerate(value):
-                        localized_data = loc_datas.get(values) or values.replace('_', ' ').title()
+                        localized_data = loc_datas.get(values) or values.replace("_", " ").title()
                         dictionary[new_key][i] = localized_data
                 else:
-                    localized_data = loc_datas.get(value) or value.replace('_', ' ').title()
+                    localized_data = loc_datas.get(value) or value.replace("_", " ").title()
                     dictionary[new_key] = localized_data
             if isinstance(value, dict):
                 if "modifiers" in value or "Modifiers" in value:
-                    localized_name = dict_loc.get(key) or key.replace('_', ' ').title()
+                    localized_name = dict_loc.get(key) or key.replace("_", " ").title()
                     dictionary[localized_name] = dictionary.pop(key)
                     key = localized_name
                 recurse_process_dict(value, loc_datas)
@@ -198,7 +232,15 @@ def recurse_process_dict(dictionary, loc_datas):
                     new_key = key.replace("_", " ").title()
                 if isinstance(value, str) and value.title().endswith("Influence"):
                     new_value = value.replace("_", " ").title()
-                elif dict_loc.get(value) != "" and new_key.replace("_", " ").title() in ("Has Reform", "Have Had Reform", "Remove Country Modifier", "Add Country Modifier", "Modifier", "Remove Country Modifier", "Name"):
+                elif dict_loc.get(value) != "" and new_key.replace("_", " ").title() in (
+                    "Has Reform",
+                    "Have Had Reform",
+                    "Remove Country Modifier",
+                    "Add Country Modifier",
+                    "Modifier",
+                    "Remove Country Modifier",
+                    "Name",
+                ):
                     new_key = key.replace("_", " ").title()
                     new_value = dict_loc.get(value)
                 else:
@@ -245,14 +287,14 @@ def localise_reform_tiers(dictionary, dict_loc):
         elif counter == 1 and key == "Clergy In Administration":
             key = "faith_and_the_world"
         counter = counter - 1
-        if key == 'military_doctrines':
+        if key == "military_doctrines":
             if "Feudalism vs Autocracy" in dictionary or "feudalism_vs_autocracy" in dictionary:
                 new_key = "Royal Military Organization"
             elif "Republican Virtues" in dictionary or "republican_virtues" in dictionary:
                 new_key = "People's War Organization"
             else:
                 new_key = "Sacred War Organization"
-        elif key.startswith('economical_matters'):
+        elif key.startswith("economical_matters"):
             if "Feudalism vs Autocracy" in dictionary or "feudalism_vs_autocracy" in dictionary:
                 new_key = "Crown Economics"
             elif "Republican Virtues" in dictionary or "republican_virtues" in dictionary:
@@ -260,7 +302,7 @@ def localise_reform_tiers(dictionary, dict_loc):
             else:
                 new_key = "Divine Economics"
         else:
-            new_key = dict_loc.get(key) or key.replace('_', ' ').title()
+            new_key = dict_loc.get(key) or key.replace("_", " ").title()
         dictionary[new_key] = dictionary.pop(key)
         if counter == 0:
             break
@@ -282,14 +324,14 @@ def create_localisation(loc_dir, loc_dir_vanilla):
             localized_names[key] = ""
 
     for key in localized_names:
-        percentage = (index/len(localized_names)) * 100
+        percentage = (index / len(localized_names)) * 100
         if abs(percentage % 2.5 - 0) < tolerance or abs(percentage % 2.5 - 2.5) < tolerance:
             current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             print(f"Time: {current_time} - Progress: {percentage:.1f}%")
         index += 1
 
         if key.startswith("enables_"):
-            new_key = 'mechanic_' + key.split("=")[0].strip() + '_yes'
+            new_key = "mechanic_" + key.split("=")[0].strip() + "_yes"
         elif key.startswith(("name =", "modifier =")):
             new_key = key.split("=")[1].strip()
         else:

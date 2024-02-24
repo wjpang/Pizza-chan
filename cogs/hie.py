@@ -164,11 +164,8 @@ def shared_ideas(country):
     """Filter for countries with shared ideas"""
     msg = " shares HIE ideas with "
     # if country in {"FLORENCE", "LAN"}:
-    #.    return "TUS", f"Florence{msg}Tuscany"
-    if country in {"CUSCO", "CSU"}:
-        return ("INC", f"Cusco{msg}Inca")
-    else:
-        return False
+    # .    return "TUS", f"Florence{msg}Tuscany"
+    return ("INC", f"Cusco{msg}Inca") if country in {"CUSCO", "CSU"} else False
 
 
 class HIE(commands.Cog):

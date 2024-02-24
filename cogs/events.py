@@ -298,7 +298,7 @@ class Events(commands.Cog):
             await message.channel.send("/o/")
         elif content in {"o/", "\\o", "o7"}:
             await message.channel.send("Salutations o7")
-        elif 'kislev' in content.lower():
+        elif "kislev" in content.lower():
             await message.channel.send(random.choice(self.kislev_message))
 
     @commands.Cog.listener()

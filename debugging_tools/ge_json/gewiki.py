@@ -1,9 +1,5 @@
-import codecs
 import contextlib
 import os
-import random
-import re
-import shutil
 
 
 def start():
@@ -47,7 +43,7 @@ def start():
 
 
 def gmWiki(gmArray, name):
-    tiers = [gmArray[i] for i in range(len(gmArray)) if type(gmArray[i]) == str]
+    tiers = [gmArray[i] for i in range(len(gmArray)) if isinstance(gmArray[i], str)]
     with open(f"eu4wiki_{name}.txt", "w", encoding="utf8") as output:
         text = """__NOTOC__
 {{mod header|Governments Expanded}}
@@ -74,7 +70,7 @@ def gmWiki(gmArray, name):
 """
             )
             for j in range(len(gmArray)):
-                if type(gmArray[j]) != list:
+                if not isinstance(gmArray[j], list):
                     continue
                 if gmArray[j][2] == i:
                     with contextlib.suppress(Exception):
@@ -123,10 +119,10 @@ def gmWiki(gmArray, name):
 """
             )
             for j in range(len(gmArray)):
-                if type(gmArray[j]) != list:
+                if not isinstance(gmArray[j], list):
                     continue
                 if gmArray[j][2] == i:
-                    if type(gmArray[j][1]) == str:
+                    if isinstance(gmArray[j][1], str):
                         text = (
                             f"""{text}|- id="{gmArray[j][1]}"""
                             + """"
@@ -175,7 +171,7 @@ def gmLocal(gmArray, gmText):
         if skip:
             skip = False
             continue
-        elif type(gmArray[i]) == str:
+        elif isinstance(gmArray[i], str):
             gmArray[i + 1] = gmFind(gmArray[i], gmText)
             skip = True
         else:
@@ -203,7 +199,7 @@ def gmFilter(gmDir, gmText):
 def gmReforms(gmArray, gm_reforms):
     for ref in gmArray:
         for file in gm_reforms:
-            if type(ref) == str:
+            if isinstance(ref, str):
                 break
             with open(file, "r+") as gmFile:
                 for lineA in gmFile:

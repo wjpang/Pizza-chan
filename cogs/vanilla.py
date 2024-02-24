@@ -373,7 +373,7 @@ class VANILLA(commands.Cog):
                     message = message.replace(old, new)
 
                 if len(f"{message}\n```") >= 2000:
-                    chunks = [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
+                    chunks = [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
                     for chunk in chunks:
                         if not chunk.startswith("```ansi"):
                             await inter.send(f"```ansi\n{chunk}```")
@@ -387,8 +387,6 @@ class VANILLA(commands.Cog):
     async def monumentslist(self, inter):
         with open("./data/Vanilla_monuments.json", "r", encoding="utf-8") as f:
             monument_data = json.load(f)
-        chunk_size = 1990
-
         message = "```These are all the Monuments in Vanilla\n---------\n"
         monument_list = sorted([key.title() for key in monument_data])
 
@@ -396,7 +394,9 @@ class VANILLA(commands.Cog):
             message += f"{monument} \n"
 
         if len(f"{message}```") > 2000:
-            chunks = [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
+            chunk_size = 1990
+
+            chunks = [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
             for chunk in chunks:
                 if not chunk.startswith("```"):
                     await inter.send(f"```{chunk}```")

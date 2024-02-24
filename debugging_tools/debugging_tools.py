@@ -190,9 +190,8 @@ app.mainloop()
 
 def JsonParser(ideas_hie_out_be4_json):
     try:
-        file = open(ideas_hie_out_be4_json, "r")
-        data = file.read()
-        file.close()
+        with open(ideas_hie_out_be4_json, "r") as file:
+            data = file.read()
     except FileNotFoundError:
         print(f"ERROR: Unable to find file: {ideas_hie_out_be4_json}")
         return None

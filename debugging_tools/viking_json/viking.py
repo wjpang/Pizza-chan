@@ -180,9 +180,8 @@ def gmFilter(gmDir, gmText):
 
 def JsonParser(ideas_vikBeforeJson):
     try:
-        file = open(ideas_vikBeforeJson, "r")
-        data = file.read()
-        file.close()
+        with open(ideas_vikBeforeJson, "r") as file:
+            data = file.read()
     except FileNotFoundError:
         print("ERROR: Unable to find file: " + ideas_vikBeforeJson)
         return None

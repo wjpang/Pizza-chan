@@ -1,7 +1,6 @@
 import json
 
 import disnake
-import ftfy
 from disnake.ext import commands
 
 import embed_maker

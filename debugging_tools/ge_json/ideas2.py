@@ -3,12 +3,8 @@ Localise GE Reform Modifiers
 By LoStack: https://github.com/stackpoint
 """
 
-import codecs
-import json
 import os
-import random
 import re
-import shutil
 
 
 def start():
@@ -82,7 +78,7 @@ def scBuild(data, ideasNIE):
                                     if lineA5[-3:] == "yes" or lineA5[-2:] == "no":
                                         output.write(lineA4[1])
                                         break
-                                    lineA6 = re.findall("-*[0-9]+\.*[0-9]*", lineA5)[-1]
+                                    lineA6 = re.findall(r"-*[0-9]+\.*[0-9]*", lineA5)[-1]
                                     lineA7 = ""
                                     if lineB2[2].strip() != "1":
                                         lineA7 = str(float(lineA6) * float(lineB2[2]))
@@ -93,11 +89,7 @@ def scBuild(data, ideasNIE):
                                     if lineA7 == "":
                                         output.write(lineA4[1])
                                     else:
-                                        output.write(
-                                            lineA4[1].split(lineA6)[0]
-                                            + lineA7
-                                            + lineA4[1].split(lineA6)[1]
-                                        )
+                                        output.write(lineA4[1].split(lineA6)[0] + lineA7 + lineA4[1].split(lineA6)[1])
                                     break
                                 elif lineB2[1] != "":
                                     output.write(lineA4[0] + lineB2[1].strip() + lineA4[1])
@@ -151,52 +143,15 @@ def scLocal(outName, ideasNIE, DIR, level):
                                     if lineB.find(":") != -1:
                                         lineB2 = lineB.split(":", 1)
                                         if (
-                                            (
-                                                i == 5
-                                                and lineB2[0].casefold() == array[-1][0].casefold()
-                                            )
-                                            or (
-                                                i == 0
-                                                and lineB2[0].casefold()
-                                                == "MODIFIER_".casefold() + array[-1][0].casefold()
-                                            )
-                                            or (
-                                                i == 7
-                                                and lineB2[0].casefold() + "_MODIFIER".casefold()
-                                                == array[-1][0].casefold()
-                                            )
-                                            or (
-                                                i == 6
-                                                and lineB2[0].casefold() + "_SPEED".casefold()
-                                                == array[-1][0].casefold()
-                                            )
-                                            or (
-                                                i == 1
-                                                and lineB2[0].casefold()
-                                                == array[-1][0].casefold() + "_MOD".casefold()
-                                            )
-                                            or (
-                                                i == 4
-                                                and array[-1][0].find("_") != -1
-                                                and lineB2[0].casefold()
-                                                == array[-1][0].split("_", 1)[0].casefold()
-                                                + array[-1][0].split("_", 1)[1].casefold()
-                                            )
-                                            or (
-                                                i == 2
-                                                and lineB2[0].casefold() + "_MODIFIER".casefold()
-                                                == "MODIFIER_".casefold() + array[-1][0].casefold()
-                                            )
-                                            or (
-                                                i == 3
-                                                and lineB2[0].casefold()
-                                                == "YEARLY_".casefold() + array[-1][0].casefold()
-                                            )
-                                            or (
-                                                i == 8
-                                                and "GLOBAL_".casefold() + lineB2[0].casefold()
-                                                == array[-1][0].casefold()
-                                            )
+                                            (i == 5 and lineB2[0].casefold() == array[-1][0].casefold())
+                                            or (i == 0 and lineB2[0].casefold() == "MODIFIER_".casefold() + array[-1][0].casefold())
+                                            or (i == 7 and lineB2[0].casefold() + "_MODIFIER".casefold() == array[-1][0].casefold())
+                                            or (i == 6 and lineB2[0].casefold() + "_SPEED".casefold() == array[-1][0].casefold())
+                                            or (i == 1 and lineB2[0].casefold() == array[-1][0].casefold() + "_MOD".casefold())
+                                            or (i == 4 and array[-1][0].find("_") != -1 and lineB2[0].casefold() == array[-1][0].split("_", 1)[0].casefold() + array[-1][0].split("_", 1)[1].casefold())
+                                            or (i == 2 and lineB2[0].casefold() + "_MODIFIER".casefold() == "MODIFIER_".casefold() + array[-1][0].casefold())
+                                            or (i == 3 and lineB2[0].casefold() == "YEARLY_".casefold() + array[-1][0].casefold())
+                                            or (i == 8 and "GLOBAL_".casefold() + lineB2[0].casefold() == array[-1][0].casefold())
                                         ):
                                             array[-1][1] = lineB2[1].split('"', 1)[1][:-1]
                                             break

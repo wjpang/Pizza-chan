@@ -51,15 +51,10 @@ def merging_disasters(disaster_in):
                     continue
                 line_disaster = line_disaster.split("#")[0].replace("= { }", "= {\n}").replace("= {}", "= {\n}").strip() + "\n"
                 if "." in line_disaster and "=" not in line_disaster and ":" not in line_disaster:
-                    line_disaster = '"' + line_disaster.strip() + '"\n'
+                    line_disaster = f'"{line_disaster.strip()}' + '"\n'
                 disaster_merged_txt += line_disaster
                 line_disaster = line_disaster.strip()
-                if (
-                    line_disaster.startswith("fee_")
-                    or line_disaster.startswith("name = ")
-                    or line_disaster.startswith("custom_tooltip = ")
-                    or line_disaster.startswith("tooltip = ")
-                ):
+                if line_disaster.startswith("fee_") or line_disaster.startswith("name = ") or line_disaster.startswith("custom_tooltip = ") or line_disaster.startswith("tooltip = "):
                     if line_disaster.startswith("fee_"):
                         disaster_loc.append([line_disaster.split("=")[0].strip(), ""])
                     else:
@@ -166,14 +161,12 @@ def recurse_process_dict(dictionary, loc_datas, loc_provinces):
                             dictionary["Custom Trigger"] = new_value
                         else:
                             dictionary["Variable Arithmetic Trigger"] = new_value
-                    del dictionary[key]
-                else:
-                    if any(key in value for key in ("custom_tooltip", "tooltip")):
-                        if key == "custom_trigger_tooltip":
-                            dictionary["Custom Trigger"] = localized_names.get(value["tooltip"])
-                        else:
-                            dictionary["Variable Arithmetic Trigger"] = localized_names.get(value["custom_tooltip"])
-                    del dictionary[key]
+                elif any(key in value for key in ("custom_tooltip", "tooltip")):
+                    if key == "custom_trigger_tooltip":
+                        dictionary["Custom Trigger"] = localized_names.get(value["tooltip"])
+                    else:
+                        dictionary["Variable Arithmetic Trigger"] = localized_names.get(value["custom_tooltip"])
+                del dictionary[key]
                 continue
             elif any(check_key_localisation):
                 key_new = "Country" if key == "tag" else key.replace("_", " ").title()
@@ -246,7 +239,7 @@ def recurse_process_dict(dictionary, loc_datas, loc_provinces):
                 for ite in value:
                     if isinstance(ite, str):
                         if ite.startswith("disaster_fee"):
-                            localized_name = localized_names.get(ite + ".T")
+                            localized_name = localized_names.get(f"{ite}.T")
                             value_new.append(localized_name)
                         else:
                             value_new.append(ite.replace("_", " ").title())
@@ -266,7 +259,7 @@ def recurse_process_dict(dictionary, loc_datas, loc_provinces):
                         dictionary[key_new] = dictionary.pop(key)
                         dictionary[key_new] = localized_data
                     elif key in ("on_start", "on_end") or value.startswith("disaster_fee"):
-                        localized_name = localized_names.get(value_new + ".T")
+                        localized_name = localized_names.get(f"{value_new}.T")
                         if localized_name is not None:
                             value_new = localized_name
                     else:
@@ -306,11 +299,10 @@ def create_localisation_file(disaster_loc, LOC_DIR):
                 key = line.split("=")[0].split("disaster_")[1].strip().replace('"', "")
             elif "=" not in line:
                 key = line.strip().replace('"', "") + ".T"
+            elif "disaster_fee" in line:
+                key = line.split("=")[1].split("#")[0].strip().replace('"', "") + ".T"
             else:
-                if "disaster_fee" in line:
-                    key = line.split("=")[1].split("#")[0].strip().replace('"', "") + ".T"
-                else:
-                    key = line.split("=")[1].split("#")[0].strip().replace('"', "")
+                key = line.split("=")[1].split("#")[0].strip().replace('"', "")
 
             disaster_loc.append([key, ""])
 

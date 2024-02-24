@@ -29,9 +29,8 @@ dict_loc = {}
 dict_reform = {}
 dict_new = {}
 
-loc_datas = {}
 with open(database, "r", encoding="utf-8") as file:
-    localized_datas = json.load(file)
+    loc_datas = json.load(file)
 
 with open(provinces, "r", encoding="utf-8") as file:
     loc_provinces = json.load(file)
@@ -41,13 +40,13 @@ def start():
 
     ideas()
 
-    monuments()
+    # monuments()
 
-    reforms()
+    # reforms()
 
 
 def ideas():
-    JsonParser(vanilla_reforms_b4_json)
+    JsonParser(vanilla_ideas_b4_json)
     create_localisation(LOC_DIR)
 
     dict_final = recursive_process_ideas_dict(dict_vanilla, loc_datas)
@@ -90,31 +89,31 @@ def recursive_process_ideas_dict(dictionary, loc_datas):
             del dictionary[key]
             continue
 
-        if key.endswith("_ideas"):
-            key_new = key
-            if key == "jerusalem_ideas":
-                key_new = "KOJ"
-            elif key == "irish_ideas":
-                key_new = "IRE"
+        if key.endswith("_ideas") or key.endswith("_Ideas") or key.endswith("_ideas_2"):
+            if key == "CHICK_ideas":
+                key_new = "CHI"
+            elif key == "CHI_ideas":
+                key_new = "MNG"
             elif key == "ERANSHAHR_ideas":
                 key_new = "ERS"
             elif key == "fulani_jihad_ideas":
                 key_new = "SOK"
-            elif key == "CHI_ideas":
-                key_new = "MNG"
             elif key == "hausa_ideas":
                 key_new = "KTS"
-            elif key == "tongan_ideas":
-                key_new = "TOG"
+            elif key == "irish_ideas":
+                key_new = "IRE"
+            elif key == "jerusalem_ideas":
+                key_new = "KOJ"
             elif key == "samoan_ideas":
                 key_new = "SAM"
-            elif key == "CHICK_ideas":
-                key_new = "CHI"
-            key_new = key_new.replace("_ideas", "")
-            key_new = loc_datas.get(key_new)
+            elif key == "tongan_ideas":
+                key_new = "TOG"
+            else:
+                key_new = key
+            key_new = loc_datas.get(key_new.replace("_ideas", "").replace("_Ideas", ""))
             dictionary[key_new] = dictionary.pop(key)
             value_new = dictionary[key_new]
-            recursive_process_ideas_dict(dictionary[key_new], loc_datas)
+            recursive_process_ideas_dict(value_new, loc_datas)
         elif key == "effect":
             key_new = key.replace("_", " ").title()
             if "custom_tooltip" in value:
@@ -123,6 +122,8 @@ def recursive_process_ideas_dict(dictionary, loc_datas):
                     del dictionary[key]["custom_tooltip"]
                     del dictionary[key]["set_country_flag"]
             else:
+                del dictionary[key]
+                continue
                 key_new = "Remove Temporary Colonist"
             value_new = True
         elif isinstance(key, str) and isinstance(value, (dict, list)):
@@ -199,9 +200,9 @@ def recursive_process_monument_dict(dictionary, loc_names, loc_datas, loc_provin
             if isinstance(value, dict):
                 if key.replace("_", " ").title().startswith(("Province Is Or Accepts Religion", "Province Is Owner Culture")):
                     key_new = key.replace("_", " ").title()
-                    if key.endswith('religion_group'):
+                    if key.endswith("religion_group"):
                         value_new = loc_datas.get(dictionary[key]["religion_group"])
-                    elif key.endswith('religion'):
+                    elif key.endswith("religion"):
                         value_new = loc_datas.get(dictionary[key]["religion"])
                     else:
                         value_new = loc_datas.get(dictionary[key]["culture_group"])
@@ -230,15 +231,10 @@ def recursive_process_monument_dict(dictionary, loc_names, loc_datas, loc_provin
                         key_new = "Country" if key == "tag" else key.replace("_", " ").title()
                         if key in dictionary:
                             dictionary[key_new] = dictionary.pop(key)
-                        if isinstance(value, list):
-                            for i, values in enumerate(value):
-                                localized_data = loc_datas.get(values)
-                                localized_name = loc_names.get(values)
-                                dictionary[key_new][i] = localized_data if localized_data is not None else localized_name
-                        else:
-                            localized_data = loc_datas.get(value)
-                            localized_name = loc_names.get(value)
-                            dictionary[key_new] = localized_data if localized_data is not None else localized_name
+                        for i, values in enumerate(value):
+                            localized_data = loc_datas.get(values)
+                            localized_name = loc_names.get(values)
+                            dictionary[key_new][i] = localized_data if localized_data is not None else localized_name
                 else:
                     key_new = "Monument Trigger" if key == "can_upgrade_trigger" else key.replace("_", " ").title()
                     dictionary[key_new] = dictionary.pop(key)
@@ -274,7 +270,19 @@ def recursive_process_monument_dict(dictionary, loc_names, loc_datas, loc_provin
 def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
     """Final parser"""
     for key, value in list(dictionary.items()):
-        if key in {"icon", "legacy_equivalent", "allow_normal_conversion", "valid_for_nation_designer", "nation_designer_trigger", "nation_designer_cost", "ai", "hidden_effect", "effect", "removed_effect", "assimilation_cultures"}:  # noqa
+        if key in {
+            "icon",
+            "legacy_equivalent",
+            "allow_normal_conversion",
+            "valid_for_nation_designer",
+            "nation_designer_trigger",
+            "nation_designer_cost",
+            "ai",
+            "hidden_effect",
+            "effect",
+            "removed_effect",
+            "assimilation_cultures",
+        }:  # noqa
             del dictionary[key]
         else:
             key_localisation_check = [
@@ -311,7 +319,30 @@ def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
                 or key.startswith("superregion")
             ]
 
-            if key in {"monarchy", "republic", "tribal", "native", "theocracy", "modifiers", "custom_attributes", "potential", "trigger", "conditional", "check_variable", "change_variable", "allow", "government_abilities", "effect", "removed_effect", "post_removed_effect"} or "_opinion" in key or "country_modifier" in key:  # noqa
+            if (
+                key
+                in {
+                    "monarchy",
+                    "republic",
+                    "tribal",
+                    "native",
+                    "theocracy",
+                    "modifiers",
+                    "custom_attributes",
+                    "potential",
+                    "trigger",
+                    "conditional",
+                    "check_variable",
+                    "change_variable",
+                    "allow",
+                    "government_abilities",
+                    "effect",
+                    "removed_effect",
+                    "post_removed_effect",
+                }
+                or "_opinion" in key
+                or "country_modifier" in key
+            ):
                 localized_name = key.replace("_", " ").title()
                 if key in {"monarchy", "republic", "tribal", "native", "theocracy"}:
                     value = localise_reform_tiers(value, dict_loc)
@@ -322,22 +353,22 @@ def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
                 if key in dictionary:
                     dictionary[new_key] = dictionary.pop(key)
                 if not isinstance(value, (list, dict)) and (key == "custom_tooltip"):
-                    localized_name = dict_loc.get(value) or value.replace('_', ' ').title()
+                    localized_name = dict_loc.get(value) or value.replace("_", " ").title()
                     dictionary[new_key] = localized_name
                 elif isinstance(value, dict):
                     continue
                 elif isinstance(value, list):
                     for i, values in enumerate(value):
-                        if key.replace('_', ' ').title() == "Has Dlc":
-                            localized_data = loc_datas.get(values+'DLC')
+                        if key.replace("_", " ").title() == "Has Dlc":
+                            localized_data = loc_datas.get(f"{values}DLC")
                         else:
-                            localized_data = loc_datas.get(values) or values.replace('_', ' ').title()
+                            localized_data = loc_datas.get(values) or values.replace("_", " ").title()
                         dictionary[new_key][i] = localized_data
                 else:
-                    if key.replace('_', ' ').title() == "Has Dlc":
-                        localized_data = loc_datas.get(value+'DLC')
+                    if key.replace("_", " ").title() == "Has Dlc":
+                        localized_data = loc_datas.get(f"{value}DLC")
                     else:
-                        localized_data = loc_datas.get(value) or value.replace('_', ' ').title()
+                        localized_data = loc_datas.get(value) or value.replace("_", " ").title()
                     dictionary[new_key] = localized_data
             if isinstance(value, dict):
                 if key == "custom_trigger_tooltip":
@@ -346,13 +377,13 @@ def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
                     dictionary[key_new] = dictionary.pop(key)
                     dictionary[key_new] = value
                     continue
-                elif key == 'has_unlocked_government_reform':
+                elif key == "has_unlocked_government_reform":
                     value_new = dict_loc.get(dictionary[key]["government_reform"])
-                    key_new = key.replace('_', ' ').title()
+                    key_new = key.replace("_", " ").title()
                     dictionary[key_new] = dictionary.pop(key)
                     dictionary[key_new] = value_new
                 elif "modifiers" in value or "Modifiers" in value:
-                    localized_name = dict_loc.get(key) or key.replace('_', ' ').title()
+                    localized_name = dict_loc.get(key) or key.replace("_", " ").title()
                     dictionary[localized_name] = dictionary.pop(key)
                     key = localized_name
                 recrusive_process_reform_dict(value, dict_loc, loc_datas)
@@ -372,17 +403,23 @@ def recrusive_process_reform_dict(dictionary, dict_loc, loc_datas):
                     new_key = key.replace("_", " ").title()
                 if isinstance(value, str) and value.title().endswith("Influence"):
                     new_value = value.replace("_", " ").title()
-                elif dict_loc.get(value) != "" and new_key.replace("_", " ").title() in ("Has Reform", "Have Had Reform", "Remove Country Modifier", "Add Country Modifier", "Modifier", "Remove Country Modifier", "Name", "Hase Estate Privilege", "Mission Completed"):  # noqa
+                elif dict_loc.get(value) != "" and new_key.replace("_", " ").title() in (
+                    "Has Reform",
+                    "Have Had Reform",
+                    "Remove Country Modifier",
+                    "Add Country Modifier",
+                    "Modifier",
+                    "Remove Country Modifier",
+                    "Name",
+                    "Hase Estate Privilege",
+                    "Mission Completed",
+                ):
                     new_key = key.replace("_", " ").title()
-                    if new_key == "Mission Completed":
-                        new_value = dict_loc.get(value + '_title') or value.replace('_', ' ').title()
-                    else:
-                        new_value = dict_loc.get(value) or value.replace('_', ' ').title()
+                    new_value = dict_loc.get(f"{value}_title") or value.replace("_", " ").title() if new_key == "Mission Completed" else dict_loc.get(value) or value.replace("_", " ").title()
+                elif new_key in ("Has Country Flag", "Has Global Flag"):
+                    new_value = value.replace("_", " ").title()
                 else:
-                    if new_key in ("Has Country Flag", "Has Global Flag"):
-                        new_value = value.replace("_", " ").title()
-                    else:
-                        new_value = value
+                    new_value = value
                 if key in dictionary:
                     dictionary[new_key] = dictionary.pop(key)
                     dictionary[new_key] = new_value
@@ -394,8 +431,8 @@ def localise_reform_tiers(dictionary, dict_loc):
     """localises the reform file's tiers"""
     counter = len(dictionary)
     for key in dictionary:
-        if 'theocratic_leadership' in dictionary:
-            print('theocratic_leadership')
+        if "theocratic_leadership" in dictionary:
+            print("theocratic_leadership")
         if counter == 4 and key == "Separation Of Power":
             key = "guiding_principle_of_administration"
         elif counter == 3 and key == "Regionalism":
@@ -426,14 +463,14 @@ def localise_reform_tiers(dictionary, dict_loc):
             key = "culture_within_the_state"
         elif counter == 1 and key == "Divine Cause":
             key = "faith_and_the_world"
-        if key == 'military_doctrines':
+        if key == "military_doctrines":
             if "Feudalism vs Autocracy" in dictionary or "feudalism_vs_autocracy" in dictionary:
                 new_key = "Royal Military Organization"
             elif "Republican Virtues" in dictionary or "republican_virtues" in dictionary:
                 new_key = "People's War Organization"
             else:
                 new_key = "Sacred War Organization"
-        elif key.startswith('economical_matters'):
+        elif key.startswith("economical_matters"):
             if "Feudalism vs Autocracy" in dictionary or "feudalism_vs_autocracy" in dictionary:
                 new_key = "Crown Economics"
             elif "Republican Virtues" in dictionary or "republican_virtues" in dictionary:
@@ -441,7 +478,7 @@ def localise_reform_tiers(dictionary, dict_loc):
             else:
                 new_key = "Divine Economics"
         else:
-            new_key = dict_loc.get(key) or key.replace('_', ' ').title()
+            new_key = dict_loc.get(key) or key.replace("_", " ").title()
         dictionary[new_key] = dictionary.pop(key)
         counter = counter - 1
         if counter == 0:
@@ -452,10 +489,9 @@ def localise_reform_tiers(dictionary, dict_loc):
 
 def create_localisation(loc_dir):
     print("Started the creation of localisation")
-    index = 0
     tolerance = 0.0125
 
-    if 'hagia_sophia' in dict_vanilla:
+    if "hagia_sophia" in dict_vanilla:
         filenames = [
             f"{LOC_DIR}/domination_l_english.yml",
             f"{LOC_DIR}/king_of_kings_l_english.yml",
@@ -470,10 +506,10 @@ def create_localisation(loc_dir):
         filenames = vanillaFilter(loc_dir, "l_english.yml")
 
     for key in list(dict_vanilla):
-        if 'pre_dharma_mapping' in dict_vanilla:
+        if "pre_dharma_mapping" in dict_vanilla:
             continue
         dict_loc[key] = ""
-        if 'norse_ideas' in dict_vanilla:
+        if "norse_ideas" in dict_vanilla:
             for key_sub in dict_vanilla[key]:
                 if key_sub == "start":
                     dict_loc[key_sub] = "Traditions"
@@ -485,16 +521,14 @@ def create_localisation(loc_dir):
                     continue
 
                 dict_loc[key_sub] = ""
-        elif 'hagia_sophia' in dict_vanilla:
-            file = open(vanilla_monuemnts_b4_json)
-            input = file.readlines()
-            for line in input:
-                if '\ttooltip' in line:
-                    if line.split('=')[1].strip() != '{':
-                        dict_loc[line.split('=')[1].strip()] = ""
+        elif "hagia_sophia" in dict_vanilla:
+            with open(vanilla_monuemnts_b4_json) as file:
+                input_lines = file.readlines()
+            for line in input_lines:
+                if "\ttooltip" in line and line.split("=")[1].strip() != "{":
+                    dict_loc[line.split("=")[1].strip()] = ""
 
-    for key in dict_loc:
-        index += 1
+    for index, key in enumerate(dict_loc, start=1):
         percentage = (index / len(dict_loc)) * 100
 
         if abs(percentage % 2.5 - 0) < tolerance or abs(percentage % 2.5 - 2.5) < tolerance:
@@ -546,13 +580,12 @@ def merging_reforms(goverment_reforms):
                     or line_reform.startswith("tooltip =")
                     or (line_reform.endswith("yes") and line_reform.startswith("enables_") and not line_reform.endswith("idea_group = yes"))
                 ):
-                    if line_reform.endswith('= yes'):
-                        line_reform = line_reform.split('=')[0].strip()
+                    if line_reform.endswith("= yes"):
+                        line_reform = line_reform.split("=")[0].strip()
+                    elif line_reform.startswith("mission_completed"):
+                        line_reform = line_reform.split("=")[1].strip() + "_title"
                     else:
-                        if line_reform.startswith('mission_completed'):
-                            line_reform = line_reform.split('=')[1].strip() + '_title'
-                        else:
-                            line_reform = line_reform.split('=')[1].strip()
+                        line_reform = line_reform.split("=")[1].strip()
                     dict_loc[line_reform] = ""
         reforms_merged_txt += "\n"
 
@@ -569,7 +602,7 @@ def build_correct_json():
             continue
         dict_new[key] = {}
         for reform_key, reform_value in value.items():
-            if reform_key != 'reform_levels':
+            if reform_key != "reform_levels":
                 continue
             for list_name, list_reform in reform_value.items():
                 dict_new[key][list_name] = {}
@@ -602,9 +635,8 @@ def JsonParser(vanilla_file_input):
 
     if "\\" in vanilla_file_input:
         try:
-            file = open(vanilla_file_input, "r")
-            data = file.read()
-            file.close()
+            with open(vanilla_file_input, "r") as file:
+                data = file.read()
             file_name = basename(vanilla_file_input)
         except FileNotFoundError:
             print(f"ERROR: Unable to find file: {vanilla_file_input}")
@@ -613,7 +645,7 @@ def JsonParser(vanilla_file_input):
         data = vanilla_file_input
         file_name = "govRef.txt"
 
-    if 'monuments' in file_name:
+    if "monuments" in file_name:
         data = re.sub(r"^\tdate.*", "", data, flags=re.MULTILINE)
     else:
         data = data
@@ -672,7 +704,7 @@ def JsonParser(vanilla_file_input):
 
         return None
 
-    if '\\' in vanilla_file_input:
+    if "\\" in vanilla_file_input:
         dict_vanilla = json_data
     else:
         dict_reform = json_data

@@ -18,7 +18,7 @@ provinces = parent + "\\provinces.json"
 database = parent + "\\database.json"
 tags = parent + "\\tags.txt"
 
-MON_INPUT = glob.glob(MON_DIR + "\*.txt")
+MON_INPUT = glob.glob(MON_DIR + "\\*.txt")
 
 dict_original = {}
 dict_localisation = {}
@@ -144,9 +144,9 @@ def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
             if isinstance(value, dict):
                 if key.replace("_", " ").title().startswith(("Province Is Or Accepts Religion", "Province Is Owner Culture")):
                     key_new = key.replace("_", " ").title()
-                    if key.endswith('religion_group'):
+                    if key.endswith("religion_group"):
                         value_new = loc_datas.get(dictionary[key]["religion_group"])
-                    elif key.endswith('religion'):
+                    elif key.endswith("religion"):
                         value_new = loc_datas.get(dictionary[key]["religion"])
                     else:
                         value_new = loc_datas.get(dictionary[key]["culture_group"])
@@ -161,6 +161,7 @@ def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
                     key_new = key.replace("_", " ").title()
                 dictionary[key_new] = dictionary.pop(key)
                 dictionary[key_new] = value
+
                 key = key_new
                 recursive_dict(value, loc_names, loc_datas, loc_provinces)
             elif isinstance(value, list):
@@ -169,15 +170,10 @@ def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
                         key_new = "Country" if key == "tag" else key.replace("_", " ").title()
                         if key in dictionary:
                             dictionary[key_new] = dictionary.pop(key)
-                        if isinstance(value, list):
-                            for i, values in enumerate(value):
-                                localized_data = loc_datas.get(values)
-                                localized_name = loc_names.get(values)
-                                dictionary[key_new][i] = localized_data if localized_data is not None else localized_name
-                        else:
-                            localized_data = loc_datas.get(value)
-                            localized_name = loc_names.get(value)
-                            dictionary[key_new] = localized_data if localized_data is not None else localized_name
+                        for i, values in enumerate(value):
+                            localized_data = loc_datas.get(values)
+                            localized_name = loc_names.get(values)
+                            dictionary[key_new][i] = localized_data if localized_data is not None else localized_name
                 else:
                     key_new = "Monument Trigger" if key == "can_upgrade_trigger" else key.replace("_", " ").title()
                     dictionary[key_new] = dictionary.pop(key)
@@ -191,11 +187,10 @@ def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
             elif isinstance(key, str):
                 if key == "start":
                     key_new = "Province"
+                elif isinstance(value, bool) or key == "starting_tier" or any(key_localisation_check):
+                    key_new = key.replace("_", " ").title()
                 else:
-                    if isinstance(value, bool) or key == "starting_tier" or any(key_localisation_check):
-                        key_new = key.replace("_", " ").title()
-                    else:
-                        key_new = loc_datas.get(key)
+                    key_new = loc_datas.get(key)
                 value_new = loc_provinces.get(value) if key == "start" else loc_datas.get(value)
                 if key_new is None:
                     key_new = key
@@ -221,9 +216,8 @@ def json_parser(mon_file):
 
     if "\\" in mon_file:
         try:
-            file = open(mon_file, "r", encoding="utf8")
-            data = file.read()
-            file.close()
+            with open(mon_file, "r", encoding="utf8") as file:
+                data = file.read()
             file_name = basename(mon_file)
         except FileNotFoundError:
             print(f"ERROR: Unable to find file: {mon_file}")

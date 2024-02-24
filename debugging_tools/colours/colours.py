@@ -1,4 +1,5 @@
 """For Epilepsy Universalis: https://steamcommunity.com/sharedfiles/filedetails/?id=2964004232"""
+
 import itertools
 
 # Generate all possible color combinations in RGB mode
