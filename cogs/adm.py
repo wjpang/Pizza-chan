@@ -53,7 +53,7 @@ class ADM(commands.Cog):
 
             async for user in reaction.users():
                 if not isinstance(user, disnake.User) and player_role not in user.roles:
-                    await ctx.send(f"{user.mention} reacted but did not have the 'Player' role. Adding the role now.")
+                    await ctx.send(f"{user} reacted but did not have the 'Player' role. Adding the role now.")
                     await user.add_roles(player_role)
                     user_count += 1
 
