@@ -1545,7 +1545,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Number of accepted Cultures": 1,
-				"Cost of Advisors with Ruler's Culture": -0.15
+				"Cost of Advisors with Ruler Culture": -0.15
 			}
 		},
 		"Tier 3": {
@@ -1553,7 +1553,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Number of accepted Cultures": 2,
-				"Cost of Advisors with Ruler's Culture": -0.2,
+				"Cost of Advisors with Ruler Culture": -0.2,
 				"Promote Culture Cost": -0.15
 			}
 		}
@@ -4807,7 +4807,7 @@
 			"Area Modifier": [],
 			"Region Modifier": [],
 			"Country Modifiers": {
-				"Cost of Advisors with Ruler's Religion": -0.1,
+				"Cost of Advisors with Ruler Religion": -0.1,
 				"Tolerance of the True Faith": 2,
 				"All Estate's Loyalty Equilibrium": 0.05
 			}
@@ -4817,7 +4817,7 @@
 			"Area Modifier": [],
 			"Region Modifier": [],
 			"Country Modifiers": {
-				"Cost of Advisors with Ruler's Religion": -0.2,
+				"Cost of Advisors with Ruler Religion": -0.2,
 				"Tolerance of the True Faith": 2,
 				"All Estate's Loyalty Equilibrium": 0.1
 			}

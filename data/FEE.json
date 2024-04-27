@@ -846,7 +846,7 @@
 					}
 				},
 				"Every Enemy Country": {
-					"Country Event": {
+					"Event": {
 						"Id": "Greece Declares Independence!",
 						"Days": 2
 					}
@@ -1043,9 +1043,6 @@
 						"Casus Belli": "Independence"
 					}
 				}
-			},
-			"After": {
-				"Set Country Flag": "Hab Division 2"
 			}
 		},
 		"The Return Of The King": {
@@ -1083,9 +1080,6 @@
 			},
 			"We Need No New King!": {
 				"Add Stability Or Adm Power": true
-			},
-			"After": {
-				"Set Country Flag": "Elector Decided About Sty For Emperor"
 			}
 		},
 		"The Will Of The Electors": {
@@ -1137,9 +1131,6 @@
 					}
 				},
 				"Our Rivals May Join Them In Their Independence War.": true
-			},
-			"After": {
-				"Set Country Flag": "Hab Division 3"
 			}
 		},
 		"Last Testament Concerning [Hun.Getname]": {
@@ -1279,9 +1270,6 @@
 					}
 				},
 				"Independent Countries In South Germany May Join Them In Their Independence War.": true
-			},
-			"After": {
-				"Set Country Flag": "Hab Division 4"
 			}
 		},
 		"Reunification?": {
@@ -1560,7 +1548,7 @@
 			},
 			"Send Them The Proposal With Our Compliments...": {
 				"Tirol": {
-					"Country Event": {
+					"Event": {
 						"Id": "Proposal From [From.Capital.Getname]",
 						"Days": 3
 					}
@@ -1611,7 +1599,7 @@
 			},
 			"Send Them The Proposal With Our Compliments...": {
 				"Swabia": {
-					"Country Event": {
+					"Event": {
 						"Id": "Proposal From [From.Capital.Getname]",
 						"Days": 3
 					}
@@ -1650,7 +1638,7 @@
 			},
 			"Send Them The Proposal With Our Compliments...": {
 				"Hungary": {
-					"Country Event": {
+					"Event": {
 						"Id": "Proposal From [From.Capital.Getname]",
 						"Days": 3
 					}
@@ -1689,7 +1677,7 @@
 			},
 			"Send Them The Proposal With Our Compliments...": {
 				"Bohemia": {
-					"Country Event": {
+					"Event": {
 						"Id": "Proposal From [From.Capital.Getname]",
 						"Days": 3
 					}
@@ -1891,6 +1879,19 @@
 		}
 	},
 	"Disaster: Italian Republican Matter": {
+		"A Republican Matter": {
+			"Is Triggered Only": true,
+			"We Must Be Careful": {
+				"Add Stability": -3,
+				"Add Prestige": -50,
+				"Add Legitimacy Equivalent": {
+					"Amount": -50,
+					"Republican Tradition": -25
+				},
+				"In The Next Years Republicans And Monarchist Will Rise To Try Impose Their View. One Of Them Might Calm Down Only If We Decide To Become Either: \\Nany Monarchy With A Parliament \\Nconstitutional Republic": true,
+				"Set Country Flag": "Fee Ita Republican Matter"
+			}
+		},
 		"A New State": {
 			"Is Triggered Only": true,
 			"A New Constitution": {
@@ -1927,96 +1928,24 @@
 				"Add Stability": -1
 			}
 		},
-		"A Republican Matter": {
-			"Is Triggered Only": true,
-			"We Must Be Careful": {
-				"Add Stability": -1,
-				"Add Prestige": -20,
-				"Add Legitimacy Equivalent": {
-					"Amount": -20,
-					"Republican Tradition": -10
-				},
-				"In The Next Years Republicans In The North And Monarchist In The South Of Italy Will Rise To Try Impose Their View. One Of Them Might Calm Down Only If We Decide To Become Either: \\Nany Monarchy With A Parliament \\Nconstitutional Republic": true,
-				"Set Country Flag": "Fee Ita Republican Matter"
-			}
-		},
 		"Giovine Italia": {
 			"Is Triggered Only": true,
 			"Trigger": {
-				"Or": {
-					"Not": {
-						"Government": "republic"
-					},
-					"And": {
-						"Government": "republic",
-						"Not": {
-							"Has Reform": "constitutional_republic_reform"
-						}
-					}
+				"Government": "republic",
+				"Not": {
+					"Has Reform": "constitutional_republic_reform"
 				},
 				"Italy Region": {
 					"Owned By": "Root",
-					"Not": [
-						{
-							"Area": "Western Sicily"
-						},
-						{
-							"Area": "Eastern Sicily"
-						},
-						{
-							"Area": "Calabria"
-						},
-						{
-							"Area": "Apulia"
-						},
-						{
-							"Area": "Campania"
-						},
-						{
-							"Area": "Lazio-Umbria"
-						},
-						{
-							"Area": "Western Mediterranean Islands"
-						},
-						{
-							"Area": "Marche-Abruzzo"
-						},
-						{
-							"Has Province Flag": "Fee Ita Rebellion Republic 3"
-						}
-					]
+					"Not": {
+						"Has Province Flag": "Fee Ita Rebellion Republic 3"
+					}
 				}
 			},
 			"They Won'T Win": {
 				"Random Owned Province": {
 					"Limit": {
-						"Region": "Italy",
-						"Not": [
-							{
-								"Area": "Western Sicily"
-							},
-							{
-								"Area": "Eastern Sicily"
-							},
-							{
-								"Area": "Calabria"
-							},
-							{
-								"Area": "Apulia"
-							},
-							{
-								"Area": "Campania"
-							},
-							{
-								"Area": "Lazio-Umbria"
-							},
-							{
-								"Area": "Western Mediterranean Islands"
-							},
-							{
-								"Area": "Marche-Abruzzo"
-							}
-						]
+						"Region": "Italy"
 					},
 					"If": {
 						"Limit": {
@@ -2041,31 +1970,12 @@
 		"King'S Aider": {
 			"Is Triggered Only": true,
 			"Trigger": {
-				"Or": {
-					"Not": {
-						"Government": "monarchy"
-					},
-					"And": {
-						"Government": "monarchy",
-						"Not": {
-							"Has Parliament": true
-						}
-					}
+				"Government": "monarchy",
+				"Not": {
+					"Has Parliament": true
 				},
 				"Italy Region": {
 					"Owned By": "Root",
-					"Or": {
-						"Area": [
-							"Western Sicily",
-							"Eastern Sicily",
-							"Calabria",
-							"Apulia",
-							"Campania",
-							"Lazio-Umbria",
-							"Western Mediterranean Islands",
-							"Marche-Abruzzo"
-						]
-					},
 					"Not": {
 						"Has Province Flag": "Fee Ita Rebellion Monarchy 3"
 					}
@@ -2075,18 +1985,6 @@
 				"Random Owned Province": {
 					"Limit": {
 						"Region": "Italy",
-						"Or": {
-							"Area": [
-								"Western Sicily",
-								"Eastern Sicily",
-								"Calabria",
-								"Apulia",
-								"Campania",
-								"Lazio-Umbria",
-								"Western Mediterranean Islands",
-								"Marche-Abruzzo"
-							]
-						},
 						"Not": {
 							"Has Province Flag": "Fee Ita Rebellion Monarchy 3"
 						}
@@ -2326,8 +2224,7 @@
 					"Estate": "Nobility",
 					"Share": -33
 				}
-			},
-			"After": {}
+			}
 		},
 		"The Arrival Of The Skanderberg": {
 			"Is Triggered Only": true,
@@ -3312,7 +3209,7 @@
 					"Add Core": null
 				},
 				"Event Target Danzig Or War Enemy": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Poles Refuse"
 					}
 				}
@@ -3843,7 +3740,7 @@
 					"Type": "Restoration of Union"
 				},
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "Spanish Involvement",
 						"Days": 15
 					}
@@ -3962,7 +3859,7 @@
 							"Limit": {
 								"Is Papal Controller": true
 							},
-							"Country Event": {
+							"Event": {
 								"Id": "A Special Request",
 								"Days": 15
 							}
@@ -4001,7 +3898,7 @@
 				"Add Prestige": -10,
 				"Add Dip Power": 25,
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "Holy Father Accepts",
 						"Days": 15
 					},
@@ -4022,7 +3919,7 @@
 					"Add Papal Influence": 10
 				},
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "Holy Father Refuses",
 						"Days": 15
 					},
@@ -4085,6 +3982,237 @@
 				"Spanish Invasion Imminent": {
 					"Morale of Armies": 0.1,
 					"Expires": "1825 days"
+				}
+			}
+		}
+	},
+	"Disaster: Vijayaba Kollaya": {
+		"Palace Coup!": {
+			"Is Triggered Only": true,
+			"Death To Traitors!": {
+				"Kill Ruler": true,
+				"Add Stability": -2,
+				"Add Legitimacy": -50,
+				"Event Target Rebel Province 1": {
+					"Pretender Rebels": 3
+				},
+				"If": {
+					"Limit": {
+						"Has Saved Event Target": "rebel_province_2"
+					},
+					"Event Target Rebel Province 2": {
+						"Pretender Rebels": 3
+					}
+				},
+				"\\Nshould The Rebels Manage To Break Through The Capital'S Defenses Dire Consequences Will Result...": true,
+				"Set Country Flag": "Had Fee Vijayaba Kollaya"
+			}
+		},
+		"Collapse Of [Root.Getname]": {
+			"Is Triggered Only": true,
+			"We Went Quietly Into That Night...": {
+				"Define Ruler": {
+					"Dynasty": "Siri Sanga Bo",
+					"Culture": "Sinhalese",
+					"Religion": "Theravada"
+				},
+				"If": {
+					"Limit": {
+						"Any Owned Province": {
+							"Has Province Flag": "Disaster Fee Vijayaba Kollaya Provinces To Be Released"
+						}
+					},
+					"Every Owned Province": {
+						"Limit": {
+							"Has Province Flag": "Disaster Fee Vijayaba Kollaya Provinces To Be Released"
+						},
+						"[This.Getname] Is Ceded To A Non-Existing Core Nation.": true
+					},
+					"\\Nthe Released Nations Will Become Monarchies With A Ruler Of The Siri Sanga Bo Dynasty.": true
+				}
+			}
+		},
+		"Kingdom Triumphant": {
+			"Is Triggered Only": true,
+			"Peace At Last!": {
+				"Add Stability": 3,
+				"Add Prestige": 20,
+				"If": {
+					"Limit": {
+						"Has Estate": "Nobility"
+					},
+					"Change Estate Land Share": {
+						"Estate": "Nobility",
+						"Share": -10
+					},
+					"Punished Nobles": {
+						"Nobles Influence": -0.15,
+						"Nobles Loyalty Equilibrium": 0.1,
+						"Expires": "7300 days"
+					}
+				},
+				"Stabilized Realm": {
+					"National Unrest": -2,
+					"Stability Cost Modifier": -0.1,
+					"Global Monthly Devastation": -0.08,
+					"Expires": "Never"
+				}
+			}
+		},
+		"Soldiers Defect To Princes!": {
+			"Is Triggered Only": true,
+			"Trigger": {
+				"Not": {
+					"Has Country Flag": "Disaster Fee Vijayaba Kollaya 5 Happened"
+				}
+			},
+			"Curses!": {
+				"Add Yearly Manpower": -1,
+				"Army Disloyalty": {
+					"Morale of Armies": -0.1,
+					"Manpower Recovery Speed": -0.2,
+					"Expires": "On Disaster's End",
+					"Disaster": "Vijayaba Kollaya"
+				}
+			}
+		},
+		"Minister Plot Uncovered!": {
+			"Is Triggered Only": true,
+			"Trigger": {
+				"Or": {
+					"Has Adm Advisor": true,
+					"Has Dip Advisor": true
+				},
+				"Not": {
+					"Has Country Flag": "Disaster Fee Vijayaba Kollaya 6 Happened"
+				}
+			},
+			"Death By Flogging Is The Only Reward For Traitors!": {
+				"If": {
+					"Limit": {
+						"Has Country Flag": "Disaster Fee Vijayaba Kollaya Adm Advisor"
+					},
+					"Our Administrative Advisor [Root.Adm_Advisor.Getname] Will Die.": true
+				},
+				"Else": {
+					"Our Diplomatic Advisor [Root.Adm_Advisor.Getname] Will Die.": true
+				},
+				"Add Stability": -1,
+				"Add Prestige": -20,
+				"Add Mil Power": -5,
+				"Add Karma": -10
+			},
+			"Banish Them!": {
+				"If": {
+					"Limit": {
+						"Has Country Flag": "Disaster Fee Vijayaba Kollaya Adm Advisor"
+					},
+					"Remove Advisor By Category": "ADM"
+				},
+				"Else": {
+					"Remove Advisor By Category": "DIP"
+				},
+				"Add Stability": -1,
+				"Add Legitimacy": -20,
+				"Add Adm Power": -5,
+				"Add Karma": 10
+			}
+		},
+		"Ministers Name A Pretender": {
+			"Is Triggered Only": true,
+			"Trigger": {
+				"Any Owned Province": {
+					"Controlled By": "Root",
+					"Has Siege": false
+				},
+				"Not": {
+					"Has Country Flag": "Disaster Fee Vijayaba Kollaya 7 Happened"
+				}
+			},
+			"How Dare They?!": {
+				"Event Target Rebel Province": {
+					"Pretender Rebels": 2
+				},
+				"Master Of The Horse Defects": {
+					"Cavalry Cost": 0.2,
+					"Cavalry Combat Ability": -0.15,
+					"Expires": "On Disaster's End",
+					"Disaster": "Vijayaba Kollaya"
+				}
+			}
+		},
+		"A Counter Plot Is Hatched": {
+			"Is Triggered Only": true,
+			"Trigger": {
+				"Not": {
+					"Has Country Flag": "Disaster Fee Vijayaba Kollaya 8 Happened"
+				}
+			},
+			"Go Through With The Plot.": {
+				"Random List": {
+					"50": [
+						{
+							"Event": {
+								"Id": "Success!",
+								"Days": 1
+							}
+						},
+						{
+							"Event": {
+								"Id": "Counter-Plot Backfires!",
+								"Days": 1
+							}
+						}
+					]
+				},
+				"\\Nfailure Will Have Extremely Dire Consequences...": true
+			},
+			"It'S Too Risky...": {
+				"Add Prestige": -25
+			}
+		},
+		"Success!": {
+			"Is Triggered Only": true,
+			"Excellent!": {
+				"Add Stability": 1,
+				"Disband Rebels": "pretender_rebels"
+			}
+		},
+		"Counter-Plot Backfires!": {
+			"Is Triggered Only": true,
+			"Disastrous!": {
+				"Add Stability": -1,
+				"Add Legitimacy": -25,
+				"Set Country Flag": "Disaster Fee Vijayaba Kollaya 11 Will Happen",
+				"Capital Scope": {
+					"Spawn Rebels": {
+						"Type": "Pretender Rebels",
+						"Size": 3,
+						"Win": true
+					}
+				},
+				"Clr Country Flag": "Disaster Fee Vijayaba Kollaya 11 Will Happen",
+				"Event": {
+					"Id": "Vijayaba Kollaya",
+					"Days": 1
+				}
+			}
+		},
+		"Vijayaba Kollaya": {
+			"Is Triggered Only": true,
+			"There Was Nothing More To Be Done...": {
+				"Tooltip": {
+					"Kill Ruler": true
+				},
+				"Define Ruler": {
+					"Regency": true,
+					"Adm": 2,
+					"Dip": 2,
+					"Mil": 2
+				},
+				"Capital Scope": {
+					"Add Base Production": -2,
+					"Add Devastation": 100
 				}
 			}
 		}
@@ -4473,9 +4601,6 @@
 						}
 					}
 				}
-			},
-			"After": {
-				"Clr Country Flag": "Fee Events For Monumental Suggestion Active"
 			}
 		},
 		"Courtly Loans": {
@@ -4502,13 +4627,13 @@
 					"Limit": {
 						"Advisor": "Treasurer"
 					},
-					"Remove Advisor": "treasurer"
+					"Remove Advisor": "Treasurer"
 				},
 				"Else If": {
 					"Limit": {
 						"Advisor": "Master of Mint"
 					},
-					"Remove Advisor": "master_of_mint"
+					"Remove Advisor": "Master of Mint"
 				}
 			}
 		},
@@ -4540,9 +4665,6 @@
 					"National Unrest": 1.5,
 					"Expires": "On Ruler's Death"
 				}
-			},
-			"After": {
-				"Clr Country Flag": "Fee Events For A Full Days Work Active"
 			}
 		},
 		"Student Of Language?": {
@@ -4825,44 +4947,44 @@
 							"Limit": {
 								"Advisor": "Army Reformer"
 							},
-							"Kill Advisor": "army_reformer"
+							"Kill Advisor": "Army Reformer"
 						},
 						"Else If": [
 							{
 								"Limit": {
 									"Advisor": "Army Organizer"
 								},
-								"Kill Advisor": "army_organiser"
+								"Kill Advisor": "Army Organizer"
 							},
 							{
 								"Limit": {
 									"Advisor": "Commandant"
 								},
-								"Kill Advisor": "commandant"
+								"Kill Advisor": "Commandant"
 							},
 							{
 								"Limit": {
 									"Advisor": "Grand Captain"
 								},
-								"Kill Advisor": "grand_captain"
+								"Kill Advisor": "Grand Captain"
 							},
 							{
 								"Limit": {
 									"Advisor": "Naval Reformer"
 								},
-								"Kill Advisor": "naval_reformer"
+								"Kill Advisor": "Naval Reformer"
 							},
 							{
 								"Limit": {
 									"Advisor": "Quartermaster"
 								},
-								"Kill Advisor": "quartermaster"
+								"Kill Advisor": "Quartermaster"
 							},
 							{
 								"Limit": {
 									"Advisor": "Master Recruiter"
 								},
-								"Kill Advisor": "recruitmaster"
+								"Kill Advisor": "Master Recruiter"
 							}
 						]
 					}
@@ -4949,12 +5071,12 @@
 					}
 				},
 				"Mamluks": {
-					"Country Event": {
+					"Event": {
 						"Id": "Toob Menadir Trade"
 					}
 				},
 				"Syria": {
-					"Country Event": {
+					"Event": {
 						"Id": "Toob Menadir Trade"
 					}
 				},
@@ -4969,7 +5091,7 @@
 							}
 						}
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Toob Menadir Trade"
 					}
 				}
@@ -5136,6 +5258,383 @@
 			}
 		}
 	},
+	"Andhra": {
+		"Crossroads Of Andhra": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Current Age": "Age of Discovery"
+			},
+			"Mean Time To Happen": {
+				"Months": 24
+			},
+			"Isolationist Stance": {
+				"Add Mil Power": -50,
+				"Rebuilding Amaravathi": {
+					"Aggressive Expansion Impact": 0.15,
+					"Development Cost in Primary Culture": -0.1,
+					"Expires": "On Ruler's Death"
+				}
+			},
+			"Quest For Ancient Glory": {
+				"Add Adm Power": -50,
+				"Quest For Glory": {
+					"Core-Creation Cost": -0.1,
+					"Improve Relations": -0.15,
+					"Expires": "On Ruler's Death"
+				}
+			}
+		},
+		"Harmony In Amaravathi": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Owns": 543
+			},
+			"Mean Time To Happen": {
+				"Months": 12
+			},
+			"Seeking Foreign Buddhist Aid": {
+				"Add Treasury": -25,
+				"\\Nwe Will Ask Every Buddhist Country To Help Restore The Glory Of Amaravathi!": true
+			},
+			"Search For Buddhist Communities": {
+				"Add Treasury": -15,
+				"Set Capital": 543,
+				"Velanadu": {
+					"Rename Capital": "Amaravathi",
+					"Testament Of Tolerance": {
+						"Maximum Tolerance of Heathens": 1,
+						"Local Development Cost": -0.1,
+						"Expires": "Never"
+					}
+				}
+			},
+			"Focus On Capital": {
+				"Trigger": {
+					"Not": {
+						"Capital": 543
+					}
+				},
+				"Capital Scope": {
+					"Random List": {
+						"33": [
+							{
+								"Add Base Tax": 1
+							},
+							{
+								"Add Base Production": 1
+							},
+							{
+								"Add Base Manpower": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		"Rebuilding Amaravathi": {
+			"Is Triggered Only": true,
+			"Extend A Helping Hand": {
+				"Add Treasury": -5,
+				"Add Opinion": {
+					"Who": "From",
+					"Modifier": "Aided Reconstruction"
+				},
+				"Reverse Add Opinion": {
+					"Who": "From",
+					"Modifier": "Aided Reconstruction"
+				},
+				"From": {
+					"Add Treasury": 5
+				}
+			},
+			"Decline The Invitation": {
+				"Add Opinion": {
+					"Who": "From",
+					"Modifier": "Blocked Reconstruction"
+				},
+				"Reverse Add Opinion": {
+					"Who": "From",
+					"Modifier": "Blocked Reconstruction"
+				}
+			}
+		},
+		"The Satavahana Legacy": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Current Age": "Age of Discovery"
+			},
+			"Mean Time To Happen": {
+				"Months": 24
+			},
+			"Reclaim The Satavahana Legacy": {
+				"Add Adm Power": -100,
+				"Define Ruler": {
+					"Dynasty": "Satavahanas",
+					"Culture": "Telugu",
+					"Religion": "Hindu",
+					"Male": true,
+					"Claim": 50,
+					"Change Adm": 3,
+					"Max Random Adm": 5,
+					"Change Dip": 2,
+					"Max Random Dip": 4,
+					"Change Mil": 4,
+					"Max Random Mil": 6
+				},
+				"Override Country Name": "YOR_SAT",
+				"\\Nwe Will Lay Our Claim On The Ancient Holdings Of The Satavahana From South In Carnatic To The Northern Orissa": true
+			},
+			"Preserve The Current Legacy": {
+				"Add Legitimacy Or Mil Power": {
+					"Amount": 25,
+					"Republican Tradition": 12
+				},
+				"Add Prestige Or Monarch Power": 15,
+				"Capital Scope": {
+					"Add Base Tax": 1,
+					"Add Base Production": 1,
+					"Add Base Manpower": 1
+				}
+			}
+		},
+		"Embracing Ancient Roots": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Velanadu": {
+					"Owned By": "Root",
+					"Has Province Modifier": "Testament Of Tolerance"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 12
+			},
+			"Continue The Current Path": {
+				"Add Adm Power": 25
+			},
+			"Embrace The Old Roots Of Hinduism": {
+				"Trigger": {
+					"Not": {
+						"Religion": "Hindu"
+					}
+				},
+				"Change Religion": "Hindu",
+				"Capital Scope": {
+					"Change Religion": "Hindu"
+				}
+			},
+			"Follow The Way Of The Buddha": {
+				"Trigger": {
+					"Not": {
+						"Religion": "Theravada"
+					}
+				},
+				"Change Religion": "Theravada",
+				"Capital Scope": {
+					"Change Religion": "Theravada"
+				}
+			}
+		},
+		"The Triumph Of Golkonda": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Golconda Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Reclaiming The Jewel": {
+				"Persianate Society": {
+					"Cavalry Combat Ability": 0.1,
+					"Technology Cost": -0.05,
+					"Expires": "3650 days"
+				},
+				"Golconda Area": {
+					"Golkonda Leadership": {
+						"Local Goods Produced Modifier": 0.15,
+						"Local Trade Power Modifier": 0.1,
+						"Local Institution Spread": 0.1,
+						"Expires": "Never"
+					}
+				},
+				"\\Nwe Will Continue Expading Towards The Western Borders Of Our Empire.": true
+			}
+		},
+		"Berar Beckons": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Berar Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Conquering The Verdant North": {
+				"Submission Of Berari Lands": {
+					"Advisor Costs": -0.075,
+					"Development Cost": -0.05,
+					"Expires": "3650 days"
+				},
+				"Berar Area": {
+					"Berari Citadels": {
+						"Local Defensiveness": 0.15,
+						"Local Development Cost": -0.15,
+						"Local Fort Maintenance": -0.15,
+						"Local Garrison Size": 0.15,
+						"Expires": "Never"
+					}
+				},
+				"\\Nwe Will Continue Expading Towards The Northern Borders Of Our Empire.": true
+			}
+		},
+		"The Jewel Of Malwa": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Malwa Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Triumph In Mandu.": {
+				"Mandu": {
+					"City Of Mandu": {
+						"All Estate's Loyalty Equilibrium": 0.05,
+						"Manpower Recovery Speed": 0.075,
+						"Great Project Upgrade Cost": [
+							-0.1,
+							-0.1
+						],
+						"Expires": "3650 days"
+					}
+				},
+				"Malwa Area": {
+					"Add Base Manpower": 1
+				}
+			}
+		},
+		"Conquest At The Vijay Stamba": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Mewar Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Symbol Of Triumph.": {
+				"Chittor": {
+					"Vijay Stamba": {
+						"Discipline": 0.05,
+						"Morale of Armies": 0.075,
+						"Expires": "3650 days"
+					}
+				}
+			}
+		},
+		"Conquest Of The Koli Dominion": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Ahmednagar Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Expansion Into Ahmednagar": {
+				"Koli Military": {
+					"Mercenary Manpower": 0.125,
+					"Marathas Loyalty Equilibrium": 0.1,
+					"Rajput Loyalty Equilibrium": 0.1,
+					"Nobles Loyalty Equilibrium": 0.1,
+					"Expires": "3650 days"
+				},
+				"\\Nwe Will Continue Expading Towards The Western Borders Of Our Empire.": true
+			}
+		},
+		"Conquest Of The Gulf And Coast Of Gujarat": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Ahmedabad Area": {
+					"Type": "All",
+					"Or": {
+						"Not": {
+							"Has Port": true
+						},
+						"Owned By": "Root"
+					}
+				},
+				"Saurashtra Area": {
+					"Type": "All",
+					"Or": {
+						"Not": {
+							"Has Port": true
+						},
+						"Owned By": "Root"
+					}
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Eastern Expansion": {
+				"Add Mercantilism Or Monarch Power": {
+					"Amount": 5
+				},
+				"Vanya Merchants": {
+					"Global Trade Power": 0.1,
+					"Trade Range": 0.2,
+					"Expires": "3650 days"
+				},
+				"Khambhat": {
+					"Create Or Add Center Of Trade Level Fee": {
+						"Level": 3
+					}
+				}
+			}
+		},
+		"Fall Of Hampi": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Andhra",
+				"Rayalaseema Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Rise Of A New Dominion": {
+				"Vijayanagar": {
+					"Core-Creation Cost": -0.1,
+					"National Manpower Modifier": 0.15,
+					"Manpower Recovery Speed": 0.15,
+					"Expires": "18250 days"
+				}
+			}
+		}
+	},
 	"Ansbach": {
 		"The Ambition Of Achilles": {
 			"Fire Only Once": true,
@@ -5176,7 +5675,7 @@
 				},
 				"Add Treasury": -100,
 				"Emperor": {
-					"Country Event": {
+					"Event": {
 						"Id": "Margraves Of Ansbach",
 						"Days": 30
 					}
@@ -5202,7 +5701,7 @@
 				},
 				"Add Treasury": 100,
 				"Nuremberg": {
-					"Country Event": {
+					"Event": {
 						"Id": "Ansbachian Demands",
 						"Days": 30
 					}
@@ -5214,7 +5713,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Ansbanch Country Franconian Ambition"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Failed Negotiations",
 						"Days": 30
 					}
@@ -5228,7 +5727,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Ansbanch Country Franconian Ambition"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Burgraviate Of Nuremberg",
 						"Days": 30
 					}
@@ -5239,7 +5738,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Ansbanch Country Franconian Ambition"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Nuremberger Insubordination",
 						"Days": 30
 					}
@@ -5250,7 +5749,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Ansbanch Country Franconian Ambition"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Failed Negotiations",
 						"Days": 30
 					}
@@ -5377,17 +5876,7 @@
 							"Add Core": "Ansbach"
 						},
 						{
-							"Limit": {
-								"Not": [
-									{
-										"Owned By": null
-									},
-									{
-										"Is Permanent Claim": null
-									}
-								]
-							},
-							"Add Permanent Claim": null
+							"Add Permanent Claim": "Root"
 						}
 					],
 					"Upper Franconia Area": [
@@ -5398,17 +5887,7 @@
 							"Add Core": "Ansbach"
 						},
 						{
-							"Limit": {
-								"Not": [
-									{
-										"Owned By": null
-									},
-									{
-										"Is Permanent Claim": null
-									}
-								]
-							},
-							"Add Permanent Claim": null
+							"Add Permanent Claim": "Root"
 						}
 					],
 					"Change Tag": "Franconia",
@@ -5434,7 +5913,7 @@
 							"Limit": {
 								"Is Playing Custom Nation": false
 							},
-							"Country Event": {
+							"Event": {
 								"Id": "New Traditions & Ambitions"
 							}
 						}
@@ -5471,7 +5950,7 @@
 					"Exists": "Wurzburg"
 				},
 				"Wurzburg": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Ducal Title",
 						"Days": 30
 					}
@@ -5488,7 +5967,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Ansbanch Country Franconian Ambition"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Bishop Submits",
 						"Days": 30
 					},
@@ -5500,7 +5979,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Ansbanch Country Franconian Ambition"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Demands Refused!",
 						"Days": 30
 					}
@@ -5658,7 +6137,7 @@
 						"Limit": {
 							"Advisor": "Inquisitor"
 						},
-						"Kill Advisor": "inquisitor"
+						"Kill Advisor": "Inquisitor"
 					},
 					{
 						"Limit": {
@@ -5666,7 +6145,7 @@
 								"Advisor": "Inquisitor"
 							}
 						},
-						"Kill Advisor": "random"
+						"Kill Advisor": null
 					}
 				],
 				"Zaragoza": {
@@ -5718,7 +6197,7 @@
 						"Limit": {
 							"Advisor": "Inquisitor"
 						},
-						"Kill Advisor": "inquisitor"
+						"Kill Advisor": "Inquisitor"
 					},
 					{
 						"Limit": {
@@ -5726,7 +6205,7 @@
 								"Advisor": "Inquisitor"
 							}
 						},
-						"Kill Advisor": "random"
+						"Kill Advisor": null
 					}
 				],
 				"Zaragoza": {
@@ -6226,7 +6705,7 @@
 						"Is Reformation Center": true,
 						"Religion": "Reformed"
 					},
-					"Province Event": {
+					"Event": {
 						"Id": "Michael Servetus Tried In $Province$",
 						"Days": 30,
 						"Random": 10
@@ -6937,7 +7416,7 @@
 				"Add Dip Power": -5,
 				"Random List": {
 					"85": {
-						"Country Event": {
+						"Event": {
 							"Id": "Raid Returns With Spoils",
 							"Days": 60
 						},
@@ -7002,7 +7481,7 @@
 									},
 									"Is Capital": false
 								},
-								"Province Event": {
+								"Event": {
 									"Id": "$Province$ Raided By Barbary Corsairs",
 									"Days": 30,
 									"Random": 10
@@ -7011,7 +7490,7 @@
 						}
 					},
 					"15": {
-						"Country Event": {
+						"Event": {
 							"Id": "Raid Returns In Failure",
 							"Days": 60
 						},
@@ -7095,7 +7574,7 @@
 										"Has Province Modifier": "Raided By Pirates"
 									}
 								},
-								"Province Event": {
+								"Event": {
 									"Id": "Barbary Raid On $Province$ Repelled!",
 									"Days": 30,
 									"Random": 10
@@ -7201,7 +7680,7 @@
 							"Truce With": "Root"
 						}
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "\\Retaliation\\ For Barbary Raids",
 						"Days": 20
 					}
@@ -7601,7 +8080,7 @@
 							"Exists": "Poland"
 						},
 						"Poland": {
-							"Country Event": {
+							"Event": {
 								"Id": "The Bohemian Throne",
 								"Days": 30
 							}
@@ -7660,8 +8139,7 @@
 						"Leader": "Vladislav"
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"The Bohemian Throne": {
 			"Is Triggered Only": true,
@@ -7725,7 +8203,7 @@
 							"Exists": "Austria"
 						},
 						"Austria": {
-							"Country Event": {
+							"Event": {
 								"Id": "Civil War In Hungary",
 								"Days": 30
 							}
@@ -7736,7 +8214,7 @@
 							"Exists": "Poland"
 						},
 						"Poland": {
-							"Country Event": {
+							"Event": {
 								"Id": "Wladyslaw Jagiello King Of Hungary",
 								"Days": 30
 							}
@@ -7803,7 +8281,7 @@
 							"Exists": "Austria"
 						},
 						"Austria": {
-							"Country Event": {
+							"Event": {
 								"Id": "Civil War In Hungary",
 								"Days": 30
 							}
@@ -7814,7 +8292,7 @@
 							"Exists": "Ottomans"
 						},
 						"Ottomans": {
-							"Country Event": {
+							"Event": {
 								"Id": "The Kingdom Of Hungary",
 								"Days": 30
 							}
@@ -7888,41 +8366,9 @@
 			"Fire Only Once": true,
 			"Chaos Is Not A Pit Chaos Is A Ladder.": {
 				"Transylvania Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Southern Transylvania Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				}
 			}
@@ -8201,7 +8647,7 @@
 			},
 			"Respect The Will": {
 				"Brandenburg": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Inheritance Of Glogau",
 						"Days": 1
 					}
@@ -8210,7 +8656,7 @@
 			"Deny The Will The Duchy Is Ours!.": {
 				"Add Prestige Or Monarch Power": 5,
 				"Brandenburg": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Disputed Inheritance Of Glogau",
 						"Days": 1
 					}
@@ -8233,7 +8679,7 @@
 				"Add Army Tradition": 5,
 				"The Bohemian King And Silesians Dukes Might Declare War To Retake It.": true,
 				"Bohemia": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Invasion Of Glogau",
 						"Days": 1
 					}
@@ -8259,7 +8705,7 @@
 			},
 			"We Can Not Afford This Right Now.": {
 				"Brandenburg": {
-					"Country Event": {
+					"Event": {
 						"Id": "Gunboat Diplomacy",
 						"Days": 1
 					}
@@ -8289,7 +8735,7 @@
 			},
 			"I Can'T Wait For The Celebrations!": {
 				"Bohemia": {
-					"Country Event": {
+					"Event": {
 						"Id": "A Marriage Offer",
 						"Days": 1
 					}
@@ -8325,7 +8771,7 @@
 				},
 				"Start Plotting Against The Hohenzollerns.": true,
 				"Set Country Flag": "Ce Tricked Barbara",
-				"Country Event": {
+				"Event": {
 					"Id": "Integrate The Duchy",
 					"Days": 365
 				}
@@ -8339,7 +8785,7 @@
 			"Fire Only Once": true,
 			"Attempt To Take It From Her And Cast Her Aside.": {
 				"Brandenburg": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Betrayal Of Barbara",
 						"Days": 1
 					}
@@ -8460,7 +8906,7 @@
 			},
 			"Let Us Ask Them To Unite Our Realms": {
 				"Magdeburg": {
-					"Country Event": {
+					"Event": {
 						"Id": "Union With Brandenburg",
 						"Days": 1
 					}
@@ -8553,7 +8999,7 @@
 			},
 			"Who Shall Lead Us Now?": {
 				"The Palatinate": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Duchy Of Berg",
 						"Days": 30
 					}
@@ -8563,7 +9009,7 @@
 						"Exists": "Brandenburg"
 					},
 					"Brandenburg": {
-						"Country Event": {
+						"Event": {
 							"Id": "The Duchy Of Berg",
 							"Days": 30
 						}
@@ -8571,14 +9017,14 @@
 				},
 				"Else": {
 					"Prussia": {
-						"Country Event": {
+						"Event": {
 							"Id": "The Duchy Of Berg",
 							"Days": 30
 						}
 					}
 				},
 				"Austria": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Provincial Government",
 						"Days": 90
 					}
@@ -8628,7 +9074,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Brandenburg United Duchies Claimed Yes"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Aulic Council",
 						"Days": 30
 					}
@@ -8639,7 +9085,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Brandenburg United Duchies Claimed Yes"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Spoils Of War",
 						"Days": 30
 					}
@@ -8652,7 +9098,7 @@
 				"Add Army Tradition": 5,
 				"Create Alliance": "Berg",
 				"Emperor": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Seizure Of The United Duchies",
 						"Days": 360
 					}
@@ -8670,7 +9116,7 @@
 						}
 					},
 					"Emperor": {
-						"Country Event": {
+						"Event": {
 							"Id": "The Imperial Duchies",
 							"Days": 30
 						}
@@ -8695,7 +9141,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Brandenburg United Duchies Occupied Yes"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Spoils Of War",
 						"Days": 30
 					}
@@ -8707,7 +9153,7 @@
 					"Casus Belli": "Subjugation"
 				},
 				"France": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Imperial War For Julich-Cleves-Berg",
 						"Days": 100
 					}
@@ -8719,7 +9165,7 @@
 			"Is Triggered Only": true,
 			"Threaten To Ally The United Duchies": {
 				"Emperor": {
-					"Country Event": {
+					"Event": {
 						"Id": "French Intervention",
 						"Days": 30
 					}
@@ -8797,7 +9243,7 @@
 						}
 					},
 					"Berg": {
-						"Country Event": {
+						"Event": {
 							"Id": "The Treaty Of Xanten",
 							"Days": 30
 						}
@@ -8823,7 +9269,7 @@
 				},
 				"This Will Attempt To Seize The Entire Duchy For Ourselves \\Nberg Will Not Appriciate This.": true,
 				"Berg": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Second War Of Berg Succession",
 						"Days": 30
 					}
@@ -8909,7 +9355,7 @@
 			"Fire Only Once": true,
 			"Declare For Brandenburg.": {
 				"The Palatinate": {
-					"Country Event": {
+					"Event": {
 						"Id": "Berg Declares For Brandenburg",
 						"Days": 30
 					}
@@ -8921,7 +9367,7 @@
 						"Exists": "Brandenburg"
 					},
 					"Brandenburg": {
-						"Country Event": {
+						"Event": {
 							"Id": "Berg Declares For The Palatinate",
 							"Days": 30
 						}
@@ -8929,7 +9375,7 @@
 				},
 				"Else": {
 					"Prussia": {
-						"Country Event": {
+						"Event": {
 							"Id": "Berg Declares For The Palatinate",
 							"Days": 30
 						}
@@ -9803,10 +10249,10 @@
 			"Fire Only Once": true,
 			"Off With His Head": {
 				"Add Prestige": -10,
-				"Kill Advisor": "court_jew"
+				"Kill Advisor": null
 			},
 			"Lets Wait For The Evidence": {
-				"Country Event": {
+				"Event": {
 					"Id": "The Trial Of Lippold Ben Chluchim",
 					"Days": 30
 				}
@@ -9817,12 +10263,12 @@
 			"Fire Only Once": true,
 			"Have Him Tortured And Quartered Anyway": {
 				"Add Stability": -1,
-				"Kill Advisor": "court_jew"
+				"Kill Advisor": null
 			},
 			"Pay Our Outstanding Debts And Banish Him": {
 				"Add Years Of Income": -0.1,
 				"Add Prestige": -25,
-				"Remove Advisor": "court_jew"
+				"Remove Advisor": null
 			},
 			"Repay Our Debts And Apologise": {
 				"Trigger": {
@@ -9905,7 +10351,7 @@
 						"Culture Group": "Germanic",
 						"Religion": "Protestant"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Secularization Of The Order Of St John"
 					}
 				},
@@ -10280,7 +10726,7 @@
 			"We Cannot Afford This Right Now Ask Me Later.": {
 				"Add Prestige": -5,
 				"Set Country Flag": "Fee Bulgaria Statue Later",
-				"Country Event": {
+				"Event": {
 					"Id": "Statue Of Simeon The Great",
 					"Days": 1825
 				}
@@ -10653,26 +11099,22 @@
 				"Austria": {
 					"Dynasty": "von Habsburg"
 				},
-				"If": {
-					"Limit": {
-						"France": {
+				"France": {
+					"If": {
+						"Limit": {
 							"Is Free Or Tributary Trigger": false,
 							"Num Of Cities": 15,
 							"Not": {
 								"Dynasty": "ROOT"
 							}
-						}
-					},
-					"Or": {
-						"Castile": {
-							"Is Rival": "France"
 						},
-						"Spain": {
-							"Is Rival": "France"
-						}
-					},
-					"Austria": {
-						"Is Rival": "France"
+						"Or": {
+							"Is Enemy": [
+								"Castile",
+								"Spain"
+							]
+						},
+						"Is Enemy": "Austria"
 					}
 				}
 			},
@@ -10687,16 +11129,16 @@
 			}
 		},
 		"Charles V Ascends To The Throne": {
-			"Fire Only Once": [
-				true,
-				true
-			],
+			"Fire Only Once": true,
 			"Trigger": {
 				"Has Country Flag": "Fee Charles V Events Born",
 				"Austria": {
-					"Dynasty": "von Habsburg"
+					"Dynasty": "von Habsburg",
+					"Is Free Or Tributary Trigger": true,
+					"Ai": true
 				},
 				"Has Ruler": null,
+				"Dynasty": "von Habsburg",
 				"Not": [
 					{
 						"Has Country Flag": "Fee Charles V Events Dead"
@@ -10708,7 +11150,7 @@
 			},
 			"Long May He Reign!": {
 				"Custom Tooltip": [
-					"Charles von Habsburg will become the Holy Roman Emperor",
+					"FEE_CHARLES_V_BECOME_EMPEROR_TT",
 					"Charles Von Habsburg Will Become Ruler.",
 					"Every Country With Either Their Capital In The Europe Super Region Or That Are Part Of The Hre Will"
 				],
@@ -10733,7 +11175,7 @@
 				"Austria": {
 					"If": {
 						"Limit": {
-							"Has Subject Of Type": "personal_union"
+							"Has Subject Of Type": "Junior Partner"
 						},
 						"Every Subject Country": {
 							"Limit": {
@@ -10787,7 +11229,7 @@
 				"Set Country Flag": "Fee Charles V Abdicate Option",
 				"Break Union": "Austria",
 				"Custom Tooltip": [
-					"fee_charles_v_europe_no_longer_afraid_tt",
+					"FEE_CHARLES_V_EUROPE_NO_LONGER_AFRAID_TT",
 					"In The Division Of The Habsburg Lands It Has Been Decided That Due To The Origin Of Charles V And His Cadet House Of Von Habsburg In Spain'S Ancestry In The Burgundian Lands That In Return For The Surrender Of The Personal Union'S Gained From Austria Back To Austria The Austrian Netherlands And France Compte Shall Be Transfered To Spainish Domain Although Any Other Holy Roman Terrority Held By The Spainish Were To Be Transfered Back To Austria. \\Nwith This Iberia Would Leave The Holy Roman Empire For Good."
 				],
 				"If": {
@@ -10935,7 +11377,7 @@
 					"Break Union": "Austria"
 				},
 				"Custom Tooltip": [
-					"fee_charles_v_europe_no_longer_afraid_tt",
+					"FEE_CHARLES_V_EUROPE_NO_LONGER_AFRAID_TT",
 					"In The Division Of The Habsburg Lands It Has Been Decided That Due To The Origin Of Charles V And His Cadet House Of Von Habsburg In Spain'S Ancestry In The Burgundian Lands That In Return For The Surrender Of The Personal Union'S Gained From Austria Back To Austria The Austrian Netherlands And France Compte Shall Be Transfered To Spainish Domain Although Any Other Holy Roman Terrority Held By The Spainish Were To Be Transfered Back To Austria. \\Nwith This Iberia Would Leave The Holy Roman Empire For Good."
 				],
 				"Set Country Flag": "Fee Charles V Abdicate Option"
@@ -11162,7 +11604,7 @@
 		}
 	},
 	"Coffee": {
-		"Fee Coffee Events.Evtname1": {
+		"Coffee Plant Smuggled Into Italy": {
 			"Fire Only Once": true,
 			"Trigger": {
 				"Not": {
@@ -11182,29 +11624,22 @@
 			"Mean Time To Happen": {
 				"Months": 36
 			},
-			"Fee Coffee Events1.Evtopt1": {
-				"Name": "FEE_Coffee_Events1.EVTOPT1",
+			"Sell It! We Have No Other Use For It.": {
 				"Add Years Of Income": 1
 			},
-			"Fee Coffee Events1.Evtopt2": {
-				"Name": "FEE_Coffee_Events1.EVTOPT2",
+			"This Would Be A Fine Way To Start An Exotic Garden.": {
 				"Exotic Garden": {
 					"Yearly Prestige": 1,
 					"Expires": "7300 days"
 				}
-			},
-			"After": {
-				"Set Global Flag": "Fee Coffee Plant Smuggled Into Italy"
 			}
 		},
-		"Fee Coffee Events.Evtname2": {
+		"The Birth Of The Coffee Italica": {
 			"Is Triggered Only": true,
-			"Fee Coffee Events2.Evtopt1": {
-				"Name": "FEE_Coffee_Events2.EVTOPT1",
+			"As The Arabs Before We Should Guard The Secret Closely.": {
 				"Every Owned Province Producing Coffee Gets 'Coffee Italica' Until The End Of The Game Giving The Following Effects: \\Nlocal Goods Produced: +3.00\\N": true
 			},
-			"Fee Coffee Events2.Evtopt2": {
-				"Name": "FEE_Coffee_Events2.EVTOPT2",
+			"We Should Share Our Secrets For The Sake Of Coffee.": {
 				"Every Owned Province Producing Coffee Gets 'Coffee Italica' Until The End Of The Game Giving The Following Effects: \\Nlocal Goods Produced: +1.00\\N": true,
 				"Change Price": {
 					"Trade Goods": "Coffee",
@@ -12186,8 +12621,7 @@
 						"Expires": "Never"
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Il Sanseverino In Pellegrinaggio": {
 			"Is Triggered Only": true,
@@ -12201,8 +12635,7 @@
 					},
 					"Remove Province Modifier": "Gran Connestabile Alessandro"
 				}
-			},
-			"After": {}
+			}
 		},
 		"Il Ritorno A Napoli": {
 			"Is Triggered Only": true,
@@ -12234,8 +12667,7 @@
 					}
 				},
 				"The Sanseverino Will Tell Us Everything About His Pilgrimage And How He Strengthened The Relations With All The Courts He Visited From Venice To Rhodes Passing In Albania From Jerusalem To Cairo Returning Home.": true
-			},
-			"After": {}
+			}
 		},
 		"Roberto Al Soldo Fiorentino": {
 			"Is Triggered Only": true,
@@ -12336,8 +12768,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Roberto Al Soldo Milanese": {
 			"Is Triggered Only": true,
@@ -12411,8 +12842,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Roberto Al Soldo Piemontese": {
 			"Is Triggered Only": true,
@@ -12486,8 +12916,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Roberto Al Soldo Genovese": {
 			"Is Triggered Only": true,
@@ -12561,8 +12990,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Roberto Al Soldo Veneziano": {
 			"Is Triggered Only": true,
@@ -12636,8 +13064,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Roberto Al Soldo Papale": {
 			"Is Triggered Only": true,
@@ -12711,8 +13138,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Roberto Sanseverino: The Champion Of Naples": {
 			"Is Triggered Only": true,
@@ -12857,7 +13283,7 @@
 							"Senior Union With": "Norway"
 						},
 						"Norway": {
-							"Country Event": {
+							"Event": {
 								"Id": "Tausen Comes To Preach",
 								"Days": 30,
 								"Random": 20
@@ -12869,7 +13295,7 @@
 							"Senior Union With": "Sweden"
 						},
 						"Sweden": {
-							"Country Event": {
+							"Event": {
 								"Id": "Tausen Comes To Preach",
 								"Days": 30,
 								"Random": 20
@@ -13647,7 +14073,7 @@
 						}
 					],
 					"50": {
-						"Country Event": {
+						"Event": {
 							"Id": "Diversification Efforts Fail"
 						}
 					}
@@ -13711,7 +14137,7 @@
 				},
 				"Has Consort": true,
 				"Not": {
-					"Has Consort Flag": "fee_diseases_bubonic_consort_killed"
+					"Has Consort Flag": "Fee Diseases Bubonic Consort Killed"
 				}
 			},
 			"My Dear I Hope We Can Survive This.": {
@@ -13783,21 +14209,19 @@
 			"I Hope There Won'T Be New Fires.": {
 				"Add Base Production": -1,
 				"Damaged Goods": {
-					"desc": "fee_diseases_until_end_of_plague",
 					"Local Development Cost": 0.125,
 					"Local Trade Power Modifier": -0.125,
 					"Local Goods Produced Modifier": -0.125,
-					"Expires": "Never"
+					"Expires": "On Plague's End"
 				},
 				"Random Neighbor Province": {
 					"Random": {
 						"Chance": 66,
 						"Damaged Goods": {
-							"desc": "fee_diseases_until_end_of_plague",
 							"Local Development Cost": 0.125,
 							"Local Trade Power Modifier": -0.125,
 							"Local Goods Produced Modifier": -0.125,
-							"Expires": "Never"
+							"Expires": "On Plague's End"
 						}
 					}
 				}
@@ -13819,11 +14243,10 @@
 			"Couldn'T Them Be More Careful?": {
 				"Add Base Manpower": -1,
 				"Raven'S Spoil": {
-					"desc": "fee_diseases_until_end_of_plague",
 					"Local Manpower Modifier": -0.125,
 					"Local Regiment Cost": 0.125,
 					"Local Recruitment Time": 0.125,
-					"Expires": "Never"
+					"Expires": "On Plague's End"
 				},
 				"If": {
 					"Limit": {
@@ -13851,12 +14274,11 @@
 			},
 			"But Here We Will Stand.": {
 				"Shadow Of Ramparts": {
-					"desc": "fee_diseases_until_end_of_plague",
 					"Garrison Growth": -0.125,
 					"Local Assault Fort ability": 0.125,
 					"Local Assault Fort Cost Modifier": -0.125,
 					"Local Defensiveness": -0.125,
-					"Expires": "Never"
+					"Expires": "On Plague's End"
 				}
 			}
 		},
@@ -13885,8 +14307,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Epidemia Magna": {
 			"Is Triggered Only": true,
@@ -13918,8 +14339,7 @@
 					"Local Prosperity Growth": 1.5,
 					"Expires": "3650 days"
 				}
-			},
-			"After": {}
+			}
 		},
 		"A New Disease?": {
 			"Is Triggered Only": true,
@@ -14171,7 +14591,7 @@
 								}
 							}
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "Huguenot Dissidents",
 							"Days": 30
 						}
@@ -14327,8 +14747,7 @@
 			},
 			"On Second Thought Perhaps Ths Whole Thing Isn'T Worth It.": {
 				"Add Prestige": -10
-			},
-			"After": {}
+			}
 		},
 		"The Wicked Bible": {
 			"Fire Only Once": true,
@@ -14343,8 +14762,7 @@
 			},
 			"This Was Embarrassing But Still A Simple Mistake.": {
 				"Add Stability Or Adm Power": true
-			},
-			"After": {}
+			}
 		},
 		"The Acts Of Union": {
 			"Fire Only Once": true,
@@ -16104,7 +16522,7 @@
 				"Up To Once Every 15 Years A Trading Fair Will Be Hosted In An Owned Province With A Center Of Trade Of Any Level. \\Na Fair Can Return To The Same Province Only Once Every 20 Years.\\N\\Ntrading Fairs Will Spawn Until Global Trade.": true,
 				"Set Global Flag": "Fee Trading Fairs Enabled"
 			},
-			"I Want To Save Game Performance.": {
+			"Not Enough Gold My Lord.": {
 				"You Will Disable The Trading Fairs Thus Saving Some Performance In The Game In Exchange For The Loss Of Favour.": true,
 				"Clr Global Flag": "Fee Trading Fairs Enabled"
 			}
@@ -16113,7 +16531,7 @@
 			"Is Triggered Only": true,
 			"Welcome Them All.": {
 				"The Trading Caravans And Fairs Have Chosen [Event_Target_Fee_Fair_Province.Getname] To Host The Next Fair!": true,
-				"Country Event": {
+				"Event": {
 					"Id": "The End Of A The Fair",
 					"Days": 1825
 				},
@@ -16130,7 +16548,7 @@
 		"Trading Fair Explanation Progress": {
 			"Is Triggered Only": true,
 			"Let'S See The Result Explanation.": {
-				"Country Event": {
+				"Event": {
 					"Id": "Trading Fair Explanation Result"
 				}
 			},
@@ -16139,7 +16557,7 @@
 		"Trading Fair Explanation Result": {
 			"Is Triggered Only": true,
 			"Let'S See The Explanation Progress.": {
-				"Country Event": {
+				"Event": {
 					"Id": "Trading Fair Explanation Progress"
 				}
 			},
@@ -16166,8 +16584,7 @@
 						"Expires": "Never"
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"The End Of A The Fair": {
 			"Is Triggered Only": true,
@@ -16367,8 +16784,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Invitation To The Trading Fair": {
 			"Is Triggered Only": true,
@@ -16527,7 +16943,7 @@
 				"50": [
 					{
 						"Owner": {
-							"Country Event": {
+							"Event": {
 								"Id": "Luck?",
 								"Days": 30
 							}
@@ -16535,7 +16951,7 @@
 					},
 					{
 						"Owner": {
-							"Country Event": {
+							"Event": {
 								"Id": "Misfortune?",
 								"Days": 30
 							}
@@ -16551,8 +16967,7 @@
 						"Value": -5
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Luck?": {
 			"Is Triggered Only": true,
@@ -16622,7 +17037,7 @@
 					"Expires": "On Ruler's Death"
 				}
 			},
-			"": {
+			"And We Hold Dear The Kiss Of Luck That Brings Us Hope And Joy. ": {
 				"Trigger": {
 					"Has Ruler Flag": "Fee Kiss Luck Flag"
 				},
@@ -16741,8 +17156,7 @@
 					},
 					"Set Province Flag": "Fee Nomad Restored"
 				}
-			},
-			"After": {}
+			}
 		},
 		"Revolt In The Fair": {
 			"Is Triggered Only": true,
@@ -16806,8 +17220,7 @@
 						}
 					]
 				}
-			},
-			"After": {}
+			}
 		},
 		"Famous Artist": {
 			"Is Triggered Only": true,
@@ -16899,8 +17312,7 @@
 						"Value": -5
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Banquet Invitation": {
 			"Is Triggered Only": true,
@@ -16928,13 +17340,12 @@
 							"War With": "Root"
 						}
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Invitation To The Fair",
 						"Days": 30
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Invitation To The Fair": {
 			"Is Triggered Only": true,
@@ -16948,7 +17359,7 @@
 						"Who": "Root",
 						"Modifier": "Accepted Invitation"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Fair Invatation Accepted!",
 						"Days": 30
 					}
@@ -16964,7 +17375,7 @@
 						"Who": "Root",
 						"Modifier": "Declined Invitation"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Fair Invatation Declined!",
 						"Days": 30
 					}
@@ -17052,7 +17463,7 @@
 					"Expires": "18250 days"
 				},
 				"Every Subject Country": {
-					"Country Event": {
+					"Event": {
 						"Id": "Paris Seeks Control"
 					}
 				}
@@ -17120,7 +17531,7 @@
 					]
 				},
 				"Every Subject Country": {
-					"Country Event": {
+					"Event": {
 						"Id": "Paris Seeks Control"
 					}
 				}
@@ -17311,15 +17722,14 @@
 						"Modifier": "Provincialism"
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Paris Seeks Control": {
 			"Is Triggered Only": true,
 			"We Must Send A Delegation To Paris To Assert Our Rights!": {
 				"Add Liberty Desire": 10,
 				"Overlord": {
-					"Country Event": {
+					"Event": {
 						"Id": "French Feudal Lords Oppose The King",
 						"Days": 60
 					}
@@ -17346,7 +17756,7 @@
 			"Ignore Them!": {
 				"Add Stability": -1,
 				"Every Subject Country": {
-					"Country Event": {
+					"Event": {
 						"Id": "King Rejects Our Demands"
 					}
 				}
@@ -17476,7 +17886,7 @@
 							},
 							"Every Subject Country": {
 								"Add Liberty Desire": -10,
-								"Country Event": {
+								"Event": {
 									"Id": "Noble Leaders Arrested!",
 									"Days": 60
 								}
@@ -17622,7 +18032,7 @@
 									}
 								}
 							},
-							"Country Event": {
+							"Event": {
 								"Id": "Clergy Refuses!",
 								"Days": 60
 							}
@@ -17635,7 +18045,7 @@
 									"Loyalty": 60
 								}
 							},
-							"Country Event": {
+							"Event": {
 								"Id": "Clergy Accepts",
 								"Days": 60
 							}
@@ -17846,7 +18256,7 @@
 						}
 					],
 					"Every Subject Country": {
-						"Country Event": {
+						"Event": {
 							"Id": "Conflict Between King And Cities"
 						}
 					}
@@ -18008,7 +18418,7 @@
 					"Mercenary Maintenance": -0.1,
 					"Expires": "1950 days"
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Scottish Mercenaries",
 					"Days": 30
 				}
@@ -18082,7 +18492,7 @@
 			},
 			"We Must At Least Receive Our Rightful Tribute": {
 				"Brittany": {
-					"Country Event": {
+					"Event": {
 						"Id": "France Demands Tribute",
 						"Days": 1
 					}
@@ -18124,7 +18534,7 @@
 						"Who": "Root",
 						"Modifier": "Tribute Received"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Brittany Accepts"
 					}
 				}
@@ -18141,7 +18551,7 @@
 						"Who": "Root",
 						"Modifier": "Tribute Denied"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Brittany Refuses"
 					}
 				}
@@ -18202,7 +18612,7 @@
 			"A Corsican Rebellion Can Only Be Good For Us!": {
 				"Add Claim": 1247,
 				"Genoa": {
-					"Country Event": {
+					"Event": {
 						"Id": "Sampiero Corso",
 						"Days": 3
 					}
@@ -18249,6 +18659,7 @@
 			}
 		},
 		"Introduction Of The High-Temperature Forge": {
+			"Fire Only Once": true,
 			"Trigger": {
 				"Country": "France",
 				"Is Year": 1470,
@@ -18264,6 +18675,7 @@
 			}
 		},
 		"Foundation Of The Port Of La Havre": {
+			"Fire Only Once": true,
 			"Trigger": {
 				"Country": "France",
 				"Is Year": 1517,
@@ -18370,7 +18782,7 @@
 			},
 			"Offer The Ruler Of Burgundy The Right To Rule.": {
 				"Burgundy": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Compromise Of Gelre",
 						"Days": 10
 					}
@@ -18453,7 +18865,7 @@
 			},
 			"Make The Offer": {
 				"Burgundy": {
-					"Country Event": {
+					"Event": {
 						"Id": "Gelre Requests Financial Aid",
 						"Days": 3
 					}
@@ -18470,7 +18882,7 @@
 			"Is Triggered Only": true,
 			"Only The Title Of Duke Of Guelders Is Worth Such A Price. Take It Or Leave It": {
 				"Gelre": {
-					"Country Event": {
+					"Event": {
 						"Id": "Burgundy'S Proposal",
 						"Days": 3
 					}
@@ -18806,7 +19218,7 @@
 			"For Genoa!": {
 				"Genoa": {
 					"Controller": {
-						"Country Event": {
+						"Event": {
 							"Id": "Balilla Uprising In Genoa"
 						}
 					}
@@ -18882,21 +19294,9 @@
 						"Limit": {
 							"Has Dlc": "Leviathan",
 							"Is Expanded Mod Active": "Great Monuments",
-							"Or": {
-								"Has Great Project": [
-									{
-										"Type": null,
-										"Tier": 1
-									},
-									{
-										"Type": null,
-										"Tier": 2
-									},
-									{
-										"Type": null,
-										"Tier": 3
-									}
-								]
+							"Has Great Project": {
+								"Type": null,
+								"Tier": 1
 							}
 						},
 						"Add Great Project Tier": {
@@ -19424,147 +19824,25 @@
 					}
 				},
 				"Crimea Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Azov Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Trebizond": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								},
-								{
-									"Is Empty": true
-								},
-								{
-									"Is Wasteland": true
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Tolcu": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								},
-								{
-									"Is Empty": true
-								},
-								{
-									"Is Wasteland": true
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Bessarabia": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								},
-								{
-									"Is Empty": true
-								},
-								{
-									"Is Wasteland": true
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Sinop": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								},
-								{
-									"Is Empty": true
-								},
-								{
-									"Is Wasteland": true
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Kastamonu": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								},
-								{
-									"Is Empty": true
-								},
-								{
-									"Is Wasteland": true
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				}
 			}
 		},
@@ -19674,7 +19952,7 @@
 						"Exists": "Golden Horde"
 					},
 					"Golden Horde": {
-						"Country Event": {
+						"Event": {
 							"Id": "A Genoese Request",
 							"Days": 30,
 							"Random": 15
@@ -19683,7 +19961,7 @@
 				},
 				"Else": {
 					"Great Horde": {
-						"Country Event": {
+						"Event": {
 							"Id": "A Genoese Request",
 							"Days": 30,
 							"Random": 15
@@ -19783,7 +20061,7 @@
 						"Exists": "Russia"
 					},
 					"Russia": {
-						"Country Event": {
+						"Event": {
 							"Id": "Genovese Embassy",
 							"Days": 1
 						}
@@ -19791,7 +20069,7 @@
 				},
 				"Else": {
 					"Muscovy": {
-						"Country Event": {
+						"Event": {
 							"Id": "Genovese Embassy",
 							"Days": 1
 						}
@@ -19902,7 +20180,7 @@
 					"Amount": 3
 				},
 				"Mers el Kebir": {
-					"Province Event": {
+					"Event": {
 						"Id": "Malfante In Honaine",
 						"Days": 180
 					}
@@ -19958,14 +20236,6 @@
 						"Modifier": "Economy Suffering due to Diverted Trade"
 					}
 				}
-			},
-			"After": {
-				"From": {
-					"Country Event": {
-						"Id": "Golden Sahara?",
-						"Days": 180
-					}
-				}
 			}
 		},
 		"Golden Sahara?": {
@@ -19973,7 +20243,7 @@
 			"Fire Only Once": true,
 			"Finance It The Gold Will Be Ours.": {
 				"Add Treasury": -15,
-				"Country Event": {
+				"Event": {
 					"Id": "Malfante In Sijilmasa",
 					"Days": 180
 				}
@@ -19989,7 +20259,7 @@
 				"Tafilalt": {
 					"Add Base Production": 2
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Malfante Nel Subshara",
 					"Days": 180
 				}
@@ -20011,7 +20281,7 @@
 				},
 				"We Will Discover All Provinces In The Timbuktu Trade Node": true,
 				"Mallorca": {
-					"Province Event": {
+					"Event": {
 						"Id": "Malfante In Mallorca",
 						"Days": 180
 					}
@@ -20054,7 +20324,7 @@
 					"Tradition": 35,
 					"Culture": "Ligurian"
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Noli At The Coast Of Atlantic Africa",
 					"Days": 180
 				}
@@ -20072,7 +20342,7 @@
 					"Modifier": "Increased Production Through Export"
 				},
 				"Genoa": {
-					"Country Event": {
+					"Event": {
 						"Id": "Il Noli In Genoa",
 						"Days": 30
 					}
@@ -20108,15 +20378,14 @@
 					"Tradition": 35,
 					"Culture": "Ligurian"
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Noli At The Coast Of Atlantic Africa",
 					"Days": 180
 				}
 			},
 			"There'S Nothing Outside The Pillars Or Ercules.": {
 				"Reduce Estate Burghers Loyalty Effect": true
-			},
-			"After": {}
+			}
 		},
 		"Noli At The Coast Of Atlantic Africa": {
 			"Is Triggered Only": true,
@@ -20743,7 +21012,7 @@
 					"Limit": {
 						"Religion": "Protestant"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Martin Luther In Hiding"
 					}
 				}
@@ -21035,7 +21304,7 @@
 					}
 				},
 				"Bohemia": {
-					"Country Event": {
+					"Event": {
 						"Id": "Austrian Reparations",
 						"Days": 30
 					}
@@ -21052,7 +21321,7 @@
 					}
 				},
 				"Austria": {
-					"Country Event": {
+					"Event": {
 						"Id": "Bohemia The Just",
 						"Days": 30
 					}
@@ -21072,7 +21341,7 @@
 						}
 					},
 					"Hungary": {
-						"Country Event": {
+						"Event": {
 							"Id": "Crusade Of Prague",
 							"Days": 30
 						}
@@ -21141,7 +21410,7 @@
 			},
 			"We Shall Not Listen To These Wicked Demands": {
 				"Hungary": {
-					"Country Event": {
+					"Event": {
 						"Id": "Austrian Betrayal",
 						"Days": 30
 					}
@@ -21423,7 +21692,7 @@
 			"If This Is The Price To Pay To Survive The Hungarian Onslaught.": {
 				"This Will Cause Lusatia Silesia And Moravia To Seccede From The Hussite Bohemian Crown And Seek Hungarian Catholic Protection.": true,
 				"Hungary": {
-					"Country Event": {
+					"Event": {
 						"Id": "King Of Bohemia"
 					}
 				}
@@ -21500,7 +21769,7 @@
 							"Set Country Flag": "Ce Fought Union Of Nations"
 						},
 						{
-							"Country Event": {
+							"Event": {
 								"Id": "Crushed The Estates",
 								"Days": 30
 							}
@@ -21917,7 +22186,7 @@
 						}
 					}
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Pedro Madruga"
 				}
 			},
@@ -22562,7 +22831,7 @@
 					"Add Devastation": 100
 				},
 				"Add Stability": -1,
-				"Country Event": {
+				"Event": {
 					"Id": "Foundations Of Seismology"
 				}
 			},
@@ -22578,7 +22847,7 @@
 					"Stability Cost Modifier": 0.2,
 					"Yearly Prestige": -1
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Foundations Of Seismology"
 				}
 			},
@@ -22614,7 +22883,7 @@
 						"Duration": 3650
 					}
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Foundations Of Seismology"
 				}
 			}
@@ -22679,7 +22948,7 @@
 					"Religion": "Catholic",
 					"Cost Multiplier": 0.5
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "University Of Alcala"
 				},
 				"Add Corruption": -2,
@@ -23567,112 +23836,86 @@
 					"Casus Belli": "Restoration of Union",
 					"Who": "Naples"
 				},
-				"If": [
-					{
+				"Milan": {
+					"If": {
 						"Limit": {
-							"Exists": "Milan",
-							"Milan": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
-						"Milan": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Ferrara",
-							"Ferrara": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Ferrara": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "The Papal State",
-							"The Papal State": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"The Papal State": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Venice",
-							"Venice": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Venice": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Mantua",
-							"Mantua": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Mantua": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Genoa",
-							"Genoa": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Genoa": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Aragon",
-							"Aragon": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Aragon": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Castile",
-							"Castile": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Castile": {
-							"Country Event": {
-								"Id": "French Claim On Naples"
-							}
+						"Event": {
+							"Id": "French Claim On Naples"
 						}
 					}
-				]
+				},
+				"Ferrara": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				},
+				"The Papal State": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				},
+				"Venice": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				},
+				"Mantua": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				},
+				"Genoa": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				},
+				"Aragon": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				},
+				"Castile": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "French Claim On Naples"
+						}
+					}
+				}
 			},
 			"We Can'T Risk This War.": {
 				"Add Prestige": -15,
@@ -23936,86 +24179,66 @@
 					"Casus Belli": "Subjugation",
 					"Who": "Milan"
 				},
-				"If": [
-					{
+				"The Papal State": {
+					"If": {
 						"Limit": {
-							"Exists": "The Papal State",
-							"The Papal State": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
-						"The Papal State": {
-							"Country Event": {
-								"Id": "Defense Of Milan"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Venice",
-							"Venice": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Venice": {
-							"Country Event": {
-								"Id": "Defense Of Milan"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Switzerland",
-							"Switzerland": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Switzerland": {
-							"Country Event": {
-								"Id": "Defense Of Milan"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Naples",
-							"Naples": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Naples": {
-							"Country Event": {
-								"Id": "Defense Of Milan"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Aragon",
-							"Aragon": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Aragon": {
-							"Country Event": {
-								"Id": "Defense Of Milan"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Castile",
-							"Castile": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Castile": {
-							"Country Event": {
-								"Id": "Defense Of Milan"
-							}
+						"Event": {
+							"Id": "Defense Of Milan"
 						}
 					}
-				]
+				},
+				"Venice": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Defense Of Milan"
+						}
+					}
+				},
+				"Switzerland": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Defense Of Milan"
+						}
+					}
+				},
+				"Naples": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Defense Of Milan"
+						}
+					}
+				},
+				"Aragon": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Defense Of Milan"
+						}
+					}
+				},
+				"Castile": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Defense Of Milan"
+						}
+					}
+				}
 			},
 			"We Can'T Risk This War.": {
 				"Add Prestige": -15,
@@ -24074,165 +24297,126 @@
 					"Casus Belli": "Humiliate",
 					"Who": "Venice"
 				},
-				"If": [
-					{
+				"Ferrara": {
+					"If": {
 						"Limit": {
-							"Exists": "Ferrara",
-							"Ferrara": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
-						"Ferrara": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Mantua",
-							"Mantua": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Mantua": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Milan",
-							"Milan": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Milan": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Urbino",
-							"Urbino": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Urbino": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "England",
-							"England": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"England": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Scotland",
-							"Scotland": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Scotland": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Switzerland",
-							"Switzerland": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Switzerland": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": null,
-							"Emperor": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Emperor": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "The Papal State",
-							"The Papal State": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"The Papal State": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Aragon",
-							"Aragon": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Aragon": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Castile",
-							"Castile": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Castile": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Spain",
-							"Spain": {
-								"Is Free Or Tributary Trigger": true,
-								"Is Emperor": false
-							}
-						},
-						"Spain": {
-							"Country Event": {
-								"Id": "The Holy League"
-							}
+						"Event": {
+							"Id": "The Holy League"
 						}
 					}
-				]
+				},
+				"Mantua": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Milan": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Urbino": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"England": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Scotland": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Switzerland": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Emperor": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"The Papal State": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Aragon": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Castile": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				},
+				"Spain": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "The Holy League"
+						}
+					}
+				}
 			},
 			"They Are Unstoppable.": {
 				"Add Prestige": -30
@@ -24311,45 +24495,36 @@
 					"Who": "France",
 					"Casus Belli": "Humiliate"
 				},
+				"Navarra": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "League Of Cambrai"
+						}
+					}
+				},
+				"Venice": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "League Of Cambrai"
+						}
+					}
+				},
 				"If": [
-					{
-						"Limit": {
-							"Exists": "Navarra",
-							"Navarra": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Navarra": {
-							"Country Event": {
-								"Id": "League Of Cambrai"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Venice",
-							"Venice": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Venice": {
-							"Country Event": {
-								"Id": "League Of Cambrai"
-							}
-						}
-					},
 					{
 						"Limit": {
 							"Not": {
 								"Country": "Spain"
 							},
-							"Exists": "Spain",
-							"Spain": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
 						"Spain": {
-							"Country Event": {
+							"Event": {
 								"Id": "League Of Cambrai"
 							}
 						}
@@ -24359,57 +24534,45 @@
 							"Not": {
 								"Country": "Austria"
 							},
-							"Exists": "Austria",
-							"Austria": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
 						"Austria": {
-							"Country Event": {
-								"Id": "League Of Cambrai"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "England",
-							"England": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"England": {
-							"Country Event": {
-								"Id": "League Of Cambrai"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Mantua",
-							"Mantua": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Mantua": {
-							"Country Event": {
-								"Id": "League Of Cambrai"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "The Papal State",
-							"The Papal State": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"The Papal State": {
-							"Country Event": {
+							"Event": {
 								"Id": "League Of Cambrai"
 							}
 						}
 					}
-				]
+				],
+				"England": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "League Of Cambrai"
+						}
+					}
+				},
+				"Mantua": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "League Of Cambrai"
+						}
+					}
+				},
+				"The Papal State": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "League Of Cambrai"
+						}
+					}
+				}
 			},
 			"We Should Seek Peace In Europe.": {
 				"Add Prestige": -15,
@@ -24462,151 +24625,116 @@
 					"Who": null,
 					"Casus Belli": "Humiliate"
 				},
-				"If": [
-					{
+				"Venice": {
+					"If": {
 						"Limit": {
-							"Exists": "Venice",
-							"Venice": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
-						"Venice": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "France",
-							"France": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"France": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Austria",
-							"Austria": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Austria": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Florence",
-							"Florence": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Florence": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Tuscany",
-							"Tuscany": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Tuscany": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Milan",
-							"Milan": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Milan": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Genoa",
-							"Genoa": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Genoa": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Navarra",
-							"Navarra": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Navarra": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Ferrara",
-							"Ferrara": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Ferrara": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Siena",
-							"Siena": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Siena": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Mantua",
-							"Mantua": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Mantua": {
-							"Country Event": {
-								"Id": "Answer The League Of Cognac"
-							}
+						"Event": {
+							"Id": "Answer The League Of Cognac"
 						}
 					}
-				]
+				},
+				"France": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Austria": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Florence": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Tuscany": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Milan": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Genoa": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Navarra": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Ferrara": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Siena": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				},
+				"Mantua": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Answer The League Of Cognac"
+						}
+					}
+				}
 			},
 			"We Should Seek Peace In Europe.": {
 				"Add Prestige": -15,
@@ -24673,15 +24801,12 @@
 					"Who": null,
 					"Casus Belli": "Humiliate"
 				},
-				"If": {
-					"Limit": {
-						"Exists": "Austria",
-						"Austria": {
+				"Austria": {
+					"If": {
+						"Limit": {
 							"Is Free Or Tributary Trigger": true
-						}
-					},
-					"Austria": {
-						"Country Event": {
+						},
+						"Event": {
 							"Id": "War On The Imperial Throne"
 						}
 					}
@@ -24761,112 +24886,86 @@
 						}
 					}
 				},
-				"If": [
-					{
+				"Spain": {
+					"If": {
 						"Limit": {
-							"Exists": "Spain",
-							"Spain": {
-								"Is Free Or Tributary Trigger": true
-							}
+							"Is Free Or Tributary Trigger": true
 						},
-						"Spain": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Austria",
-							"Austria": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Austria": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Saxony",
-							"Saxony": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Saxony": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Brandenburg",
-							"Brandenburg": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Brandenburg": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "England",
-							"England": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"England": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Ottomans",
-							"Ottomans": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Ottomans": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Berg",
-							"Berg": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Berg": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Cleves",
-							"Cleves": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Cleves": {
-							"Country Event": {
-								"Id": "Treaty Of Crépy"
-							}
+						"Event": {
+							"Id": "Treaty Of Crépy"
 						}
 					}
-				]
+				},
+				"Austria": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				},
+				"Saxony": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				},
+				"Brandenburg": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				},
+				"England": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				},
+				"Ottomans": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				},
+				"Berg": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				},
+				"Cleves": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Treaty Of Crépy"
+						}
+					}
+				}
 			},
 			"We Can No Longer Claim Italy.": {
 				"Add Prestige": -15,
@@ -24932,126 +25031,96 @@
 					"Who": "Spain",
 					"Casus Belli": "Humiliate"
 				},
-				"If": [
-					{
+				"Austria": {
+					"If": {
 						"Limit": {
-							"Exists": "Austria",
-							"Austria": {
-								"Is Free Or Tributary Trigger": true,
-								"Is Emperor": false
-							}
+							"Is Free Or Tributary Trigger": true
 						},
-						"Austria": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "England",
-							"England": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"England": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Florence",
-							"Florence": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Florence": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Tuscany",
-							"Tuscany": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Tuscany": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Ottomans",
-							"Ottomans": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Ottomans": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Savoy",
-							"Savoy": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Savoy": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Sardinia-Piedmont",
-							"Sardinia-Piedmont": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Sardinia-Piedmont": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "The Papal State",
-							"The Papal State": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"The Papal State": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
-						}
-					},
-					{
-						"Limit": {
-							"Exists": "Siena",
-							"Siena": {
-								"Is Free Or Tributary Trigger": true
-							}
-						},
-						"Siena": {
-							"Country Event": {
-								"Id": "Chiamata Alle Armi"
-							}
+						"Event": {
+							"Id": "Chiamata Alle Armi"
 						}
 					}
-				]
+				},
+				"England": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"Florence": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"Tuscany": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"Ottomans": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"Savoy": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"Sardinia-Piedmont": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"The Papal State": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				},
+				"Siena": {
+					"If": {
+						"Limit": {
+							"Is Free Or Tributary Trigger": true
+						},
+						"Event": {
+							"Id": "Chiamata Alle Armi"
+						}
+					}
+				}
 			},
 			"We Can No Longer Claim Italy.": {
 				"Add Prestige": -15,
@@ -25092,51 +25161,672 @@
 			}
 		}
 	},
-	"Italy": {
-		"The Wars Of Italy": {
+	"Jaffna": {
+		"The Kingdom Of Jaffna": {
+			"Fire Only Once": true,
 			"Trigger": {
-				"Is Year": 1500,
-				"Capital Scope": {
-					"Region": "Italy"
+				"Is Or Was Tag": "Jaffna",
+				"Current Age": "Age of Discovery"
+			},
+			"Mean Time To Happen": {
+				"Months": 1
+			},
+			"Trade And Prosperity": {
+				"Add Mercantilism Or Monarch Power": {
+					"Amount": 3
 				},
-				"Culture Group": "Latin",
-				"Had Recent War": 10,
-				"Not": {
-					"Has Country Flag": "Fee Italy Wars Flag"
+				"Lanka Area": {
+					"Remove Core": "ROOT",
+					"Remove Claim": "ROOT"
+				},
+				"South Lanka Area": {
+					"Remove Core": "ROOT",
+					"Remove Claim": "ROOT"
+				}
+			},
+			"Follow The Steps Of Kalinga Magha": {
+				"Kalinga’S Freedom": {
+					"Liberty Desire": 25,
+					"Morale of Armies": 0.05,
+					"Expires": "On Ruler's Death"
+				},
+				"Lanka Area": {
+					"Add Core": "Root"
+				},
+				"South Lanka Area": {
+					"Add Core": "Root"
+				}
+			}
+		},
+		"Jaffna Expansion In Ceylon": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Jaffna",
+				"Lanka Area": {
+					"Type": "All",
+					"Owned By": "Root"
+				},
+				"South Lanka Area": {
+					"Type": "All",
+					"Owned By": "Root"
 				}
 			},
 			"Mean Time To Happen": {
-				"Years": 2
+				"Months": 3
 			},
-			"Improve The Infantry!": {
-				"Musketeers For Everyone!": {
-					"Infantry Fire": 0.15,
-					"Military Technology Cost": -0.05,
-					"Expires": "3650 days"
+			"Patronize Sinhalese Culture": {
+				"Add Accepted Culture Or Dip Power": {
+					"Culture": "Sinhalese"
+				},
+				"Lanka Area": {
+					"Limit": {
+						"Culture": "Sinhalese"
+					},
+					"Reconciliation": {
+						"Local Unrest": -2,
+						"Years of Separatism": -10,
+						"Expires": "3650 days"
+					}
+				},
+				"South Lanka Area": {
+					"Limit": {
+						"Culture": "Sinhalese"
+					},
+					"Reconciliation": {
+						"Local Unrest": -2,
+						"Years of Separatism": -10,
+						"Expires": "3650 days"
+					}
 				}
 			},
-			"Cavalry To Charge!": {
-				"Heavy Cavalry Is The Protagonist!": {
-					"Cavalry Flanking Ability": 1,
-					"Cavalry Shock": 0.1,
-					"Military Technology Cost": -0.05,
-					"Expires": "3650 days"
+			"Denounce The False Sects": {
+				"Add Mil Power": 50,
+				"Lanka Area": {
+					"Limit": {
+						"Culture": "Sinhalese"
+					},
+					"Local Oppression": {
+						"Local Unrest": 2,
+						"Local Missionary Strength": 0.02,
+						"Expires": "3650 days"
+					}
+				},
+				"South Lanka Area": {
+					"Limit": {
+						"Culture": "Sinhalese"
+					},
+					"Local Oppression": {
+						"Local Unrest": 2,
+						"Local Missionary Strength": 0.02,
+						"Expires": "3650 days"
+					}
+				}
+			}
+		},
+		"Aryacakravarti Rule In Ceylon": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Jaffna",
+				"Lanka Area": {
+					"Type": "All",
+					"Owned By": "Root",
+					"Or": {
+						"Has Owner Accepted Culture": true,
+						"Religion": "Root"
+					}
+				},
+				"South Lanka Area": {
+					"Type": "All",
+					"Owned By": "Root",
+					"Or": {
+						"Has Owner Accepted Culture": true,
+						"Religion": "Root"
+					}
 				}
 			},
-			"Artillery Must Be Prefectioned.": {
-				"Field Artillery For The First Time": {
-					"Artillery Levels Available vs Fort": 1,
-					"Artillery Damage from Back Row": 0.1,
-					"Military Technology Cost": -0.05,
-					"Expires": "3650 days"
+			"Mean Time To Happen": {
+				"Months": 3
+			},
+			"Restoring Ceylon Prosperity": {
+				"Capital Scope": {
+					"Add Base Tax": 2,
+					"Add Base Production": 2,
+					"Add Base Manpower": 2,
+					"Add Or Upgrade Trade Building": true,
+					"Add Or Upgrade Shipyard Building": true,
+					"Create Or Add Center Of Trade Level Fee": {
+						"Level": 1
+					}
+				},
+				"Lanka Area": {
+					"Add Devastation": -100,
+					"Add Prosperity": 100,
+					"Random Province In State": {
+						"Limit": {
+							"Not": {
+								"Is Capital": true
+							}
+						},
+						"Random List": [
+							{
+								"33": [
+									{
+										"Add Base Tax": 1
+									},
+									{
+										"Add Base Production": 1
+									},
+									{
+										"Add Base Manpower": 1
+									}
+								]
+							},
+							{
+								"50": [
+									{
+										"Add Or Upgrade Trade Building": true
+									},
+									{
+										"Add Or Upgrade Shipyard Building": true
+									}
+								]
+							}
+						]
+					}
+				},
+				"South Lanka Area": {
+					"Add Devastation": -100,
+					"Add Prosperity": 100,
+					"Random Province In State": {
+						"Limit": {
+							"Not": {
+								"Is Capital": true
+							}
+						},
+						"Random List": [
+							{
+								"33": [
+									{
+										"Add Base Tax": 1
+									},
+									{
+										"Add Base Production": 1
+									},
+									{
+										"Add Base Manpower": 1
+									}
+								]
+							},
+							{
+								"50": [
+									{
+										"Add Or Upgrade Trade Building": true
+									},
+									{
+										"Add Or Upgrade Shipyard Building": true
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		"Golden Age Of Aryacakravarti": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Jaffna",
+				"Lanka Area": {
+					"Type": "All",
+					"Owned By": "Root",
+					"Fee Province Does Not Lack Any Institution": true,
+					"Or": {
+						"Num Of Times Improved": 2,
+						"Prosperity": 100
+					}
+				},
+				"South Lanka Area": {
+					"Type": "All",
+					"Owned By": "Root",
+					"Fee Province Does Not Lack Any Institution": true,
+					"Or": {
+						"Num Of Times Improved": 2,
+						"Prosperity": 100
+					}
 				}
 			},
-			"We Will Be Safe Behind Our Forts...": {
-				"A Star Fort?": {
-					"Fort Defense": 0.15,
-					"Fort Maintenance": -0.15,
-					"Military Technology Cost": -0.05,
+			"Mean Time To Happen": {
+				"Months": 24
+			},
+			"Purely For Profit": {
+				"Tamil Trade Adventures": {
+					"Domestic Trade Power": 0.2,
+					"Global Ship Trade Power": 0.2,
+					"Trade Range": 0.2,
+					"Expires": "7300 days"
+				},
+				"Capital Scope": {
+					"Add Or Upgrade Courthouse Building": true
+				},
+				"Lanka Area": {
+					"The Golden Age Of Aryacakravarti": {
+						"Possible Number of Buildings": 1,
+						"Local Construction Cost": -0.15,
+						"Local Construction Time": -0.15,
+						"Local Development Cost": -0.15,
+						"Local Trade Power Modifier": 0.25,
+						"Trade Value Modifier": 0.25,
+						"Expires": "Never"
+					}
+				},
+				"South Lanka Area": {
+					"The Golden Age Of Aryacakravarti": {
+						"Possible Number of Buildings": 1,
+						"Local Construction Cost": -0.15,
+						"Local Construction Time": -0.15,
+						"Local Development Cost": -0.15,
+						"Local Trade Power Modifier": 0.25,
+						"Trade Value Modifier": 0.25,
+						"Expires": "Never"
+					}
+				},
+				"Thatta": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				},
+				"Comorin Cape": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				},
+				"Ganges Delta": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				},
+				"Ava": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				},
+				"Gulf of Siam": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				},
+				"Straits of Johor": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				},
+				"Guangzhou Bay": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Duration": 7300,
+						"Power": 15,
+						"Key": "Tamil Trade Adventures"
+					}
+				}
+			}
+		},
+		"Muslim Arrival In Jaffna": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Owns": 1854
+			},
+			"Mean Time To Happen": {
+				"Months": 24
+			},
+			"Strengthen The Muslim Presence": {
+				"Jaffa": {
+					"Random List": {
+						"50": [
+							{
+								"Add Base Tax": 1
+							},
+							{
+								"Add Base Production": 1
+							}
+						]
+					},
+					"Muslim Minority": {
+						"Local Production Efficiency": 0.15,
+						"Expires": "Never"
+					}
+				}
+			}
+		},
+		"Growing Muslim Community": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"Grow The Muslim Community": {
+				"Remove Province Modifier": "Muslim Minority",
+				"Flourishin Muslim Community": {
+					"Local Production Efficiency": 0.15,
+					"Local Goods Produced Modifier": 0.15,
+					"Expires": "Never"
+				}
+			},
+			"Hinder The Muslim Community": {
+				"Add Devastation": -33,
+				"Random List": {
+					"33": [
+						{
+							"Add Base Tax": -1
+						},
+						{
+							"Add Base Production": -1
+						},
+						{
+							"Add Base Manpower": -1
+						}
+					]
+				},
+				"Remove Province Modifier": "Muslim Minority"
+			}
+		},
+		"Flourishing Muslim Community": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"Improve Muslim’S Acceptance": {
+				"Remove Province Modifier": "Flourishin Muslim Community",
+				"Strong Muslim Community": {
+					"Local Production Efficiency": 0.25,
+					"Local Goods Produced Modifier": 0.25,
+					"Local Missionary Strength": -1.0,
+					"Expires": "Never"
+				}
+			},
+			"Destroy The Muslim Community": {
+				"Add Devastation": -75,
+				"Add Base Tax": -1,
+				"Add Base Production": -1,
+				"Add Base Manpower": -1,
+				"Remove Province Modifier": "Flourishin Muslim Community"
+			}
+		},
+		"Imposing Muslim Community": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"Trigger": {
+				"Not": {
+					"Religion Group": "Muslim"
+				}
+			},
+			"Muslim Dominion": {
+				"Change Religion": "Ibad"
+			}
+		},
+		"The Arrival Of The Aliens": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Is Or Was Tag": "Jaffna",
+				"Any Country": {
+					"Capital Scope": {
+						"Continent": "Europe"
+					},
+					"Or": {
+						"Lanka Area": {
+							"Has Discovered": "Prev",
+							"Owned By": "Root"
+						},
+						"South Lanka Area": {
+							"Has Discovered": "Prev",
+							"Owned By": "Root"
+						}
+					}
+				}
+			},
+			"Mean Time To Happen": {
+				"Days": 30
+			},
+			"Try To Appease The Aliens.": {
+				"Change Dip": 1,
+				"Add Treasury": -25,
+				"Random Country": {
+					"Limit": {
+						"Has Country Flag": "Fee Jfn Discovered Ceylon Flag"
+					},
+					"Add Opinion": {
+						"Who": "Root",
+						"Modifier": "Diplomatic Meddling"
+					},
+					"Reverse Add Opinion": {
+						"Who": "Root",
+						"Modifier": "Diplomatic Meddling"
+					},
+					"Vanni": {
+						"Add Trade Modifier": {
+							"Who": "Prev",
+							"Duration": 18250,
+							"Power": 10,
+							"Key": "Diplomatic Meddling"
+						}
+					}
+				}
+			},
+			"Repel The Invasors!": {
+				"Change Mil": 1,
+				"Fighting The Aliens": {
+					"Morale Damage": 0.1,
+					"Morale Damage Received": -0.1,
+					"Expires": "7300 days"
+				},
+				"The Aliens Will Still Try To Increase Its Reach In Our Precious Trade. We Need To Resist For The Next Years.": true,
+				"Random Country": {
+					"Limit": {
+						"Has Country Flag": "Fee Jfn Discovered Ceylon Flag"
+					},
+					"Event": {
+						"Id": "European Trade Request",
+						"Days": 90
+					}
+				}
+			}
+		},
+		"European Trade Request": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"The Spice Trade Is Ours!": {
+				"Lanka Area": {
+					"Add Permanent Claim": "Root"
+				},
+				"South Lanka Area": {
+					"Add Permanent Claim": "Root"
+				}
+			},
+			"Scheme With Their Enemies": {
+				"Trigger": {
+					"Or": {
+						"Lanka Area": {
+							"Owner": {
+								"Not": {
+									"Is Or Was Tag": "Jaffna"
+								}
+							}
+						},
+						"South Lanka Area": {
+							"Owner": {
+								"Not": {
+									"Is Or Was Tag": "Jaffna"
+								}
+							}
+						}
+					}
+				},
+				"Random Country": {
+					"Limit": {
+						"Not": {
+							"Is Or Was Tag": "Jaffna"
+						},
+						"Any Owned Province": {
+							"Area": [
+								"North Lanka",
+								"South Lanka"
+							]
+						}
+					},
+					"Event": {
+						"Id": "Euro-Ceylon Ruling",
+						"Days": 90
+					}
+				}
+			}
+		},
+		"Euro-Ceylon Ruling": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"Unite The Island": {
+				"Trigger": {
+					"Or": {
+						"Lanka Area": {
+							"Not": {
+								"Owned By": "Root"
+							}
+						},
+						"South Lanka Area": {
+							"Not": {
+								"Owned By": "Root"
+							}
+						}
+					}
+				},
+				"Lanka Area": {
+					"Add Permanent Claim": "Root"
+				},
+				"South Lanka Area": {
+					"Add Permanent Claim": "Root"
+				},
+				"Drive Off The Invaders": {
+					"Morale Damage": 0.1,
 					"Expires": "3650 days"
+				},
+				"Random Country": [
+					{
+						"Limit": {
+							"Has Country Flag": "Fee Jfn Discovered Ceylon Flag"
+						},
+						"Add Casus Belli": {
+							"Type": "Subjugation",
+							"Target": "Root"
+						}
+					},
+					{
+						"Limit": {
+							"Has Country Modifier": "Fighting The Aliens"
+						},
+						"Event": {
+							"Id": "Ceylon Supremacy",
+							"Days": 18250
+						}
+					}
+				]
+			},
+			"Request European Help": {
+				"Trigger": {
+					"Is Free Or Tributary Trigger": true
+				},
+				"Euro-Ceylon Cooperation": {
+					"Military Technology Cost": -0.1,
+					"Expires": "3650 days"
+				},
+				"Random Country": {
+					"Limit": {
+						"Has Country Flag": "Fee Jfn Discovered Ceylon Flag"
+					},
+					"Vassalize": "Root",
+					"Add Trust": {
+						"Who": "Root",
+						"Value": 100,
+						"Mutual": true
+					},
+					"Add Opinion": {
+						"Who": "Root",
+						"Modifier": "Eased Tension"
+					},
+					"Reverse Add Opinion": {
+						"Who": "Root",
+						"Modifier": "Eased Tension"
+					}
+				}
+			}
+		},
+		"Ceylon Supremacy": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"Glory To Our Dynasty!": {
+				"Trigger": {
+					"Not": {
+						"Any Country": {
+							"Capital Scope": {
+								"Superregion": "Western Europe"
+							},
+							"Any Owned Province": {
+								"Superregion": "India"
+							}
+						}
+					}
+				},
+				"Add Adm Power": 100,
+				"Add Dip Power": 100,
+				"Add Mil Power": 100,
+				"Add Power Projection": {
+					"Type": null,
+					"Amount": 25
+				},
+				"Change Adm": 1,
+				"Change Dip": 1,
+				"Change Mil": 1,
+				"Capital Scope": {
+					"Add Base Tax": 3,
+					"Add Base Production": 3,
+					"Add Base Manpower": 3
+				}
+			},
+			"Alien’S Supremacy": {
+				"Trigger": {
+					"Any Country": {
+						"Capital Scope": {
+							"Superregion": "Western Europe"
+						},
+						"Any Owned Province": {
+							"Superregion": "India"
+						}
+					}
+				},
+				"Add Adm Power": -100,
+				"Add Dip Power": -100,
+				"Add Mil Power": -100,
+				"Add Power Projection": {
+					"Type": null,
+					"Amount": -25
+				},
+				"Change Adm": -1,
+				"Change Dip": -1,
+				"Change Mil": -1,
+				"Capital Scope": {
+					"Add Base Tax": -3,
+					"Add Base Production": -3,
+					"Add Base Manpower": -3
 				}
 			}
 		}
@@ -25649,6 +26339,197 @@
 			}
 		}
 	},
+	"Kotte": {
+		"The Legend Of Sigiriya": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Owns Or Non Sovereign Subject Of": 2099,
+				"Primary Culture": "Sinhalese",
+				"Or": {
+					"Religion": [
+						"Theravada",
+						"Vajrayana",
+						"Mahayana"
+					]
+				},
+				"Current Age": "Age of Discovery"
+			},
+			"Mean Time To Happen": {
+				"Months": 24,
+				"Modifier": [
+					{
+						"Factor": 0.5,
+						"Not": {
+							"Legitimacy": 50
+						}
+					},
+					{
+						"Factor": 2,
+						"Legitimacy": 75
+					}
+				]
+			},
+			"An Epic For Our Dynasty.": {
+				"Add Years Of Income": -0.25,
+				"Random List": {
+					"50": [
+						{
+							"Event": {
+								"Id": "The Epic Of Sigiriya",
+								"Days": 30
+							}
+						},
+						{
+							"Event": {
+								"Id": "A False Dynasty",
+								"Days": 30
+							}
+						}
+					]
+				}
+			},
+			"A Legend That Does Not Pertain To Us...": {
+				"Add Legitimacy Equivalent": {
+					"Amount": 15,
+					"Republican Tradition": 7
+				},
+				"Add Prestige Or Monarch Power": 25,
+				"Add Heir Claim": 25
+			}
+		},
+		"The Epic Of Sigiriya": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"A New Dawn For Our Kingdom!": {
+				"Trigger": {
+					"Has Heir": false
+				},
+				"Add Legitimacy Equivalent": {
+					"Amount": 50,
+					"Republican Tradition": 25
+				},
+				"Add Prestige Or Monarch Power": 25,
+				"Heir Of Lion Rock": {
+					"Yearly Legitimacy": 1,
+					"Monthly Splendor": 2,
+					"Prestige Decay": -0.01,
+					"Expires": "On Ruler's Death"
+				},
+				"Define Heir": {
+					"Culture": "Sinhalese",
+					"Religion": "Root",
+					"Change Adm": 3,
+					"Change Dip": 4,
+					"Change Mil": 2
+				}
+			},
+			"He Will Guide Sigiriya!": {
+				"Trigger": {
+					"Has Heir": true
+				},
+				"Add Legitimacy Equivalent": {
+					"Amount": 50,
+					"Republican Tradition": 25
+				},
+				"Add Prestige Or Monarch Power": 25,
+				"Heir Of Lion Rock": {
+					"Yearly Legitimacy": 1,
+					"Monthly Splendor": 2,
+					"Prestige Decay": -0.01,
+					"Expires": "On Ruler's Death"
+				},
+				"Change Heir Adm": 1,
+				"Change Heir Dip": 2,
+				"Change Heir Mil": 1
+			}
+		},
+		"A False Dynasty": {
+			"Is Triggered Only": true,
+			"Fire Only Once": true,
+			"What A False Pretest!": {
+				"Add Prestige": -15,
+				"Add Legitimacy Equivalent": {
+					"Amount": -25,
+					"Republican Tradition": -12
+				},
+				"Add Karma": -15,
+				"Every Country": {
+					"Limit": {
+						"Or": {
+							"Religion": [
+								"Theravada",
+								"Vajrayana",
+								"Mahayana"
+							]
+						}
+					},
+					"Add Opinion": {
+						"Who": "Root",
+						"Modifier": "Irritated over Claims"
+					},
+					"Reverse Add Opinion": {
+						"Who": "Root",
+						"Modifier": "Irritated over Claims"
+					}
+				}
+			}
+		},
+		"Sunethradevi Pirivena": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Current Age": "Age of Discovery",
+				"Owns": 2099,
+				"Religion": "Theravada",
+				"Primary Culture": "Sinhalese",
+				"Has Regency": false
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"In Honour Of My Mother Queen Sunethradevi.": {
+				"Sunethradevi Pirivena": {
+					"Technology Cost": -0.05,
+					"Expires": "On Ruler's Death"
+				}
+			}
+		},
+		"Thotagamuwe Sri Rahula Thera": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Current Age": "Age of Discovery",
+				"Owns": 2099,
+				"Religion": "Theravada",
+				"Primary Culture": "Sinhalese"
+			},
+			"Mean Time To Happen": {
+				"Months": 24
+			},
+			"Pillar Of Our Literature.": {
+				"If": {
+					"Limit": {
+						"Is Expanded Mod Active": "Advisor Types",
+						"Has Estate": "Clergy"
+					},
+					"Define Advisor": {
+						"Type": null,
+						"Skill": 2,
+						"Religion": "Theravada",
+						"Culture": "Sinhalese",
+						"Cost Multiplier": 0.25
+					}
+				},
+				"Else": {
+					"Define Advisor": {
+						"Type": "Theologian",
+						"Skill": 2,
+						"Religion": "Theravada",
+						"Culture": "Sinhalese",
+						"Cost Multiplier": 0.25
+					}
+				}
+			}
+		}
+	},
 	"Low Countries": {
 		"The States General": {
 			"Fire Only Once": true,
@@ -25938,7 +26819,7 @@
 							"Who": "Root",
 							"Modifier": "Sacked Antwerp!"
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "The Spanish Fury"
 						}
 					}
@@ -25962,7 +26843,7 @@
 							"Who": "Root",
 							"Modifier": "Sacked Antwerp But Punished Mutineers"
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "The Spanish Fury"
 						}
 					}
@@ -26749,7 +27630,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Marathas Marathi Enemy"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Negotiations And Betrayal!"
 					}
 				}
@@ -26803,7 +27684,7 @@
 					"Expires": "365 days"
 				},
 				"Marathas": {
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Relies On Foreign Weaponry",
 						"Days": 30,
 						"Random": 10
@@ -27047,7 +27928,7 @@
 					"Who": "Milan"
 				},
 				"Milan": {
-					"Country Event": {
+					"Event": {
 						"Id": "Venice Intervenes",
 						"Days": 1
 					}
@@ -27085,7 +27966,7 @@
 					"Exists": "Savoy"
 				},
 				"Savoy": {
-					"Country Event": {
+					"Event": {
 						"Id": "Milan Calls For Aid"
 					}
 				}
@@ -27234,7 +28115,7 @@
 			},
 			"Please! Please Good People. I Am In Haste.": {},
 			"Who Is Your Lord?": {
-				"Country Event": {
+				"Event": {
 					"Id": "An Anarcho-Syndicalist Commune"
 				}
 			}
@@ -27242,7 +28123,7 @@
 		"An Anarcho-Syndicalist Commune": {
 			"Is Triggered Only": true,
 			"Be Quiet! I Order You To Be Quiet!": {
-				"Country Event": {
+				"Event": {
 					"Id": "Well I Didn'T Vote For You..."
 				}
 			}
@@ -27250,7 +28131,7 @@
 		"Well I Didn'T Vote For You...": {
 			"Is Triggered Only": true,
 			"I Will Tell You!": {
-				"Country Event": {
+				"Event": {
 					"Id": "Strange Women"
 				}
 			}
@@ -27816,7 +28697,7 @@
 			"We Will Help You For The Christendom.": {
 				"Create Guarantee": "Albania",
 				"Albania": {
-					"Country Event": {
+					"Event": {
 						"Id": "Helps From Naples",
 						"Days": 30
 					}
@@ -27906,8 +28787,7 @@
 						"Value": 24
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Porta Capuana": {
 			"Fire Only Once": true,
@@ -28338,21 +29218,9 @@
 						"Limit": {
 							"Has Dlc": "Leviathan"
 						},
-						"Or": {
-							"Has Great Project": [
-								{
-									"Type": null,
-									"Tier": 1
-								},
-								{
-									"Type": null,
-									"Tier": 2
-								},
-								{
-									"Type": null,
-									"Tier": 3
-								}
-							]
+						"Has Great Project": {
+							"Type": null,
+							"Tier": 1
 						}
 					},
 					"Else": {
@@ -29162,7 +30030,7 @@
 						"Local Trade Power Modifier": 5,
 						"Expires": "Never"
 					},
-					"Province Event": {
+					"Event": {
 						"Id": "Commissioni Marittime Dei Del Balzo",
 						"Days": 1825,
 						"Random": 547
@@ -29199,7 +30067,7 @@
 						"Add Base Production": 1
 					}
 				},
-				"Province Event": {
+				"Event": {
 					"Id": "The Enrichment Of Taranto: A Maritime Odyssey",
 					"Days": 1825,
 					"Random": 547
@@ -29311,8 +30179,7 @@
 				"Salento": {
 					"Remove Province Modifier": "Commissioni Marittime Dei Del Balzo"
 				}
-			},
-			"After": {}
+			}
 		},
 		"Dream Of Ladislao I": {
 			"Fire Only Once": true,
@@ -29326,41 +30193,9 @@
 			},
 			"A Dream Of United Italy?": {
 				"Tuscany Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Lazio Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Set Country Flag": "Fee Nap Followed Dream Ladislao",
@@ -29608,7 +30443,7 @@
 					"Republican Tradition": -3
 				},
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "Aragon Rejects Our Offer Of Marriage"
 					}
 				}
@@ -29665,7 +30500,7 @@
 			},
 			"What Will The King Of Aragon Do?": {
 				"Aragon": {
-					"Country Event": {
+					"Event": {
 						"Id": "Navarra Brims With Dissent"
 					}
 				}
@@ -29712,7 +30547,7 @@
 					"Create Union": "Navarra"
 				},
 				"Navarra": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Monarch Abdicates!",
 						"Days": 3
 					}
@@ -29729,7 +30564,7 @@
 						"Mil": 5,
 						"Age": 16
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Carlos Is Named Ruler Of Navarra"
 					}
 				}
@@ -30060,7 +30895,7 @@
 				"Add Treasury": -250,
 				"Kalapa": {
 					"Owner": {
-						"Country Event": {
+						"Event": {
 							"Id": "A Trade Proposal From [From.Getname]",
 							"We Send A Delegation To [630.Owner.Getname] For The Purchase Of [630.Getname]": true
 						}
@@ -30175,7 +31010,7 @@
 					"Add Core": "Tungning"
 				},
 				"Tungning": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Dutch Impede Us"
 					}
 				}
@@ -30354,7 +31189,7 @@
 			},
 			"He Shall Be Made An Admiral!": {
 				"Define Admiral": {
-					"Name": "Michiel van Ruyter",
+					"Name": "Michiel de Ruyter",
 					"Female": false,
 					"Fire": 6,
 					"Shock": 6,
@@ -30405,7 +31240,7 @@
 				}
 			},
 			"Fortune Favors The Bold!": {
-				"Country Event": {
+				"Event": {
 					"Id": "Raid On The Medway",
 					"Days": 3
 				},
@@ -30414,7 +31249,7 @@
 						"Exists": "Great Britain"
 					},
 					"Great Britain": {
-						"Country Event": {
+						"Event": {
 							"Id": "Raid On The Medway",
 							"Days": 3
 						}
@@ -30422,7 +31257,7 @@
 				},
 				"Else": {
 					"England": {
-						"Country Event": {
+						"Event": {
 							"Id": "Raid On The Medway",
 							"Days": 3
 						}
@@ -30989,7 +31824,7 @@
 			},
 			"Destroy The Shrine And Seize The Valuables.": {
 				"Norway": {
-					"Country Event": {
+					"Event": {
 						"Id": "The [From.Getadjective] Have Destroyed The Shrine Of Saint Olav!",
 						"Days": 10,
 						"Random": 5
@@ -31068,7 +31903,7 @@
 				},
 				"Add Years Of Income": -2,
 				"Lithuania": {
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Requests An Alliance",
 						"Days": 10
 					}
@@ -31083,7 +31918,7 @@
 					}
 				},
 				"Muscovy": {
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Asks To Become Our Vassal",
 						"Days": 10
 					}
@@ -31118,7 +31953,7 @@
 						"Exists": "Muscovy"
 					},
 					"Muscovy": {
-						"Country Event": {
+						"Event": {
 							"Id": "Novgorod Has Turned Towards Rome"
 						}
 					}
@@ -31190,7 +32025,7 @@
 						"Exists": "Muscovy"
 					},
 					"Muscovy": {
-						"Country Event": {
+						"Event": {
 							"Id": "Novgorod Has Turned Towards Rome"
 						}
 					}
@@ -31385,7 +32220,7 @@
 			}
 		}
 	},
-	"Ottoman": {
+	"Ottomans": {
 		"The Ottomans Seize Our Wheat!": {
 			"Is Triggered Only": true,
 			"Great Is The Suffering Of $Country$!": {
@@ -31544,55 +32379,15 @@
 					"Country": "Saxony"
 				},
 				"Braunschweig Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Northern Saxony Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"South Saxony Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Westphalia Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				}
 			},
@@ -32452,11 +33247,11 @@
 				"Months": 360
 			},
 			"The Situation Will Only Get Worse If We Interfere.": {
-				"Kill Advisor": "random",
+				"Kill Advisor": null,
 				"Add Stability": -1
 			},
 			"We Will Not Be Slaves To The Whim Of The Tribes!": {
-				"Kill Advisor": "random",
+				"Kill Advisor": null,
 				"Random Owned Province": {
 					"Spawn Rebels": {
 						"Type": "Noble Rebels",
@@ -32614,7 +33409,7 @@
 					"Expires": "3652 days"
 				},
 				"Ottomans": {
-					"Country Event": {
+					"Event": {
 						"Id": "Commonwealth Accepts Our Demands",
 						"Days": 30,
 						"Random": 15,
@@ -32625,7 +33420,7 @@
 			"We Don'T Take Orders From The Devilish Infidel! Bring Them On!": {
 				"Add Prestige Or Monarch Power": 15,
 				"Ottomans": {
-					"Country Event": {
+					"Event": {
 						"Id": "Commonwealth Rejects Our Demands",
 						"Days": 30,
 						"Random": 15,
@@ -33404,7 +34199,7 @@
 								"Has Idea Group": null
 							}
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "New Traditions & Ambitions"
 						}
 					}
@@ -33430,19 +34225,9 @@
 					"Expires": "3650 days"
 				},
 				"East Prussia Area": {
-					"Limit": {
-						"Not": {
-							"Owned By": "Root"
-						}
-					},
 					"Add Permanent Claim": "Prussia"
 				},
 				"West Prussia Area": {
-					"Limit": {
-						"Not": {
-							"Owned By": "Root"
-						}
-					},
 					"Add Permanent Claim": "Prussia"
 				},
 				"Set Country Flag": "Formed Prussia Flag"
@@ -33767,13 +34552,13 @@
 				"Random List": {
 					"50": [
 						{
-							"Country Event": {
+							"Event": {
 								"Id": "Emir Lends His Aid",
 								"Days": 15
 							}
 						},
 						{
-							"Country Event": {
+							"Event": {
 								"Id": "Emir'S Betrayal!",
 								"Days": 15
 							}
@@ -33846,49 +34631,13 @@
 					"Tradition": 60
 				},
 				"Kilwa": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Zanzibar": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Sofala": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"If": {
 					"Limit": {
@@ -33954,49 +34703,13 @@
 			},
 			"Let Us Not Overextend; Why Send An Armada When A Few Ships Will Do?": {
 				"Kilwa": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Zanzibar": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"Sofala": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				},
 				"If": {
 					"Limit": {
@@ -34271,7 +34984,7 @@
 					"Siege": 0
 				},
 				"Remove Country Modifier": "Legacy Of Francisco De Almeida",
-				"Country Event": {
+				"Event": {
 					"Id": "Almeida Defies The King"
 				}
 			},
@@ -34748,6 +35461,129 @@
 				"Pernambuco Area": {
 					"Add Base Production": 1,
 					"Change Trade Goods": "Sugar"
+				}
+			}
+		},
+		"Discovery Of Ceylon": {
+			"Fire Only Once": true,
+			"Trigger": {
+				"Country": "Portugal",
+				"Or": {
+					"Current Age": [
+						"Age of Discovery",
+						"Age of Reformation"
+					]
+				},
+				"Is Subject": false,
+				"Has Discovered": 572,
+				"Not": {
+					"Owns Or Subject Of": 572
+				},
+				"Kotte": {
+					"Owner": {
+						"Primary Culture": "Sinhalese"
+					}
+				}
+			},
+			"Mean Time To Happen": {
+				"Months": 6
+			},
+			"Cinnamon Trade Must Be Ours!": {
+				"Event Target Current Owner": {
+					"Event": {
+						"Id": "Portuguese Proposal",
+						"Days": 365
+					}
+				}
+			}
+		},
+		"Portuguese Proposal": {
+			"Is Triggered Only": true,
+			"Trigger": {
+				"Owns": 572,
+				"Event Target Proposal Initiator": {
+					"Exists": true
+				}
+			},
+			"Pay The Tribute To The Portuguese.": {
+				"Trigger": {
+					"Is Subject": false,
+					"Event Target Proposal Initiator": {
+						"Is Subject": false
+					}
+				},
+				"Add Years Of Income": -1,
+				"[Root.Getname] Becomes A Tributary State Under [Proposal_Initiator.Getname].": true,
+				"Every Owned Province": {
+					"Limit": {
+						"Or": {
+							"Area": [
+								"North Lanka",
+								"South Lanka"
+							]
+						},
+						"Has Port": true
+					},
+					"Portuguese Protection": {
+						"Block Slave Raide": true,
+						"Expires": "Never"
+					}
+				}
+			},
+			"We Will Not Submit!": {
+				"Add Prestige Or Monarch Power": 25,
+				"Reverse Add Opinion": {
+					"Who": null,
+					"Modifier": "Refused Proposal"
+				}
+			}
+		},
+		"Colombo Fort": {
+			"Is Triggered Only": true,
+			"Trigger": {
+				"Owns": 572
+			},
+			"Do Not Disturb Them.": {
+				"Kotte": {
+					"Add Base Manpower": 1,
+					"If": {
+						"Limit": {
+							"Not": {
+								"Has Fort Building Trigger": true
+							}
+						},
+						"Add Building": "Castle"
+					},
+					"Colombo Fort": {
+						"Local Defensiveness": 0.1,
+						"Expires": "Never"
+					}
+				}
+			}
+		},
+		"Ceylon'S Refusal": {
+			"Is Triggered Only": true,
+			"We Will Get The Connamon One Way Or Another!": {
+				"Add Casus Belli": {
+					"Target": null,
+					"Type": "Subjugation",
+					"Months": 360
+				}
+			},
+			"We Can Get Cinnamon Elsewhere.": {
+				"Add Prestige": -10
+			}
+		},
+		"Colombo Trade Port": {
+			"Is Triggered Only": true,
+			"The Spice Must Flow.": {
+				"Kotte": {
+					"Add Trade Modifier": {
+						"Who": "Root",
+						"Key": null,
+						"Duration": -1,
+						"Power": 10
+					}
 				}
 			}
 		}
@@ -35549,8 +36385,7 @@
 						"Expires": "Never"
 					}
 				}
-			},
-			"After": {}
+			}
 		}
 	},
 	"Russian Minors": {
@@ -35654,7 +36489,7 @@
 								"Ai": false
 							}
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "$From$ Requests An Alliance",
 							"Days": 5
 						}
@@ -36465,7 +37300,7 @@
 						"Type": "Restoration of Union",
 						"Target": "Prev"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Marriage Offer Spurned"
 					}
 				}
@@ -36503,7 +37338,7 @@
 							"Female": true
 						}
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Treaty Of Perpetual Peace"
 					}
 				},
@@ -37024,7 +37859,7 @@
 						"Change Religion": "Reformed",
 						"Add Reform Center": "Reformed"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Martyrdom Of Patrick Hamilton",
 						"Days": 900,
 						"Random": 900
@@ -37074,7 +37909,7 @@
 							"Country": "Root"
 						}
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "Brothers In Arms?",
 						"Days": 1,
 						"Random": 30
@@ -37103,7 +37938,7 @@
 							"Type": "Diplomatic Insult",
 							"Target": "Prev"
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "[From.Getadjective] [From.Monarch.Gettitle] Supports Rebellion!"
 						}
 					}
@@ -37123,7 +37958,7 @@
 						"Value": 5,
 						"Mutual": true
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "[From.Getadjective] [From.Monarch.Gettitle] Refuses To Support Rebellion!"
 					}
 				}
@@ -37276,7 +38111,7 @@
 						"Reformed Rebels": 2
 					}
 				],
-				"Country Event": {
+				"Event": {
 					"Id": "Signing Of The National Covenant"
 				}
 			}
@@ -37317,7 +38152,7 @@
 			},
 			"Crush Them!": {
 				"Save Event Target As": "FEE_Scotland_rival_target",
-				"Country Event": {
+				"Event": {
 					"Id": "Scottish Civil War"
 				},
 				"It Will Tear Up [Sco.Getname]. Highland Provinces Of Covenanters Will Break Off From The State And Declare Independence War Against Us.\\N\\Nit'S Highly Probable That Our Rivals Join In At The Convenanters' Side!": true
@@ -37348,12 +38183,12 @@
 				"Create Alliance": null,
 				"Join All Offensive Wars Of": null,
 				"Event Target Fee Scotland Rival Target": {
-					"Country Event": {
+					"Event": {
 						"Id": "[From.Getadjective] [From.Monarch.Gettitle] Supports Rebellion!"
 					}
 				},
 				"Event Target Fee Scotland Hsc Target": {
-					"Country Event": {
+					"Event": {
 						"Id": null
 					}
 				}
@@ -37362,7 +38197,7 @@
 				"Save Event Target As": "FEE_Scotland_refused_to_support_covenanters",
 				"Add Prestige": -5,
 				"Event Target Fee Scotland Rival Target": {
-					"Country Event": {
+					"Event": {
 						"Id": "[From.Getadjective] [From.Monarch.Gettitle] Refuses To Support Rebellion!"
 					}
 				}
@@ -37504,12 +38339,12 @@
 				"Add Years Of Income": -1,
 				"Random List": {
 					"60": {
-						"Country Event": {
+						"Event": {
 							"Id": "Darien Success"
 						}
 					},
 					"40": {
-						"Country Event": {
+						"Event": {
 							"Id": "Disaster At Darien"
 						}
 					}
@@ -37663,7 +38498,7 @@
 					"National Unrest": 1,
 					"Expires": "7300 days"
 				},
-				"Country Event": {
+				"Event": {
 					"Id": "Aftermath Of The Clearances",
 					"Days": 180
 				}
@@ -37899,8 +38734,7 @@
 			"Mean Time To Happen": {
 				"Months": 200
 			},
-			"Fee Scotland Events": {
-				"Name": "FEE_Scotland_Events",
+			"Oh This Is Great!": {
 				"Add Innovativeness Or Monarch Power": 10,
 				"Industrial Pioneer": {
 					"Development Cost": -0.1,
@@ -38172,7 +39006,7 @@
 			},
 			"Scotland Needs To Ensure Its Position In The New Status Quo.": {
 				"Overlord": {
-					"Country Event": {
+					"Event": {
 						"Id": "The Scottish Present Their Claim Of Right",
 						"Days": 5,
 						"Fee Scotland Events.39.Opt2.Tt": true
@@ -38483,7 +39317,7 @@
 					"Limit": {
 						"Is Part Of Hre": true
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Founding",
 						"Days": 30
 					}
@@ -38581,7 +39415,7 @@
 						"Limit": {
 							"Has Country Flag": "Fee Swa Member Swabia League"
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "An Invitation To Join The Swabian League",
 							"Days": 3
 						}
@@ -38618,7 +39452,7 @@
 						"Limit": {
 							"Has Country Flag": "Fee Swa Member Swabia League"
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "The Swabian League Disbands!",
 							"Days": 1
 						}
@@ -38632,7 +39466,7 @@
 								"Has Country Flag": "Fee Swa Member Swabia League"
 							}
 						},
-						"Country Event": {
+						"Event": {
 							"Id": "The Swabian League Has Disbanded!",
 							"Days": 7
 						}
@@ -38700,7 +39534,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Swa Member Swabia League"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Swabian League Disbands!",
 						"Days": 10
 					}
@@ -38750,7 +39584,7 @@
 							"Is At War": true
 						}
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Needs Our Aid",
 						"Days": 3
 					}
@@ -38770,7 +39604,7 @@
 			"Send Them Military Aid!": {
 				"Add Manpower": -1,
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Sends Military Aid!",
 						"Days": 1,
 						"Random": 45
@@ -38780,7 +39614,7 @@
 			"Send Them Some Money.": {
 				"Add Treasury": -25,
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Sends Financial Aid!",
 						"Days": 1,
 						"Random": 45
@@ -38791,7 +39625,7 @@
 				"Add Treasury": -25,
 				"Add Manpower": -1,
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "By The Grace Of God $From$ Pledges Aid!",
 						"Days": 1,
 						"Random": 45
@@ -38801,7 +39635,7 @@
 			"This Is Hardly A League Matter.": {
 				"Add Prestige": -10,
 				"From": {
-					"Country Event": {
+					"Event": {
 						"Id": "$From$ Refuses To Send Aid!",
 						"Days": 1,
 						"Random": 45
@@ -38998,7 +39832,7 @@
 					"Limit": {
 						"Has Country Flag": "Fee Swa Member Swabia League"
 					},
-					"Country Event": {
+					"Event": {
 						"Id": "The Founding"
 					}
 				}
@@ -39121,7 +39955,7 @@
 				"Add Manpower": 3,
 				"Add Mil Power": 25,
 				"Switzerland": {
-					"Country Event": {
+					"Event": {
 						"Id": "In Service Of The French King",
 						"Days": 10
 					}
@@ -39148,7 +39982,7 @@
 			"These Men Will Fight For Switzerland Not France!": {
 				"Add Manpower": 3,
 				"France": {
-					"Country Event": {
+					"Event": {
 						"Id": "Switzerland Condemns Mercenaries",
 						"Days": 5,
 						"The French [Fra.Monarch.Gettitle] Will Not Be Pleased.": true
@@ -39438,41 +40272,9 @@
 					"Expires": "Never"
 				},
 				"Upper Swabia Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Lower Swabia Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				}
 			},
@@ -39515,7 +40317,7 @@
 					"Expires": "1825 days"
 				},
 				"Burgundy": {
-					"Country Event": {
+					"Event": {
 						"Id": "Charles The Bold Takes Command Against The Swiss"
 					}
 				}
@@ -39660,13 +40462,13 @@
 				"Months": 6
 			},
 			"Zwingli Has Proven Himself And His Beliefs!": {
-				"Country Event": {
+				"Event": {
 					"Id": "Zwingli'S Triumph",
 					"Days": 1
 				}
 			},
 			"The Catholic Church Has Proven Itself Worthy!": {
-				"Country Event": {
+				"Event": {
 					"Id": "The Church'S Triumph",
 					"Days": 1
 				}
@@ -39688,21 +40490,20 @@
 				"Random List": {
 					"50": [
 						{
-							"Country Event": {
+							"Event": {
 								"Id": "Zwingli'S Triumph",
 								"Days": 1
 							}
 						},
 						{
-							"Country Event": {
+							"Event": {
 								"Id": "The Church'S Triumph",
 								"Days": 1
 							}
 						}
 					]
 				}
-			},
-			"After": {}
+			}
 		},
 		"Zwingli'S Triumph": {
 			"Is Triggered Only": true,
@@ -39829,7 +40630,7 @@
 		"Tobacco Production In Brussels": {
 			"Fire Only Once": true,
 			"Trigger": {
-				"Owns": 90,
+				"Owns": 92,
 				"Is Year": 1558
 			},
 			"Mean Time To Happen": {
@@ -39838,7 +40639,7 @@
 			"Support The Tobacco Planters": {
 				"Add Treasury": -400,
 				"Add Estate Burghers Loyalty Effect": true,
-				"90": {
+				"92": {
 					"Add Base Production": 2,
 					"Change Trade Goods": "Tobacco",
 					"If": {
@@ -39855,7 +40656,7 @@
 				"Add Mercantilism Or Monarch Power": {
 					"Amount": 2
 				},
-				"90": {
+				"92": {
 					"Add Base Production": -2,
 					"Declining Cloth Industry": {
 						"Local Development Cost": 0.15,
@@ -39926,7 +40727,7 @@
 					"Value": 0.25,
 					"Duration": -1
 				},
-				"Bas-Poitou": {
+				"Den Haag": {
 					"Change Trade Goods": "Chinaware",
 					"If": {
 						"Limit": {
@@ -40010,7 +40811,7 @@
 			"Let Them Eat Bread": {
 				"Random": {
 					"Chance": 50,
-					"Country Event": {
+					"Event": {
 						"Id": null
 					}
 				},
@@ -40127,7 +40928,7 @@
 			"Encourage This New Industry": {
 				"Add Treasury": -400,
 				"Add Estate Burghers Loyalty Effect": true,
-				"Jan Mayen Sea": {
+				"Cambray": {
 					"Change Trade Goods": "Silk",
 					"If": {
 						"Limit": {
@@ -40713,7 +41514,7 @@
 						"Limit": {
 							"Has Country Flag": "Had Liberalism"
 						},
-						"Country Event": {
+						"Event": {
 							"Id": null,
 							"Days": 1
 						}
@@ -40941,21 +41742,9 @@
 						"Development": 30,
 						"And": {
 							"Is Expanded Mod Active": "Great Monuments",
-							"Or": {
-								"Has Great Project": [
-									{
-										"Type": null,
-										"Tier": 1
-									},
-									{
-										"Type": null,
-										"Tier": 2
-									},
-									{
-										"Type": null,
-										"Tier": 3
-									}
-								]
+							"Has Great Project": {
+								"Type": null,
+								"Tier": 1
 							}
 						}
 					}
@@ -40992,17 +41781,9 @@
 						"Development": 40,
 						"And": {
 							"Is Expanded Mod Active": "Great Monuments",
-							"Or": {
-								"Has Great Project": [
-									{
-										"Type": null,
-										"Tier": 2
-									},
-									{
-										"Type": null,
-										"Tier": 3
-									}
-								]
+							"Has Great Project": {
+								"Type": null,
+								"Tier": 2
 							}
 						}
 					}
@@ -41131,7 +41912,7 @@
 				},
 				"Add Dip Power": 25,
 				"Ottomans": {
-					"Country Event": {
+					"Event": {
 						"Id": "Venetian Trade Deal",
 						"Days": 30
 					}
@@ -41140,25 +41921,7 @@
 			"We Will Take It By Ourselves.": {
 				"Add Mil Power": 150,
 				"Constantinople": {
-					"If": {
-						"Limit": {
-							"Not": [
-								{
-									"Owned By": "Root"
-								},
-								{
-									"Is Core": "Root"
-								},
-								{
-									"Is Empty": true
-								},
-								{
-									"Is Wasteland": true
-								}
-							]
-						},
-						"Add Permanent Claim": "Root"
-					}
+					"Add Permanent Claim": "Root"
 				}
 			}
 		},
@@ -41743,41 +42506,9 @@
 					"Loyalty": 5
 				},
 				"Morea Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				},
 				"Aegean Archipelago Area": {
-					"Limit": {
-						"Not": [
-							{
-								"Owned By": "Root"
-							},
-							{
-								"Is Core": "Root"
-							},
-							{
-								"Is Empty": true
-							},
-							{
-								"Is Wasteland": true
-							}
-						]
-					},
 					"Add Permanent Claim": "Root"
 				}
 			},
@@ -42185,8 +42916,7 @@
 						}
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Trattato Di Constantinopoli": {
 			"Is Triggered Only": true,
@@ -42388,7 +43118,7 @@
 				"Add Treasury": -25,
 				"Cyprus": {
 					"Owner": {
-						"Country Event": {
+						"Event": {
 							"Id": "Trading In Cyprus",
 							"Days": 60,
 							"Random": 30
@@ -42400,8 +43130,7 @@
 				"Add Mercantilism Or Monarch Power": {
 					"Amount": 5
 				}
-			},
-			"After": {}
+			}
 		},
 		"Trading In Cyprus": {
 			"Is Triggered Only": true,
@@ -42474,7 +43203,7 @@
 				"Add Treasury": -10,
 				"Jerusalem": {
 					"Owner": {
-						"Country Event": {
+						"Event": {
 							"Id": "Safe Passage To Jerusalem",
 							"Days": 60,
 							"Random": 30
@@ -42495,8 +43224,7 @@
 					},
 					"Add Prestige": -5
 				}
-			},
-			"After": {}
+			}
 		},
 		"Safe Passage To Jerusalem": {
 			"Is Triggered Only": true,
@@ -42553,7 +43281,7 @@
 				"Add Treasury": -50,
 				"Alexandria": {
 					"Owner": {
-						"Country Event": {
+						"Event": {
 							"Id": "Veneto-Egyptian Trade Deal",
 							"Days": 60,
 							"Random": 30
@@ -42676,7 +43404,7 @@
 			},
 			"We Might Negotiate With Them?": {
 				"Trebizond": {
-					"Country Event": {
+					"Event": {
 						"Id": "A Trade Offer From The Venetians",
 						"Days": 180,
 						"Random": 30
@@ -42828,7 +43556,7 @@
 				"Add Dip Power": -50,
 				"Salento": {
 					"Owner": {
-						"Country Event": {
+						"Event": {
 							"Id": "Mocenigo In Bari",
 							"Days": 30,
 							"Random": 15
@@ -43073,21 +43801,9 @@
 					"Limit": {
 						"Has Dlc": "Leviathan",
 						"Venezia": {
-							"Or": {
-								"Has Great Project": [
-									{
-										"Type": null,
-										"Tier": 1
-									},
-									{
-										"Type": null,
-										"Tier": 2
-									},
-									{
-										"Type": null,
-										"Tier": 3
-									}
-								]
+							"Has Great Project": {
+								"Type": null,
+								"Tier": 1
 							}
 						}
 					},
@@ -43102,21 +43818,9 @@
 				"Trigger": {
 					"Has Dlc": "Leviathan",
 					"Venezia": {
-						"Or": {
-							"Has Great Project": [
-								{
-									"Type": null,
-									"Tier": 1
-								},
-								{
-									"Type": null,
-									"Tier": 2
-								},
-								{
-									"Type": null,
-									"Tier": 3
-								}
-							]
+						"Has Great Project": {
+							"Type": null,
+							"Tier": 1
 						}
 					}
 				},
@@ -43137,8 +43841,7 @@
 						"Tier": -1
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Plague Of Venice": {
 			"Fire Only Once": true,
@@ -43217,7 +43920,7 @@
 			"Might Lion'S Wind Be On Your Side!": {
 				"Add Dip Power": -50,
 				"We Will Finance The Voyages Of Antonio Grimani In The Eastern Mediterranean Sea And In The Middle East They Might Bring Wealth And Fame To The Republic But Trade Has Its Price.": true,
-				"Country Event": {
+				"Event": {
 					"Id": "Arrival In Syria",
 					"Days": 180,
 					"Random": 30
@@ -43226,7 +43929,7 @@
 			"This Amount Of Ducats Should Suffice!": {
 				"Add Treasury": -25,
 				"We Will Finance The Voyages Of Antonio Grimani In The Eastern Mediterranean Sea And In The Middle East They Might Bring Wealth And Fame To The Republic But Trade Has Its Price.": true,
-				"Country Event": {
+				"Event": {
 					"Id": "Arrival In Syria",
 					"Days": 180,
 					"Random": 30
@@ -43307,8 +44010,7 @@
 						"Key": null
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Continuing The Voyages": {
 			"Fire Only Once": true,
@@ -43426,7 +44128,7 @@
 						"Exists": "Ethiopia"
 					},
 					"Ethiopia": {
-						"Country Event": {
+						"Event": {
 							"Id": "Venetians In Ethiopia!"
 						}
 					}
@@ -43434,7 +44136,7 @@
 				"Else": {
 					"Gonder": {
 						"Owner": {
-							"Country Event": {
+							"Event": {
 								"Id": "Venetians In Ethiopia!"
 							}
 						}
@@ -44031,7 +44733,7 @@
 				"Add Treasury": -25,
 				"Add Dip Power": -25,
 				"Mamluks": {
-					"Country Event": {
+					"Event": {
 						"Id": "Venetians In Egypt?"
 					}
 				},
@@ -44142,7 +44844,7 @@
 			"Let'S Hope For A Peaceful Reconciliation.": {
 				"Add Treasury": -5,
 				"Mamluks": {
-					"Country Event": {
+					"Event": {
 						"Id": "Pious Request From Venice",
 						"Days": 30
 					}
@@ -44343,8 +45045,7 @@
 				"Add Mercantilism Or Monarch Power": {
 					"Amount": 3
 				}
-			},
-			"After": {}
+			}
 		},
 		"Francesco Venier In Savoy": {
 			"Fire Only Once": true,
@@ -44403,8 +45104,7 @@
 						"Modifier": "Economy Suffering due to Diverted Trade"
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Francesco Venier In France": {
 			"Is Triggered Only": true,
@@ -44461,8 +45161,7 @@
 						"Modifier": "Economy Suffering due to Diverted Trade"
 					}
 				}
-			},
-			"After": {}
+			}
 		},
 		"Francesco Venier In London": {
 			"Is Triggered Only": true,

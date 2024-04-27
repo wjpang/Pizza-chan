@@ -138,6 +138,39 @@
 			"Trade Steering": 0.2
 		}
 	},
+	"Andhra": {
+		"Traditions": {
+			"Goods Produced Modifier": 0.1,
+			"Cavalry Combat Ability": 0.15
+		},
+		"Ambition": {
+			"Core-Creation Cost": -0.2
+		},
+		"One Of The Sixteen": {
+			"Reform Progress Growth": 0.25
+		},
+		"The Telugu People": {
+			"Discipline": 0.05
+		},
+		"Amaravathi": {
+			"Tolerance of Heathens": 2,
+			"Yearly Karma Decay": 0.1
+		},
+		"Satavahana Dynasty": {
+			"No stability loss on Ruler death": true
+		},
+		"Bavikonda & Nagarjuna Konda": {
+			"National Tax Modifier": 0.1,
+			"Caravan Power": 0.15
+		},
+		"Tikkana": {
+			"Culture Conversion Cost": -0.15
+		},
+		"Fighting The Northern Sultans": {
+			"Military Technology Cost": -0.1,
+			"Fort Defense": 0.15
+		}
+	},
 	"Anhalt": {
 		"Traditions": {
 			"Morale of Armies": 0.1,
@@ -1176,6 +1209,40 @@
 			"Yearly Republican Tradition": 0.3
 		}
 	},
+	"Carnatic": {
+		"Traditions": {
+			"Morale of Armies": 0.1,
+			"Core-Creation Cost": -0.1
+		},
+		"Ambition": {
+			"Naval Force Limit Modifier": 0.2
+		},
+		"Carnatic Music": {
+			"Yearly Prestige": 1
+		},
+		"Humiliate The Marathas": {
+			"Shock Damage": 0.1
+		},
+		"The Rowther Caste": {
+			"Cavalry Cost": -0.15,
+			"Cavalry Combat Ability": 0.2
+		},
+		"Firman Constitution": {
+			"Reform Progress Growth": 0.2
+		},
+		"European Treaties": {
+			"Improve Relations": 0.25,
+			"Monthly Favor Growth Modifier": 0.33
+		},
+		"Tipu Mastan Aulia": {
+			"Tolerance of the True Faith": 2,
+			"Monthly Piety Accelerator": 0.002
+		},
+		"Nayawath Dynasty": {
+			"National Unrest": -2,
+			"Trade Efficiency": 0.1
+		}
+	},
 	"Castile": {
 		"Traditions": {
 			"Morale of Armies": 0.15,
@@ -1608,7 +1675,7 @@
 			"Goods Produced Modifier": 0.1
 		},
 		"Limpieza De Sangre": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Galeón De Manila": {
 			"Light Ship Cost": -0.15,
@@ -2382,7 +2449,7 @@
 			"Development Cost Modifier": -0.075
 		},
 		"Uffizi": {
-			"Cost of Advisors with Ruler's Culture": -0.15
+			"Cost of Advisors with Ruler Culture": -0.15
 		}
 	},
 	"France": {
@@ -2401,7 +2468,7 @@
 		},
 		"L'Ordonnance De Villers-Cotterêts": {
 			"State Governing Cost": -0.15,
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Coureurs Des Bois": {
 			"Native Uprising Chance": -0.5,
@@ -2787,6 +2854,38 @@
 			"Ship Cannons": 0.2
 		}
 	},
+	"Gingee": {
+		"Traditions": {
+			"Yearly Prestige": 1,
+			"Religious Unity": 0.25
+		},
+		"Ambition": {
+			"Development Cost": -0.1
+		},
+		"Tamil Foundation": {
+			"Construction Cost": -0.1
+		},
+		"Artisans And Traders": {
+			"Merchants": 1
+		},
+		"The Three Forts": {
+			"Fort Defense": 0.25
+		},
+		"Cisterns": {
+			"Goods Produced Modifier": 0.1
+		},
+		"Center Of Jain Worship": {
+			"Interest Per Annum": -0.5,
+			"Jains Loyalty Equilibrium": 0.1
+		},
+		"Perpetual Fringe State": {
+			"Monthly War Exhaustion": -0.03
+		},
+		"The Eternal Struggle": {
+			"Morale of Armies": 0.1,
+			"Yearly Army Tradition": 0.25
+		}
+	},
 	"Glogow": {
 		"Traditions": {
 			"Fort Defense": 0.33,
@@ -3154,7 +3253,7 @@
 			"Morale of Armies": 0.1
 		},
 		"Safe Haven For The Reformation": {
-			"Cost of Advisors with Ruler's Religion": -0.15
+			"Cost of Advisors with Ruler Religion": -0.15
 		},
 		"The Imperial Auxiliaries": {
 			"Discipline": 0.05,
@@ -3658,7 +3757,7 @@
 			"Yearly Papal Influence": 2
 		},
 		"Sacra Conoscenza": {
-			"Cost of Advisors with Ruler's Religion": -0.15
+			"Cost of Advisors with Ruler Religion": -0.15
 		},
 		"Dio Lo Vuole!": {
 			"Manpower Recovery Speed": 0.1,
@@ -3710,7 +3809,7 @@
 			}
 		},
 		"Mecenati": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ordini Cavallereschi": {
 			"Tolerance of the True Faith": 1,
@@ -3738,7 +3837,7 @@
 			"Yearly Devotion": 1
 		},
 		"Arti E Corporazioni": {
-			"Local Goods Produced Modifier": 0.1
+			"Goods Produced Modifier": 0.1
 		},
 		"Naviglii Lombardi": {
 			"Development Cost": -0.1
@@ -3920,6 +4019,39 @@
 		"Nunziatella": {
 			"Land Force Limit Modifier": 0.2,
 			"Land Leader Siege": 1
+		}
+	},
+	"Jaffna": {
+		"Traditions": {
+			"Infantry Combat Ability": 0.1,
+			"Possible Advisors": 1
+		},
+		"Ambition": {
+			"Reduced trade penalty on non main trade node": 1
+		},
+		"Foundations Of The Kingdom": {
+			"Core-Creation Cost": -0.15
+		},
+		"Strategic Use Of The Vanni Forest": {
+			"Combat Bonus in Terrain of Capital: +1": 1
+		},
+		"The Jaffna Peninsula": {
+			"Center of Trade Upgrade Cost": -0.2,
+			"Provincial Trade Power Modifier": 0.25
+		},
+		"Trade Economy": {
+			"Trade Efficiency": 0.1,
+			"Naval Force Limit Modifier": 0.33
+		},
+		"Trading Outposts": {
+			"Minimum Autonomy in Territories": -0.1,
+			"Trade Company Investment Cost": -0.1
+		},
+		"Bringin The Vedic Faith": {
+			"Missionary Strength": 0.02
+		},
+		"A Proper Administration": {
+			"Free Policies": 1
 		}
 	},
 	"Japan": {
@@ -4127,6 +4259,43 @@
 			"All Estates Influence Modifier": -0.1
 		}
 	},
+	"Kandy": {
+		"Traditions": {
+			"Diplomats": 1,
+			"Spy Defense": 0.33
+		},
+		"Ambition": {
+			"Morale of Armies": 0.1
+		},
+		"Survival In Secrecy": {
+			"Development Cost": -0.05,
+			"Effect": {
+				"Jungle Provinces's Development Cost": -0.15
+			}
+		},
+		"European Allies": {
+			"Trade Efficiency": 0.1,
+			"Military Technology Cost": -0.1
+		},
+		"The Red Lion": {
+			"Spy Network Construction": 0.33,
+			"Spy Action Cost Modifier": -0.2
+		},
+		"Sinhalese Resurgence": {
+			"Manpower in Own Culture Provinces": 0.25
+		},
+		"Convince Them To Leave": {
+			"Diplomatic Reputation": 1,
+			"Monthly Favor Growth Modifier": 0.33
+		},
+		"Heart Of The Indian Ocean": {
+			"Global Trade Power": 0.15
+		},
+		"Birth Of Sri Lanka": {
+			"Goods Produced Modifier": 0.1,
+			"Yearly Corruption": -0.2
+		}
+	},
 	"Karabakh": {
 		"Traditions": {
 			"Advisor Costs": -0.15,
@@ -4166,7 +4335,7 @@
 	"Kiev": {
 		"Traditions": {
 			"Goods Produced Modifier": 0.1,
-			"Cost of Advisors with Ruler's Religion": -0.15
+			"Cost of Advisors with Ruler Religion": -0.15
 		},
 		"Ambition": {
 			"Manpower in True Faith Provinces": 0.25
@@ -4229,7 +4398,7 @@
 	"Kingdom Of God": {
 		"Traditions": {
 			"Administrative Efficiency": 0.05,
-			"Cost of Advisors with Ruler's Religion": -0.2
+			"Cost of Advisors with Ruler Religion": -0.2
 		},
 		"Ambition": {
 			"Manpower in True Faith Provinces": 0.33
@@ -4325,6 +4494,39 @@
 		"Silhak": {
 			"Technology Cost": -0.1,
 			"Development Cost": -0.1
+		}
+	},
+	"Kotte": {
+		"Traditions": {
+			"Discipline": 0.05,
+			"Missionary Maintenance Cost": -0.2
+		},
+		"Ambition": {
+			"Diplomats": 1
+		},
+		"Remnants Of The Gampola Kingdom": {
+			"Stability Cost Modifier": -0.15
+		},
+		"Chinese Backed Dynasty": {
+			"Technology Cost": -0.1,
+			"Yearly Legitimacy": 1
+		},
+		"Last Of The Indian Buddhist": {
+			"Missionary Strength": 0.02,
+			"Yearly Karma Decay": 0.1
+		},
+		"Center Of Buddhist Learning And Art": {
+			"Idea Cost": -0.1
+		},
+		"First Sighting Of The Europeans": {
+			"Institution Spread": 0.33,
+			"Improve Relations": 0.15
+		},
+		"Western Weaponry": {
+			"Land Fire Damage": 0.1
+		},
+		"Alien Invasion": {
+			"Morale of Armies": 0.15
 		}
 	},
 	"Krakow": {
@@ -4854,6 +5056,42 @@
 			"Yearly Legitimacy": 1,
 			"Yearly Meritocracy": 1,
 			"Yearly Republican Tradition": 0.3
+		}
+	},
+	"Madurai": {
+		"Traditions": {
+			"Merchants": 1,
+			"National Manpower Modifier": 0.15
+		},
+		"Ambition": {
+			"Ignore Coring Distance": true
+		},
+		"The Muventar": {
+			"No stability loss on Ruler death": true
+		},
+		"The Lunar Kings": {
+			"Aggressive Expansion Impact": -0.05,
+			"Core-Creation Cost": -0.1
+		},
+		"Looking East": {
+			"Vassalization Acceptance": 15,
+			"Colonists": 1
+		},
+		"Last Bastion Of Tamil Culture": {
+			"Yearly Prestige": 1,
+			"Brahmins Loyalty Equilibrium": 0.1,
+			"null": 0.1
+		},
+		"Pandya  Diplomacy": {
+			"Diplomats": 1,
+			"Improve Relations": 0.33
+		},
+		"War Of The Noses": {
+			"Yearly Army Tradition": 0.5,
+			"Monthly War Exhaustion": -0.02
+		},
+		"Resurgence Of The Tamil Currency": {
+			"Global Trade Power": 0.2
 		}
 	},
 	"Magdeburg": {
@@ -6038,7 +6276,7 @@
 			"Provincial Trade Power Modifier": 0.25
 		},
 		"A New Nizhny Novgorod": {
-			"Local Goods Produced Modifier": 0.1
+			"Goods Produced Modifier": 0.1
 		}
 	},
 	"Novgorod": {
@@ -6494,7 +6732,7 @@
 		"Urbanizing The Uralic Tundra": {
 			"Construction Cost": -0.1,
 			"Effect": {
-				"Arctic Provinces's Developmetn Cost": -0.3
+				"Arctic Provinces's Development Cost": -0.3
 			}
 		}
 	},
@@ -7879,7 +8117,9 @@
 			"Years for Personal Union Integration": -20,
 			"Effect": {
 				"Italian Provinces' Local Unrest": -2,
-				"Italian Provinces' Defensiveness": 0.1
+				"Italian Provinces' Defensiveness": 0.1,
+				"Iberian Provinces' Local Unrest": -2,
+				"Iberian Provinces' Local Autonomy": -0.025
 			}
 		},
 		"Aduanas Maritímas": {
@@ -8221,7 +8461,7 @@
 		},
 		"University Of Graz": {
 			"Technology Cost": -0.05,
-			"Cost of Advisors with Ruler's Religion": -0.2
+			"Cost of Advisors with Ruler Religion": -0.2
 		},
 		"Marchia Carantana": {
 			"Core-Creation Cost": -0.15
@@ -8324,6 +8564,43 @@
 		},
 		"Universal Conscription": {
 			"National Manpower Modifier": 0.2
+		}
+	},
+	"Tanjore": {
+		"Traditions": {
+			"Religious Unity": 0.25,
+			"Goods Produced Modifier": 0.1
+		},
+		"Ambition": {
+			"Diplomatic Reputation": 1
+		},
+		"The Ancient Chola Capital": {
+			"Development Cost": -0.05,
+			"Effect": {
+				"Tropical Provinces's Development Cost": -0.1
+			}
+		},
+		"Stewards Of The Great Living Temples": {
+			"Tolerance of the True Faith": 1.5,
+			"Great Project Upgrade Cost": -0.1
+		},
+		"Blessings Of Foreign Dynasties": {
+			"Advisor Costs": -0.15
+		},
+		"The Marshalls Of Vijayanagar": {
+			"Yearly Army Tradition": 0.5,
+			"National Manpower Modifier": 0.1
+		},
+		"Tamil Renaissance": {
+			"Construction Cost": -0.1,
+			"Fleet Prestige from Battles": 1
+		},
+		"Masters Of Gunpowder": {
+			"Artillery Fire": 0.5,
+			"Land Fire Damage": 0.1
+		},
+		"Bane Of The Europeans": {
+			"Morale of Armies": 0.1
 		}
 	},
 	"Teutonic Order": {
@@ -8761,7 +9038,7 @@
 			"Resistance to Reformation": 0.5
 		},
 		"University Of Trier": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Landwirtschaftsausstellung": {
 			"Caravan Power": 0.25
@@ -9030,7 +9307,7 @@
 			"Development Cost": -0.075
 		},
 		"Piero Della Francesca": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Studio E Biblioteca": {
 			"Idea Cost": -0.1
@@ -9437,7 +9714,7 @@
 			"Possible Condottieri": 0.5,
 			"Razing Power Gain": 0.2
 		},
-		"Stanista": {
+		"Stanytsia": {
 			"Global Monthly Devastation": -0.1,
 			"Envoy Travel Time": 0.5
 		},
@@ -9447,11 +9724,11 @@
 		"Bohdan Khmelnytsky": {
 			"Technology Cost": -0.1
 		},
-		"Zaporozka Sitsj": {
+		"Zaporozka Sich": {
 			"Shock Damage Received": -0.1,
 			"Attrition for Enemies": 1
 		},
-		"Hetmansjtsjyna": {
+		"Hetmanshchyna": {
 			"Years of Separatism": -10
 		}
 	}

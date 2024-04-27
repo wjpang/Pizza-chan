@@ -186,7 +186,7 @@ class HIE(commands.Cog):
             "The Best Ideas!",
             0xD5000,
             "Made by Melvasul and co.",
-            "https://steamuserimages-a.akamaihd.net/ugc/2296337442832342759/45EEB796AF4CF45A9D7AF0F7A62F4E034115EB7F/",
+            "https://steamuserimages-a.akamaihd.net/ugc/5837302407169060802/D727BF7F0EE82AFC1735FC9ABE3101FCBBB6201F/",
         )
         await inter.send(embed=hie_embed.embed)
 

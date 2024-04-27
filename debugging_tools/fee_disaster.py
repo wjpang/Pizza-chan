@@ -7,32 +7,33 @@ import time
 from os.path import basename
 
 # all definitions
-MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2185445645"
+if "\\" in os.getcwd():
+    MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2185445645"
+else:
+    MOD_PATH = r"/home/atimpone/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/workshop/content/236850/2185445645"
+
 LOC_DIR = MOD_PATH + r"\localisation"
 
-path = os.getcwd()
-parent = os.path.dirname(path)
-finalpath = os.path.dirname(parent) + r"\data\FEE.json"
+path = os.path.abspath(os.path.join(os.getcwd()))  # debugging-tools
+finalpath = os.path.join(os.path.dirname(path), "data", "Disaster.json")
 
-tags = parent + "\\tags.txt"
-data = parent + "\\database.json"
-provinces = parent + "\\provinces.json"
+data = os.path.join(path, "database.json")
+provinces = os.path.join(path, "provinces.json")
 
-DISASTER_PATH = MOD_PATH + r"\common\disasters"
+DISASTER_PATH = os.path.join(MOD_PATH, "common", "disasters")
 
-DISASTER_JSON = "disaster.json"
-disasters_input = glob.glob(DISASTER_PATH + r"\*.txt")
+disasters_input = sorted(glob.glob(os.path.join(DISASTER_PATH, "*.txt")), key=lambda x: x.lower())
 disaster_merged_txt = ""
 
-original_dict = {}
-disaster_loc = []
+dict_original = {}
+dict_localisation = []
 localized_names = {}
 
 
 def start():
     """All shit"""
     merging_disasters(disasters_input)
-    create_localisation_file(disaster_loc, LOC_DIR)
+    create_localisation_file(dict_localisation, LOC_DIR)
     json_parser(disaster_merged_txt)
 
     build()
@@ -40,7 +41,7 @@ def start():
 
 def merging_disasters(disaster_in):
     """Merges all the disasters files in one file, divided by country"""
-    global disaster_loc
+    global dict_localisation
     global disaster_merged_txt
     unique_list = []
 
@@ -56,18 +57,18 @@ def merging_disasters(disaster_in):
                 line_disaster = line_disaster.strip()
                 if line_disaster.startswith("fee_") or line_disaster.startswith("name = ") or line_disaster.startswith("custom_tooltip = ") or line_disaster.startswith("tooltip = "):
                     if line_disaster.startswith("fee_"):
-                        disaster_loc.append([line_disaster.split("=")[0].strip(), ""])
+                        dict_localisation.append([line_disaster.split("=")[0].strip(), ""])
                     else:
-                        disaster_loc.append([line_disaster.split("=")[1].strip(), ""])
+                        dict_localisation.append([line_disaster.split("=")[1].strip(), ""])
         disaster_merged_txt += "\n}\n"
 
-    for item in disaster_loc:
+    for item in dict_localisation:
         if item[0].startswith(("modifier = ", "name =", "tooltip =", "custom_tooltip =")):
             item[0] = item[0].split("=")[1].strip()
         if item not in unique_list:
             unique_list.append(item)
 
-    disaster_loc = unique_list
+    dict_localisation = unique_list
 
     print("Merged all events into one file")
 
@@ -83,7 +84,7 @@ def build():
     with open(provinces, "r", encoding="utf-8") as file:
         localized_provinces = json.load(file)
 
-    mon_lib2 = recurse_process_dict(original_dict, localized_datas, localized_provinces)
+    mon_lib2 = recurse_process_dict(dict_original, localized_datas, localized_provinces)
 
     with open(f"{os.path.dirname(finalpath)}\\Disaster.json", "w", encoding="utf-8") as output:
         json.dump(mon_lib2, output, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)
@@ -260,6 +261,8 @@ def recurse_process_dict(dictionary, loc_datas, loc_provinces):
                         dictionary[key_new] = localized_data
                     elif key in ("on_start", "on_end") or value.startswith("disaster_fee"):
                         localized_name = localized_names.get(f"{value_new}.T")
+                        if value_new == "disaster_fee_vijayaba_kollaya.2":
+                            localized_name = "Ending Event"
                         if localized_name is not None:
                             value_new = localized_name
                     else:
@@ -273,7 +276,7 @@ def recurse_process_dict(dictionary, loc_datas, loc_provinces):
     return dictionary
 
 
-def create_localisation_file(disaster_loc, LOC_DIR):
+def create_localisation_file(dict_localisation, LOC_DIR):
     """Fill the eventsLoc.txt with the localised values of the needed strings"""
     print("Started the creation of localisation")
     tolerance = 0.0125  # Adjust this tolerance value as needed
@@ -304,19 +307,19 @@ def create_localisation_file(disaster_loc, LOC_DIR):
             else:
                 key = line.split("=")[1].split("#")[0].strip().replace('"', "")
 
-            disaster_loc.append([key, ""])
+            dict_localisation.append([key, ""])
 
-    for item in disaster_loc:
+    for item in dict_localisation:
         if item[0] == "{" or "has_country_flag" in item[0]:
             del item
             continue
         if item not in unique_array:
             unique_array.append(item)
 
-    disaster_loc = unique_array
-    length = len(disaster_loc)
+    dict_localisation = unique_array
+    length = len(dict_localisation)
 
-    for index, item in enumerate(disaster_loc, start=1):
+    for index, item in enumerate(dict_localisation, start=1):
         percentage = (index / length) * 100
         if abs(percentage % 2.5 - 0) < tolerance or abs(percentage % 2.5 - 2.5) < tolerance:
             current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -345,7 +348,7 @@ def fee_filter(gm_dir, gm_text):
 
 def json_parser(disaster_file):
     """let's parse it all"""
-    global original_dict
+    global dict_original
 
     if "\\" in disaster_file:
         try:
@@ -413,7 +416,7 @@ def json_parser(disaster_file):
 
         return None
 
-    original_dict = json_data
+    dict_original = json_data
 
     # with open(f"{file_name[:-4]}.json", "w", encoding="utf8") as file:
     #     json.dump(json_data, file, indent="\t", separators=(",", ": "), ensure_ascii=False)  # , sort_keys=True)

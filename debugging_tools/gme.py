@@ -6,23 +6,24 @@ import time
 from os.path import basename
 
 # all definitions
-MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2469419235"
-LOC_DIR = MOD_PATH + r"\localisation"
-MON_DIR = MOD_PATH + r"\common\great_projects"
+if "\\" in os.getcwd():
+    MOD_PATH = r"A:\Program Files (x86)\Steam\steamapps\workshop\content\236850\2469419235"
+else:
+    MOD_PATH = r"/home/atimpone/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/workshop/content/236850/2469419235"
 
-path = os.getcwd()
-parent = os.path.dirname(path)
-finalpath = os.path.dirname(parent) + r"\data\GME.json"
+LOC_DIR = os.path.join(MOD_PATH, "localisation")
+MON_DIR = os.path.join(MOD_PATH, "common", "great_projects")
 
-provinces = parent + "\\provinces.json"
-database = parent + "\\database.json"
-tags = parent + "\\tags.txt"
+path = os.path.abspath(os.path.join(os.getcwd()))  # debugging-tools
+finalpath = os.path.join(os.path.dirname(path), "data", "GME.json")
 
-MON_INPUT = glob.glob(MON_DIR + "\\*.txt")
+data = os.path.join(path, "database.json")
+provinces = os.path.join(path, "provinces.json")
+
+MON_INPUT = sorted(glob.glob(os.path.join(MON_DIR, "*.txt")), key=lambda x: x.lower())
 
 dict_original = {}
 dict_localisation = {}
-check = ""
 
 
 def start():
@@ -64,6 +65,8 @@ def create_localisation_file(directory_localisation):
             dict_localisation[key_sub] = ""
 
             for filename in filenames:
+                if len(dict_localisation[key_sub]) > 1:
+                    break
                 with open(filename, "r", encoding="utf-8") as file:
                     for line in file:
                         if ":" in line:
@@ -74,6 +77,9 @@ def create_localisation_file(directory_localisation):
                                 dict_localisation[key_sub] = line_value.strip().replace('"', "").replace(",", "").title()
                                 break
 
+    dict_localisation["GME_OWNS_ALL_PROVINCES_IN_COROMANDEL_TT"] = "Owns all Provinces in the Coromandel Trade Node"
+    dict_localisation["GME_BAHMANI_TOMBS_TT"] = "Either is or was Ahmednagar, Bahamnis, Berar, Bijapur, Golkonda or has their dynasties."
+
     print("Successfully populated the localisation file")
 
 
@@ -83,7 +89,7 @@ def build(dictionary):
     dict_final = {}
     localized_provinces = {}
 
-    with open(database, "r", encoding="utf-8") as file:
+    with open(data, "r", encoding="utf-8") as file:
         localized_datas = json.load(file)
     with open(provinces, "r", encoding="utf-8") as file:
         localized_provinces = json.load(file)
@@ -97,7 +103,6 @@ def build(dictionary):
 
 
 def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
-    global check
 
     for key, value in list(dictionary.items()):
         if key in (
@@ -153,6 +158,12 @@ def recursive_dict(dictionary, loc_names, loc_datas, loc_provinces):
                     dictionary[key_new] = dictionary.pop(key)
                     dictionary[key_new] = value_new
                     continue
+                elif key.replace("_", " ").title() == "Custom Trigger Tooltip":
+                    key_new = loc_names.get(dictionary[key]["tooltip"])
+                    dictionary[key_new] = dictionary.pop(key)
+                    dictionary[key_new] = "True"
+                    continue
+
                 if key == "can_upgrade_trigger":
                     key_new = "Monument Trigger"
                 elif key.startswith("gme_"):

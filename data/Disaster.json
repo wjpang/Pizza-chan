@@ -1,4 +1,175 @@
 {
+	"First Conspirancy Of The Barons": {
+		"Potential": {
+			"Fee Is Was Nap Sic": true,
+			"Has Estate": "Estate Nobles",
+			"Not": [
+				{
+					"Has Country Flag": "Fee Nap First Barony Risen"
+				},
+				{
+					"Has Country Flag": "Fee Nap First Barony Skipped"
+				}
+			]
+		},
+		"Can Start": {
+			"Has Any Disaster": false,
+			"Is Year": 1459,
+			"Not": [
+				{
+					"Is Year": 1464
+				},
+				{
+					"Is Subject Of": "France"
+				},
+				{
+					"Estate Loyalty": {
+						"Estate": "Estate Nobles",
+						"Loyalty": 70
+					}
+				}
+			],
+			"Or": {
+				"Apulia Area": {
+					"Owned By": "Root"
+				},
+				"Naples Area": {
+					"Owned By": "Root"
+				},
+				"Calabria Area": {
+					"Owned By": "Root"
+				}
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Custom Trigger": "We were able to keep the Barons at ease."
+			}
+		},
+		"Down Progress": {
+			"Factor": 1
+		},
+		"Can End": {
+			"Stability": 1,
+			"Not": [
+				{
+					"Italy Region": {
+						"Owned By": "Root",
+						"Controlled By": "Noble Rebels"
+					}
+				},
+				{
+					"Italy Region": {
+						"Owned By": "Root",
+						"Units In Province": "Rebels"
+					}
+				}
+			]
+		},
+		"Modifier": {
+			"Legitimacy": -1,
+			"Reform Progress Growth": -0.25,
+			"Global Manpower Modifier": -0.15,
+			"Manpower Recovery Speed": -0.15
+		},
+		"On Start": "Prima Congiura dei baroni",
+		"On End": "Prima Congiura dei baroni sedata",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1600": 0,
+				"100": [
+					"The arrival of the Skanderberg",
+					"Nobles rally support",
+					"Fall of the King"
+				],
+				"75": "Fee Naples Events.29"
+			}
+		}
+	},
+	"Second Conspirancy Of The Barons": {
+		"Potential": {
+			"Fee Is Was Nap Sic": true,
+			"Has Estate": "Estate Nobles",
+			"Not": {
+				"Has Country Flag": "Fee Nap Second Barony Risen"
+			}
+		},
+		"Can Start": {
+			"Has Any Disaster": false,
+			"Is Year": 1485,
+			"Not": [
+				{
+					"Is Year": 1486
+				},
+				{
+					"Is Subject Of": "France"
+				},
+				{
+					"Estate Loyalty": {
+						"Estate": "Estate Nobles",
+						"Loyalty": 70
+					}
+				}
+			],
+			"Or": {
+				"Apulia Area": {
+					"Owned By": "Root"
+				},
+				"Naples Area": {
+					"Owned By": "Root"
+				},
+				"Calabria Area": {
+					"Owned By": "Root"
+				}
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Custom Trigger": "We were able to keep the Barons at ease."
+			}
+		},
+		"Down Progress": {
+			"Factor": 1
+		},
+		"Can End": {
+			"Stability": 1,
+			"Not": [
+				{
+					"Italy Region": {
+						"Owned By": "Root",
+						"Controlled By": "Noble Rebels"
+					}
+				},
+				{
+					"Italy Region": {
+						"Owned By": "Root",
+						"Units In Province": "Rebels"
+					}
+				}
+			]
+		},
+		"Modifier": {
+			"Legitimacy": -1,
+			"Reform Progress Growth": -0.25,
+			"Global Manpower Modifier": -0.15,
+			"Manpower Recovery Speed": -0.15
+		},
+		"On Start": "Seconda Congiura dei Baroni",
+		"On End": "The Barons have been defeated",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1600": 0,
+				"100": [
+					"Nobles rally support",
+					"Fall of the King"
+				]
+			}
+		}
+	},
 	"Crisis Of The Mughal Empire": {
 		"Potential": {
 			"Country": "Mughals",
@@ -143,19 +314,19 @@
 			"Religion Group": "Muslim",
 			"Delta Area": {
 				"Type": "All",
-				"Owned By": "ROOT"
+				"Owned By": "Root"
 			},
 			"Al Wahat Area": {
 				"Type": "All",
-				"Owned By": "ROOT"
+				"Owned By": "Root"
 			},
 			"Bahari Area": {
 				"Type": "All",
-				"Owned By": "ROOT"
+				"Owned By": "Root"
 			},
 			"Gulf Of Arabia Area": {
 				"Type": "All",
-				"Owned By": "ROOT"
+				"Owned By": "Root"
 			}
 		},
 		"Can Start": {
@@ -180,7 +351,7 @@
 				},
 				"Any Core Province": {
 					"Not": {
-						"Owned By": "ROOT"
+						"Owned By": "Root"
 					}
 				}
 			}
@@ -399,7 +570,7 @@
 		"Potential": {
 			"Country": "Italy",
 			"Italy Region": {
-				"Owned By": "ROOT"
+				"Owned By": "Root"
 			},
 			"Or": {
 				"Is Year": 1600,
@@ -428,16 +599,16 @@
 			"Not": [
 				{
 					"Italy Region": {
-						"Controlled By": "Ita Republican Rebels"
+						"Controlled By": "Fee Ita Republican Rebels"
 					}
 				},
 				{
 					"Italy Region": {
-						"Controlled By": "Ita Monarchy Rebels"
+						"Controlled By": "Fee Ita Monarchy Rebels"
 					}
 				}
 			],
-			"Custom Trigger": "One of the followign must be true:\\n\t§YRepublican§! or §YMonarchist§! rebels enforce their demand\\n\tThe disaster has been going for at least §Y15 years§!"
+			"Custom Trigger": "One of the following must be true:\\n\\t§YRepublican§! or §YMonarchist§! rebels enforce their demand\\n\\tThe disaster has been going for at least §Y15 years§!"
 		},
 		"Modifier": {
 			"Reform Progress Growth": -0.5,
@@ -880,6 +1051,80 @@
 				],
 				"200": "The Cardinal who would be King",
 				"150": "Spanish Intervention"
+			}
+		}
+	},
+	"Vijayaba Kollaya": {
+		"Ended By Country Breaking To Rebels": false,
+		"Potential": {
+			"Not": {
+				"Has Country Flag": "Had Fee Vijayaba Kollaya"
+			},
+			"Primary Culture": "Sinhalese",
+			"Current Age": "Age Of Reformation",
+			"Num Of Cities": 3,
+			"Government": "Monarchy",
+			"Is Free Or Tributary Trigger": true
+		},
+		"Can Start": {
+			"Has Any Disaster": false,
+			"Or": {
+				"Not": [
+					{
+						"Legitimacy": 85
+					},
+					{
+						"Stability": 0
+					}
+				],
+				"Is Bankrupt": true
+			}
+		},
+		"Can Stop": {
+			"Or": {
+				"Has Any Disaster": true,
+				"Not": {
+					"Government": "Monarchy"
+				},
+				"Is Subject Other Than Tributary Trigger": true
+			}
+		},
+		"Can End": {
+			"Hidden Trigger": {
+				"Has Country Flag": "Had Fee Vijayaba Kollaya"
+			},
+			"Or": {
+				"Custom Trigger": "The §YPretender Rebels§! have enforced their demands",
+				"And": {
+					"Legitimacy": 90,
+					"Not": [
+						{
+							"Num Of Rebel Armies": 1
+						},
+						{
+							"Num Of Rebel Controlled Provinces": 1
+						}
+					]
+				}
+			}
+		},
+		"Modifier": {
+			"Administrative Efficiency": -0.1,
+			"Global Manpower Modifier": -0.15,
+			"Advisor Cost": 0.25
+		},
+		"On Start": "Palace Coup!",
+		"On End": "Ending Event",
+		"On Monthly": {
+			"Events": [],
+			"Random Events": {
+				"1000": 0,
+				"300": [
+					"Soldiers defect to Princes!",
+					"Minister Plot Uncovered!",
+					"Ministers name a Pretender",
+					"A Counter Plot is Hatched"
+				]
 			}
 		}
 	},

@@ -38,6 +38,7 @@ def start():
         os.path.join(mod_path, "Ages-and-Splendor-Expaded"),
         os.path.join(mod_path, "FlavourEventsExpanded"),
         os.path.join(mod_path, "Historical-Ideas-Expanded"),
+        os.path.join(mod_path, "Governments Expanded"),
         os.path.join(mod_path, "Monuments-Expanded"),
         # Add more mod paths as needed
     ]

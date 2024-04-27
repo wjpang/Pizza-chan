@@ -1562,7 +1562,7 @@
 			"Technology Cost": -0.05
 		},
 		"Wuzurg Framadar": {
-			"Cost of Advisors with Ruler's Religion": -0.2
+			"Cost of Advisors with Ruler Religion": -0.2
 		},
 		"Reform The Savaran Cavalry": {
 			"Cavalry Combat Ability": 0.2
@@ -2211,7 +2211,7 @@
 			"Stability Cost Modifier": -0.1
 		},
 		"Czech Nationalism": {
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		}
 	},
 	"Italy": {
@@ -2691,7 +2691,7 @@
 			"Stability Cost Modifier": -0.1
 		},
 		"Patronize Burmese Literature": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Recruit From The Hill Tribes": {
 			"National Manpower Modifier": 0.2
@@ -10204,7 +10204,7 @@
 			"Cavalry Combat Ability": 0.15
 		},
 		"Persianate Patronage": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Caspian Trade": {
 			"Caravan Power": 0.2
@@ -10330,7 +10330,7 @@
 			"Galley Combat Ability": 0.2
 		},
 		"Men Of Quality": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Iga-Ryu": {
 			"Spy Network Construction": 0.2
@@ -10556,7 +10556,7 @@
 			"National Manpower Modifier": 0.15
 		},
 		"Council In Odawara": {
-			"Cost of Advisors with Ruler's Culture": -0.15
+			"Cost of Advisors with Ruler Culture": -0.15
 		}
 	},
 	"Chosokabe": {
@@ -10890,7 +10890,7 @@
 			"Shock Damage Received": -0.1
 		},
 		"The Clanns": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"More Than Irish": {
 			"National Unrest": -2
@@ -11134,7 +11134,7 @@
 			"Missionary Strength": 0.02
 		},
 		"Cultural Resilience": {
-			"Cost of Advisors with Ruler's Culture": -0.25,
+			"Cost of Advisors with Ruler Culture": -0.25,
 			"Number of accepted Cultures": 1
 		},
 		"Enlightenment Of The Masses": {
@@ -11951,7 +11951,7 @@
 			"Attrition for Enemies": 1
 		},
 		"Powerful Viziers": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Sufi Marabouts": {
 			"Idea Cost": -0.1,
@@ -12777,7 +12777,7 @@
 		},
 		"Assimilation Of The Rhenish People": {
 			"Number of accepted Cultures": 1,
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		},
 		"Tax Reforms": {
 			"National Tax Modifier": 0.1
@@ -13564,7 +13564,7 @@
 			"Yearly Horde Unity": 1
 		},
 		"Tari Topeng": {
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		},
 		"Ali'S Panther": {
 			"Morale of Armies": 0.15
@@ -13619,7 +13619,7 @@
 	"Samoa": {
 		"Traditions": {
 			"Possible Advisors": 1,
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		},
 		"Ambition": {
 			"Idea Cost": -0.1

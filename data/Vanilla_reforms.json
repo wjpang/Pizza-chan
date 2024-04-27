@@ -797,7 +797,7 @@
 					"Number of accepted Cultures": 3,
 					"Monthly Autonomy Change": -0.025,
 					"Monarch Administrative Skill": 2,
-					"Cost of Advisors with Ruler's Culture": -0.25,
+					"Cost of Advisors with Ruler Culture": -0.25,
 					"Promote Culture Cost": -0.5,
 					"Governing Capacity": 50,
 					"Nobles Influence": 0.1
@@ -1464,7 +1464,7 @@
 					"Years of Separatism": -5,
 					"Yearly Legitimacy": 1,
 					"Improve Relations": 0.15,
-					"No stability loss on ruler's death": true
+					"No stability loss on Ruler death": true
 				},
 				"Conditional": {
 					"Allow": {
@@ -1511,7 +1511,7 @@
 					"Monthly Fervor": 0.25,
 					"Clergy Influence": 0.25,
 					"Clergy Loyalty Equilibrium": 0.05,
-					"No stability loss on ruler's death": true
+					"No stability loss on Ruler death": true
 				},
 				"Custom Attributes": {
 					"Enables Aristocratic Idea Group": false,
@@ -1546,7 +1546,7 @@
 					"Clergy Influence": 0.05,
 					"Nobles Influence": 0.05,
 					"Burghers Influence": 0.05,
-					"No stability loss on ruler's death": true
+					"No stability loss on Ruler death": true
 				},
 				"Conditional": {
 					"Allow": {
@@ -2382,7 +2382,7 @@
 				},
 				"Modifiers": {
 					"Development Cost in Primary Culture": -0.1,
-					"Cost of Advisors with Ruler's Culture": -0.1,
+					"Cost of Advisors with Ruler Culture": -0.1,
 					"Institution Spread": 0.15
 				},
 				"Conditional": [
@@ -2488,7 +2488,7 @@
 				},
 				"Modifiers": {
 					"Max Privileges Per Estate": 1,
-					"No Stability Loss On Ruler'S Death": true,
+					"No Stability Loss On Ruler Death": true,
 					"All Estate'S Loyalty Equilibrium": 0.1,
 					"Tolerance Of The True Faith": 3,
 					"Samurai Force Limit": 0.1
@@ -2771,7 +2771,7 @@
 				},
 				"Modifiers": {
 					"Morale Damage": 0.05,
-					"Cost of Advisors with Ruler's Culture": -0.1,
+					"Cost of Advisors with Ruler Culture": -0.1,
 					"Nobles Loyalty Equilibrium": 0.05
 				},
 				"Conditional": {
@@ -2799,7 +2799,7 @@
 				"Modifiers": {
 					"All Estate's Loyalty Equilibrium": 0.05,
 					"Morale Damage": 0.05,
-					"Cost of Advisors with Ruler's Culture": -0.15,
+					"Cost of Advisors with Ruler Culture": -0.15,
 					"National Manpower Modifier": 0.15
 				},
 				"Conditional": [
@@ -2864,7 +2864,7 @@
 					"Missionaries": 1,
 					"Missionary Strength": 0.01,
 					"Monthly Piety Accelerator": 0.001,
-					"Cost of Advisors with Ruler's Religion": -0.1
+					"Cost of Advisors with Ruler Religion": -0.1
 				},
 				"Conditional": {
 					"Allow": {
@@ -3148,7 +3148,7 @@
 					"Reduced Liberty Desire on other Continent": 10,
 					"Country Allows VOC Indiamen Ships": true,
 					"VOC Indiamen Force Limit": 0.2,
-					"No stability loss on ruler's death": true
+					"No stability loss on Ruler death": true
 				},
 				"Custom Attributes": {
 					"Enables Plutocratic Idea Group": true,
@@ -3281,7 +3281,7 @@
 					}
 				},
 				"Modifiers": {
-					"Cost of Advisors with Ruler's Culture": -0.2,
+					"Cost of Advisors with Ruler Culture": -0.2,
 					"Diplomats": 1,
 					"National Unrest": -2,
 					"Maximum Absolutism": -30,
@@ -3330,7 +3330,7 @@
 					"Religion Group": "Eastern"
 				},
 				"Modifiers": {
-					"Cost Of Advisors With Ruler'S Religion": -0.15,
+					"Cost Of Advisors With Ruler Religion": -0.15,
 					"Yearly Harmony Increase": 0.25,
 					"Yearly Karma Decay": 0.03,
 					"Clergy Max Privileges": 1
@@ -3600,7 +3600,7 @@
 				},
 				"Modifiers": {
 					"Advisor Costs": -0.1,
-					"No stability loss on ruler's death": true,
+					"No stability loss on Ruler death": true,
 					"Yearly Army Professionalism": 0.005
 				},
 				"Custom Attributes": {
@@ -3688,7 +3688,7 @@
 					"Nobles Loyalty Equilibrium": 0.1,
 					"Marathas Loyalty Equilibrium": 0.1,
 					"Rajput Loyalty Equilibrium": 0.1,
-					"No stability loss on ruler's death": true
+					"No stability loss on Ruler death": true
 				},
 				"Custom Attributes": {
 					"Improved Nobles Regency": true
@@ -4166,7 +4166,7 @@
 				},
 				"Modifiers": {
 					"All Estates Influence Modifier": -0.05,
-					"Cost of Advisors with Ruler's Culture": -0.1,
+					"Cost of Advisors with Ruler Culture": -0.1,
 					"Yearly Meritocracy": 0.25
 				},
 				"Custom Attributes": {
@@ -4414,7 +4414,7 @@
 				},
 				"Trigger": [],
 				"Modifiers": {
-					"Cost of Advisors with Ruler's Religion": -0.15,
+					"Cost of Advisors with Ruler Religion": -0.15,
 					"Possible Advisors": 1
 				},
 				"Custom Attributes": {
@@ -5299,7 +5299,7 @@
 					"Has Dlc": "Kingofkings"
 				},
 				"Modifiers": {
-					"Cost Of Advisors With Ruler'S Religion": -0.2,
+					"Cost Of Advisors With Ruler Religion": -0.2,
 					"Yearly Government Power": 0.33
 				},
 				"Conditional": {
@@ -7231,7 +7231,7 @@
 				},
 				"Modifiers": {
 					"Stability Cost Modifier": -0.1,
-					"No stability loss on ruler's death": true
+					"No stability loss on Ruler death": true
 				},
 				"Conditional": {
 					"states_general_mechanic": {
@@ -7903,7 +7903,7 @@
 					"Has Unlocked Government Reform": "Legacy Of Eranshahr"
 				},
 				"Modifiers": {
-					"Cost of Advisors with Ruler's Religion": -0.2,
+					"Cost of Advisors with Ruler Religion": -0.2,
 					"Free Policies": 1
 				},
 				"Custom Attributes": {
@@ -8483,7 +8483,7 @@
 			"Right To Petition": {
 				"Modifiers": {
 					"Change National Focus Cooldown Years": -5,
-					"No stability loss on ruler's death": true,
+					"No stability loss on Ruler death": true,
 					"Monarch Diplomatic Skill": 1
 				}
 			},
@@ -10208,7 +10208,7 @@
 				},
 				"Modifiers": {
 					"Max Privileges Per Estate": 1,
-					"No Stability Loss On Ruler'S Death": true,
+					"No Stability Loss On Ruler Death": true,
 					"All Estate'S Loyalty Equilibrium": 0.1,
 					"Tolerance Of The True Faith": 3,
 					"Samurai Force Limit": 0.1
@@ -11792,7 +11792,7 @@
 					"Has Dlc": "Kingofkings"
 				},
 				"Modifiers": {
-					"Cost Of Advisors With Ruler'S Religion": -0.2,
+					"Cost Of Advisors With Ruler Religion": -0.2,
 					"Yearly Government Power": 0.33
 				},
 				"Conditional": {
@@ -13656,7 +13656,7 @@
 			},
 			"Attorney General": {
 				"Modifiers": {
-					"Cost of Advisors with Ruler's Culture": -0.15
+					"Cost of Advisors with Ruler Culture": -0.15
 				},
 				"Custom Attributes": {
 					"Republican Tradition From Advisors": true,
@@ -17735,7 +17735,7 @@
 					"Religion Group": "Eastern"
 				},
 				"Modifiers": {
-					"Cost Of Advisors With Ruler'S Religion": -0.15,
+					"Cost Of Advisors With Ruler Religion": -0.15,
 					"Yearly Harmony Increase": 0.25,
 					"Yearly Karma Decay": 0.03,
 					"Clergy Max Privileges": 1
@@ -18054,7 +18054,7 @@
 				},
 				"Modifiers": {
 					"Max Privileges Per Estate": 1,
-					"No Stability Loss On Ruler'S Death": true,
+					"No Stability Loss On Ruler Death": true,
 					"All Estate'S Loyalty Equilibrium": 0.1,
 					"Tolerance Of The True Faith": 3,
 					"Samurai Force Limit": 0.1
@@ -18271,7 +18271,7 @@
 					"Has Dlc": "Kingofkings"
 				},
 				"Modifiers": {
-					"Cost Of Advisors With Ruler'S Religion": -0.2,
+					"Cost Of Advisors With Ruler Religion": -0.2,
 					"Yearly Government Power": 0.33
 				},
 				"Conditional": {
@@ -21764,7 +21764,7 @@
 			"Harmonization Of Cultures": {
 				"Modifiers": {
 					"Promote Culture Cost": -0.5,
-					"Cost of Advisors with Ruler's Culture": -0.2
+					"Cost of Advisors with Ruler Culture": -0.2
 				}
 			},
 			"Cultural Safe Haven": {

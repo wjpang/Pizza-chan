@@ -15,11 +15,12 @@ if "\\" in os.getcwd():
 else:
     MOD_PATH = r"/home/atimpone/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/workshop/content/236850/2185445645"
     VANILLA_PATH = r"/home/atimpone/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Europa Universalis IV"
+
 LOC_DIR = os.path.join(MOD_PATH, "localisation")
 EVENT_MOD_DIR = os.path.join(MOD_PATH, "common", "event_modifiers")
 EVENT_MOD_DIR_VAN = os.path.join(VANILLA_PATH, "common", "event_modifiers")
 
-path = os.path.abspath(os.path.join(os.getcwd(), ".."))  # this is debugging_tools
+path = os.path.abspath(os.path.join(os.getcwd()))  # debugging-tools
 finalpath = os.path.join(os.path.dirname(path), "data", "FEE.json")
 
 data = os.path.join(path, "database.json")
@@ -86,6 +87,7 @@ key_flag_check = [
     "clr_ruler_flag",
     "has_country_flag",
     "has_global_flag",
+    "has_consort_flag",
     "has_heir_flag",
     "has_province_flag",
     "has_ruler_flag",
@@ -113,6 +115,8 @@ key_localisation_check = [
 key_database = [
     "trait",
     "advisor",
+    "remove_advisor",
+    "kill_advisor",
     "full_idea_group",
     "has_idea_group",
     "has_idea",
@@ -146,6 +150,7 @@ key_database = [
     "vassalize",
     "release",
     "alliance_with",
+    "has_subject_of_type",
     "is_subject_of",
     "is_subject_of_type",
     "is_capital_of",
@@ -425,6 +430,7 @@ def create_localisation_file(LOC_DIR):
             dict_localisation[key] = "Over-Exploited Cities"
         elif key == "western_reforms":
             dict_localisation[key] = "Western Reforms"
+
         for filename in filenames:
             if len(dict_localisation[key]) > 1:
                 break
@@ -460,6 +466,7 @@ def create_localisation_file(LOC_DIR):
     dict_localisation["fee_netherlands_rampjaar"] = "Rampjaar".title()
     dict_localisation["fee_naples_conspiracy_barons_1"] = "First Conspirancy Of the Barons".title()
     dict_localisation["fee_naples_conspiracy_barons_2"] = "Second Conspirancy Of the Barons".title()
+    dict_localisation["fee_vijayaba_kollaya"] = "Vijayaba Kollaya".title()
 
     # with open("FEELoc.json", "w", encoding="utf-8") as output:
     #     json.dump(dict_localisation, output, indent="\t", separators=(",", ": "), ensure_ascii=False)
@@ -510,11 +517,15 @@ def recurse_process_dict(dictionary, loc_names, loc_datas, loc_provinces):
                     skip = True
                 elif (len(key) == 3 or len(key) == 4) and key not in tag_provinces_checks:
                     key_new = loc_datas.get(key) if key.isalpha() else loc_provinces.get(key)
+                elif key in ("country_event", "province_event"):
+                    key_new = "Event"
                 else:
                     key_new = key.replace("_", " ").title()
+
                 temp = dictionary.pop(key)
                 dictionary[key_new] = temp
                 dictionary[key_new] = value_new
+
                 if isinstance(value, (list, dict)) and len(value) > 0 and skip is False:
                     recurse_process_dict(value, loc_names, loc_datas, loc_provinces)
 
@@ -644,8 +655,8 @@ def parse_correct_json():
                         continue
                     dict_new[event_name].update(process_event(events, events["title"]))
 
-    with open("FEE.json", "w", encoding="utf-8") as output:
-        json.dump(dict_new, output, indent="\t", separators=(",", ": "), ensure_ascii=False)
+    # with open("FEE.json", "w", encoding="utf-8") as output:
+    #     json.dump(dict_new, output, indent="\t", separators=(",", ": "), ensure_ascii=False)
 
     print("Succesfully created the correct Json")
 
@@ -671,8 +682,6 @@ def process_event(event_data, event_title):
                 event_dict[option["name"]] = process_option(option)
         else:
             event_dict[options["name"]] = process_option(options)
-    if "after" in event_data:
-        event_dict["after"] = event_data["after"]
 
     return {event_title: event_dict}
 
@@ -744,7 +753,11 @@ def process_modifiers(modifier):
                 elif add_disaster_modifier:
                     value_modifier["Expires"] = "On Disaster's End"
                 else:
-                    value_modifier["Expires"] = "Never"
+                    if 'desc' in value_modifier and value_modifier['desc'] == 'fee_diseases_until_end_of_plague':
+                        value_modifier["Expires"] = "On Plague's End"
+                        del value_modifier["desc"]
+                    else:
+                        value_modifier["Expires"] = "Never"
             else:
                 value_modifier["Expires"] = f"{value_duration} days"
 

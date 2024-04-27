@@ -13,7 +13,9 @@ if "\\" in os.getcwd():
 else:
     MOD_PATH = r"/home/atimpone/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/workshop/content/236850/2804377099"
 
-path = os.path.abspath(os.path.join(os.getcwd(), ".."))  # this is debugging_tools
+LOC_DIR = os.path.join(MOD_PATH, "localisation")
+
+path = os.path.abspath(os.path.join(os.getcwd()))  # debugging-tools
 finalpath = os.path.join(os.path.dirname(path), "data", "HIE.json")
 
 tags = os.path.join(path, "tags.txt")
@@ -23,7 +25,6 @@ ideas_hie_out_be4_json = os.path.join(MOD_PATH, "common", "ideas", "HIE_country_
 
 dict_ideas = {}
 dict_loc = {}
-LOC_DIR = os.path.join(MOD_PATH, "localisation")
 
 check_multiple_custom_tooltip = [
     "HIE_SPA_AND_FUERO_JUZGO_TT",
@@ -131,15 +132,13 @@ def transform_multiple_entry(dictionary, value):
         value_new = 0.15
         dictionary[key_new] = value_new
         return
-    elif "HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT" in value["custom_tooltip"]:
+    elif "HIE_SPA_ARA_UNION_OF_CROWNS_ITALY_TT" in value["custom_tooltip"] or "HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT" in value["custom_tooltip"]:
         key_new = "Italian Provinces' Local Unrest"
         value_new = -2
         dictionary[key_new] = value_new
         key_new = "Italian Provinces' Defensiveness"
         value_new = 0.10
         dictionary[key_new] = value_new
-        return
-    elif "HIE_SPA_ARA_UNION_OF_CROWNS_IBERIA_TT" in value["custom_tooltip"]:
         key_new = "Iberian Provinces' Local Unrest"
         value_new = -2
         dictionary[key_new] = value_new
@@ -169,11 +168,11 @@ def transform_singular_entry(key, value):
     elif "admirals_give_army_professionalism_tt" in value:
         return "Army Professionalism gained from recruiting Admirals", 0.5
     elif "HIE_DEV_COST_REDUCTION_IN_ARCTIC_TT" in value:
-        return "Arctic Provinces's Developmetn Cost", -0.30
+        return "Arctic Provinces's Development Cost", -0.30
     elif "HIE_DEV_COST_REDUCTION_IN_JUNGLE_TT" in value:
-        return "Jungle Provinces's Developmetn Cost", -0.15
+        return "Jungle Provinces's Development Cost", -0.15
     elif "HIE_DEV_COST_REDUCTION_IN_TROPIC_TT" in value:
-        return "Tropical Provinces's Developmetn Cost", -0.10
+        return "Tropical Provinces's Development Cost", -0.10
     elif "HIE_GOV_COST_REDUCTION_IN_PRUSSIAN_PROVINCES_TT" in value:
         return "Prussian Provinces' Governing Cost", -0.15
     elif "HIE_RAG_ABOLITION_SLAVERY_TT" in value:
