@@ -826,7 +826,7 @@
 			"Possible Advisors": 1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Dukedom of the Royal Family": {
 			"State Maintenance": -0.2,
@@ -1447,7 +1447,7 @@
 		},
 		"Cultural Diversity": {
 			"Accepted Cultures": 2,
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		},
 		"Mountains And Valleys": {
 			"Fort Defense": 0.2
@@ -2387,7 +2387,7 @@
 			"National Manpower Modifier": 0.2
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ancient Memories": {
 			"Stability Cost Modifier": -0.1,
@@ -2431,7 +2431,7 @@
 			"Stability Cost Modifier": -0.1
 		},
 		"Patronize Burmese Literature": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Recruit from the Hill Tribes": {
 			"National Manpower Modifier": 0.2
@@ -2823,7 +2823,7 @@
 			"Fort Defense": 0.1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Sophie, Countess of Bar": {
 			"Diplomatic Reputation": 1,
@@ -2920,7 +2920,7 @@
 			"Provincial Trade Power Modifier": 0.1
 		},
 		"Vijayapura and Po-ni": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Lessons from Srivijaya and Majapahit": {
 			"Core-Creation Cost": -0.1,
@@ -3040,7 +3040,7 @@
 			"National Unrest": -1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Proximity to Paris": {
 			"National Tax Modifier": 0.1,
@@ -3091,7 +3091,7 @@
 			"Accepted Cultures": 4
 		},
 		"Berau Language": {
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		},
 		"Islamic Adoption": {
 			"Tolerance of the True Faith": 2,
@@ -3133,7 +3133,7 @@
 	"Baghelkhand": {
 		"Traditions": {
 			"Caravan Power": 0.2,
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ambition": {
 			"Land Force Limit Modifier": 0.2
@@ -3601,7 +3601,7 @@
 	"Bundelkhand": {
 		"Traditions": {
 			"Garrison Size": 0.1,
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ambition": {
 			"National Manpower Modifier": 0.2
@@ -3811,7 +3811,7 @@
 			"Stability Cost Modifier": -0.1
 		},
 		"Czech Nationalism": {
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		}
 	},
 	"Bon": {
@@ -3884,7 +3884,7 @@
 			"Fort Maintenance": -0.1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Siegneur de Bourbon": {
 			"Yearly Prestige": 1,
@@ -4625,7 +4625,7 @@
 		},
 		"Matooke": {
 			"Promote Culture cost": -0.1,
-			"Cost of Advisors with Ruler's Culture": -0.1
+			"Cost of Advisors with Ruler Culture": -0.1
 		}
 	},
 	"Bukhara": {
@@ -5203,7 +5203,7 @@
 			"Rebel Suppression Efficiency": 0.2
 		},
 		"Open Doors": {
-			"Cost of Advisors with Ruler's Culture": -0.5
+			"Cost of Advisors with Ruler Culture": -0.5
 		},
 		"Unify conquered people": {
 			"Harsh Treatment Cost": -0.2,
@@ -5264,7 +5264,7 @@
 			"Fort Maintenance": -0.2
 		},
 		"The Cacan Language": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Influences from the North": {
 			"Land Force Limit Modifier": 0.2
@@ -5824,7 +5824,7 @@
 			"Yearly Prestige": 1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Grand Aristocracy": {
 			"Possible Advisors": 1,
@@ -7643,7 +7643,7 @@
 			"National Tax Modifier": 0.1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Feudal and Holy Roman Empire Roots": {
 			"National Manpower Modifier": 0.1,
@@ -8007,7 +8007,7 @@
 			"Monthly Autonomy Change": -0.05
 		},
 		"The Tharu People Remember": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"The Kukri!": {
 			"Infantry Combat Ability": 0.15
@@ -8594,7 +8594,7 @@
 		},
 		"Wyandot Linguistic Brothers": {
 			"Stability Cost Modifier": -0.1,
-			"Cost of Advisors with Ruler's Culture": -0.33
+			"Cost of Advisors with Ruler Culture": -0.33
 		},
 		"Hardy Hunters": {
 			"Infantry Combat Ability": 0.05,
@@ -9093,7 +9093,7 @@
 			"Yearly Legitimacy": 1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"From the Crusades": {
 			"Infantry Combat Ability": 0.1,
@@ -10415,7 +10415,7 @@
 			"Development Cost": -0.1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Successor to the Visigoths": {
 			"Monthly Autonomy Change": -0.05,
@@ -11033,7 +11033,7 @@
 			"National Manpower Modifier": 0.15
 		},
 		"Council in Odawara": {
-			"Cost of Advisors with Ruler's Culture": -0.15
+			"Cost of Advisors with Ruler Culture": -0.15
 		}
 	},
 	"Holy Roman Empire": {
@@ -12159,7 +12159,7 @@
 			"Shock Damage Received": -0.1
 		},
 		"The Clanns": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"More Than Irish": {
 			"National Unrest": -2
@@ -12665,7 +12665,7 @@
 			"Diplomats": 1
 		},
 		"Descendants of the Yadu Tribe": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Protect the Dwarkadhish Temple": {
 			"Yearly Prestige": 0.5,
@@ -13284,7 +13284,7 @@
 			"Spy Defense": 0.2
 		},
 		"Build up the Mel Mandap": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Mastery of Jungle Warfare": {
 			"Shock Damage": 0.1
@@ -14555,7 +14555,7 @@
 			"Prestige Decay": -0.01
 		},
 		"The Second Cheras Connection": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Combat in Kerala": {
 			"Land Attrition": -0.2
@@ -15536,7 +15536,7 @@
 			"Galley Combat Ability": 0.2
 		},
 		"Men of Quality": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Iga-Ryu": {
 			"Spy Network Construction": 0.2
@@ -19631,7 +19631,7 @@
 			"Spy Defense": 0.25
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Modena, the Buffer State": {
 			"Diplomatic Reputation": 2
@@ -19785,7 +19785,7 @@
 			"Attrition for Enemies": 1
 		},
 		"Powerful Viziers": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Sufi Marabouts": {
 			"Idea Cost": -0.1,
@@ -20697,7 +20697,7 @@
 			"National Manpower Modifier": 0.25
 		},
 		"History with the Pueblo People": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Rivals All Around": {
 			"Infantry Combat Ability": 0.1
@@ -21246,7 +21246,7 @@
 			"Yearly Prestige": 1.2
 		},
 		"Joining our court": {
-			"Cost of Advisors with Ruler's Culture": -0.5
+			"Cost of Advisors with Ruler Culture": -0.5
 		},
 		"Core Beliefs": {
 			"Missionary Strength vs Heathens": 0.04
@@ -21300,7 +21300,7 @@
 			"National Unrest": -1
 		},
 		"Zhu Chenhao": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Coercion and Deals": {
 			"Spy Network Construction": 0.2
@@ -21578,7 +21578,7 @@
 			"Light Ship Combat Ability": 0.15
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ancient Contention": {
 			"Army Drill Gain Modifier": 0.25,
@@ -23040,7 +23040,7 @@
 			"Monthly Gold Inflation Modifier": -0.2
 		},
 		"Promotion of Malay Literature": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Joining the Malay World": {
 			"Diplomatic Reputation": 1
@@ -23091,7 +23091,7 @@
 	"Kalinjar": {
 		"Traditions": {
 			"Yearly Legitimacy": 1,
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ambition": {
 			"National Manpower Modifier": 0.2
@@ -23214,7 +23214,7 @@
 	},
 	"Pavia": {
 		"Traditions": {
-			"Cost of Advisors with Ruler's Culture": -0.2,
+			"Cost of Advisors with Ruler Culture": -0.2,
 			"Attrition for Enemies": 1
 		},
 		"Ambition": {
@@ -23343,7 +23343,7 @@
 	"Padua": {
 		"Traditions": {
 			"Development Cost": -0.1,
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Ambition": {
 			"Yearly Corruption": -0.1
@@ -23489,7 +23489,7 @@
 			"Automatically Discover Adjacent When a Colony is Built": true
 		},
 		"Empower the Pequot People": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Astute Governance": {
 			"Monthly Autonomy Change": -0.05
@@ -23690,7 +23690,7 @@
 			"Mercenary Cost": -0.1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"At the Confluence of Three": {
 			"Diplomatic Reputation": 1,
@@ -23738,7 +23738,7 @@
 			"Automatically Discover Adjacent When a Colony is Built": true
 		},
 		"Promote the Language of the Pima": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Infrastructure for the Pima": {
 			"Development Cost": -0.1
@@ -24190,7 +24190,7 @@
 			"Construction Cost": -0.2
 		},
 		"The Cultural Golden Age": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		}
 	},
 	"Paraguay": {
@@ -24992,7 +24992,7 @@
 			"Infantry Combat Ability": 0.15
 		},
 		"Language Similarities": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Expansion into the Mississippi Plateua": {
 			"Settler Chance": 0.05
@@ -26987,7 +26987,7 @@
 			"Monthly War Exhaustion": -0.02
 		},
 		"Formalize the Siouan Language and History": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Found the Great Sioux Nation": {
 			"Colonists": 1,
@@ -28116,7 +28116,7 @@
 			"National Unrest": -1
 		},
 		"Emirate of Germiyan": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Great Mosque at Manisa": {
 			"Missionary Strength": 0.02
@@ -28154,7 +28154,7 @@
 			"Cavalry Combat Ability": 0.15
 		},
 		"Persianate Patronage": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Caspian Trade": {
 			"Caravan Power": 0.2
@@ -28663,7 +28663,7 @@
 			"Land Force Limit Modifier": 0.25
 		},
 		"Reconnect with Uyghurs Elsewhere": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Revive Yugur Prosperity": {
 			"Manpower Recovery Speed": 0.1
@@ -28912,7 +28912,7 @@
 			"Land Leader Maneuver": 2
 		},
 		"Whakapapa": {
-			"Cost of Advisors with Ruler's Culture": -0.5
+			"Cost of Advisors with Ruler Culture": -0.5
 		},
 		"Portified Pa": {
 			"Garrison Size": 0.2
@@ -30229,7 +30229,7 @@
 			"Development Cost": -0.1
 		},
 		"Preserving Totonac Culture": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Against the Aztecs": {
 			"Morale of Armies": 0.1
@@ -30244,7 +30244,7 @@
 			"Institution Spread": 0.1
 		},
 		"Ambition": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Battle of Toulouse, 721AD": {
 			"Morale of Armies": 0.1,
@@ -31389,7 +31389,7 @@
 			"Missionary Strength": 0.02
 		},
 		"Cultural Resilience": {
-			"Cost of Advisors with Ruler's Culture": -0.25,
+			"Cost of Advisors with Ruler Culture": -0.25,
 			"Accepted Cultures": 1
 		},
 		"Enlightenment of the Masses": {
@@ -31547,7 +31547,7 @@
 			"Possible Advisors": 1
 		},
 		"Advantages of Imperial Immediacy": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Intricate Holy Roman Politics": {
 			"Diplomats": 1
@@ -32338,7 +32338,7 @@
 		},
 		"Assimilation of the Rhenish People": {
 			"Accepted Cultures": 1,
-			"Cost of Advisors with Ruler's Culture": -0.25
+			"Cost of Advisors with Ruler Culture": -0.25
 		},
 		"Tax Reforms": {
 			"National Tax Modifier": 0.1
@@ -32495,7 +32495,7 @@
 			"Diplomatic Reputation": 1
 		},
 		"Damot Lineage": {
-			"Cost of Advisors with Ruler's Culture": -0.2
+			"Cost of Advisors with Ruler Culture": -0.2
 		},
 		"Oromo Tensions": {
 			"Discipline": 0.05
@@ -33165,7 +33165,7 @@
 			"Diplomatic Reputation": 2
 		},
 		"Ritual Speech": {
-			"Cost of Advisors with Ruler's Culture": -0.15
+			"Cost of Advisors with Ruler Culture": -0.15
 		},
 		"Inate Musicians": {
 			"Yearly Prestige": 1

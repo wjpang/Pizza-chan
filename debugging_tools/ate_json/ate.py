@@ -3,6 +3,7 @@ import os
 import re
 
 ATE_PATH = "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\236850\\2737385499\\common\\advisortypes"
+ATE_PATH = "A:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\236850\\2737385499\\common\\advisortypes"
 
 
 def _handle_duplicates(ordered_pairs):
@@ -118,7 +119,7 @@ def main():
             json_data[key]["skill_scaled_modifier"] = json_data[key]["skill_scaled_modifier"][0]["modifier"]
 
         # Localise key
-        key_localised = loc[key][6:]
+        key_localised = loc[key][6:].title()
 
         # Organise by MP type
         intermediate[json_data[key]["monarch_power"]][key_localised] = json_data[key]
