@@ -4,6 +4,7 @@ import disnake
 from disnake.ext import commands
 
 import embed_maker
+import random
 
 
 def hie_special(country):
@@ -68,6 +69,18 @@ def hie_special(country):
             "ITA",
             "Italy",
             ["-Sardinian", "-Lombard", "-Dynastic", "-Maritime", "-Republican", "-Sicilian", "-Crusader"],
+        )
+    if country in {"MAY", "Maya"}:
+        return (
+            "MAY",
+            "Maya",
+            ["-Cocomes", ""],
+        )
+    if country in {"ROM", "Roman Empire"}:
+        return (
+            "ROM",
+            "Roman Empire",
+            ["-Cocomes", "Byzantine", "Chao", "Italian"],
         )
     return False
 
@@ -141,6 +154,11 @@ def accessory(country):
 def country_filter(country, tags):
     """Filter for country names of length 3"""
     if len(country) != 3:
+        if '_' in country:
+            return country.upper(), tags[country.upper()]
+        result = next((key for key, value in tags.items() if value.title() == country.title()), None)
+        if not result:
+            return country.upper(), tags[result]
         return list(tags.keys())[list(tags.values()).index(country)], country
     if country in {"Sus", "Chu", "Zia", "Lau", "Han", "Sui", "Wei", "Xia", "Rûm"}:
         return (
@@ -205,6 +223,21 @@ class HIE(commands.Cog):
             # Get rid of hanging whitespace
             country = country.strip()
 
+            if country in ("DEC", "Deccan", "NAW", "Nawab"):
+                message = "Deccan has a special set when released by Mughals"
+                next_idea = ideas_message("HIE", "Deccan", hie_data)
+                message += next_idea
+                next_idea = ideas_message("HIE", "Nawab", hie_data)
+                message += next_idea
+                await inter.send(message)
+                continue
+
+            if country == "Melva":
+                if random.choice([0, 1]):
+                    country = "Malwa"
+                else:
+                    country = "Mewar"
+
             # Check if the country is a special HIE nation
             if tag := hie_special(country):
                 tag, nation, prev_nation = tag
@@ -264,7 +297,6 @@ class HIE(commands.Cog):
 
         message = "```"
         for country in country_lst:
-            print(len(country))
             if len(f"{message}{country}\n```") > 2000:
                 await inter.send(f"{message}```")
                 message = "```"
@@ -275,7 +307,7 @@ class HIE(commands.Cog):
     async def map(self, inter):
         await inter.send(file=disnake.File(r"./data/images/hiemap.png"))
         await inter.followup.send(
-            "The map does not include: Holy Roman Empire, Germany",
+            "The map does not include: Bharat, Hindustan, Holy Roman Empire, Germany",
             file=disnake.File(r"./data/images/hiemapformables.png"),
         )
 
@@ -292,6 +324,8 @@ class HIE(commands.Cog):
         if not result:
             await inter.send(f"Invalid searched modifier: {modifier}")
             return
+        
+        modifier = modifier.title()
 
         message = f"```ansi\nAll Countries with \u001B[0;33m{modifier}\u001B[0;0m in their idea\n"
         message += "---------\n"

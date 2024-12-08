@@ -1,6 +1,7 @@
 import asyncio
 import os
 
+import json
 import disnake
 from disnake.ext import commands
 from dotenv import load_dotenv
@@ -86,6 +87,23 @@ class ADM(commands.Cog):
             command = f"echo {root_password} | sudo -S shutdown -r now"
 
             os.system(command)
+
+    @adm.command(pass_context=True)
+    async def discussion(self, ctx):
+        with open("./data/GME.json", "r", encoding="utf-8") as f:
+            gme_data = json.load(f)
+
+        message = ""
+        regions_lst = sorted([key.title() for key in gme_data])
+        for region in regions_lst:
+            message += f"\n[b]{region}[/b]\n"
+            for key in gme_data[region]:
+                message += f"{key}\n"
+            if len(message) >= 1800:
+                await ctx.send(message)
+                message = ""
+
+        await ctx.send(message)
 
 
 def setup(bot):

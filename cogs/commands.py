@@ -110,9 +110,14 @@ class COMMANDS(commands.Cog):
     async def ele(self, inter):
         await inter.send("Blessed be thine kind")
 
-    @commands.slash_command(description="Bonk Flem")
-    async def flem(self, inter):
-        await inter.send("Stop being horny, Flem " "<a:bonk:998973168272285696> " "<a:bonk:998973168272285696> " "<a:bonk:998973168272285696> ")
+    @commands.slash_command(description="Bonk")
+    async def bonk(self, inter):
+        await inter.send("Stop")
+        await inter.send("<a:bonk:998973168272285696>")
+        await inter.followup.send("Being")
+        await inter.followup.send("<a:bonk:998973168272285696><a:bonk:998973168272285696>")
+        await inter.followup.send("Horny")
+        await inter.followup.send("<a:bonk:998973168272285696><a:bonk:998973168272285696><a:bonk:998973168272285696>")
 
     @commands.slash_command(description="Praises Jay")
     async def jay(self, inter):

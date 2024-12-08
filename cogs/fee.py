@@ -148,7 +148,7 @@ class FEE(commands.Cog):
                     message = message.replace(old, new)
 
                 if len(f"{message}\n```") >= 2000:
-                    chunks = [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
+                    chunks = [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
                     for chunk in chunks:
                         if not chunk.startswith("```ansi"):
                             await inter.send(f"```ansi\n{chunk}```")
@@ -216,13 +216,13 @@ class FEE(commands.Cog):
                         message = message.replace(old, new)
 
                     if len(f"{message}```") > 2000:
-                        chunks = [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
+                        chunks = [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
                         for chunk in chunks:
                             if not chunk.startswith("```ansi"):
                                 await inter.send(f"```ansi\n{chunk}```")
                             else:
                                 await inter.send(f"{chunk}```")
-                        message = "```"
+                        message = "```ansi\n"
 
                 await inter.send(f"{message}```")
                 break
@@ -239,7 +239,7 @@ class FEE(commands.Cog):
         for event in event_list:
             event = event.replace("Plc", "PLC")
             event = event.replace("Hre", "HRE")
-            if len(f"{message}{event}\n```")>2000:
+            if len(f"{message}{event}\n```") > 2000:
                 await inter.send(f"{message}```")
                 message = "```"
             message += f"{event} \n"
@@ -285,8 +285,11 @@ def build_message(data, indent=0, stuff_to_color=None):
                     message += "\t" * indent + f"{stats}:\n".title()
                     message += build_message(item, indent + 1, stuff_to_color)
                 elif isinstance(item, str):
-                    message += "\t" * indent + f"{stats}: {vals} \n".title()
-                    break
+                    if stats == 'Custom Tooltip':
+                        message += "\t" * indent + f"{item}\n".title()
+                    else:
+                        message += "\t" * indent + f"{stats}: {vals} \n".title()
+                        break
         elif stats in stuff_to_color:
             color = color_map.get(stats, "")
             message += "\t" * indent + f"{color}{stats}\u001B[0;0m: \u001B[0;34m{vals}\u001B[0;0m\n"

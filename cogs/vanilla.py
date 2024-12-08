@@ -223,6 +223,32 @@ stuff_to_color = [
     "Is Year",
 ]
 
+def ideas_message(mod, nation, data):
+    """Creates the ideas message block for nation in mod"""
+    message = f"```ansi\n\u001B[0;33m{nation} Ideas\u001B[0;0m \n---------"
+    for key, values in data[nation].items():
+        if isinstance(values, dict):
+            message += f"\n\u001B[0;33m{key.title()}\u001B[0;0m: "
+            message += "{ "
+            for k, v in values.items():
+                if isinstance(v, dict):
+                    message += "} "
+                    message += f"\u001B[0;33m{k.title()}\u001B[0;0m: "
+                    message += "{ "
+                    for k_sub, v_sub in v.items():
+                        message += f"{k_sub.title()}: \u001B[0;34m{v_sub}\u001B[0;0m, "
+                else:
+                    message += f"{k.title()}: \u001B[0;34m{v}\u001B[0;0m, "
+            message += "}"
+        else:
+            message += f"\n{key.title()}: \u001B[0;34m{values}\u001B[0;0m"
+    pretty_lst = {
+        ", }": " }",
+    }
+    for old, new in pretty_lst.items():
+        message = message.replace(old, new)
+    return f"{message}```"
+
 
 class VANILLA(commands.Cog):
     """Vanilla"""
@@ -267,10 +293,8 @@ class VANILLA(commands.Cog):
                 continue
 
             try:
-                vanilla_body_message = f"```Vanilla: {nation} Ideas \n---------\n"
-                for key, values in vanilla_data[nation].items():
-                    vanilla_body_message += f"{key.title()}: {values} \n"
-                await inter.send(ftfy.fix_text(f"{vanilla_body_message}```"))
+                message = ideas_message("", nation, vanilla_data)
+                await inter.send(message)
             except Exception:
                 await inter.send(f"{nation} either isn't a vanilla country or has generic ideas <:thinku:998954151092428860>\nIf you think this is a mistake, ping Melvasul or Vielor")
 
@@ -349,13 +373,12 @@ class VANILLA(commands.Cog):
         with open("./data/Vanilla_monuments.json", "r", encoding="utf-8") as f:
             monument_data = json.load(f)
 
-        monument_data_list = sorted([key.title() for key in monument_data])
         mon_input_list = monument_input.split(",")
 
         message = ""
         for monument_input in mon_input_list:
             monument_input = monument_input.strip().title()
-            if monument_input not in monument_data_list:
+            if monument_input not in monument_data:
                 await inter.send(f"The Monument: {monument_input} does not exist in Vanilla")
             else:
                 message = f"```ansi\n\u001B[0;33m{monument_input}\u001B[0;0m\n---------\n"

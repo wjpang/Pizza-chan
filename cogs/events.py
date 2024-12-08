@@ -91,7 +91,7 @@ class Events(commands.Cog):
         ):
             fn = ImageFont.truetype("./data/misc/ANIRONBOLD.ttf", size=font_size)
             if from_center:
-                text_width, _ = draw.textsize(msg, fn)
+                text_width = draw.textlength(msg, fn)
                 pos = (back_img.size[0] - text_width) // 2
             else:
                 pos = 0
@@ -291,7 +291,7 @@ class Events(commands.Cog):
         if content.lower() in {"ping", "pong"}:
             await message.channel.send("https://tenor.com/view/cat-ping-pong-funny-animals-cats-gif-8766860")
         elif content.lower() == "wake":
-            await message.channel.send("https://tenor.com/view/naudiyal-shubidubi-pingu-wakeup-wake-up-gif-17260204")
+            await message.channel.send("https://tenor.com/view/pingu-alarm-clock-clock-alarm-bed-gif-9198332384831014788")
         elif content == "/o/":
             await message.channel.send("\\o\\")
         elif content == "\\o\\":
