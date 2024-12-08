@@ -140,7 +140,7 @@
 				"Accepted Cultures": 3,
 				"Monthly Autonomy Change": -0.025,
 				"Monarch Administrative Skill": 2,
-				"Cost of Advisors with Ruler's Culture": -0.25,
+				"Cost of Advisors with Ruler Culture": -0.25,
 				"Promote Culture cost": -0.5,
 				"Governing Capacity": 50,
 				"Nobility Influence": 0.1
@@ -1936,7 +1936,7 @@
 		"Koprülü Dynasty": {
 			"Image": "/images/1/1c/Gov_koprulu_dynasty.png",
 			"Effects": {
-				"Cost of Advisors with Ruler's Culture": -0.10,
+				"Cost of Advisors with Ruler Culture": -0.10,
 				"Possible Advisors": 1
 			}
 		},
@@ -1952,7 +1952,7 @@
 			"Image": "/images/4/49/Gov_conseil_du_roi.png",
 			"Effects": {
 				"Possible Advisors": 1,
-				"Cost of Advisors with Ruler's Culture": -0.15
+				"Cost of Advisors with Ruler Culture": -0.15
 			}
 		},
 		"Corps Diplomatique": {
@@ -2260,7 +2260,7 @@
 			"Effects": {
 				"Monthly Heir Support Gain": 0.10,
 				"Spy Defense": 0.15,
-				"Cost of Advisors with Ruler's Culture": -0.1
+				"Cost of Advisors with Ruler Culture": -0.1
 			}
 		},
 		"Abolish The Sejm": {
@@ -2737,13 +2737,11 @@
 		},
 		"Become a Republic": {
 			"Image": "/images/7/79/Parliament_highlighted.png",
-			"Effects": {
-			}
+			"Effects": {}
 		},
 		"Install Theocratic Government": {
 			"Image": "/images/3/35/Pope_highlighted.png",
-			"Effects": {
-			}
+			"Effects": {}
 		},
 		"Emperor of the Revolution": {
 			"Image": "/images/5/57/Reform_emperor_of_the_revolution.png",
@@ -2760,8 +2758,7 @@
 		},
 		"Return to the Revolutionary Republic": {
 			"Image": "/images/f/f9/Reform_become_rev_republic.png",
-			"Effects": {
-			}
+			"Effects": {}
 		},
 		"Abolish Ecclesiastical privileges": {
 			"Image": "/images/8/82/Reform_bourbon.png",

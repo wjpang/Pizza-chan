@@ -4,6 +4,31 @@ import re
 from os.path import basename
 
 
+def start():
+    """Create the localisation folders and files for various mods and languages"""
+    mod_path = r"C:\Users\AlexI\OneDrive\Documenti\Paradox Interactive\Europa Universalis IV\mod"
+
+    mod_paths = [
+        os.path.join(mod_path, "Ages-and-Splendor-Expaded"),
+        os.path.join(mod_path, "FlavourEventsExpanded"),
+        os.path.join(mod_path, "Historical-Ideas-Expanded"),
+        os.path.join(mod_path, "Governments Expanded"),
+        os.path.join(mod_path, "Monuments-Expanded"),
+        # Add more mod paths as needed
+    ]
+
+    languages = {
+        "l_english": "english",
+        "l_french": "french",
+        "l_german": "german",
+        "l_spanish": "spanish",
+    }
+
+    for mod_path in mod_paths:
+        print(f"Processing {os.path.basename(mod_path)}")
+        process_mod(mod_path, languages)
+
+
 def process_mod(mod_path, languages):
     """Process a single mod and create localized files for specified languages"""
     localisation_dir = os.path.join(mod_path, "localisation")
@@ -28,30 +53,6 @@ def process_mod(mod_path, languages):
                         out_file.write(data)
                 else:
                     break
-
-
-def start():
-    """Create the localisation folders and files for various mods and languages"""
-    mod_path = r"C:\Users\AlexI\OneDrive\Documenti\Paradox Interactive\Europa Universalis IV\mod"
-
-    mod_paths = [
-        os.path.join(mod_path, "Ages-and-Splendor-Expaded"),
-        os.path.join(mod_path, "FlavourEventsExpanded"),
-        os.path.join(mod_path, "Historical-Ideas-Expanded"),
-        os.path.join(mod_path, "Governments Expanded"),
-        os.path.join(mod_path, "Monuments-Expanded"),
-        # Add more mod paths as needed
-    ]
-
-    languages = {
-        "l_english": "english",
-        "l_french": "french",
-        "l_german": "german",
-        "l_spanish": "spanish",
-    }
-
-    for mod_path in mod_paths:
-        process_mod(mod_path, languages)
 
 
 # Run the script
