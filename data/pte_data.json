@@ -37,7 +37,10 @@
 		"Transfer Monument",
 		"Dynastic Legitimization",
 		"Delegitimize Dynastic Branch",
-		"Stop Slave Raids"
+		"Stop Slave Raids",
+		"Liberate the Holy See",
+		"Join Trade League",
+		"Raid Splendid Court"
 	],
 	"Casus Bellis": [
 		"Question Papal Authority",
@@ -53,7 +56,8 @@
 		"Border Friction",
 		"Acquire Monument",
 		"Stop Slave Raids",
-		"Proselytize the Heathens"
+		"Proselytize the Heathens",
+		"Liberate the Holy See"
 	],
 	"State Edicts": [
 		"Cultural Hegemony Edict",

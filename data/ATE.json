@@ -126,7 +126,7 @@
 			"Diplomatic Advisor Cost": -0.33
 		},
 		"Concubine": {
-			"Chance of New Heir": 0.5
+			"Chance Of New Heir": 0.5
 		},
 		"Sailor Master Recruiter": {
 			"National Sailors Modifier": 0.15
@@ -165,7 +165,7 @@
 			"Monthly War Exhaustion": -0.03
 		},
 		"Arch-Chancellor": {
-			"Approval of Imperial Reforms by Catholic Princes": 5
+			"Approval Of Imperial Reforms by Catholic Princes": 5
 		},
 		"Envoy": {
 			"Envoy Travel Time": -0.15
@@ -226,7 +226,7 @@
 				"Mercenary Cost": -0.05
 			}
 		},
-		"Lord of a Castle": {
+		"Lord Of A Castle": {
 			"Fort Maintenance": -0.15
 		},
 		"Nobleman": {
@@ -238,7 +238,7 @@
 		"Siege Expert": {
 			"Siege Ability": 0.1
 		},
-		"Master of Artillery": {
+		"Master Of Artillery": {
 			"Artillery Combat Ability": 0.1
 		},
 		"Looting Expert": {

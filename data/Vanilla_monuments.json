@@ -3,7 +3,7 @@
 		"Province": "Constantinople",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"The Religion Of §Y[Root.Getname]§! Is Either §Ycatholic§! §Yorthodox§! Or §Ycoptic§! Or Part Of The §Ymuslim§! Religion Group And Is Either The State Or The Syncretic Religion Of The Owner.": true
+			"The Religion Of §Y[Root.Getname]§! Is Either §Ycatholic§!, §Yorthodox§! Or §Ycoptic§! Or Part Of The §Ymuslim§! Religion Group And Is Either The State Or The Syncretic Religion Of The Owner.": true
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -87,6 +87,15 @@
 				"Tolerance of Heathens": 1,
 				"Stability Cost Modifier": -0.25,
 				"Missionary Strength": 0.01
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Has Completed A Special §Ymission§! Or §Yevent§! That Unlocks This Great Project.": true
+				},
+				"Modifier": {
+					"Tolerance of the True Faith": 2,
+					"Cost of Advisors with Ruler Religion": -0.15
+				}
 			}
 		}
 	},
@@ -489,7 +498,7 @@
 				"Local Defensiveness": 0.15
 			},
 			"Country Modifiers": {
-				"Regiment Costs": -0.1
+				"Regiment Cost": -0.1
 			}
 		}
 	},
@@ -670,7 +679,7 @@
 		"Province": "Kai",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"The Religion Of §Y[Root.Getname]§! Is Either §Yshinto§! Or §Ymahayana§! And Is Either The State The Syncretic Or The Harmonized Religion Of The Owner.": true
+			"The Religion Of §Y[Root.Getname]§! Is Either §Yshinto§! Or §Ymahayana§! And Is Either The State, The Syncretic Or The Harmonized Religion Of The Owner.": true
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -719,7 +728,7 @@
 			},
 			"Area Modifier": [],
 			"Country Modifiers": {
-				"Yearly Doom Reduction": 1
+				"Yearly Doom Reduction": 0.5
 			}
 		},
 		"Tier 2": {
@@ -730,7 +739,7 @@
 			},
 			"Area Modifier": [],
 			"Country Modifiers": {
-				"Yearly Doom Reduction": 2
+				"Yearly Doom Reduction": 1
 			}
 		},
 		"Tier 3": {
@@ -743,7 +752,16 @@
 				"Local Development Cost": -0.05
 			},
 			"Country Modifiers": {
-				"Yearly Doom Reduction": 3
+				"Yearly Doom Reduction": 2
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Has Completed The §Yhueyi Teocalli§! Mission.": true
+				},
+				"Modifier": {
+					"Tolerance of the True Faith": 1,
+					"Missionary Strength": 0.02
+				}
 			}
 		}
 	},
@@ -751,7 +769,10 @@
 		"Province": "Paris",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": "Christian"
+			"Or": {
+				"Has Completed A Special §Ymission§! Or §Yevent§! That Unlocks This Great Project.": true,
+				"Province Is Or Accepts Religion Group": "Christian"
+			}
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -835,7 +856,8 @@
 				},
 				"Owner": {
 					"Is Emperor Of China": true
-				}
+				},
+				"Has Completed A Special §Ymission§! Or §Yevent§! That Unlocks This Great Project.": true
 			}
 		},
 		"Tier 1": {
@@ -984,6 +1006,16 @@
 				"Prestige Decay": -0.01,
 				"Monthly Splendor": 2,
 				"Power Projection from Insults": 1
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"mission_completed": "MUG_taj_mahal"
+					}
+				},
+				"Modifier": {
+					"Change National Focus Cooldown Years": -5
+				}
 			}
 		}
 	},
@@ -1361,7 +1393,7 @@
 			"Province Modifiers": [],
 			"Area Modifier": [],
 			"Country Modifiers": {
-				"Brahmins Loyalty Equilibrium": 0.05,
+				"Brahmins Hindu Loyalty Equilibrium": 0.05,
 				"Stability Cost Modifier": -0.05
 			}
 		},
@@ -1369,7 +1401,7 @@
 			"Province Modifiers": [],
 			"Area Modifier": [],
 			"Country Modifiers": {
-				"Brahmins Loyalty Equilibrium": 0.1,
+				"Brahmins Hindu Loyalty Equilibrium": 0.1,
 				"Stability Cost Modifier": -0.1,
 				"Monthly War Exhaustion": -0.02
 			}
@@ -1378,7 +1410,7 @@
 			"Province Modifiers": [],
 			"Area Modifier": [],
 			"Country Modifiers": {
-				"Brahmins Loyalty Equilibrium": 0.15,
+				"Brahmins Hindu Loyalty Equilibrium": 0.15,
 				"Stability Cost Modifier": -0.15,
 				"Monthly War Exhaustion": -0.05,
 				"National Unrest": -1
@@ -1621,6 +1653,15 @@
 			"Country Modifiers": {
 				"Yearly Patriarch Authority": 0.005,
 				"Tolerance of the True Faith": 2
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Has Completed The §Yplains Of Ruthenia§!": true
+				},
+				"Modifier": {
+					"Missionary Maintenance Cost": -0.25,
+					"Missionaries": 1
+				}
 			}
 		}
 	},
@@ -1774,6 +1815,7 @@
 		"Starting Tier": 0,
 		"Monument Trigger": {
 			"Or": {
+				"Has Completed A Special §Ymission§! Or §Yevent§! That Unlocks This Great Project.": true,
 				"And": [
 					{
 						"Culture": "Roman",
@@ -1894,19 +1936,27 @@
 				"Trigger": {
 					"Owner": {
 						"Or": {
-							"alliance_with": "Ming",
-							"Overlord": {
-								"alliance_with": "Ming"
-							},
 							"Any Ally": {
-								"Is Emperor Of China": true
+								"mission_completed": "mng_single_whip_law",
+								"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
 							},
-							"is_subject_of": "Ming"
+							"Overlord": [
+								{
+									"Any Ally": {
+										"mission_completed": "mng_single_whip_law",
+										"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+									}
+								},
+								{
+									"mission_completed": "mng_single_whip_law",
+									"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+								}
+							],
+							"And": {
+								"mission_completed": "mng_single_whip_law",
+								"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+							}
 						}
-					},
-					"Mng": {
-						"mission_completed": "mng_single_whip_law",
-						"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
 					}
 				},
 				"Modifier": {
@@ -1929,19 +1979,27 @@
 				"Trigger": {
 					"Owner": {
 						"Or": {
-							"alliance_with": "Ming",
-							"Overlord": {
-								"alliance_with": "Ming"
-							},
 							"Any Ally": {
-								"Is Emperor Of China": true
+								"mission_completed": "mng_single_whip_law",
+								"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
 							},
-							"is_subject_of": "Ming"
+							"Overlord": [
+								{
+									"Any Ally": {
+										"mission_completed": "mng_single_whip_law",
+										"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+									}
+								},
+								{
+									"mission_completed": "mng_single_whip_law",
+									"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+								}
+							],
+							"And": {
+								"mission_completed": "mng_single_whip_law",
+								"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+							}
 						}
-					},
-					"Mng": {
-						"mission_completed": "mng_single_whip_law",
-						"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
 					}
 				},
 				"Modifier": {
@@ -1960,30 +2018,51 @@
 			"Country Modifiers": {
 				"Interest Per Annum": -0.5
 			},
-			"Conditional Modifier": {
-				"Trigger": {
-					"Owner": {
-						"Or": {
-							"alliance_with": "Ming",
-							"Overlord": {
-								"alliance_with": "Ming"
-							},
-							"Any Ally": {
-								"Is Emperor Of China": true
-							},
-							"is_subject_of": "Ming"
+			"Conditional Modifier": [
+				{
+					"Trigger": {
+						"Owner": {
+							"Or": {
+								"Any Ally": {
+									"mission_completed": "mng_single_whip_law",
+									"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+								},
+								"Overlord": [
+									{
+										"Any Ally": {
+											"mission_completed": "mng_single_whip_law",
+											"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+										}
+									},
+									{
+										"mission_completed": "mng_single_whip_law",
+										"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+									}
+								],
+								"And": {
+									"mission_completed": "mng_single_whip_law",
+									"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+								}
+							}
 						}
 					},
-					"Mng": {
-						"mission_completed": "mng_single_whip_law",
-						"has_estate_privilege": "estate_eunuchs_single_whip_law_privilege"
+					"Modifier": {
+						"Local Goods Produced": 3,
+						"Yearly Inflation Reduction": 0.05
 					}
 				},
-				"Modifier": {
-					"Local Goods Produced": 3,
-					"Yearly Inflation Reduction": 0.05
+				{
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "INC_mountain_of_gold"
+						}
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 1,
+						"Yearly Inflation Reduction": 0.1
+					}
 				}
-			}
+			]
 		}
 	},
 	"Kaaba": {
@@ -2029,6 +2108,24 @@
 					"Modifier": {
 						"Provincial Trade Power Modifier": 0.025
 					}
+				},
+				{
+					"Tooltip Potential": {
+						"Owner": {
+							"Or": {
+								"Tag": "Hisn Kayfa",
+								"Was Tag": "Hisn Kayfa"
+							}
+						}
+					},
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "hsn_custodian"
+						}
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 0.5
+					}
 				}
 			]
 		},
@@ -2066,6 +2163,24 @@
 					"Modifier": {
 						"Provincial Trade Power Modifier": 0.05
 					}
+				},
+				{
+					"Tooltip Potential": {
+						"Owner": {
+							"Or": {
+								"Tag": "Hisn Kayfa",
+								"Was Tag": "Hisn Kayfa"
+							}
+						}
+					},
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "hsn_custodian"
+						}
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 1
+					}
 				}
 			]
 		},
@@ -2102,6 +2217,24 @@
 					},
 					"Modifier": {
 						"Provincial Trade Power Modifier": 0.1
+					}
+				},
+				{
+					"Tooltip Potential": {
+						"Owner": {
+							"Or": {
+								"Tag": "Hisn Kayfa",
+								"Was Tag": "Hisn Kayfa"
+							}
+						}
+					},
+					"Trigger": {
+						"Owner": {
+							"mission_completed": "hsn_custodian"
+						}
+					},
+					"Modifier": {
+						"Tolerance of the True Faith": 1.5
 					}
 				}
 			]
@@ -2579,7 +2712,8 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Diplomatic Relations": 1,
-				"Yearly Authority": 0.1
+				"Yearly Authority": 0.1,
+				"monthly_divine_authority": 0.05
 			}
 		},
 		"Tier 2": {
@@ -2593,7 +2727,8 @@
 			},
 			"Country Modifiers": {
 				"Diplomatic Relations": 1,
-				"Yearly Authority": 0.2
+				"Yearly Authority": 0.2,
+				"monthly_divine_authority": 0.1
 			}
 		},
 		"Tier 3": {
@@ -2607,13 +2742,14 @@
 			},
 			"Country Modifiers": {
 				"Diplomatic Relations": 2,
-				"Yearly Authority": 0.3
+				"Yearly Authority": 0.3,
+				"monthly_divine_authority": 0.15
 			}
 		}
 	},
 	"Doge'S Palace": {
 		"Province": "Venezia",
-		"Starting Tier": 2,
+		"Starting Tier": 1,
 		"Monument Trigger": [],
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -2629,7 +2765,7 @@
 			"Country Modifiers": {
 				"Reform Progress Growth": 0.2,
 				"Yearly Republican Tradition": 0.25,
-				"Yearly Prestige": 0.5
+				"monthly_authority_power": -0.03
 			}
 		},
 		"Tier 3": {
@@ -2638,7 +2774,7 @@
 			"Country Modifiers": {
 				"Reform Progress Growth": 0.3,
 				"Yearly Republican Tradition": 0.5,
-				"Yearly Prestige": 1
+				"monthly_authority_power": -0.05
 			}
 		}
 	},
@@ -2739,6 +2875,15 @@
 			"Country Modifiers": {
 				"Goods Produced Modifier": 0.1,
 				"Burghers Loyalty Equilibrium": 0.15
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"We Have Completed The §Ydyke Works§! Mission.": true
+				},
+				"Modifier": {
+					"Goods Produced Modifier": 0.05,
+					"Provincial Trade Power Modifier": 0.2
+				}
 			}
 		}
 	},
@@ -2761,7 +2906,7 @@
 				"Tolerance of the True Faith": 0.25,
 				"Tolerance of Heretics": 0.25,
 				"Tolerance of Heathens": 0.25,
-				"Brahmins Loyalty Equilibrium": 0.05
+				"Brahmins Hindu Loyalty Equilibrium": 0.05
 			}
 		},
 		"Tier 2": {
@@ -2771,7 +2916,7 @@
 				"Tolerance of the True Faith": 0.5,
 				"Tolerance of Heretics": 0.5,
 				"Tolerance of Heathens": 0.5,
-				"Brahmins Loyalty Equilibrium": 0.1
+				"Brahmins Hindu Loyalty Equilibrium": 0.1
 			}
 		},
 		"Tier 3": {
@@ -2781,7 +2926,7 @@
 				"Tolerance of the True Faith": 1,
 				"Tolerance of Heretics": 1,
 				"Tolerance of Heathens": 1,
-				"Brahmins Loyalty Equilibrium": 0.15
+				"Brahmins Hindu Loyalty Equilibrium": 0.15
 			}
 		}
 	},
@@ -2916,7 +3061,22 @@
 		"Province": "Seringapatam",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": "Dharmic"
+			"If": {
+				"Limit": {
+					"Owner": {
+						"mission_completed": "MUG_mughal_architecture"
+					}
+				},
+				"Or": {
+					"Province Is Or Accepts Religion Group": "Dharmic",
+					"Owner": {
+						"mission_completed": "MUG_mughal_architecture"
+					}
+				}
+			},
+			"Else": {
+				"Province Is Or Accepts Religion Group": "Dharmic"
+			}
 		},
 		"Tier 1": {
 			"Province Modifiers": {
@@ -2972,7 +3132,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Missionary Strength": 0.005,
-				"Brahmins Loyalty Equilibrium": 0.05
+				"Brahmins Hindu Loyalty Equilibrium": 0.05
 			}
 		},
 		"Tier 2": {
@@ -2981,7 +3141,7 @@
 			"Country Modifiers": {
 				"Missionary Strength": 0.01,
 				"Culture Conversion Cost": -0.05,
-				"Brahmins Loyalty Equilibrium": 0.1
+				"Brahmins Hindu Loyalty Equilibrium": 0.1
 			}
 		},
 		"Tier 3": {
@@ -2990,7 +3150,7 @@
 			"Country Modifiers": {
 				"Missionary Strength": 0.02,
 				"Culture Conversion Cost": -0.1,
-				"Brahmins Loyalty Equilibrium": 0.15
+				"Brahmins Hindu Loyalty Equilibrium": 0.15
 			}
 		}
 	},
@@ -3223,14 +3383,21 @@
 		"Province": "Varanasi",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": "Dharmic"
+			"Province Is Or Accepts Religion Group": "Dharmic",
+			"Owner": {
+				"Not": {
+					"Is Or Was Tag": {
+						"Tag": "Mughals"
+					}
+				}
+			}
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Core-Creation Cost": -0.05,
-				"Brahmins Loyalty Equilibrium": 0.05
+				"Brahmins Hindu Loyalty Equilibrium": 0.05
 			}
 		},
 		"Tier 2": {
@@ -3239,7 +3406,7 @@
 			"Country Modifiers": {
 				"Core-Creation Cost": -0.075,
 				"Aggressive Expansion Impact": -0.05,
-				"Brahmins Loyalty Equilibrium": 0.1
+				"Brahmins Hindu Loyalty Equilibrium": 0.1
 			}
 		},
 		"Tier 3": {
@@ -3248,7 +3415,7 @@
 			"Country Modifiers": {
 				"Core-Creation Cost": -0.1,
 				"Aggressive Expansion Impact": -0.1,
-				"Brahmins Loyalty Equilibrium": 0.15
+				"Brahmins Hindu Loyalty Equilibrium": 0.15
 			}
 		}
 	},
@@ -3318,6 +3485,14 @@
 				"Yearly Prestige": 1,
 				"Global Ship Trade Power": 0.3,
 				"Merchant Trade Power": 4
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Has Completed The Mission §Ysultans Of Zanzibar§!": true
+				},
+				"Modifier": {
+					"Light Ship Cost": -0.15
+				}
 			}
 		}
 	},
@@ -3601,6 +3776,7 @@
 			},
 			"Country Modifiers": {
 				"Yearly Authority": 0.1,
+				"monthly_divine_authority": 0.05,
 				"Reinforce Speed": 0.1,
 				"Trade Efficiency": 0.05
 			}
@@ -3613,6 +3789,7 @@
 			},
 			"Country Modifiers": {
 				"Yearly Authority": 0.2,
+				"monthly_divine_authority": 0.1,
 				"Reinforce Speed": 0.2,
 				"Trade Efficiency": 0.1
 			}
@@ -3625,8 +3802,20 @@
 			},
 			"Country Modifiers": {
 				"Yearly Authority": 0.3,
+				"monthly_divine_authority": 0.15,
 				"Reinforce Speed": 0.33,
 				"Trade Efficiency": 0.2
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"mission_completed": "INC_qhapaq_nam"
+					}
+				},
+				"Modifier": {
+					"Envoy Travel Time": -0.5,
+					"State Maintenance": -0.2
+				}
 			}
 		}
 	},
@@ -3912,7 +4101,22 @@
 		"Province": "Cuttack",
 		"Starting Tier": 2,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": "Dharmic"
+			"If": {
+				"Limit": {
+					"Owner": {
+						"mission_completed": "MUG_mughal_architecture"
+					}
+				},
+				"Or": {
+					"Province Is Or Accepts Religion Group": "Dharmic",
+					"Owner": {
+						"mission_completed": "MUG_mughal_architecture"
+					}
+				}
+			},
+			"Else": {
+				"Province Is Or Accepts Religion Group": "Dharmic"
+			}
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -3957,7 +4161,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Clergy Loyalty Equilibrium": 0.05,
-				"Brahmins Loyalty Equilibrium": 0.05
+				"Brahmins Hindu Loyalty Equilibrium": 0.05
 			}
 		},
 		"Tier 2": {
@@ -3968,7 +4172,7 @@
 			"Country Modifiers": {
 				"Yearly Karma Decay": 0.05,
 				"Clergy Loyalty Equilibrium": 0.1,
-				"Brahmins Loyalty Equilibrium": 0.1,
+				"Brahmins Hindu Loyalty Equilibrium": 0.1,
 				"Missionary Strength vs Heretics": 0.01
 			}
 		},
@@ -3980,7 +4184,7 @@
 			"Country Modifiers": {
 				"Yearly Karma Decay": 0.1,
 				"Clergy Loyalty Equilibrium": 0.15,
-				"Brahmins Loyalty Equilibrium": 0.15,
+				"Brahmins Hindu Loyalty Equilibrium": 0.15,
 				"Missionary Strength vs Heretics": 0.02
 			}
 		}
@@ -4086,6 +4290,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Yearly Authority": 0.1,
+				"monthly_divine_authority": 0.05,
 				"Missionary Strength": 0.005
 			}
 		},
@@ -4094,6 +4299,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Yearly Authority": 0.2,
+				"monthly_divine_authority": 0.1,
 				"Missionary Strength": 0.01,
 				"Religious Unity": 0.15
 			}
@@ -4103,6 +4309,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Yearly Authority": 0.3,
+				"monthly_divine_authority": 0.15,
 				"Missionary Strength": 0.02,
 				"Religious Unity": 0.3
 			}
@@ -4622,7 +4829,10 @@
 		"Province": "Avignon",
 		"Starting Tier": 1,
 		"Monument Trigger": {
-			"Province Is Or Accepts Religion Group": "Christian"
+			"Or": {
+				"Has Completed A Special §Ymission§! Or §Yevent§! That Unlocks This Great Project.": true,
+				"Province Is Or Accepts Religion Group": "Christian"
+			}
 		},
 		"Tier 1": {
 			"Province Modifiers": [],
@@ -4999,7 +5209,7 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Liberty Desire in Subjects": 5,
-				"Yearly Legitimacy": 0.3
+				"Yearly Legitimacy": 0.25
 			}
 		},
 		"Tier 2": {
@@ -5007,8 +5217,9 @@
 			"Area Modifier": [],
 			"Region Modifier": [],
 			"Country Modifiers": {
-				"All Estate's Loyalty Equilibrium": 0.1,
-				"Liberty Desire in Subjects": 10
+				"All Estate's Loyalty Equilibrium": 0.05,
+				"Liberty Desire in Subjects": 10,
+				"Yearly Legitimacy": 0.5
 			}
 		},
 		"Tier 3": {
@@ -5017,7 +5228,8 @@
 			"Country Modifiers": {
 				"All Estate's Loyalty Equilibrium": 0.1,
 				"Liberty Desire in Subjects": 10,
-				"Maximum Absolutism": 10
+				"Maximum Absolutism": 10,
+				"Yearly Legitimacy": 1
 			}
 		}
 	},
@@ -5206,6 +5418,20 @@
 			"Area Modifier": [],
 			"Country Modifiers": {
 				"Autonomy Change Cooldown": -0.15
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"Tag": "Hisn Kayfa",
+							"Was Tag": "Hisn Kayfa"
+						},
+						"mission_completed": "hsn_monopolize_gulf_trade"
+					}
+				},
+				"Modifier": {
+					"Reduced trade penalty on non main trade node": 0.1
+				}
 			}
 		},
 		"Tier 2": {
@@ -5218,16 +5444,57 @@
 			"Country Modifiers": {
 				"Autonomy Change Cooldown": -0.25,
 				"Maximum Absolutism": 5
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Owner": {
+						"Or": {
+							"Tag": "Hisn Kayfa",
+							"Was Tag": "Hisn Kayfa"
+						},
+						"mission_completed": "hsn_monopolize_gulf_trade"
+					}
+				},
+				"Modifier": {
+					"Reduced trade penalty on non main trade node": 0.2
+				}
 			}
 		},
 		"Tier 3": {
 			"Province Modifiers": [],
-			"Area Modifier": [],
+			"Area Modifier": {
+				"Attrition": 3,
+				"Maximum Attrition": 3
+			},
 			"Country Modifiers": {
 				"Autonomy Change Cooldown": -0.25,
 				"Max Privileges per Estate": 1,
 				"Maximum Absolutism": 10
-			}
+			},
+			"Conditional Modifier": [
+				{
+					"Trigger": {
+						"Has Completed The §Yforts Of Oman§! Mission": true
+					},
+					"Modifier": {
+						"Fort Maintenance": -0.15
+					}
+				},
+				{
+					"Trigger": {
+						"Owner": {
+							"Or": {
+								"Tag": "Hisn Kayfa",
+								"Was Tag": "Hisn Kayfa"
+							},
+							"mission_completed": "hsn_monopolize_gulf_trade"
+						}
+					},
+					"Modifier": {
+						"Reduced trade penalty on non main trade node": 0.3
+					}
+				}
+			]
 		}
 	},
 	"City Of Sana'A": {
@@ -5360,6 +5627,315 @@
 				"Idea Cost": -0.05,
 				"Yearly Government Power": 1
 			}
+		}
+	},
+	"Venetian Arsenal": {
+		"Province": "Venezia",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Shipbuilding Time": -0.1,
+				"Local Ship Repair": 0.1,
+				"Local Ship Cost": -0.1
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Shipbuilding Time": -0.5,
+				"Local Ship Repair": 0.5,
+				"Local Ship Cost": -0.25
+			},
+			"Area Modifier": [],
+			"Region Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Shipbuilding Time": -0.5,
+				"Local Ship Repair": 0.5,
+				"Local Ship Cost": -0.25
+			},
+			"Area Modifier": {
+				"Local Has Galleass": true
+			},
+			"Country Modifiers": {
+				"Galleass Force Limit": 0.25,
+				"Has Galleass": true
+			}
+		}
+	},
+	"Amsterdam Bourse": {
+		"Province": "Amsterdam",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Or": {
+				"Culture": "Dutch",
+				"Owner": {
+					"Accepted Culture": "Dutch"
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": {
+				"Trade Value Modifier": 0.1,
+				"Local Trade Power Modifier": 0.05
+			},
+			"Area Modifier": [],
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Trade Value Modifier": 0.15
+			},
+			"Area Modifier": {
+				"Local Trade Power Modifier": 0.05
+			},
+			"Country Modifiers": {
+				"Trade Company Investment Cost": -0.05
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Trade Value Modifier": 0.2
+			},
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Trade Power Modifier": 0.15
+			},
+			"Country Modifiers": {
+				"Trade Company Investment Cost": -0.1
+			},
+			"Conditional Modifier": {
+				"Trigger": {
+					"Has Completed The §Yamsterdam Bourse§! Mission.": true
+				},
+				"Modifier": {
+					"Trade Steering": 0.25,
+					"Yearly Inflation Reduction": 0.1
+				}
+			}
+		}
+	},
+	"The Golden City": {
+		"Province": "Hont",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": {
+				"Local Gold Depletion Chance Modifier": -0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Gold Inflation Modifier": -0.1,
+				"Gold Depletion Chance Modifier": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": {
+				"Local Gold Depletion Chance Modifier": -0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Gold Inflation Modifier": -0.2,
+				"Gold Depletion Chance Modifier": -0.2,
+				"Interest Per Annum": -0.5
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": {
+				"Local Gold Depletion Chance Modifier": -0.25
+			},
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Gold Inflation Modifier": -0.33,
+				"Gold Depletion Chance Modifier": -0.33,
+				"Interest Per Annum": -1
+			}
+		}
+	},
+	"Schönbrunn Palace": {
+		"Province": "Wien",
+		"Starting Tier": 0,
+		"Monument Trigger": {
+			"Province Is Or Accepts Religion Group": "Christian"
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomats": 1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Splendor": 1,
+				"Chance to Inherit Personal Union Subjects": 0.05,
+				"Diplomats": 1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Splendor": 2,
+				"Chance to Inherit Personal Union Subjects": 0.1,
+				"Diplomats": 1,
+				"Years for Personal Union Integration": -5
+			}
+		}
+	},
+	"Tzintzuntzan": {
+		"Province": "Patzcuaro",
+		"Starting Tier": 1,
+		"Monument Trigger": {
+			"Culture Group": "Central American",
+			"Province Is Or Accepts Culture": true,
+			"Province Is Or Accepts Religion": "Nahuatl"
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Diplomatic Reputation": 1,
+				"Culture Conversion Time": -0.1
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"blood_gain_modifier": 0.1,
+				"Diplomatic Reputation": 1,
+				"Culture Conversion Time": -0.2
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"blood_gain_modifier": 0.25,
+				"Diplomatic Reputation": 2,
+				"Culture Conversion Time": -0.3,
+				"Ignore Coring Distance": true
+			}
+		}
+	},
+	"City Of Sarai": {
+		"Province": "Sarai",
+		"Starting Tier": 2,
+		"Monument Trigger": {
+			"Owner": {
+				"Or": {
+					"Has Reform": [
+						"great_mongol_state_reform",
+						"steppe_horde",
+						"holy_horde_reform",
+						"cossacks_reform"
+					]
+				}
+			}
+		},
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Friendly Movement Speed": 0.05
+			},
+			"Country Modifiers": {
+				"Yearly Horde Unity": 0.5,
+				"Envoy Travel Time": -0.15
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Friendly Movement Speed": 0.1,
+				"Local Recruitment Time": -0.1
+			},
+			"Country Modifiers": {
+				"Yearly Horde Unity": 0.5,
+				"Envoy Travel Time": -0.15
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Region Modifier": {
+				"Local Friendly Movement Speed": 0.2,
+				"Local Recruitment Time": -0.25
+			},
+			"Country Modifiers": {
+				"Yearly Horde Unity": 1,
+				"Envoy Travel Time": -0.25
+			}
+		}
+	},
+	"Afaq Khoja Mausoleum": {
+		"Province": "Kashgar",
+		"Starting Tier": 0,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.001,
+				"Religious Unity": 0.25,
+				"Clergy Loyalty Equilibrium": 0.05
+			}
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.002,
+				"Religious Unity": 0.33,
+				"Clergy Loyalty Equilibrium": 0.1
+			}
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": [],
+			"Country Modifiers": {
+				"Monthly Piety Accelerator": 0.003,
+				"Religious Unity": 0.5,
+				"Clergy Loyalty Equilibrium": 0.15
+			}
+		}
+	},
+	"Citadel Of Aleppo": {
+		"Province": "Aleppo",
+		"Starting Tier": 1,
+		"Monument Trigger": [],
+		"Tier 1": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.25,
+				"Local Manpower Modifier": 0.25
+			},
+			"Country Modifiers": []
+		},
+		"Tier 2": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.33,
+				"Local Manpower Modifier": 0.33
+			},
+			"Country Modifiers": []
+		},
+		"Tier 3": {
+			"Province Modifiers": [],
+			"Area Modifier": {
+				"Local Defensiveness": 0.5,
+				"Local Manpower Modifier": 0.5,
+				"Local Defender Dice Roll Bonus": 1
+			},
+			"Country Modifiers": []
 		}
 	}
 }
